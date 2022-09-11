@@ -1,4 +1,4 @@
-const newLangData = {
+const newLangData = data; /* {
     ...data0,
     ...data1,
     ...data2,
@@ -17,11 +17,53 @@ const newLangData = {
     ...data15,
     ...data16,
     ...data17
-};
+};*/
 
 const sortedNewLangDataKeys = Object.keys(newLangData).sort();
 
-var langDataToUse = newLangData;
+const convertMandarinToKanji = function(mandarin, map, includeLower, targetRating) {
+    
+    const splitRating = mandarin["PTL-HSK"].split("=");
+    let rating = 8;
+    if (splitRating.length > 1) {
+        const splitValue = splitRating[1];
+        if (splitValue.length >= 1) {
+            const potentialRating = Number.parseInt(splitValue);
+            if (!Number.isNaN(potentialRating)) {
+                rating = potentialRating;
+            }
+        }
+    }
+
+    if (includeLower) {
+        if (rating > targetRating) {
+            return;
+        }
+    } else {
+        if (rating != targetRating) {
+            return;
+        }
+    }
+
+    const kanji = {
+        index : mandarin.Index,
+        stars : mandarin["PTL-HSK"],
+        kanji : mandarin.Character,
+        onyomi : mandarin.cantonese,
+        kunyomiList : [
+            {
+                hiragana : mandarin["pinyin (compound)"],
+                definition : mandarin["part of speech"],
+                stars : mandarin.Character,
+            }
+        ],
+        eng : mandarin.eng
+        
+    };
+    map[kanji.index] = kanji;
+};
+
+var langDataToUse = {}; //newLangData;
 
 const betaColor = "#BF2F12";
 const obsoleteColor = "#F7C20F";
@@ -37,7 +79,7 @@ const phases = [
 ];
 
 const params = new URLSearchParams(window.location.search);
-const isSequential = params.get("mode") === "sequential";
+const isSequential = params.get("mode") !== "random";
 const currentSessionId = params.get("sessionId");
 const numRows = Number.parseInt(params.get("numRows")) || 0;
 const isJukugoTime = params.get("jukugo") === "true";
@@ -229,11 +271,15 @@ function init() {
     console.log("it's starting!");
 
     const selection = document.getElementById("_modeSelection");
-    for (let i = 0; i <= 17; i++) {
-        const start = 100 * i + 1;
-        const end = 100 * (i+1);
-        const value = generateIdFromStartAndEnd(start, end);
-        const option = document.createElement("option");
+    for (let i = 1; i <= 8; i++) {
+        let value = "== " + i
+        let option = document.createElement("option");
+        option.id = value;
+        option.innerHTML = value;
+        selection.appendChild(option);
+
+        value = "<= " + i
+        option = document.createElement("option");
         option.id = value;
         option.innerHTML = value;
         selection.appendChild(option);
@@ -268,10 +314,20 @@ class BaseBoard {
     onInputStartChange(value) {
         const start = Number.parseInt(value);
         const end = document.getElementById("_inputEnd");
-        end.value = start + 1799;
+        end.value = start + 2999;
     }
     
     onStart(){
+        const selectedIndex = document.querySelector("#_modeSelection").selectedIndex;
+        const selectedMode = document.querySelector("#_modeSelection").children[selectedIndex].id;
+        const splitValues = selectedMode.split(" ");
+        const includeLower = splitValues[0] === "<=";
+        const targetRating = Number.parseInt(splitValues[1]);
+
+        newLangData.forEach((mandarinChar) => {
+            convertMandarinToKanji(mandarinChar, langDataToUse, includeLower, targetRating);
+        });
+
         this.enablePhase1(true);
     }
     
@@ -459,32 +515,9 @@ class BaseBoard {
         document.querySelector("#_overallCounter").innerHTML = counter + "/" + this.siteState.allCurrentKanji.length;
         document.querySelector("#_scoreCounter").innerHTML = this.siteState.currentCorrect + "/" + this.siteState.currentCounter;
 
-        let hiragana = this.siteState.currentKanji.onyomi;
         const topKunyomi = this.getTopKunyomiFromKanji(this.siteState.currentKanji);
-        const isMatching = isJukugoTime || (topKunyomi && !this.isHiraganaAndEngDiff(topKunyomi.definition, this.siteState.currentKanji.eng));
-        if (topKunyomi && isMatching) {
-            const showKun = !isJukugoTime || (isJukugoTime && !this.siteState.currentKanji.eng.length)
-            hiragana = topKunyomi.hiragana.replaceAll(' ', '');
-            document.querySelector("#_currentHir").innerText = hiragana;
-            if (showKun) {
-                document.querySelector("#_currentKun").innerText = "(" + topKunyomi.stars + ") " + topKunyomi.hiragana + " - " + topKunyomi.definition;
-            } else {
-                document.querySelector("#_currentKun").innerText = "";
-            }
-            document.querySelector(".inProgressShow2.kunyomi").classList.remove("overrideHidden");
-        } else {
-            document.querySelector(".inProgressShow2.kunyomi").classList.add("overrideHidden");
-            document.querySelector("#_currentKun").classList.add("hidden");
-            document.querySelector("#_currentKun").innerText = "";
-            document.querySelector("#_currentHir").innerText = "";
-        }
-        const jukugoList = this.siteState.currentKanji["jukugoList"];
-        if (!jukugoList.length) {
-            document.querySelector(".inProgressShow2.jukugo").classList.add("overrideHidden");
-        } else {
-            document.querySelector(".inProgressShow2.jukugo").classList.remove("overrideHidden");
-        }
-        document.querySelector("#_currentOnyomi").innerText = ""; //this.siteState.currentKanji.onyomi;
+        document.querySelector("#_currentHir").innerText = topKunyomi.hiragana;
+        document.querySelector("#_currentOnyomi").innerText = this.siteState.currentKanji.onyomi;
     }
 
     getTopKunyomiFromKanji(kanji) {
