@@ -1,0 +1,331 @@
+html, body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+body {
+    background-color: #202020;
+}
+#_container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #202020;
+    position:absolute;
+    z-index: 10;
+}
+
+#_dialog {
+  left:10vw;
+  top:10vh;
+  width: 80vw;
+  height: 80vh;
+  background-color: #303030;
+  display: flex;
+  position:absolute;
+  align-items: center;
+  justify-content: center;
+  z-index: 20;
+}
+
+#_inputStart{
+  position: absolute;
+  top:37vh;
+  left:16vh;
+  width:10vh;
+  height:3vh;
+}
+#_inputEnd{
+  position: absolute;
+  top:37vh;
+  left:29vh;
+  width:10vh;
+  height:3vh;
+}
+
+.start{
+  position:absolute;
+  top:42vh;
+  right:25vw;
+}
+
+.resume{
+  position:absolute;
+  top:49vh;
+}
+
+.selectMenu{
+  position:absolute;
+  top:42vh;
+  left:25vw;
+}
+
+#_modeSelection{
+  height:6vh;
+}
+
+button {
+  width:24vw;
+  height:6vh;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.overrideHidden{
+  visibility: hidden;
+}
+
+.overallCounter {
+    position: absolute;
+    top: 2vh;
+    right: 2.5vh;
+    color: #ffffff;
+}
+
+.dialogCounter {
+    position: absolute;
+    top: 46px;
+    right: 10px;
+    color: #ffffff;
+}
+
+.scoreCounter {
+    position: absolute;
+    top: 6vh;
+    right: 2.5vh;
+    color: #ffffff;
+}
+
+.caseInput {
+    max-width: 40px;
+}
+
+.nextContainer {
+    position: absolute;
+    bottom: 20vh;
+}
+
+.dialogValue {
+  top: 25vh;
+  position:absolute;
+  font-size:5vh;
+  color: #ffffff;
+}
+
+.kanji {
+  top: 23vh;
+  position:absolute;
+  font-size:8vh;
+    color: #ffffff;
+}
+
+.currentHiragana {
+  top: 34vh;
+  position:absolute;
+  font-size:2.5vh;
+    color: #ffffff;
+
+}
+
+.phonetic {
+  top: 22vh;
+  font-size:3vh;
+  position:absolute;
+    color: #ffffff;
+}
+
+.english {
+  top: 38vh;
+  font-size:3vh;
+  position:absolute;
+  color: #ffffff;
+  text-align: center;
+}
+
+.dialogDefinition {
+  top: 37vh;
+  font-size:2vh;
+  position:absolute;
+  padding: 1vw;
+  text-align: center;
+    color: #ffffff;
+}
+
+.starRating {
+  top: 15vh;
+  font-size:3vh;
+  position:absolute;
+    color: #ffffff;
+}
+
+.currentOnyomi {
+  top: 20vh;
+  font-size:2.5vh;
+  position:absolute;
+    color: #ffffff;
+}
+
+.dialogComponents {
+  top: 42vh;
+  font-size:2vh;
+  position:absolute;
+    color: #ffffff;
+  padding: 1vw;
+  text-align: center;
+}
+
+.dialogOnyomi {
+  top: 36px;
+  position:absolute;
+  font-size:4vh;
+    color: #ffffff;
+
+}
+
+.dialogStarRating  {
+  top: 15vh;
+  font-size:3vh;
+  position:absolute;
+    color: #ffffff;
+}
+
+.show {
+    bottom: 31vh;
+    position: absolute;
+}
+
+.review {
+  bottom: 29vh;
+  position:absolute;
+}
+
+.endButton {
+  bottom: 20vh;
+  position:absolute;
+}
+
+.currentKunyomi {
+  top: 42vh;
+  left: 2vw;
+  right: 2vw;
+  width:96vw;
+  color: #ffffff;
+  font-size:2.5vh;
+  position:absolute;
+}
+
+
+.kunyomi {
+  bottom: 31vh;
+  position: absolute;
+  left:20vw;
+}
+.jukugo {
+    bottom: 31vh;
+    position: absolute;
+    right:20vw;
+}
+
+.incorrect {
+    bottom: 22vh;
+    position: absolute;
+    left:20vw;
+}
+
+.correct {
+    bottom: 22vh;
+    position: absolute;
+    right:20vw;
+}
+
+.previousButton {
+    bottom: 15vh;
+    position: absolute;
+    left:12vw;
+}
+
+.dialogShow {
+    bottom: 23vh;
+    left:28vw;
+    position: absolute;
+}
+
+.nextButton {
+    bottom: 15vh;
+    position: absolute;
+    right:12vw;
+}
+
+.back {
+    bottom: 22vh;
+    position: absolute;
+}
+
+.closeButton {
+    height:40px;
+    width:40px;
+    position:absolute;
+    right:0px;
+    top:0px;
+}
+
+.dialogPrePart {
+  top: 27vh;
+  position:absolute;
+  font-size:3vh;
+  color: #6cc8e1;
+  left:8vw;
+}
+
+.dialogPostPart {
+  top: 27vh;
+  position:absolute;
+  font-size:3vh;
+  color: #6cc8e1;
+  right:8vw;
+}
+
+.kanjiTable {
+  top:10vh;
+  left:5vw;
+  width:90vw;
+  position:absolute;
+  font-size:2.5vh;
+  color:#ffffff;
+}
+
+tr {
+  outline: 1px solid white;
+}
+
+tr a {
+  color:#ffffff;
+  text-decoration: none;
+}
+
+.sameHirAndEng {
+  color: #1cc8e1
+}
+
+.differentHirAndEng {
+  color: #d13f34;
+  display: none;
+}
+
+.markedIncorrect {
+  color: #d13f34;
+}
+
+.tdKanji {
+  font-size: 5.5vh;
+  text-align: center;
+  width:10vw;
+}
+
+.tdHiragana {
+  width:25vw;
+  font-size:3vh;
+}

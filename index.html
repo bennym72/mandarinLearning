@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <meta charset="utf-8">
+        <title>Learn Kanji!</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="jquery-3.5.1.min.js"></script><script src="fulldata/0001to0100.js"></script>
+        <script src="fulldata/0101to0200.js"></script>
+        <script src="fulldata/0201to0300.js"></script>
+        <script src="fulldata/0301to0400.js"></script>
+        <script src="fulldata/0401to0500.js"></script>
+        <script src="fulldata/0501to0600.js"></script>
+        <script src="fulldata/0601to0700.js"></script>
+        <script src="fulldata/0701to0800.js"></script>
+        <script src="fulldata/0801to0900.js"></script>
+        <script src="fulldata/0901to1000.js"></script>
+        <script src="fulldata/1001to1100.js"></script>
+        <script src="fulldata/1101to1200.js"></script>
+        <script src="fulldata/1201to1300.js"></script>
+        <script src="fulldata/1301to1400.js"></script>
+        <script src="fulldata/1401to1500.js"></script>
+        <script src="fulldata/1501to1600.js"></script>
+        <script src="fulldata/1601to1700.js"></script>
+        <script src="fulldata/1701to1800.js"></script>
+        <script src="input.js"></script>
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <div id="_container">
+            <div id="_overallCounter" class="overallCounter">0/?</div>
+            <div id="_scoreCounter" class="scoreCounter">0/?</div>
+            <input id="_inputStart" value="1" class="inProgressStart" onchange="window.gameboard.onInputStartChange(this.value)"></input>
+            <input id="_inputEnd" value="1800" class="inProgressStart"></input>
+            <select id="_modeSelection" class="inProgressStart selectMenu" size=1>
+            </select>
+            <table id="_kanjiTable" class="inProgressShow1-table inProgressShow2-table kanjiTable"></table>
+            <text id="_currentKanji" class="inProgressShow1 inProgressShow2 kanji">Kanji</text>
+            <text id="_currentOnyomi" class=" inProgressShow2 currentOnyomi">Onyomi</text>
+            <text id="_currentEng" class="inProgressShow2 english">Text</text>
+            <text id="_currentStar" class="inProgressShow2 starRating">Stars</text>
+            <text id="_currentHir" class="inProgressShow1 inProgressShow2 currentHiragana">Hiragana</text>
+            <text id="_currentKun" class="inProgressShow2 currentKunyomi">Kunyomi</text>
+            <button onclick="window.gameboard.onStart()" class="inProgressStart start">Start</button>
+            <button onclick="window.gameboard.onResume()" class="inProgressStart resume">Resume</button>
+            <button onclick="window.gameboard.onShow()" class="inProgressShow1 inProgressShow1-table show">Show</button>
+            <button onclick="window.gameboard.kunyomi()" class="inProgressShow2 kunyomi">Kunyomi</button>
+            <button onclick="window.gameboard.jukugo()" class="inProgressShow2 jukugo">Jukugo</button>
+            <button onclick="window.gameboard.correct()" class="inProgressShow2 inProgressShow2-table correct">Correct</button>
+            <button onclick="window.gameboard.incorrect()" class="inProgressShow2 inProgressShow2-table incorrect">Incorrect</button>
+            <button onclick="window.gameboard.back()" class="inProgressShow1 inProgressShow1-table back">Back</button>
+            <button onclick="window.gameboard.review()" class="inProgressEnd review">Review</button>
+            <button onclick="window.gameboard.end()" class="inProgressEnd endButton">End</button>
+        </div>
+        <div id="_dialog" class="inProgressDialog1 inProgressDialog2">
+            <text id="_dialogPrePart" class="dialogPrePart">Value</text>
+            <text id="_dialogPostPart" class="dialogPostPart">Value</text>
+            <text id="_dialogCounter" class="dialogCounter">0/?</text>
+            <text id="_dialogOnyomi" class="dialogOnyomi">Onyomi</text>
+            <text id="_dialogValue" class="dialogValue">Value</text>
+            <text id="_dialogDefinition" class="dialogDefinition inProgressDialog2">Definition</text>
+            <text id="_dialogStar" class="dialogStarRating inProgressDialog2">Star</text>
+            <text id="_dialogPhonetic" class="dialogPhonetic inProgressDialog2 phonetic">Phonetic</text>
+            <text id="_dialogComponents" class="dialogComponents inProgressDialog2">Components</text>
+            <button onclick="window.gameboard.dialogHide()" class="closeButton" >X</button>
+            <button onclick="window.gameboard.dialogPrevious()" class="previousButton inProgressDialog2" >Previous</button>
+            <button onclick="window.gameboard.dialogShow()" class="dialogShow inProgressDialog1">Show</button>
+            <button onclick="window.gameboard.dialogNext()" class="nextButton inProgressDialog2" >Next</button>
+        </div>
+        <script>init()</script>
+    </body>
+</html>
