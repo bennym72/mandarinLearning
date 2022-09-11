@@ -65,6 +65,10 @@ const convertMandarinToKanji = function(mandarin, map, includeLower, targetRatin
 
 var langDataToUse = {}; //newLangData;
 
+newLangData.forEach((mandarinChar) => {
+    convertMandarinToKanji(mandarinChar, langDataToUse, true, 8);
+});
+
 const betaColor = "#BF2F12";
 const obsoleteColor = "#F7C20F";
 const phases = [
@@ -323,7 +327,7 @@ class BaseBoard {
         const splitValues = selectedMode.split(" ");
         const includeLower = splitValues[0] === "<=";
         const targetRating = Number.parseInt(splitValues[1]);
-
+        langDataToUse = {};
         newLangData.forEach((mandarinChar) => {
             convertMandarinToKanji(mandarinChar, langDataToUse, includeLower, targetRating);
         });
