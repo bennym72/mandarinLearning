@@ -53,7 +53,7 @@ const convertMandarinToKanji = function(mandarin, map, includeLower, targetRatin
         kunyomiList : [
             {
                 hiragana : mandarin["pinyin (compound)"],
-                definition : mandarin["part of speech"],
+                definition : mandarin.compound + " : " + mandarin["compound definition"],
                 stars : mandarin.Character,
             }
         ],
@@ -316,12 +316,12 @@ function onKanjiPressed() {
 };
 
 function copyToClipboard(text) {
-    const elem = document.createElement('textarea');
-    elem.value = text;
-    document.body.appendChild(elem);
-    elem.select();
-    document.execCommand('copy');
-    document.body.removeChild(elem);
+    // const elem = document.createElement('textarea');
+    // elem.value = text;
+    // document.body.appendChild(elem);
+    // elem.select();
+    // document.execCommand('copy');
+    // document.body.removeChild(elem);
  }
 
 class BaseBoard {
@@ -525,8 +525,9 @@ class BaseBoard {
     displayKanji() {
         this.siteState.currentKanji = langDataToUse[this.siteState.toView.shift()];
         this.siteState.storeValues();
-        document.getElementById("_currentKanji").innerHTML = this.siteState.currentKanji.kanji;
+        document.getElementById("_currentKanji").value = this.siteState.currentKanji.kanji;
         document.getElementById("_currentEng").innerHTML = this.siteState.currentKanji.eng;
+        document.getElementById("_currentCompoundDefinition").innerHTML = this.siteState.currentKanji.kunyomiList[0].definition;
         document.getElementById("_currentStar").innerHTML = this.siteState.currentKanji.stars;
     
         const counter = this.siteState.allCurrentKanji.length - this.siteState.toView.length;

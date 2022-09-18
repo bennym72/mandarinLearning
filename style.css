@@ -116,10 +116,14 @@ button {
 }
 
 .kanji {
-  top: 18vh;
+  top: 20vh;
+  width:10vh;
   position:absolute;
-  font-size:8vh;
-    color: #ffffff;
+  font-size:6vh;
+  color: #ffffff;
+  background-color: #303030;
+  align-content: center;
+  text-align: center;
 }
 
 .currentHiragana {
@@ -140,6 +144,14 @@ button {
 .english {
   top: 39.5vh;
   font-size:4vh;
+  position:absolute;
+  color: #ffffff;
+  text-align: center;
+}
+
+.compoundDefinition {
+  top: 45vh;
+  font-size:2.5vh;
   position:absolute;
   color: #ffffff;
   text-align: center;
@@ -212,7 +224,7 @@ button {
   left: 2vw;
   right: 2vw;
   width:96vw;
-  color: #ffffff;
+  color: #000000;
   font-size:2.5vh;
   position:absolute;
   z-index: 100;
