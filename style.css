@@ -141,16 +141,25 @@ button {
 }
 
 .english {
-  top: 39.5vh;
+  top: 43.5vh;
   font-size:4vh;
   position:absolute;
   color: #ffffff;
   text-align: center;
 }
 
+.currentCompound {
+  top: 49vh;
+  position:absolute;
+  font-size:6vh;
+  color: #ffffff;
+  align-content: center;
+  text-align: center;
+}
+
 .compoundDefinition {
-  top: 45vh;
-  font-size:2.5vh;
+  top: 57vh;
+  font-size:2vh;
   position:absolute;
   color: #ffffff;
   text-align: center;

@@ -52,12 +52,13 @@ const convertMandarinToKanji = function(mandarin, map, includeLower, targetRatin
         onyomi : mandarin.cantonese,
         kunyomiList : [
             {
-                hiragana : mandarin["pinyin (compound)"],
-                definition : " " + mandarin.compound + " : " + mandarin["compound definition"],
+                hiragana : mandarin.eng,
+                compound: " " + mandarin.compound + " ",
+                definition : mandarin["compound definition"],
                 stars : mandarin.Character,
             }
         ],
-        eng : mandarin.eng
+        eng : mandarin["pinyin (compound)"]
         
     };
     map[kanji.index] = kanji;
@@ -527,6 +528,7 @@ class BaseBoard {
         this.siteState.storeValues();
         document.getElementById("_currentKanji").innerHTML = this.siteState.currentKanji.kanji;
         document.getElementById("_currentEng").innerHTML = this.siteState.currentKanji.eng;
+        document.getElementById("_currentCompound").innerHTML = this.siteState.currentKanji.kunyomiList[0].compound;
         document.getElementById("_currentCompoundDefinition").innerHTML = this.siteState.currentKanji.kunyomiList[0].definition;
         document.getElementById("_currentStar").innerHTML = this.siteState.currentKanji.stars;
     
