@@ -215,6 +215,7 @@ button {
   color: #ffffff;
   font-size:2.5vh;
   position:absolute;
+  z-index: 100;
 }
 
 
