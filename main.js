@@ -1,74 +1,115 @@
-const newLangData = data; /* {
-    ...data0,
-    ...data1,
-    ...data2,
-    ...data3,
-    ...data4,
-    ...data5,
-    ...data6,
-    ...data7,
-    ...data8,
-    ...data9,
-    ...data10,
-    ...data11,
-    ...data12,
-    ...data13,
-    ...data14,
-    ...data15,
-    ...data16,
-    ...data17
-};*/
-
-const sortedNewLangDataKeys = Object.keys(newLangData).sort();
-
-const convertMandarinToKanji = function(mandarin, map, includeLower, targetRating) {
-    
-    const splitRating = mandarin["PTL-HSK"].split("=");
-    let rating = 8;
-    if (splitRating.length > 1) {
-        const splitValue = splitRating[1];
-        if (splitValue.length >= 1) {
-            const potentialRating = Number.parseInt(splitValue);
-            if (!Number.isNaN(potentialRating)) {
-                rating = potentialRating;
+/*
+{
+    hsk_level : {
+        part_of_speech : [
+            {
+                id: 1,
+                character : "",
+                character_pinyin : "",
+                eng : "",
+                compound : "",
+                compound_pinyin : "",
+                compound_cantonese : "",
+                compound_definition : ""
             }
-        }
+        ]
     }
+}
+*/
+const _groupedData = {};
+var _initialTableData = [];
+// params
+var _selectionTable;
 
-    if (includeLower) {
-        if (rating > targetRating) {
-            return;
-        }
-    } else {
-        if (rating != targetRating) {
-            return;
-        }
-    }
+var langDataToUse = {}; //newLangData;
 
+// pragma mark - setup
+
+function setupSelectionTable() {
+    _selectionTable = document.querySelector("#_selectionTable");
+    var index = 0;
+    _initialTableData.forEach((selection) => {
+        const newRow = _selectionTable.insertRow();
+        const rowId = "selectionRow" + index;
+        const selectionCell = newRow.insertCell();
+        const checkbox = document.createElement("input");
+        checkbox.setAttribute("type", "checkbox");
+        selectionCell.appendChild(checkbox);
+        selectionCell.classList.add("checkbox");
+        selectionCell.setAttribute("id", rowId);
+
+        const hskLevelCell = newRow.insertCell();
+        hskLevelCell.innerText = selection.hsk_level;
+        hskLevelCell.classList.add("hsk");
+        hskLevelCell.setAttribute("id", rowId + "_hsk");
+
+        const countCell = newRow.insertCell();
+        countCell.innerText = selection.count;
+        countCell.classList.add("selection_count");
+        countCell.setAttribute("id", rowId + "_count");
+
+        const partOfSpeechCell = newRow.insertCell();
+        partOfSpeechCell.innerText = selection.part_of_speech;
+        partOfSpeechCell.classList.add("part_of_speech");
+        partOfSpeechCell.setAttribute("id", rowId + "_pos");
+
+        index++;
+    });
+}
+
+// pragma mark - init functions
+
+function initializeData() {
+    data.forEach((value) => {
+        if (!_groupedData[value.hsk_level]) {
+            _groupedData[value.hsk_level] = {};
+        }
+        if (!_groupedData[value.hsk_level][value.part_of_speech]) {
+            _groupedData[value.hsk_level][value.part_of_speech] = [];
+            _initialTableData.push({
+                hsk_level : value.hsk_level,
+                part_of_speech : value.part_of_speech,
+            });
+        }
+        _groupedData[value.hsk_level][value.part_of_speech].push(value);
+    });
+    
+    _initialTableData = _initialTableData.sort((a, b) => {
+        if (a.hsk_level - b.hsk_level != 0) {
+            return a.hsk_level - b.hsk_level;
+        }
+        if (a.part_of_speech < b.part_of_speech) {
+            return - 1;
+        } else if (a.part_of_speech == b.part_of_speech) {
+            return 0;
+        } else {
+            return 1;
+        }
+    });
+    _initialTableData.forEach((tableRowInfo) => {
+        tableRowInfo.count = _groupedData[tableRowInfo.hsk_level][tableRowInfo.part_of_speech].length;
+    });
+}
+
+const convertMandarinToKanji = function(mandarin, map) {
     const kanji = {
-        index : mandarin.Index,
-        stars : mandarin["PTL-HSK"],
-        kanji : mandarin.Character,
-        onyomi : mandarin.cantonese,
+        index : mandarin.id,
+        stars : "HSK.v3=" + mandarin.hsk_level,
+        kanji : mandarin.character,
+        onyomi : mandarin.compound_cantonese,
         kunyomiList : [
             {
                 hiragana : mandarin.eng,
                 compound: " " + mandarin.compound + " ",
-                definition : mandarin["compound definition"],
-                stars : mandarin.Character,
+                definition : mandarin.compound_definition,
+                stars : mandarin.character,
             }
         ],
-        eng : mandarin["pinyin (compound)"]
+        eng : mandarin.compound_pinyin
         
     };
     map[kanji.index] = kanji;
 };
-
-var langDataToUse = {}; //newLangData;
-
-newLangData.forEach((mandarinChar) => {
-    convertMandarinToKanji(mandarinChar, langDataToUse, true, 8);
-});
 
 const betaColor = "#BF2F12";
 const obsoleteColor = "#F7C20F";
@@ -274,21 +315,9 @@ function shuffle(array) {
 
 function init() {
     console.log("it's starting!");
-
-    const selection = document.getElementById("_modeSelection");
-    for (let i = 1; i <= 8; i++) {
-        let value = "== " + i
-        let option = document.createElement("option");
-        option.id = value;
-        option.innerHTML = value;
-        selection.appendChild(option);
-
-        value = "<= " + i
-        option = document.createElement("option");
-        option.id = value;
-        option.innerHTML = value;
-        selection.appendChild(option);
-    }
+    
+    initializeData();
+    setupSelectionTable();
 
     if (numRows > 0) {
         const table = document.querySelector("#_kanjiTable");
@@ -337,14 +366,16 @@ class BaseBoard {
     }
     
     onStart(){
-        const selectedIndex = document.querySelector("#_modeSelection").selectedIndex;
-        const selectedMode = document.querySelector("#_modeSelection").children[selectedIndex].id;
-        const splitValues = selectedMode.split(" ");
-        const includeLower = splitValues[0] === "<=";
-        const targetRating = Number.parseInt(splitValues[1]);
+        const checkedBoxes = Array.prototype.slice.call(document.querySelectorAll('input[type=checkbox]:checked'));
+        var newLangData = [];
+        checkedBoxes.forEach(checkedBox => {
+            const selectedHskLevel = checkedBox.parentElement.parentElement.querySelector(".hsk").innerText;
+            const selectedPartOfSpeech = checkedBox.parentElement.parentElement.querySelector(".part_of_speech").innerText;
+            newLangData = newLangData.concat(_groupedData[selectedHskLevel][selectedPartOfSpeech]);
+        })
         langDataToUse = {};
         newLangData.forEach((mandarinChar) => {
-            convertMandarinToKanji(mandarinChar, langDataToUse, includeLower, targetRating);
+            convertMandarinToKanji(mandarinChar, langDataToUse);
         });
 
         this.enablePhase1(true);
@@ -496,15 +527,8 @@ class BaseBoard {
     }
 
     setupToView() {
-        const startInput = document.getElementById("_inputStart");
-        const endInput = document.getElementById("_inputEnd");
-        let start = Number.isInteger(Number.parseInt(startInput.value)) ? Number.parseInt(startInput.value) : 0;
-        let end = Number.isInteger(Number.parseInt(endInput.value)) ? Number.parseInt(endInput.value) : 0;
-        const selector = document.querySelector("#_modeSelection");
-        const selectionRange = selector.options[selector.selectedIndex].id;
-        const range = window.parseSelectionFromStartAndEndId(selectionRange);
-        start = start === 0 ? range[0] : start;
-        end = end === 0 ? range[1] : end;
+        let start = 1;
+        let end = 9999;
 
         for (var current = start; current <= end; current++) {
             const currentKanji = langDataToUse[current];

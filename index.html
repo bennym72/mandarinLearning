@@ -15,10 +15,8 @@
         <div id="_container">
             <div id="_overallCounter" class="overallCounter">0/?</div>
             <div id="_scoreCounter" class="scoreCounter">0/?</div>
-            <input id="_inputStart" value="1" class="inProgressStart" onChange="window.gameboard.onInputStartChange(this.value)"></input>
-            <input id="_inputEnd" value="3000" class="inProgressStart"></input>
-            <select id="_modeSelection" class="inProgressStart selectMenu" size=1>
-            </select>
+            
+            <table id="_selectionTable" class="inProgressStart selectionTable"></table>
             <text id="_currentKanji" class="inProgressShow1 inProgressShow2 kanji" onclick="onKanjiPressed()"></text>
             <text id="_currentOnyomi" class=" inProgressShow1 inProgressShow2 currentOnyomi">Onyomi</text>
             <text id="_currentEng" class="inProgressShow2 english">Text</text>
@@ -27,7 +25,6 @@
             <text id="_currentStar" class="inProgressShow1 inProgressShow2 starRating">Stars</text>
             <text id="_currentHir" class="inProgressShow2 inProgressShow2 currentHiragana">Hiragana</text>
             <button onclick="window.gameboard.onStart()" class="inProgressStart start">Start</button>
-            <button onclick="window.gameboard.onResume()" class="inProgressStart resume">Resume</button>
             <button onclick="window.gameboard.onShow()" class="inProgressShow1 inProgressShow1-table show">Show</button>
             <button onclick="window.gameboard.correct()" class="inProgressShow2 inProgressShow2-table correct">Correct</button>
             <button onclick="window.gameboard.incorrect()" class="inProgressShow2 inProgressShow2-table incorrect">Incorrect</button>
