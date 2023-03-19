@@ -19,8 +19,8 @@ body {
 .selectionTable {
   top:10vh;
   left:3.5vw;
-  width:90vw;
-  height:70vh;
+  width:88vw;
+  height:67.5vh;
   position:absolute;
   font-size:2.5vh;
   color:#ffffff;
@@ -42,7 +42,7 @@ body {
 }
 
 .selectionTable .part_of_speech {
-  width:60vw;
+  width:58vw;
 }
 
 #_dialog {
@@ -60,7 +60,7 @@ body {
 
 .start{
   position:absolute;
-  top:82vh;
+  top:79.5vh;
   left:36vw;
 }
 
