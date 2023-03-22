@@ -17,6 +17,7 @@
 }
 */
 const _groupedData = {};
+const _groupedDataBy10 = {};
 var _initialTableData = [];
 // params
 var _selectionTable;
@@ -66,12 +67,42 @@ function initializeData() {
         }
         if (!_groupedData[value.hsk_level][value.part_of_speech]) {
             _groupedData[value.hsk_level][value.part_of_speech] = [];
-            _initialTableData.push({
-                hsk_level : value.hsk_level,
-                part_of_speech : value.part_of_speech,
-            });
         }
         _groupedData[value.hsk_level][value.part_of_speech].push(value);
+    });
+
+    function partOfSpeechString(partOfSpeech, counter) {
+        if (counter < 10) {
+            return partOfSpeech + "-0" + counter;
+        }
+        return partOfSpeech + "-" + counter;
+    }
+
+    Object.keys(_groupedData).forEach((hskLevel) => {
+        _groupedDataBy10[hskLevel] = [];
+        Object.keys(_groupedData[hskLevel]).forEach((partOfSpeech) => {
+            var currentArray = [];
+            var counter = 1;
+            _groupedData[hskLevel][partOfSpeech].forEach((word) => {    
+                if (currentArray.length < 10) {
+                    currentArray.push(word);
+                } else {
+                    _groupedDataBy10[hskLevel][partOfSpeechString(partOfSpeech, counter)] = currentArray;
+                    _initialTableData.push({
+                        hsk_level : hskLevel,
+                        part_of_speech : partOfSpeechString(partOfSpeech, counter),
+                    });
+                    counter++;
+                    currentArray = [word];
+                    
+                }
+            });
+            _groupedDataBy10[hskLevel][partOfSpeechString(partOfSpeech, counter)] = currentArray;
+            _initialTableData.push({
+                hsk_level : hskLevel,
+                part_of_speech : partOfSpeechString(partOfSpeech, counter),
+            });
+        });
     });
     
     _initialTableData = _initialTableData.sort((a, b) => {
@@ -87,7 +118,7 @@ function initializeData() {
         }
     });
     _initialTableData.forEach((tableRowInfo) => {
-        tableRowInfo.count = _groupedData[tableRowInfo.hsk_level][tableRowInfo.part_of_speech].length;
+        tableRowInfo.count = _groupedDataBy10[tableRowInfo.hsk_level][tableRowInfo.part_of_speech].length;
     });
 }
 
@@ -371,7 +402,7 @@ class BaseBoard {
         checkedBoxes.forEach(checkedBox => {
             const selectedHskLevel = checkedBox.parentElement.parentElement.querySelector(".hsk").innerText;
             const selectedPartOfSpeech = checkedBox.parentElement.parentElement.querySelector(".part_of_speech").innerText;
-            newLangData = newLangData.concat(_groupedData[selectedHskLevel][selectedPartOfSpeech]);
+            newLangData = newLangData.concat(_groupedDataBy10[selectedHskLevel][selectedPartOfSpeech]);
         })
         langDataToUse = {};
         newLangData.forEach((mandarinChar) => {
