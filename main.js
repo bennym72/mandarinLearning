@@ -127,10 +127,10 @@ const convertMandarinToKanji = function(mandarin, map) {
         index : mandarin.id,
         stars : "HSK.v3=" + mandarin.hsk_level,
         kanji : mandarin.character,
-        onyomi : mandarin.compound_cantonese,
+        onyomi : mandarin.eng,
         kunyomiList : [
             {
-                hiragana : mandarin.eng,
+                hiragana : mandarin.compound_cantonese,
                 compound: " " + mandarin.compound + " ",
                 definition : mandarin.compound_definition,
                 stars : mandarin.character,

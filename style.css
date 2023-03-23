@@ -139,11 +139,11 @@ button {
   text-align: center;
 }
 
-.currentHiragana {
-  top: 34vh;
+.cantonese {
+  top: 38.5vh;
   position:absolute;
   font-size:4vh;
-    color: #ffffff;
+    color: #6d83fa;
 
 }
 
@@ -154,11 +154,11 @@ button {
     color: #ffffff;
 }
 
-.english {
+.pinyin {
   top: 43.5vh;
   font-size:4vh;
   position:absolute;
-  color: #ffffff;
+  color: #d66b6b;
   text-align: center;
 }
 
@@ -195,7 +195,7 @@ button {
     color: #ffffff;
 }
 
-.currentOnyomi {
+.english {
   top: 30vh;
   font-size:2.5vh;
   position:absolute;
