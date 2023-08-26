@@ -898,6 +898,19 @@ var data = [
     },
     {
       "id": 70,
+      "character": "南",
+      "character_pinyin": "nán",
+      "eng": "south",
+      "hsk_level": 1,
+      "part_of_speech": "noun",
+      "compound": "南",
+      "compound_pinyin": "nán",
+      "compound_cantonese": "naam4",
+      "compound_definition": "south; (Chinese surname)",
+      "": ""
+    },
+    {
+      "id": 71,
       "character": "年",
       "character_pinyin": "nián",
       "eng": "year",
@@ -910,7 +923,7 @@ var data = [
       "": ""
     },
     {
-      "id": 71,
+      "id": 72,
       "character": "女",
       "character_pinyin": "nǚ",
       "eng": "female",
@@ -923,7 +936,7 @@ var data = [
       "": ""
     },
     {
-      "id": 72,
+      "id": 73,
       "character": "女儿",
       "character_pinyin": "nǚ'ér",
       "eng": "daughter",
@@ -936,7 +949,7 @@ var data = [
       "": ""
     },
     {
-      "id": 73,
+      "id": 74,
       "character": "女人",
       "character_pinyin": "nǚrén",
       "eng": "woman",
@@ -949,7 +962,7 @@ var data = [
       "": ""
     },
     {
-      "id": 74,
+      "id": 75,
       "character": "男人",
       "character_pinyin": "nánrén",
       "eng": "a man",
@@ -962,7 +975,7 @@ var data = [
       "": ""
     },
     {
-      "id": 75,
+      "id": 76,
       "character": "朋友",
       "character_pinyin": "péngyou",
       "eng": "friend",
@@ -975,7 +988,7 @@ var data = [
       "": ""
     },
     {
-      "id": 76,
+      "id": 77,
       "character": "水果",
       "character_pinyin": "shuǐguǒ",
       "eng": "fruit",
@@ -988,7 +1001,7 @@ var data = [
       "": ""
     },
     {
-      "id": 77,
+      "id": 78,
       "character": "苹果",
       "character_pinyin": "píngguǒ",
       "eng": "apple",
@@ -1001,7 +1014,7 @@ var data = [
       "": ""
     },
     {
-      "id": 78,
+      "id": 79,
       "character": "钱",
       "character_pinyin": "qián",
       "eng": "money",
@@ -1014,7 +1027,7 @@ var data = [
       "": ""
     },
     {
-      "id": 79,
+      "id": 80,
       "character": "前",
       "character_pinyin": "qián",
       "eng": "front",
@@ -1027,7 +1040,7 @@ var data = [
       "": ""
     },
     {
-      "id": 80,
+      "id": 81,
       "character": "前面",
       "character_pinyin": "qiánmiàn, also pr. qiánmian",
       "eng": "ahead",
@@ -1040,7 +1053,7 @@ var data = [
       "": ""
     },
     {
-      "id": 81,
+      "id": 82,
       "character": "人",
       "character_pinyin": "rén",
       "eng": "person",
@@ -1053,7 +1066,7 @@ var data = [
       "": ""
     },
     {
-      "id": 82,
+      "id": 83,
       "character": "上",
       "character_pinyin": "shàng",
       "eng": "on top",
@@ -1066,7 +1079,7 @@ var data = [
       "": ""
     },
     {
-      "id": 83,
+      "id": 84,
       "character": "商店",
       "character_pinyin": "shāngdiàn",
       "eng": "store",
@@ -1079,7 +1092,7 @@ var data = [
       "": ""
     },
     {
-      "id": 84,
+      "id": 85,
       "character": "上午",
       "character_pinyin": "shàngwǔ",
       "eng": "morning",
@@ -1092,7 +1105,7 @@ var data = [
       "": ""
     },
     {
-      "id": 85,
+      "id": 86,
       "character": "时间",
       "character_pinyin": "shíjiān",
       "eng": "time",
@@ -1105,7 +1118,7 @@ var data = [
       "": ""
     },
     {
-      "id": 86,
+      "id": 87,
       "character": "书",
       "character_pinyin": "shū",
       "eng": "book",
@@ -1118,7 +1131,7 @@ var data = [
       "": ""
     },
     {
-      "id": 87,
+      "id": 88,
       "character": "水",
       "character_pinyin": "shuǐ",
       "eng": "water",
@@ -1131,7 +1144,7 @@ var data = [
       "": ""
     },
     {
-      "id": 88,
+      "id": 89,
       "character": "天",
       "character_pinyin": "tiān",
       "eng": "day",
@@ -1144,7 +1157,7 @@ var data = [
       "": ""
     },
     {
-      "id": 89,
+      "id": 90,
       "character": "天气",
       "character_pinyin": "tiānqì",
       "eng": "weather",
@@ -1157,7 +1170,7 @@ var data = [
       "": ""
     },
     {
-      "id": 90,
+      "id": 91,
       "character": "同学",
       "character_pinyin": "tóngxué",
       "eng": "to study at the same school",
@@ -1170,7 +1183,7 @@ var data = [
       "": ""
     },
     {
-      "id": 91,
+      "id": 92,
       "character": "下",
       "character_pinyin": "xià",
       "eng": "down",
@@ -1183,7 +1196,7 @@ var data = [
       "": ""
     },
     {
-      "id": 92,
+      "id": 93,
       "character": "先生",
       "character_pinyin": "xiānsheng",
       "eng": "teacher",
@@ -1196,7 +1209,7 @@ var data = [
       "": ""
     },
     {
-      "id": 93,
+      "id": 94,
       "character": "现在",
       "character_pinyin": "xiànzài",
       "eng": "now",
@@ -1209,7 +1222,7 @@ var data = [
       "": ""
     },
     {
-      "id": 94,
+      "id": 95,
       "character": "小姐",
       "character_pinyin": "xiǎojiě",
       "eng": "young lady",
@@ -1222,7 +1235,7 @@ var data = [
       "": ""
     },
     {
-      "id": 95,
+      "id": 96,
       "character": "下午",
       "character_pinyin": "xiàwǔ",
       "eng": "afternoon",
@@ -1235,7 +1248,7 @@ var data = [
       "": ""
     },
     {
-      "id": 96,
+      "id": 97,
       "character": "星期",
       "character_pinyin": "xīngqī",
       "eng": "week",
@@ -1248,7 +1261,7 @@ var data = [
       "": ""
     },
     {
-      "id": 97,
+      "id": 98,
       "character": "学",
       "character_pinyin": "xué",
       "eng": "to learn",
@@ -1261,7 +1274,7 @@ var data = [
       "": ""
     },
     {
-      "id": 98,
+      "id": 99,
       "character": "学生",
       "character_pinyin": "xuésheng, also pr. xuéshēng",
       "eng": "student",
@@ -1274,7 +1287,7 @@ var data = [
       "": ""
     },
     {
-      "id": 99,
+      "id": 100,
       "character": "学校",
       "character_pinyin": "xuéxiào",
       "eng": "school",
@@ -1287,7 +1300,7 @@ var data = [
       "": ""
     },
     {
-      "id": 100,
+      "id": 101,
       "character": "衣服",
       "character_pinyin": "yīfu",
       "eng": "clothes",
@@ -1300,7 +1313,7 @@ var data = [
       "": ""
     },
     {
-      "id": 101,
+      "id": 102,
       "character": "医生",
       "character_pinyin": "yīshēng",
       "eng": "doctor",
@@ -1313,7 +1326,7 @@ var data = [
       "": ""
     },
     {
-      "id": 102,
+      "id": 103,
       "character": "医院",
       "character_pinyin": "yīyuàn",
       "eng": "hospital",
@@ -1326,7 +1339,7 @@ var data = [
       "": ""
     },
     {
-      "id": 103,
+      "id": 104,
       "character": "椅子",
       "character_pinyin": "yǐzi",
       "eng": "chair",
@@ -1339,7 +1352,7 @@ var data = [
       "": ""
     },
     {
-      "id": 104,
+      "id": 105,
       "character": "月",
       "character_pinyin": "yuè",
       "eng": "moon",
@@ -1352,7 +1365,7 @@ var data = [
       "": ""
     },
     {
-      "id": 105,
+      "id": 106,
       "character": "中",
       "character_pinyin": "zhōng",
       "eng": "within",
@@ -1365,7 +1378,7 @@ var data = [
       "": ""
     },
     {
-      "id": 106,
+      "id": 107,
       "character": "中间",
       "character_pinyin": "zhōngjiān",
       "eng": "between",
@@ -1378,7 +1391,7 @@ var data = [
       "": ""
     },
     {
-      "id": 107,
+      "id": 108,
       "character": "国",
       "character_pinyin": "guó",
       "eng": "country",
@@ -1391,7 +1404,7 @@ var data = [
       "": ""
     },
     {
-      "id": 108,
+      "id": 109,
       "character": "中午",
       "character_pinyin": "zhōngwǔ",
       "eng": "noon",
@@ -1404,7 +1417,7 @@ var data = [
       "": ""
     },
     {
-      "id": 109,
+      "id": 110,
       "character": "桌子",
       "character_pinyin": "zhuōzi",
       "eng": "table",
@@ -1417,7 +1430,7 @@ var data = [
       "": ""
     },
     {
-      "id": 110,
+      "id": 111,
       "character": "字",
       "character_pinyin": "zì",
       "eng": "letter",
@@ -1430,7 +1443,7 @@ var data = [
       "": ""
     },
     {
-      "id": 111,
+      "id": 112,
       "character": "昨天",
       "character_pinyin": "zuótiān",
       "eng": "yesterday",
@@ -1443,7 +1456,7 @@ var data = [
       "": ""
     },
     {
-      "id": 112,
+      "id": 113,
       "character": "号",
       "character_pinyin": "hào",
       "eng": "ordinal number",
@@ -1456,7 +1469,7 @@ var data = [
       "": ""
     },
     {
-      "id": 113,
+      "id": 114,
       "character": "爱",
       "character_pinyin": "ài",
       "eng": "to love",
@@ -1469,7 +1482,7 @@ var data = [
       "": ""
     },
     {
-      "id": 114,
+      "id": 115,
       "character": "工作",
       "character_pinyin": "gōngzuò",
       "eng": "to work",
@@ -1482,7 +1495,7 @@ var data = [
       "": ""
     },
     {
-      "id": 115,
+      "id": 116,
       "character": "话",
       "character_pinyin": "huà",
       "eng": "dialect",
@@ -1495,7 +1508,7 @@ var data = [
       "": ""
     },
     {
-      "id": 116,
+      "id": 117,
       "character": "雨",
       "character_pinyin": "yǔ",
       "eng": "rain",
@@ -1508,7 +1521,7 @@ var data = [
       "": ""
     },
     {
-      "id": 117,
+      "id": 118,
       "character": "白",
       "character_pinyin": "bái",
       "eng": "white",
@@ -1521,7 +1534,7 @@ var data = [
       "": ""
     },
     {
-      "id": 118,
+      "id": 119,
       "character": "黑",
       "character_pinyin": "hēi",
       "eng": "black",
@@ -1534,7 +1547,7 @@ var data = [
       "": ""
     },
     {
-      "id": 119,
+      "id": 120,
       "character": "几",
       "character_pinyin": "jǐ",
       "eng": "how much",
@@ -1547,7 +1560,7 @@ var data = [
       "": ""
     },
     {
-      "id": 120,
+      "id": 121,
       "character": "一",
       "character_pinyin": "yī, also pr. yāo",
       "eng": "one",
@@ -1560,7 +1573,7 @@ var data = [
       "": ""
     },
     {
-      "id": 121,
+      "id": 122,
       "character": "二",
       "character_pinyin": "èr",
       "eng": "two",
@@ -1573,7 +1586,7 @@ var data = [
       "": ""
     },
     {
-      "id": 122,
+      "id": 123,
       "character": "三",
       "character_pinyin": "sān",
       "eng": "three",
@@ -1586,7 +1599,7 @@ var data = [
       "": ""
     },
     {
-      "id": 123,
+      "id": 124,
       "character": "四",
       "character_pinyin": "sì",
       "eng": "four",
@@ -1599,7 +1612,7 @@ var data = [
       "": ""
     },
     {
-      "id": 124,
+      "id": 125,
       "character": "五",
       "character_pinyin": "wǔ",
       "eng": "five",
@@ -1612,7 +1625,7 @@ var data = [
       "": ""
     },
     {
-      "id": 125,
+      "id": 126,
       "character": "六",
       "character_pinyin": "liù",
       "eng": "six",
@@ -1625,7 +1638,7 @@ var data = [
       "": ""
     },
     {
-      "id": 126,
+      "id": 127,
       "character": "七",
       "character_pinyin": "qī",
       "eng": "seven",
@@ -1638,7 +1651,7 @@ var data = [
       "": ""
     },
     {
-      "id": 127,
+      "id": 128,
       "character": "八",
       "character_pinyin": "bā",
       "eng": "eight",
@@ -1651,7 +1664,7 @@ var data = [
       "": ""
     },
     {
-      "id": 128,
+      "id": 129,
       "character": "九",
       "character_pinyin": "jiǔ",
       "eng": "nine",
@@ -1664,7 +1677,7 @@ var data = [
       "": ""
     },
     {
-      "id": 129,
+      "id": 130,
       "character": "十",
       "character_pinyin": "shí",
       "eng": "ten",
@@ -1677,7 +1690,7 @@ var data = [
       "": ""
     },
     {
-      "id": 130,
+      "id": 131,
       "character": "百",
       "character_pinyin": "bǎi",
       "eng": "hundred",
@@ -1690,7 +1703,7 @@ var data = [
       "": ""
     },
     {
-      "id": 131,
+      "id": 132,
       "character": "的",
       "character_pinyin": "de",
       "eng": "of",
@@ -1703,7 +1716,7 @@ var data = [
       "": ""
     },
     {
-      "id": 132,
+      "id": 133,
       "character": "了",
       "character_pinyin": "le",
       "eng": "-ed",
@@ -1716,7 +1729,7 @@ var data = [
       "": ""
     },
     {
-      "id": 133,
+      "id": 134,
       "character": "这",
       "character_pinyin": "zhè, also pr. zhèi",
       "eng": "this",
@@ -1729,7 +1742,7 @@ var data = [
       "": ""
     },
     {
-      "id": 134,
+      "id": 135,
       "character": "这里",
       "character_pinyin": "zhèlǐ",
       "eng": "here",
@@ -1742,7 +1755,7 @@ var data = [
       "": ""
     },
     {
-      "id": 135,
+      "id": 136,
       "character": "这个",
       "character_pinyin": "zhège",
       "eng": "this",
@@ -1755,7 +1768,7 @@ var data = [
       "": ""
     },
     {
-      "id": 136,
+      "id": 137,
       "character": "那",
       "character_pinyin": "nà",
       "eng": "that",
@@ -1768,7 +1781,7 @@ var data = [
       "": ""
     },
     {
-      "id": 137,
+      "id": 138,
       "character": "那里",
       "character_pinyin": "nàli, also pr. nàlǐ",
       "eng": "there",
@@ -1781,7 +1794,7 @@ var data = [
       "": ""
     },
     {
-      "id": 138,
+      "id": 139,
       "character": "那个",
       "character_pinyin": "nàge, also pr. nèige",
       "eng": "that one",
@@ -1794,7 +1807,7 @@ var data = [
       "": ""
     },
     {
-      "id": 139,
+      "id": 140,
       "character": "哪里",
       "character_pinyin": "nǎlǐ, also pr. nǎli",
       "eng": "where?",
@@ -1807,7 +1820,7 @@ var data = [
       "": ""
     },
     {
-      "id": 140,
+      "id": 141,
       "character": "你",
       "character_pinyin": "nǐ",
       "eng": "you (informal, as opposed to courteous 您)",
@@ -1820,7 +1833,7 @@ var data = [
       "": ""
     },
     {
-      "id": 141,
+      "id": 142,
       "character": "他",
       "character_pinyin": "tā",
       "eng": "he or him",
@@ -1833,7 +1846,7 @@ var data = [
       "": ""
     },
     {
-      "id": 142,
+      "id": 143,
       "character": "她",
       "character_pinyin": "tā",
       "eng": "she",
@@ -1846,7 +1859,7 @@ var data = [
       "": ""
     },
     {
-      "id": 143,
+      "id": 144,
       "character": "我",
       "character_pinyin": "wǒ",
       "eng": "I",
@@ -1859,7 +1872,7 @@ var data = [
       "": ""
     },
     {
-      "id": 144,
+      "id": 145,
       "character": "我们",
       "character_pinyin": "wǒmen",
       "eng": "we",
@@ -1872,7 +1885,7 @@ var data = [
       "": ""
     },
     {
-      "id": 145,
+      "id": 146,
       "character": "你们",
       "character_pinyin": "nǐmen",
       "eng": "you (plural)",
@@ -1885,7 +1898,7 @@ var data = [
       "": ""
     },
     {
-      "id": 146,
+      "id": 147,
       "character": "他们",
       "character_pinyin": "tāmen",
       "eng": "they",
@@ -1898,7 +1911,7 @@ var data = [
       "": ""
     },
     {
-      "id": 147,
+      "id": 148,
       "character": "她们",
       "character_pinyin": "tāmen",
       "eng": "they",
@@ -1911,7 +1924,7 @@ var data = [
       "": ""
     },
     {
-      "id": 148,
+      "id": 149,
       "character": "吗",
       "character_pinyin": "má, also pr. ma",
       "eng": "yes/no?",
@@ -1924,7 +1937,7 @@ var data = [
       "": ""
     },
     {
-      "id": 149,
+      "id": 150,
       "character": "呢",
       "character_pinyin": "ne",
       "eng": "and...?",
@@ -1937,7 +1950,7 @@ var data = [
       "": ""
     },
     {
-      "id": 150,
+      "id": 151,
       "character": "哪",
       "character_pinyin": "nǎ",
       "eng": "how",
@@ -1950,7 +1963,7 @@ var data = [
       "": ""
     },
     {
-      "id": 151,
+      "id": 152,
       "character": "什么",
       "character_pinyin": "shénme",
       "eng": "what?",
@@ -1963,7 +1976,7 @@ var data = [
       "": ""
     },
     {
-      "id": 152,
+      "id": 153,
       "character": "谁",
       "character_pinyin": "shéi, also pr. shuí",
       "eng": "who",
@@ -1976,7 +1989,7 @@ var data = [
       "": ""
     },
     {
-      "id": 153,
+      "id": 154,
       "character": "怎么",
       "character_pinyin": "zěnme",
       "eng": "how?",
@@ -1989,7 +2002,7 @@ var data = [
       "": ""
     },
     {
-      "id": 154,
+      "id": 155,
       "character": "怎么样",
       "character_pinyin": "zěnme yàng",
       "eng": "how?",
@@ -2002,7 +2015,7 @@ var data = [
       "": ""
     },
     {
-      "id": 155,
+      "id": 156,
       "character": "没有",
       "character_pinyin": "méiyǒu",
       "eng": "haven't",
@@ -2015,7 +2028,7 @@ var data = [
       "": ""
     },
     {
-      "id": 156,
+      "id": 157,
       "character": "会",
       "character_pinyin": "huì",
       "eng": "can (i.e. have the skill, know how to)",
@@ -2028,7 +2041,7 @@ var data = [
       "": ""
     },
     {
-      "id": 157,
+      "id": 158,
       "character": "能",
       "character_pinyin": "néng",
       "eng": "can",
@@ -2041,7 +2054,7 @@ var data = [
       "": ""
     },
     {
-      "id": 158,
+      "id": 159,
       "character": "想",
       "character_pinyin": "xiǎng",
       "eng": "to think",
@@ -2054,7 +2067,7 @@ var data = [
       "": ""
     },
     {
-      "id": 159,
+      "id": 160,
       "character": "飞",
       "character_pinyin": "fēi",
       "eng": "to fly",
@@ -2067,7 +2080,7 @@ var data = [
       "": ""
     },
     {
-      "id": 160,
+      "id": 161,
       "character": "分",
       "character_pinyin": "fēn",
       "eng": "to divide",
@@ -2080,7 +2093,7 @@ var data = [
       "": ""
     },
     {
-      "id": 161,
+      "id": 162,
       "character": "在",
       "character_pinyin": "zài",
       "eng": "(located) at",
@@ -2093,7 +2106,7 @@ var data = [
       "": ""
     },
     {
-      "id": 162,
+      "id": 163,
       "character": "吃",
       "character_pinyin": "chī",
       "eng": "to eat",
@@ -2106,7 +2119,7 @@ var data = [
       "": ""
     },
     {
-      "id": 163,
+      "id": 164,
       "character": "读",
       "character_pinyin": "dú",
       "eng": "to read",
@@ -2119,7 +2132,7 @@ var data = [
       "": ""
     },
     {
-      "id": 164,
+      "id": 165,
       "character": "对不起",
       "character_pinyin": "duì bu qǐ",
       "eng": "unworthy",
@@ -2132,7 +2145,7 @@ var data = [
       "": ""
     },
     {
-      "id": 165,
+      "id": 166,
       "character": "喝",
       "character_pinyin": "hē",
       "eng": "to drink",
@@ -2145,7 +2158,7 @@ var data = [
       "": ""
     },
     {
-      "id": 166,
+      "id": 167,
       "character": "回",
       "character_pinyin": "huí",
       "eng": "to go back",
@@ -2158,7 +2171,7 @@ var data = [
       "": ""
     },
     {
-      "id": 167,
+      "id": 168,
       "character": "看",
       "character_pinyin": "kàn",
       "eng": "to see",
@@ -2171,7 +2184,7 @@ var data = [
       "": ""
     },
     {
-      "id": 168,
+      "id": 169,
       "character": "看见",
       "character_pinyin": "kànjiàn",
       "eng": "to see",
@@ -2184,7 +2197,7 @@ var data = [
       "": ""
     },
     {
-      "id": 169,
+      "id": 170,
       "character": "买",
       "character_pinyin": "mǎi",
       "eng": "to buy",
@@ -2197,7 +2210,7 @@ var data = [
       "": ""
     },
     {
-      "id": 170,
+      "id": 171,
       "character": "请",
       "character_pinyin": "qǐng",
       "eng": "to ask",
@@ -2210,7 +2223,7 @@ var data = [
       "": ""
     },
     {
-      "id": 171,
+      "id": 172,
       "character": "去",
       "character_pinyin": "qù",
       "eng": "to go",
@@ -2223,7 +2236,7 @@ var data = [
       "": ""
     },
     {
-      "id": 172,
+      "id": 173,
       "character": "认识",
       "character_pinyin": "rènshi",
       "eng": "to know",
@@ -2236,7 +2249,7 @@ var data = [
       "": ""
     },
     {
-      "id": 173,
+      "id": 174,
       "character": "是",
       "character_pinyin": "shì",
       "eng": "is",
@@ -2249,7 +2262,7 @@ var data = [
       "": ""
     },
     {
-      "id": 174,
+      "id": 175,
       "character": "睡",
       "character_pinyin": "shuì",
       "eng": "to sleep",
@@ -2262,7 +2275,7 @@ var data = [
       "": ""
     },
     {
-      "id": 175,
+      "id": 176,
       "character": "说",
       "character_pinyin": "shuō",
       "eng": "to speak",
@@ -2275,7 +2288,7 @@ var data = [
       "": ""
     },
     {
-      "id": 176,
+      "id": 177,
       "character": "听",
       "character_pinyin": "tīng",
       "eng": "to listen",
@@ -2288,7 +2301,7 @@ var data = [
       "": ""
     },
     {
-      "id": 177,
+      "id": 178,
       "character": "写",
       "character_pinyin": "xiě",
       "eng": "to write",
@@ -2301,7 +2314,7 @@ var data = [
       "": ""
     },
     {
-      "id": 178,
+      "id": 179,
       "character": "谢谢",
       "character_pinyin": "xièxie",
       "eng": "to thank",
@@ -2314,7 +2327,7 @@ var data = [
       "": ""
     },
     {
-      "id": 179,
+      "id": 180,
       "character": "学习",
       "character_pinyin": "xuéxí",
       "eng": "to learn",
@@ -2327,7 +2340,7 @@ var data = [
       "": ""
     },
     {
-      "id": 180,
+      "id": 181,
       "character": "有",
       "character_pinyin": "yǒu",
       "eng": "to have",
@@ -2340,7 +2353,7 @@ var data = [
       "": ""
     },
     {
-      "id": 181,
+      "id": 182,
       "character": "再见",
       "character_pinyin": "zàijiàn",
       "eng": "goodbye",
@@ -2353,7 +2366,7 @@ var data = [
       "": ""
     },
     {
-      "id": 182,
+      "id": 183,
       "character": "住",
       "character_pinyin": "zhù",
       "eng": "to live",
@@ -2366,7 +2379,7 @@ var data = [
       "": ""
     },
     {
-      "id": 183,
+      "id": 184,
       "character": "做",
       "character_pinyin": "zuò",
       "eng": "to do",
@@ -2379,7 +2392,7 @@ var data = [
       "": ""
     },
     {
-      "id": 184,
+      "id": 185,
       "character": "坐",
       "character_pinyin": "zuò",
       "eng": "to sit",
@@ -2392,7 +2405,7 @@ var data = [
       "": ""
     },
     {
-      "id": 185,
+      "id": 186,
       "character": "打电话",
       "character_pinyin": "dǎ diànhuà",
       "eng": "to make a telephone call",
@@ -2405,7 +2418,7 @@ var data = [
       "": ""
     },
     {
-      "id": 186,
+      "id": 187,
       "character": "读书",
       "character_pinyin": "dúshū",
       "eng": "to read a book",
@@ -2418,7 +2431,7 @@ var data = [
       "": ""
     },
     {
-      "id": 187,
+      "id": 188,
       "character": "睡觉",
       "character_pinyin": "shuìjiào",
       "eng": "to go to bed",
@@ -2431,7 +2444,7 @@ var data = [
       "": ""
     },
     {
-      "id": 188,
+      "id": 189,
       "character": "说话",
       "character_pinyin": "shuōhuà",
       "eng": "to speak",
@@ -2444,7 +2457,7 @@ var data = [
       "": ""
     },
     {
-      "id": 189,
+      "id": 190,
       "character": "下雨",
       "character_pinyin": "xiàyǔ",
       "eng": "to rain",
@@ -2457,7 +2470,7 @@ var data = [
       "": ""
     },
     {
-      "id": 190,
+      "id": 191,
       "character": "玩儿",
       "character_pinyin": "wánr",
       "eng": "to play",
