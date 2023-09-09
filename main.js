@@ -24,6 +24,8 @@ var _selectionTable;
 
 var langDataToUse = {}; //newLangData;
 
+const hskLevelString = "hsk_level_";
+
 // pragma mark - setup
 
 function setupSelectionTable() {
@@ -38,6 +40,7 @@ function setupSelectionTable() {
         selectionCell.appendChild(checkbox);
         selectionCell.classList.add("checkbox");
         selectionCell.setAttribute("id", rowId);
+        selectionCell.classList.add(hskLevelString + selection.hsk_level);
 
         const hskLevelCell = newRow.insertCell();
         hskLevelCell.innerText = selection.hsk_level;
@@ -664,6 +667,18 @@ class BaseBoard {
         return !engWords.every((word) => {
             return definition.indexOf(word) > -1;
         });
+    }
+
+    onHSKInput(value) {
+        value.split(",").map((numAsString) => {
+            return hskLevelString + numAsString;
+        }).forEach((hskLevelSelector) => {
+            htmlToArray(document.querySelectorAll("." + hskLevelSelector + " input")).forEach((checkbox) => {
+                checkbox.checked = true;
+                checkbox.setAttribute("checked", "true");
+            });
+        });
+
     }
 }
 

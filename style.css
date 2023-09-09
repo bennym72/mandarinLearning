@@ -64,6 +64,13 @@ body {
   left:36vw;
 }
 
+.hskInput {
+  position:absolute;
+  top:5.75vh;
+  width:8vw;
+  left:4vw;
+}
+
 .resume{
   position:absolute;
   top:49vh;
