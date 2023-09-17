@@ -55,9 +55,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "phrase",
         "compound": "等一会儿，我们出发吧。",
-        "compound_pinyin": "Děng yīhuìr",
-        "compound_cantonese": " wǒmen chūfā ba.",
-        "compound_definition": "yat^1 wui6"
+        "compound_pinyin": "Děng yīhuìr; wǒmen chūfā ba.",
+        "compound_cantonese": "yat^1 wui6",
+        "compound_definition": "Wait a while; and then we can set off."
     },
     {
         "id": 6,
@@ -139,9 +139,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "phrase",
         "compound": "他一边吃饭，一边看电视。",
-        "compound_pinyin": "Tā yībiān chī fàn",
-        "compound_cantonese": " yībiān kàn diànshì.",
-        "compound_definition": "yat^1 bin1"
+        "compound_pinyin": "Tā yībiān chī fàn; yībiān kàn diànshì.",
+        "compound_cantonese": "yat^1 bin1",
+        "compound_definition": "He's eating and watching TV at the same time."
     },
     {
         "id": 13,
@@ -271,9 +271,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "verb",
         "compound": "请快点上车，车要开了。",
-        "compound_pinyin": "Qǐng kuàidiǎn shàngchē",
-        "compound_cantonese": " chē yào kāi le.",
-        "compound_definition": "soeng5 ce1"
+        "compound_pinyin": "Qǐng kuàidiǎn shàngchē; chē yào kāi le.",
+        "compound_cantonese": "soeng5 ce1",
+        "compound_definition": "Please get on the car quickly; the car is about to leave."
     },
     {
         "id": 24,
@@ -321,7 +321,7 @@ var data = [
         "compound": "下次我们去海边。",
         "compound_pinyin": "Xiàcì wǒmen qù hǎibiān.",
         "compound_cantonese": "haa6 ci3",
-        "compound_definition": "Next time"
+        "compound_definition": "Next time; we will go to the seaside."
     },
     {
         "id": 28,
@@ -333,7 +333,7 @@ var data = [
         "compound": "昨天我下班后去超市。",
         "compound_pinyin": "Zuótiān wǒ xiàbān hòu qù chāoshì.",
         "compound_cantonese": "haa6 baan1",
-        "compound_definition": "Yesterday"
+        "compound_definition": "Yesterday; after work; I went to the supermarket."
     },
     {
         "id": 29,
@@ -343,9 +343,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "verb",
         "compound": "现在下课了，我们可以回家了。",
-        "compound_pinyin": "Xiànzài xiàkè le",
-        "compound_cantonese": " wǒmen kěyǐ huí jiā le.",
-        "compound_definition": "haa6 fo1"
+        "compound_pinyin": "Xiànzài xiàkè le; wǒmen kěyǐ huí jiā le.",
+        "compound_cantonese": "haa6 fo1",
+        "compound_definition": "Class is over now; we can go home."
     },
     {
         "id": 30,
@@ -355,9 +355,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "verb",
         "compound": "下车后，记得锁好车门。",
-        "compound_pinyin": "Xiàchē hòu",
-        "compound_cantonese": " jìdé suǒ hǎo chēmén.",
-        "compound_definition": "haa6 ce1"
+        "compound_pinyin": "Xiàchē hòu; jìdé suǒ hǎo chēmén.",
+        "compound_cantonese": "haa6 ce1",
+        "compound_definition": "After getting off the car; remember to lock the doors."
     },
     {
         "id": 31,
@@ -379,9 +379,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "verb",
         "compound": "今天下雨了，记得带伞。",
-        "compound_pinyin": "Jīntiān xiàyǔ le",
-        "compound_cantonese": " jìdé dài sǎn.",
-        "compound_definition": "haa6 jyu5"
+        "compound_pinyin": "Jīntiān xiàyǔ le; jìdé dài sǎn.",
+        "compound_cantonese": "haa6 jyu5",
+        "compound_definition": "It's raining today; remember to bring an umbrella."
     },
     {
         "id": 33,
@@ -403,9 +403,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "phrase",
         "compound": "这个房间不大，但很舒适。",
-        "compound_pinyin": "Zhège fángjiān bù dà",
-        "compound_cantonese": " dàn hěn shūshì.",
-        "compound_definition": "bat1 daai6"
+        "compound_pinyin": "Zhège fángjiān bù dà; dàn hěn shūshì.",
+        "compound_cantonese": "bat1 daai6",
+        "compound_definition": "This room is not big; but it's very comfortable."
     },
     {
         "id": 35,
@@ -439,9 +439,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "phrase",
         "compound": "不用担心，一切都会好的。",
-        "compound_pinyin": "Bùyòng dānxīn",
-        "compound_cantonese": " yīqiè dōu huì hǎo de.",
-        "compound_definition": "bat1 jung6"
+        "compound_pinyin": "Bùyòng dānxīn; yīqiè dōu huì hǎo de.",
+        "compound_cantonese": "bat1 jung6",
+        "compound_definition": "Don't worry; everything will be fine."
     },
     {
         "id": 38,
@@ -895,9 +895,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "preposition",
         "compound": "从明天开始，我要学习汉语。",
-        "compound_pinyin": "Cóng míngtiān kāishǐ",
-        "compound_cantonese": " wǒ yào xuéxí hànyǔ.",
-        "compound_definition": "cung4"
+        "compound_pinyin": "Cóng míngtiān kāishǐ; wǒ yào xuéxí hànyǔ.",
+        "compound_cantonese": "cung4",
+        "compound_definition": "I will start learning Chinese from tomorrow."
     },
     {
         "id": 76,
@@ -945,7 +945,7 @@ var data = [
         "compound": "件",
         "compound_pinyin": "jiàn",
         "compound_cantonese": "gin6",
-        "compound_definition": "item; component; measure word for events"
+        "compound_definition": "item; component; measure word for events; things; clothes etc"
     },
     {
         "id": 80,
@@ -955,9 +955,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "verb",
         "compound": "明天是星期六，我要休息。",
-        "compound_pinyin": "Míngtiān shì xīngqī liù",
-        "compound_cantonese": " wǒ yào xiūxí.",
-        "compound_definition": "jau1"
+        "compound_pinyin": "Míngtiān shì xīngqī liù; wǒ yào xiūxí.",
+        "compound_cantonese": "jau1",
+        "compound_definition": "Tomorrow is Saturday; and I'm going to rest."
     },
     {
         "id": 81,
@@ -967,9 +967,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "verb",
         "compound": "晚上回家后，我喜欢休息。",
-        "compound_pinyin": "Wǎnshàng huí jiā hòu",
-        "compound_cantonese": " wǒ xǐhuān xiūxí.",
-        "compound_definition": "jau1 sik6"
+        "compound_pinyin": "Wǎnshàng huí jiā hòu; wǒ xǐhuān xiūxí.",
+        "compound_cantonese": "jau1 sik6",
+        "compound_definition": "I like to relax when I get home in the evening."
     },
     {
         "id": 82,
@@ -1087,9 +1087,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound": "请稍候，我查一下。",
-        "compound_pinyin": "Qǐng shāo hòu",
-        "compound_cantonese": " wǒ chá yīxià.",
-        "compound_definition": "hau6"
+        "compound_pinyin": "Qǐng shāo hòu; wǒ chá yīxià.",
+        "compound_cantonese": "hau6",
+        "compound_definition": "Please wait a moment; let me check."
     },
     {
         "id": 92,
@@ -1159,9 +1159,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "adjective",
         "compound": "你先吃，我等一下。",
-        "compound_pinyin": "Nǐ xiān chī",
-        "compound_cantonese": " wǒ děng yīxià.",
-        "compound_definition": "sin1"
+        "compound_pinyin": "Nǐ xiān chī; wǒ děng yīxià.",
+        "compound_cantonese": "sin1",
+        "compound_definition": "You go ahead and eat; I'll wait for a moment."
     },
     {
         "id": 98,
@@ -1173,7 +1173,7 @@ var data = [
         "compound": "他是一位医生先生。",
         "compound_pinyin": "Tā shì yī wèi yīshēng xiānsheng.",
         "compound_cantonese": "sin1 sang1",
-        "compound_definition": "He is a doctor"
+        "compound_definition": "He is a doctor; Mr."
     },
     {
         "id": 99,
@@ -1197,7 +1197,7 @@ var data = [
         "compound": "公",
         "compound_pinyin": "gōng",
         "compound_cantonese": "gung1",
-        "compound_definition": "public; collectively owned; common; international (e.g. high seas"
+        "compound_definition": "public; collectively owned; common; international (e.g. high seas; metric system; calendar); make public; fair; just; Duke; highest of five orders of nobility 五等爵位; honorable (gentlemen); father-in-law; male (animal)"
     },
     {
         "id": 101,
@@ -1399,9 +1399,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "verb",
         "compound": "我要出去一下，马上回来。",
-        "compound_pinyin": "Wǒ yào chūqù yīxià",
-        "compound_cantonese": " mǎshàng huílái.",
-        "compound_definition": "ceot1 heoi2"
+        "compound_pinyin": "Wǒ yào chūqù yīxià; mǎshàng huílái.",
+        "compound_cantonese": "ceot1 heoi2",
+        "compound_definition": "I need to go out for a moment; I'll be right back."
     },
     {
         "id": 118,
@@ -1411,9 +1411,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "verb",
         "compound": "请出来，我们要开始了。",
-        "compound_pinyin": "Qǐng chūlái",
-        "compound_cantonese": " wǒmen yào kāishǐ le.",
-        "compound_definition": "ceot1 lai4"
+        "compound_pinyin": "Qǐng chūlái; wǒmen yào kāishǐ le.",
+        "compound_cantonese": "ceot1 lai4",
+        "compound_definition": "Please come out; we are about to start."
     },
     {
         "id": 119,
@@ -1459,9 +1459,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "adverb",
         "compound": "别担心，一切都会好的。",
-        "compound_pinyin": "Bié dānxīn",
-        "compound_cantonese": " yīqiè dōu huì hǎo de.",
-        "compound_definition": "bit6"
+        "compound_pinyin": "Bié dānxīn; yīqiè dōu huì hǎo de.",
+        "compound_cantonese": "bit6",
+        "compound_definition": "Don't worry; everything will be fine."
     },
     {
         "id": 123,
@@ -1483,9 +1483,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "adjective",
         "compound": "除了苹果，还有别的水果吗？",
-        "compound_pinyin": "Chúle píngguǒ",
-        "compound_cantonese": " hái yǒu bié de shuǐguǒ ma?",
-        "compound_definition": "bit6 dik1"
+        "compound_pinyin": "Chúle píngguǒ; hái yǒu bié de shuǐguǒ ma?",
+        "compound_cantonese": "bit6 dik1",
+        "compound_definition": "Besides apples; do you have other fruits?"
     },
     {
         "id": 125,
@@ -1735,9 +1735,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "phrase",
         "compound": "我等了半天，他还没来。",
-        "compound_pinyin": "Wǒ děngle bàntiān",
-        "compound_cantonese": " tā hái méi lái.",
-        "compound_definition": "bun3 tin1"
+        "compound_pinyin": "Wǒ děngle bàntiān; tā hái méi lái.",
+        "compound_cantonese": "bun3 tin1",
+        "compound_definition": "I waited for half a day; but he hasn't arrived yet."
     },
     {
         "id": 146,
@@ -2059,9 +2059,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "particle",
         "compound": "今天天气很好，我们去爬山吧！",
-        "compound_pinyin": "Jīntiān tiānqì hěn hǎo",
-        "compound_cantonese": " wǒmen qù páshān ba!",
-        "compound_definition": "baa1"
+        "compound_pinyin": "Jīntiān tiānqì hěn hǎo; wǒmen qù páshān ba!",
+        "compound_cantonese": "baa1",
+        "compound_definition": "The weather is nice today; let's go mountain climbing!"
     },
     {
         "id": 173,
@@ -2251,9 +2251,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "question word",
         "compound": "你说得很好，哪里哪里。",
-        "compound_pinyin": "Nǐ shuō dé hěn hǎo",
-        "compound_cantonese": " nǎlǐ nǎlǐ.",
-        "compound_definition": "naa1 lei5"
+        "compound_pinyin": "Nǐ shuō dé hěn hǎo; nǎlǐ nǎlǐ.",
+        "compound_cantonese": "naa1 lei5",
+        "compound_definition": "You speak very well; not at all."
     },
     {
         "id": 189,
@@ -2325,7 +2325,7 @@ var data = [
         "compound": "喂",
         "compound_pinyin": "wèi",
         "compound_cantonese": "wai3",
-        "compound_definition": "hey; to feed (an animal"
+        "compound_definition": "hey; to feed (an animal; baby; invalid etc)"
     },
     {
         "id": 195,
@@ -2373,7 +2373,7 @@ var data = [
         "compound": "四季分明是春夏秋冬。",
         "compound_pinyin": "Sìjì fēnmíng shì chūnxiàqiūdōng.",
         "compound_cantonese": "sei3",
-        "compound_definition": "The four seasons are spring"
+        "compound_definition": "The four seasons are spring; summer; autumn; and winter."
     },
     {
         "id": 199,
@@ -2419,9 +2419,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "verb",
         "compound": "下班后，我总是急着回家。",
-        "compound_pinyin": "Xiàbān hòu",
-        "compound_cantonese": " wǒ zǒngshì jízhe huíjiā.",
-        "compound_definition": "wui4 gaa1"
+        "compound_pinyin": "Xiàbān hòu; wǒ zǒngshì jízhe huíjiā.",
+        "compound_cantonese": "wui4 gaa1",
+        "compound_definition": "After work; I always rush back home."
     },
     {
         "id": 203,
@@ -2623,9 +2623,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "adjective",
         "compound": "这个苹果坏了，不能吃。",
-        "compound_pinyin": "Zhège píngguǒ huài le",
-        "compound_cantonese": " bùnéng chī.",
-        "compound_definition": "waai6"
+        "compound_pinyin": "Zhège píngguǒ huài le; bùnéng chī.",
+        "compound_cantonese": "waai6",
+        "compound_definition": "This apple is bad; you can't eat it."
     },
     {
         "id": 220,
@@ -2649,7 +2649,7 @@ var data = [
         "compound": "大家请坐下。",
         "compound_pinyin": "Dàjiā qǐng zuòxià.",
         "compound_cantonese": "co5 haa6",
-        "compound_definition": "Everyone"
+        "compound_definition": "Everyone; please take a seat."
     },
     {
         "id": 222,
@@ -2719,9 +2719,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound": "外边下雨了，记得带伞。",
-        "compound_pinyin": "Wàibiān xiàyǔ le",
-        "compound_cantonese": " jìdé dài sǎn.",
-        "compound_definition": "ngoi6 bin1"
+        "compound_pinyin": "Wàibiān xiàyǔ le; jìdé dài sǎn.",
+        "compound_cantonese": "ngoi6 bin1",
+        "compound_definition": "It's raining outside; remember to bring an umbrella."
     },
     {
         "id": 228,
@@ -3295,9 +3295,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "preposition",
         "compound": "请进来，我家里有茶。",
-        "compound_pinyin": "Qǐng jìnlái",
-        "compound_cantonese": " wǒ jiālǐ yǒu chá.",
-        "compound_definition": "gaa1 lei5"
+        "compound_pinyin": "Qǐng jìnlái; wǒ jiālǐ yǒu chá.",
+        "compound_cantonese": "gaa1 lei5",
+        "compound_definition": "Please come in; there is tea in my home."
     },
     {
         "id": 276,
@@ -3319,9 +3319,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "adjective",
         "compound": "对不起，我迟到了。",
-        "compound_pinyin": "Duìbuqǐ",
-        "compound_cantonese": " wǒ chídào le.",
-        "compound_definition": "deoi3"
+        "compound_pinyin": "Duìbuqǐ; wǒ chídào le.",
+        "compound_cantonese": "deoi3",
+        "compound_definition": "I'm sorry; I'm late."
     },
     {
         "id": 278,
@@ -3331,9 +3331,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "phrase",
         "compound": "对不起，我弄破了你的杯子。",
-        "compound_pinyin": "Duìbuqǐ",
-        "compound_cantonese": " wǒ nòng pò le nǐ de bēizi.",
-        "compound_definition": "deoi3 bat1 hei2"
+        "compound_pinyin": "Duìbuqǐ; wǒ nòng pò le nǐ de bēizi.",
+        "compound_cantonese": "deoi3 bat1 hei2",
+        "compound_definition": "I'm sorry; I broke your cup."
     },
     {
         "id": 279,
@@ -3355,9 +3355,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound": "服务员，请问一下。",
-        "compound_pinyin": "Fúwùyuán",
-        "compound_cantonese": " qǐngwèn yīxià.",
-        "compound_definition": "siu2 ze2"
+        "compound_pinyin": "Fúwùyuán; qǐngwèn yīxià.",
+        "compound_cantonese": "siu2 ze2",
+        "compound_definition": "Waitress; may I ask a question?"
     },
     {
         "id": 281,
@@ -3715,9 +3715,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "verb",
         "compound": "请开门，我要出去。",
-        "compound_pinyin": "Qǐng kāi mén",
-        "compound_cantonese": " wǒ yào chūqù.",
-        "compound_definition": "hoi1"
+        "compound_pinyin": "Qǐng kāi mén; wǒ yào chūqù.",
+        "compound_cantonese": "hoi1",
+        "compound_definition": "Please open the door; I want to go out."
     },
     {
         "id": 311,
@@ -3729,7 +3729,7 @@ var data = [
         "compound": "明天我们要开会讨论项目。",
         "compound_pinyin": "Míngtiān wǒmen yào kāihuì tǎolùn xiàngmù.",
         "compound_cantonese": "hoi1 wui6",
-        "compound_definition": "Tomorrow"
+        "compound_definition": "Tomorrow; we are going to have a meeting to discuss the project."
     },
     {
         "id": 312,
@@ -3751,9 +3751,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "verb",
         "compound": "我只是开玩笑的，不要生气。",
-        "compound_pinyin": "Wǒ zhǐshì kāi wánxiào de",
-        "compound_cantonese": " bùyào shēngqì.",
-        "compound_definition": "hoi1 waan2 siu6"
+        "compound_pinyin": "Wǒ zhǐshì kāi wánxiào de; bùyào shēngqì.",
+        "compound_cantonese": "hoi1 waan2 siu6",
+        "compound_definition": "I was just kidding; don't be angry."
     },
     {
         "id": 314,
@@ -3847,9 +3847,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "verb",
         "compound": "通过努力，你可以得到成功。",
-        "compound_pinyin": "Tōngguò nǔlì",
-        "compound_cantonese": " nǐ kěyǐ dédào chénggōng.",
-        "compound_definition": "dak1 dou3"
+        "compound_pinyin": "Tōngguò nǔlì; nǐ kěyǐ dédào chénggōng.",
+        "compound_cantonese": "dak1 dou3",
+        "compound_definition": "Through hard work; you can achieve success."
     },
     {
         "id": 322,
@@ -3895,9 +3895,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "adjective",
         "compound": "快点，我们要迟到了！",
-        "compound_pinyin": "Kuài diǎn",
-        "compound_cantonese": " wǒmen yào chídào le!",
-        "compound_definition": "faai3"
+        "compound_pinyin": "Kuài diǎn; wǒmen yào chídào le!",
+        "compound_cantonese": "faai3",
+        "compound_definition": "Hurry up; we're going to be late!"
     },
     {
         "id": 326,
@@ -3993,7 +3993,7 @@ var data = [
         "compound": "意思",
         "compound_pinyin": "yìsi",
         "compound_cantonese": "ji3si1",
-        "compound_definition": "idea; opinion; meaning; wish; desire; interest; fun; token of appreciation"
+        "compound_definition": "idea; opinion; meaning; wish; desire; interest; fun; token of appreciation; affection etc; to give as a small token; to do something as a gesture of goodwill etc"
     },
     {
         "id": 334,
@@ -4279,9 +4279,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "verb",
         "compound": "明天放假，我们可以出去玩。",
-        "compound_pinyin": "Míngtiān fàngjià",
-        "compound_cantonese": " wǒmen kěyǐ chūqù wán.",
-        "compound_definition": "fong3 gaa3"
+        "compound_pinyin": "Míngtiān fàngjià; wǒmen kěyǐ chūqù wán.",
+        "compound_cantonese": "fong3 gaa3",
+        "compound_definition": "Tomorrow is a holiday; we can go out and play."
     },
     {
         "id": 358,
@@ -4291,9 +4291,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "verb",
         "compound": "放学后，我通常去图书馆。",
-        "compound_pinyin": "Fàngxué hòu",
-        "compound_cantonese": " wǒ tōngcháng qù túshūguǎn.",
-        "compound_definition": "fong3 hok6"
+        "compound_pinyin": "Fàngxué hòu; wǒ tōngcháng qù túshūguǎn.",
+        "compound_cantonese": "fong3 hok6",
+        "compound_definition": "After school; I usually go to the library."
     },
     {
         "id": 359,
@@ -4555,9 +4555,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "verb",
         "compound": "他解释得很清楚，我明白了。",
-        "compound_pinyin": "Tā jiěshì dé hěn qīngchǔ",
-        "compound_cantonese": " wǒ míngbái le.",
-        "compound_definition": "ming4 baak6"
+        "compound_pinyin": "Tā jiěshì dé hěn qīngchǔ; wǒ míngbái le.",
+        "compound_cantonese": "ming4 baak6",
+        "compound_definition": "He explained it very clearly; and I understand."
     },
     {
         "id": 381,
@@ -4807,9 +4807,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "pronoun",
         "compound": "有的人喜欢咖啡，有的人喜欢茶。",
-        "compound_pinyin": "Yǒude rén xǐhuān kāfēi",
-        "compound_cantonese": " yǒude rén xǐhuān chá.",
-        "compound_definition": "jau5 dik1"
+        "compound_pinyin": "Yǒude rén xǐhuān kāfēi; yǒude rén xǐhuān chá.",
+        "compound_cantonese": "jau5 dik1",
+        "compound_definition": "Some people like coffee; some people like tea."
     },
     {
         "id": 402,
@@ -5347,9 +5347,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "phrase",
         "compound": "别担心，一切都没事儿了。",
-        "compound_pinyin": "Bié dānxīn",
-        "compound_cantonese": " yīqiè dōu méishìr le.",
-        "compound_definition": "mou4 si6 ji6"
+        "compound_pinyin": "Bié dānxīn; yīqiè dōu méishìr le.",
+        "compound_cantonese": "mou4 si6 ji6",
+        "compound_definition": "Don't worry; everything is fine now."
     },
     {
         "id": 447,
@@ -5359,9 +5359,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "phrase",
         "compound": "那只是小问题，没什么大不了的。",
-        "compound_pinyin": "Nà zhǐshì xiǎo wèntí",
-        "compound_cantonese": " méi shénme dà bùliǎo de.",
-        "compound_definition": "mou4 sam6 maa1"
+        "compound_pinyin": "Nà zhǐshì xiǎo wèntí; méi shénme dà bùliǎo de.",
+        "compound_cantonese": "mou4 sam6 maa1",
+        "compound_definition": "It's just a small issue; nothing to worry about."
     },
     {
         "id": 448,
@@ -5371,9 +5371,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "phrase",
         "compound": "如果你迟到了，没关系，我们会等你的。",
-        "compound_pinyin": "Rúguǒ nǐ chídào le",
-        "compound_cantonese": " méiguānxi",
-        "compound_definition": " wǒmen huì děng nǐ de."
+        "compound_pinyin": "Rúguǒ nǐ chídào le; méiguānxi; wǒmen huì děng nǐ de.",
+        "compound_cantonese": "mou4 gwaan1 hai6",
+        "compound_definition": "If you're running late; it's okay; we'll wait for you."
     },
     {
         "id": 449,
@@ -5407,9 +5407,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound": "请问，洗手间在哪里？",
-        "compound_pinyin": "Qǐngwèn",
-        "compound_cantonese": " xǐshǒujiān zài nǎlǐ?",
-        "compound_definition": "sai2 sau2 gaan1"
+        "compound_pinyin": "Qǐngwèn; xǐshǒujiān zài nǎlǐ?",
+        "compound_cantonese": "sai2 sau2 gaan1",
+        "compound_definition": "Excuse me; where is the restroom?"
     },
     {
         "id": 452,
@@ -5419,9 +5419,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "adjective",
         "compound": "喝一杯冷水，解渴。",
-        "compound_pinyin": "Hē yī bēi lěngshuǐ",
-        "compound_cantonese": " jiěkě.",
-        "compound_definition": "hot3"
+        "compound_pinyin": "Hē yī bēi lěngshuǐ; jiěkě.",
+        "compound_cantonese": "hot3",
+        "compound_definition": "Drink a glass of cold water to quench your thirst."
     },
     {
         "id": 453,
@@ -5455,9 +5455,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound": "昨晚，我们在篝火旁边唱歌。",
-        "compound_pinyin": "Zuówǎn",
-        "compound_cantonese": " wǒmen zài gōuhuǒ pángbiān chànggē.",
-        "compound_definition": "fo2"
+        "compound_pinyin": "Zuówǎn; wǒmen zài gōuhuǒ pángbiān chànggē.",
+        "compound_cantonese": "fo2",
+        "compound_definition": "Last night; we sang songs by the campfire."
     },
     {
         "id": 456,
@@ -5493,7 +5493,7 @@ var data = [
         "compound": "请问现在几点了？",
         "compound_pinyin": "Qǐngwèn xiànzài jǐ diǎn le?",
         "compound_cantonese": "dim2",
-        "compound_definition": "Excuse me"
+        "compound_definition": "Excuse me; what time is it?"
     },
     {
         "id": 459,
@@ -5599,9 +5599,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound": "早餐时，我喝了一杯牛奶。",
-        "compound_pinyin": "Zǎocān shí",
-        "compound_cantonese": " wǒ hē le yī bēi niúnǎi.",
-        "compound_definition": "ngau4 naai5"
+        "compound_pinyin": "Zǎocān shí; wǒ hē le yī bēi niúnǎi.",
+        "compound_cantonese": "ngau4 naai5",
+        "compound_definition": "I had a glass of milk for breakfast."
     },
     {
         "id": 468,
@@ -5743,9 +5743,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "adjective",
         "compound": "我生病了，需要休息。",
-        "compound_pinyin": "Wǒ shēngbìng le",
-        "compound_cantonese": " xūyào xiūxí.",
-        "compound_definition": "sang1 beng6"
+        "compound_pinyin": "Wǒ shēngbìng le; xūyào xiūxí.",
+        "compound_cantonese": "sang1 beng6",
+        "compound_definition": "I'm sick and need to rest."
     },
     {
         "id": 480,
@@ -5803,9 +5803,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound": "我的电脑出了点问题，需要修理。",
-        "compound_pinyin": "Wǒ de diànnǎo chū le diǎn wèntí",
-        "compound_cantonese": " xūyào xiūlǐ.",
-        "compound_definition": "din6 nou5"
+        "compound_pinyin": "Wǒ de diànnǎo chū le diǎn wèntí; xūyào xiūlǐ.",
+        "compound_cantonese": "din6 nou5",
+        "compound_definition": "There's a problem with my computer; it needs repair."
     },
     {
         "id": 485,
@@ -5899,9 +5899,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound": "在这个学校，男生和女生人数差不多。",
-        "compound_pinyin": "Zài zhège xuéxiào",
-        "compound_cantonese": " nánshēng hé nǚshēng rénshù chà bùduō.",
-        "compound_definition": "naam4 sang1"
+        "compound_pinyin": "Zài zhège xuéxiào; nánshēng hé nǚshēng rénshù chà bùduō.",
+        "compound_cantonese": "naam4 sang1",
+        "compound_definition": "In this school; there are almost an equal number of male and female students."
     },
     {
         "id": 493,
@@ -5911,9 +5911,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound": "我生病了，需要去医院看病。",
-        "compound_pinyin": "Wǒ shēngbìng le",
-        "compound_cantonese": " xūyào qù yīyuàn kàn bìng.",
-        "compound_definition": "beng6"
+        "compound_pinyin": "Wǒ shēngbìng le; xūyào qù yīyuàn kàn bìng.",
+        "compound_cantonese": "beng6",
+        "compound_definition": "I'm sick and need to go to the hospital for treatment."
     },
     {
         "id": 494,
@@ -6007,9 +6007,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "verb",
         "compound": "如果你感觉不舒服，应该去看病。",
-        "compound_pinyin": "Rúguǒ nǐ gǎnjué bù shūfú",
-        "compound_cantonese": " yīnggāi qù kànbìng.",
-        "compound_definition": "hon3 beng6"
+        "compound_pinyin": "Rúguǒ nǐ gǎnjué bù shūfú; yīnggāi qù kànbìng.",
+        "compound_cantonese": "hon3 beng6",
+        "compound_definition": "If you don't feel well; you should go see a doctor."
     },
     {
         "id": 502,
@@ -6153,7 +6153,7 @@ var data = [
         "compound": "离",
         "compound_pinyin": "lí",
         "compound_cantonese": "lei4",
-        "compound_definition": "to leave; to part from; to be away from; (in giving distances) from; without (something); independent of; one of the Eight Trigrams 八卦"
+        "compound_definition": "to leave; to part from; to be away from; (in giving distances) from; without (something); independent of; one of the Eight Trigrams 八卦; symbolizing fire; ☲; (Chinese surname)"
     },
     {
         "id": 514,
@@ -6177,7 +6177,7 @@ var data = [
         "compound": "他站在火车站等火车。",
         "compound_pinyin": "Tā zhàn zài huǒchēzhàn děng huǒchē.",
         "compound_cantonese": "zaam6",
-        "compound_definition": "He is standing at the train station"
+        "compound_definition": "He is standing at the train station; waiting for the train."
     },
     {
         "id": 516,
@@ -6201,7 +6201,7 @@ var data = [
         "compound": "笔",
         "compound_pinyin": "bǐ",
         "compound_cantonese": "bat1",
-        "compound_definition": "pen; pencil; writing brush; to write or compose; the strokes of Chinese characters; measure word for sums of money"
+        "compound_definition": "pen; pencil; writing brush; to write or compose; the strokes of Chinese characters; measure word for sums of money; deals"
     },
     {
         "id": 518,
@@ -6235,9 +6235,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "verb",
         "compound": "请等一下，我马上就来。",
-        "compound_pinyin": "Qǐng děng yīxià",
-        "compound_cantonese": " wǒ mǎshàng jiù lái.",
-        "compound_definition": "dang2"
+        "compound_pinyin": "Qǐng děng yīxià; wǒ mǎshàng jiù lái.",
+        "compound_cantonese": "dang2",
+        "compound_definition": "Please wait a moment; I'll be right there."
     },
     {
         "id": 521,
@@ -6271,9 +6271,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound": "我喜欢吃炒饭，特别是虾仁炒饭。",
-        "compound_pinyin": "Wǒ xǐhuān chī chǎofàn",
-        "compound_cantonese": " tèbié shì xiārén chǎofàn.",
-        "compound_definition": "mai5 faan6"
+        "compound_pinyin": "Wǒ xǐhuān chī chǎofàn; tèbié shì xiārén chǎofàn.",
+        "compound_cantonese": "mai5 faan6",
+        "compound_definition": "I like fried rice; especially shrimp fried rice."
     },
     {
         "id": 524,
@@ -6295,9 +6295,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "adjective",
         "compound": "长途旅行后，我们都感到非常累。",
-        "compound_pinyin": "Chángtú lǚxíng hòu",
-        "compound_cantonese": " wǒmen dōu gǎndào fēicháng lèi.",
-        "compound_definition": "leoi5"
+        "compound_pinyin": "Chángtú lǚxíng hòu; wǒmen dōu gǎndào fēicháng lèi.",
+        "compound_cantonese": "leoi5",
+        "compound_definition": "After a long journey; we all feel very tired."
     },
     {
         "id": 526,
@@ -6321,7 +6321,7 @@ var data = [
         "compound": "纸",
         "compound_pinyin": "zhǐ",
         "compound_cantonese": "zi2",
-        "compound_definition": "paper; measure word for documents"
+        "compound_definition": "paper; measure word for documents; letter etc"
     },
     {
         "id": 528,
@@ -6463,9 +6463,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound": "明天我们有重要的考试，需要好好准备。",
-        "compound_pinyin": "Míngtiān wǒmen yǒu zhòngyào de kǎoshì",
-        "compound_cantonese": " xūyào hǎohǎo zhǔnbè.",
-        "compound_definition": "haau2 si3"
+        "compound_pinyin": "Míngtiān wǒmen yǒu zhòngyào de kǎoshì; xūyào hǎohǎo zhǔnbè.",
+        "compound_cantonese": "haau2 si3",
+        "compound_definition": "We have an important exam tomorrow; so we need to prepare well."
     },
     {
         "id": 540,
@@ -6487,9 +6487,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "verb",
         "compound": "坚持努力学习，你一定能成功。",
-        "compound_pinyin": "Jiānchí nǔlì xuéxí",
-        "compound_cantonese": " nǐ yīdìng néng chénggōng.",
-        "compound_definition": "nang4"
+        "compound_pinyin": "Jiānchí nǔlì xuéxí; nǐ yīdìng néng chénggōng.",
+        "compound_cantonese": "nang4",
+        "compound_definition": "Keep studying hard; and you will surely succeed."
     },
     {
         "id": 542,
@@ -6549,7 +6549,7 @@ var data = [
         "compound": "药",
         "compound_pinyin": "yào",
         "compound_cantonese": "joek6",
-        "compound_definition": "medicine; drug; substance used for a specific purpose (e.g. poisoning"
+        "compound_definition": "medicine; drug; substance used for a specific purpose (e.g. poisoning; explosion; fermenting); to poison"
     },
     {
         "id": 547,
@@ -6595,9 +6595,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "verb",
         "compound": "不管遇到什么困难，我们都会勇往直前。",
-        "compound_pinyin": "Bùguǎn yùdào shénme kùnnan",
-        "compound_cantonese": " wǒmen dōu huì yǒng wǎng zhíqián.",
-        "compound_definition": "hang4"
+        "compound_pinyin": "Bùguǎn yùdào shénme kùnnan; wǒmen dōu huì yǒng wǎng zhíqián.",
+        "compound_cantonese": "hang4",
+        "compound_definition": "No matter what difficulties we encounter; we will always move forward courageously."
     },
     {
         "id": 551,
@@ -6643,9 +6643,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound": "太阳在西边落山时，天空变得很美丽。",
-        "compound_pinyin": "Tàiyáng zài xī biān luòshān shí",
-        "compound_cantonese": " tiānkōng biànde hěn měilì.",
-        "compound_definition": "sai1"
+        "compound_pinyin": "Tàiyáng zài xī biān luòshān shí; tiānkōng biànde hěn měilì.",
+        "compound_cantonese": "sai1",
+        "compound_definition": "The sky becomes very beautiful when the sun sets in the west."
     },
     {
         "id": 555,
@@ -6679,9 +6679,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "verb",
         "compound": "如果你要成功，必须付出努力和耐心。",
-        "compound_pinyin": "Rúguǒ nǐ yào chénggōng",
-        "compound_cantonese": " bìxū fùchū nǔlì hé nàixīn.",
-        "compound_definition": "jiu1"
+        "compound_pinyin": "Rúguǒ nǐ yào chénggōng; bìxū fùchū nǔlì hé nàixīn.",
+        "compound_cantonese": "jiu1",
+        "compound_definition": "If you want to succeed; you must put in effort and patience."
     },
     {
         "id": 558,
@@ -6727,9 +6727,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "verb",
         "compound": "他昨晚没有好好休息，所以今天感觉很疲倦。",
-        "compound_pinyin": "Tā zuówǎn méiyǒu hǎohǎo xiūxí",
-        "compound_cantonese": " suǒyǐ jīntiān gǎnjué hěn píjuàn.",
-        "compound_definition": "gok3"
+        "compound_pinyin": "Tā zuówǎn méiyǒu hǎohǎo xiūxí; suǒyǐ jīntiān gǎnjué hěn píjuàn.",
+        "compound_cantonese": "gok3",
+        "compound_definition": "He didn't rest well last night; so he feels very tired today."
     },
     {
         "id": 562,
@@ -6789,7 +6789,7 @@ var data = [
         "compound": "让",
         "compound_pinyin": "ràng",
         "compound_cantonese": "joeng6",
-        "compound_definition": "to yield; to permit; to let somebody do something; to have somebody do something; to make somebody (feel sad etc); by (indicates the agent in a passive clause"
+        "compound_definition": "to yield; to permit; to let somebody do something; to have somebody do something; to make somebody (feel sad etc); by (indicates the agent in a passive clause; like 被)"
     },
     {
         "id": 567,
@@ -6871,9 +6871,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound": "请别打断别人说话，要听完他们说完。",
-        "compound_pinyin": "Qǐng bié dǎduàn biérén shuōhuà",
-        "compound_cantonese": " yào tīng wán tāmen shuō wán.",
-        "compound_definition": "waa6"
+        "compound_pinyin": "Qǐng bié dǎduàn biérén shuōhuà; yào tīng wán tāmen shuō wán.",
+        "compound_cantonese": "waa6",
+        "compound_definition": "Please don't interrupt when others are speaking; listen to them finish."
     },
     {
         "id": 574,
@@ -6895,9 +6895,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "verb",
         "compound": "他喜欢说故事，让人听得津津有味。",
-        "compound_pinyin": "Tā xǐhuān shuō gùshì",
-        "compound_cantonese": " ràng rén tīng dé jīnjīn yǒuwèi.",
-        "compound_definition": "syut3"
+        "compound_pinyin": "Tā xǐhuān shuō gùshì; ràng rén tīng dé jīnjīn yǒuwèi.",
+        "compound_cantonese": "syut3",
+        "compound_definition": "He enjoys telling stories that captivate the listener."
     },
     {
         "id": 576,
@@ -6931,9 +6931,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "verb",
         "compound": "如果你生病了，可以请假休息。",
-        "compound_pinyin": "Rúguǒ nǐ shēngbìngle",
-        "compound_cantonese": " kěyǐ qǐng jià xiūxí.",
-        "compound_definition": "ceng2 gaa2"
+        "compound_pinyin": "Rúguǒ nǐ shēngbìngle; kěyǐ qǐng jià xiūxí.",
+        "compound_cantonese": "ceng2 gaa2",
+        "compound_definition": "If you are sick; you can request leave to rest."
     },
     {
         "id": 579,
@@ -6943,9 +6943,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "phrase",
         "compound": "请坐下，让我给你倒杯茶。",
-        "compound_pinyin": "Qǐng zuò xià",
-        "compound_cantonese": " ràng wǒ gěi nǐ dào bēi chá.",
-        "compound_definition": "ceng2 co5"
+        "compound_pinyin": "Qǐng zuò xià; ràng wǒ gěi nǐ dào bēi chá.",
+        "compound_cantonese": "ceng2 co5",
+        "compound_definition": "Please have a seat; and let me pour you a cup of tea."
     },
     {
         "id": 580,
@@ -6955,9 +6955,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "phrase",
         "compound": "请进，别站在门口。",
-        "compound_pinyin": "Qǐng jìn",
-        "compound_cantonese": " bié zhàn zài ménkǒu.",
-        "compound_definition": "ceng2 zeon3"
+        "compound_pinyin": "Qǐng jìn; bié zhàn zài ménkǒu.",
+        "compound_cantonese": "ceng2 zeon3",
+        "compound_definition": "Please come in; don't stand at the door."
     },
     {
         "id": 581,
@@ -6967,9 +6967,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "phrase",
         "compound": "请问一下，地铁站在哪里？",
-        "compound_pinyin": "Qǐng wèn yīxià",
-        "compound_cantonese": " dìtiě zhàn zài nǎlǐ?",
-        "compound_definition": "ceng2 man6"
+        "compound_pinyin": "Qǐng wèn yīxià; dìtiě zhàn zài nǎlǐ?",
+        "compound_cantonese": "ceng2 man6",
+        "compound_definition": "May I ask where the subway station is?"
     },
     {
         "id": 582,
@@ -6979,9 +6979,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "verb",
         "compound": "我喜欢读小说，尤其是科幻小说。",
-        "compound_pinyin": "Wǒ xǐhuān dú xiǎoshuō",
-        "compound_cantonese": " yóuqí shì kēhuàn xiǎoshuō.",
-        "compound_definition": "duk6"
+        "compound_pinyin": "Wǒ xǐhuān dú xiǎoshuō; yóuqí shì kēhuàn xiǎoshuō.",
+        "compound_cantonese": "duk6",
+        "compound_definition": "I enjoy reading novels; especially science fiction ones."
     },
     {
         "id": 583,
@@ -7015,9 +7015,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound": "今天的课文很有趣，我们学到了许多新知识。",
-        "compound_pinyin": "Jīntiān de kèwén hěn yǒuqù",
-        "compound_cantonese": " wǒmen xué dào le xǔduō xīn zhīshì.",
-        "compound_definition": "fo1 man4"
+        "compound_pinyin": "Jīntiān de kèwén hěn yǒuqù; wǒmen xué dào le xǔduō xīn zhīshì.",
+        "compound_cantonese": "fo1 man4",
+        "compound_definition": "Today's lesson text is very interesting; and we learned a lot of new knowledge."
     },
     {
         "id": 586,
@@ -7027,9 +7027,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound": "我的课本放在书包里，随时可以拿出来学习。",
-        "compound_pinyin": "Wǒ de kèběn fàng zài shūbāo lǐ",
-        "compound_cantonese": " suíshí kěyǐ ná chūlái xuéxí.",
-        "compound_definition": "fo1 bun2"
+        "compound_pinyin": "Wǒ de kèběn fàng zài shūbāo lǐ; suíshí kěyǐ ná chūlái xuéxí.",
+        "compound_cantonese": "fo1 bun2",
+        "compound_definition": "My textbooks are in my schoolbag; ready to be taken out for study anytime."
     },
     {
         "id": 587,
@@ -7063,9 +7063,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "phrase",
         "compound": "谢谢你的帮助，我真的很感激。",
-        "compound_pinyin": "Xièxiè nǐ de bāngzhù",
-        "compound_cantonese": " wǒ zhēnde hěn gǎnjī.",
-        "compound_definition": "ze6 ze6"
+        "compound_pinyin": "Xièxiè nǐ de bāngzhù; wǒ zhēnde hěn gǎnjī.",
+        "compound_cantonese": "ze6 ze6",
+        "compound_definition": "Thank you for your help; I really appreciate it."
     },
     {
         "id": 590,
@@ -7075,9 +7075,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "adjective",
         "compound": "这家餐馆的价格有点贵，但食物非常美味。",
-        "compound_pinyin": "Zhè jiā cānguǎn de jiàgé yǒudiǎn guì",
-        "compound_cantonese": " dàn shíwù fēicháng měiwèi.",
-        "compound_definition": "gwai3"
+        "compound_pinyin": "Zhè jiā cānguǎn de jiàgé yǒudiǎn guì; dàn shíwù fēicháng měiwèi.",
+        "compound_cantonese": "gwai3",
+        "compound_definition": "The prices at this restaurant are a bit high; but the food is delicious."
     },
     {
         "id": 591,
@@ -7099,9 +7099,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "verb",
         "compound": "我喜欢在公园里散步，特别是在早晨。",
-        "compound_pinyin": "Wǒ xǐhuān zài gōngyuán lǐ sànbù",
-        "compound_cantonese": " tèbié shì zài zǎomàn.",
-        "compound_definition": "zau2 lou6"
+        "compound_pinyin": "Wǒ xǐhuān zài gōngyuán lǐ sànbù; tèbié shì zài zǎomàn.",
+        "compound_cantonese": "zau2 lou6",
+        "compound_definition": "I enjoy walking in the park; especially in the morning."
     },
     {
         "id": 593,
@@ -7123,9 +7123,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "verb",
         "compound": "明天我要早点起床，去晨跑。",
-        "compound_pinyin": "Míngtiān wǒ yào zǎodiǎn qǐchuáng",
-        "compound_cantonese": " qù chén pǎo.",
-        "compound_definition": "hei2 coeng4"
+        "compound_pinyin": "Míngtiān wǒ yào zǎodiǎn qǐchuáng; qù chén pǎo.",
+        "compound_cantonese": "hei2 coeng4",
+        "compound_definition": "Tomorrow; I want to get up early and go for a morning run."
     },
     {
         "id": 595,
@@ -7183,9 +7183,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound": "这条路通向山顶，风景非常美丽。",
-        "compound_pinyin": "Zhè tiáo lù tōngxiàng shāndǐng",
-        "compound_cantonese": " fēngjǐng fēicháng měilì.",
-        "compound_definition": "lou6"
+        "compound_pinyin": "Zhè tiáo lù tōngxiàng shāndǐng; fēngjǐng fēicháng měilì.",
+        "compound_cantonese": "lou6",
+        "compound_definition": "This road leads to the mountaintop; and the scenery is very beautiful."
     },
     {
         "id": 600,
@@ -7195,9 +7195,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound": "我们在路上遇到了一场大雨，所以湿透了。",
-        "compound_pinyin": "Wǒmen zài lùshàng yùdào le yīchǎng dàyǔ",
-        "compound_cantonese": " suǒyǐ shī tòu le.",
-        "compound_definition": "lou6 soeng6"
+        "compound_pinyin": "Wǒmen zài lùshàng yùdào le yīchǎng dàyǔ; suǒyǐ shī tòu le.",
+        "compound_cantonese": "lou6 soeng6",
+        "compound_definition": "We encountered heavy rain on the way; so we got soaked."
     },
     {
         "id": 601,
@@ -7207,9 +7207,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound": "在这个路口左转，你就会看到图书馆。",
-        "compound_pinyin": "Zài zhège lùkǒu zuǒ zhuǎn",
-        "compound_cantonese": " nǐ jiù huì kàn dào túshūguǎn.",
-        "compound_definition": "lou6 hau2"
+        "compound_pinyin": "Zài zhège lùkǒu zuǒ zhuǎn; nǐ jiù huì kàn dào túshūguǎn.",
+        "compound_cantonese": "lou6 hau2",
+        "compound_definition": "Turn left at this intersection; and you will see the library."
     },
     {
         "id": 602,
@@ -7255,9 +7255,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound": "她的身材非常苗条，每天都锻炼保持健康。",
-        "compound_pinyin": "Tā de shēncái fēicháng miáotiáo",
-        "compound_cantonese": " měitiān dōu duànliàn bǎochí jiànkāng.",
-        "compound_definition": "san1"
+        "compound_pinyin": "Tā de shēncái fēicháng miáotiáo; měitiān dōu duànliàn bǎochí jiànkāng.",
+        "compound_cantonese": "san1",
+        "compound_definition": "She has a very slender figure and exercises every day to stay healthy."
     },
     {
         "id": 606,
@@ -7267,9 +7267,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound": "我身上有点冷，需要多穿一件外套。",
-        "compound_pinyin": "Wǒ shēnshang yǒudiǎn lěng",
-        "compound_cantonese": " xūyào duō chuān yī jiàn wàitào.",
-        "compound_definition": "san1 soeng6"
+        "compound_pinyin": "Wǒ shēnshang yǒudiǎn lěng; xūyào duō chuān yī jiàn wàitào.",
+        "compound_cantonese": "san1 soeng6",
+        "compound_definition": "I feel a bit cold; so I need to wear an extra coat."
     },
     {
         "id": 607,
@@ -7279,9 +7279,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound": "要保持健康，我们需要照顾好我们的身体。",
-        "compound_pinyin": "Yào bǎochí jiànkāng",
-        "compound_cantonese": " wǒmen xūyào zhàogù hǎo wǒmen de shēntǐ.",
-        "compound_definition": "san1 tai2"
+        "compound_pinyin": "Yào bǎochí jiànkāng; wǒmen xūyào zhàogù hǎo wǒmen de shēntǐ.",
+        "compound_cantonese": "san1 tai2",
+        "compound_definition": "To stay healthy; we need to take care of our bodies."
     },
     {
         "id": 608,
@@ -7303,9 +7303,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound": "在火车上，你可以欣赏美丽的风景。",
-        "compound_pinyin": "Zài huǒchē shàng",
-        "compound_cantonese": " nǐ kěyǐ xīnshǎng měilì de fēngjǐng.",
-        "compound_definition": "ce1 soeng6"
+        "compound_pinyin": "Zài huǒchē shàng; nǐ kěyǐ xīnshǎng měilì de fēngjǐng.",
+        "compound_cantonese": "ce1 soeng6",
+        "compound_definition": "On the train; you can enjoy beautiful scenery."
     },
     {
         "id": 610,
@@ -7315,9 +7315,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound": "我们必须提前买车票，以确保有座位。",
-        "compound_pinyin": "Wǒmen bìxū tíqián mǎi chēpiào",
-        "compound_cantonese": " yǐ quèbǎo yǒu zuòwèi.",
-        "compound_definition": "ce1 piu3"
+        "compound_pinyin": "Wǒmen bìxū tíqián mǎi chēpiào; yǐ quèbǎo yǒu zuòwèi.",
+        "compound_cantonese": "ce1 piu3",
+        "compound_definition": "We need to buy tickets in advance to ensure we have seats."
     },
     {
         "id": 611,
@@ -7327,9 +7327,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound": "我们将在火车站见面，然后一起出发。",
-        "compound_pinyin": "Wǒmen jiāng zài huǒchēzhàn jiànmiàn",
-        "compound_cantonese": " ránhòu yīqǐ chūfā.",
-        "compound_definition": "ce1 zaam6"
+        "compound_pinyin": "Wǒmen jiāng zài huǒchēzhàn jiànmiàn; ránhòu yīqǐ chūfā.",
+        "compound_cantonese": "ce1 zaam6",
+        "compound_definition": "We will meet at the train station and then depart together."
     },
     {
         "id": 612,
@@ -7339,9 +7339,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound": "我们在河边野餐，度过了一个美好的下午。",
-        "compound_pinyin": "Wǒmen zài hébiān yěcān",
-        "compound_cantonese": " dùguò le yīgè měihǎo de xiàwǔ.",
-        "compound_definition": "bin1"
+        "compound_pinyin": "Wǒmen zài hébiān yěcān; dùguò le yīgè měihǎo de xiàwǔ.",
+        "compound_cantonese": "bin1",
+        "compound_definition": "We had a lovely afternoon picnic by the river."
     },
     {
         "id": 613,
@@ -7351,9 +7351,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "verb",
         "compound": "请等一下，车辆将很快过去，然后我们可以过马路。",
-        "compound_pinyin": "Qǐng děng yīxià",
-        "compound_cantonese": " chēliàng jiāng hěn kuài guòqù",
-        "compound_definition": " ránhòu wǒmen kěyǐ guò mǎlù."
+        "compound_pinyin": "Qǐng děng yīxià; chēliàng jiāng hěn kuài guòqù; ránhòu wǒmen kěyǐ guò mǎlù.",
+        "compound_cantonese": "gwo3",
+        "compound_definition": "Please wait a moment; the vehicles will pass by quickly; and then we can cross the road."
     },
     {
         "id": 614,
@@ -7387,9 +7387,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "adverb",
         "compound": "我还有一本书没有看完，要继续阅读。",
-        "compound_pinyin": "Wǒ hái yǒu yī běn shū méiyǒu kàn wán",
-        "compound_cantonese": " yào jìxù yuèdú.",
-        "compound_definition": "waan4"
+        "compound_pinyin": "Wǒ hái yǒu yī běn shū méiyǒu kàn wán; yào jìxù yuèdú.",
+        "compound_cantonese": "waan4",
+        "compound_definition": "I still have a book to finish reading; so I need to continue."
     },
     {
         "id": 617,
@@ -7411,9 +7411,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "conjunction",
         "compound": "我们还有一些时间，可以去逛一逛附近的商场。",
-        "compound_pinyin": "Wǒmen háiyǒu yīxiē shíjiān",
-        "compound_cantonese": " kěyǐ qù guàng yī guàng fùjìn de shāngchǎng.",
-        "compound_definition": "waan4 jau5"
+        "compound_pinyin": "Wǒmen háiyǒu yīxiē shíjiān; kěyǐ qù guàng yī guàng fùjìn de shāngchǎng.",
+        "compound_cantonese": "waan4 jau5",
+        "compound_definition": "We have some time left; so we can go shopping at the nearby mall."
     },
     {
         "id": 619,
@@ -7423,9 +7423,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "pronoun",
         "compound": "这是我的书包，里面装着我的课本和笔记本。",
-        "compound_pinyin": "Zhè shì wǒ de shūbāo",
-        "compound_cantonese": " lǐmiàn zhuāngzhe wǒ de kèběn hé bǐjìběn.",
-        "compound_definition": "ze2"
+        "compound_pinyin": "Zhè shì wǒ de shūbāo; lǐmiàn zhuāngzhe wǒ de kèběn hé bǐjìběn.",
+        "compound_cantonese": "ze2",
+        "compound_definition": "This is my backpack; and inside it; I have my textbooks and notebooks."
     },
     {
         "id": 620,
@@ -7447,9 +7447,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "pronoun",
         "compound": "这些水果看起来非常新鲜，我要买一些。",
-        "compound_pinyin": "Zhèxiē shuǐguǒ kàn qǐlái fēicháng xīnxiān",
-        "compound_cantonese": " wǒ yào mǎi yīxiē.",
-        "compound_definition": "ze2 ge3"
+        "compound_pinyin": "Zhèxiē shuǐguǒ kàn qǐlái fēicháng xīnxiān; wǒ yào mǎi yīxiē.",
+        "compound_cantonese": "ze2 ge3",
+        "compound_definition": "These fruits look very fresh; I want to buy some."
     },
     {
         "id": 622,
@@ -7459,9 +7459,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound": "饭馆在这儿，我们可以一起吃晚饭。",
-        "compound_pinyin": "Fànguǎn zài zhèr",
-        "compound_cantonese": " wǒmen kěyǐ yīqǐ chī wǎnfàn.",
-        "compound_definition": "ze2 ji5"
+        "compound_pinyin": "Fànguǎn zài zhèr; wǒmen kěyǐ yīqǐ chī wǎnfàn.",
+        "compound_cantonese": "ze2 ji5",
+        "compound_definition": "The restaurant is here; we can have dinner together."
     },
     {
         "id": 623,
@@ -7471,9 +7471,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound": "来，坐这边，这里有个空椅子。",
-        "compound_pinyin": "Lái",
-        "compound_cantonese": " zuò zhèbiān",
-        "compound_definition": " zhèlǐ yǒu gè kōng yǐzi."
+        "compound_pinyin": "Lái; zuò zhèbiān; zhèlǐ yǒu gè kōng yǐzi.",
+        "compound_cantonese": "ze2 bin1",
+        "compound_definition": "Come; sit over here; there's an empty chair here."
     },
     {
         "id": 624,
@@ -7483,9 +7483,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound": "这里是我们的学校图书馆，有很多好书。",
-        "compound_pinyin": "Zhèlǐ shì wǒmen de xuéxiào túshūguǎn",
-        "compound_cantonese": " yǒu hěnduō hǎoshū.",
-        "compound_definition": "ze2 lei5"
+        "compound_pinyin": "Zhèlǐ shì wǒmen de xuéxiào túshūguǎn; yǒu hěnduō hǎoshū.",
+        "compound_cantonese": "ze2 lei5",
+        "compound_definition": "This is our school library; there are many good books here."
     },
     {
         "id": 625,
@@ -7495,9 +7495,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "verb",
         "compound": "请进，欢迎光临我的家。",
-        "compound_pinyin": "Qǐng jìn",
-        "compound_cantonese": " huānyíng guānglín wǒ de jiā.",
-        "compound_definition": "zeon3"
+        "compound_pinyin": "Qǐng jìn; huānyíng guānglín wǒ de jiā.",
+        "compound_cantonese": "zeon3",
+        "compound_definition": "Please come in; welcome to my home."
     },
     {
         "id": 626,
@@ -7507,9 +7507,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "verb",
         "compound": "他急忙打开门，进去看看发生了什么事情。",
-        "compound_pinyin": "Tā jímáng dǎkāi mén",
-        "compound_cantonese": " jìnqù kàn kàn fāshēngle shénme shìqing.",
-        "compound_definition": "zeon3 heoi3"
+        "compound_pinyin": "Tā jímáng dǎkāi mén; jìnqù kàn kàn fāshēngle shénme shìqing.",
+        "compound_cantonese": "zeon3 heoi3",
+        "compound_definition": "He quickly opened the door and went inside to see what had happened."
     },
     {
         "id": 627,
@@ -7519,9 +7519,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "verb",
         "compound": "请进来，坐吧！我已经准备好茶了。",
-        "compound_pinyin": "Qǐng jìnlái",
-        "compound_cantonese": " zuò ba! Wǒ yǐjīng zhǔnbèi hǎo chá le.",
-        "compound_definition": "zeon3 loi4"
+        "compound_pinyin": "Qǐng jìnlái; zuò ba! Wǒ yǐjīng zhǔnbèi hǎo chá le.",
+        "compound_cantonese": "zeon3 loi4",
+        "compound_definition": "Please come in and have a seat! I've already prepared tea."
     },
     {
         "id": 628,
@@ -7531,9 +7531,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "adjective",
         "compound": "那座山看起来很远，但我们会走到山顶的。",
-        "compound_pinyin": "Nà zuò shān kàn qǐlái hěn yuǎn",
-        "compound_cantonese": " dàn wǒmen huì zǒu dào shāndǐng de.",
-        "compound_definition": "jyun5"
+        "compound_pinyin": "Nà zuò shān kàn qǐlái hěn yuǎn; dàn wǒmen huì zǒu dào shāndǐng de.",
+        "compound_cantonese": "jyun5",
+        "compound_definition": "That mountain looks far away; but we'll hike to the summit."
     },
     {
         "id": 629,
@@ -7543,9 +7543,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "verb",
         "compound": "我要送一份礼物给我的朋友，表示感谢。",
-        "compound_pinyin": "Wǒ yào sòng yī fèn lǐwù gěi wǒ de péngyǒu",
-        "compound_cantonese": " biǎoshì gǎnxiè.",
-        "compound_definition": "sung3"
+        "compound_pinyin": "Wǒ yào sòng yī fèn lǐwù gěi wǒ de péngyǒu; biǎoshì gǎnxiè.",
+        "compound_cantonese": "sung3",
+        "compound_definition": "I want to give a gift to my friend as a token of gratitude."
     },
     {
         "id": 630,
@@ -7555,9 +7555,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound": "这是一道美味的菜肴，你一定要尝一尝。",
-        "compound_pinyin": "Zhè shì yī dào měiwèi de càiyáo",
-        "compound_cantonese": " nǐ yīdìng yào cháng yīcháng.",
-        "compound_definition": "dou6"
+        "compound_pinyin": "Zhè shì yī dào měiwèi de càiyáo; nǐ yīdìng yào cháng yīcháng.",
+        "compound_cantonese": "dou6",
+        "compound_definition": "This is a delicious dish; you must give it a try."
     },
     {
         "id": 631,
@@ -7581,7 +7581,7 @@ var data = [
         "compound": "那个",
         "compound_pinyin": "nàge",
         "compound_cantonese": "naa5go3",
-        "compound_definition": "that one; that thing; that (as opposed to this); (used before a verb or adjective for emphasis); (used to humorously or indirectly refer to something embarrassing"
+        "compound_definition": "that one; that thing; that (as opposed to this); (used before a verb or adjective for emphasis); (used to humorously or indirectly refer to something embarrassing; funny etc; or when one can't think of the right word); (used in speech as a filler; similar to umm; you know etc); (euph.) menstruation; sex"
     },
     {
         "id": 633,
@@ -7591,9 +7591,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "pronoun",
         "compound": "那些书都很有趣，我都想读。",
-        "compound_pinyin": "Nàxiē shū dōu hěn yǒuqù",
-        "compound_cantonese": " wǒ dōu xiǎng dú.",
-        "compound_definition": "naa5 ge3"
+        "compound_pinyin": "Nàxiē shū dōu hěn yǒuqù; wǒ dōu xiǎng dú.",
+        "compound_cantonese": "naa5 ge3",
+        "compound_definition": "Those books are all interesting; I want to read them all."
     },
     {
         "id": 634,
@@ -7615,9 +7615,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound": "看，那边有一家新的餐厅，我们去尝尝吧！",
-        "compound_pinyin": "Kàn",
-        "compound_cantonese": " nàbiān yǒu yī jiā xīn de cāntīng",
-        "compound_definition": " wǒmen qù chángcháng ba!"
+        "compound_pinyin": "Kàn; nàbiān yǒu yī jiā xīn de cāntīng; wǒmen qù chángcháng ba!",
+        "compound_cantonese": "naa5 bin1",
+        "compound_definition": "Look; there's a new restaurant over there; let's go and try it!"
     },
     {
         "id": 636,
@@ -7627,9 +7627,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound": "那里的风景非常美丽，我希望有一天能去那里旅行。",
-        "compound_pinyin": "Nàlǐ de fēngjǐng fēicháng měilì",
-        "compound_cantonese": " wǒ xīwàng yǒu yītiān néng qù nàlǐ lǚxíng.",
-        "compound_definition": "naa5 lei5"
+        "compound_pinyin": "Nàlǐ de fēngjǐng fēicháng měilì; wǒ xīwàng yǒu yītiān néng qù nàlǐ lǚxíng.",
+        "compound_cantonese": "naa5 lei5",
+        "compound_definition": "The scenery there is very beautiful; I hope to travel there one day."
     },
     {
         "id": 637,
@@ -7687,9 +7687,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "adjective",
         "compound": "这个箱子很重，我需要帮助搬动它。",
-        "compound_pinyin": "Zhège xiāngzi hěn zhòng",
-        "compound_cantonese": " wǒ xūyào bāngzhù bāndòng tā.",
-        "compound_definition": "zung6"
+        "compound_pinyin": "Zhège xiāngzi hěn zhòng; wǒ xūyào bāngzhù bāndòng tā.",
+        "compound_cantonese": "zung6",
+        "compound_definition": "This suitcase is very heavy; I need help moving it."
     },
     {
         "id": 642,
@@ -7699,9 +7699,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "adjective",
         "compound": "遵守交通规则是非常重要的，可以保护你的安全。",
-        "compound_pinyin": "Zūnshǒu jiāotōng guīzé shì fēicháng zhòngyào de",
-        "compound_cantonese": " kěyǐ bǎohù nǐ de ānquán.",
-        "compound_definition": "zung6 jiu6"
+        "compound_pinyin": "Zūnshǒu jiāotōng guīzé shì fēicháng zhòngyào de; kěyǐ bǎohù nǐ de ānquán.",
+        "compound_cantonese": "zung6 jiu6",
+        "compound_definition": "Following traffic rules is very important; it can protect your safety."
     },
     {
         "id": 643,
@@ -7711,9 +7711,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound": "我忘记带钱了，你可以借给我一点吗？",
-        "compound_pinyin": "Wǒ wàngjì dài qián le",
-        "compound_cantonese": " nǐ kěyǐ jiè gěi wǒ yīdiǎn ma?",
-        "compound_definition": "cin2"
+        "compound_pinyin": "Wǒ wàngjì dài qián le; nǐ kěyǐ jiè gěi wǒ yīdiǎn ma?",
+        "compound_cantonese": "cin2",
+        "compound_definition": "I forgot to bring money; can you lend me some?"
     },
     {
         "id": 644,
@@ -7723,9 +7723,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound": "我的钱包丢了，我必须去报警。",
-        "compound_pinyin": "Wǒ de qiánbāo diū le",
-        "compound_cantonese": " wǒ bìxū qù bàojǐng.",
-        "compound_definition": "cin2 baau1"
+        "compound_pinyin": "Wǒ de qiánbāo diū le; wǒ bìxū qù bàojǐng.",
+        "compound_cantonese": "cin2 baau1",
+        "compound_definition": "I lost my wallet; I need to report it to the police."
     },
     {
         "id": 645,
@@ -7747,9 +7747,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "adjective",
         "compound": "别担心，犯错是学习的一部分。",
-        "compound_pinyin": "Bié dānxīn",
-        "compound_cantonese": " fàn cuò shì xuéxí de yī bùfèn.",
-        "compound_definition": "co6"
+        "compound_pinyin": "Bié dānxīn; fàn cuò shì xuéxí de yī bùfèn.",
+        "compound_cantonese": "co6",
+        "compound_definition": "Don't worry; making mistakes is part of learning."
     },
     {
         "id": 647,
@@ -7771,9 +7771,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound": "请把门关上，不要让蚊子进来。",
-        "compound_pinyin": "Qǐng bǎ mén guān shàng",
-        "compound_cantonese": " bùyào ràng wénzi jìnlái.",
-        "compound_definition": "mun4"
+        "compound_pinyin": "Qǐng bǎ mén guān shàng; bùyào ràng wénzi jìnlái.",
+        "compound_cantonese": "mun4",
+        "compound_definition": "Please close the door; don't let the mosquitoes in."
     },
     {
         "id": 649,
@@ -7785,7 +7785,7 @@ var data = [
         "compound": "他站在房子的门口等着朋友。",
         "compound_pinyin": "Tā zhàn zài fángzi de ménkǒu děngzhe péngyǒu.",
         "compound_cantonese": "mun4 hau2",
-        "compound_definition": "He's standing at the door of the house"
+        "compound_definition": "He's standing at the door of the house; waiting for his friend."
     },
     {
         "id": 650,
@@ -7807,9 +7807,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "verb",
         "compound": "如果你有问题，随时可以问我。",
-        "compound_pinyin": "Rúguǒ nǐ yǒu wèntí",
-        "compound_cantonese": " suíshí kěyǐ wèn wǒ.",
-        "compound_definition": "man6"
+        "compound_pinyin": "Rúguǒ nǐ yǒu wèntí; suíshí kěyǐ wèn wǒ.",
+        "compound_cantonese": "man6",
+        "compound_definition": "If you have any questions; feel free to ask me anytime."
     },
     {
         "id": 652,
@@ -7867,9 +7867,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "adjective",
         "compound": "学习一门新语言可能会有点难，但不是不可能的。",
-        "compound_pinyin": "Xuéxí yī mén xīn yǔyán kěnéng huì yǒudiǎn nán",
-        "compound_cantonese": " dàn bùshì bù kěnéng de.",
-        "compound_definition": "naan4"
+        "compound_pinyin": "Xuéxí yī mén xīn yǔyán kěnéng huì yǒudiǎn nán; dàn bùshì bù kěnéng de.",
+        "compound_cantonese": "naan4",
+        "compound_definition": "Learning a new language can be a bit challenging; but it's not impossible."
     },
     {
         "id": 657,
@@ -7879,9 +7879,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound": "糟糕，忘记带伞了，马上要下雨了！",
-        "compound_pinyin": "Zāogāo",
-        "compound_cantonese": " wàngjì dài sǎn le",
-        "compound_definition": " mǎshàng yào xiàyǔle!"
+        "compound_pinyin": "Zāogāo; wàngjì dài sǎn le; mǎshàng yào xiàyǔle!",
+        "compound_cantonese": "jyu5",
+        "compound_definition": "Oh no; I forgot to bring an umbrella; and it's about to rain!"
     },
     {
         "id": 658,
@@ -7903,9 +7903,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound": "温度已经降到零下十度了，太冷了！",
-        "compound_pinyin": "Wēndù yǐjīng jiàng dào líng xià shí dù le",
-        "compound_cantonese": " tài lěng le!",
-        "compound_definition": "ling4"
+        "compound_pinyin": "Wēndù yǐjīng jiàng dào líng xià shí dù le; tài lěng le!",
+        "compound_cantonese": "ling4",
+        "compound_definition": "The temperature has dropped to minus ten degrees; it's so cold!"
     },
     {
         "id": 660,
@@ -7927,9 +7927,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "adverb",
         "compound": "他非常喜欢这本书，每天都在读。",
-        "compound_pinyin": "Tā fēicháng xǐhuān zhè běn shū",
-        "compound_cantonese": " měitiān dōu zài dú.",
-        "compound_definition": "fei1 coeng4"
+        "compound_pinyin": "Tā fēicháng xǐhuān zhè běn shū; měitiān dōu zài dú.",
+        "compound_cantonese": "fei1 coeng4",
+        "compound_definition": "He really likes this book and reads it every day."
     },
     {
         "id": 662,
@@ -7939,9 +7939,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound": "这个汤里有面条和蔬菜，很美味。",
-        "compound_pinyin": "Zhège tāng lǐ yǒu miàntiáo hé shūcài",
-        "compound_cantonese": " hěn měiwèi.",
-        "compound_definition": "min6"
+        "compound_pinyin": "Zhège tāng lǐ yǒu miàntiáo hé shūcài; hěn měiwèi.",
+        "compound_cantonese": "min6",
+        "compound_definition": "This soup has noodles and vegetables in it; it's delicious."
     },
     {
         "id": 663,
@@ -7951,9 +7951,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound": "早餐时，我通常吃面包和果酱。",
-        "compound_pinyin": "Zǎocān shí",
-        "compound_cantonese": " wǒ tōngcháng chī miànbāo hé guǒjiàng.",
-        "compound_definition": "min6 baau1"
+        "compound_pinyin": "Zǎocān shí; wǒ tōngcháng chī miànbāo hé guǒjiàng.",
+        "compound_cantonese": "min6 baau1",
+        "compound_definition": "For breakfast; I usually have bread and jam."
     },
     {
         "id": 664,
@@ -7975,9 +7975,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound": "中午，我喜欢吃一碗热腾腾的面条儿。",
-        "compound_pinyin": "Zhōngwǔ",
-        "compound_cantonese": " wǒ xǐhuān chī yī wǎn rètēngtēng de miàntiáor.",
-        "compound_definition": "min6 tiu4"
+        "compound_pinyin": "Zhōngwǔ; wǒ xǐhuān chī yī wǎn rètēngtēng de miàntiáor.",
+        "compound_cantonese": "min6 tiu4",
+        "compound_definition": "I like to have a steaming bowl of noodles for lunch."
     },
     {
         "id": 666,
@@ -7987,9 +7987,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound": "这本书有一千多页，我还没读完。",
-        "compound_pinyin": "Zhè běn shū yǒu yīqiān duō yè",
-        "compound_cantonese": " wǒ hái méi dú wán.",
-        "compound_definition": "jip6"
+        "compound_pinyin": "Zhè běn shū yǒu yīqiān duō yè; wǒ hái méi dú wán.",
+        "compound_cantonese": "jip6",
+        "compound_definition": "This book has over a thousand pages; and I haven't finished it yet."
     },
     {
         "id": 667,
@@ -8059,9 +8059,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound": "妈妈做的饭最好吃了，我每天都期待晚餐。",
-        "compound_pinyin": "Māmā zuò de fàn zuì hào chī le",
-        "compound_cantonese": " wǒ měitiān dōu qídài wǎncān.",
-        "compound_definition": "faan6"
+        "compound_pinyin": "Māmā zuò de fàn zuì hào chī le; wǒ měitiān dōu qídài wǎncān.",
+        "compound_cantonese": "faan6",
+        "compound_definition": "Mom's cooking is the best; I look forward to dinner every day."
     },
     {
         "id": 673,
@@ -8083,9 +8083,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "adjective",
         "compound": "我太饿了，我需要吃午餐。",
-        "compound_pinyin": "Wǒ tài è le",
-        "compound_cantonese": " wǒ xūyào chī wǔcān.",
-        "compound_definition": "ng6"
+        "compound_pinyin": "Wǒ tài è le; wǒ xūyào chī wǔcān.",
+        "compound_cantonese": "ng6",
+        "compound_definition": "I'm so hungry; I need to have lunch."
     },
     {
         "id": 675,
@@ -8107,9 +8107,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound": "马是一种优雅的动物，可以用来骑行或工作。",
-        "compound_pinyin": "Mǎ shì yī zhǒng yōuyǎ de dòngwù",
-        "compound_cantonese": " kěyǐ yòng lái qíxíng huò gōngzuò.",
-        "compound_definition": "maa5"
+        "compound_pinyin": "Mǎ shì yī zhǒng yōuyǎ de dòngwù; kěyǐ yòng lái qíxíng huò gōngzuò.",
+        "compound_cantonese": "maa5",
+        "compound_definition": "Horses are graceful animals that can be used for riding or work."
     },
     {
         "id": 677,
@@ -8119,9 +8119,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "adverb",
         "compound": "我们必须马上出发，否则会迟到。",
-        "compound_pinyin": "Wǒmen bìxū mǎshàng chūfā",
-        "compound_cantonese": " fǒu zé huì chídào.",
-        "compound_definition": "maa5 soeng6"
+        "compound_pinyin": "Wǒmen bìxū mǎshàng chūfā; fǒu zé huì chídào.",
+        "compound_cantonese": "maa5 soeng6",
+        "compound_definition": "We need to leave immediately; or we'll be late."
     },
     {
         "id": 678,
@@ -8143,9 +8143,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "adjective",
         "compound": "这座山非常高，徒步旅行者需要花很多时间才能登上山顶。",
-        "compound_pinyin": "Zhè zuò shān fēicháng gāo",
-        "compound_cantonese": " túbù lǚxíngzhě xūyào huā hěnduō shíjiān cáinéng dēng shàng shāndǐng.",
-        "compound_definition": "gou1"
+        "compound_pinyin": "Zhè zuò shān fēicháng gāo; túbù lǚxíngzhě xūyào huā hěnduō shíjiān cáinéng dēng shàng shāndǐng.",
+        "compound_cantonese": "gou1",
+        "compound_definition": "This mountain is very high; and hikers need a lot of time to reach the summit."
     },
     {
         "id": 680,
@@ -8179,9 +8179,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound": "我们家养了一只鸡，每天都能吃到新鲜的鸡蛋。",
-        "compound_pinyin": "Wǒmen jiā yǎng le yī zhī jī",
-        "compound_cantonese": " měitiān dōu néng chī dào xīnfresh de jīdàn.",
-        "compound_definition": "gai1"
+        "compound_pinyin": "Wǒmen jiā yǎng le yī zhī jī; měitiān dōu néng chī dào xīnfresh de jīdàn.",
+        "compound_cantonese": "gai1",
+        "compound_definition": "We have a chicken at home; so we get fresh eggs every day."
     },
     {
         "id": 683,
@@ -8191,9 +8191,9 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound": "鸡蛋是早餐的主食之一，你想要煮熟的还是荷包蛋？",
-        "compound_pinyin": "Jīdàn shì zǎocān de zhǔshí zhī yī",
-        "compound_cantonese": " nǐ xiǎng yào zhǔ shú de háishì hébāo dàn?",
-        "compound_definition": "gai1 daan6"
+        "compound_pinyin": "Jīdàn shì zǎocān de zhǔshí zhī yī; nǐ xiǎng yào zhǔ shú de háishì hébāo dàn?",
+        "compound_cantonese": "gai1 daan6",
+        "compound_definition": "Eggs are one of the main staples for breakfast; do you want them boiled or sunnyside up?"
     },
     {
         "id": 684,

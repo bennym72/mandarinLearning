@@ -149,7 +149,7 @@ button {
 .cantonese {
   top: 38.5vh;
   position:absolute;
-  font-size:4vh;
+  font-size:3.5vh;
     color: #6d83fa;
 
 }
@@ -162,27 +162,36 @@ button {
 }
 
 .pinyin {
-  top: 43.5vh;
-  font-size:4vh;
+  top: 43vh;
+  font-size:3.5vh;
   position:absolute;
   color: #d66b6b;
   text-align: center;
 }
 
 .currentCompound {
-  top: 49vh;
+  top: 48vh;
+  width:99vw;
   position:absolute;
-  font-size:6vh;
+  font-size:3.5vh;
   color: #ffffff;
   align-content: center;
   text-align: center;
 }
 
-.compoundDefinition {
+.currentCompoundPinyin {
   top: 57vh;
   font-size:2vh;
   position:absolute;
-  color: #ffffff;
+  color: #545454;
+  text-align: center;
+}
+
+.compoundDefinition {
+  top: 63vh;
+  font-size:2vh;
+  position:absolute;
+  color: #545454;
   text-align: center;
 }
 

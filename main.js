@@ -137,10 +137,11 @@ const convertMandarinToKanji = function(mandarin, map) {
                 hiragana : mandarin.compound_cantonese,
                 compound: " " + mandarin.compound + " ",
                 definition : mandarin.compound_definition,
+                compound_sound: mandarin.compound_pinyin,
                 stars : mandarin.character,
             }
         ],
-        eng : mandarin.compound_pinyin
+        eng : mandarin.character_pinyin
         
     };
     map[kanji.index] = kanji;
@@ -597,6 +598,7 @@ class BaseBoard {
 
         const topKunyomi = this.getTopKunyomiFromKanji(this.siteState.currentKanji);
         document.querySelector("#_currentHir").innerText = topKunyomi.hiragana;
+        document.querySelector("#_currentCompoundPinyin").innerText = topKunyomi.compound_sound;
         document.querySelector("#_currentOnyomi").innerText = this.siteState.currentKanji.onyomi;
     }
 
