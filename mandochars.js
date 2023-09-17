@@ -1539,13 +1539,13 @@ var data = [
         "id": 129,
         "character": "前面",
         "character_pinyin": "qiánmiàn",
-        "eng": " also pr. qiánmian",
-        "hsk_level": "ahead",
-        "part_of_speech": 1,
-        "compound": "noun",
-        "compound_pinyin": "前面",
-        "compound_cantonese": "qiánmiàn",
-        "compound_definition\r": " also pr. qiánmian"
+        "eng": "ahead",
+        "hsk_level": 1,
+        "part_of_speech": "noun",
+        "compound": "前面",
+        "compound_pinyin": "qiánmiàn",
+        "compound_cantonese": "cin4min6",
+        "compound_definition\r": "ahead; in front; preceding; above\r"
     },
     {
         "id": 130,
@@ -2031,13 +2031,13 @@ var data = [
         "id": 170,
         "character": "后面",
         "character_pinyin": "hòumiàn",
-        "eng": " also pr. hòumian",
-        "hsk_level": "rear",
-        "part_of_speech": 1,
-        "compound": "noun",
-        "compound_pinyin": "后面",
-        "compound_cantonese": "hòumiàn",
-        "compound_definition\r": " also pr. hòumian"
+        "eng": "rear",
+        "hsk_level": 1,
+        "part_of_speech": "noun",
+        "compound": "后面",
+        "compound_pinyin": "hòumiàn",
+        "compound_cantonese": "hau6min6",
+        "compound_definition\r": "rear; back; behind; later; afterwards\r"
     },
     {
         "id": 171,
@@ -7575,13 +7575,13 @@ var data = [
         "id": 632,
         "character": "那个",
         "character_pinyin": "nàge",
-        "eng": " also pr. nèige",
-        "hsk_level": "that one",
-        "part_of_speech": 1,
-        "compound": "pronoun",
-        "compound_pinyin": "那个",
-        "compound_cantonese": "nàge",
-        "compound_definition\r": " also pr. nèige"
+        "eng": "that one",
+        "hsk_level": 1,
+        "part_of_speech": "pronoun",
+        "compound": "那个",
+        "compound_pinyin": "nàge",
+        "compound_cantonese": "naa5go3",
+        "compound_definition\r": "that one; that thing; that (as opposed to this); (used before a verb or adjective for emphasis); (used to humorously or indirectly refer to something embarrassing"
     },
     {
         "id": 633,
@@ -7671,13 +7671,13 @@ var data = [
         "id": 640,
         "character": "里面",
         "character_pinyin": "lǐmiàn",
-        "eng": " also pr. lǐmian",
-        "hsk_level": "inside",
-        "part_of_speech": 1,
-        "compound": "noun",
-        "compound_pinyin": "里面",
-        "compound_cantonese": "lǐmiàn",
-        "compound_definition\r": " also pr. lǐmian"
+        "eng": "inside",
+        "hsk_level": 1,
+        "part_of_speech": "noun",
+        "compound": "里面",
+        "compound_pinyin": "lǐmiàn",
+        "compound_cantonese": "leoi5min6",
+        "compound_definition\r": "inside; interior\r"
     },
     {
         "id": 641,

@@ -40,6 +40,7 @@ function setupSelectionTable() {
         selectionCell.appendChild(checkbox);
         selectionCell.classList.add("checkbox");
         selectionCell.setAttribute("id", rowId);
+        console.log(selection);
         selectionCell.classList.add(hskLevelString + selection.hsk_level);
 
         const hskLevelCell = newRow.insertCell();
