@@ -124,6 +124,10 @@ function initializeData() {
     _initialTableData.forEach((tableRowInfo) => {
         tableRowInfo.count = _groupedDataBy10[tableRowInfo.hsk_level][tableRowInfo.part_of_speech].length;
     });
+
+    if (showPinyin) {
+        document.getElementById("_currentEng").classList.add("inProgressShow1");
+    }
 }
 
 const convertMandarinToKanji = function(mandarin, map) {
@@ -163,6 +167,7 @@ const phases = [
 const params = new URLSearchParams(window.location.search);
 const isSequential = params.get("mode") !== "random";
 const currentSessionId = params.get("sessionId");
+const showPinyin = params.get("showPinyin") == "true";
 const numRows = Number.parseInt(params.get("numRows")) || 0;
 const isJukugoTime = params.get("jukugo") === "true";
 
