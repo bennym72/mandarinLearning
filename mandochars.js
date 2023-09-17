@@ -9,7 +9,7 @@ var data = [
         "compound": "我有一本书。",
         "compound_pinyin": "Wǒ yǒu yī běn shū.",
         "compound_cantonese": "yat^1",
-        "compound_definition\r": "I have one book.\r"
+        "compound_definition": "I have one book."
     },
     {
         "id": 2,
@@ -21,7 +21,7 @@ var data = [
         "compound": "一下",
         "compound_pinyin": "yīxià",
         "compound_cantonese": "jat1haa5",
-        "compound_definition\r": "(used after a verb) give it a go; to do (something for a bit to give it a try); one time; once; in a while; all of a sudden; all at once\r"
+        "compound_definition": "(used after a verb) give it a go; to do (something for a bit to give it a try); one time; once; in a while; all of a sudden; all at once"
     },
     {
         "id": 3,
@@ -33,7 +33,7 @@ var data = [
         "compound": "请等一下儿。",
         "compound_pinyin": "Qǐng děng yīxiàr.",
         "compound_cantonese": "yat^1 haa6",
-        "compound_definition\r": "Please wait for a moment.\r"
+        "compound_definition": "Please wait for a moment."
     },
     {
         "id": 4,
@@ -45,7 +45,7 @@ var data = [
         "compound": "这是一些水果。",
         "compound_pinyin": "Zhè shì yīxiē shuǐguǒ.",
         "compound_cantonese": "yat^1 se1",
-        "compound_definition\r": "These are some fruits.\r"
+        "compound_definition": "These are some fruits."
     },
     {
         "id": 5,
@@ -57,7 +57,7 @@ var data = [
         "compound": "等一会儿，我们出发吧。",
         "compound_pinyin": "Děng yīhuìr",
         "compound_cantonese": " wǒmen chūfā ba.",
-        "compound_definition\r": "yat^1 wui6"
+        "compound_definition": "yat^1 wui6"
     },
     {
         "id": 6,
@@ -69,7 +69,7 @@ var data = [
         "compound": "他吃了一半面包。",
         "compound_pinyin": "Tā chīle yībàn miànbāo.",
         "compound_cantonese": "yat^1 bun3",
-        "compound_definition\r": "He ate half of the bread.\r"
+        "compound_definition": "He ate half of the bread."
     },
     {
         "id": 7,
@@ -81,7 +81,7 @@ var data = [
         "compound": "我们一块儿去看电影吧。",
         "compound_pinyin": "Wǒmen yīkuàir qù kàn diànyǐng ba.",
         "compound_cantonese": "yat^1 faai3",
-        "compound_definition\r": "Let's go watch a movie together.\r"
+        "compound_definition": "Let's go watch a movie together."
     },
     {
         "id": 8,
@@ -93,7 +93,7 @@ var data = [
         "compound": "这两个手机一样好。",
         "compound_pinyin": "Zhè liǎng gè shǒujī yīyàng hǎo.",
         "compound_cantonese": "yat^1 yeung6",
-        "compound_definition\r": "These two phones are equally good.\r"
+        "compound_definition": "These two phones are equally good."
     },
     {
         "id": 9,
@@ -105,7 +105,7 @@ var data = [
         "compound": "我只要一点儿水。",
         "compound_pinyin": "Wǒ zhǐ yào yīdiǎnr shuǐ.",
         "compound_cantonese": "yat^1 dim2",
-        "compound_definition\r": "I just want a bit of water.\r"
+        "compound_definition": "I just want a bit of water."
     },
     {
         "id": 10,
@@ -117,7 +117,7 @@ var data = [
         "compound": "一点点",
         "compound_pinyin": "yī diǎndiǎn",
         "compound_cantonese": "jat1 dim2dim2",
-        "compound_definition\r": "a little bit\r"
+        "compound_definition": "a little bit"
     },
     {
         "id": 11,
@@ -129,7 +129,7 @@ var data = [
         "compound": "我们一起吃晚饭吧。",
         "compound_pinyin": "Wǒmen yīqǐ chī wǎnfàn ba.",
         "compound_cantonese": "yat^1 hei2",
-        "compound_definition\r": "Let's have dinner together.\r"
+        "compound_definition": "Let's have dinner together."
     },
     {
         "id": 12,
@@ -141,7 +141,7 @@ var data = [
         "compound": "他一边吃饭，一边看电视。",
         "compound_pinyin": "Tā yībiān chī fàn",
         "compound_cantonese": " yībiān kàn diànshì.",
-        "compound_definition\r": "yat^1 bin1"
+        "compound_definition": "yat^1 bin1"
     },
     {
         "id": 13,
@@ -153,7 +153,7 @@ var data = [
         "compound": "我有七只铅笔。",
         "compound_pinyin": "Wǒ yǒu qī zhī qiānbǐ.",
         "compound_cantonese": "cat1",
-        "compound_definition\r": "I have seven pencils.\r"
+        "compound_definition": "I have seven pencils."
     },
     {
         "id": 14,
@@ -165,7 +165,7 @@ var data = [
         "compound": "丈夫",
         "compound_pinyin": "zhàngfu",
         "compound_cantonese": "zoeng6fu1",
-        "compound_definition\r": "husband\r"
+        "compound_definition": "husband"
     },
     {
         "id": 15,
@@ -177,7 +177,7 @@ var data = [
         "compound": "他有三个朋友。",
         "compound_pinyin": "Tā yǒu sān gè péngyǒu.",
         "compound_cantonese": "saam1",
-        "compound_definition\r": "He has three friends.\r"
+        "compound_definition": "He has three friends."
     },
     {
         "id": 16,
@@ -189,7 +189,7 @@ var data = [
         "compound": "学校在山上。",
         "compound_pinyin": "Xuéxiào zài shān shàng.",
         "compound_cantonese": "soeng5",
-        "compound_definition\r": "The school is on the hill.\r"
+        "compound_definition": "The school is on the hill."
     },
     {
         "id": 17,
@@ -201,7 +201,7 @@ var data = [
         "compound": "上午我通常学习汉语。",
         "compound_pinyin": "Shàngwǔ wǒ tōngcháng xuéxí hànyǔ.",
         "compound_cantonese": "soeng5 ng5",
-        "compound_definition\r": "I usually study Chinese in the morning.\r"
+        "compound_definition": "I usually study Chinese in the morning."
     },
     {
         "id": 18,
@@ -213,7 +213,7 @@ var data = [
         "compound": "我每天上学坐公共汽车。",
         "compound_pinyin": "Wǒ měitiān shàngxué zuò gōnggòng qìchē.",
         "compound_cantonese": "soeng5 hok6",
-        "compound_definition\r": "I go to school by bus every day.\r"
+        "compound_definition": "I go to school by bus every day."
     },
     {
         "id": 19,
@@ -225,7 +225,7 @@ var data = [
         "compound": "上次我们去了公园。",
         "compound_pinyin": "Shàngcì wǒmen qùle gōngyuán.",
         "compound_cantonese": "soeng5 ci3",
-        "compound_definition\r": "We went to the park last time.\r"
+        "compound_definition": "We went to the park last time."
     },
     {
         "id": 20,
@@ -237,7 +237,7 @@ var data = [
         "compound": "我每天上班乘坐地铁。",
         "compound_pinyin": "Wǒ měitiān shàngbān chéngzuò dìtiě.",
         "compound_cantonese": "soeng5 baan1",
-        "compound_definition\r": "I take the subway to work every day.\r"
+        "compound_definition": "I take the subway to work every day."
     },
     {
         "id": 21,
@@ -249,7 +249,7 @@ var data = [
         "compound": "我喜欢在晚上上网。",
         "compound_pinyin": "Wǒ xǐhuān zài wǎnshàng shàngwǎng.",
         "compound_cantonese": "soeng5 mong5",
-        "compound_definition\r": "I like to go online in the evening.\r"
+        "compound_definition": "I like to go online in the evening."
     },
     {
         "id": 22,
@@ -261,7 +261,7 @@ var data = [
         "compound": "明天我们上课有新老师。",
         "compound_pinyin": "Míngtiān wǒmen shàngkè yǒu xīn lǎoshī.",
         "compound_cantonese": "soeng5 fo1",
-        "compound_definition\r": "We will have a new teacher in class tomorrow.\r"
+        "compound_definition": "We will have a new teacher in class tomorrow."
     },
     {
         "id": 23,
@@ -273,7 +273,7 @@ var data = [
         "compound": "请快点上车，车要开了。",
         "compound_pinyin": "Qǐng kuàidiǎn shàngchē",
         "compound_cantonese": " chē yào kāi le.",
-        "compound_definition\r": "soeng5 ce1"
+        "compound_definition": "soeng5 ce1"
     },
     {
         "id": 24,
@@ -285,7 +285,7 @@ var data = [
         "compound": "我家在山下。",
         "compound_pinyin": "Wǒ jiā zài shān xià.",
         "compound_cantonese": "soeng5 bin1",
-        "compound_definition\r": "My house is downhill.\r"
+        "compound_definition": "My house is downhill."
     },
     {
         "id": 25,
@@ -297,7 +297,7 @@ var data = [
         "compound": "汽车钥匙在桌子上边。",
         "compound_pinyin": "Qìchē yàoshi zài zhuōzi shàngbiān.",
         "compound_cantonese": "haa6",
-        "compound_definition\r": "The car keys are on the table.\r"
+        "compound_definition": "The car keys are on the table."
     },
     {
         "id": 26,
@@ -309,7 +309,7 @@ var data = [
         "compound": "明天下午我们要出去玩。",
         "compound_pinyin": "Míngtiān xiàwǔ wǒmen yào chūqù wán.",
         "compound_cantonese": "haa6 ng5",
-        "compound_definition\r": "We are going out to play tomorrow afternoon.\r"
+        "compound_definition": "We are going out to play tomorrow afternoon."
     },
     {
         "id": 27,
@@ -321,7 +321,7 @@ var data = [
         "compound": "下次我们去海边。",
         "compound_pinyin": "Xiàcì wǒmen qù hǎibiān.",
         "compound_cantonese": "haa6 ci3",
-        "compound_definition\r": "Next time"
+        "compound_definition": "Next time"
     },
     {
         "id": 28,
@@ -333,7 +333,7 @@ var data = [
         "compound": "昨天我下班后去超市。",
         "compound_pinyin": "Zuótiān wǒ xiàbān hòu qù chāoshì.",
         "compound_cantonese": "haa6 baan1",
-        "compound_definition\r": "Yesterday"
+        "compound_definition": "Yesterday"
     },
     {
         "id": 29,
@@ -345,7 +345,7 @@ var data = [
         "compound": "现在下课了，我们可以回家了。",
         "compound_pinyin": "Xiànzài xiàkè le",
         "compound_cantonese": " wǒmen kěyǐ huí jiā le.",
-        "compound_definition\r": "haa6 fo1"
+        "compound_definition": "haa6 fo1"
     },
     {
         "id": 30,
@@ -357,7 +357,7 @@ var data = [
         "compound": "下车后，记得锁好车门。",
         "compound_pinyin": "Xiàchē hòu",
         "compound_cantonese": " jìdé suǒ hǎo chēmén.",
-        "compound_definition\r": "haa6 ce1"
+        "compound_definition": "haa6 ce1"
     },
     {
         "id": 31,
@@ -369,7 +369,7 @@ var data = [
         "compound": "书在桌子下边。",
         "compound_pinyin": "Shū zài zhuōzi xiàbiān.",
         "compound_cantonese": "haa6 bin1",
-        "compound_definition\r": "The book is under the table.\r"
+        "compound_definition": "The book is under the table."
     },
     {
         "id": 32,
@@ -381,7 +381,7 @@ var data = [
         "compound": "今天下雨了，记得带伞。",
         "compound_pinyin": "Jīntiān xiàyǔ le",
         "compound_cantonese": " jìdé dài sǎn.",
-        "compound_definition\r": "haa6 jyu5"
+        "compound_definition": "haa6 jyu5"
     },
     {
         "id": 33,
@@ -393,7 +393,7 @@ var data = [
         "compound": "不要忘记生日礼物。",
         "compound_pinyin": "Bùyào wàngjì shēngrì lǐwù.",
         "compound_cantonese": "bat1",
-        "compound_definition\r": "Don't forget the birthday gift.\r"
+        "compound_definition": "Don't forget the birthday gift."
     },
     {
         "id": 34,
@@ -405,7 +405,7 @@ var data = [
         "compound": "这个房间不大，但很舒适。",
         "compound_pinyin": "Zhège fángjiān bù dà",
         "compound_cantonese": " dàn hěn shūshì.",
-        "compound_definition\r": "bat1 daai6"
+        "compound_definition": "bat1 daai6"
     },
     {
         "id": 35,
@@ -417,7 +417,7 @@ var data = [
         "compound": "你真的不客气！",
         "compound_pinyin": "Nǐ zhēn de bù kèqì!",
         "compound_cantonese": "bat1 haak3 hei3",
-        "compound_definition\r": "You're really welcome!\r"
+        "compound_definition": "You're really welcome!"
     },
     {
         "id": 36,
@@ -429,7 +429,7 @@ var data = [
         "compound": "这个答案不对。",
         "compound_pinyin": "Zhège dá'àn bù duì.",
         "compound_cantonese": "bat1 deoi3",
-        "compound_definition\r": "This answer is incorrect.\r"
+        "compound_definition": "This answer is incorrect."
     },
     {
         "id": 37,
@@ -441,7 +441,7 @@ var data = [
         "compound": "不用担心，一切都会好的。",
         "compound_pinyin": "Bùyòng dānxīn",
         "compound_cantonese": " yīqiè dōu huì hǎo de.",
-        "compound_definition\r": "bat1 jung6"
+        "compound_definition": "bat1 jung6"
     },
     {
         "id": 38,
@@ -453,7 +453,7 @@ var data = [
         "compound": "东边有一家小餐馆。",
         "compound_pinyin": "Dōngbiān yǒu yī jiā xiǎo cānguǎn.",
         "compound_cantonese": "dung1",
-        "compound_definition\r": "There's a small restaurant on the east side.\r"
+        "compound_definition": "There's a small restaurant on the east side."
     },
     {
         "id": 39,
@@ -465,7 +465,7 @@ var data = [
         "compound": "我买了一些东西。",
         "compound_pinyin": "Wǒ mǎile yīxiē dōngxi.",
         "compound_cantonese": "dung1 sai1",
-        "compound_definition\r": "I bought some things.\r"
+        "compound_definition": "I bought some things."
     },
     {
         "id": 40,
@@ -477,7 +477,7 @@ var data = [
         "compound": "太阳从东边升起。",
         "compound_pinyin": "Tàiyáng cóng dōngbiān shēng qǐ.",
         "compound_cantonese": "dung1 bin1",
-        "compound_definition\r": "The sun rises in the east.\r"
+        "compound_definition": "The sun rises in the east."
     },
     {
         "id": 41,
@@ -489,7 +489,7 @@ var data = [
         "compound": "我有两本书。",
         "compound_pinyin": "Wǒ yǒu liǎng běn shū.",
         "compound_cantonese": "loeng5",
-        "compound_definition\r": "I have two books.\r"
+        "compound_definition": "I have two books."
     },
     {
         "id": 42,
@@ -501,7 +501,7 @@ var data = [
         "compound": "这是一个苹果。",
         "compound_pinyin": "Zhè shì yīgè píngguǒ.",
         "compound_cantonese": "go3",
-        "compound_definition\r": "This is an apple.\r"
+        "compound_definition": "This is an apple."
     },
     {
         "id": 43,
@@ -513,7 +513,7 @@ var data = [
         "compound": "中国是一个大国。",
         "compound_pinyin": "Zhōngguó shì yīgè dàguó.",
         "compound_cantonese": "zung1",
-        "compound_definition\r": "China is a big country.\r"
+        "compound_definition": "China is a big country."
     },
     {
         "id": 44,
@@ -525,7 +525,7 @@ var data = [
         "compound": "我们通常在中午吃午饭。",
         "compound_pinyin": "Wǒmen tōngcháng zài zhōngwǔ chī wǔfàn.",
         "compound_cantonese": "zung1 ng5",
-        "compound_definition\r": "We usually have lunch at noon.\r"
+        "compound_definition": "We usually have lunch at noon."
     },
     {
         "id": 45,
@@ -537,7 +537,7 @@ var data = [
         "compound": "中国是一个多民族的国家。",
         "compound_pinyin": "Zhōngguó shì yīgè duō mínzú de guójiā.",
         "compound_cantonese": "zung1 gwok3",
-        "compound_definition\r": "China is a multiethnic country.\r"
+        "compound_definition": "China is a multiethnic country."
     },
     {
         "id": 46,
@@ -549,7 +549,7 @@ var data = [
         "compound": "中学生通常要学习各种科目。",
         "compound_pinyin": "Zhōngxuéshēng tōngcháng yào xuéxí gè zhǒng kēmù.",
         "compound_cantonese": "zung1 hok6",
-        "compound_definition\r": "Middle school students usually have to study various subjects.\r"
+        "compound_definition": "Middle school students usually have to study various subjects."
     },
     {
         "id": 47,
@@ -561,7 +561,7 @@ var data = [
         "compound": "我的妹妹是一名中学生。",
         "compound_pinyin": "Wǒ de mèimei shì yī míng zhōngxuéshēng.",
         "compound_cantonese": "zung1 hok6 sang1",
-        "compound_definition\r": "My younger sister is a middle school student.\r"
+        "compound_definition": "My younger sister is a middle school student."
     },
     {
         "id": 48,
@@ -573,7 +573,7 @@ var data = [
         "compound": "我正在学习中文。",
         "compound_pinyin": "Wǒ zhèngzài xuéxí zhōngwén.",
         "compound_cantonese": "zung1 man4",
-        "compound_definition\r": "I am learning Chinese.\r"
+        "compound_definition": "I am learning Chinese."
     },
     {
         "id": 49,
@@ -585,7 +585,7 @@ var data = [
         "compound": "这两本书之间有一本字典。",
         "compound_pinyin": "Zhè liǎng běn shū zhījiān yǒu yī běn zìdiǎn.",
         "compound_cantonese": "zung1 gaan1",
-        "compound_definition\r": "There is a dictionary between these two books.\r"
+        "compound_definition": "There is a dictionary between these two books."
     },
     {
         "id": 50,
@@ -597,7 +597,7 @@ var data = [
         "compound": "为",
         "compound_pinyin": "wèi",
         "compound_cantonese": "wai6",
-        "compound_definition\r": "because of; for; to\r"
+        "compound_definition": "because of; for; to"
     },
     {
         "id": 51,
@@ -609,7 +609,7 @@ var data = [
         "compound": "为什么",
         "compound_pinyin": "wèi shénme",
         "compound_cantonese": "wai6 sam6mo1",
-        "compound_definition\r": "why?; for what reason?\r"
+        "compound_definition": "why?; for what reason?"
     },
     {
         "id": 52,
@@ -621,7 +621,7 @@ var data = [
         "compound": "你想要什么？",
         "compound_pinyin": "Nǐ xiǎng yào shénme?",
         "compound_cantonese": "maa1",
-        "compound_definition\r": "What do you want?\r"
+        "compound_definition": "What do you want?"
     },
     {
         "id": 53,
@@ -633,7 +633,7 @@ var data = [
         "compound": "我有九个苹果。",
         "compound_pinyin": "Wǒ yǒu jiǔ gè píngguǒ.",
         "compound_cantonese": "gau2",
-        "compound_definition\r": "I have nine apples.\r"
+        "compound_definition": "I have nine apples."
     },
     {
         "id": 54,
@@ -645,7 +645,7 @@ var data = [
         "compound": "他也想参加活动。",
         "compound_pinyin": "Tā yě xiǎng cānjiā huódòng.",
         "compound_cantonese": "jaa5",
-        "compound_definition\r": "He also wants to participate in the activity.\r"
+        "compound_definition": "He also wants to participate in the activity."
     },
     {
         "id": 55,
@@ -657,7 +657,7 @@ var data = [
         "compound": "我每天都要习汉字。",
         "compound_pinyin": "Wǒ měitiān dū yào xí hànzì.",
         "compound_cantonese": "zaap6",
-        "compound_definition\r": "I practice Chinese characters every day.\r"
+        "compound_definition": "I practice Chinese characters every day."
     },
     {
         "id": 56,
@@ -669,7 +669,7 @@ var data = [
         "compound": "这是一本好书。",
         "compound_pinyin": "Zhè shì yī běn hǎo shū.",
         "compound_cantonese": "syu1",
-        "compound_definition\r": "This is a good book.\r"
+        "compound_definition": "This is a good book."
     },
     {
         "id": 57,
@@ -681,7 +681,7 @@ var data = [
         "compound": "我的书包里有课本和笔。",
         "compound_pinyin": "Wǒ de shūbāo lǐ yǒu kèběn hé bǐ.",
         "compound_cantonese": "syu1 baau1",
-        "compound_definition\r": "My school bag contains textbooks and pens.\r"
+        "compound_definition": "My school bag contains textbooks and pens."
     },
     {
         "id": 58,
@@ -693,7 +693,7 @@ var data = [
         "compound": "我喜欢在书店里看书。",
         "compound_pinyin": "Wǒ xǐhuān zài shūdiàn lǐ kànshū.",
         "compound_cantonese": "syu1 dim3",
-        "compound_definition\r": "I like to read books in the bookstore.\r"
+        "compound_definition": "I like to read books in the bookstore."
     },
     {
         "id": 59,
@@ -705,7 +705,7 @@ var data = [
         "compound": "我想买一双新鞋。",
         "compound_pinyin": "Wǒ xiǎng mǎi yī shuāng xīnxié.",
         "compound_cantonese": "maai5",
-        "compound_definition\r": "I want to buy a new pair of shoes.\r"
+        "compound_definition": "I want to buy a new pair of shoes."
     },
     {
         "id": 60,
@@ -717,7 +717,7 @@ var data = [
         "compound": "我已经吃了晚饭。",
         "compound_pinyin": "Wǒ yǐjīng chī le wǎnfàn.",
         "compound_cantonese": "liu5",
-        "compound_definition\r": "I have already had dinner.\r"
+        "compound_definition": "I have already had dinner."
     },
     {
         "id": 61,
@@ -729,7 +729,7 @@ var data = [
         "compound": "我有很多事要做。",
         "compound_pinyin": "Wǒ yǒu hěnduō shì yào zuò.",
         "compound_cantonese": "si6",
-        "compound_definition\r": "I have a lot of things to do.\r"
+        "compound_definition": "I have a lot of things to do."
     },
     {
         "id": 62,
@@ -741,7 +741,7 @@ var data = [
         "compound": "事情",
         "compound_pinyin": "shìqing",
         "compound_cantonese": "si6cing4",
-        "compound_definition\r": "affair; matter; thing; business\r"
+        "compound_definition": "affair; matter; thing; business"
     },
     {
         "id": 63,
@@ -753,7 +753,7 @@ var data = [
         "compound": "他是我的二哥。",
         "compound_pinyin": "Tā shì wǒ de èrgē.",
         "compound_cantonese": "ji6",
-        "compound_definition\r": "He is my second older brother.\r"
+        "compound_definition": "He is my second older brother."
     },
     {
         "id": 64,
@@ -765,7 +765,7 @@ var data = [
         "compound": "五只小鸟在树上唱歌。",
         "compound_pinyin": "Wǔ zhī xiǎoniǎo zài shù shàng chànggē.",
         "compound_cantonese": "ng5",
-        "compound_definition\r": "Five little birds are singing in the tree.\r"
+        "compound_definition": "Five little birds are singing in the tree."
     },
     {
         "id": 65,
@@ -777,7 +777,7 @@ var data = [
         "compound": "请给我一些水。",
         "compound_pinyin": "Qǐng gěi wǒ yīxiē shuǐ.",
         "compound_cantonese": "se1",
-        "compound_definition\r": "Please give me some water.\r"
+        "compound_definition": "Please give me some water."
     },
     {
         "id": 66,
@@ -789,7 +789,7 @@ var data = [
         "compound": "北京是中国的首都。",
         "compound_pinyin": "Běijīng shì Zhōngguó de shǒudū.",
         "compound_cantonese": "ging1",
-        "compound_definition\r": "Beijing is the capital of China.\r"
+        "compound_definition": "Beijing is the capital of China."
     },
     {
         "id": 67,
@@ -801,7 +801,7 @@ var data = [
         "compound": "人们在公园里散步。",
         "compound_pinyin": "Rénmen zài gōngyuán lǐ sànbù.",
         "compound_cantonese": "Jan4",
-        "compound_definition\r": "People are taking a walk in the park.\r"
+        "compound_definition": "People are taking a walk in the park."
     },
     {
         "id": 68,
@@ -813,7 +813,7 @@ var data = [
         "compound": "什么事情让你高兴？",
         "compound_pinyin": "Shénme shìqing ràng nǐ gāoxìng?",
         "compound_cantonese": "sam6",
-        "compound_definition\r": "What makes you happy?\r"
+        "compound_definition": "What makes you happy?"
     },
     {
         "id": 69,
@@ -825,7 +825,7 @@ var data = [
         "compound": "你想吃什么早餐？",
         "compound_pinyin": "Nǐ xiǎng chī shénme zǎocān?",
         "compound_cantonese": "sam6 maa1",
-        "compound_definition\r": "What would you like for breakfast?\r"
+        "compound_definition": "What would you like for breakfast?"
     },
     {
         "id": 70,
@@ -837,7 +837,7 @@ var data = [
         "compound": "今天天气很好。",
         "compound_pinyin": "Jīntiān tiānqì hěn hǎo.",
         "compound_cantonese": "gam1",
-        "compound_definition\r": "The weather is very nice today.\r"
+        "compound_definition": "The weather is very nice today."
     },
     {
         "id": 71,
@@ -849,7 +849,7 @@ var data = [
         "compound": "今天是星期三。",
         "compound_pinyin": "Jīntiān shì xīngqī sān.",
         "compound_cantonese": "gam1 tin1",
-        "compound_definition\r": "Today is Wednesday.\r"
+        "compound_definition": "Today is Wednesday."
     },
     {
         "id": 72,
@@ -861,7 +861,7 @@ var data = [
         "compound": "今年是我的生日。",
         "compound_pinyin": "Jīnnián shì wǒ de shēngrì.",
         "compound_cantonese": "gam1 nin2",
-        "compound_definition\r": "This year is my birthday.\r"
+        "compound_definition": "This year is my birthday."
     },
     {
         "id": 73,
@@ -873,7 +873,7 @@ var data = [
         "compound": "他向我们介绍了他的家人。",
         "compound_pinyin": "Tā xiàng wǒmen jièshào le tā de jiārén.",
         "compound_cantonese": "gaai3",
-        "compound_definition\r": "He introduced his family to us.\r"
+        "compound_definition": "He introduced his family to us."
     },
     {
         "id": 74,
@@ -885,7 +885,7 @@ var data = [
         "compound": "我们要介绍一位新同事。",
         "compound_pinyin": "Wǒmen yào jièshào yī wèi xīn tóngshì.",
         "compound_cantonese": "gaai3 siu6",
-        "compound_definition\r": "We need to introduce a new colleague.\r"
+        "compound_definition": "We need to introduce a new colleague."
     },
     {
         "id": 75,
@@ -897,7 +897,7 @@ var data = [
         "compound": "从明天开始，我要学习汉语。",
         "compound_pinyin": "Cóng míngtiān kāishǐ",
         "compound_cantonese": " wǒ yào xuéxí hànyǔ.",
-        "compound_definition\r": "cung4"
+        "compound_definition": "cung4"
     },
     {
         "id": 76,
@@ -909,7 +909,7 @@ var data = [
         "compound": "他是我的朋友。",
         "compound_pinyin": "Tā shì wǒ de péngyǒu.",
         "compound_cantonese": "taa1",
-        "compound_definition\r": "He is my friend.\r"
+        "compound_definition": "He is my friend."
     },
     {
         "id": 77,
@@ -921,7 +921,7 @@ var data = [
         "compound": "他们正在玩游戏。",
         "compound_pinyin": "Tāmen zhèngzài wán yóuxì.",
         "compound_cantonese": "taa1 mun4",
-        "compound_definition\r": "They are playing a game.\r"
+        "compound_definition": "They are playing a game."
     },
     {
         "id": 78,
@@ -933,7 +933,7 @@ var data = [
         "compound": "我的家人都很友好。",
         "compound_pinyin": "Wǒ de jiārén dōu hěn yǒuhǎo.",
         "compound_cantonese": "mun4",
-        "compound_definition\r": "My family members are all very friendly.\r"
+        "compound_definition": "My family members are all very friendly."
     },
     {
         "id": 79,
@@ -945,7 +945,7 @@ var data = [
         "compound": "件",
         "compound_pinyin": "jiàn",
         "compound_cantonese": "gin6",
-        "compound_definition\r": "item; component; measure word for events"
+        "compound_definition": "item; component; measure word for events"
     },
     {
         "id": 80,
@@ -957,7 +957,7 @@ var data = [
         "compound": "明天是星期六，我要休息。",
         "compound_pinyin": "Míngtiān shì xīngqī liù",
         "compound_cantonese": " wǒ yào xiūxí.",
-        "compound_definition\r": "jau1"
+        "compound_definition": "jau1"
     },
     {
         "id": 81,
@@ -969,7 +969,7 @@ var data = [
         "compound": "晚上回家后，我喜欢休息。",
         "compound_pinyin": "Wǎnshàng huí jiā hòu",
         "compound_cantonese": " wǒ xǐhuān xiūxí.",
-        "compound_definition\r": "jau1 sik6"
+        "compound_definition": "jau1 sik6"
     },
     {
         "id": 82,
@@ -981,7 +981,7 @@ var data = [
         "compound": "我会弹钢琴。",
         "compound_pinyin": "Wǒ huì tán gāngqín.",
         "compound_cantonese": "wui5",
-        "compound_definition\r": "I can play the piano.\r"
+        "compound_definition": "I can play the piano."
     },
     {
         "id": 83,
@@ -993,7 +993,7 @@ var data = [
         "compound": "但",
         "compound_pinyin": "dàn",
         "compound_cantonese": "daan6",
-        "compound_definition\r": "but; yet; however; only; merely; still\r"
+        "compound_definition": "but; yet; however; only; merely; still"
     },
     {
         "id": 84,
@@ -1005,7 +1005,7 @@ var data = [
         "compound": "但是",
         "compound_pinyin": "dànshì",
         "compound_cantonese": "daan6si6",
-        "compound_definition\r": "but; however\r"
+        "compound_definition": "but; however"
     },
     {
         "id": 85,
@@ -1017,7 +1017,7 @@ var data = [
         "compound": "我住在这个城市。",
         "compound_pinyin": "Wǒ zhù zài zhège chéngshì.",
         "compound_cantonese": "zyu6",
-        "compound_definition\r": "I live in this city.\r"
+        "compound_definition": "I live in this city."
     },
     {
         "id": 86,
@@ -1029,7 +1029,7 @@ var data = [
         "compound": "运动对身体很好。",
         "compound_pinyin": "Yùndòng duì shēntǐ hěn hǎo.",
         "compound_cantonese": "tai2",
-        "compound_definition\r": "Exercise is good for your health.\r"
+        "compound_definition": "Exercise is good for your health."
     },
     {
         "id": 87,
@@ -1041,7 +1041,7 @@ var data = [
         "compound": "他喜欢作音乐。",
         "compound_pinyin": "Tā xǐhuān zuò yīnyuè.",
         "compound_cantonese": "zou6",
-        "compound_definition\r": "He likes to make music.\r"
+        "compound_definition": "He likes to make music."
     },
     {
         "id": 88,
@@ -1053,7 +1053,7 @@ var data = [
         "compound": "你好吗？",
         "compound_pinyin": "Nǐ hǎo ma?",
         "compound_cantonese": "nei5",
-        "compound_definition\r": "How are you?\r"
+        "compound_definition": "How are you?"
     },
     {
         "id": 89,
@@ -1065,7 +1065,7 @@ var data = [
         "compound": "你们都准备好了吗？",
         "compound_pinyin": "Nǐmen dōu zhǔnbèi hǎo le ma?",
         "compound_cantonese": "nei5 mun4",
-        "compound_definition\r": "Are you all ready?\r"
+        "compound_definition": "Are you all ready?"
     },
     {
         "id": 90,
@@ -1077,7 +1077,7 @@ var data = [
         "compound": "便宜",
         "compound_pinyin": "piányi",
         "compound_cantonese": "pin4ji4",
-        "compound_definition\r": "cheap; inexpensive; small advantages; to let somebody off lightly\r"
+        "compound_definition": "cheap; inexpensive; small advantages; to let somebody off lightly"
     },
     {
         "id": 91,
@@ -1089,7 +1089,7 @@ var data = [
         "compound": "请稍候，我查一下。",
         "compound_pinyin": "Qǐng shāo hòu",
         "compound_cantonese": " wǒ chá yīxià.",
-        "compound_definition\r": "hau6"
+        "compound_definition": "hau6"
     },
     {
         "id": 92,
@@ -1101,7 +1101,7 @@ var data = [
         "compound": "我们计划明年去度假。",
         "compound_pinyin": "Wǒmen jìhuà míngnián qù dùjià.",
         "compound_cantonese": "gaa3",
-        "compound_definition\r": "We plan to go on vacation next year.\r"
+        "compound_definition": "We plan to go on vacation next year."
     },
     {
         "id": 93,
@@ -1113,7 +1113,7 @@ var data = [
         "compound": "请不要做太多的噪音。",
         "compound_pinyin": "Qǐng bùyào zuò tài duō de zàoyīn.",
         "compound_cantonese": "zou6",
-        "compound_definition\r": "Please don't make too much noise.\r"
+        "compound_definition": "Please don't make too much noise."
     },
     {
         "id": 94,
@@ -1125,7 +1125,7 @@ var data = [
         "compound": "他的儿子在读书。",
         "compound_pinyin": "Tā de érzi zài dúshū.",
         "compound_cantonese": "ji4",
-        "compound_definition\r": "His son is studying.\r"
+        "compound_definition": "His son is studying."
     },
     {
         "id": 95,
@@ -1137,7 +1137,7 @@ var data = [
         "compound": "他的儿子非常聪明。",
         "compound_pinyin": "Tā de érzi fēicháng cōngmíng.",
         "compound_cantonese": "ji4 zi2",
-        "compound_definition\r": "His son is very intelligent.\r"
+        "compound_definition": "His son is very intelligent."
     },
     {
         "id": 96,
@@ -1149,7 +1149,7 @@ var data = [
         "compound": "这个汉堡价格是十元。",
         "compound_pinyin": "Zhège hànbǎo jiàgé shì shí yuán.",
         "compound_cantonese": "jyun4",
-        "compound_definition\r": "The price of this hamburger is ten yuan.\r"
+        "compound_definition": "The price of this hamburger is ten yuan."
     },
     {
         "id": 97,
@@ -1161,7 +1161,7 @@ var data = [
         "compound": "你先吃，我等一下。",
         "compound_pinyin": "Nǐ xiān chī",
         "compound_cantonese": " wǒ děng yīxià.",
-        "compound_definition\r": "sin1"
+        "compound_definition": "sin1"
     },
     {
         "id": 98,
@@ -1173,7 +1173,7 @@ var data = [
         "compound": "他是一位医生先生。",
         "compound_pinyin": "Tā shì yī wèi yīshēng xiānsheng.",
         "compound_cantonese": "sin1 sang1",
-        "compound_definition\r": "He is a doctor"
+        "compound_definition": "He is a doctor"
     },
     {
         "id": 99,
@@ -1185,7 +1185,7 @@ var data = [
         "compound": "我有八本漫画书。",
         "compound_pinyin": "Wǒ yǒu bā běn mànhuàshū.",
         "compound_cantonese": "baat3",
-        "compound_definition\r": "I have eight comic books.\r"
+        "compound_definition": "I have eight comic books."
     },
     {
         "id": 100,
@@ -1197,7 +1197,7 @@ var data = [
         "compound": "公",
         "compound_pinyin": "gōng",
         "compound_cantonese": "gung1",
-        "compound_definition\r": "public; collectively owned; common; international (e.g. high seas"
+        "compound_definition": "public; collectively owned; common; international (e.g. high seas"
     },
     {
         "id": 101,
@@ -1209,7 +1209,7 @@ var data = [
         "compound": "公共",
         "compound_pinyin": "gōnggòng",
         "compound_cantonese": "gung1gung6",
-        "compound_definition\r": "public; common; communal\r"
+        "compound_definition": "public; common; communal"
     },
     {
         "id": 102,
@@ -1221,7 +1221,7 @@ var data = [
         "compound": "公共汽车",
         "compound_pinyin": "gōnggòng qìchē",
         "compound_cantonese": "gung1gung6 hei3ce1",
-        "compound_definition\r": "bus\r"
+        "compound_definition": "bus"
     },
     {
         "id": 103,
@@ -1233,7 +1233,7 @@ var data = [
         "compound": "公司",
         "compound_pinyin": "gōngsī",
         "compound_cantonese": "gung1si1",
-        "compound_definition\r": "(business) company; company; firm; corporation; incorporated\r"
+        "compound_definition": "(business) company; company; firm; corporation; incorporated"
     },
     {
         "id": 104,
@@ -1245,7 +1245,7 @@ var data = [
         "compound": "星期六是我最喜欢的一天。",
         "compound_pinyin": "Xīngqī liù shì wǒ zuì xǐhuān de yītiān.",
         "compound_cantonese": "luk6",
-        "compound_definition\r": "Saturday is my favorite day.\r"
+        "compound_definition": "Saturday is my favorite day."
     },
     {
         "id": 105,
@@ -1257,7 +1257,7 @@ var data = [
         "compound": "请关上窗户。",
         "compound_pinyin": "Qǐng guān shàng chuānghu.",
         "compound_cantonese": "gwaan1",
-        "compound_definition\r": "Please close the window.\r"
+        "compound_definition": "Please close the window."
     },
     {
         "id": 106,
@@ -1269,7 +1269,7 @@ var data = [
         "compound": "请关上门。",
         "compound_pinyin": "Qǐng guānshàng mén.",
         "compound_cantonese": "gwaan1 soeng6",
-        "compound_definition\r": "Please close the door.\r"
+        "compound_definition": "Please close the door."
     },
     {
         "id": 107,
@@ -1281,7 +1281,7 @@ var data = [
         "compound": "我对学习汉语充满兴趣。",
         "compound_pinyin": "Wǒ duì xuéxí hànyǔ chōngmǎn xìngqù.",
         "compound_cantonese": "hing1",
-        "compound_definition\r": "I am interested in learning Chinese.\r"
+        "compound_definition": "I am interested in learning Chinese."
     },
     {
         "id": 108,
@@ -1293,7 +1293,7 @@ var data = [
         "compound": "我想再吃一块蛋糕。",
         "compound_pinyin": "Wǒ xiǎng zài chī yī kuài dàngāo.",
         "compound_cantonese": "zoi3",
-        "compound_definition\r": "I want to have another piece of cake.\r"
+        "compound_definition": "I want to have another piece of cake."
     },
     {
         "id": 109,
@@ -1305,7 +1305,7 @@ var data = [
         "compound": "下次再见！",
         "compound_pinyin": "Xiàcì zàijiàn!",
         "compound_cantonese": "zoi3 gin3",
-        "compound_definition\r": "See you next time!\r"
+        "compound_definition": "See you next time!"
     },
     {
         "id": 110,
@@ -1317,7 +1317,7 @@ var data = [
         "compound": "我每天都要写汉字。",
         "compound_pinyin": "Wǒ měitiān dū yào xiě hànzì.",
         "compound_cantonese": "se2",
-        "compound_definition\r": "I have to write Chinese characters every day.\r"
+        "compound_definition": "I have to write Chinese characters every day."
     },
     {
         "id": 111,
@@ -1329,7 +1329,7 @@ var data = [
         "compound": "冷水很清爽。",
         "compound_pinyin": "Lěngshuǐ hěn qīngshuǎng.",
         "compound_cantonese": "laang5",
-        "compound_definition\r": "Cold water is very refreshing.\r"
+        "compound_definition": "Cold water is very refreshing."
     },
     {
         "id": 112,
@@ -1341,7 +1341,7 @@ var data = [
         "compound": "请把桌子擦得净一点。",
         "compound_pinyin": "Qǐng bǎ zhuōzi cā de jìng yīdiǎn.",
         "compound_cantonese": "zing6",
-        "compound_definition\r": "Please clean the table more thoroughly.\r"
+        "compound_definition": "Please clean the table more thoroughly."
     },
     {
         "id": 113,
@@ -1353,7 +1353,7 @@ var data = [
         "compound": "我的朋友准备好了。",
         "compound_pinyin": "Wǒ de péngyǒu zhǔnbèi hǎo le.",
         "compound_cantonese": "zeon2",
-        "compound_definition\r": "My friend is ready.\r"
+        "compound_definition": "My friend is ready."
     },
     {
         "id": 114,
@@ -1365,7 +1365,7 @@ var data = [
         "compound": "我要准备晚饭。",
         "compound_pinyin": "Wǒ yào zhǔnbèi wǎnfàn.",
         "compound_cantonese": "zeon2 bei6",
-        "compound_definition\r": "I'm going to prepare dinner.\r"
+        "compound_definition": "I'm going to prepare dinner."
     },
     {
         "id": 115,
@@ -1377,7 +1377,7 @@ var data = [
         "compound": "请给我几块巧克力。",
         "compound_pinyin": "Qǐng gěi wǒ jǐ kuài qiǎokèlì.",
         "compound_cantonese": "gei2",
-        "compound_definition\r": "Please give me a few pieces of chocolate.\r"
+        "compound_definition": "Please give me a few pieces of chocolate."
     },
     {
         "id": 116,
@@ -1389,7 +1389,7 @@ var data = [
         "compound": "他从房间出来了。",
         "compound_pinyin": "Tā cóng fángjiān chūlái le.",
         "compound_cantonese": "ceot1",
-        "compound_definition\r": "He came out of the room.\r"
+        "compound_definition": "He came out of the room."
     },
     {
         "id": 117,
@@ -1401,7 +1401,7 @@ var data = [
         "compound": "我要出去一下，马上回来。",
         "compound_pinyin": "Wǒ yào chūqù yīxià",
         "compound_cantonese": " mǎshàng huílái.",
-        "compound_definition\r": "ceot1 heoi2"
+        "compound_definition": "ceot1 heoi2"
     },
     {
         "id": 118,
@@ -1413,7 +1413,7 @@ var data = [
         "compound": "请出来，我们要开始了。",
         "compound_pinyin": "Qǐng chūlái",
         "compound_cantonese": " wǒmen yào kāishǐ le.",
-        "compound_definition\r": "ceot1 lai4"
+        "compound_definition": "ceot1 lai4"
     },
     {
         "id": 119,
@@ -1425,7 +1425,7 @@ var data = [
         "compound": "出租车",
         "compound_pinyin": "chūzū chē",
         "compound_cantonese": "ceot1zou1 ce1",
-        "compound_definition\r": "taxi; (Tw) rental car\r"
+        "compound_definition": "taxi; (Tw) rental car"
     },
     {
         "id": 120,
@@ -1437,7 +1437,7 @@ var data = [
         "compound": "这本书有十五页。",
         "compound_pinyin": "Zhè běn shū yǒu shíwǔ yè.",
         "compound_cantonese": "fan1",
-        "compound_definition\r": "This book has fifteen pages.\r"
+        "compound_definition": "This book has fifteen pages."
     },
     {
         "id": 121,
@@ -1449,7 +1449,7 @@ var data = [
         "compound": "分钟",
         "compound_pinyin": "fēnzhōng",
         "compound_cantonese": "fan1zung1",
-        "compound_definition\r": "minute\r"
+        "compound_definition": "minute"
     },
     {
         "id": 122,
@@ -1461,7 +1461,7 @@ var data = [
         "compound": "别担心，一切都会好的。",
         "compound_pinyin": "Bié dānxīn",
         "compound_cantonese": " yīqiè dōu huì hǎo de.",
-        "compound_definition\r": "bit6"
+        "compound_definition": "bit6"
     },
     {
         "id": 123,
@@ -1473,7 +1473,7 @@ var data = [
         "compound": "别人的问题不关你的事。",
         "compound_pinyin": "Biérén de wèntí bù guān nǐ de shì.",
         "compound_cantonese": "bit6 jan4",
-        "compound_definition\r": "Other people's problems are not your business.\r"
+        "compound_definition": "Other people's problems are not your business."
     },
     {
         "id": 124,
@@ -1485,7 +1485,7 @@ var data = [
         "compound": "除了苹果，还有别的水果吗？",
         "compound_pinyin": "Chúle píngguǒ",
         "compound_cantonese": " hái yǒu bié de shuǐguǒ ma?",
-        "compound_definition\r": "bit6 dik1"
+        "compound_definition": "bit6 dik1"
     },
     {
         "id": 125,
@@ -1497,7 +1497,7 @@ var data = [
         "compound": "他今天下午到北京。",
         "compound_pinyin": "Tā jīntiān xiàwǔ dào Běijīng.",
         "compound_cantonese": "dou3",
-        "compound_definition\r": "He's going to Beijing this afternoon.\r"
+        "compound_definition": "He's going to Beijing this afternoon."
     },
     {
         "id": 126,
@@ -1509,7 +1509,7 @@ var data = [
         "compound": "请在两天前通知我。",
         "compound_pinyin": "Qǐng zài liǎng tiān qián tōngzhī wǒ.",
         "compound_cantonese": "cin4",
-        "compound_definition\r": "Please notify me two days in advance.\r"
+        "compound_definition": "Please notify me two days in advance."
     },
     {
         "id": 127,
@@ -1521,7 +1521,7 @@ var data = [
         "compound": "前天我去了博物馆。",
         "compound_pinyin": "Qiántiān wǒ qùle bówùguǎn.",
         "compound_cantonese": "cin4 tin1",
-        "compound_definition\r": "I went to the museum the day before yesterday.\r"
+        "compound_definition": "I went to the museum the day before yesterday."
     },
     {
         "id": 128,
@@ -1533,7 +1533,7 @@ var data = [
         "compound": "学校的食堂在学校的前边。",
         "compound_pinyin": "Xuéxiào de shítáng zài xuéxiào de qiánbiān.",
         "compound_cantonese": "cin4 bin1",
-        "compound_definition\r": "The school cafeteria is in front of the school.\r"
+        "compound_definition": "The school cafeteria is in front of the school."
     },
     {
         "id": 129,
@@ -1545,7 +1545,7 @@ var data = [
         "compound": "前面",
         "compound_pinyin": "qiánmiàn",
         "compound_cantonese": "cin4min6",
-        "compound_definition\r": "ahead; in front; preceding; above\r"
+        "compound_definition": "ahead; in front; preceding; above"
     },
     {
         "id": 130,
@@ -1557,7 +1557,7 @@ var data = [
         "compound": "孩子们喜欢动物。",
         "compound_pinyin": "Háizi men xǐhuān dòngwù.",
         "compound_cantonese": "dung6",
-        "compound_definition\r": "Children like animals.\r"
+        "compound_definition": "Children like animals."
     },
     {
         "id": 131,
@@ -1569,7 +1569,7 @@ var data = [
         "compound": "他的舞蹈动作很优美。",
         "compound_pinyin": "Tā de wǔdǎo dòngzuò hěn yōuměi.",
         "compound_cantonese": "dung6 co3",
-        "compound_definition\r": "His dance movements are very graceful.\r"
+        "compound_definition": "His dance movements are very graceful."
     },
     {
         "id": 132,
@@ -1581,7 +1581,7 @@ var data = [
         "compound": "我的书包很重。",
         "compound_pinyin": "Wǒ de shūbāo hěn zhòng.",
         "compound_cantonese": "baau1",
-        "compound_definition\r": "My school bag is very heavy.\r"
+        "compound_definition": "My school bag is very heavy."
     },
     {
         "id": 133,
@@ -1593,7 +1593,7 @@ var data = [
         "compound": "早餐我吃了两个包子。",
         "compound_pinyin": "Zǎocān wǒ chī le liǎng gè bāozi.",
         "compound_cantonese": "baau1 zi2",
-        "compound_definition\r": "I had two steamed buns for breakfast.\r"
+        "compound_definition": "I had two steamed buns for breakfast."
     },
     {
         "id": 134,
@@ -1605,7 +1605,7 @@ var data = [
         "compound": "北风很冷。",
         "compound_pinyin": "Běifēng hěn lěng.",
         "compound_cantonese": "bak1",
-        "compound_definition\r": "The north wind is very cold.\r"
+        "compound_definition": "The north wind is very cold."
     },
     {
         "id": 135,
@@ -1617,7 +1617,7 @@ var data = [
         "compound": "北京是中国的首都。",
         "compound_pinyin": "Běijīng shì Zhōngguó de shǒudū.",
         "compound_cantonese": "bak1 geng1",
-        "compound_definition\r": "Beijing is the capital of China.\r"
+        "compound_definition": "Beijing is the capital of China."
     },
     {
         "id": 136,
@@ -1629,7 +1629,7 @@ var data = [
         "compound": "那个山在城市的北边。",
         "compound_pinyin": "Nà ge shān zài chéngshì de běibiān.",
         "compound_cantonese": "bak1 bin1",
-        "compound_definition\r": "That mountain is to the north of the city.\r"
+        "compound_definition": "That mountain is to the north of the city."
     },
     {
         "id": 137,
@@ -1641,7 +1641,7 @@ var data = [
         "compound": "医生在医院工作。",
         "compound_pinyin": "Yīshēng zài yīyuàn gōngzuò.",
         "compound_cantonese": "ji1",
-        "compound_definition\r": "Doctors work at the hospital.\r"
+        "compound_definition": "Doctors work at the hospital."
     },
     {
         "id": 138,
@@ -1653,7 +1653,7 @@ var data = [
         "compound": "我的妈妈是一名医生。",
         "compound_pinyin": "Wǒ de māma shì yī míng yīshēng.",
         "compound_cantonese": "ji1 sang1",
-        "compound_definition\r": "My mom is a doctor.\r"
+        "compound_definition": "My mom is a doctor."
     },
     {
         "id": 139,
@@ -1665,7 +1665,7 @@ var data = [
         "compound": "他去医院看病了。",
         "compound_pinyin": "Tā qù yīyuàn kànbìngle.",
         "compound_cantonese": "ji1 jyun2",
-        "compound_definition\r": "He went to the hospital for a medical checkup.\r"
+        "compound_definition": "He went to the hospital for a medical checkup."
     },
     {
         "id": 140,
@@ -1677,7 +1677,7 @@ var data = [
         "compound": "十只猫在院子里玩耍。",
         "compound_pinyin": "Shí zhī māo zài yuànzi lǐ wánshuǎ.",
         "compound_cantonese": "sap6",
-        "compound_definition\r": "Ten cats are playing in the yard.\r"
+        "compound_definition": "Ten cats are playing in the yard."
     },
     {
         "id": 141,
@@ -1689,7 +1689,7 @@ var data = [
         "compound": "千",
         "compound_pinyin": "qiān",
         "compound_cantonese": "cin1",
-        "compound_definition\r": "thousand\r"
+        "compound_definition": "thousand"
     },
     {
         "id": 142,
@@ -1701,7 +1701,7 @@ var data = [
         "compound": "中午我们吃午饭。",
         "compound_pinyin": "Zhōngwǔ wǒmen chī wǔfàn.",
         "compound_cantonese": "ng5",
-        "compound_definition\r": "We have lunch at noon.\r"
+        "compound_definition": "We have lunch at noon."
     },
     {
         "id": 143,
@@ -1713,7 +1713,7 @@ var data = [
         "compound": "今天的午饭很美味。",
         "compound_pinyin": "Jīntiān de wǔfàn hěn měiwèi.",
         "compound_cantonese": "ng5 faan6",
-        "compound_definition\r": "Today's lunch is very delicious.\r"
+        "compound_definition": "Today's lunch is very delicious."
     },
     {
         "id": 144,
@@ -1725,7 +1725,7 @@ var data = [
         "compound": "已经六点半了。",
         "compound_pinyin": "Yǐjīng liù diǎn bàn le.",
         "compound_cantonese": "bun3",
-        "compound_definition\r": "It's already half past six.\r"
+        "compound_definition": "It's already half past six."
     },
     {
         "id": 145,
@@ -1737,7 +1737,7 @@ var data = [
         "compound": "我等了半天，他还没来。",
         "compound_pinyin": "Wǒ děngle bàntiān",
         "compound_cantonese": " tā hái méi lái.",
-        "compound_definition\r": "bun3 tin1"
+        "compound_definition": "bun3 tin1"
     },
     {
         "id": 146,
@@ -1749,7 +1749,7 @@ var data = [
         "compound": "我们每半年去度假。",
         "compound_pinyin": "Wǒmen měi bànnián qù dùjià.",
         "compound_cantonese": "bun3 nin4",
-        "compound_definition\r": "We go on vacation every six months.\r"
+        "compound_definition": "We go on vacation every six months."
     },
     {
         "id": 147,
@@ -1761,7 +1761,7 @@ var data = [
         "compound": "卖",
         "compound_pinyin": "mài",
         "compound_cantonese": "maai6",
-        "compound_definition\r": "to sell; to betray; to spare no effort; to show off or flaunt\r"
+        "compound_definition": "to sell; to betray; to spare no effort; to show off or flaunt"
     },
     {
         "id": 148,
@@ -1773,7 +1773,7 @@ var data = [
         "compound": "南边的海滩很美丽。",
         "compound_pinyin": "Nánbiān de hǎitān hěn měilì.",
         "compound_cantonese": "naam4",
-        "compound_definition\r": "The beach on the south side is very beautiful.\r"
+        "compound_definition": "The beach on the south side is very beautiful."
     },
     {
         "id": 149,
@@ -1785,7 +1785,7 @@ var data = [
         "compound": "我住在城市的南边。",
         "compound_pinyin": "Wǒ zhù zài chéngshì de nánbiān.",
         "compound_cantonese": "naam4 bin1",
-        "compound_definition\r": "I live on the south side of the city.\r"
+        "compound_definition": "I live on the south side of the city."
     },
     {
         "id": 150,
@@ -1797,7 +1797,7 @@ var data = [
         "compound": "明天我要去上海。",
         "compound_pinyin": "Míngtiān wǒ yào qù Shànghǎi.",
         "compound_cantonese": "heoi3",
-        "compound_definition\r": "I'm going to Shanghai tomorrow.\r"
+        "compound_definition": "I'm going to Shanghai tomorrow."
     },
     {
         "id": 151,
@@ -1809,7 +1809,7 @@ var data = [
         "compound": "去年我们去了巴黎。",
         "compound_pinyin": "Qùnián wǒmen qùle Bālí.",
         "compound_cantonese": "heoi3 nin2",
-        "compound_definition\r": "We went to Paris last year.\r"
+        "compound_definition": "We went to Paris last year."
     },
     {
         "id": 152,
@@ -1821,7 +1821,7 @@ var data = [
         "compound": "他是我的好朋友。",
         "compound_pinyin": "Tā shì wǒ de hǎo péngyǒu.",
         "compound_cantonese": "jau5",
-        "compound_definition\r": "He is my good friend.\r"
+        "compound_definition": "He is my good friend."
     },
     {
         "id": 153,
@@ -1833,7 +1833,7 @@ var data = [
         "compound": "这个杯子有一个口。",
         "compound_pinyin": "Zhège bēizi yǒu yī gè kǒu.",
         "compound_cantonese": "hau2",
-        "compound_definition\r": "This cup has one opening/mouth.\r"
+        "compound_definition": "This cup has one opening/mouth."
     },
     {
         "id": 154,
@@ -1845,7 +1845,7 @@ var data = [
         "compound": "请叫我一声老师。",
         "compound_pinyin": "Qǐng jiào wǒ yīshēng lǎoshī.",
         "compound_cantonese": "giu3",
-        "compound_definition\r": "Please call me Teacher.\r"
+        "compound_definition": "Please call me Teacher."
     },
     {
         "id": 155,
@@ -1857,7 +1857,7 @@ var data = [
         "compound": "可",
         "compound_pinyin": "kě",
         "compound_cantonese": "ho2",
-        "compound_definition\r": "can; may; able to; to approve; to permit; to suit; (particle used for emphasis) certainly; very\r"
+        "compound_definition": "can; may; able to; to approve; to permit; to suit; (particle used for emphasis) certainly; very"
     },
     {
         "id": 156,
@@ -1869,7 +1869,7 @@ var data = [
         "compound": "可以",
         "compound_pinyin": "kěyǐ",
         "compound_cantonese": "ho2ji5",
-        "compound_definition\r": "can; may; possible; able to; not bad; pretty good\r"
+        "compound_definition": "can; may; possible; able to; not bad; pretty good"
     },
     {
         "id": 157,
@@ -1881,7 +1881,7 @@ var data = [
         "compound": "可能",
         "compound_pinyin": "kěnéng",
         "compound_cantonese": "ho2nang4",
-        "compound_definition\r": "might (happen); possible; probable; possibility; probability; maybe; perhaps\r"
+        "compound_definition": "might (happen); possible; probable; possibility; probability; maybe; perhaps"
     },
     {
         "id": 158,
@@ -1893,7 +1893,7 @@ var data = [
         "compound": "右手举起来。",
         "compound_pinyin": "Yòushǒu jǔ qǐlái.",
         "compound_cantonese": "jau6",
-        "compound_definition\r": "Raise your right hand.\r"
+        "compound_definition": "Raise your right hand."
     },
     {
         "id": 159,
@@ -1905,7 +1905,7 @@ var data = [
         "compound": "商店在街道的右边。",
         "compound_pinyin": "Shāngdiàn zài jiēdào de yòubiān.",
         "compound_cantonese": "jau6 bin1",
-        "compound_definition\r": "The store is on the right side of the street.\r"
+        "compound_definition": "The store is on the right side of the street."
     },
     {
         "id": 160,
@@ -1917,7 +1917,7 @@ var data = [
         "compound": "今天是几号？",
         "compound_pinyin": "Jīntiān shì jǐ hào?",
         "compound_cantonese": "hou6",
-        "compound_definition\r": "What is the date today?\r"
+        "compound_definition": "What is the date today?"
     },
     {
         "id": 161,
@@ -1929,7 +1929,7 @@ var data = [
         "compound": "我喜欢吃巧克力。",
         "compound_pinyin": "Wǒ xǐhuān chī qiǎokèlì.",
         "compound_cantonese": "hek3",
-        "compound_definition\r": "I like to eat chocolate.\r"
+        "compound_definition": "I like to eat chocolate."
     },
     {
         "id": 162,
@@ -1941,7 +1941,7 @@ var data = [
         "compound": "我们一起吃饭吧！",
         "compound_pinyin": "Wǒmen yīqǐ chīfàn ba!",
         "compound_cantonese": "hek3 faan6",
-        "compound_definition\r": "Let's have a meal together!\r"
+        "compound_definition": "Let's have a meal together!"
     },
     {
         "id": 163,
@@ -1953,7 +1953,7 @@ var data = [
         "compound": "我们是同学。",
         "compound_pinyin": "Wǒmen shì tóngxué.",
         "compound_cantonese": "tung4",
-        "compound_definition\r": "We are classmates.\r"
+        "compound_definition": "We are classmates."
     },
     {
         "id": 164,
@@ -1965,7 +1965,7 @@ var data = [
         "compound": "我的同学都很友好。",
         "compound_pinyin": "Wǒ de tóngxué dōu hěn yǒuhǎo.",
         "compound_cantonese": "tung4 hok6",
-        "compound_definition\r": "My classmates are all very friendly.\r"
+        "compound_definition": "My classmates are all very friendly."
     },
     {
         "id": 165,
@@ -1977,7 +1977,7 @@ var data = [
         "compound": "这是我的名字。",
         "compound_pinyin": "Zhè shì wǒ de míngzì.",
         "compound_cantonese": "meng2",
-        "compound_definition\r": "This is my name.\r"
+        "compound_definition": "This is my name."
     },
     {
         "id": 166,
@@ -1989,7 +1989,7 @@ var data = [
         "compound": "你的名字很独特。",
         "compound_pinyin": "Nǐ de míngzi hěn dútè.",
         "compound_cantonese": "meng2 zi6",
-        "compound_definition\r": "Your name is unique.\r"
+        "compound_definition": "Your name is unique."
     },
     {
         "id": 167,
@@ -2001,7 +2001,7 @@ var data = [
         "compound": "后天是我的生日。",
         "compound_pinyin": "Hòutiān shì wǒ de shēngrì.",
         "compound_cantonese": "hau6",
-        "compound_definition\r": "The day after tomorrow is my birthday.\r"
+        "compound_definition": "The day after tomorrow is my birthday."
     },
     {
         "id": 168,
@@ -2013,7 +2013,7 @@ var data = [
         "compound": "后天是我的生日。",
         "compound_pinyin": "Hòutiān shì wǒ de shēngrì.",
         "compound_cantonese": "hau6 tin1",
-        "compound_definition\r": "The day after tomorrow is my birthday.\r"
+        "compound_definition": "The day after tomorrow is my birthday."
     },
     {
         "id": 169,
@@ -2025,7 +2025,7 @@ var data = [
         "compound": "学校后边有一个图书馆。",
         "compound_pinyin": "Xuéxiào hòubiān yǒu yīgè túshūguǎn.",
         "compound_cantonese": "hau6 bin1",
-        "compound_definition\r": "There is a library behind the school.\r"
+        "compound_definition": "There is a library behind the school."
     },
     {
         "id": 170,
@@ -2037,7 +2037,7 @@ var data = [
         "compound": "后面",
         "compound_pinyin": "hòumiàn",
         "compound_cantonese": "hau6min6",
-        "compound_definition\r": "rear; back; behind; later; afterwards\r"
+        "compound_definition": "rear; back; behind; later; afterwards"
     },
     {
         "id": 171,
@@ -2049,7 +2049,7 @@ var data = [
         "compound": "你喜欢吃巧克力吗？",
         "compound_pinyin": "Nǐ xǐhuān chī qiǎokèlì ma?",
         "compound_cantonese": "maa1",
-        "compound_definition\r": "Do you like to eat chocolate?\r"
+        "compound_definition": "Do you like to eat chocolate?"
     },
     {
         "id": 172,
@@ -2061,7 +2061,7 @@ var data = [
         "compound": "今天天气很好，我们去爬山吧！",
         "compound_pinyin": "Jīntiān tiānqì hěn hǎo",
         "compound_cantonese": " wǒmen qù páshān ba!",
-        "compound_definition\r": "baa1"
+        "compound_definition": "baa1"
     },
     {
         "id": 173,
@@ -2073,7 +2073,7 @@ var data = [
         "compound": "我喜欢听音乐。",
         "compound_pinyin": "Wǒ xǐhuān tīng yīnyuè.",
         "compound_cantonese": "teng1",
-        "compound_definition\r": "I like to listen to music.\r"
+        "compound_definition": "I like to listen to music."
     },
     {
         "id": 174,
@@ -2085,7 +2085,7 @@ var data = [
         "compound": "明天我们要做听写练习。",
         "compound_pinyin": "Míngtiān wǒmen yào zuò tīngxiě liànxí.",
         "compound_cantonese": "teng1 se2",
-        "compound_definition\r": "We have a dictation exercise tomorrow.\r"
+        "compound_definition": "We have a dictation exercise tomorrow."
     },
     {
         "id": 175,
@@ -2097,7 +2097,7 @@ var data = [
         "compound": "我听到了你的声音。",
         "compound_pinyin": "Wǒ tīngdào le nǐ de shēngyīn.",
         "compound_cantonese": "teng1 dou3",
-        "compound_definition\r": "I heard your voice.\r"
+        "compound_definition": "I heard your voice."
     },
     {
         "id": 176,
@@ -2109,7 +2109,7 @@ var data = [
         "compound": "我听见了你的电话铃声。",
         "compound_pinyin": "Wǒ tīngjiàn le nǐ de diànhuà língshēng.",
         "compound_cantonese": "teng1 gin3",
-        "compound_definition\r": "I heard your phone ringtone.\r"
+        "compound_definition": "I heard your phone ringtone."
     },
     {
         "id": 177,
@@ -2121,7 +2121,7 @@ var data = [
         "compound": "他告诉我一个秘密。",
         "compound_pinyin": "Tā gàosù wǒ yīgè mìmì.",
         "compound_cantonese": "gou3",
-        "compound_definition\r": "He told me a secret.\r"
+        "compound_definition": "He told me a secret."
     },
     {
         "id": 178,
@@ -2133,7 +2133,7 @@ var data = [
         "compound": "请告诉我你的地址。",
         "compound_pinyin": "Qǐng gàosù wǒ nǐ de dìzhǐ.",
         "compound_cantonese": "gou3 sou3",
-        "compound_definition\r": "Please tell me your address.\r"
+        "compound_definition": "Please tell me your address."
     },
     {
         "id": 179,
@@ -2145,7 +2145,7 @@ var data = [
         "compound": "员",
         "compound_pinyin": "yuán",
         "compound_cantonese": "jyun4",
-        "compound_definition\r": "person; employee; member\r"
+        "compound_definition": "person; employee; member"
     },
     {
         "id": 180,
@@ -2157,7 +2157,7 @@ var data = [
         "compound": "你喜欢吃饺子吗？我也喜欢。",
         "compound_pinyin": "Nǐ xǐhuān chī jiǎozi ma? Wǒ yě xǐhuān.",
         "compound_cantonese": "ne1",
-        "compound_definition\r": "Do you like dumplings? I also like them.\r"
+        "compound_definition": "Do you like dumplings? I also like them."
     },
     {
         "id": 181,
@@ -2169,7 +2169,7 @@ var data = [
         "compound": "妈妈和爸爸正在做晚饭。",
         "compound_pinyin": "Māmā hé bàba zhèngzài zuò wǎnfàn.",
         "compound_cantonese": "wo4",
-        "compound_definition\r": "Mom and Dad are cooking dinner.\r"
+        "compound_definition": "Mom and Dad are cooking dinner."
     },
     {
         "id": 182,
@@ -2181,7 +2181,7 @@ var data = [
         "compound": "咖啡",
         "compound_pinyin": "kāfēi",
         "compound_cantonese": "gaa3fe1",
-        "compound_definition\r": "coffee (loanword)\r"
+        "compound_definition": "coffee (loanword)"
     },
     {
         "id": 183,
@@ -2193,7 +2193,7 @@ var data = [
         "compound": "我有一个哥哥。",
         "compound_pinyin": "Wǒ yǒu yīgè gēgē.",
         "compound_cantonese": "go1",
-        "compound_definition\r": "I have one older brother.\r"
+        "compound_definition": "I have one older brother."
     },
     {
         "id": 184,
@@ -2205,7 +2205,7 @@ var data = [
         "compound": "我的哥哥是医生。",
         "compound_pinyin": "Wǒ de gēgē shì yīshēng.",
         "compound_cantonese": "go1 go1",
-        "compound_definition\r": "My older brother is a doctor.\r"
+        "compound_definition": "My older brother is a doctor."
     },
     {
         "id": 185,
@@ -2217,7 +2217,7 @@ var data = [
         "compound": "你要哪个？",
         "compound_pinyin": "Nǐ yào nǎge?",
         "compound_cantonese": "naa1",
-        "compound_definition\r": "Which one do you want?\r"
+        "compound_definition": "Which one do you want?"
     },
     {
         "id": 186,
@@ -2229,7 +2229,7 @@ var data = [
         "compound": "请告诉我哪些书你喜欢。",
         "compound_pinyin": "Qǐng gàosù wǒ nǎxiē shū nǐ xǐhuān.",
         "compound_cantonese": "naa1 se1",
-        "compound_definition\r": "Please tell me which books you like.\r"
+        "compound_definition": "Please tell me which books you like."
     },
     {
         "id": 187,
@@ -2241,7 +2241,7 @@ var data = [
         "compound": "你住在哪儿？",
         "compound_pinyin": "Nǐ zhù zài nǎr?",
         "compound_cantonese": "naa1",
-        "compound_definition\r": "Where do you live?\r"
+        "compound_definition": "Where do you live?"
     },
     {
         "id": 188,
@@ -2253,7 +2253,7 @@ var data = [
         "compound": "你说得很好，哪里哪里。",
         "compound_pinyin": "Nǐ shuō dé hěn hǎo",
         "compound_cantonese": " nǎlǐ nǎlǐ.",
-        "compound_definition\r": "naa1 lei5"
+        "compound_definition": "naa1 lei5"
     },
     {
         "id": 189,
@@ -2265,7 +2265,7 @@ var data = [
         "compound": "她喜欢唱歌。",
         "compound_pinyin": "Tā xǐhuān chàng gē.",
         "compound_cantonese": "coeng3",
-        "compound_definition\r": "She likes to sing.\r"
+        "compound_definition": "She likes to sing."
     },
     {
         "id": 190,
@@ -2277,7 +2277,7 @@ var data = [
         "compound": "我们一起唱歌吧！",
         "compound_pinyin": "Wǒmen yīqǐ chànggē ba!",
         "compound_cantonese": "coeng3 go1",
-        "compound_definition\r": "Let's sing together!\r"
+        "compound_definition": "Let's sing together!"
     },
     {
         "id": 191,
@@ -2289,7 +2289,7 @@ var data = [
         "compound": "商场里有很多商店。",
         "compound_pinyin": "Shāngchǎng lǐ yǒu hěnduō shāngdiàn.",
         "compound_cantonese": "soeng1",
-        "compound_definition\r": "There are many shops in the mall.\r"
+        "compound_definition": "There are many shops in the mall."
     },
     {
         "id": 192,
@@ -2301,7 +2301,7 @@ var data = [
         "compound": "我们去商场买衣服。",
         "compound_pinyin": "Wǒmen qù shāngchǎng mǎi yīfú.",
         "compound_cantonese": "soeng1 coeng4",
-        "compound_definition\r": "Let's go to the mall to buy clothes.\r"
+        "compound_definition": "Let's go to the mall to buy clothes."
     },
     {
         "id": 193,
@@ -2313,7 +2313,7 @@ var data = [
         "compound": "这家商店卖书。",
         "compound_pinyin": "Zhè jiā shāngdiàn mài shū.",
         "compound_cantonese": "soeng1 dim3",
-        "compound_definition\r": "This store sells books.\r"
+        "compound_definition": "This store sells books."
     },
     {
         "id": 194,
@@ -2325,7 +2325,7 @@ var data = [
         "compound": "喂",
         "compound_pinyin": "wèi",
         "compound_cantonese": "wai3",
-        "compound_definition\r": "hey; to feed (an animal"
+        "compound_definition": "hey; to feed (an animal"
     },
     {
         "id": 195,
@@ -2337,7 +2337,7 @@ var data = [
         "compound": "我喜欢吃巧克力。",
         "compound_pinyin": "Wǒ xǐhuān chī qiǎokèlì.",
         "compound_cantonese": "hei2",
-        "compound_definition\r": "I like to eat chocolate.\r"
+        "compound_definition": "I like to eat chocolate."
     },
     {
         "id": 196,
@@ -2349,7 +2349,7 @@ var data = [
         "compound": "你喜欢什么颜色？",
         "compound_pinyin": "Nǐ xǐhuān shénme yánsè?",
         "compound_cantonese": "hei2 fun1",
-        "compound_definition\r": "What color do you like?\r"
+        "compound_definition": "What color do you like?"
     },
     {
         "id": 197,
@@ -2361,7 +2361,7 @@ var data = [
         "compound": "我想喝一杯茶。",
         "compound_pinyin": "Wǒ xiǎng hē yī bēi chá.",
         "compound_cantonese": "hot3",
-        "compound_definition\r": "I'd like to have a cup of tea.\r"
+        "compound_definition": "I'd like to have a cup of tea."
     },
     {
         "id": 198,
@@ -2373,7 +2373,7 @@ var data = [
         "compound": "四季分明是春夏秋冬。",
         "compound_pinyin": "Sìjì fēnmíng shì chūnxiàqiūdōng.",
         "compound_cantonese": "sei3",
-        "compound_definition\r": "The four seasons are spring"
+        "compound_definition": "The four seasons are spring"
     },
     {
         "id": 199,
@@ -2385,7 +2385,7 @@ var data = [
         "compound": "我们下周去北京回来。",
         "compound_pinyin": "Wǒmen xià zhōu qù Běijīng huílái.",
         "compound_cantonese": "wui4",
-        "compound_definition\r": "We will go to Beijing and come back next week.\r"
+        "compound_definition": "We will go to Beijing and come back next week."
     },
     {
         "id": 200,
@@ -2397,7 +2397,7 @@ var data = [
         "compound": "明天我们会回到家乡。",
         "compound_pinyin": "Míngtiān wǒmen huì huídào jiāxiāng.",
         "compound_cantonese": "wui4 dou3",
-        "compound_definition\r": "We will return to our hometown tomorrow.\r"
+        "compound_definition": "We will return to our hometown tomorrow."
     },
     {
         "id": 201,
@@ -2409,7 +2409,7 @@ var data = [
         "compound": "他今天晚上要回去工作。",
         "compound_pinyin": "Tā jīntiān wǎnshàng yào huíqù gōngzuò.",
         "compound_cantonese": "wui4 heoi3",
-        "compound_definition\r": "He has to go back to work tonight.\r"
+        "compound_definition": "He has to go back to work tonight."
     },
     {
         "id": 202,
@@ -2421,7 +2421,7 @@ var data = [
         "compound": "下班后，我总是急着回家。",
         "compound_pinyin": "Xiàbān hòu",
         "compound_cantonese": " wǒ zǒngshì jízhe huíjiā.",
-        "compound_definition\r": "wui4 gaa1"
+        "compound_definition": "wui4 gaa1"
     },
     {
         "id": 203,
@@ -2433,7 +2433,7 @@ var data = [
         "compound": "他今天晚上会回来吗？",
         "compound_pinyin": "Tā jīntiān wǎnshàng huì huílái ma?",
         "compound_cantonese": "wui4 loi4",
-        "compound_definition\r": "Will he come back tonight?\r"
+        "compound_definition": "Will he come back tonight?"
     },
     {
         "id": 204,
@@ -2445,7 +2445,7 @@ var data = [
         "compound": "请回答这个问题。",
         "compound_pinyin": "Qǐng huídá zhège wèntí.",
         "compound_cantonese": "wui4 daap6",
-        "compound_definition\r": "Please answer this question.\r"
+        "compound_definition": "Please answer this question."
     },
     {
         "id": 205,
@@ -2457,7 +2457,7 @@ var data = [
         "compound": "因为",
         "compound_pinyin": "yīnwèi",
         "compound_cantonese": "jan1wai6",
-        "compound_definition\r": "because; owing to; on account of\r"
+        "compound_definition": "because; owing to; on account of"
     },
     {
         "id": 206,
@@ -2469,7 +2469,7 @@ var data = [
         "compound": "中国是一个伟大的国家。",
         "compound_pinyin": "Zhōngguó shì yīgè wěidà de guójiā.",
         "compound_cantonese": "gwok3",
-        "compound_definition\r": "China is a great country.\r"
+        "compound_definition": "China is a great country."
     },
     {
         "id": 207,
@@ -2481,7 +2481,7 @@ var data = [
         "compound": "我的朋友在国外工作。",
         "compound_pinyin": "Wǒ de péngyǒu zài guówài gōngzuò.",
         "compound_cantonese": "gwok3 ngoi6",
-        "compound_definition\r": "My friend works abroad.\r"
+        "compound_definition": "My friend works abroad."
     },
     {
         "id": 208,
@@ -2493,7 +2493,7 @@ var data = [
         "compound": "我热爱我的国家。",
         "compound_pinyin": "Wǒ rè'ài wǒ de guójiā.",
         "compound_cantonese": "gwok3 gaa1",
-        "compound_definition\r": "I love my country.\r"
+        "compound_definition": "I love my country."
     },
     {
         "id": 209,
@@ -2505,7 +2505,7 @@ var data = [
         "compound": "这是一张世界地图。",
         "compound_pinyin": "Zhè shì yī zhāng shìjiè dìtú.",
         "compound_cantonese": "tou4",
-        "compound_definition\r": "This is a world map.\r"
+        "compound_definition": "This is a world map."
     },
     {
         "id": 210,
@@ -2517,7 +2517,7 @@ var data = [
         "compound": "图书馆里有很多书。",
         "compound_pinyin": "Túshūguǎn lǐ yǒu hěnduō shū.",
         "compound_cantonese": "tou4 syu1 gun2",
-        "compound_definition\r": "There are many books in the library.\r"
+        "compound_definition": "There are many books in the library."
     },
     {
         "id": 211,
@@ -2529,7 +2529,7 @@ var data = [
         "compound": "他在学校里。",
         "compound_pinyin": "Tā zài xuéxiào lǐ.",
         "compound_cantonese": "zoi6",
-        "compound_definition\r": "He is at school.\r"
+        "compound_definition": "He is at school."
     },
     {
         "id": 212,
@@ -2541,7 +2541,7 @@ var data = [
         "compound": "周末我喜欢在家休息。",
         "compound_pinyin": "Zhōumò wǒ xǐhuān zàijiā xiūxí.",
         "compound_cantonese": "zoi6 gaa1",
-        "compound_definition\r": "I like to relax at home on weekends.\r"
+        "compound_definition": "I like to relax at home on weekends."
     },
     {
         "id": 213,
@@ -2553,7 +2553,7 @@ var data = [
         "compound": "这里的地很干净。",
         "compound_pinyin": "Zhèlǐ de dì hěn gānjìng.",
         "compound_cantonese": "dei6",
-        "compound_definition\r": "The ground here is very clean.\r"
+        "compound_definition": "The ground here is very clean."
     },
     {
         "id": 214,
@@ -2565,7 +2565,7 @@ var data = [
         "compound": "请把书放在桌子地上。",
         "compound_pinyin": "Qǐng bǎ shū fàng zài zhuōzi dìshàng.",
         "compound_cantonese": "dei6 soeng6",
-        "compound_definition\r": "Please put the book on the table.\r"
+        "compound_definition": "Please put the book on the table."
     },
     {
         "id": 215,
@@ -2577,7 +2577,7 @@ var data = [
         "compound": "我查了地图找到了路线。",
         "compound_pinyin": "Wǒ chá le dìtú zhǎo dào le lùxiàn.",
         "compound_cantonese": "dei6 tou4",
-        "compound_definition\r": "I looked at the map and found the route.\r"
+        "compound_definition": "I looked at the map and found the route."
     },
     {
         "id": 216,
@@ -2589,7 +2589,7 @@ var data = [
         "compound": "这个地方很美丽。",
         "compound_pinyin": "Zhège dìfāng hěn měilì.",
         "compound_cantonese": "dei6 fong1",
-        "compound_definition\r": "This place is very beautiful.\r"
+        "compound_definition": "This place is very beautiful."
     },
     {
         "id": 217,
@@ -2601,7 +2601,7 @@ var data = [
         "compound": "我们约定在图书馆作为见面的地点。",
         "compound_pinyin": "Wǒmen yuēdìng zài túshūguǎn zuòwéi jiànmiàn de dìdiǎn.",
         "compound_cantonese": "dei6 dim2",
-        "compound_definition\r": "We agreed to meet at the library as the meeting point.\r"
+        "compound_definition": "We agreed to meet at the library as the meeting point."
     },
     {
         "id": 218,
@@ -2613,7 +2613,7 @@ var data = [
         "compound": "我们在篮球场打篮球。",
         "compound_pinyin": "Wǒmen zài lánqiúchǎng dǎ lánqiú.",
         "compound_cantonese": "coeng4",
-        "compound_definition\r": "We play basketball on the basketball court.\r"
+        "compound_definition": "We play basketball on the basketball court."
     },
     {
         "id": 219,
@@ -2625,7 +2625,7 @@ var data = [
         "compound": "这个苹果坏了，不能吃。",
         "compound_pinyin": "Zhège píngguǒ huài le",
         "compound_cantonese": " bùnéng chī.",
-        "compound_definition\r": "waai6"
+        "compound_definition": "waai6"
     },
     {
         "id": 220,
@@ -2637,7 +2637,7 @@ var data = [
         "compound": "请坐在这里。",
         "compound_pinyin": "Qǐng zuò zài zhèlǐ.",
         "compound_cantonese": "co5",
-        "compound_definition\r": "Please sit here.\r"
+        "compound_definition": "Please sit here."
     },
     {
         "id": 221,
@@ -2649,7 +2649,7 @@ var data = [
         "compound": "大家请坐下。",
         "compound_pinyin": "Dàjiā qǐng zuòxià.",
         "compound_cantonese": "co5 haa6",
-        "compound_definition\r": "Everyone"
+        "compound_definition": "Everyone"
     },
     {
         "id": 222,
@@ -2661,7 +2661,7 @@ var data = [
         "compound": "这块蛋糕很好吃。",
         "compound_pinyin": "Zhè kuài dàngāo hěn hǎochī.",
         "compound_cantonese": "faai3",
-        "compound_definition\r": "This piece of cake is delicious.\r"
+        "compound_definition": "This piece of cake is delicious."
     },
     {
         "id": 223,
@@ -2673,7 +2673,7 @@ var data = [
         "compound": "他准备好了明天的报告。",
         "compound_pinyin": "Tā zhǔnbèi hǎo le míngtiān de bàogào.",
         "compound_cantonese": "bei6",
-        "compound_definition\r": "He has prepared tomorrow's report.\r"
+        "compound_definition": "He has prepared tomorrow's report."
     },
     {
         "id": 224,
@@ -2685,7 +2685,7 @@ var data = [
         "compound": "我喜欢在外面散步。",
         "compound_pinyin": "Wǒ xǐhuān zài wàimiàn sànbù.",
         "compound_cantonese": "ngoi6",
-        "compound_definition\r": "I like to take a walk outside.\r"
+        "compound_definition": "I like to take a walk outside."
     },
     {
         "id": 225,
@@ -2697,7 +2697,7 @@ var data = [
         "compound": "我想去外国旅行。",
         "compound_pinyin": "Wǒ xiǎng qù wàiguó lǚxíng.",
         "compound_cantonese": "ngoi6 gwok3",
-        "compound_definition\r": "I want to travel to a foreign country.\r"
+        "compound_definition": "I want to travel to a foreign country."
     },
     {
         "id": 226,
@@ -2709,7 +2709,7 @@ var data = [
         "compound": "学习外语有助于沟通。",
         "compound_pinyin": "Xuéxí wàiyǔ yǒu zhù yú gōutōng.",
         "compound_cantonese": "ngoi6 jyu5",
-        "compound_definition\r": "Learning a foreign language helps with communication.\r"
+        "compound_definition": "Learning a foreign language helps with communication."
     },
     {
         "id": 227,
@@ -2721,7 +2721,7 @@ var data = [
         "compound": "外边下雨了，记得带伞。",
         "compound_pinyin": "Wàibiān xiàyǔ le",
         "compound_cantonese": " jìdé dài sǎn.",
-        "compound_definition\r": "ngoi6 bin1"
+        "compound_definition": "ngoi6 bin1"
     },
     {
         "id": 228,
@@ -2733,7 +2733,7 @@ var data = [
         "compound": "这个城市有多少人口？",
         "compound_pinyin": "Zhège chéngshì yǒu duōshǎo rénkǒu?",
         "compound_cantonese": "do1",
-        "compound_definition\r": "How many people live in this city?\r"
+        "compound_definition": "How many people live in this city?"
     },
     {
         "id": 229,
@@ -2745,7 +2745,7 @@ var data = [
         "compound": "你有多少兄弟姐妹？",
         "compound_pinyin": "Nǐ yǒu duōshǎo xiōngdì jiěmèi?",
         "compound_cantonese": "do1 siu2",
-        "compound_definition\r": "How many siblings do you have?\r"
+        "compound_definition": "How many siblings do you have?"
     },
     {
         "id": 230,
@@ -2757,7 +2757,7 @@ var data = [
         "compound": "这是一座大山。",
         "compound_pinyin": "Zhè shì yīzuò dà shān.",
         "compound_cantonese": "daai6",
-        "compound_definition\r": "This is a big mountain.\r"
+        "compound_definition": "This is a big mountain."
     },
     {
         "id": 231,
@@ -2769,7 +2769,7 @@ var data = [
         "compound": "我在一所大学学习。",
         "compound_pinyin": "Wǒ zài yī suǒ dàxué xuéxí.",
         "compound_cantonese": "daai6 hok6",
-        "compound_definition\r": "I study at a university.\r"
+        "compound_definition": "I study at a university."
     },
     {
         "id": 232,
@@ -2781,7 +2781,7 @@ var data = [
         "compound": "大学生们在图书馆学习。",
         "compound_pinyin": "Dàxuéshēngmen zài túshūguǎn xuéxí.",
         "compound_cantonese": "daai6 hok6 sang1",
-        "compound_definition\r": "College students are studying in the library.\r"
+        "compound_definition": "College students are studying in the library."
     },
     {
         "id": 233,
@@ -2793,7 +2793,7 @@ var data = [
         "compound": "大家",
         "compound_pinyin": "dàjiā",
         "compound_cantonese": "daai6gaa1",
-        "compound_definition\r": "everyone; influential family; great expert\r"
+        "compound_definition": "everyone; influential family; great expert"
     },
     {
         "id": 234,
@@ -2805,7 +2805,7 @@ var data = [
         "compound": "今天的天气很好。",
         "compound_pinyin": "Jīntiān de tiānqì hěn hǎo.",
         "compound_cantonese": "tin1",
-        "compound_definition\r": "The weather today is very nice.\r"
+        "compound_definition": "The weather today is very nice."
     },
     {
         "id": 235,
@@ -2817,7 +2817,7 @@ var data = [
         "compound": "明天的天气预报说会下雨。",
         "compound_pinyin": "Míngtiān de tiānqì yùbào shuō huì xiàyǔ.",
         "compound_cantonese": "tin1 hei3",
-        "compound_definition\r": "The weather forecast for tomorrow says it will rain.\r"
+        "compound_definition": "The weather forecast for tomorrow says it will rain."
     },
     {
         "id": 236,
@@ -2829,7 +2829,7 @@ var data = [
         "compound": "太阳很大今天。",
         "compound_pinyin": "Tàiyáng hěn dà jīntiān.",
         "compound_cantonese": "taai3",
-        "compound_definition\r": "The sun is very big today.\r"
+        "compound_definition": "The sun is very big today."
     },
     {
         "id": 237,
@@ -2841,7 +2841,7 @@ var data = [
         "compound": "这是女孩的书包。",
         "compound_pinyin": "Zhè shì nǚhái de shūbāo.",
         "compound_cantonese": "neoi5",
-        "compound_definition\r": "This is a girl's school bag.\r"
+        "compound_definition": "This is a girl's school bag."
     },
     {
         "id": 238,
@@ -2853,7 +2853,7 @@ var data = [
         "compound": "她是一位职业女人。",
         "compound_pinyin": "Tā shì yī wèi zhíyè nǚrén.",
         "compound_cantonese": "neoi5 jan4",
-        "compound_definition\r": "She is a professional woman.\r"
+        "compound_definition": "She is a professional woman."
     },
     {
         "id": 239,
@@ -2865,7 +2865,7 @@ var data = [
         "compound": "我有一个可爱的女儿。",
         "compound_pinyin": "Wǒ yǒu yī gè kě'ài de nǚ'ér.",
         "compound_cantonese": "neoi5 ji4",
-        "compound_definition\r": "I have a lovely daughter.\r"
+        "compound_definition": "I have a lovely daughter."
     },
     {
         "id": 240,
@@ -2877,7 +2877,7 @@ var data = [
         "compound": "这是一群开心的女孩儿。",
         "compound_pinyin": "Zhè shì yī qún kāixīn de nǚháiér.",
         "compound_cantonese": "neoi5 haai4",
-        "compound_definition\r": "These are a group of happy girls.\r"
+        "compound_definition": "These are a group of happy girls."
     },
     {
         "id": 241,
@@ -2889,7 +2889,7 @@ var data = [
         "compound": "我的女朋友很善良。",
         "compound_pinyin": "Wǒ de nǚ péngyǒu hěn shànliáng.",
         "compound_cantonese": "neoi5 pang4 jau5",
-        "compound_definition\r": "My girlfriend is very kind.\r"
+        "compound_definition": "My girlfriend is very kind."
     },
     {
         "id": 242,
@@ -2901,7 +2901,7 @@ var data = [
         "compound": "这所学校有很多女生。",
         "compound_pinyin": "Zhè suǒ xuéxiào yǒu hěnduō nǚshēng.",
         "compound_cantonese": "neoi5 sang1",
-        "compound_definition\r": "This school has many female students.\r"
+        "compound_definition": "This school has many female students."
     },
     {
         "id": 243,
@@ -2913,7 +2913,7 @@ var data = [
         "compound": "孩子们喜欢喝牛奶。",
         "compound_pinyin": "Háizi men xǐhuān hē niúnǎi.",
         "compound_cantonese": "naai5",
-        "compound_definition\r": "Children like to drink milk.\r"
+        "compound_definition": "Children like to drink milk."
     },
     {
         "id": 244,
@@ -2925,7 +2925,7 @@ var data = [
         "compound": "我的奶奶很慈祥。",
         "compound_pinyin": "Wǒ de nǎinai hěn cíxiáng.",
         "compound_cantonese": "naai5 naai5",
-        "compound_definition\r": "My grandmother is very kind.\r"
+        "compound_definition": "My grandmother is very kind."
     },
     {
         "id": 245,
@@ -2937,7 +2937,7 @@ var data = [
         "compound": "她是我的朋友。",
         "compound_pinyin": "Tā shì wǒ de péngyǒu.",
         "compound_cantonese": "taa1",
-        "compound_definition\r": "She is my friend.\r"
+        "compound_definition": "She is my friend."
     },
     {
         "id": 246,
@@ -2949,7 +2949,7 @@ var data = [
         "compound": "她们都在学习中文。",
         "compound_pinyin": "Tāmen dōu zài xuéxí zhōngwén.",
         "compound_cantonese": "taa1 mun4",
-        "compound_definition\r": "They are all learning Chinese.\r"
+        "compound_definition": "They are all learning Chinese."
     },
     {
         "id": 247,
@@ -2961,7 +2961,7 @@ var data = [
         "compound": "今天的天气真好！",
         "compound_pinyin": "Jīntiān de tiānqì zhēn hǎo!",
         "compound_cantonese": "hou2",
-        "compound_definition\r": "The weather is really nice today!\r"
+        "compound_definition": "The weather is really nice today!"
     },
     {
         "id": 248,
@@ -2973,7 +2973,7 @@ var data = [
         "compound": "这个蛋糕很好吃。",
         "compound_pinyin": "Zhège dàngāo hěn hǎochī.",
         "compound_cantonese": "hou2 hek3",
-        "compound_definition\r": "This cake is delicious.\r"
+        "compound_definition": "This cake is delicious."
     },
     {
         "id": 249,
@@ -2985,7 +2985,7 @@ var data = [
         "compound": "这首歌很好听。",
         "compound_pinyin": "Zhè shǒu gē hěn hǎotīng.",
         "compound_cantonese": "hou2 teng1",
-        "compound_definition\r": "This song sounds good.\r"
+        "compound_definition": "This song sounds good."
     },
     {
         "id": 250,
@@ -2997,7 +2997,7 @@ var data = [
         "compound": "游乐园里有很多好玩儿的游戏。",
         "compound_pinyin": "Yóulèyuán lǐ yǒu hěnduō hǎowánr de yóuxì.",
         "compound_cantonese": "hou2 waan2",
-        "compound_definition\r": "There are many fun games in the amusement park.\r"
+        "compound_definition": "There are many fun games in the amusement park."
     },
     {
         "id": 251,
@@ -3009,7 +3009,7 @@ var data = [
         "compound": "这本书很好看。",
         "compound_pinyin": "Zhè běn shū hěn hǎokàn.",
         "compound_cantonese": "hou2 hon3",
-        "compound_definition\r": "This book is very interesting.\r"
+        "compound_definition": "This book is very interesting."
     },
     {
         "id": 252,
@@ -3021,7 +3021,7 @@ var data = [
         "compound": "我的妈妈是一位医生。",
         "compound_pinyin": "Wǒ de māmā shì yī wèi yīshēng.",
         "compound_cantonese": "maa1",
-        "compound_definition\r": "My mom is a doctor.\r"
+        "compound_definition": "My mom is a doctor."
     },
     {
         "id": 253,
@@ -3033,7 +3033,7 @@ var data = [
         "compound": "妈妈做的饭最好吃。",
         "compound_pinyin": "Māmā zuò de fàn zuì hǎochī.",
         "compound_cantonese": "maa1 maa1",
-        "compound_definition\r": "Mom's cooking is the most delicious.\r"
+        "compound_definition": "Mom's cooking is the most delicious."
     },
     {
         "id": 254,
@@ -3045,7 +3045,7 @@ var data = [
         "compound": "我有一个妹妹。",
         "compound_pinyin": "Wǒ yǒu yī gè mèimei.",
         "compound_cantonese": "mui6",
-        "compound_definition\r": "I have a younger sister.\r"
+        "compound_definition": "I have a younger sister."
     },
     {
         "id": 255,
@@ -3057,7 +3057,7 @@ var data = [
         "compound": "我的妹妹正在读小学。",
         "compound_pinyin": "Wǒ de mèimei zhèngzài dú xiǎoxué.",
         "compound_cantonese": "mui6 mui6",
-        "compound_definition\r": "My younger sister is in primary school.\r"
+        "compound_definition": "My younger sister is in primary school."
     },
     {
         "id": 256,
@@ -3069,7 +3069,7 @@ var data = [
         "compound": "妻子",
         "compound_pinyin": "qīzi",
         "compound_cantonese": "cai1zi2",
-        "compound_definition\r": "wife\r"
+        "compound_definition": "wife"
     },
     {
         "id": 257,
@@ -3081,7 +3081,7 @@ var data = [
         "compound": "她是我的姐姐。",
         "compound_pinyin": "Tā shì wǒ de jiějie.",
         "compound_cantonese": "ze1",
-        "compound_definition\r": "She is my older sister.\r"
+        "compound_definition": "She is my older sister."
     },
     {
         "id": 258,
@@ -3093,7 +3093,7 @@ var data = [
         "compound": "我的姐姐非常聪明。",
         "compound_pinyin": "Wǒ de jiějie fēicháng cōngmíng.",
         "compound_cantonese": "ze1 ze1",
-        "compound_definition\r": "My older sister is very smart.\r"
+        "compound_definition": "My older sister is very smart."
     },
     {
         "id": 259,
@@ -3105,7 +3105,7 @@ var data = [
         "compound": "姓",
         "compound_pinyin": "xìng",
         "compound_cantonese": "sing3",
-        "compound_definition\r": "family name; surname; to be surnamed\r"
+        "compound_definition": "family name; surname; to be surnamed"
     },
     {
         "id": 260,
@@ -3117,7 +3117,7 @@ var data = [
         "compound": "这是我的儿子。",
         "compound_pinyin": "Zhè shì wǒ de érzi.",
         "compound_cantonese": "zi2",
-        "compound_definition\r": "This is my son.\r"
+        "compound_definition": "This is my son."
     },
     {
         "id": 261,
@@ -3129,7 +3129,7 @@ var data = [
         "compound": "他的字写得很漂亮。",
         "compound_pinyin": "Tā de zì xiě de hěn piàoliang.",
         "compound_cantonese": "zi6",
-        "compound_definition\r": "His handwriting is very beautiful.\r"
+        "compound_definition": "His handwriting is very beautiful."
     },
     {
         "id": 262,
@@ -3141,7 +3141,7 @@ var data = [
         "compound": "学中文需要耐心和坚持。",
         "compound_pinyin": "Xué zhōngwén xūyào nàixīn hé jiānchí.",
         "compound_cantonese": "hok6",
-        "compound_definition\r": "Learning Chinese requires patience and perseverance.\r"
+        "compound_definition": "Learning Chinese requires patience and perseverance."
     },
     {
         "id": 263,
@@ -3153,7 +3153,7 @@ var data = [
         "compound": "我每天晚上都会学习。",
         "compound_pinyin": "Wǒ měitiān wǎnshàng dōu huì xuéxí.",
         "compound_cantonese": "hok6 gei6",
-        "compound_definition\r": "I study every evening.\r"
+        "compound_definition": "I study every evening."
     },
     {
         "id": 264,
@@ -3165,7 +3165,7 @@ var data = [
         "compound": "我的学校离家很近。",
         "compound_pinyin": "Wǒ de xuéxiào lí jiā hěn jìn.",
         "compound_cantonese": "hok6 haau6",
-        "compound_definition\r": "My school is very close to home.\r"
+        "compound_definition": "My school is very close to home."
     },
     {
         "id": 265,
@@ -3177,7 +3177,7 @@ var data = [
         "compound": "这所学校有很多学生。",
         "compound_pinyin": "Zhè suǒ xuéxiào yǒu hěnduō xuéshēng.",
         "compound_cantonese": "hok6 sang1",
-        "compound_definition\r": "This school has many students.\r"
+        "compound_definition": "This school has many students."
     },
     {
         "id": 266,
@@ -3189,7 +3189,7 @@ var data = [
         "compound": "我在一所艺术学院学习。",
         "compound_pinyin": "Wǒ zài yī suǒ yìshù xuéyuàn xuéxí.",
         "compound_cantonese": "hok6 jyun2",
-        "compound_definition\r": "I study at an art college.\r"
+        "compound_definition": "I study at an art college."
     },
     {
         "id": 267,
@@ -3201,7 +3201,7 @@ var data = [
         "compound": "我的孩子们都很乖。",
         "compound_pinyin": "Wǒ de háizi men dōu hěn guāi.",
         "compound_cantonese": "haai4",
-        "compound_definition\r": "My children are all wellbehaved.\r"
+        "compound_definition": "My children are all wellbehaved."
     },
     {
         "id": 268,
@@ -3213,7 +3213,7 @@ var data = [
         "compound": "学校里有很多孩子。",
         "compound_pinyin": "Xuéxiào lǐ yǒu hěnduō háizi.",
         "compound_cantonese": "haai4 zi2",
-        "compound_definition\r": "There are many children in the school.\r"
+        "compound_definition": "There are many children in the school."
     },
     {
         "id": 269,
@@ -3225,7 +3225,7 @@ var data = [
         "compound": "它",
         "compound_pinyin": "tā",
         "compound_cantonese": "taa1",
-        "compound_definition\r": "it (for inanimate objects)\r"
+        "compound_definition": "it (for inanimate objects)"
     },
     {
         "id": 270,
@@ -3237,7 +3237,7 @@ var data = [
         "compound": "完",
         "compound_pinyin": "wán",
         "compound_cantonese": "jyun4",
-        "compound_definition\r": "to finish; to be over; whole; complete; entire\r"
+        "compound_definition": "to finish; to be over; whole; complete; entire"
     },
     {
         "id": 271,
@@ -3249,7 +3249,7 @@ var data = [
         "compound": "这位客人需要帮助。",
         "compound_pinyin": "Zhè wèi kèrén xūyào bāngzhù.",
         "compound_cantonese": "haak6",
-        "compound_definition\r": "This guest needs assistance.\r"
+        "compound_definition": "This guest needs assistance."
     },
     {
         "id": 272,
@@ -3261,7 +3261,7 @@ var data = [
         "compound": "室",
         "compound_pinyin": "shì",
         "compound_cantonese": "sat1",
-        "compound_definition\r": "room; work unit; grave; scabbard; family or clan; one of the 28 constellations of Chinese astronomy; (Chinese surname)\r"
+        "compound_definition": "room; work unit; grave; scabbard; family or clan; one of the 28 constellations of Chinese astronomy; (Chinese surname)"
     },
     {
         "id": 273,
@@ -3273,7 +3273,7 @@ var data = [
         "compound": "我的家在城市里。",
         "compound_pinyin": "Wǒ de jiā zài chéngshì lǐ.",
         "compound_cantonese": "gaa1",
-        "compound_definition\r": "My home is in the city.\r"
+        "compound_definition": "My home is in the city."
     },
     {
         "id": 274,
@@ -3285,7 +3285,7 @@ var data = [
         "compound": "我的家人都很亲切。",
         "compound_pinyin": "Wǒ de jiārén dōu hěn qīnqiè.",
         "compound_cantonese": "gaa1 jan4",
-        "compound_definition\r": "My family members are all very kind.\r"
+        "compound_definition": "My family members are all very kind."
     },
     {
         "id": 275,
@@ -3297,7 +3297,7 @@ var data = [
         "compound": "请进来，我家里有茶。",
         "compound_pinyin": "Qǐng jìnlái",
         "compound_cantonese": " wǒ jiālǐ yǒu chá.",
-        "compound_definition\r": "gaa1 lei5"
+        "compound_definition": "gaa1 lei5"
     },
     {
         "id": 276,
@@ -3309,7 +3309,7 @@ var data = [
         "compound": "宾馆",
         "compound_pinyin": "bīnguǎn",
         "compound_cantonese": "ban1gun2",
-        "compound_definition\r": "guesthouse; lodge; hotel\r"
+        "compound_definition": "guesthouse; lodge; hotel"
     },
     {
         "id": 277,
@@ -3321,7 +3321,7 @@ var data = [
         "compound": "对不起，我迟到了。",
         "compound_pinyin": "Duìbuqǐ",
         "compound_cantonese": " wǒ chídào le.",
-        "compound_definition\r": "deoi3"
+        "compound_definition": "deoi3"
     },
     {
         "id": 278,
@@ -3333,7 +3333,7 @@ var data = [
         "compound": "对不起，我弄破了你的杯子。",
         "compound_pinyin": "Duìbuqǐ",
         "compound_cantonese": " wǒ nòng pò le nǐ de bēizi.",
-        "compound_definition\r": "deoi3 bat1 hei2"
+        "compound_definition": "deoi3 bat1 hei2"
     },
     {
         "id": 279,
@@ -3345,7 +3345,7 @@ var data = [
         "compound": "这只小猫非常可爱。",
         "compound_pinyin": "Zhè zhī xiǎo māo fēicháng kě'ài.",
         "compound_cantonese": "siu2",
-        "compound_definition\r": "This little kitten is very cute.\r"
+        "compound_definition": "This little kitten is very cute."
     },
     {
         "id": 280,
@@ -3357,7 +3357,7 @@ var data = [
         "compound": "服务员，请问一下。",
         "compound_pinyin": "Fúwùyuán",
         "compound_cantonese": " qǐngwèn yīxià.",
-        "compound_definition\r": "siu2 ze2"
+        "compound_definition": "siu2 ze2"
     },
     {
         "id": 281,
@@ -3369,7 +3369,7 @@ var data = [
         "compound": "我们的儿子正在上小学。",
         "compound_pinyin": "Wǒmen de érzi zhèngzài shàng xiǎoxué.",
         "compound_cantonese": "siu2 hok6",
-        "compound_definition\r": "Our son is attending primary school.\r"
+        "compound_definition": "Our son is attending primary school."
     },
     {
         "id": 282,
@@ -3381,7 +3381,7 @@ var data = [
         "compound": "这个小学生非常聪明。",
         "compound_pinyin": "Zhège xiǎoxuéshēng fēicháng cōngmíng.",
         "compound_cantonese": "siu2 hok6 sang1",
-        "compound_definition\r": "This primary school student is very smart.\r"
+        "compound_definition": "This primary school student is very smart."
     },
     {
         "id": 283,
@@ -3393,7 +3393,7 @@ var data = [
         "compound": "公园里有很多小孩儿在玩耍。",
         "compound_pinyin": "Gōngyuán lǐ yǒu hěnduō xiǎoháir zài wánshuǎ.",
         "compound_cantonese": "siu2 haai4",
-        "compound_definition\r": "There are many children playing in the park.\r"
+        "compound_definition": "There are many children playing in the park."
     },
     {
         "id": 284,
@@ -3405,7 +3405,7 @@ var data = [
         "compound": "这个任务需要几个小时来完成。",
         "compound_pinyin": "Zhège rènwu xūyào jǐ gè xiǎoshí lái wánchéng.",
         "compound_cantonese": "siu2 si4",
-        "compound_definition\r": "This task will take several hours to complete.\r"
+        "compound_definition": "This task will take several hours to complete."
     },
     {
         "id": 285,
@@ -3417,7 +3417,7 @@ var data = [
         "compound": "公园里有很多小朋友在玩。",
         "compound_pinyin": "Gōngyuán lǐ yǒu hěnduō xiǎopéngyǒu zài wán.",
         "compound_cantonese": "siu2 pang4 jau5",
-        "compound_definition\r": "There are many kids playing in the park.\r"
+        "compound_definition": "There are many kids playing in the park."
     },
     {
         "id": 286,
@@ -3429,7 +3429,7 @@ var data = [
         "compound": "这里少了一个椅子。",
         "compound_pinyin": "Zhèlǐ shǎo le yīgè yǐzi.",
         "compound_cantonese": "siu2",
-        "compound_definition\r": "There is one less chair here.\r"
+        "compound_definition": "There is one less chair here."
     },
     {
         "id": 287,
@@ -3441,7 +3441,7 @@ var data = [
         "compound": "我明天就来。",
         "compound_pinyin": "Wǒ míngtiān jiù lái.",
         "compound_cantonese": "zau6",
-        "compound_definition\r": "I'll come tomorrow right away.\r"
+        "compound_definition": "I'll come tomorrow right away."
     },
     {
         "id": 288,
@@ -3453,7 +3453,7 @@ var data = [
         "compound": "那座山很高。",
         "compound_pinyin": "Nà zuò shān hěn gāo.",
         "compound_cantonese": "saan1",
-        "compound_definition\r": "That mountain is very tall.\r"
+        "compound_definition": "That mountain is very tall."
     },
     {
         "id": 289,
@@ -3465,7 +3465,7 @@ var data = [
         "compound": "他今年二十五岁。",
         "compound_pinyin": "Tā jīnnián èrshíwǔ suì.",
         "compound_cantonese": "seoi3",
-        "compound_definition\r": "He is 25 years old this year.\r"
+        "compound_definition": "He is 25 years old this year."
     },
     {
         "id": 290,
@@ -3477,7 +3477,7 @@ var data = [
         "compound": "他在工厂工作。",
         "compound_pinyin": "Tā zài gōngchǎng gōngzuò.",
         "compound_cantonese": "gung1",
-        "compound_definition\r": "He works at the factory.\r"
+        "compound_definition": "He works at the factory."
     },
     {
         "id": 291,
@@ -3489,7 +3489,7 @@ var data = [
         "compound": "工人们正在建造房子。",
         "compound_pinyin": "Gōngrén men zhèngzài jiànzào fángzi.",
         "compound_cantonese": "gung1 jan4",
-        "compound_definition\r": "Workers are building the house.\r"
+        "compound_definition": "Workers are building the house."
     },
     {
         "id": 292,
@@ -3501,7 +3501,7 @@ var data = [
         "compound": "我每天都要工作八小时。",
         "compound_pinyin": "Wǒ měitiān dōu yào gōngzuò bā xiǎoshí.",
         "compound_cantonese": "gung1 zok3",
-        "compound_definition\r": "I have to work eight hours every day.\r"
+        "compound_definition": "I have to work eight hours every day."
     },
     {
         "id": 293,
@@ -3513,7 +3513,7 @@ var data = [
         "compound": "请往左转。",
         "compound_pinyin": "Qǐng wǎng zuǒ zhuǎn.",
         "compound_cantonese": "zo2",
-        "compound_definition\r": "Please turn left.\r"
+        "compound_definition": "Please turn left."
     },
     {
         "id": 294,
@@ -3525,7 +3525,7 @@ var data = [
         "compound": "书在桌子的左边。",
         "compound_pinyin": "Shū zài zhuōzi de zuǒbiān.",
         "compound_cantonese": "zo2 bin1",
-        "compound_definition\r": "The book is on the left side of the table.\r"
+        "compound_definition": "The book is on the left side of the table."
     },
     {
         "id": 295,
@@ -3537,7 +3537,7 @@ var data = [
         "compound": "这份文件还差几页没有完成。",
         "compound_pinyin": "Zhè fèn wénjiàn hái chà jǐ yè méiyǒu wánchéng.",
         "compound_cantonese": "caa1",
-        "compound_definition\r": "This document is still missing a few pages to complete.\r"
+        "compound_definition": "This document is still missing a few pages to complete."
     },
     {
         "id": 296,
@@ -3549,7 +3549,7 @@ var data = [
         "compound": "已经",
         "compound_pinyin": "yǐjīng",
         "compound_cantonese": "ji5ging1",
-        "compound_definition\r": "already\r"
+        "compound_definition": "already"
     },
     {
         "id": 297,
@@ -3561,7 +3561,7 @@ var data = [
         "compound": "我的老师教得很好。",
         "compound_pinyin": "Wǒ de lǎoshī jiào de hěn hǎo.",
         "compound_cantonese": "si1",
-        "compound_definition\r": "My teacher teaches very well.\r"
+        "compound_definition": "My teacher teaches very well."
     },
     {
         "id": 298,
@@ -3573,7 +3573,7 @@ var data = [
         "compound": "希望",
         "compound_pinyin": "xīwàng",
         "compound_cantonese": "hei1mong6",
-        "compound_definition\r": "to wish for; to desire; hope\r"
+        "compound_definition": "to wish for; to desire; hope"
     },
     {
         "id": 299,
@@ -3585,7 +3585,7 @@ var data = [
         "compound": "请帮我拿一下这个包。",
         "compound_pinyin": "Qǐng bāng wǒ ná yīxià zhège bāo.",
         "compound_cantonese": "bong1",
-        "compound_definition\r": "Please help me hold this bag.\r"
+        "compound_definition": "Please help me hold this bag."
     },
     {
         "id": 300,
@@ -3597,7 +3597,7 @@ var data = [
         "compound": "帮助",
         "compound_pinyin": "bāngzhù",
         "compound_cantonese": "bong1zo6",
-        "compound_definition\r": "assistance; aid; to help; to assist\r"
+        "compound_definition": "assistance; aid; to help; to assist"
     },
     {
         "id": 301,
@@ -3609,7 +3609,7 @@ var data = [
         "compound": "他经常帮忙别人。",
         "compound_pinyin": "Tā jīngcháng bāngmáng biérén.",
         "compound_cantonese": "bong1 mong4",
-        "compound_definition\r": "He often helps others.\r"
+        "compound_definition": "He often helps others."
     },
     {
         "id": 302,
@@ -3621,7 +3621,7 @@ var data = [
         "compound": "我常常去图书馆学习。",
         "compound_pinyin": "Wǒ chángcháng qù túshūguǎn xuéxí.",
         "compound_cantonese": "soeng4",
-        "compound_definition\r": "I often go to the library to study.\r"
+        "compound_definition": "I often go to the library to study."
     },
     {
         "id": 303,
@@ -3633,7 +3633,7 @@ var data = [
         "compound": "她常常去跑步锻炼身体。",
         "compound_pinyin": "Tā chángcháng qù pǎobù duànliàn shēntǐ.",
         "compound_cantonese": "soeng4 soeng4",
-        "compound_definition\r": "She often goes for a run to exercise.\r"
+        "compound_definition": "She often goes for a run to exercise."
     },
     {
         "id": 304,
@@ -3645,7 +3645,7 @@ var data = [
         "compound": "他喜欢干户外活动。",
         "compound_pinyin": "Tā xǐhuān gàn hùwài huódòng.",
         "compound_cantonese": "gon1",
-        "compound_definition\r": "He enjoys outdoor activities.\r"
+        "compound_definition": "He enjoys outdoor activities."
     },
     {
         "id": 305,
@@ -3657,7 +3657,7 @@ var data = [
         "compound": "你今天晚上要干什么？",
         "compound_pinyin": "Nǐ jīntiān wǎnshàng yào gàn shénme?",
         "compound_cantonese": "gon1 sam6 ma1",
-        "compound_definition\r": "What are you going to do tonight?\r"
+        "compound_definition": "What are you going to do tonight?"
     },
     {
         "id": 306,
@@ -3669,7 +3669,7 @@ var data = [
         "compound": "这个房间非常干净。",
         "compound_pinyin": "Zhège fángjiān fēicháng gānjìng.",
         "compound_cantonese": "gon1 jing6",
-        "compound_definition\r": "This room is very clean.\r"
+        "compound_definition": "This room is very clean."
     },
     {
         "id": 307,
@@ -3681,7 +3681,7 @@ var data = [
         "compound": "明年是新年。",
         "compound_pinyin": "Míngnián shì xīnnián.",
         "compound_cantonese": "nin4",
-        "compound_definition\r": "Next year is New Year's.\r"
+        "compound_definition": "Next year is New Year's."
     },
     {
         "id": 308,
@@ -3693,7 +3693,7 @@ var data = [
         "compound": "我的床很舒适。",
         "compound_pinyin": "Wǒ de chuáng hěn shūshì.",
         "compound_cantonese": "coeng4",
-        "compound_definition\r": "My bed is very comfortable.\r"
+        "compound_definition": "My bed is very comfortable."
     },
     {
         "id": 309,
@@ -3705,7 +3705,7 @@ var data = [
         "compound": "他在一家小店工作。",
         "compound_pinyin": "Tā zài yī jiā xiǎo diàn gōngzuò.",
         "compound_cantonese": "dim3",
-        "compound_definition\r": "He works at a small shop.\r"
+        "compound_definition": "He works at a small shop."
     },
     {
         "id": 310,
@@ -3717,7 +3717,7 @@ var data = [
         "compound": "请开门，我要出去。",
         "compound_pinyin": "Qǐng kāi mén",
         "compound_cantonese": " wǒ yào chūqù.",
-        "compound_definition\r": "hoi1"
+        "compound_definition": "hoi1"
     },
     {
         "id": 311,
@@ -3729,7 +3729,7 @@ var data = [
         "compound": "明天我们要开会讨论项目。",
         "compound_pinyin": "Míngtiān wǒmen yào kāihuì tǎolùn xiàngmù.",
         "compound_cantonese": "hoi1 wui6",
-        "compound_definition\r": "Tomorrow"
+        "compound_definition": "Tomorrow"
     },
     {
         "id": 312,
@@ -3741,7 +3741,7 @@ var data = [
         "compound": "开始",
         "compound_pinyin": "kāishǐ",
         "compound_cantonese": "hoi1ci2",
-        "compound_definition\r": "to begin; beginning; to start; initial\r"
+        "compound_definition": "to begin; beginning; to start; initial"
     },
     {
         "id": 313,
@@ -3753,7 +3753,7 @@ var data = [
         "compound": "我只是开玩笑的，不要生气。",
         "compound_pinyin": "Wǒ zhǐshì kāi wánxiào de",
         "compound_cantonese": " bùyào shēngqì.",
-        "compound_definition\r": "hoi1 waan2 siu6"
+        "compound_definition": "hoi1 waan2 siu6"
     },
     {
         "id": 314,
@@ -3765,7 +3765,7 @@ var data = [
         "compound": "他每天开车上班。",
         "compound_pinyin": "Tā měitiān kāichē shàngbān.",
         "compound_cantonese": "hoi1 ce1",
-        "compound_definition\r": "He drives to work every day.\r"
+        "compound_definition": "He drives to work every day."
     },
     {
         "id": 315,
@@ -3777,7 +3777,7 @@ var data = [
         "compound": "他是我弟的好朋友。",
         "compound_pinyin": "Tā shì wǒ dì de hǎo péngyǒu.",
         "compound_cantonese": "dai6",
-        "compound_definition\r": "He is a good friend of my younger brother.\r"
+        "compound_definition": "He is a good friend of my younger brother."
     },
     {
         "id": 316,
@@ -3789,7 +3789,7 @@ var data = [
         "compound": "我的弟弟很调皮。",
         "compound_pinyin": "Wǒ de dìdi hěn tiáopí.",
         "compound_cantonese": "dai6 dai6",
-        "compound_definition\r": "My younger brother is very naughty.\r"
+        "compound_definition": "My younger brother is very naughty."
     },
     {
         "id": 317,
@@ -3801,7 +3801,7 @@ var data = [
         "compound": "我们去看一部电影吧。",
         "compound_pinyin": "Wǒmen qù kàn yī bù diànyǐng ba.",
         "compound_cantonese": "jing2",
-        "compound_definition\r": "Let's go watch a movie.\r"
+        "compound_definition": "Let's go watch a movie."
     },
     {
         "id": 318,
@@ -3813,7 +3813,7 @@ var data = [
         "compound": "往",
         "compound_pinyin": "wǎng",
         "compound_cantonese": "wong5",
-        "compound_definition\r": "to go (in a direction); to; towards; (of a train) bound for; past; previous\r"
+        "compound_definition": "to go (in a direction); to; towards; (of a train) bound for; past; previous"
     },
     {
         "id": 319,
@@ -3825,7 +3825,7 @@ var data = [
         "compound": "她是一个很聪明的学生。",
         "compound_pinyin": "Tā shì yīgè hěn cōngmíng de xuéshēng.",
         "compound_cantonese": "han2",
-        "compound_definition\r": "She is a very smart student.\r"
+        "compound_definition": "She is a very smart student."
     },
     {
         "id": 320,
@@ -3837,7 +3837,7 @@ var data = [
         "compound": "他得了一个奖。",
         "compound_pinyin": "Tā dé le yīgè jiǎng.",
         "compound_cantonese": "dak1",
-        "compound_definition\r": "He won an award.\r"
+        "compound_definition": "He won an award."
     },
     {
         "id": 321,
@@ -3849,7 +3849,7 @@ var data = [
         "compound": "通过努力，你可以得到成功。",
         "compound_pinyin": "Tōngguò nǔlì",
         "compound_cantonese": " nǐ kěyǐ dédào chénggōng.",
-        "compound_definition\r": "dak1 dou3"
+        "compound_definition": "dak1 dou3"
     },
     {
         "id": 322,
@@ -3861,7 +3861,7 @@ var data = [
         "compound": "不要忘记明天的约会。",
         "compound_pinyin": "Bùyào wàngjì míngtiān de yuēhuì.",
         "compound_cantonese": "mong4",
-        "compound_definition\r": "Don't forget our appointment for tomorrow.\r"
+        "compound_definition": "Don't forget our appointment for tomorrow."
     },
     {
         "id": 323,
@@ -3873,7 +3873,7 @@ var data = [
         "compound": "我怎么能忘记你的生日呢？",
         "compound_pinyin": "Wǒ zěnme néng wàngjì nǐ de shēngrì ne?",
         "compound_cantonese": "mong4 gei3",
-        "compound_definition\r": "How could I forget your birthday?\r"
+        "compound_definition": "How could I forget your birthday?"
     },
     {
         "id": 324,
@@ -3885,7 +3885,7 @@ var data = [
         "compound": "最近我非常忙。",
         "compound_pinyin": "Zuìjìn wǒ fēicháng máng.",
         "compound_cantonese": "mong4",
-        "compound_definition\r": "I've been very busy lately.\r"
+        "compound_definition": "I've been very busy lately."
     },
     {
         "id": 325,
@@ -3897,7 +3897,7 @@ var data = [
         "compound": "快点，我们要迟到了！",
         "compound_pinyin": "Kuài diǎn",
         "compound_cantonese": " wǒmen yào chídào le!",
-        "compound_definition\r": "faai3"
+        "compound_definition": "faai3"
     },
     {
         "id": 326,
@@ -3909,7 +3909,7 @@ var data = [
         "compound": "快乐",
         "compound_pinyin": "kuàilè",
         "compound_cantonese": "faai3lok6",
-        "compound_definition\r": "happy; merry\r"
+        "compound_definition": "happy; merry"
     },
     {
         "id": 327,
@@ -3921,7 +3921,7 @@ var data = [
         "compound": "你知道怎么做吗？",
         "compound_pinyin": "Nǐ zhīdào zěnme zuò ma?",
         "compound_cantonese": "zan6",
-        "compound_definition\r": "Do you know how to do it?\r"
+        "compound_definition": "Do you know how to do it?"
     },
     {
         "id": 328,
@@ -3933,7 +3933,7 @@ var data = [
         "compound": "你怎么了？",
         "compound_pinyin": "Nǐ zěnme le?",
         "compound_cantonese": "zan6 mo1",
-        "compound_definition\r": "What's wrong with you?\r"
+        "compound_definition": "What's wrong with you?"
     },
     {
         "id": 329,
@@ -3945,7 +3945,7 @@ var data = [
         "compound": "怎么样",
         "compound_pinyin": "zěnme yàng",
         "compound_cantonese": "zam2mo1 joeng6",
-        "compound_definition\r": "how?; how about?; how was it?; how are things?\r"
+        "compound_definition": "how?; how about?; how was it?; how are things?"
     },
     {
         "id": 330,
@@ -3957,7 +3957,7 @@ var data = [
         "compound": "我需要休息一下。",
         "compound_pinyin": "Wǒ xūyào xiūxí yīxià.",
         "compound_cantonese": "sik1",
-        "compound_definition\r": "I need to take a break.\r"
+        "compound_definition": "I need to take a break."
     },
     {
         "id": 331,
@@ -3969,7 +3969,7 @@ var data = [
         "compound": "您需要帮忙吗？",
         "compound_pinyin": "Nín xūyào bāngmáng ma?",
         "compound_cantonese": "nei5",
-        "compound_definition\r": "Do you need any help?\r"
+        "compound_definition": "Do you need any help?"
     },
     {
         "id": 332,
@@ -3981,7 +3981,7 @@ var data = [
         "compound": "我想吃冰淇淋。",
         "compound_pinyin": "Wǒ xiǎng chī bīngqílín.",
         "compound_cantonese": "soeng2",
-        "compound_definition\r": "I want to eat ice cream.\r"
+        "compound_definition": "I want to eat ice cream."
     },
     {
         "id": 333,
@@ -3993,7 +3993,7 @@ var data = [
         "compound": "意思",
         "compound_pinyin": "yìsi",
         "compound_cantonese": "ji3si1",
-        "compound_definition\r": "idea; opinion; meaning; wish; desire; interest; fun; token of appreciation"
+        "compound_definition": "idea; opinion; meaning; wish; desire; interest; fun; token of appreciation"
     },
     {
         "id": 334,
@@ -4005,7 +4005,7 @@ var data = [
         "compound": "开车要慢一点。",
         "compound_pinyin": "Kāichē yào màn yīdiǎn.",
         "compound_cantonese": "maan6",
-        "compound_definition\r": "Drive slower.\r"
+        "compound_definition": "Drive slower."
     },
     {
         "id": 335,
@@ -4017,7 +4017,7 @@ var data = [
         "compound": "懂",
         "compound_pinyin": "dǒng",
         "compound_cantonese": "dung2",
-        "compound_definition\r": "to understand; to comprehend\r"
+        "compound_definition": "to understand; to comprehend"
     },
     {
         "id": 336,
@@ -4029,7 +4029,7 @@ var data = [
         "compound": "我是一个学生。",
         "compound_pinyin": "Wǒ shì yīgè xuéshēng.",
         "compound_cantonese": "ngo5",
-        "compound_definition\r": "I am a student.\r"
+        "compound_definition": "I am a student."
     },
     {
         "id": 337,
@@ -4041,7 +4041,7 @@ var data = [
         "compound": "我们一起去看电影吧。",
         "compound_pinyin": "Wǒmen yīqǐ qù kàn diànyǐng ba.",
         "compound_cantonese": "ngo5 mun4",
-        "compound_definition\r": "Let's go watch a movie together.\r"
+        "compound_definition": "Let's go watch a movie together."
     },
     {
         "id": 338,
@@ -4053,7 +4053,7 @@ var data = [
         "compound": "这是我的卧室房间。",
         "compound_pinyin": "Zhè shì wǒ de wòshì fángjiān.",
         "compound_cantonese": "fong4",
-        "compound_definition\r": "This is my bedroom.\r"
+        "compound_definition": "This is my bedroom."
     },
     {
         "id": 339,
@@ -4065,7 +4065,7 @@ var data = [
         "compound": "他们买了一栋新房子。",
         "compound_pinyin": "Tāmen mǎi le yī dòng xīn fángzi.",
         "compound_cantonese": "fong4 zi6",
-        "compound_definition\r": "They bought a new house.\r"
+        "compound_definition": "They bought a new house."
     },
     {
         "id": 340,
@@ -4077,7 +4077,7 @@ var data = [
         "compound": "请进我的房间。",
         "compound_pinyin": "Qǐng jìn wǒ de fángjiān.",
         "compound_cantonese": "fong4 gaan1",
-        "compound_definition\r": "Please come into my room.\r"
+        "compound_definition": "Please come into my room."
     },
     {
         "id": 341,
@@ -4089,7 +4089,7 @@ var data = [
         "compound": "所以",
         "compound_pinyin": "suǒyǐ",
         "compound_cantonese": "so2ji5",
-        "compound_definition\r": "therefore; as a result; so; the reason why\r"
+        "compound_definition": "therefore; as a result; so; the reason why"
     },
     {
         "id": 342,
@@ -4101,7 +4101,7 @@ var data = [
         "compound": "我用手写字。",
         "compound_pinyin": "Wǒ yòng shǒu xiě zì.",
         "compound_cantonese": "sau2",
-        "compound_definition\r": "I write with my hand.\r"
+        "compound_definition": "I write with my hand."
     },
     {
         "id": 343,
@@ -4113,7 +4113,7 @@ var data = [
         "compound": "我的手机在充电。",
         "compound_pinyin": "Wǒ de shǒujī zài chōngdiàn.",
         "compound_cantonese": "sau2 gei1",
-        "compound_definition\r": "My phone is charging.\r"
+        "compound_definition": "My phone is charging."
     },
     {
         "id": 344,
@@ -4125,7 +4125,7 @@ var data = [
         "compound": "手表",
         "compound_pinyin": "shǒubiǎo",
         "compound_cantonese": "sau2biu1",
-        "compound_definition\r": "wristwatch\r"
+        "compound_definition": "wristwatch"
     },
     {
         "id": 345,
@@ -4137,7 +4137,7 @@ var data = [
         "compound": "他在打篮球。",
         "compound_pinyin": "Tā zài dǎ lánqiú.",
         "compound_cantonese": "daa2",
-        "compound_definition\r": "He is playing basketball.\r"
+        "compound_definition": "He is playing basketball."
     },
     {
         "id": 346,
@@ -4149,7 +4149,7 @@ var data = [
         "compound": "请帮我打开窗户。",
         "compound_pinyin": "Qǐng bāng wǒ dǎkāi chuānghu.",
         "compound_cantonese": "daa2 hoi1",
-        "compound_definition\r": "Please open the window for me.\r"
+        "compound_definition": "Please open the window for me."
     },
     {
         "id": 347,
@@ -4161,7 +4161,7 @@ var data = [
         "compound": "我们一起去打球吧。",
         "compound_pinyin": "Wǒmen yīqǐ qù dǎqiú ba.",
         "compound_cantonese": "daa2 kau4",
-        "compound_definition\r": "Let's go play ball together.\r"
+        "compound_definition": "Let's go play ball together."
     },
     {
         "id": 348,
@@ -4173,7 +4173,7 @@ var data = [
         "compound": "我要给爸爸打电话。",
         "compound_pinyin": "Wǒ yào gěi bàba dǎ diànhuà.",
         "compound_cantonese": "daa2 din6 waa2",
-        "compound_definition\r": "I want to call Dad.\r"
+        "compound_definition": "I want to call Dad."
     },
     {
         "id": 349,
@@ -4185,7 +4185,7 @@ var data = [
         "compound": "打篮球",
         "compound_pinyin": "dǎ lánqiú",
         "compound_cantonese": "daa2 laam4kau4",
-        "compound_definition\r": "to play basketball\r"
+        "compound_definition": "to play basketball"
     },
     {
         "id": 350,
@@ -4197,7 +4197,7 @@ var data = [
         "compound": "我需要打车去机场。",
         "compound_pinyin": "Wǒ xūyào dǎchē qù jīchǎng.",
         "compound_cantonese": "daa2 ce1",
-        "compound_definition\r": "I need to take a taxi to the airport.\r"
+        "compound_definition": "I need to take a taxi to the airport."
     },
     {
         "id": 351,
@@ -4209,7 +4209,7 @@ var data = [
         "compound": "我找不到我的钱包。",
         "compound_pinyin": "Wǒ zhǎo bù dào wǒ de qiánbāo.",
         "compound_cantonese": "zaau2",
-        "compound_definition\r": "I can't find my wallet.\r"
+        "compound_definition": "I can't find my wallet."
     },
     {
         "id": 352,
@@ -4221,7 +4221,7 @@ var data = [
         "compound": "终于找到了失踪的猫。",
         "compound_pinyin": "Zhōngyú zhǎodào le shīzōng de māo.",
         "compound_cantonese": "zaau2 dou3",
-        "compound_definition\r": "Finally found the missing cat.\r"
+        "compound_definition": "Finally found the missing cat."
     },
     {
         "id": 353,
@@ -4233,7 +4233,7 @@ var data = [
         "compound": "报",
         "compound_pinyin": "bào",
         "compound_cantonese": "bou3",
-        "compound_definition\r": "to announce; to inform; report; newspaper; recompense; revenge\r"
+        "compound_definition": "to announce; to inform; report; newspaper; recompense; revenge"
     },
     {
         "id": 354,
@@ -4245,7 +4245,7 @@ var data = [
         "compound": "报纸",
         "compound_pinyin": "bàozhǐ",
         "compound_cantonese": "bou3zi2",
-        "compound_definition\r": "newspaper; newsprint\r"
+        "compound_definition": "newspaper; newsprint"
     },
     {
         "id": 355,
@@ -4257,7 +4257,7 @@ var data = [
         "compound": "请拿起你的书。",
         "compound_pinyin": "Qǐng ná qǐ nǐ de shū.",
         "compound_cantonese": "naa4",
-        "compound_definition\r": "Please pick up your book.\r"
+        "compound_definition": "Please pick up your book."
     },
     {
         "id": 356,
@@ -4269,7 +4269,7 @@ var data = [
         "compound": "我放了我的钥匙在桌子上。",
         "compound_pinyin": "Wǒ fàng le wǒ de yàoshi zài zhuōzi shàng.",
         "compound_cantonese": "fong3",
-        "compound_definition\r": "I put my keys on the table.\r"
+        "compound_definition": "I put my keys on the table."
     },
     {
         "id": 357,
@@ -4281,7 +4281,7 @@ var data = [
         "compound": "明天放假，我们可以出去玩。",
         "compound_pinyin": "Míngtiān fàngjià",
         "compound_cantonese": " wǒmen kěyǐ chūqù wán.",
-        "compound_definition\r": "fong3 gaa3"
+        "compound_definition": "fong3 gaa3"
     },
     {
         "id": 358,
@@ -4293,7 +4293,7 @@ var data = [
         "compound": "放学后，我通常去图书馆。",
         "compound_pinyin": "Fàngxué hòu",
         "compound_cantonese": " wǒ tōngcháng qù túshūguǎn.",
-        "compound_definition\r": "fong3 hok6"
+        "compound_definition": "fong3 hok6"
     },
     {
         "id": 359,
@@ -4305,7 +4305,7 @@ var data = [
         "compound": "她是一位教英语的老师。",
         "compound_pinyin": "Tā shì yī wèi jiāo yīngyǔ de lǎoshī.",
         "compound_cantonese": "gaau3",
-        "compound_definition\r": "She is a teacher who teaches English.\r"
+        "compound_definition": "She is a teacher who teaches English."
     },
     {
         "id": 360,
@@ -4317,7 +4317,7 @@ var data = [
         "compound": "教学楼里有很多教室。",
         "compound_pinyin": "Jiàoxué lóu lǐ yǒu hěnduō jiàoshì.",
         "compound_cantonese": "gaau3 hok6 lau4",
-        "compound_definition\r": "There are many classrooms in the teaching building.\r"
+        "compound_definition": "There are many classrooms in the teaching building."
     },
     {
         "id": 361,
@@ -4329,7 +4329,7 @@ var data = [
         "compound": "教室",
         "compound_pinyin": "jiàoshì",
         "compound_cantonese": "gaau3sat1",
-        "compound_definition\r": "classroom\r"
+        "compound_definition": "classroom"
     },
     {
         "id": 362,
@@ -4341,7 +4341,7 @@ var data = [
         "compound": "我喜欢阅读文学作品。",
         "compound_pinyin": "Wǒ xǐhuān yuèdú wénxué zuòpǐn.",
         "compound_cantonese": "man4",
-        "compound_definition\r": "I enjoy reading literary works.\r"
+        "compound_definition": "I enjoy reading literary works."
     },
     {
         "id": 363,
@@ -4353,7 +4353,7 @@ var data = [
         "compound": "我买了一件新衣服。",
         "compound_pinyin": "Wǒ mǎi le yī jiàn xīn yīfú.",
         "compound_cantonese": "san1",
-        "compound_definition\r": "I bought a new piece of clothing.\r"
+        "compound_definition": "I bought a new piece of clothing."
     },
     {
         "id": 364,
@@ -4365,7 +4365,7 @@ var data = [
         "compound": "春节是中国的新年。",
         "compound_pinyin": "Chūnjié shì zhōngguó de xīnnián.",
         "compound_cantonese": "san1 nin4",
-        "compound_definition\r": "Chinese New Year is the New Year in China.\r"
+        "compound_definition": "Chinese New Year is the New Year in China."
     },
     {
         "id": 365,
@@ -4377,7 +4377,7 @@ var data = [
         "compound": "请走这个方向。",
         "compound_pinyin": "Qǐng zǒu zhège fāngxiàng.",
         "compound_cantonese": "fong1",
-        "compound_definition\r": "Please go in this direction.\r"
+        "compound_definition": "Please go in this direction."
     },
     {
         "id": 366,
@@ -4389,7 +4389,7 @@ var data = [
         "compound": "图书馆旁边有一个咖啡店。",
         "compound_pinyin": "Túshūguǎn pángbiān yǒu yīgè kāfēi diàn.",
         "compound_cantonese": "pong4",
-        "compound_definition\r": "There is a coffee shop next to the library.\r"
+        "compound_definition": "There is a coffee shop next to the library."
     },
     {
         "id": 367,
@@ -4401,7 +4401,7 @@ var data = [
         "compound": "他坐在我旁边的椅子上。",
         "compound_pinyin": "Tā zuò zài wǒ pángbiān de yǐzi shàng.",
         "compound_cantonese": "pong4 bin1",
-        "compound_definition\r": "He is sitting in the chair next to me.\r"
+        "compound_definition": "He is sitting in the chair next to me."
     },
     {
         "id": 368,
@@ -4413,7 +4413,7 @@ var data = [
         "compound": "旅游",
         "compound_pinyin": "lǚyóu",
         "compound_cantonese": "leoi5jau4",
-        "compound_definition\r": "trip; journey; tourism; travel; tour; to travel\r"
+        "compound_definition": "trip; journey; tourism; travel; tour; to travel"
     },
     {
         "id": 369,
@@ -4425,7 +4425,7 @@ var data = [
         "compound": "今天是星期日。",
         "compound_pinyin": "Jīntiān shì xīngqī rì.",
         "compound_cantonese": "jat6",
-        "compound_definition\r": "Today is Sunday.\r"
+        "compound_definition": "Today is Sunday."
     },
     {
         "id": 370,
@@ -4437,7 +4437,7 @@ var data = [
         "compound": "请告诉我今天的日期。",
         "compound_pinyin": "Qǐng gàosù wǒ jīntiān de rìqī.",
         "compound_cantonese": "jat6 kei4",
-        "compound_definition\r": "Please tell me today's date.\r"
+        "compound_definition": "Please tell me today's date."
     },
     {
         "id": 371,
@@ -4449,7 +4449,7 @@ var data = [
         "compound": "早上好！",
         "compound_pinyin": "Zǎoshang hǎo!",
         "compound_cantonese": "zou2",
-        "compound_definition\r": "Good morning!\r"
+        "compound_definition": "Good morning!"
     },
     {
         "id": 372,
@@ -4461,7 +4461,7 @@ var data = [
         "compound": "我每天早上都去跑步。",
         "compound_pinyin": "Wǒ měitiān zǎoshang dōu qù pǎobù.",
         "compound_cantonese": "zou2 soeng6",
-        "compound_definition\r": "I go jogging every morning.\r"
+        "compound_definition": "I go jogging every morning."
     },
     {
         "id": 373,
@@ -4473,7 +4473,7 @@ var data = [
         "compound": "你吃了早饭吗？",
         "compound_pinyin": "Nǐ chī le zǎofàn ma?",
         "compound_cantonese": "zou2 faan6",
-        "compound_definition\r": "Have you had breakfast?\r"
+        "compound_definition": "Have you had breakfast?"
     },
     {
         "id": 374,
@@ -4485,7 +4485,7 @@ var data = [
         "compound": "这是一个很重要的时刻。",
         "compound_pinyin": "Zhè shì yīgè hěn zhòngyào de shíkè.",
         "compound_cantonese": "si4",
-        "compound_definition\r": "This is a very important moment.\r"
+        "compound_definition": "This is a very important moment."
     },
     {
         "id": 375,
@@ -4497,7 +4497,7 @@ var data = [
         "compound": "我们可以在晚饭时候聊天。",
         "compound_pinyin": "Wǒmen kěyǐ zài wǎnfàn shíhou liáotiān.",
         "compound_cantonese": "si4 hou6",
-        "compound_definition\r": "We can chat during dinner.\r"
+        "compound_definition": "We can chat during dinner."
     },
     {
         "id": 376,
@@ -4509,7 +4509,7 @@ var data = [
         "compound": "时间过得真快。",
         "compound_pinyin": "Shíjiān guò dé zhēn kuài.",
         "compound_cantonese": "si4 gaan1",
-        "compound_definition\r": "Time flies.\r"
+        "compound_definition": "Time flies."
     },
     {
         "id": 377,
@@ -4521,7 +4521,7 @@ var data = [
         "compound": "他的未来很明亮。",
         "compound_pinyin": "Tā de wèilái hěn míngliàng.",
         "compound_cantonese": "ming4",
-        "compound_definition\r": "His future is very bright.\r"
+        "compound_definition": "His future is very bright."
     },
     {
         "id": 378,
@@ -4533,7 +4533,7 @@ var data = [
         "compound": "我们明天去购物。",
         "compound_pinyin": "Wǒmen míngtiān qù gòuwù.",
         "compound_cantonese": "ming4 tin1",
-        "compound_definition\r": "We are going shopping tomorrow.\r"
+        "compound_definition": "We are going shopping tomorrow."
     },
     {
         "id": 379,
@@ -4545,7 +4545,7 @@ var data = [
         "compound": "明年我计划去旅行。",
         "compound_pinyin": "Míngnián wǒ jìhuà qù lǚxíng.",
         "compound_cantonese": "ming4 nin4",
-        "compound_definition\r": "I plan to travel next year.\r"
+        "compound_definition": "I plan to travel next year."
     },
     {
         "id": 380,
@@ -4557,7 +4557,7 @@ var data = [
         "compound": "他解释得很清楚，我明白了。",
         "compound_pinyin": "Tā jiěshì dé hěn qīngchǔ",
         "compound_cantonese": " wǒ míngbái le.",
-        "compound_definition\r": "ming4 baak6"
+        "compound_definition": "ming4 baak6"
     },
     {
         "id": 381,
@@ -4569,7 +4569,7 @@ var data = [
         "compound": "我喜欢晚上看星星。",
         "compound_pinyin": "Wǒ xǐhuān wǎnshàng kàn xīngxīng.",
         "compound_cantonese": "sing1",
-        "compound_definition\r": "I like to watch the stars at night.\r"
+        "compound_definition": "I like to watch the stars at night."
     },
     {
         "id": 382,
@@ -4581,7 +4581,7 @@ var data = [
         "compound": "星期一是工作日。",
         "compound_pinyin": "Xīngqī yī shì gōngzuòrì.",
         "compound_cantonese": "sing1 kei4",
-        "compound_definition\r": "Monday is a workday.\r"
+        "compound_definition": "Monday is a workday."
     },
     {
         "id": 383,
@@ -4593,7 +4593,7 @@ var data = [
         "compound": "星期天我通常休息。",
         "compound_pinyin": "Xīngqītiān wǒ tōngcháng xiūxi.",
         "compound_cantonese": "sing1 kei4 tin1",
-        "compound_definition\r": "I usually rest on Sundays.\r"
+        "compound_definition": "I usually rest on Sundays."
     },
     {
         "id": 384,
@@ -4605,7 +4605,7 @@ var data = [
         "compound": "星期日是一周的最后一天。",
         "compound_pinyin": "Xīngqīrì shì yīzhōu de zuìhòu yītiān.",
         "compound_cantonese": "sing1 kei4 jat6",
-        "compound_definition\r": "Sunday is the last day of the week.\r"
+        "compound_definition": "Sunday is the last day of the week."
     },
     {
         "id": 385,
@@ -4617,7 +4617,7 @@ var data = [
         "compound": "昨天我去了电影院。",
         "compound_pinyin": "Zuótiān wǒ qù le diànyǐngyuàn.",
         "compound_cantonese": "zok3",
-        "compound_definition\r": "I went to the cinema yesterday.\r"
+        "compound_definition": "I went to the cinema yesterday."
     },
     {
         "id": 386,
@@ -4629,7 +4629,7 @@ var data = [
         "compound": "昨天天气很好。",
         "compound_pinyin": "Zuótiān tiānqì hěn hǎo.",
         "compound_cantonese": "zok3 tin1",
-        "compound_definition\r": "The weather was nice yesterday.\r"
+        "compound_definition": "The weather was nice yesterday."
     },
     {
         "id": 387,
@@ -4641,7 +4641,7 @@ var data = [
         "compound": "你是我的朋友。",
         "compound_pinyin": "Nǐ shì wǒ de péngyǒu.",
         "compound_cantonese": "si6",
-        "compound_definition\r": "You are my friend.\r"
+        "compound_definition": "You are my friend."
     },
     {
         "id": 388,
@@ -4653,7 +4653,7 @@ var data = [
         "compound": "你是不是明天要来？",
         "compound_pinyin": "Nǐ shì bù shì míngtiān yào lái?",
         "compound_cantonese": "si6 bat1 si6",
-        "compound_definition\r": "Are you coming tomorrow?\r"
+        "compound_definition": "Are you coming tomorrow?"
     },
     {
         "id": 389,
@@ -4665,7 +4665,7 @@ var data = [
         "compound": "他晚上工作很晚。",
         "compound_pinyin": "Tā wǎnshàng gōngzuò hěn wǎn.",
         "compound_cantonese": "maan5",
-        "compound_definition\r": "He works late at night.\r"
+        "compound_definition": "He works late at night."
     },
     {
         "id": 390,
@@ -4677,7 +4677,7 @@ var data = [
         "compound": "我晚上常常看电视。",
         "compound_pinyin": "Wǒ wǎnshang chángcháng kàn diànshì.",
         "compound_cantonese": "maan5 soeng6",
-        "compound_definition\r": "I often watch TV in the evening.\r"
+        "compound_definition": "I often watch TV in the evening."
     },
     {
         "id": 391,
@@ -4689,7 +4689,7 @@ var data = [
         "compound": "今晚饭菜很美味。",
         "compound_pinyin": "Jīn wǎn fàncài hěn měiwèi.",
         "compound_cantonese": "maan5 faan6",
-        "compound_definition\r": "Dinner tonight is very delicious.\r"
+        "compound_definition": "Dinner tonight is very delicious."
     },
     {
         "id": 392,
@@ -4701,7 +4701,7 @@ var data = [
         "compound": "晴",
         "compound_pinyin": "qíng",
         "compound_cantonese": "cing4",
-        "compound_definition\r": "clear; fine (weather)\r"
+        "compound_definition": "clear; fine (weather)"
     },
     {
         "id": 393,
@@ -4713,7 +4713,7 @@ var data = [
         "compound": "这是我最喜欢的电影。",
         "compound_pinyin": "Zhè shì wǒ zuì xǐhuān de diànyǐng.",
         "compound_cantonese": "zeoi3",
-        "compound_definition\r": "This is my favorite movie.\r"
+        "compound_definition": "This is my favorite movie."
     },
     {
         "id": 394,
@@ -4725,7 +4725,7 @@ var data = [
         "compound": "最后一次机会。",
         "compound_pinyin": "Zuìhòu yīcì jīhuì.",
         "compound_cantonese": "zeoi3 hau6",
-        "compound_definition\r": "The last chance.\r"
+        "compound_definition": "The last chance."
     },
     {
         "id": 395,
@@ -4737,7 +4737,7 @@ var data = [
         "compound": "你最好早点休息。",
         "compound_pinyin": "Nǐ zuìhǎo zǎodiǎn xiūxi.",
         "compound_cantonese": "zeoi3 hou2",
-        "compound_definition\r": "It's best for you to rest early.\r"
+        "compound_definition": "It's best for you to rest early."
     },
     {
         "id": 396,
@@ -4749,7 +4749,7 @@ var data = [
         "compound": "七月是我的生日。",
         "compound_pinyin": "Qī yuè shì wǒ de shēngrì.",
         "compound_cantonese": "jyut6",
-        "compound_definition\r": "July is my birthday month.\r"
+        "compound_definition": "July is my birthday month."
     },
     {
         "id": 397,
@@ -4761,7 +4761,7 @@ var data = [
         "compound": "他有一个漂亮的房子。",
         "compound_pinyin": "Tā yǒu yīgè piàoliang de fángzi.",
         "compound_cantonese": "jau5",
-        "compound_definition\r": "He has a beautiful house.\r"
+        "compound_definition": "He has a beautiful house."
     },
     {
         "id": 398,
@@ -4773,7 +4773,7 @@ var data = [
         "compound": "这个景点很有名。",
         "compound_pinyin": "Zhège jǐngdiǎn hěn yǒumíng.",
         "compound_cantonese": "jau5 meng4",
-        "compound_definition\r": "This attraction is famous.\r"
+        "compound_definition": "This attraction is famous."
     },
     {
         "id": 399,
@@ -4785,7 +4785,7 @@ var data = [
         "compound": "有时候我会去散步。",
         "compound_pinyin": "Yǒushíhou wǒ huì qù sànbù.",
         "compound_cantonese": "jau5 si4 hau6",
-        "compound_definition\r": "Sometimes I go for a walk.\r"
+        "compound_definition": "Sometimes I go for a walk."
     },
     {
         "id": 400,
@@ -4797,7 +4797,7 @@ var data = [
         "compound": "这个工具非常有用。",
         "compound_pinyin": "Zhège gōngjù fēicháng yǒuyòng.",
         "compound_cantonese": "jau5 jung6",
-        "compound_definition\r": "This tool is very useful.\r"
+        "compound_definition": "This tool is very useful."
     },
     {
         "id": 401,
@@ -4809,7 +4809,7 @@ var data = [
         "compound": "有的人喜欢咖啡，有的人喜欢茶。",
         "compound_pinyin": "Yǒude rén xǐhuān kāfēi",
         "compound_cantonese": " yǒude rén xǐhuān chá.",
-        "compound_definition\r": "jau5 dik1"
+        "compound_definition": "jau5 dik1"
     },
     {
         "id": 402,
@@ -4821,7 +4821,7 @@ var data = [
         "compound": "他是我的朋友。",
         "compound_pinyin": "Tā shì wǒ de péngyǒu.",
         "compound_cantonese": "pang4",
-        "compound_definition\r": "He is my friend.\r"
+        "compound_definition": "He is my friend."
     },
     {
         "id": 403,
@@ -4833,7 +4833,7 @@ var data = [
         "compound": "我的朋友们一起去看电影。",
         "compound_pinyin": "Wǒ de péngyǒumen yīqǐ qù kàn diànyǐng.",
         "compound_cantonese": "pang4 jau5",
-        "compound_definition\r": "My friends are going to the movies together.\r"
+        "compound_definition": "My friends are going to the movies together."
     },
     {
         "id": 404,
@@ -4845,7 +4845,7 @@ var data = [
         "compound": "她穿着一件漂亮的服装。",
         "compound_pinyin": "Tā chuānzhuó yī jiàn piàoliang de fúzhuāng.",
         "compound_cantonese": "fuk6",
-        "compound_definition\r": "She is wearing a beautiful outfit.\r"
+        "compound_definition": "She is wearing a beautiful outfit."
     },
     {
         "id": 405,
@@ -4857,7 +4857,7 @@ var data = [
         "compound": "服务",
         "compound_pinyin": "fúwù",
         "compound_cantonese": "fuk6mou6",
-        "compound_definition\r": "to serve; service\r"
+        "compound_definition": "to serve; service"
     },
     {
         "id": 406,
@@ -4869,7 +4869,7 @@ var data = [
         "compound": "服务员",
         "compound_pinyin": "fúwù yuán",
         "compound_cantonese": "fuk6mou6 jyun4",
-        "compound_definition\r": "waiter; waitress; attendant; customer service personnel\r"
+        "compound_definition": "waiter; waitress; attendant; customer service personnel"
     },
     {
         "id": 407,
@@ -4881,7 +4881,7 @@ var data = [
         "compound": "这是一个新的学期。",
         "compound_pinyin": "Zhè shì yīgè xīn de xuéqī.",
         "compound_cantonese": "kei4",
-        "compound_definition\r": "This is a new semester.\r"
+        "compound_definition": "This is a new semester."
     },
     {
         "id": 408,
@@ -4893,7 +4893,7 @@ var data = [
         "compound": "这是一本好书。",
         "compound_pinyin": "Zhè shì yī běn hǎo shū.",
         "compound_cantonese": "bun2",
-        "compound_definition\r": "This is a good book.\r"
+        "compound_definition": "This is a good book."
     },
     {
         "id": 409,
@@ -4905,7 +4905,7 @@ var data = [
         "compound": "我在笔记本子上写了一些想法。",
         "compound_pinyin": "Wǒ zài bǐjì běnzi shàng xiě le yīxiē xiǎngfǎ.",
         "compound_cantonese": "bun2 zi2",
-        "compound_definition\r": "I wrote down some ideas in my notebook.\r"
+        "compound_definition": "I wrote down some ideas in my notebook."
     },
     {
         "id": 410,
@@ -4917,7 +4917,7 @@ var data = [
         "compound": "这台机器非常复杂。",
         "compound_pinyin": "Zhè tái jīqì fēicháng fùzá.",
         "compound_cantonese": "gei1",
-        "compound_definition\r": "This machine is very complex.\r"
+        "compound_definition": "This machine is very complex."
     },
     {
         "id": 411,
@@ -4929,7 +4929,7 @@ var data = [
         "compound": "我要去机场接我的朋友。",
         "compound_pinyin": "Wǒ yào qù jīchǎng jiē wǒ de péngyǒu.",
         "compound_cantonese": "gei1 coeng4",
-        "compound_definition\r": "I'm going to the airport to pick up my friend.\r"
+        "compound_definition": "I'm going to the airport to pick up my friend."
     },
     {
         "id": 412,
@@ -4941,7 +4941,7 @@ var data = [
         "compound": "我已经订好了机票。",
         "compound_pinyin": "Wǒ yǐjīng dìng hǎo le jīpiào.",
         "compound_cantonese": "gei1 piu3",
-        "compound_definition\r": "I've already booked my plane ticket.\r"
+        "compound_definition": "I've already booked my plane ticket."
     },
     {
         "id": 413,
@@ -4953,7 +4953,7 @@ var data = [
         "compound": "这是一条漂亮的围巾。",
         "compound_pinyin": "Zhè shì yī tiáo piàoliang de wéijīn.",
         "compound_cantonese": "tiu4",
-        "compound_definition\r": "This is a beautiful scarf.\r"
+        "compound_definition": "This is a beautiful scarf."
     },
     {
         "id": 414,
@@ -4965,7 +4965,7 @@ var data = [
         "compound": "他明天要来我家。",
         "compound_pinyin": "Tā míngtiān yào lái wǒ jiā.",
         "compound_cantonese": "loi4",
-        "compound_definition\r": "He is coming to my house tomorrow.\r"
+        "compound_definition": "He is coming to my house tomorrow."
     },
     {
         "id": 415,
@@ -4977,7 +4977,7 @@ var data = [
         "compound": "我们终于来到了目的地。",
         "compound_pinyin": "Wǒmen zhōngyú láidào le mùdì dì.",
         "compound_cantonese": "loi4 dou3",
-        "compound_definition\r": "We finally arrived at our destination.\r"
+        "compound_definition": "We finally arrived at our destination."
     },
     {
         "id": 416,
@@ -4989,7 +4989,7 @@ var data = [
         "compound": "请给我一杯水。",
         "compound_pinyin": "Qǐng gěi wǒ yī bēi shuǐ.",
         "compound_cantonese": "bei1",
-        "compound_definition\r": "Please give me a glass of water.\r"
+        "compound_definition": "Please give me a glass of water."
     },
     {
         "id": 417,
@@ -5001,7 +5001,7 @@ var data = [
         "compound": "这个杯子是我的最爱。",
         "compound_pinyin": "Zhège bēizi shì wǒ de zuì'ài.",
         "compound_cantonese": "bei1 zi2",
-        "compound_definition\r": "This cup is my favorite.\r"
+        "compound_definition": "This cup is my favorite."
     },
     {
         "id": 418,
@@ -5013,7 +5013,7 @@ var data = [
         "compound": "苹果是我的最爱水果。",
         "compound_pinyin": "Píngguǒ shì wǒ de zuì'ài shuǐguǒ.",
         "compound_cantonese": "gwo2",
-        "compound_definition\r": "Apples are my favorite fruit.\r"
+        "compound_definition": "Apples are my favorite fruit."
     },
     {
         "id": 419,
@@ -5025,7 +5025,7 @@ var data = [
         "compound": "公园里有很多高大的树。",
         "compound_pinyin": "Gōngyuán lǐ yǒu hěnduō gāodà de shù.",
         "compound_cantonese": "syu6",
-        "compound_definition\r": "There are many tall trees in the park.\r"
+        "compound_definition": "There are many tall trees in the park."
     },
     {
         "id": 420,
@@ -5037,7 +5037,7 @@ var data = [
         "compound": "我的学校很大。",
         "compound_pinyin": "Wǒ de xuéxiào hěn dà.",
         "compound_cantonese": "haau6",
-        "compound_definition\r": "My school is very big.\r"
+        "compound_definition": "My school is very big."
     },
     {
         "id": 421,
@@ -5049,7 +5049,7 @@ var data = [
         "compound": "这个样子很有创意。",
         "compound_pinyin": "Zhège yàngzi hěn yǒu chuàngyì.",
         "compound_cantonese": "joeng6",
-        "compound_definition\r": "This design is very creative.\r"
+        "compound_definition": "This design is very creative."
     },
     {
         "id": 422,
@@ -5061,7 +5061,7 @@ var data = [
         "compound": "我们坐在一张圆桌旁。",
         "compound_pinyin": "Wǒmen zuò zài yī zhāng yuánzhuō páng.",
         "compound_cantonese": "coek3",
-        "compound_definition\r": "We are sitting by a round table.\r"
+        "compound_definition": "We are sitting by a round table."
     },
     {
         "id": 423,
@@ -5073,7 +5073,7 @@ var data = [
         "compound": "我的电脑放在桌子上。",
         "compound_pinyin": "Wǒ de diànnǎo fàng zài zhuōzi shàng.",
         "compound_cantonese": "coek3 zi2",
-        "compound_definition\r": "My computer is on the table.\r"
+        "compound_definition": "My computer is on the table."
     },
     {
         "id": 424,
@@ -5085,7 +5085,7 @@ var data = [
         "compound": "椅子",
         "compound_pinyin": "yǐzi",
         "compound_cantonese": "ji2zi2",
-        "compound_definition\r": "chair\r"
+        "compound_definition": "chair"
     },
     {
         "id": 425,
@@ -5097,7 +5097,7 @@ var data = [
         "compound": "我住在第十层的楼。",
         "compound_pinyin": "Wǒ zhù zài dì shí céng de lóu.",
         "compound_cantonese": "lau4",
-        "compound_definition\r": "I live on the tenth floor of the building.\r"
+        "compound_definition": "I live on the tenth floor of the building."
     },
     {
         "id": 426,
@@ -5109,7 +5109,7 @@ var data = [
         "compound": "他们住在楼上的公寓。",
         "compound_pinyin": "Tāmen zhù zài lóushàng de gōngyù.",
         "compound_cantonese": "lau4 soeng6",
-        "compound_definition\r": "They live in the apartment upstairs.\r"
+        "compound_definition": "They live in the apartment upstairs."
     },
     {
         "id": 427,
@@ -5121,7 +5121,7 @@ var data = [
         "compound": "我要下楼买些东西。",
         "compound_pinyin": "Wǒ yào xiàlóu mǎi xiē dōngxī.",
         "compound_cantonese": "lau4 haa6",
-        "compound_definition\r": "I need to go downstairs to buy some things.\r"
+        "compound_definition": "I need to go downstairs to buy some things."
     },
     {
         "id": 428,
@@ -5133,7 +5133,7 @@ var data = [
         "compound": "这是我第二次来中国。",
         "compound_pinyin": "Zhè shì wǒ dì èr cì lái zhōngguó.",
         "compound_cantonese": "ci3",
-        "compound_definition\r": "This is my second time coming to China.\r"
+        "compound_definition": "This is my second time coming to China."
     },
     {
         "id": 429,
@@ -5145,7 +5145,7 @@ var data = [
         "compound": "我们欢迎你的加入。",
         "compound_pinyin": "Wǒmen huānyíng nǐ de jiārù.",
         "compound_cantonese": "fun1",
-        "compound_definition\r": "We welcome your participation.\r"
+        "compound_definition": "We welcome your participation."
     },
     {
         "id": 430,
@@ -5157,7 +5157,7 @@ var data = [
         "compound": "她唱了一首美妙的歌。",
         "compound_pinyin": "Tā chàng le yī shǒu měimiào de gē.",
         "compound_cantonese": "go1",
-        "compound_definition\r": "She sang a wonderful song.\r"
+        "compound_definition": "She sang a wonderful song."
     },
     {
         "id": 431,
@@ -5169,7 +5169,7 @@ var data = [
         "compound": "他正忙于工作。",
         "compound_pinyin": "Tā zhèng mángyú gōngzuò.",
         "compound_cantonese": "zeng3",
-        "compound_definition\r": "He is busy with work.\r"
+        "compound_definition": "He is busy with work."
     },
     {
         "id": 432,
@@ -5181,7 +5181,7 @@ var data = [
         "compound": "我们正在学习中文。",
         "compound_pinyin": "Wǒmen zhèngzài xuéxí zhōngwén.",
         "compound_cantonese": "zeng3 coi4",
-        "compound_definition\r": "We are currently studying Chinese.\r"
+        "compound_definition": "We are currently studying Chinese."
     },
     {
         "id": 433,
@@ -5193,7 +5193,7 @@ var data = [
         "compound": "步",
         "compound_pinyin": "bù",
         "compound_cantonese": "bou6",
-        "compound_definition\r": "a step; a pace; walk; march; stages in a process; situation; (Chinese surname)\r"
+        "compound_definition": "a step; a pace; walk; march; stages in a process; situation; (Chinese surname)"
     },
     {
         "id": 434,
@@ -5205,7 +5205,7 @@ var data = [
         "compound": "每",
         "compound_pinyin": "měi",
         "compound_cantonese": "mui5",
-        "compound_definition\r": "each; every\r"
+        "compound_definition": "each; every"
     },
     {
         "id": 435,
@@ -5217,7 +5217,7 @@ var data = [
         "compound": "这只猫比那只猫大。",
         "compound_pinyin": "Zhè zhī māo bǐ nà zhī māo dà.",
         "compound_cantonese": "bei2",
-        "compound_definition\r": "This cat is bigger than that cat.\r"
+        "compound_definition": "This cat is bigger than that cat."
     },
     {
         "id": 436,
@@ -5229,7 +5229,7 @@ var data = [
         "compound": "我看到一根毛在我的衣服上。",
         "compound_pinyin": "Wǒ kàn dào yī gēn máo zài wǒ de yīfú shàng.",
         "compound_cantonese": "mou4",
-        "compound_definition\r": "I saw a piece of hair on my clothes.\r"
+        "compound_definition": "I saw a piece of hair on my clothes."
     },
     {
         "id": 437,
@@ -5241,7 +5241,7 @@ var data = [
         "compound": "他的态度让我生气。",
         "compound_pinyin": "Tā de tàidù ràng wǒ shēngqì.",
         "compound_cantonese": "hei3",
-        "compound_definition\r": "His attitude made me angry.\r"
+        "compound_definition": "His attitude made me angry."
     },
     {
         "id": 438,
@@ -5253,7 +5253,7 @@ var data = [
         "compound": "水是生命之源。",
         "compound_pinyin": "Shuǐ shì shēngmìng zhī yuán.",
         "compound_cantonese": "seoi2",
-        "compound_definition\r": "Water is the source of life.\r"
+        "compound_definition": "Water is the source of life."
     },
     {
         "id": 439,
@@ -5265,7 +5265,7 @@ var data = [
         "compound": "我喜欢吃各种水果。",
         "compound_pinyin": "Wǒ xǐhuān chī gèzhǒng shuǐguǒ.",
         "compound_cantonese": "seoi2 gwo2",
-        "compound_definition\r": "I like to eat various fruits.\r"
+        "compound_definition": "I like to eat various fruits."
     },
     {
         "id": 440,
@@ -5277,7 +5277,7 @@ var data = [
         "compound": "汉语是中国的官方语言之一。",
         "compound_pinyin": "Hànyǔ shì zhōngguó de guānfāng yǔyán zhī yī.",
         "compound_cantonese": "hon3",
-        "compound_definition\r": "Chinese is one of the official languages in China.\r"
+        "compound_definition": "Chinese is one of the official languages in China."
     },
     {
         "id": 441,
@@ -5289,7 +5289,7 @@ var data = [
         "compound": "学习汉字需要耐心和练习。",
         "compound_pinyin": "Xuéxí hànzì xūyào nàixīn hé liànxí.",
         "compound_cantonese": "hon3 zi6",
-        "compound_definition\r": "Learning Chinese characters requires patience and practice.\r"
+        "compound_definition": "Learning Chinese characters requires patience and practice."
     },
     {
         "id": 442,
@@ -5301,7 +5301,7 @@ var data = [
         "compound": "他正在学习汉语。",
         "compound_pinyin": "Tā zhèngzài xuéxí hànyǔ.",
         "compound_cantonese": "hon3 jyu5",
-        "compound_definition\r": "He is learning Chinese.\r"
+        "compound_definition": "He is learning Chinese."
     },
     {
         "id": 443,
@@ -5313,7 +5313,7 @@ var data = [
         "compound": "汽车是一种常见的交通工具。",
         "compound_pinyin": "Qìchē shì yī zhǒng chángjiàn de jiāotōng gōngjù.",
         "compound_cantonese": "hei3",
-        "compound_definition\r": "Cars are a common mode of transportation.\r"
+        "compound_definition": "Cars are a common mode of transportation."
     },
     {
         "id": 444,
@@ -5325,7 +5325,7 @@ var data = [
         "compound": "我们计划租一辆汽车去旅行。",
         "compound_pinyin": "Wǒmen jìhuà zū yī liàng qìchē qù lǚxíng.",
         "compound_cantonese": "hei3 ce1",
-        "compound_definition\r": "We plan to rent a car for our trip.\r"
+        "compound_definition": "We plan to rent a car for our trip."
     },
     {
         "id": 445,
@@ -5337,7 +5337,7 @@ var data = [
         "compound": "我昨天没吃早饭。",
         "compound_pinyin": "Wǒ zuótiān méi chī zǎofàn.",
         "compound_cantonese": "mou4",
-        "compound_definition\r": "I didn't have breakfast yesterday.\r"
+        "compound_definition": "I didn't have breakfast yesterday."
     },
     {
         "id": 446,
@@ -5349,7 +5349,7 @@ var data = [
         "compound": "别担心，一切都没事儿了。",
         "compound_pinyin": "Bié dānxīn",
         "compound_cantonese": " yīqiè dōu méishìr le.",
-        "compound_definition\r": "mou4 si6 ji6"
+        "compound_definition": "mou4 si6 ji6"
     },
     {
         "id": 447,
@@ -5361,7 +5361,7 @@ var data = [
         "compound": "那只是小问题，没什么大不了的。",
         "compound_pinyin": "Nà zhǐshì xiǎo wèntí",
         "compound_cantonese": " méi shénme dà bùliǎo de.",
-        "compound_definition\r": "mou4 sam6 maa1"
+        "compound_definition": "mou4 sam6 maa1"
     },
     {
         "id": 448,
@@ -5373,7 +5373,7 @@ var data = [
         "compound": "如果你迟到了，没关系，我们会等你的。",
         "compound_pinyin": "Rúguǒ nǐ chídào le",
         "compound_cantonese": " méiguānxi",
-        "compound_definition\r": " wǒmen huì děng nǐ de."
+        "compound_definition": " wǒmen huì děng nǐ de."
     },
     {
         "id": 449,
@@ -5385,7 +5385,7 @@ var data = [
         "compound": "我没有时间去购物。",
         "compound_pinyin": "Wǒ méiyǒu shíjiān qù gòuwù.",
         "compound_cantonese": "mou4 jau5",
-        "compound_definition\r": "I don't have time to go shopping.\r"
+        "compound_definition": "I don't have time to go shopping."
     },
     {
         "id": 450,
@@ -5397,7 +5397,7 @@ var data = [
         "compound": "我需要洗我的衣服。",
         "compound_pinyin": "Wǒ xūyào xǐ wǒ de yīfú.",
         "compound_cantonese": "sai2",
-        "compound_definition\r": "I need to wash my clothes.\r"
+        "compound_definition": "I need to wash my clothes."
     },
     {
         "id": 451,
@@ -5409,7 +5409,7 @@ var data = [
         "compound": "请问，洗手间在哪里？",
         "compound_pinyin": "Qǐngwèn",
         "compound_cantonese": " xǐshǒujiān zài nǎlǐ?",
-        "compound_definition\r": "sai2 sau2 gaan1"
+        "compound_definition": "sai2 sau2 gaan1"
     },
     {
         "id": 452,
@@ -5421,7 +5421,7 @@ var data = [
         "compound": "喝一杯冷水，解渴。",
         "compound_pinyin": "Hē yī bēi lěngshuǐ",
         "compound_cantonese": " jiěkě.",
-        "compound_definition\r": "hot3"
+        "compound_definition": "hot3"
     },
     {
         "id": 453,
@@ -5433,7 +5433,7 @@ var data = [
         "compound": "游泳",
         "compound_pinyin": "yóuyǒng",
         "compound_cantonese": "jau4wing6",
-        "compound_definition\r": "swimming; to swim\r"
+        "compound_definition": "swimming; to swim"
     },
     {
         "id": 454,
@@ -5445,7 +5445,7 @@ var data = [
         "compound": "漂亮",
         "compound_pinyin": "piàoliang",
         "compound_cantonese": "piu3loeng6",
-        "compound_definition\r": "pretty; beautiful\r"
+        "compound_definition": "pretty; beautiful"
     },
     {
         "id": 455,
@@ -5457,7 +5457,7 @@ var data = [
         "compound": "昨晚，我们在篝火旁边唱歌。",
         "compound_pinyin": "Zuówǎn",
         "compound_cantonese": " wǒmen zài gōuhuǒ pángbiān chànggē.",
-        "compound_definition\r": "fo2"
+        "compound_definition": "fo2"
     },
     {
         "id": 456,
@@ -5469,7 +5469,7 @@ var data = [
         "compound": "我们坐火车去旅行。",
         "compound_pinyin": "Wǒmen zuò huǒchē qù lǚxíng.",
         "compound_cantonese": "fo2 ce1",
-        "compound_definition\r": "We are traveling by train.\r"
+        "compound_definition": "We are traveling by train."
     },
     {
         "id": 457,
@@ -5481,7 +5481,7 @@ var data = [
         "compound": "火车站",
         "compound_pinyin": "huǒchē zhàn",
         "compound_cantonese": "fo2ce1 zaam6",
-        "compound_definition\r": "train station\r"
+        "compound_definition": "train station"
     },
     {
         "id": 458,
@@ -5493,7 +5493,7 @@ var data = [
         "compound": "请问现在几点了？",
         "compound_pinyin": "Qǐngwèn xiànzài jǐ diǎn le?",
         "compound_cantonese": "dim2",
-        "compound_definition\r": "Excuse me"
+        "compound_definition": "Excuse me"
     },
     {
         "id": 459,
@@ -5505,7 +5505,7 @@ var data = [
         "compound": "夏天的天气常常很热。",
         "compound_pinyin": "Xiàtiān de tiānqì chángcháng hěn rè.",
         "compound_cantonese": "jit6",
-        "compound_definition\r": "The weather is often hot in the summer.\r"
+        "compound_definition": "The weather is often hot in the summer."
     },
     {
         "id": 460,
@@ -5517,7 +5517,7 @@ var data = [
         "compound": "母亲的爱是无私的。",
         "compound_pinyin": "Mǔqīn de ài shì wúsī de.",
         "compound_cantonese": "oi3",
-        "compound_definition\r": "A mother's love is selfless.\r"
+        "compound_definition": "A mother's love is selfless."
     },
     {
         "id": 461,
@@ -5529,7 +5529,7 @@ var data = [
         "compound": "我的爱好包括摄影和徒步旅行。",
         "compound_pinyin": "Wǒ de àihào bāokuò shèyǐng hé túbù lǚxíng.",
         "compound_cantonese": "oi3 hou2",
-        "compound_definition\r": "My hobbies include photography and hiking.\r"
+        "compound_definition": "My hobbies include photography and hiking."
     },
     {
         "id": 462,
@@ -5541,7 +5541,7 @@ var data = [
         "compound": "祖父对我非常慈爱。",
         "compound_pinyin": "Zǔfù duì wǒ fēicháng cí'ài.",
         "compound_cantonese": "je4",
-        "compound_definition\r": "My grandfather is very fond of me.\r"
+        "compound_definition": "My grandfather is very fond of me."
     },
     {
         "id": 463,
@@ -5553,7 +5553,7 @@ var data = [
         "compound": "我的爷爷非常健康。",
         "compound_pinyin": "Wǒ de yéyé fēicháng jiànkāng.",
         "compound_cantonese": "je4 je4",
-        "compound_definition\r": "My grandfather is very healthy.\r"
+        "compound_definition": "My grandfather is very healthy."
     },
     {
         "id": 464,
@@ -5565,7 +5565,7 @@ var data = [
         "compound": "我的爸爸是医生。",
         "compound_pinyin": "Wǒ de bàba shì yīshēng.",
         "compound_cantonese": "baa1",
-        "compound_definition\r": "My dad is a doctor.\r"
+        "compound_definition": "My dad is a doctor."
     },
     {
         "id": 465,
@@ -5577,7 +5577,7 @@ var data = [
         "compound": "爸爸每天早上都会给我做早饭。",
         "compound_pinyin": "Bàba měitiān zǎoshang dōuhuì gěi wǒ zuò zǎofàn.",
         "compound_cantonese": "baa1 baa1",
-        "compound_definition\r": "Dad makes breakfast for me every morning.\r"
+        "compound_definition": "Dad makes breakfast for me every morning."
     },
     {
         "id": 466,
@@ -5589,7 +5589,7 @@ var data = [
         "compound": "牛是重要的农业动物。",
         "compound_pinyin": "Niú shì zhòngyào de nóngyè dòngwù.",
         "compound_cantonese": "ngau4",
-        "compound_definition\r": "Cattle are important agricultural animals.\r"
+        "compound_definition": "Cattle are important agricultural animals."
     },
     {
         "id": 467,
@@ -5601,7 +5601,7 @@ var data = [
         "compound": "早餐时，我喝了一杯牛奶。",
         "compound_pinyin": "Zǎocān shí",
         "compound_cantonese": " wǒ hē le yī bēi niúnǎi.",
-        "compound_definition\r": "ngau4 naai5"
+        "compound_definition": "ngau4 naai5"
     },
     {
         "id": 468,
@@ -5613,7 +5613,7 @@ var data = [
         "compound": "狗",
         "compound_pinyin": "gǒu",
         "compound_cantonese": "gau2",
-        "compound_definition\r": "dog\r"
+        "compound_definition": "dog"
     },
     {
         "id": 469,
@@ -5625,7 +5625,7 @@ var data = [
         "compound": "猫",
         "compound_pinyin": "māo",
         "compound_cantonese": "maau1",
-        "compound_definition\r": "cat; (dialect) to hide oneself; (coll.) modem\r"
+        "compound_definition": "cat; (dialect) to hide oneself; (coll.) modem"
     },
     {
         "id": 470,
@@ -5637,7 +5637,7 @@ var data = [
         "compound": "孩子们在公园里玩得很开心。",
         "compound_pinyin": "Háizimen zài gōngyuán lǐ wán dé hěn kāixīn.",
         "compound_cantonese": "waan2",
-        "compound_definition\r": "The children had a great time playing in the park.\r"
+        "compound_definition": "The children had a great time playing in the park."
     },
     {
         "id": 471,
@@ -5649,7 +5649,7 @@ var data = [
         "compound": "孩子们在院子里玩儿捉迷藏。",
         "compound_pinyin": "Háizimen zài yuànzi lǐ wánr zhuō mí cáng.",
         "compound_cantonese": "waan2",
-        "compound_definition\r": "The children are playing hide and seek in the yard.\r"
+        "compound_definition": "The children are playing hide and seek in the yard."
     },
     {
         "id": 472,
@@ -5661,7 +5661,7 @@ var data = [
         "compound": "这个问题现在变得更加复杂。",
         "compound_pinyin": "Zhège wèntí xiànzài biàn dé gèngjiā fùzá.",
         "compound_cantonese": "jin6",
-        "compound_definition\r": "This issue has become even more complicated now.\r"
+        "compound_definition": "This issue has become even more complicated now."
     },
     {
         "id": 473,
@@ -5673,7 +5673,7 @@ var data = [
         "compound": "现在是吃午饭的时间。",
         "compound_pinyin": "Xiànzài shì chī wǔfàn de shíjiān.",
         "compound_cantonese": "jin6 zoi6",
-        "compound_definition\r": "It's lunchtime now.\r"
+        "compound_definition": "It's lunchtime now."
     },
     {
         "id": 474,
@@ -5685,7 +5685,7 @@ var data = [
         "compound": "我的班级有二十五个学生。",
         "compound_pinyin": "Wǒ de bānjí yǒu èrshíwǔ gè xuéshēng.",
         "compound_cantonese": "baan1",
-        "compound_definition\r": "There are twentyfive students in my class.\r"
+        "compound_definition": "There are twentyfive students in my class."
     },
     {
         "id": 475,
@@ -5697,7 +5697,7 @@ var data = [
         "compound": "我们一起打篮球吧！",
         "compound_pinyin": "Wǒmen yīqǐ dǎ lánqiú ba!",
         "compound_cantonese": "kau4",
-        "compound_definition\r": "Let's play basketball together!\r"
+        "compound_definition": "Let's play basketball together!"
     },
     {
         "id": 476,
@@ -5709,7 +5709,7 @@ var data = [
         "compound": "他的生日是下个月。",
         "compound_pinyin": "Tā de shēngrì shì xià gè yuè.",
         "compound_cantonese": "sang1",
-        "compound_definition\r": "His birthday is next month.\r"
+        "compound_definition": "His birthday is next month."
     },
     {
         "id": 477,
@@ -5721,7 +5721,7 @@ var data = [
         "compound": "生日快乐！",
         "compound_pinyin": "Shēngrì kuàilè!",
         "compound_cantonese": "sang1 jat6",
-        "compound_definition\r": "Happy birthday!\r"
+        "compound_definition": "Happy birthday!"
     },
     {
         "id": 478,
@@ -5733,7 +5733,7 @@ var data = [
         "compound": "不要因为小事情生气。",
         "compound_pinyin": "Bùyào yīnwèi xiǎo shìqíng shēngqì.",
         "compound_cantonese": "sang1 hei3",
-        "compound_definition\r": "Don't get angry over small things.\r"
+        "compound_definition": "Don't get angry over small things."
     },
     {
         "id": 479,
@@ -5745,7 +5745,7 @@ var data = [
         "compound": "我生病了，需要休息。",
         "compound_pinyin": "Wǒ shēngbìng le",
         "compound_cantonese": " xūyào xiūxí.",
-        "compound_definition\r": "sang1 beng6"
+        "compound_definition": "sang1 beng6"
     },
     {
         "id": 480,
@@ -5757,7 +5757,7 @@ var data = [
         "compound": "你可以用这台电脑写论文。",
         "compound_pinyin": "Nǐ kěyǐ yòng zhè tái diànnǎo xiě lùnwén.",
         "compound_cantonese": "jung6",
-        "compound_definition\r": "You can use this computer to write your paper.\r"
+        "compound_definition": "You can use this computer to write your paper."
     },
     {
         "id": 481,
@@ -5769,7 +5769,7 @@ var data = [
         "compound": "请帮我把电视打开。",
         "compound_pinyin": "Qǐng bāng wǒ bǎ diànshì dǎkāi.",
         "compound_cantonese": "din6",
-        "compound_definition\r": "Please help me turn on the TV.\r"
+        "compound_definition": "Please help me turn on the TV."
     },
     {
         "id": 482,
@@ -5781,7 +5781,7 @@ var data = [
         "compound": "我们明天要去看电影。",
         "compound_pinyin": "Wǒmen míngtiān yào qù kàn diànyǐng.",
         "compound_cantonese": "din6 jing2",
-        "compound_definition\r": "We're going to watch a movie tomorrow.\r"
+        "compound_definition": "We're going to watch a movie tomorrow."
     },
     {
         "id": 483,
@@ -5793,7 +5793,7 @@ var data = [
         "compound": "他们经常去电影院看新电影。",
         "compound_pinyin": "Tāmen jīngcháng qù diànyǐngyuàn kàn xīn diànyǐng.",
         "compound_cantonese": "din6 jing2 jyun2",
-        "compound_definition\r": "They often go to the cinema to watch new movies.\r"
+        "compound_definition": "They often go to the cinema to watch new movies."
     },
     {
         "id": 484,
@@ -5805,7 +5805,7 @@ var data = [
         "compound": "我的电脑出了点问题，需要修理。",
         "compound_pinyin": "Wǒ de diànnǎo chū le diǎn wèntí",
         "compound_cantonese": " xūyào xiūlǐ.",
-        "compound_definition\r": "din6 nou5"
+        "compound_definition": "din6 nou5"
     },
     {
         "id": 485,
@@ -5817,7 +5817,7 @@ var data = [
         "compound": "今晚的电视节目很精彩。",
         "compound_pinyin": "Jīnwǎn de diànshì jiémù hěn jīngcǎi.",
         "compound_cantonese": "din6 si6",
-        "compound_definition\r": "Tonight's TV program is very exciting.\r"
+        "compound_definition": "Tonight's TV program is very exciting."
     },
     {
         "id": 486,
@@ -5829,7 +5829,7 @@ var data = [
         "compound": "客厅里有一台大电视机。",
         "compound_pinyin": "Kètīng lǐ yǒu yī tái dà diànshìjī.",
         "compound_cantonese": "din6 si6 gei1",
-        "compound_definition\r": "There's a big TV in the living room.\r"
+        "compound_definition": "There's a big TV in the living room."
     },
     {
         "id": 487,
@@ -5841,7 +5841,7 @@ var data = [
         "compound": "我明天会给你打电话。",
         "compound_pinyin": "Wǒ míngtiān huì gěi nǐ dǎ diànhuà.",
         "compound_cantonese": "din6 waa2",
-        "compound_definition\r": "I'll call you tomorrow.\r"
+        "compound_definition": "I'll call you tomorrow."
     },
     {
         "id": 488,
@@ -5853,7 +5853,7 @@ var data = [
         "compound": "他是一名年轻的男教师。",
         "compound_pinyin": "Tā shì yī míng niánqīng de nán jiàoshī.",
         "compound_cantonese": "naam4",
-        "compound_definition\r": "He is a young male teacher.\r"
+        "compound_definition": "He is a young male teacher."
     },
     {
         "id": 489,
@@ -5865,7 +5865,7 @@ var data = [
         "compound": "有些男人不太擅长表达感情。",
         "compound_pinyin": "Yǒuxiē nánrén bù tài shàncháng biǎodá gǎnqíng.",
         "compound_cantonese": "naam4 jan4",
-        "compound_definition\r": "Some men are not very good at expressing their emotions.\r"
+        "compound_definition": "Some men are not very good at expressing their emotions."
     },
     {
         "id": 490,
@@ -5877,7 +5877,7 @@ var data = [
         "compound": "那个男孩儿正在玩足球。",
         "compound_pinyin": "Nà ge nánháiér zhèngzài wán zúqiú.",
         "compound_cantonese": "naam4 haai4",
-        "compound_definition\r": "The boy is playing soccer.\r"
+        "compound_definition": "The boy is playing soccer."
     },
     {
         "id": 491,
@@ -5889,7 +5889,7 @@ var data = [
         "compound": "她的男朋友很帅。",
         "compound_pinyin": "Tā de nán péngyǒu hěn shuài.",
         "compound_cantonese": "naam4 pang4 jau5",
-        "compound_definition\r": "Her boyfriend is very handsome.\r"
+        "compound_definition": "Her boyfriend is very handsome."
     },
     {
         "id": 492,
@@ -5901,7 +5901,7 @@ var data = [
         "compound": "在这个学校，男生和女生人数差不多。",
         "compound_pinyin": "Zài zhège xuéxiào",
         "compound_cantonese": " nánshēng hé nǚshēng rénshù chà bùduō.",
-        "compound_definition\r": "naam4 sang1"
+        "compound_definition": "naam4 sang1"
     },
     {
         "id": 493,
@@ -5913,7 +5913,7 @@ var data = [
         "compound": "我生病了，需要去医院看病。",
         "compound_pinyin": "Wǒ shēngbìng le",
         "compound_cantonese": " xūyào qù yīyuàn kàn bìng.",
-        "compound_definition\r": "beng6"
+        "compound_definition": "beng6"
     },
     {
         "id": 494,
@@ -5925,7 +5925,7 @@ var data = [
         "compound": "医生正在治疗病人。",
         "compound_pinyin": "Yīshēng zhèngzài zhìliáo bìngrén.",
         "compound_cantonese": "beng6 jan4",
-        "compound_definition\r": "The doctor is treating the patient.\r"
+        "compound_definition": "The doctor is treating the patient."
     },
     {
         "id": 495,
@@ -5937,7 +5937,7 @@ var data = [
         "compound": "雪白的衣服在阳光下闪闪发光。",
         "compound_pinyin": "Xuě bái de yīfú zài yángguāng xià shǎnshǎn fāguāng.",
         "compound_cantonese": "baak6",
-        "compound_definition\r": "The white clothes glisten in the sunlight.\r"
+        "compound_definition": "The white clothes glisten in the sunlight."
     },
     {
         "id": 496,
@@ -5949,7 +5949,7 @@ var data = [
         "compound": "太阳在白天照耀着大地。",
         "compound_pinyin": "Tàiyáng zài báitiān zhàoyào zhe dàdì.",
         "compound_cantonese": "baak6 tin1",
-        "compound_definition\r": "The sun shines on the earth during the day.\r"
+        "compound_definition": "The sun shines on the earth during the day."
     },
     {
         "id": 497,
@@ -5961,7 +5961,7 @@ var data = [
         "compound": "这个书店有成百上千本书。",
         "compound_pinyin": "Zhège shūdiàn yǒu chéngbǎi shàngqiān běn shū.",
         "compound_cantonese": "baak3",
-        "compound_definition\r": "This bookstore has hundreds and thousands of books.\r"
+        "compound_definition": "This bookstore has hundreds and thousands of books."
     },
     {
         "id": 498,
@@ -5973,7 +5973,7 @@ var data = [
         "compound": "这是我的手机。",
         "compound_pinyin": "Zhè shì wǒ de shǒujī.",
         "compound_cantonese": "dik1",
-        "compound_definition\r": "This is my phone.\r"
+        "compound_definition": "This is my phone."
     },
     {
         "id": 499,
@@ -5985,7 +5985,7 @@ var data = [
         "compound": "我喜欢看电影。",
         "compound_pinyin": "Wǒ xǐhuān kàn diànyǐng.",
         "compound_cantonese": "hon3",
-        "compound_definition\r": "I like to watch movies.\r"
+        "compound_definition": "I like to watch movies."
     },
     {
         "id": 500,
@@ -5997,7 +5997,7 @@ var data = [
         "compound": "我昨天看到一只小猫在花园里。",
         "compound_pinyin": "Wǒ zuótiān kàndào yī zhī xiǎo māo zài huāyuán lǐ.",
         "compound_cantonese": "hon3 dou3",
-        "compound_definition\r": "I saw a little cat in the garden yesterday.\r"
+        "compound_definition": "I saw a little cat in the garden yesterday."
     },
     {
         "id": 501,
@@ -6009,7 +6009,7 @@ var data = [
         "compound": "如果你感觉不舒服，应该去看病。",
         "compound_pinyin": "Rúguǒ nǐ gǎnjué bù shūfú",
         "compound_cantonese": " yīnggāi qù kànbìng.",
-        "compound_definition\r": "hon3 beng6"
+        "compound_definition": "hon3 beng6"
     },
     {
         "id": 502,
@@ -6021,7 +6021,7 @@ var data = [
         "compound": "我看见了一只美丽的彩虹。",
         "compound_pinyin": "Wǒ kànjiàn le yī zhī měilì de cǎihóng.",
         "compound_cantonese": "hon3 gin3",
-        "compound_definition\r": "I saw a beautiful rainbow.\r"
+        "compound_definition": "I saw a beautiful rainbow."
     },
     {
         "id": 503,
@@ -6033,7 +6033,7 @@ var data = [
         "compound": "这个消息太不真实了！",
         "compound_pinyin": "Zhège xiāoxī tài bù zhēnshí le!",
         "compound_cantonese": "zan1",
-        "compound_definition\r": "This news is too unbelievable!\r"
+        "compound_definition": "This news is too unbelievable!"
     },
     {
         "id": 504,
@@ -6045,7 +6045,7 @@ var data = [
         "compound": "他是真的很聪明。",
         "compound_pinyin": "Tā shì zhēn de hěn cōngmíng.",
         "compound_cantonese": "zan1 dik1",
-        "compound_definition\r": "He is truly very smart.\r"
+        "compound_definition": "He is truly very smart."
     },
     {
         "id": 505,
@@ -6057,7 +6057,7 @@ var data = [
         "compound": "眼睛",
         "compound_pinyin": "yǎnjing",
         "compound_cantonese": "ngaan5zing1",
-        "compound_definition\r": "eye\r"
+        "compound_definition": "eye"
     },
     {
         "id": 506,
@@ -6069,7 +6069,7 @@ var data = [
         "compound": "她坐在椅子上看书。",
         "compound_pinyin": "Tā zuò zài yǐzi shàng kàn shū.",
         "compound_cantonese": "zoek6",
-        "compound_definition\r": "She is sitting on the chair reading a book.\r"
+        "compound_definition": "She is sitting on the chair reading a book."
     },
     {
         "id": 507,
@@ -6081,7 +6081,7 @@ var data = [
         "compound": "晚上是睡觉的时间。",
         "compound_pinyin": "Wǎnshàng shì shuìjiào de shíjiān.",
         "compound_cantonese": "seoi6",
-        "compound_definition\r": "Nighttime is the time to sleep.\r"
+        "compound_definition": "Nighttime is the time to sleep."
     },
     {
         "id": 508,
@@ -6093,7 +6093,7 @@ var data = [
         "compound": "我晚上总是很早就去睡觉。",
         "compound_pinyin": "Wǒ wǎnshàng zǒng shì hěn zǎo jiù qù shuìjiào.",
         "compound_cantonese": "seoi6 gaau3",
-        "compound_definition\r": "I always go to bed very early at night.\r"
+        "compound_definition": "I always go to bed very early at night."
     },
     {
         "id": 509,
@@ -6105,7 +6105,7 @@ var data = [
         "compound": "知识是非常宝贵的财富。",
         "compound_pinyin": "Zhīshì shì fēicháng bǎoguì de cáifù.",
         "compound_cantonese": "zi1",
-        "compound_definition\r": "Knowledge is a very valuable treasure.\r"
+        "compound_definition": "Knowledge is a very valuable treasure."
     },
     {
         "id": 510,
@@ -6117,7 +6117,7 @@ var data = [
         "compound": "学习是获取知识的重要途径之一。",
         "compound_pinyin": "Xuéxí shì huòqǔ zhīshì de zhòngyào tújìng zhī yī.",
         "compound_cantonese": "zi1 sik1",
-        "compound_definition\r": "Learning is one of the important ways to acquire knowledge.\r"
+        "compound_definition": "Learning is one of the important ways to acquire knowledge."
     },
     {
         "id": 511,
@@ -6129,7 +6129,7 @@ var data = [
         "compound": "我知道这个答案。",
         "compound_pinyin": "Wǒ zhīdào zhège dá'àn.",
         "compound_cantonese": "zi1 dou6",
-        "compound_definition\r": "I know the answer.\r"
+        "compound_definition": "I know the answer."
     },
     {
         "id": 512,
@@ -6141,7 +6141,7 @@ var data = [
         "compound": "我买了两张电影票。",
         "compound_pinyin": "Wǒ mǎi le liǎng zhāng diànyǐng piào.",
         "compound_cantonese": "piu3",
-        "compound_definition\r": "I bought two movie tickets.\r"
+        "compound_definition": "I bought two movie tickets."
     },
     {
         "id": 513,
@@ -6153,7 +6153,7 @@ var data = [
         "compound": "离",
         "compound_pinyin": "lí",
         "compound_cantonese": "lei4",
-        "compound_definition\r": "to leave; to part from; to be away from; (in giving distances) from; without (something); independent of; one of the Eight Trigrams 八卦"
+        "compound_definition": "to leave; to part from; to be away from; (in giving distances) from; without (something); independent of; one of the Eight Trigrams 八卦"
     },
     {
         "id": 514,
@@ -6165,7 +6165,7 @@ var data = [
         "compound": "我今天穿了一件红色的衬衫。",
         "compound_pinyin": "Wǒ jīntiān chuān le yī jiàn hóngsè de chènshān.",
         "compound_cantonese": "cyun1",
-        "compound_definition\r": "I wore a red shirt today.\r"
+        "compound_definition": "I wore a red shirt today."
     },
     {
         "id": 515,
@@ -6177,7 +6177,7 @@ var data = [
         "compound": "他站在火车站等火车。",
         "compound_pinyin": "Tā zhàn zài huǒchēzhàn děng huǒchē.",
         "compound_cantonese": "zaam6",
-        "compound_definition\r": "He is standing at the train station"
+        "compound_definition": "He is standing at the train station"
     },
     {
         "id": 516,
@@ -6189,7 +6189,7 @@ var data = [
         "compound": "看喜剧电影总能让人笑得开心。",
         "compound_pinyin": "Kàn xǐjù diànyǐng zǒng néng ràng rén xiào dé kāixīn.",
         "compound_cantonese": "siu3",
-        "compound_definition\r": "Watching comedy movies always makes people laugh and feel happy.\r"
+        "compound_definition": "Watching comedy movies always makes people laugh and feel happy."
     },
     {
         "id": 517,
@@ -6201,7 +6201,7 @@ var data = [
         "compound": "笔",
         "compound_pinyin": "bǐ",
         "compound_cantonese": "bat1",
-        "compound_definition\r": "pen; pencil; writing brush; to write or compose; the strokes of Chinese characters; measure word for sums of money"
+        "compound_definition": "pen; pencil; writing brush; to write or compose; the strokes of Chinese characters; measure word for sums of money"
     },
     {
         "id": 518,
@@ -6213,7 +6213,7 @@ var data = [
         "compound": "这是我第一次来这个城市。",
         "compound_pinyin": "Zhè shì wǒ dì yī cì lái zhège chéngshì.",
         "compound_cantonese": "dai6",
-        "compound_definition\r": "This is my first time visiting this city.\r"
+        "compound_definition": "This is my first time visiting this city."
     },
     {
         "id": 519,
@@ -6225,7 +6225,7 @@ var data = [
         "compound": "第一",
         "compound_pinyin": "dìyī",
         "compound_cantonese": "dai6jat1",
-        "compound_definition\r": "first; number one; primary\r"
+        "compound_definition": "first; number one; primary"
     },
     {
         "id": 520,
@@ -6237,7 +6237,7 @@ var data = [
         "compound": "请等一下，我马上就来。",
         "compound_pinyin": "Qǐng děng yīxià",
         "compound_cantonese": " wǒ mǎshàng jiù lái.",
-        "compound_definition\r": "dang2"
+        "compound_definition": "dang2"
     },
     {
         "id": 521,
@@ -6249,7 +6249,7 @@ var data = [
         "compound": "他没有答我的问题。",
         "compound_pinyin": "Tā méiyǒu dá wǒ de wèntí.",
         "compound_cantonese": "daap6",
-        "compound_definition\r": "He didn't answer my question.\r"
+        "compound_definition": "He didn't answer my question."
     },
     {
         "id": 522,
@@ -6261,7 +6261,7 @@ var data = [
         "compound": "米饭是中国菜的主食之一。",
         "compound_pinyin": "Mǐfàn shì zhōngguó cài de zhǔshí zhī yī.",
         "compound_cantonese": "mai5",
-        "compound_definition\r": "Rice is one of the staple foods in Chinese cuisine.\r"
+        "compound_definition": "Rice is one of the staple foods in Chinese cuisine."
     },
     {
         "id": 523,
@@ -6273,7 +6273,7 @@ var data = [
         "compound": "我喜欢吃炒饭，特别是虾仁炒饭。",
         "compound_pinyin": "Wǒ xǐhuān chī chǎofàn",
         "compound_cantonese": " tèbié shì xiārén chǎofàn.",
-        "compound_definition\r": "mai5 faan6"
+        "compound_definition": "mai5 faan6"
     },
     {
         "id": 524,
@@ -6285,7 +6285,7 @@ var data = [
         "compound": "他在大学学习计算机科学系。",
         "compound_pinyin": "Tā zài dàxué xuéxí jìsuànjī kēxué xì.",
         "compound_cantonese": "hai6",
-        "compound_definition\r": "He is studying computer science in college.\r"
+        "compound_definition": "He is studying computer science in college."
     },
     {
         "id": 525,
@@ -6297,7 +6297,7 @@ var data = [
         "compound": "长途旅行后，我们都感到非常累。",
         "compound_pinyin": "Chángtú lǚxíng hòu",
         "compound_cantonese": " wǒmen dōu gǎndào fēicháng lèi.",
-        "compound_definition\r": "leoi5"
+        "compound_definition": "leoi5"
     },
     {
         "id": 526,
@@ -6309,7 +6309,7 @@ var data = [
         "compound": "红",
         "compound_pinyin": "hóng",
         "compound_cantonese": "hung4",
-        "compound_definition\r": "red; popular; revolutionary; bonus; (Chinese surname)\r"
+        "compound_definition": "red; popular; revolutionary; bonus; (Chinese surname)"
     },
     {
         "id": 527,
@@ -6321,7 +6321,7 @@ var data = [
         "compound": "纸",
         "compound_pinyin": "zhǐ",
         "compound_cantonese": "zi2",
-        "compound_definition\r": "paper; measure word for documents"
+        "compound_definition": "paper; measure word for documents"
     },
     {
         "id": 528,
@@ -6333,7 +6333,7 @@ var data = [
         "compound": "他的名字很难绍写。",
         "compound_pinyin": "Tā de míngzì hěn nán shào xiě.",
         "compound_cantonese": "siu6",
-        "compound_definition\r": "His name is difficult to write in full.\r"
+        "compound_definition": "His name is difficult to write in full."
     },
     {
         "id": 529,
@@ -6345,7 +6345,7 @@ var data = [
         "compound": "我给你一本好书。",
         "compound_pinyin": "Wǒ gěi nǐ yī běn hǎo shū.",
         "compound_cantonese": "kap1",
-        "compound_definition\r": "I'll give you a good book.\r"
+        "compound_definition": "I'll give you a good book."
     },
     {
         "id": 530,
@@ -6357,7 +6357,7 @@ var data = [
         "compound": "互联网已经改变了我们的生活方式。",
         "compound_pinyin": "Hùliánwǎng yǐjīng gǎibiàn le wǒmen de shēnghuó fāngshì.",
         "compound_cantonese": "mong5",
-        "compound_definition\r": "The internet has changed our way of life.\r"
+        "compound_definition": "The internet has changed our way of life."
     },
     {
         "id": 531,
@@ -6369,7 +6369,7 @@ var data = [
         "compound": "我经常在网上购物。",
         "compound_pinyin": "Wǒ jīngcháng zài wǎngshàng gòuwù.",
         "compound_cantonese": "mong5 soeng6",
-        "compound_definition\r": "I often shop online.\r"
+        "compound_definition": "I often shop online."
     },
     {
         "id": 532,
@@ -6381,7 +6381,7 @@ var data = [
         "compound": "我在社交媒体上认识了很多网友。",
         "compound_pinyin": "Wǒ zài shèjiāo méitǐ shàng rènshí le hěnduō wǎngyǒu.",
         "compound_cantonese": "mong5 jau5",
-        "compound_definition\r": "I've made many online friends on social media.\r"
+        "compound_definition": "I've made many online friends on social media."
     },
     {
         "id": 533,
@@ -6393,7 +6393,7 @@ var data = [
         "compound": "羊",
         "compound_pinyin": "yáng",
         "compound_cantonese": "joeng4",
-        "compound_definition\r": "sheep; goat; (Chinese surname)\r"
+        "compound_definition": "sheep; goat; (Chinese surname)"
     },
     {
         "id": 534,
@@ -6405,7 +6405,7 @@ var data = [
         "compound": "羊肉",
         "compound_pinyin": "yángròu",
         "compound_cantonese": "joeng4juk6",
-        "compound_definition\r": "mutton; goat meat\r"
+        "compound_definition": "mutton; goat meat"
     },
     {
         "id": 535,
@@ -6417,7 +6417,7 @@ var data = [
         "compound": "老师教我们学习新知识。",
         "compound_pinyin": "Lǎoshī jiāo wǒmen xuéxí xīn zhīshì.",
         "compound_cantonese": "lou5",
-        "compound_definition\r": "The teacher teaches us new knowledge.\r"
+        "compound_definition": "The teacher teaches us new knowledge."
     },
     {
         "id": 536,
@@ -6429,7 +6429,7 @@ var data = [
         "compound": "公园里有很多老人在晨练。",
         "compound_pinyin": "Gōngyuán lǐ yǒu hěnduō lǎorén zài chénliàn.",
         "compound_cantonese": "lou5 jan4",
-        "compound_definition\r": "There are many elderly people doing morning exercises in the park.\r"
+        "compound_definition": "There are many elderly people doing morning exercises in the park."
     },
     {
         "id": 537,
@@ -6441,7 +6441,7 @@ var data = [
         "compound": "我的数学老师很有耐心。",
         "compound_pinyin": "Wǒ de shùxué lǎoshī hěn yǒu nàixīn.",
         "compound_cantonese": "lou5 si1",
-        "compound_definition\r": "My math teacher is very patient.\r"
+        "compound_definition": "My math teacher is very patient."
     },
     {
         "id": 538,
@@ -6453,7 +6453,7 @@ var data = [
         "compound": "明天我们要参加数学考试。",
         "compound_pinyin": "Míngtiān wǒmen yào cānjiā shùxué kǎoshì.",
         "compound_cantonese": "haau2",
-        "compound_definition\r": "We are going to take a math exam tomorrow.\r"
+        "compound_definition": "We are going to take a math exam tomorrow."
     },
     {
         "id": 539,
@@ -6465,7 +6465,7 @@ var data = [
         "compound": "明天我们有重要的考试，需要好好准备。",
         "compound_pinyin": "Míngtiān wǒmen yǒu zhòngyào de kǎoshì",
         "compound_cantonese": " xūyào hǎohǎo zhǔnbè.",
-        "compound_definition\r": "haau2 si3"
+        "compound_definition": "haau2 si3"
     },
     {
         "id": 540,
@@ -6477,7 +6477,7 @@ var data = [
         "compound": "烤肉的香味让人垂涎欲滴。",
         "compound_pinyin": "Kǎo ròu de xiāngwèi ràng rén chuíxián yùdī.",
         "compound_cantonese": "juk6",
-        "compound_definition\r": "The aroma of grilled meat is mouthwatering.\r"
+        "compound_definition": "The aroma of grilled meat is mouthwatering."
     },
     {
         "id": 541,
@@ -6489,7 +6489,7 @@ var data = [
         "compound": "坚持努力学习，你一定能成功。",
         "compound_pinyin": "Jiānchí nǔlì xuéxí",
         "compound_cantonese": " nǐ yīdìng néng chénggōng.",
-        "compound_definition\r": "nang4"
+        "compound_definition": "nang4"
     },
     {
         "id": 542,
@@ -6501,7 +6501,7 @@ var data = [
         "compound": "大脑是人类智慧的源泉。",
         "compound_pinyin": "Dà nǎo shì rénlèi zhìhuì de yuánquán.",
         "compound_cantonese": "nou5",
-        "compound_definition\r": "The brain is the source of human intelligence.\r"
+        "compound_definition": "The brain is the source of human intelligence."
     },
     {
         "id": 543,
@@ -6513,7 +6513,7 @@ var data = [
         "compound": "这朵花的颜色非常鲜艳。",
         "compound_pinyin": "Zhè duǒ huā de yánsè fēicháng xiānyàn.",
         "compound_cantonese": "faa1",
-        "compound_definition\r": "The color of this flower is very vibrant.\r"
+        "compound_definition": "The color of this flower is very vibrant."
     },
     {
         "id": 544,
@@ -6525,7 +6525,7 @@ var data = [
         "compound": "苹果",
         "compound_pinyin": "píngguǒ",
         "compound_cantonese": "ping4gwo2",
-        "compound_definition\r": "apple\r"
+        "compound_definition": "apple"
     },
     {
         "id": 545,
@@ -6537,7 +6537,7 @@ var data = [
         "compound": "喝一杯热茶可以让你感到舒服。",
         "compound_pinyin": "Hē yī bēi rè chá kěyǐ ràng nǐ gǎndào shūfú.",
         "compound_cantonese": "caa4",
-        "compound_definition\r": "Drinking a cup of hot tea can make you feel comfortable.\r"
+        "compound_definition": "Drinking a cup of hot tea can make you feel comfortable."
     },
     {
         "id": 546,
@@ -6549,7 +6549,7 @@ var data = [
         "compound": "药",
         "compound_pinyin": "yào",
         "compound_cantonese": "joek6",
-        "compound_definition\r": "medicine; drug; substance used for a specific purpose (e.g. poisoning"
+        "compound_definition": "medicine; drug; substance used for a specific purpose (e.g. poisoning"
     },
     {
         "id": 547,
@@ -6561,7 +6561,7 @@ var data = [
         "compound": "她擅长做各种美味的菜肴。",
         "compound_pinyin": "Tā shànlǐ zhùo gèzhǒng měiwèi de càiyáo.",
         "compound_cantonese": "coi3",
-        "compound_definition\r": "She is good at making various delicious dishes.\r"
+        "compound_definition": "She is good at making various delicious dishes."
     },
     {
         "id": 548,
@@ -6573,7 +6573,7 @@ var data = [
         "compound": "虽然",
         "compound_pinyin": "suīrán",
         "compound_cantonese": "seoi1jin4",
-        "compound_definition\r": "although; even though; even if\r"
+        "compound_definition": "although; even though; even if"
     },
     {
         "id": 549,
@@ -6585,7 +6585,7 @@ var data = [
         "compound": "我喜欢吃煎蛋早餐。",
         "compound_pinyin": "Wǒ xǐhuān chī jiāndàn zǎocān.",
         "compound_cantonese": "daan6",
-        "compound_definition\r": "I like to have fried eggs for breakfast.\r"
+        "compound_definition": "I like to have fried eggs for breakfast."
     },
     {
         "id": 550,
@@ -6597,7 +6597,7 @@ var data = [
         "compound": "不管遇到什么困难，我们都会勇往直前。",
         "compound_pinyin": "Bùguǎn yùdào shénme kùnnan",
         "compound_cantonese": " wǒmen dōu huì yǒng wǎng zhíqián.",
-        "compound_definition\r": "hang4"
+        "compound_definition": "hang4"
     },
     {
         "id": 551,
@@ -6609,7 +6609,7 @@ var data = [
         "compound": "这件衣物很适合夏天的穿着。",
         "compound_pinyin": "Zhè jiàn yīwù hěn shìhé xiàtiān de chuānzhuó.",
         "compound_cantonese": "ji1",
-        "compound_definition\r": "This piece of clothing is suitable for summer wear.\r"
+        "compound_definition": "This piece of clothing is suitable for summer wear."
     },
     {
         "id": 552,
@@ -6621,7 +6621,7 @@ var data = [
         "compound": "我需要洗一下我的衣服。",
         "compound_pinyin": "Wǒ xūyào xǐ yīxià wǒ de yīfú.",
         "compound_cantonese": "ji1 fuk6",
-        "compound_definition\r": "I need to wash my clothes.\r"
+        "compound_definition": "I need to wash my clothes."
     },
     {
         "id": 553,
@@ -6633,7 +6633,7 @@ var data = [
         "compound": "表",
         "compound_pinyin": "biǎo",
         "compound_cantonese": "biu1",
-        "compound_definition\r": "wristwatch; pocket watch\r"
+        "compound_definition": "wristwatch; pocket watch"
     },
     {
         "id": 554,
@@ -6645,7 +6645,7 @@ var data = [
         "compound": "太阳在西边落山时，天空变得很美丽。",
         "compound_pinyin": "Tàiyáng zài xī biān luòshān shí",
         "compound_cantonese": " tiānkōng biànde hěn měilì.",
-        "compound_definition\r": "sai1"
+        "compound_definition": "sai1"
     },
     {
         "id": 555,
@@ -6657,7 +6657,7 @@ var data = [
         "compound": "西瓜",
         "compound_pinyin": "xīguā",
         "compound_cantonese": "sai1gwaa1",
-        "compound_definition\r": "watermelon\r"
+        "compound_definition": "watermelon"
     },
     {
         "id": 556,
@@ -6669,7 +6669,7 @@ var data = [
         "compound": "我们的家在城市的西边。",
         "compound_pinyin": "Wǒmen de jiā zài chéngshì de xī biān.",
         "compound_cantonese": "sai1 bin1",
-        "compound_definition\r": "Our home is on the west side of the city.\r"
+        "compound_definition": "Our home is on the west side of the city."
     },
     {
         "id": 557,
@@ -6681,7 +6681,7 @@ var data = [
         "compound": "如果你要成功，必须付出努力和耐心。",
         "compound_pinyin": "Rúguǒ nǐ yào chénggōng",
         "compound_cantonese": " bìxū fùchū nǔlì hé nàixīn.",
-        "compound_definition\r": "jiu1"
+        "compound_definition": "jiu1"
     },
     {
         "id": 558,
@@ -6693,7 +6693,7 @@ var data = [
         "compound": "我很高兴能见到你。",
         "compound_pinyin": "Wǒ hěn gāoxìng néng jiàn dào nǐ.",
         "compound_cantonese": "gin3",
-        "compound_definition\r": "I'm happy to see you.\r"
+        "compound_definition": "I'm happy to see you."
     },
     {
         "id": 559,
@@ -6705,7 +6705,7 @@ var data = [
         "compound": "我们明天下午在咖啡店见面吧。",
         "compound_pinyin": "Wǒmen míngtiān xiàwǔ zài kāfēi diàn jiànmiàn ba.",
         "compound_cantonese": "gin3 min6",
-        "compound_definition\r": "Let's meet tomorrow afternoon at the coffee shop.\r"
+        "compound_definition": "Let's meet tomorrow afternoon at the coffee shop."
     },
     {
         "id": 560,
@@ -6717,7 +6717,7 @@ var data = [
         "compound": "视觉艺术可以通过画和雕塑来表现。",
         "compound_pinyin": "Shìjué yìshù kěyǐ tōngguò huà hé diāosù lái biǎoxiàn.",
         "compound_cantonese": "si6",
-        "compound_definition\r": "Visual art can be expressed through painting and sculpture.\r"
+        "compound_definition": "Visual art can be expressed through painting and sculpture."
     },
     {
         "id": 561,
@@ -6729,7 +6729,7 @@ var data = [
         "compound": "他昨晚没有好好休息，所以今天感觉很疲倦。",
         "compound_pinyin": "Tā zuówǎn méiyǒu hǎohǎo xiūxí",
         "compound_cantonese": " suǒyǐ jīntiān gǎnjué hěn píjuàn.",
-        "compound_definition\r": "gok3"
+        "compound_definition": "gok3"
     },
     {
         "id": 562,
@@ -6741,7 +6741,7 @@ var data = [
         "compound": "我觉得这部电影非常有趣。",
         "compound_pinyin": "Wǒ juéde zhè bù diànyǐng fēicháng yǒuqù.",
         "compound_cantonese": "gok3 dak1",
-        "compound_definition\r": "I think this movie is very interesting.\r"
+        "compound_definition": "I think this movie is very interesting."
     },
     {
         "id": 563,
@@ -6753,7 +6753,7 @@ var data = [
         "compound": "认真工作是取得成功的关键。",
         "compound_pinyin": "Rènzhēn gōngzuò shì qǔdé chénggōng de guānjiàn.",
         "compound_cantonese": "jing6",
-        "compound_definition\r": "Working diligently is the key to success.\r"
+        "compound_definition": "Working diligently is the key to success."
     },
     {
         "id": 564,
@@ -6765,7 +6765,7 @@ var data = [
         "compound": "她是一个认真负责的学生。",
         "compound_pinyin": "Tā shì yīgè rènzhēn fùzé de xuéshēng.",
         "compound_cantonese": "jing6 zan1",
-        "compound_definition\r": "She is a diligent and responsible student.\r"
+        "compound_definition": "She is a diligent and responsible student."
     },
     {
         "id": 565,
@@ -6777,7 +6777,7 @@ var data = [
         "compound": "我们在大学时认识的。",
         "compound_pinyin": "Wǒmen zài dàxué shí rènshí de.",
         "compound_cantonese": "jing6 sik1",
-        "compound_definition\r": "We met in college.\r"
+        "compound_definition": "We met in college."
     },
     {
         "id": 566,
@@ -6789,7 +6789,7 @@ var data = [
         "compound": "让",
         "compound_pinyin": "ràng",
         "compound_cantonese": "joeng6",
-        "compound_definition\r": "to yield; to permit; to let somebody do something; to have somebody do something; to make somebody (feel sad etc); by (indicates the agent in a passive clause"
+        "compound_definition": "to yield; to permit; to let somebody do something; to have somebody do something; to make somebody (feel sad etc); by (indicates the agent in a passive clause"
     },
     {
         "id": 567,
@@ -6801,7 +6801,7 @@ var data = [
         "compound": "我喜欢写日记来记录生活中的点滴。",
         "compound_pinyin": "Wǒ xǐhuān xiě rìjì lái jìlù shēnghuó zhōng de diǎndī.",
         "compound_cantonese": "gei3",
-        "compound_definition\r": "I like to write a diary to record the moments of life.\r"
+        "compound_definition": "I like to write a diary to record the moments of life."
     },
     {
         "id": 568,
@@ -6813,7 +6813,7 @@ var data = [
         "compound": "请记住你的密码并保密。",
         "compound_pinyin": "Qǐng jìzhù nǐ de mìmǎ bìng bǎomì.",
         "compound_cantonese": "gei3 zyu6",
-        "compound_definition\r": "Please remember your password and keep it confidential.\r"
+        "compound_definition": "Please remember your password and keep it confidential."
     },
     {
         "id": 569,
@@ -6825,7 +6825,7 @@ var data = [
         "compound": "我永远都会记得这美好的时刻。",
         "compound_pinyin": "Wǒ yǒngyuǎn dōu huì jìde zhè měihǎo de shíkè.",
         "compound_cantonese": "gei3 dak1",
-        "compound_definition\r": "I will always remember this beautiful moment.\r"
+        "compound_definition": "I will always remember this beautiful moment."
     },
     {
         "id": 570,
@@ -6837,7 +6837,7 @@ var data = [
         "compound": "认识新朋友是一种愉快的经历。",
         "compound_pinyin": "Rènshí xīn péngyǒu shì yīzhǒng yúkuài de jīnglì.",
         "compound_cantonese": "sik1",
-        "compound_definition\r": "Getting to know new friends is a pleasant experience.\r"
+        "compound_definition": "Getting to know new friends is a pleasant experience."
     },
     {
         "id": 571,
@@ -6849,7 +6849,7 @@ var data = [
         "compound": "他向警察诉说了他的遭遇。",
         "compound_pinyin": "Tā xiàng jǐngchá sùshuōle tā de zāoyù.",
         "compound_cantonese": "sou3",
-        "compound_definition\r": "He told the police about his ordeal.\r"
+        "compound_definition": "He told the police about his ordeal."
     },
     {
         "id": 572,
@@ -6861,7 +6861,7 @@ var data = [
         "compound": "你应该勇于尝试新的事物。",
         "compound_pinyin": "Nǐ yīnggāi yǒngyú chángshì xīn de shìwù.",
         "compound_cantonese": "si3",
-        "compound_definition\r": "You should be brave to try new things.\r"
+        "compound_definition": "You should be brave to try new things."
     },
     {
         "id": 573,
@@ -6873,7 +6873,7 @@ var data = [
         "compound": "请别打断别人说话，要听完他们说完。",
         "compound_pinyin": "Qǐng bié dǎduàn biérén shuōhuà",
         "compound_cantonese": " yào tīng wán tāmen shuō wán.",
-        "compound_definition\r": "waa6"
+        "compound_definition": "waa6"
     },
     {
         "id": 574,
@@ -6885,7 +6885,7 @@ var data = [
         "compound": "学习一门新的语言需要耐心和毅力。",
         "compound_pinyin": "Xuéxí yī mén xīn de yǔyán xūyào nàixīn hé yìlì.",
         "compound_cantonese": "jyu5",
-        "compound_definition\r": "Learning a new language requires patience and determination.\r"
+        "compound_definition": "Learning a new language requires patience and determination."
     },
     {
         "id": 575,
@@ -6897,7 +6897,7 @@ var data = [
         "compound": "他喜欢说故事，让人听得津津有味。",
         "compound_pinyin": "Tā xǐhuān shuō gùshì",
         "compound_cantonese": " ràng rén tīng dé jīnjīn yǒuwèi.",
-        "compound_definition\r": "syut3"
+        "compound_definition": "syut3"
     },
     {
         "id": 576,
@@ -6909,7 +6909,7 @@ var data = [
         "compound": "她说话非常有礼貌和文雅。",
         "compound_pinyin": "Tā shuōhuà fēicháng yǒu lǐmào hé wényǎ.",
         "compound_cantonese": "syut3 waa6",
-        "compound_definition\r": "She speaks very politely and eloquently.\r"
+        "compound_definition": "She speaks very politely and eloquently."
     },
     {
         "id": 577,
@@ -6921,7 +6921,7 @@ var data = [
         "compound": "请你帮我拿一下那本书好吗？",
         "compound_pinyin": "Qǐng nǐ bāng wǒ ná yīxià nà běn shū hǎo ma?",
         "compound_cantonese": "ceng2",
-        "compound_definition\r": "Can you please help me get that book?\r"
+        "compound_definition": "Can you please help me get that book?"
     },
     {
         "id": 578,
@@ -6933,7 +6933,7 @@ var data = [
         "compound": "如果你生病了，可以请假休息。",
         "compound_pinyin": "Rúguǒ nǐ shēngbìngle",
         "compound_cantonese": " kěyǐ qǐng jià xiūxí.",
-        "compound_definition\r": "ceng2 gaa2"
+        "compound_definition": "ceng2 gaa2"
     },
     {
         "id": 579,
@@ -6945,7 +6945,7 @@ var data = [
         "compound": "请坐下，让我给你倒杯茶。",
         "compound_pinyin": "Qǐng zuò xià",
         "compound_cantonese": " ràng wǒ gěi nǐ dào bēi chá.",
-        "compound_definition\r": "ceng2 co5"
+        "compound_definition": "ceng2 co5"
     },
     {
         "id": 580,
@@ -6957,7 +6957,7 @@ var data = [
         "compound": "请进，别站在门口。",
         "compound_pinyin": "Qǐng jìn",
         "compound_cantonese": " bié zhàn zài ménkǒu.",
-        "compound_definition\r": "ceng2 zeon3"
+        "compound_definition": "ceng2 zeon3"
     },
     {
         "id": 581,
@@ -6969,7 +6969,7 @@ var data = [
         "compound": "请问一下，地铁站在哪里？",
         "compound_pinyin": "Qǐng wèn yīxià",
         "compound_cantonese": " dìtiě zhàn zài nǎlǐ?",
-        "compound_definition\r": "ceng2 man6"
+        "compound_definition": "ceng2 man6"
     },
     {
         "id": 582,
@@ -6981,7 +6981,7 @@ var data = [
         "compound": "我喜欢读小说，尤其是科幻小说。",
         "compound_pinyin": "Wǒ xǐhuān dú xiǎoshuō",
         "compound_cantonese": " yóuqí shì kēhuàn xiǎoshuō.",
-        "compound_definition\r": "duk6"
+        "compound_definition": "duk6"
     },
     {
         "id": 583,
@@ -6993,7 +6993,7 @@ var data = [
         "compound": "她每晚都会花一些时间读书。",
         "compound_pinyin": "Tā měi wǎn dōu huì huā yīxiē shíjiān dúshū.",
         "compound_cantonese": "duk6 syu1",
-        "compound_definition\r": "She spends some time reading books every evening.\r"
+        "compound_definition": "She spends some time reading books every evening."
     },
     {
         "id": 584,
@@ -7005,7 +7005,7 @@ var data = [
         "compound": "明天我们有一堂重要的数学课。",
         "compound_pinyin": "Míngtiān wǒmen yǒu yī táng zhòngyào de shùxué kè.",
         "compound_cantonese": "fo1",
-        "compound_definition\r": "We have an important math class tomorrow.\r"
+        "compound_definition": "We have an important math class tomorrow."
     },
     {
         "id": 585,
@@ -7017,7 +7017,7 @@ var data = [
         "compound": "今天的课文很有趣，我们学到了许多新知识。",
         "compound_pinyin": "Jīntiān de kèwén hěn yǒuqù",
         "compound_cantonese": " wǒmen xué dào le xǔduō xīn zhīshì.",
-        "compound_definition\r": "fo1 man4"
+        "compound_definition": "fo1 man4"
     },
     {
         "id": 586,
@@ -7029,7 +7029,7 @@ var data = [
         "compound": "我的课本放在书包里，随时可以拿出来学习。",
         "compound_pinyin": "Wǒ de kèběn fàng zài shūbāo lǐ",
         "compound_cantonese": " suíshí kěyǐ ná chūlái xuéxí.",
-        "compound_definition\r": "fo1 bun2"
+        "compound_definition": "fo1 bun2"
     },
     {
         "id": 587,
@@ -7041,7 +7041,7 @@ var data = [
         "compound": "谁是你最喜欢的音乐家？",
         "compound_pinyin": "Shéi shì nǐ zuì xǐhuān de yīnyuèjiā?",
         "compound_cantonese": "seoi4",
-        "compound_definition\r": "Who is your favorite musician?\r"
+        "compound_definition": "Who is your favorite musician?"
     },
     {
         "id": 588,
@@ -7053,7 +7053,7 @@ var data = [
         "compound": "他对帮助他的人表示感谢。",
         "compound_pinyin": "Tā duì bāngzhù tā de rén biǎoshì gǎnxiè.",
         "compound_cantonese": "ze6",
-        "compound_definition\r": "He expresses gratitude to those who helped him.\r"
+        "compound_definition": "He expresses gratitude to those who helped him."
     },
     {
         "id": 589,
@@ -7065,7 +7065,7 @@ var data = [
         "compound": "谢谢你的帮助，我真的很感激。",
         "compound_pinyin": "Xièxiè nǐ de bāngzhù",
         "compound_cantonese": " wǒ zhēnde hěn gǎnjī.",
-        "compound_definition\r": "ze6 ze6"
+        "compound_definition": "ze6 ze6"
     },
     {
         "id": 590,
@@ -7077,7 +7077,7 @@ var data = [
         "compound": "这家餐馆的价格有点贵，但食物非常美味。",
         "compound_pinyin": "Zhè jiā cānguǎn de jiàgé yǒudiǎn guì",
         "compound_cantonese": " dàn shíwù fēicháng měiwèi.",
-        "compound_definition\r": "gwai3"
+        "compound_definition": "gwai3"
     },
     {
         "id": 591,
@@ -7089,7 +7089,7 @@ var data = [
         "compound": "他匆匆忙忙地走出了房间。",
         "compound_pinyin": "Tā cōngcōngmángmáng de zǒu chū le fángjiān.",
         "compound_cantonese": "zau2",
-        "compound_definition\r": "He hurriedly walked out of the room.\r"
+        "compound_definition": "He hurriedly walked out of the room."
     },
     {
         "id": 592,
@@ -7101,7 +7101,7 @@ var data = [
         "compound": "我喜欢在公园里散步，特别是在早晨。",
         "compound_pinyin": "Wǒ xǐhuān zài gōngyuán lǐ sànbù",
         "compound_cantonese": " tèbié shì zài zǎomàn.",
-        "compound_definition\r": "zau2 lou6"
+        "compound_definition": "zau2 lou6"
     },
     {
         "id": 593,
@@ -7113,7 +7113,7 @@ var data = [
         "compound": "早上七点起床是我的日常习惯。",
         "compound_pinyin": "Zǎoshang qī diǎn qǐchuáng shì wǒ de rìcháng xíguàn.",
         "compound_cantonese": "hei2",
-        "compound_definition\r": "Getting up at 7 AM is my daily routine.\r"
+        "compound_definition": "Getting up at 7 AM is my daily routine."
     },
     {
         "id": 594,
@@ -7125,7 +7125,7 @@ var data = [
         "compound": "明天我要早点起床，去晨跑。",
         "compound_pinyin": "Míngtiān wǒ yào zǎodiǎn qǐchuáng",
         "compound_cantonese": " qù chén pǎo.",
-        "compound_definition\r": "hei2 coeng4"
+        "compound_definition": "hei2 coeng4"
     },
     {
         "id": 595,
@@ -7137,7 +7137,7 @@ var data = [
         "compound": "他听到了闹钟后立刻起来准备上班。",
         "compound_pinyin": "Tā tīng dào le nào zhōng hòu lìkè qǐlái zhǔnbèi shàngbān.",
         "compound_cantonese": "hei2 loi4",
-        "compound_definition\r": "He got up immediately to prepare for work when he heard the alarm clock.\r"
+        "compound_definition": "He got up immediately to prepare for work when he heard the alarm clock."
     },
     {
         "id": 596,
@@ -7149,7 +7149,7 @@ var data = [
         "compound": "我每天早晨都去公园跑步锻炼身体。",
         "compound_pinyin": "Wǒ měitiān zǎochén dōu qù gōngyuán pǎobù duànliàn shēntǐ.",
         "compound_cantonese": "paau2",
-        "compound_definition\r": "I go jogging in the park every morning to exercise.\r"
+        "compound_definition": "I go jogging in the park every morning to exercise."
     },
     {
         "id": 597,
@@ -7161,7 +7161,7 @@ var data = [
         "compound": "跑步",
         "compound_pinyin": "pǎobù",
         "compound_cantonese": "paau2bou6",
-        "compound_definition\r": "to run; to jog; (military) to march at the double\r"
+        "compound_definition": "to run; to jog; (military) to march at the double"
     },
     {
         "id": 598,
@@ -7173,7 +7173,7 @@ var data = [
         "compound": "他跟他的朋友一起去了电影院。",
         "compound_pinyin": "Tā gēn tā de péngyǒu yīqǐ qù le diànyǐngyuàn.",
         "compound_cantonese": "gan1",
-        "compound_definition\r": "He went to the cinema with his friends.\r"
+        "compound_definition": "He went to the cinema with his friends."
     },
     {
         "id": 599,
@@ -7185,7 +7185,7 @@ var data = [
         "compound": "这条路通向山顶，风景非常美丽。",
         "compound_pinyin": "Zhè tiáo lù tōngxiàng shāndǐng",
         "compound_cantonese": " fēngjǐng fēicháng měilì.",
-        "compound_definition\r": "lou6"
+        "compound_definition": "lou6"
     },
     {
         "id": 600,
@@ -7197,7 +7197,7 @@ var data = [
         "compound": "我们在路上遇到了一场大雨，所以湿透了。",
         "compound_pinyin": "Wǒmen zài lùshàng yùdào le yīchǎng dàyǔ",
         "compound_cantonese": " suǒyǐ shī tòu le.",
-        "compound_definition\r": "lou6 soeng6"
+        "compound_definition": "lou6 soeng6"
     },
     {
         "id": 601,
@@ -7209,7 +7209,7 @@ var data = [
         "compound": "在这个路口左转，你就会看到图书馆。",
         "compound_pinyin": "Zài zhège lùkǒu zuǒ zhuǎn",
         "compound_cantonese": " nǐ jiù huì kàn dào túshūguǎn.",
-        "compound_definition\r": "lou6 hau2"
+        "compound_definition": "lou6 hau2"
     },
     {
         "id": 602,
@@ -7221,7 +7221,7 @@ var data = [
         "compound": "跳",
         "compound_pinyin": "tiào",
         "compound_cantonese": "tiu3",
-        "compound_definition\r": "to jump; to hop; to skip over; to bounce; to palpitate\r"
+        "compound_definition": "to jump; to hop; to skip over; to bounce; to palpitate"
     },
     {
         "id": 603,
@@ -7233,7 +7233,7 @@ var data = [
         "compound": "跳舞",
         "compound_pinyin": "tiàowǔ",
         "compound_cantonese": "tiu3mou5",
-        "compound_definition\r": "to dance\r"
+        "compound_definition": "to dance"
     },
     {
         "id": 604,
@@ -7245,7 +7245,7 @@ var data = [
         "compound": "踢足球",
         "compound_pinyin": "tī zúqiú",
         "compound_cantonese": "tek3 zuk1kau4",
-        "compound_definition\r": "to play soccer [U.K.: football]\r"
+        "compound_definition": "to play soccer [U.K.: football]"
     },
     {
         "id": 605,
@@ -7257,7 +7257,7 @@ var data = [
         "compound": "她的身材非常苗条，每天都锻炼保持健康。",
         "compound_pinyin": "Tā de shēncái fēicháng miáotiáo",
         "compound_cantonese": " měitiān dōu duànliàn bǎochí jiànkāng.",
-        "compound_definition\r": "san1"
+        "compound_definition": "san1"
     },
     {
         "id": 606,
@@ -7269,7 +7269,7 @@ var data = [
         "compound": "我身上有点冷，需要多穿一件外套。",
         "compound_pinyin": "Wǒ shēnshang yǒudiǎn lěng",
         "compound_cantonese": " xūyào duō chuān yī jiàn wàitào.",
-        "compound_definition\r": "san1 soeng6"
+        "compound_definition": "san1 soeng6"
     },
     {
         "id": 607,
@@ -7281,7 +7281,7 @@ var data = [
         "compound": "要保持健康，我们需要照顾好我们的身体。",
         "compound_pinyin": "Yào bǎochí jiànkāng",
         "compound_cantonese": " wǒmen xūyào zhàogù hǎo wǒmen de shēntǐ.",
-        "compound_definition\r": "san1 tai2"
+        "compound_definition": "san1 tai2"
     },
     {
         "id": 608,
@@ -7293,7 +7293,7 @@ var data = [
         "compound": "我们准备坐火车去旅行。",
         "compound_pinyin": "Wǒmen zhǔnbèi zuò huǒchē qù lǚxíng.",
         "compound_cantonese": "ce1",
-        "compound_definition\r": "We're planning to travel by train.\r"
+        "compound_definition": "We're planning to travel by train."
     },
     {
         "id": 609,
@@ -7305,7 +7305,7 @@ var data = [
         "compound": "在火车上，你可以欣赏美丽的风景。",
         "compound_pinyin": "Zài huǒchē shàng",
         "compound_cantonese": " nǐ kěyǐ xīnshǎng měilì de fēngjǐng.",
-        "compound_definition\r": "ce1 soeng6"
+        "compound_definition": "ce1 soeng6"
     },
     {
         "id": 610,
@@ -7317,7 +7317,7 @@ var data = [
         "compound": "我们必须提前买车票，以确保有座位。",
         "compound_pinyin": "Wǒmen bìxū tíqián mǎi chēpiào",
         "compound_cantonese": " yǐ quèbǎo yǒu zuòwèi.",
-        "compound_definition\r": "ce1 piu3"
+        "compound_definition": "ce1 piu3"
     },
     {
         "id": 611,
@@ -7329,7 +7329,7 @@ var data = [
         "compound": "我们将在火车站见面，然后一起出发。",
         "compound_pinyin": "Wǒmen jiāng zài huǒchēzhàn jiànmiàn",
         "compound_cantonese": " ránhòu yīqǐ chūfā.",
-        "compound_definition\r": "ce1 zaam6"
+        "compound_definition": "ce1 zaam6"
     },
     {
         "id": 612,
@@ -7341,7 +7341,7 @@ var data = [
         "compound": "我们在河边野餐，度过了一个美好的下午。",
         "compound_pinyin": "Wǒmen zài hébiān yěcān",
         "compound_cantonese": " dùguò le yīgè měihǎo de xiàwǔ.",
-        "compound_definition\r": "bin1"
+        "compound_definition": "bin1"
     },
     {
         "id": 613,
@@ -7353,7 +7353,7 @@ var data = [
         "compound": "请等一下，车辆将很快过去，然后我们可以过马路。",
         "compound_pinyin": "Qǐng děng yīxià",
         "compound_cantonese": " chēliàng jiāng hěn kuài guòqù",
-        "compound_definition\r": " ránhòu wǒmen kěyǐ guò mǎlù."
+        "compound_definition": " ránhòu wǒmen kěyǐ guò mǎlù."
     },
     {
         "id": 614,
@@ -7365,7 +7365,7 @@ var data = [
         "compound": "运动",
         "compound_pinyin": "yùndòng",
         "compound_cantonese": "wan6dung6",
-        "compound_definition\r": "to move; to exercise; sports; exercise; motion; movement; campaign\r"
+        "compound_definition": "to move; to exercise; sports; exercise; motion; movement; campaign"
     },
     {
         "id": 615,
@@ -7377,7 +7377,7 @@ var data = [
         "compound": "近",
         "compound_pinyin": "jìn",
         "compound_cantonese": "kan5",
-        "compound_definition\r": "near; close to; approximately\r"
+        "compound_definition": "near; close to; approximately"
     },
     {
         "id": 616,
@@ -7389,7 +7389,7 @@ var data = [
         "compound": "我还有一本书没有看完，要继续阅读。",
         "compound_pinyin": "Wǒ hái yǒu yī běn shū méiyǒu kàn wán",
         "compound_cantonese": " yào jìxù yuèdú.",
-        "compound_definition\r": "waan4"
+        "compound_definition": "waan4"
     },
     {
         "id": 617,
@@ -7401,7 +7401,7 @@ var data = [
         "compound": "你喜欢喝咖啡还是茶？",
         "compound_pinyin": "Nǐ xǐhuān hē kāfēi háishì chá?",
         "compound_cantonese": "waan4 si6",
-        "compound_definition\r": "Do you like to drink coffee or tea?\r"
+        "compound_definition": "Do you like to drink coffee or tea?"
     },
     {
         "id": 618,
@@ -7413,7 +7413,7 @@ var data = [
         "compound": "我们还有一些时间，可以去逛一逛附近的商场。",
         "compound_pinyin": "Wǒmen háiyǒu yīxiē shíjiān",
         "compound_cantonese": " kěyǐ qù guàng yī guàng fùjìn de shāngchǎng.",
-        "compound_definition\r": "waan4 jau5"
+        "compound_definition": "waan4 jau5"
     },
     {
         "id": 619,
@@ -7425,7 +7425,7 @@ var data = [
         "compound": "这是我的书包，里面装着我的课本和笔记本。",
         "compound_pinyin": "Zhè shì wǒ de shūbāo",
         "compound_cantonese": " lǐmiàn zhuāngzhe wǒ de kèběn hé bǐjìběn.",
-        "compound_definition\r": "ze2"
+        "compound_definition": "ze2"
     },
     {
         "id": 620,
@@ -7437,7 +7437,7 @@ var data = [
         "compound": "这个",
         "compound_pinyin": "zhège",
         "compound_cantonese": "ze2go3",
-        "compound_definition\r": "this; this one\r"
+        "compound_definition": "this; this one"
     },
     {
         "id": 621,
@@ -7449,7 +7449,7 @@ var data = [
         "compound": "这些水果看起来非常新鲜，我要买一些。",
         "compound_pinyin": "Zhèxiē shuǐguǒ kàn qǐlái fēicháng xīnxiān",
         "compound_cantonese": " wǒ yào mǎi yīxiē.",
-        "compound_definition\r": "ze2 ge3"
+        "compound_definition": "ze2 ge3"
     },
     {
         "id": 622,
@@ -7461,7 +7461,7 @@ var data = [
         "compound": "饭馆在这儿，我们可以一起吃晚饭。",
         "compound_pinyin": "Fànguǎn zài zhèr",
         "compound_cantonese": " wǒmen kěyǐ yīqǐ chī wǎnfàn.",
-        "compound_definition\r": "ze2 ji5"
+        "compound_definition": "ze2 ji5"
     },
     {
         "id": 623,
@@ -7473,7 +7473,7 @@ var data = [
         "compound": "来，坐这边，这里有个空椅子。",
         "compound_pinyin": "Lái",
         "compound_cantonese": " zuò zhèbiān",
-        "compound_definition\r": " zhèlǐ yǒu gè kōng yǐzi."
+        "compound_definition": " zhèlǐ yǒu gè kōng yǐzi."
     },
     {
         "id": 624,
@@ -7485,7 +7485,7 @@ var data = [
         "compound": "这里是我们的学校图书馆，有很多好书。",
         "compound_pinyin": "Zhèlǐ shì wǒmen de xuéxiào túshūguǎn",
         "compound_cantonese": " yǒu hěnduō hǎoshū.",
-        "compound_definition\r": "ze2 lei5"
+        "compound_definition": "ze2 lei5"
     },
     {
         "id": 625,
@@ -7497,7 +7497,7 @@ var data = [
         "compound": "请进，欢迎光临我的家。",
         "compound_pinyin": "Qǐng jìn",
         "compound_cantonese": " huānyíng guānglín wǒ de jiā.",
-        "compound_definition\r": "zeon3"
+        "compound_definition": "zeon3"
     },
     {
         "id": 626,
@@ -7509,7 +7509,7 @@ var data = [
         "compound": "他急忙打开门，进去看看发生了什么事情。",
         "compound_pinyin": "Tā jímáng dǎkāi mén",
         "compound_cantonese": " jìnqù kàn kàn fāshēngle shénme shìqing.",
-        "compound_definition\r": "zeon3 heoi3"
+        "compound_definition": "zeon3 heoi3"
     },
     {
         "id": 627,
@@ -7521,7 +7521,7 @@ var data = [
         "compound": "请进来，坐吧！我已经准备好茶了。",
         "compound_pinyin": "Qǐng jìnlái",
         "compound_cantonese": " zuò ba! Wǒ yǐjīng zhǔnbèi hǎo chá le.",
-        "compound_definition\r": "zeon3 loi4"
+        "compound_definition": "zeon3 loi4"
     },
     {
         "id": 628,
@@ -7533,7 +7533,7 @@ var data = [
         "compound": "那座山看起来很远，但我们会走到山顶的。",
         "compound_pinyin": "Nà zuò shān kàn qǐlái hěn yuǎn",
         "compound_cantonese": " dàn wǒmen huì zǒu dào shāndǐng de.",
-        "compound_definition\r": "jyun5"
+        "compound_definition": "jyun5"
     },
     {
         "id": 629,
@@ -7545,7 +7545,7 @@ var data = [
         "compound": "我要送一份礼物给我的朋友，表示感谢。",
         "compound_pinyin": "Wǒ yào sòng yī fèn lǐwù gěi wǒ de péngyǒu",
         "compound_cantonese": " biǎoshì gǎnxiè.",
-        "compound_definition\r": "sung3"
+        "compound_definition": "sung3"
     },
     {
         "id": 630,
@@ -7557,7 +7557,7 @@ var data = [
         "compound": "这是一道美味的菜肴，你一定要尝一尝。",
         "compound_pinyin": "Zhè shì yī dào měiwèi de càiyáo",
         "compound_cantonese": " nǐ yīdìng yào cháng yīcháng.",
-        "compound_definition\r": "dou6"
+        "compound_definition": "dou6"
     },
     {
         "id": 631,
@@ -7569,7 +7569,7 @@ var data = [
         "compound": "那是什么东西？",
         "compound_pinyin": "Nà shì shénme dōngxī?",
         "compound_cantonese": "naa5",
-        "compound_definition\r": "What is that?\r"
+        "compound_definition": "What is that?"
     },
     {
         "id": 632,
@@ -7581,7 +7581,7 @@ var data = [
         "compound": "那个",
         "compound_pinyin": "nàge",
         "compound_cantonese": "naa5go3",
-        "compound_definition\r": "that one; that thing; that (as opposed to this); (used before a verb or adjective for emphasis); (used to humorously or indirectly refer to something embarrassing"
+        "compound_definition": "that one; that thing; that (as opposed to this); (used before a verb or adjective for emphasis); (used to humorously or indirectly refer to something embarrassing"
     },
     {
         "id": 633,
@@ -7593,7 +7593,7 @@ var data = [
         "compound": "那些书都很有趣，我都想读。",
         "compound_pinyin": "Nàxiē shū dōu hěn yǒuqù",
         "compound_cantonese": " wǒ dōu xiǎng dú.",
-        "compound_definition\r": "naa5 ge3"
+        "compound_definition": "naa5 ge3"
     },
     {
         "id": 634,
@@ -7605,7 +7605,7 @@ var data = [
         "compound": "你要去哪儿度假？",
         "compound_pinyin": "Nǐ yào qù nǎr dùjià?",
         "compound_cantonese": "naa5 ji5",
-        "compound_definition\r": "Where are you going for vacation?\r"
+        "compound_definition": "Where are you going for vacation?"
     },
     {
         "id": 635,
@@ -7617,7 +7617,7 @@ var data = [
         "compound": "看，那边有一家新的餐厅，我们去尝尝吧！",
         "compound_pinyin": "Kàn",
         "compound_cantonese": " nàbiān yǒu yī jiā xīn de cāntīng",
-        "compound_definition\r": " wǒmen qù chángcháng ba!"
+        "compound_definition": " wǒmen qù chángcháng ba!"
     },
     {
         "id": 636,
@@ -7629,7 +7629,7 @@ var data = [
         "compound": "那里的风景非常美丽，我希望有一天能去那里旅行。",
         "compound_pinyin": "Nàlǐ de fēngjǐng fēicháng měilì",
         "compound_cantonese": " wǒ xīwàng yǒu yītiān néng qù nàlǐ lǚxíng.",
-        "compound_definition\r": "naa5 lei5"
+        "compound_definition": "naa5 lei5"
     },
     {
         "id": 637,
@@ -7641,7 +7641,7 @@ var data = [
         "compound": "我们都喜欢吃披萨。",
         "compound_pinyin": "Wǒmen dōu xǐhuān chī pīsà.",
         "compound_cantonese": "dou1",
-        "compound_definition\r": "We all like to eat pizza.\r"
+        "compound_definition": "We all like to eat pizza."
     },
     {
         "id": 638,
@@ -7653,7 +7653,7 @@ var data = [
         "compound": "玩具都在箱子里。",
         "compound_pinyin": "Wánjù dōu zài xiāngzi lǐ.",
         "compound_cantonese": "lei5",
-        "compound_definition\r": "The toys are all in the box.\r"
+        "compound_definition": "The toys are all in the box."
     },
     {
         "id": 639,
@@ -7665,7 +7665,7 @@ var data = [
         "compound": "书包里边有我的钥匙。",
         "compound_pinyin": "Shūbāo lǐbiān yǒu wǒ de yàoshi.",
         "compound_cantonese": "lei5 bin1",
-        "compound_definition\r": "My keys are inside the backpack.\r"
+        "compound_definition": "My keys are inside the backpack."
     },
     {
         "id": 640,
@@ -7677,7 +7677,7 @@ var data = [
         "compound": "里面",
         "compound_pinyin": "lǐmiàn",
         "compound_cantonese": "leoi5min6",
-        "compound_definition\r": "inside; interior\r"
+        "compound_definition": "inside; interior"
     },
     {
         "id": 641,
@@ -7689,7 +7689,7 @@ var data = [
         "compound": "这个箱子很重，我需要帮助搬动它。",
         "compound_pinyin": "Zhège xiāngzi hěn zhòng",
         "compound_cantonese": " wǒ xūyào bāngzhù bāndòng tā.",
-        "compound_definition\r": "zung6"
+        "compound_definition": "zung6"
     },
     {
         "id": 642,
@@ -7701,7 +7701,7 @@ var data = [
         "compound": "遵守交通规则是非常重要的，可以保护你的安全。",
         "compound_pinyin": "Zūnshǒu jiāotōng guīzé shì fēicháng zhòngyào de",
         "compound_cantonese": " kěyǐ bǎohù nǐ de ānquán.",
-        "compound_definition\r": "zung6 jiu6"
+        "compound_definition": "zung6 jiu6"
     },
     {
         "id": 643,
@@ -7713,7 +7713,7 @@ var data = [
         "compound": "我忘记带钱了，你可以借给我一点吗？",
         "compound_pinyin": "Wǒ wàngjì dài qián le",
         "compound_cantonese": " nǐ kěyǐ jiè gěi wǒ yīdiǎn ma?",
-        "compound_definition\r": "cin2"
+        "compound_definition": "cin2"
     },
     {
         "id": 644,
@@ -7725,7 +7725,7 @@ var data = [
         "compound": "我的钱包丢了，我必须去报警。",
         "compound_pinyin": "Wǒ de qiánbāo diū le",
         "compound_cantonese": " wǒ bìxū qù bàojǐng.",
-        "compound_definition\r": "cin2 baau1"
+        "compound_definition": "cin2 baau1"
     },
     {
         "id": 645,
@@ -7737,7 +7737,7 @@ var data = [
         "compound": "铅笔",
         "compound_pinyin": "qiānbǐ",
         "compound_cantonese": "jyun4bat1",
-        "compound_definition\r": "(lead) pencil\r"
+        "compound_definition": "(lead) pencil"
     },
     {
         "id": 646,
@@ -7749,7 +7749,7 @@ var data = [
         "compound": "别担心，犯错是学习的一部分。",
         "compound_pinyin": "Bié dānxīn",
         "compound_cantonese": " fàn cuò shì xuéxí de yī bùfèn.",
-        "compound_definition\r": "co6"
+        "compound_definition": "co6"
     },
     {
         "id": 647,
@@ -7761,7 +7761,7 @@ var data = [
         "compound": "长",
         "compound_pinyin": "cháng",
         "compound_cantonese": "coeng4",
-        "compound_definition\r": "length; long; forever; always; constantly\r"
+        "compound_definition": "length; long; forever; always; constantly"
     },
     {
         "id": 648,
@@ -7773,7 +7773,7 @@ var data = [
         "compound": "请把门关上，不要让蚊子进来。",
         "compound_pinyin": "Qǐng bǎ mén guān shàng",
         "compound_cantonese": " bùyào ràng wénzi jìnlái.",
-        "compound_definition\r": "mun4"
+        "compound_definition": "mun4"
     },
     {
         "id": 649,
@@ -7785,7 +7785,7 @@ var data = [
         "compound": "他站在房子的门口等着朋友。",
         "compound_pinyin": "Tā zhàn zài fángzi de ménkǒu děngzhe péngyǒu.",
         "compound_cantonese": "mun4 hau2",
-        "compound_definition\r": "He's standing at the door of the house"
+        "compound_definition": "He's standing at the door of the house"
     },
     {
         "id": 650,
@@ -7797,7 +7797,7 @@ var data = [
         "compound": "你可以在网上预订博物馆的门票。",
         "compound_pinyin": "Nǐ kěyǐ zài wǎngshàng yùdìng bówùguǎn de ménpiào.",
         "compound_cantonese": "mun4 piu3",
-        "compound_definition\r": "You can book museum tickets online.\r"
+        "compound_definition": "You can book museum tickets online."
     },
     {
         "id": 651,
@@ -7809,7 +7809,7 @@ var data = [
         "compound": "如果你有问题，随时可以问我。",
         "compound_pinyin": "Rúguǒ nǐ yǒu wèntí",
         "compound_cantonese": " suíshí kěyǐ wèn wǒ.",
-        "compound_definition\r": "man6"
+        "compound_definition": "man6"
     },
     {
         "id": 652,
@@ -7821,7 +7821,7 @@ var data = [
         "compound": "问题",
         "compound_pinyin": "wèntí",
         "compound_cantonese": "man6tai4",
-        "compound_definition\r": "question; problem; issue; topic\r"
+        "compound_definition": "question; problem; issue; topic"
     },
     {
         "id": 653,
@@ -7833,7 +7833,7 @@ var data = [
         "compound": "我的卧室有两扇窗户和一张大床。",
         "compound_pinyin": "Wǒ de wòshì yǒu liǎng shàn chuānghù hé yī zhāng dà chuáng.",
         "compound_cantonese": "gaan1",
-        "compound_definition\r": "My bedroom has two windows and a large bed.\r"
+        "compound_definition": "My bedroom has two windows and a large bed."
     },
     {
         "id": 654,
@@ -7845,7 +7845,7 @@ var data = [
         "compound": "阴",
         "compound_pinyin": "yīn",
         "compound_cantonese": "jam1",
-        "compound_definition\r": "overcast (weather); cloudy; shady; Yin (the negative principle of Yin and Yang); negative (electric.); feminine; moon; implicit; hidden; genitalia; (Chinese surname)\r"
+        "compound_definition": "overcast (weather); cloudy; shady; Yin (the negative principle of Yin and Yang); negative (electric.); feminine; moon; implicit; hidden; genitalia; (Chinese surname)"
     },
     {
         "id": 655,
@@ -7857,7 +7857,7 @@ var data = [
         "compound": "这所学校有一个漂亮的校园。",
         "compound_pinyin": "Zhè suǒ xuéxiào yǒu yī gè piàoliang de xiàoyuán.",
         "compound_cantonese": "jyun6",
-        "compound_definition\r": "This school has a beautiful campus.\r"
+        "compound_definition": "This school has a beautiful campus."
     },
     {
         "id": 656,
@@ -7869,7 +7869,7 @@ var data = [
         "compound": "学习一门新语言可能会有点难，但不是不可能的。",
         "compound_pinyin": "Xuéxí yī mén xīn yǔyán kěnéng huì yǒudiǎn nán",
         "compound_cantonese": " dàn bùshì bù kěnéng de.",
-        "compound_definition\r": "naan4"
+        "compound_definition": "naan4"
     },
     {
         "id": 657,
@@ -7881,7 +7881,7 @@ var data = [
         "compound": "糟糕，忘记带伞了，马上要下雨了！",
         "compound_pinyin": "Zāogāo",
         "compound_cantonese": " wàngjì dài sǎn le",
-        "compound_definition\r": " mǎshàng yào xiàyǔle!"
+        "compound_definition": " mǎshàng yào xiàyǔle!"
     },
     {
         "id": 658,
@@ -7893,7 +7893,7 @@ var data = [
         "compound": "雪",
         "compound_pinyin": "xuě",
         "compound_cantonese": "syut3",
-        "compound_definition\r": "snow; (literary) to wipe away (a humiliation etc); (Chinese surname)\r"
+        "compound_definition": "snow; (literary) to wipe away (a humiliation etc); (Chinese surname)"
     },
     {
         "id": 659,
@@ -7905,7 +7905,7 @@ var data = [
         "compound": "温度已经降到零下十度了，太冷了！",
         "compound_pinyin": "Wēndù yǐjīng jiàng dào líng xià shí dù le",
         "compound_cantonese": " tài lěng le!",
-        "compound_definition\r": "ling4"
+        "compound_definition": "ling4"
     },
     {
         "id": 660,
@@ -7917,7 +7917,7 @@ var data = [
         "compound": "我们的目标是实现一个非常有创意的项目。",
         "compound_pinyin": "Wǒmen de mùbiāo shì shíxiàn yī gè fēicháng yǒu chuàngyì de xiàngmù.",
         "compound_cantonese": "fei1",
-        "compound_definition\r": "Our goal is to create a very creative project.\r"
+        "compound_definition": "Our goal is to create a very creative project."
     },
     {
         "id": 661,
@@ -7929,7 +7929,7 @@ var data = [
         "compound": "他非常喜欢这本书，每天都在读。",
         "compound_pinyin": "Tā fēicháng xǐhuān zhè běn shū",
         "compound_cantonese": " měitiān dōu zài dú.",
-        "compound_definition\r": "fei1 coeng4"
+        "compound_definition": "fei1 coeng4"
     },
     {
         "id": 662,
@@ -7941,7 +7941,7 @@ var data = [
         "compound": "这个汤里有面条和蔬菜，很美味。",
         "compound_pinyin": "Zhège tāng lǐ yǒu miàntiáo hé shūcài",
         "compound_cantonese": " hěn měiwèi.",
-        "compound_definition\r": "min6"
+        "compound_definition": "min6"
     },
     {
         "id": 663,
@@ -7953,7 +7953,7 @@ var data = [
         "compound": "早餐时，我通常吃面包和果酱。",
         "compound_pinyin": "Zǎocān shí",
         "compound_cantonese": " wǒ tōngcháng chī miànbāo hé guǒjiàng.",
-        "compound_definition\r": "min6 baau1"
+        "compound_definition": "min6 baau1"
     },
     {
         "id": 664,
@@ -7965,7 +7965,7 @@ var data = [
         "compound": "面条",
         "compound_pinyin": "miàntiáo",
         "compound_cantonese": "min6tiu5",
-        "compound_definition\r": "noodles\r"
+        "compound_definition": "noodles"
     },
     {
         "id": 665,
@@ -7977,7 +7977,7 @@ var data = [
         "compound": "中午，我喜欢吃一碗热腾腾的面条儿。",
         "compound_pinyin": "Zhōngwǔ",
         "compound_cantonese": " wǒ xǐhuān chī yī wǎn rètēngtēng de miàntiáor.",
-        "compound_definition\r": "min6 tiu4"
+        "compound_definition": "min6 tiu4"
     },
     {
         "id": 666,
@@ -7989,7 +7989,7 @@ var data = [
         "compound": "这本书有一千多页，我还没读完。",
         "compound_pinyin": "Zhè běn shū yǒu yīqiān duō yè",
         "compound_cantonese": " wǒ hái méi dú wán.",
-        "compound_definition\r": "jip6"
+        "compound_definition": "jip6"
     },
     {
         "id": 667,
@@ -8001,7 +8001,7 @@ var data = [
         "compound": "题",
         "compound_pinyin": "tí",
         "compound_cantonese": "tai4",
-        "compound_definition\r": "topic; problem for discussion; exam question; subject; to inscribe; to mention; (Chinese surname)\r"
+        "compound_definition": "topic; problem for discussion; exam question; subject; to inscribe; to mention; (Chinese surname)"
     },
     {
         "id": 668,
@@ -8013,7 +8013,7 @@ var data = [
         "compound": "颜色",
         "compound_pinyin": "yánsè",
         "compound_cantonese": "ngaan4sik1",
-        "compound_definition\r": "color; countenance; appearance; facial expression; pigment; dyestuff\r"
+        "compound_definition": "color; countenance; appearance; facial expression; pigment; dyestuff"
     },
     {
         "id": 669,
@@ -8025,7 +8025,7 @@ var data = [
         "compound": "在海边感受海风是一种令人宁静的体验。",
         "compound_pinyin": "Zài hǎibiān gǎnshòu hǎifēng shì yī zhǒng lìng rén níngjìng de tǐyàn.",
         "compound_cantonese": "fung1",
-        "compound_definition\r": "Feeling the sea breeze by the beach is a tranquil experience.\r"
+        "compound_definition": "Feeling the sea breeze by the beach is a tranquil experience."
     },
     {
         "id": 670,
@@ -8037,7 +8037,7 @@ var data = [
         "compound": "鸟儿可以自由自在地飞翔在天空中。",
         "compound_pinyin": "Niǎor kěyǐ zìyóu zìzài de fēixiáng zài tiānkōng zhōng.",
         "compound_cantonese": "fei1",
-        "compound_definition\r": "Birds can fly freely in the sky.\r"
+        "compound_definition": "Birds can fly freely in the sky."
     },
     {
         "id": 671,
@@ -8049,7 +8049,7 @@ var data = [
         "compound": "我们的飞机将在下午三点起飞。",
         "compound_pinyin": "Wǒmen de fēijī jiāng zài xiàwǔ sān diǎn qǐfēi.",
         "compound_cantonese": "fei1 gei1",
-        "compound_definition\r": "Our plane will take off at 3:00 PM.\r"
+        "compound_definition": "Our plane will take off at 3:00 PM."
     },
     {
         "id": 672,
@@ -8061,7 +8061,7 @@ var data = [
         "compound": "妈妈做的饭最好吃了，我每天都期待晚餐。",
         "compound_pinyin": "Māmā zuò de fàn zuì hào chī le",
         "compound_cantonese": " wǒ měitiān dōu qídài wǎncān.",
-        "compound_definition\r": "faan6"
+        "compound_definition": "faan6"
     },
     {
         "id": 673,
@@ -8073,7 +8073,7 @@ var data = [
         "compound": "我们在这个城市的饭店订了一间房间。",
         "compound_pinyin": "Wǒmen zài zhège chéngshì de fàndiàn dìng le yī jiān fángjiān.",
         "compound_cantonese": "faan6 dim3",
-        "compound_definition\r": "We booked a room at the hotel in this city.\r"
+        "compound_definition": "We booked a room at the hotel in this city."
     },
     {
         "id": 674,
@@ -8085,7 +8085,7 @@ var data = [
         "compound": "我太饿了，我需要吃午餐。",
         "compound_pinyin": "Wǒ tài è le",
         "compound_cantonese": " wǒ xūyào chī wǔcān.",
-        "compound_definition\r": "ng6"
+        "compound_definition": "ng6"
     },
     {
         "id": 675,
@@ -8097,7 +8097,7 @@ var data = [
         "compound": "这个博物馆展示了世界各地的艺术品和历史文物。",
         "compound_pinyin": "Zhège bówùguǎn zhǎnshì le shìjiè gèdì de yìshùpǐn hé lìshǐ wénwù.",
         "compound_cantonese": "gun2",
-        "compound_definition\r": "This museum displays artworks and historical artifacts from around the world.\r"
+        "compound_definition": "This museum displays artworks and historical artifacts from around the world."
     },
     {
         "id": 676,
@@ -8109,7 +8109,7 @@ var data = [
         "compound": "马是一种优雅的动物，可以用来骑行或工作。",
         "compound_pinyin": "Mǎ shì yī zhǒng yōuyǎ de dòngwù",
         "compound_cantonese": " kěyǐ yòng lái qíxíng huò gōngzuò.",
-        "compound_definition\r": "maa5"
+        "compound_definition": "maa5"
     },
     {
         "id": 677,
@@ -8121,7 +8121,7 @@ var data = [
         "compound": "我们必须马上出发，否则会迟到。",
         "compound_pinyin": "Wǒmen bìxū mǎshàng chūfā",
         "compound_cantonese": " fǒu zé huì chídào.",
-        "compound_definition\r": "maa5 soeng6"
+        "compound_definition": "maa5 soeng6"
     },
     {
         "id": 678,
@@ -8133,7 +8133,7 @@ var data = [
         "compound": "这条马路上的交通总是很拥堵。",
         "compound_pinyin": "Zhè tiáo mǎlù shàng de jiāotōng zǒng shì hěn yōngdǔ.",
         "compound_cantonese": "maa5 lou6",
-        "compound_definition\r": "The traffic on this road is always congested.\r"
+        "compound_definition": "The traffic on this road is always congested."
     },
     {
         "id": 679,
@@ -8145,7 +8145,7 @@ var data = [
         "compound": "这座山非常高，徒步旅行者需要花很多时间才能登上山顶。",
         "compound_pinyin": "Zhè zuò shān fēicháng gāo",
         "compound_cantonese": " túbù lǚxíngzhě xūyào huā hěnduō shíjiān cáinéng dēng shàng shāndǐng.",
-        "compound_definition\r": "gou1"
+        "compound_definition": "gou1"
     },
     {
         "id": 680,
@@ -8157,7 +8157,7 @@ var data = [
         "compound": "我听到这个好消息感到非常高兴。",
         "compound_pinyin": "Wǒ tīngdào zhège hǎo xiāoxī gǎndào fēicháng gāoxìng.",
         "compound_cantonese": "gou1 hing1",
-        "compound_definition\r": "I'm very happy to hear this good news.\r"
+        "compound_definition": "I'm very happy to hear this good news."
     },
     {
         "id": 681,
@@ -8169,7 +8169,7 @@ var data = [
         "compound": "鱼",
         "compound_pinyin": "yú",
         "compound_cantonese": "jyu2",
-        "compound_definition\r": "fish; (Chinese surname)\r"
+        "compound_definition": "fish; (Chinese surname)"
     },
     {
         "id": 682,
@@ -8181,7 +8181,7 @@ var data = [
         "compound": "我们家养了一只鸡，每天都能吃到新鲜的鸡蛋。",
         "compound_pinyin": "Wǒmen jiā yǎng le yī zhī jī",
         "compound_cantonese": " měitiān dōu néng chī dào xīnfresh de jīdàn.",
-        "compound_definition\r": "gai1"
+        "compound_definition": "gai1"
     },
     {
         "id": 683,
@@ -8193,7 +8193,7 @@ var data = [
         "compound": "鸡蛋是早餐的主食之一，你想要煮熟的还是荷包蛋？",
         "compound_pinyin": "Jīdàn shì zǎocān de zhǔshí zhī yī",
         "compound_cantonese": " nǐ xiǎng yào zhǔ shú de háishì hébāo dàn?",
-        "compound_definition\r": "gai1 daan6"
+        "compound_definition": "gai1 daan6"
     },
     {
         "id": 684,
@@ -8205,6 +8205,6 @@ var data = [
         "compound": "黑",
         "compound_pinyin": "hēi",
         "compound_cantonese": "hak1",
-        "compound_definition\r": "black; dark; sinister; secret; shady; illegal; to hide (something) away; to vilify; (loanword) to hack (computing); abbr. for Heilongjiang province 黑龙江"
+        "compound_definition": "black; dark; sinister; secret; shady; illegal; to hide (something) away; to vilify; (loanword) to hack (computing); abbr. for Heilongjiang province 黑龙江"
     }
 ];
