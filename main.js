@@ -91,12 +91,17 @@ function initializeData() {
 
         if (isSentenceMode) {
             if (value.character != value.compound) {
-                const sentenceKey = (value.character.length <= 1? value.character : value.character_pinyin).toLowerCase();
-                _sentencedData[sentenceKey] = {
-                    compound : value.compound,
-                    compound_pinyin : value.compound_pinyin,
-                    compound_definition : value.compound_definition
-                };
+                for (var i = 0; i < value.character.length; i++) {
+                    const charAt = value.character[i];
+                    if (!_sentencedData[charAt]) {
+                        _sentencedData[charAt] = {};
+                    }
+                    _sentencedData[charAt][value.character] = {
+                        compound : value.compound,
+                        compound_pinyin : value.compound_pinyin,
+                        compound_definition : value.compound_definition
+                    };
+                }
             }
         }
     });
@@ -157,9 +162,10 @@ function initializeData() {
 }
 
 const convertMandarinToKanji = function(mandarin, map) {
+    const titleValue = isSentenceMode ? mandarin.hsk_level : "HSK.v3=" + mandarin.hsk_level;
     const kanji = {
         index : mandarin.id,
-        stars : "HSK.v3=" + mandarin.hsk_level,
+        stars : mandarin.hsk_level,
         kanji : mandarin.character,
         onyomi : mandarin.eng,
         kunyomiList : [
@@ -383,6 +389,13 @@ function shuffle(array) {
 
 function init() {
     console.log("it's starting!");
+
+    if (isSentenceMode) {
+        document.querySelector("#_currentKanji").classList.remove("kanji");
+        document.querySelector("#_currentKanji").classList.add("kanjiSentence");
+        document.querySelector("#_currentCompound").classList.remove("currentCompound");
+        document.querySelector("#_currentCompound").classList.add("currentSentenceDefinition");
+    }
     
     initializeData();
     setupSelectionTable();
@@ -449,24 +462,23 @@ class BaseBoard {
                 const startAmount = Object.keys(_sentencedData).length;
                 const keys = Object.keys(_sentencedData);
                 const randomKey = keys[Math.floor(Math.random() * keys.length)];
-                const sentenceToUse = _sentencedData[randomKey];
+                const charToUseMap = _sentencedData[randomKey];
+                const charToUseKeys = Object.keys(charToUseMap);
+                const randomChar = charToUseKeys[Math.floor(Math.random() * charToUseKeys.length)];
+                const sentenceToUse = charToUseMap[randomChar];
                 delete _sentencedData[randomKey];
                 for (let i = 0; i < sentenceToUse.compound.length; i++) {
                     delete _sentencedData[sentenceToUse.compound[i]];
                 }
-                const strippedSentence = (sentenceToUse.compound_pinyin.replace(punctuation, "")).toLowerCase();
-                strippedSentence.split(" ").forEach((pinyin) => {
-                    delete _sentencedData[pinyin];
-                });
                 newLangData.push({
                     character: sentenceToUse.compound,
-                    character_pinyin: "",
+                    character_pinyin: sentenceToUse.compound_pinyin,
                     eng: "",
-                    compound : "",
+                    compound : sentenceToUse.compound_definition,
                     compound_cantonese : "",
-                    compound_definition: sentenceToUse.compound_definition,
-                    compound_pinyin: sentenceToUse.compound_pinyin,
-                    hsk_level: 1,
+                    compound_definition: "",
+                    compound_pinyin: "",
+                    hsk_level: "(" + randomChar + ")",
                     id: index,
                     part_of_speech: "sentence"
                 });

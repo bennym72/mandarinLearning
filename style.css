@@ -146,6 +146,16 @@ button {
   text-align: center;
 }
 
+.kanjiSentence {
+  top: 20vh;
+  width:96vw;
+  position:absolute;
+  font-size:5.5vh;
+  color: #ffffff;
+  align-content: center;
+  text-align: center;
+}
+
 .cantonese {
   top: 38.5vh;
   position:absolute;
@@ -171,6 +181,16 @@ button {
 
 .currentCompound {
   top: 48vh;
+  width:99vw;
+  position:absolute;
+  font-size:3.5vh;
+  color: #ffffff;
+  align-content: center;
+  text-align: center;
+}
+
+.currentSentenceDefinition {
+  top: 52vh;
   width:99vw;
   position:absolute;
   font-size:3.5vh;
