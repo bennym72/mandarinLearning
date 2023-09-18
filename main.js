@@ -18,6 +18,22 @@
 */
 const _groupedData = {};
 const _groupedDataBy10 = {};
+
+/**
+ * Idea behind the sentenced data:
+ * 
+ * key = {char or pinyin if char.length > 1}
+ * 
+ * {
+ *      key : sentence
+ * }
+ * 
+ * const randomElement = array[Math.floor(Math.random() * array.length)];
+ * getRandomSentence(Object.keys(_sentencedData)_
+ * 
+ * When the sentence is displayed, iterate over the chars and the pinyin and delete the keys from _sentencedData. 
+ */
+const _sentencedData = {};
 var _initialTableData = [];
 // params
 var _selectionTable;
@@ -73,6 +89,17 @@ function initializeData() {
             _groupedData[value.hsk_level][value.part_of_speech] = [];
         }
         _groupedData[value.hsk_level][value.part_of_speech].push(value);
+
+        if (isSentenceMode) {
+            if (value.character != value.compound) {
+                const sentenceKey = (value.character.length <= 1? value.character : value.character_pinyin).toLowerCase();
+                _sentencedData[sentenceKey] = {
+                    compound : value.compound,
+                    compound_pinyin : value.compound_pinyin,
+                    compound_definition : value.compound_definition
+                };
+            }
+        }
     });
 
     function partOfSpeechString(partOfSpeech, counter) {
@@ -170,6 +197,7 @@ const currentSessionId = params.get("sessionId");
 const showPinyin = params.get("showPinyin") == "true";
 const numRows = Number.parseInt(params.get("numRows")) || 0;
 const isJukugoTime = params.get("jukugo") === "true";
+const isSentenceMode = params.get("mode") == "sentence";
 
 class KanjiState {
     constructor () {
@@ -407,13 +435,44 @@ class BaseBoard {
     }
     
     onStart(){
-        const checkedBoxes = Array.prototype.slice.call(document.querySelectorAll('input[type=checkbox]:checked'));
         var newLangData = [];
-        checkedBoxes.forEach(checkedBox => {
-            const selectedHskLevel = checkedBox.parentElement.parentElement.querySelector(".hsk").innerText;
-            const selectedPartOfSpeech = checkedBox.parentElement.parentElement.querySelector(".part_of_speech").innerText;
-            newLangData = newLangData.concat(_groupedDataBy10[selectedHskLevel][selectedPartOfSpeech]);
-        })
+        if (!isSentenceMode) {
+            const checkedBoxes = Array.prototype.slice.call(document.querySelectorAll('input[type=checkbox]:checked'));
+            checkedBoxes.forEach(checkedBox => {
+                const selectedHskLevel = checkedBox.parentElement.parentElement.querySelector(".hsk").innerText;
+                const selectedPartOfSpeech = checkedBox.parentElement.parentElement.querySelector(".part_of_speech").innerText;
+                newLangData = newLangData.concat(_groupedDataBy10[selectedHskLevel][selectedPartOfSpeech]);
+            })
+        } else {
+            var punctuation = /[\.,?!;]/g;
+            var index = 0;
+            while (Object.keys(_sentencedData).length > 0) {
+                const keys = Object.keys(_sentencedData);
+                const randomKey = keys[Math.floor(Math.random() * keys.length)];
+                const sentenceToUse = _sentencedData[randomKey];
+                delete _sentencedData[randomKey];
+                for (let i = 0; i < sentenceToUse.compound.length; i++) {
+                    delete _sentencedData[sentenceToUse.compound[i]];
+                }
+                const strippedSentence = (sentenceToUse.compound_pinyin.replace(punctuation, "")).toLowerCase();
+                strippedSentence.split(" ").forEach((pinyin) => {
+                    delete _sentencedData[pinyin];
+                });
+                newLangData.push({
+                    character: sentenceToUse.compound,
+                    character_pinyin: "",
+                    eng: "",
+                    compound : "",
+                    compound_cantonese : "",
+                    compound_definition: sentenceToUse.compound_definition,
+                    compound_pinyin: sentenceToUse.compound_pinyin,
+                    hsk_level: 1,
+                    id: index,
+                    part_of_speech: "sentence"
+                });
+                index++;
+            }
+        }
         langDataToUse = {};
         newLangData.forEach((mandarinChar) => {
             convertMandarinToKanji(mandarinChar, langDataToUse);
