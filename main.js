@@ -56,7 +56,6 @@ function setupSelectionTable() {
         selectionCell.appendChild(checkbox);
         selectionCell.classList.add("checkbox");
         selectionCell.setAttribute("id", rowId);
-        console.log(selection);
         selectionCell.classList.add(hskLevelString + selection.hsk_level);
 
         const hskLevelCell = newRow.insertCell();
@@ -447,6 +446,7 @@ class BaseBoard {
             var punctuation = /[\.,?!;]/g;
             var index = 0;
             while (Object.keys(_sentencedData).length > 0) {
+                const startAmount = Object.keys(_sentencedData).length;
                 const keys = Object.keys(_sentencedData);
                 const randomKey = keys[Math.floor(Math.random() * keys.length)];
                 const sentenceToUse = _sentencedData[randomKey];
@@ -470,6 +470,8 @@ class BaseBoard {
                     id: index,
                     part_of_speech: "sentence"
                 });
+                const endAmount = Object.keys(_sentencedData).length;
+                console.log(sentenceToUse + " Start amount: " + startAmount + "; End amount: " + endAmount);
                 index++;
             }
         }
