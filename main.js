@@ -395,6 +395,8 @@ function init() {
         document.querySelector("#_currentKanji").classList.add("kanjiSentence");
         document.querySelector("#_currentCompound").classList.remove("currentCompound");
         document.querySelector("#_currentCompound").classList.add("currentSentenceDefinition");
+        document.querySelector("#_currentEng").classList.remove("pinyin");
+        document.querySelector("#_currentEng").classList.add("pinyinSentence");
     }
     
     initializeData();

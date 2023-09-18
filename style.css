@@ -150,7 +150,7 @@ button {
   top: 20vh;
   width:96vw;
   position:absolute;
-  font-size:5.5vh;
+  font-size:5vh;
   color: #ffffff;
   align-content: center;
   text-align: center;
@@ -179,6 +179,15 @@ button {
   text-align: center;
 }
 
+.pinyinSentence {
+  top: 41vh;
+  width:96vw;
+  font-size:3vh;
+  position:absolute;
+  color: #d66b6b;
+  text-align: center;
+}
+
 .currentCompound {
   top: 48vh;
   width:99vw;
@@ -190,10 +199,10 @@ button {
 }
 
 .currentSentenceDefinition {
-  top: 52vh;
-  width:99vw;
+  top: 53vh;
+  width:96vw;
   position:absolute;
-  font-size:3.5vh;
+  font-size:3vh;
   color: #ffffff;
   align-content: center;
   text-align: center;
