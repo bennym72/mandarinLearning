@@ -80,6 +80,8 @@ function setupSelectionTable() {
 // pragma mark - init functions
 
 function initializeData() {
+    const charMap = {};
+    const charsToExclude = {};
     data.forEach((value) => {
         if (!_groupedData[value.hsk_level]) {
             _groupedData[value.hsk_level] = {};
@@ -90,7 +92,10 @@ function initializeData() {
         _groupedData[value.hsk_level][value.part_of_speech].push(value);
 
         if (isSentenceMode) {
-            if (value.character != value.compound) {
+            if (value.character.length == 1) {
+                charMap[value.character] = value;
+            }
+            if (value.character != value.compound && value.valid_sentence == "TRUE") {
                 for (var i = 0; i < value.character.length; i++) {
                     const charAt = value.character[i];
                     if (!_sentencedData[charAt]) {
@@ -101,10 +106,57 @@ function initializeData() {
                         compound_pinyin : value.compound_pinyin,
                         compound_definition : value.compound_definition
                     };
+                    delete charMap[charAt];
                 }
             }
         }
     });
+    console.log("Num chars excluded: " + Object.keys(charMap).length);
+
+    Object.keys(charMap).forEach((charMapKey) => {
+        const value = charMap[charMapKey];
+        _sentencedData[charMapKey] = {};
+        _sentencedData[charMapKey][charMapKey] = {
+            compound : value.character,
+            compound_pinyin : value.character_pinyin,
+            compound_definition : value.eng
+        }
+    });
+
+    if (isSentenceMode) {
+        // code for checking excluded characters
+        const sentenceCheck = [];
+        const charsToIgnore = [
+            "。",
+            "，",
+            "?",
+            "!",
+            "！",
+            "？"
+        ];
+        data.forEach((value, index) => {
+            const character = value.character;
+            const sentenceForCharacter = value.compound;
+            var excludedChars = "";
+            for (var i = 0; i < sentenceForCharacter.length; i++) {
+                const charAt = sentenceForCharacter[i];
+                if (charsToIgnore.indexOf(charAt) > -1) {
+                    continue;
+                }
+                if (!charMap[charAt]) {
+                    charsToExclude[charAt] = true;
+                    excludedChars = excludedChars + charAt;
+                }
+            }
+            const isValid = value.compound.length > value.character.length &&  excludedChars.length == 0;
+            sentenceCheck.push((index + 1) + ";" + character + ";" + isValid + ";" + sentenceForCharacter + ";" + excludedChars);
+        }); 
+        // console.log(JSON.stringify(sentenceCheck, null, 4));
+        // window.individualCharMap = charMap;
+        // window.individualCharsToExclude = charsToExclude;
+        // console.log(Object.keys(charMap));
+        // console.log(Object.keys(charsToExclude));
+    }
 
     function partOfSpeechString(partOfSpeech, counter) {
         if (counter < 10) {
