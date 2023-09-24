@@ -106,7 +106,7 @@ function initializeData() {
                         compound_pinyin : value.compound_pinyin,
                         compound_definition : value.compound_definition
                     };
-                    // delete charMap[charAt];
+                    delete charMap[charAt];
                 }
             }
         }
