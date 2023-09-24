@@ -106,7 +106,7 @@ function initializeData() {
                         compound_pinyin : value.compound_pinyin,
                         compound_definition : value.compound_definition
                     };
-                    delete charMap[charAt];
+                    // delete charMap[charAt];
                 }
             }
         }
@@ -151,11 +151,11 @@ function initializeData() {
             const isValid = value.compound.length > value.character.length &&  excludedChars.length == 0;
             sentenceCheck.push((index + 1) + ";" + character + ";" + isValid + ";" + sentenceForCharacter + ";" + excludedChars);
         }); 
-        // console.log(JSON.stringify(sentenceCheck, null, 4));
-        // window.individualCharMap = charMap;
-        // window.individualCharsToExclude = charsToExclude;
-        // console.log(Object.keys(charMap));
-        // console.log(Object.keys(charsToExclude));
+        console.log(JSON.stringify(sentenceCheck, null, 4));
+        window.individualCharMap = charMap;
+        window.individualCharsToExclude = charsToExclude;
+        console.log(Object.keys(charMap));
+        console.log(Object.keys(charsToExclude));
     }
 
     function partOfSpeechString(partOfSpeech, counter) {
