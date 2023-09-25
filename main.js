@@ -82,6 +82,8 @@ function setupSelectionTable() {
 function initializeData() {
     const charMap = {};
     const charsToExclude = {};
+
+    const anyChar = {};
     data.forEach((value) => {
         if (!_groupedData[value.hsk_level]) {
             _groupedData[value.hsk_level] = {};
@@ -90,6 +92,11 @@ function initializeData() {
             _groupedData[value.hsk_level][value.part_of_speech] = [];
         }
         _groupedData[value.hsk_level][value.part_of_speech].push(value);
+
+        for (var j = 0; j < value.character.length; j++) {
+            const charAt = value.character[j];
+            anyChar[charAt] = true;
+        }
 
         if (isSentenceMode) {
             if (value.character.length == 1) {
@@ -143,7 +150,7 @@ function initializeData() {
                 if (charsToIgnore.indexOf(charAt) > -1) {
                     continue;
                 }
-                if (!charMap[charAt]) {
+                if (!anyChar[charAt]) {
                     charsToExclude[charAt] = true;
                     excludedChars = excludedChars + charAt;
                 }
