@@ -99,6 +99,14 @@ button {
   visibility: hidden;
 }
 
+.sentenceToChar {
+  position: absolute;
+  top: 2vh;
+  width: 80vw;
+  color: #ffffff;
+  text-align: center;
+}
+
 .overallCounter {
     position: absolute;
     top: 2vh;

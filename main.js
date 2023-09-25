@@ -39,6 +39,9 @@ var _initialTableData = [];
 var _selectionTable;
 
 var langDataToUse = {}; //newLangData;
+const charMap = {};
+const charsToExclude = {};
+const anyChar = {};
 
 const hskLevelString = "hsk_level_";
 
@@ -80,10 +83,6 @@ function setupSelectionTable() {
 // pragma mark - init functions
 
 function initializeData() {
-    const charMap = {};
-    const charsToExclude = {};
-
-    const anyChar = {};
     data.forEach((value) => {
         if (!_groupedData[value.hsk_level]) {
             _groupedData[value.hsk_level] = {};
@@ -120,16 +119,6 @@ function initializeData() {
     });
     console.log("Num chars excluded: " + Object.keys(charMap).length);
 
-    Object.keys(charMap).forEach((charMapKey) => {
-        const value = charMap[charMapKey];
-        _sentencedData[charMapKey] = {};
-        _sentencedData[charMapKey][charMapKey] = {
-            compound : value.character,
-            compound_pinyin : value.character_pinyin,
-            compound_definition : value.eng
-        }
-    });
-
     if (isSentenceMode) {
         // code for checking excluded characters
         const sentenceCheck = [];
@@ -159,9 +148,7 @@ function initializeData() {
             sentenceCheck.push((index + 1) + ";" + character + ";" + isValid + ";" + sentenceForCharacter + ";" + excludedChars);
         }); 
         console.log(JSON.stringify(sentenceCheck, null, 4));
-        window.individualCharMap = charMap;
         window.individualCharsToExclude = charsToExclude;
-        console.log(Object.keys(charMap));
         console.log(Object.keys(charsToExclude));
     }
 
@@ -517,7 +504,6 @@ class BaseBoard {
                 newLangData = newLangData.concat(_groupedDataBy10[selectedHskLevel][selectedPartOfSpeech]);
             })
         } else {
-            var punctuation = /[\.,?!;]/g;
             var index = 0;
             while (Object.keys(_sentencedData).length > 0) {
                 const startAmount = Object.keys(_sentencedData).length;
@@ -529,7 +515,9 @@ class BaseBoard {
                 const sentenceToUse = charToUseMap[randomChar];
                 delete _sentencedData[randomKey];
                 for (let i = 0; i < sentenceToUse.compound.length; i++) {
-                    delete _sentencedData[sentenceToUse.compound[i]];
+                    const charThatWillShow = sentenceToUse.compound[i];
+                    delete charMap[charThatWillShow];
+                    delete _sentencedData[charThatWillShow];
                 }
                 newLangData.push({
                     character: sentenceToUse.compound,
@@ -547,6 +535,14 @@ class BaseBoard {
                 console.log(sentenceToUse + " Start amount: " + startAmount + "; End amount: " + endAmount);
                 index++;
             }
+            Object.keys(charMap).forEach((charMapKey) => {
+                const value = charMap[charMapKey];
+                newLangData.push(value);
+            });
+            window.individualCharMap = charMap;
+            console.log(Object.keys(charMap));
+
+            document.querySelector("#_sentenceToChar").innerText = "# sentences: " + index + "; # characters: " + Object.keys(charMap).length;
         }
         langDataToUse = {};
         newLangData.forEach((mandarinChar) => {
