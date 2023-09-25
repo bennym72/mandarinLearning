@@ -2009,10 +2009,10 @@ var data = [
         "hsk_level": 2,
         "part_of_speech": "numeral",
         "compound_cantonese": "cin1",
-        "compound": "千",
-        "compound_pinyin": "qiān",
-        "compound_definition": "thousand",
-        "valid_sentence": "FALSE",
+        "compound": "请在一页上写一千字",
+        "compound_pinyin": "Qǐng zài yī yè shàng xiě yī qiān zì",
+        "compound_definition": "Please write one thousand words on a page.",
+        "valid_sentence": "TRUE",
         "counter (698)\r": "\r"
     },
     {
@@ -2107,10 +2107,10 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound_cantonese": "naam4",
-        "compound": "南边的海滩很美丽。",
-        "compound_pinyin": "Nánbiān de hǎitān hěn měilì.",
-        "compound_definition": "The beach on the south side is very beautiful.",
-        "valid_sentence": "FALSE",
+        "compound": "我的房间在南边",
+        "compound_pinyin": "Wǒ de fángjiān zài nánbiān",
+        "compound_definition": "My room is on the south side.",
+        "valid_sentence": "TRUE",
         "counter (698)\r": "\r"
     },
     {
@@ -2191,10 +2191,10 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "verb",
         "compound_cantonese": "giu3",
-        "compound": "请叫我一声老师。",
-        "compound_pinyin": "Qǐng jiào wǒ yīshēng lǎoshī.",
-        "compound_definition": "Please call me Teacher.",
-        "valid_sentence": "FALSE",
+        "compound": "你怎么叫？",
+        "compound_pinyin": "Nǐ zěnme jià?",
+        "compound_definition": "What's your name?",
+        "valid_sentence": "TRUE",
         "counter (698)\r": "\r"
     },
     {
@@ -2247,10 +2247,10 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "adjective",
         "compound_cantonese": "jau6",
-        "compound": "右手举起来。",
-        "compound_pinyin": "Yòushǒu jǔ qǐlái.",
-        "compound_definition": "Raise your right hand.",
-        "valid_sentence": "FALSE",
+        "compound": "请走在路的右边",
+        "compound_pinyin": "Qǐng zǒu zài lù de yòu biān",
+        "compound_definition": "Please walk on the right side of the road.",
+        "valid_sentence": "TRUE",
         "counter (698)\r": "\r"
     },
     {
@@ -2471,10 +2471,10 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "verb",
         "compound_cantonese": "teng1",
-        "compound": "我喜欢听音乐。",
-        "compound_pinyin": "Wǒ xǐhuān tīng yīnyuè.",
-        "compound_definition": "I like to listen to music.",
-        "valid_sentence": "FALSE",
+        "compound": "你听到了什么？",
+        "compound_pinyin": "Nǐ tīng dào le shénme?",
+        "compound_definition": "What did you hear?",
+        "valid_sentence": "TRUE",
         "counter (698)\r": "\r"
     },
     {
@@ -2527,10 +2527,10 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "verb",
         "compound_cantonese": "gou3",
-        "compound": "他告诉我一个秘密。",
-        "compound_pinyin": "Tā gàosù wǒ yīgè mìmì.",
-        "compound_definition": "He told me a secret.",
-        "valid_sentence": "FALSE",
+        "compound": "他告诉我明天会下雨",
+        "compound_pinyin": "Tā gàosu wǒ míngtiān huì xiàyǔ.",
+        "compound_definition": "He told me it will rain tomorrow.",
+        "valid_sentence": "TRUE",
         "counter (698)\r": "\r"
     },
     {
@@ -2765,10 +2765,10 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "interjection",
         "compound_cantonese": "wai3",
-        "compound": "喂",
-        "compound_pinyin": "wèi",
-        "compound_definition": "hey; to feed (an animal; baby; invalid etc)",
-        "valid_sentence": "FALSE",
+        "compound": "喂，你好吗？",
+        "compound_pinyin": "Wéi, nǐ hǎo ma?",
+        "compound_definition": "Hello, how are you?",
+        "valid_sentence": "TRUE",
         "counter (698)\r": "\r"
     },
     {
@@ -2821,10 +2821,10 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "number",
         "compound_cantonese": "sei3",
-        "compound": "四季分明是春夏秋冬。",
-        "compound_pinyin": "Sìjì fēnmíng shì chūnxiàqiūdōng.",
-        "compound_definition": "The four seasons are spring; summer; autumn; and winter.",
-        "valid_sentence": "FALSE",
+        "compound": "我女儿生日时就要四岁了。",
+        "compound_pinyin": "Wǒ nǚ'ér shēngrì shí jiù yào sì suìle.",
+        "compound_definition": "My daughter will be four years old on her birthday.",
+        "valid_sentence": "TRUE",
         "counter (698)\r": "\r"
     },
     {
@@ -3367,10 +3367,10 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "adverb",
         "compound_cantonese": "taai3",
-        "compound": "太阳很大今天。",
-        "compound_pinyin": "Tàiyáng hěn dà jīntiān.",
-        "compound_definition": "The sun is very big today.",
-        "valid_sentence": "FALSE",
+        "compound": "这个鸡蛋太好吃了！",
+        "compound_pinyin": "Zhège jīdàn tài hào chīle!",
+        "compound_definition": "This egg is so delicious!",
+        "valid_sentence": "TRUE",
         "counter (698)\r": "\r"
     },
     {
@@ -3703,10 +3703,10 @@ var data = [
         "hsk_level": 2,
         "part_of_speech": "noun",
         "compound_cantonese": "sing3",
-        "compound": "姓",
-        "compound_pinyin": "xìng",
-        "compound_definition": "family name; surname; to be surnamed",
-        "valid_sentence": "FALSE",
+        "compound": "你姓什么？",
+        "compound_pinyin": "Nǐ xìng shénme?",
+        "compound_definition": "What is your last name?",
+        "valid_sentence": "TRUE",
         "counter (698)\r": "\r"
     },
     {
@@ -3843,10 +3843,10 @@ var data = [
         "hsk_level": 2,
         "part_of_speech": "pronoun",
         "compound_cantonese": "taa1",
-        "compound": "它",
-        "compound_pinyin": "tā",
-        "compound_definition": "it (for inanimate objects)",
-        "valid_sentence": "FALSE",
+        "compound": "它是一个可爱的猫。",
+        "compound_pinyin": "Tā shì yīge kě'ài de māo.",
+        "compound_definition": "It is a cute cat.",
+        "valid_sentence": "TRUE",
         "counter (698)\r": "\r"
     },
     {
@@ -3857,10 +3857,10 @@ var data = [
         "hsk_level": 2,
         "part_of_speech": "adjective",
         "compound_cantonese": "jyun4",
-        "compound": "完",
-        "compound_pinyin": "wán",
-        "compound_definition": "to finish; to be over; whole; complete; entire",
-        "valid_sentence": "FALSE",
+        "compound": "这本书已经读完了吗？",
+        "compound_pinyin": "Zhè běn shū yǐjīng dú wán le ma?",
+        "compound_definition": "Have you finished reading this book?",
+        "valid_sentence": "TRUE",
         "counter (698)\r": "\r"
     },
     {
@@ -3885,10 +3885,10 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound_cantonese": "haak6",
-        "compound": "这位客人需要帮助。",
-        "compound_pinyin": "Zhè wèi kèrén xūyào bāngzhù.",
-        "compound_definition": "This guest needs assistance.",
-        "valid_sentence": "FALSE",
+        "compound": "你的衣服店有多少客人？",
+        "compound_pinyin": "Nǐ de yīfu diàn yǒu duōshǎo kèrén?",
+        "compound_definition": "How many guests are in your clothing store?",
+        "valid_sentence": "TRUE",
         "counter (698)\r": "\r"
     },
     {
@@ -4123,10 +4123,10 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound_cantonese": "saan1",
-        "compound": "那座山很高。",
-        "compound_pinyin": "Nà zuò shān hěn gāo.",
-        "compound_definition": "That mountain is very tall.",
-        "valid_sentence": "FALSE",
+        "compound": "我在山上工作。",
+        "compound_pinyin": "Wǒ zài shān shàng gōngzuò.",
+        "compound_definition": "I work on the mountain.",
+        "valid_sentence": "TRUE",
         "counter (698)\r": "\r"
     },
     {
@@ -4221,10 +4221,10 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound_cantonese": "caa1",
-        "compound": "这份文件还差几页没有完成。",
-        "compound_pinyin": "Zhè fèn wénjiàn hái chà jǐ yè méiyǒu wánchéng.",
-        "compound_definition": "This document is still missing a few pages to complete.",
-        "valid_sentence": "FALSE",
+        "compound": "这边和那边没有差别。",
+        "compound_pinyin": "Zhè biān hé nà biān méiyǒu chābié.",
+        "compound_definition": "There is no difference between this side and that side.",
+        "valid_sentence": "TRUE",
         "counter (698)\r": "\r"
     },
     {
@@ -4557,10 +4557,10 @@ var data = [
         "hsk_level": 2,
         "part_of_speech": "verb",
         "compound_cantonese": "wong5",
-        "compound": "往",
-        "compound_pinyin": "wǎng",
-        "compound_definition": "to go (in a direction); to; towards; (of a train) bound for; past; previous",
-        "valid_sentence": "FALSE",
+        "compound": "你要往哪儿走？",
+        "compound_pinyin": "Nǐ yào wǎng nǎr zǒu?",
+        "compound_definition": "Where are you heading to?",
+        "valid_sentence": "TRUE",
         "counter (698)\r": "\r"
     },
     {
@@ -4655,10 +4655,10 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "adjective",
         "compound_cantonese": "faai3",
-        "compound": "快点，我们要迟到了！",
-        "compound_pinyin": "Kuài diǎn; wǒmen yào chídào le!",
-        "compound_definition": "Hurry up; we're going to be late!",
-        "valid_sentence": "FALSE",
+        "compound": "请快点过来帮忙！",
+        "compound_pinyin": "Qǐng kuài diǎn guòlái bāngmáng!",
+        "compound_definition": "Please come over and help quickly!",
+        "valid_sentence": "TRUE",
         "counter (698)\r": "\r"
     },
     {
@@ -4739,10 +4739,10 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "pronoun",
         "compound_cantonese": "nei5",
-        "compound": "您需要帮忙吗？",
-        "compound_pinyin": "Nín xūyào bāngmáng ma?",
-        "compound_definition": "Do you need any help?",
-        "valid_sentence": "FALSE",
+        "compound": "您好吗？",
+        "compound_pinyin": "Nín hǎo ma?",
+        "compound_definition": "How are you?",
+        "valid_sentence": "TRUE",
         "counter (698)\r": "\r"
     },
     {
@@ -4767,10 +4767,10 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "verb",
         "compound_cantonese": "soeng2",
-        "compound": "我想吃冰淇淋。",
-        "compound_pinyin": "Wǒ xiǎng chī bīngqílín.",
-        "compound_definition": "I want to eat ice cream.",
-        "valid_sentence": "FALSE",
+        "compound": "你想吃什么？",
+        "compound_pinyin": "Nǐ xiǎng chī shénme?",
+        "compound_definition": "What would you like to eat?",
+        "valid_sentence": "TRUE",
         "counter (698)\r": "\r"
     },
     {
@@ -4809,10 +4809,10 @@ var data = [
         "hsk_level": 2,
         "part_of_speech": "adjective",
         "compound_cantonese": "dung2",
-        "compound": "懂",
-        "compound_pinyin": "dǒng",
-        "compound_definition": "to understand; to comprehend",
-        "valid_sentence": "FALSE",
+        "compound": "你懂这个问题吗？",
+        "compound_pinyin": "Nǐ dǒng zhège wèntí ma?",
+        "compound_definition": "Do you understand this question?",
+        "valid_sentence": "TRUE",
         "counter (698)\r": "\r"
     },
     {
@@ -4893,10 +4893,10 @@ var data = [
         "hsk_level": 2,
         "part_of_speech": "noun",
         "compound_cantonese": "so2",
-        "compound": "所",
-        "compound_pinyin": "suǒ",
-        "compound_definition": "place",
-        "valid_sentence": "FALSE",
+        "compound": "你住在哪个所里？",
+        "compound_pinyin": "Nǐ zhù zài nǎge suǒ lǐ?",
+        "compound_definition": "In which place do you live?",
+        "valid_sentence": "TRUE",
         "counter (698)\r": "\r"
     },
     {
@@ -5075,10 +5075,10 @@ var data = [
         "hsk_level": 2,
         "part_of_speech": "noun",
         "compound_cantonese": "bou3",
-        "compound": "报",
-        "compound_pinyin": "bào",
-        "compound_definition": "to announce; to inform; report; newspaper; recompense; revenge",
-        "valid_sentence": "FALSE",
+        "compound": "你能告诉我今天的新报纸在哪里吗？",
+        "compound_pinyin": "Nǐ néng gàosu wǒ jīntiān de xīn bàozhǐ zài nǎlǐ ma?",
+        "compound_definition": "Can you tell me where today's newspaper is?",
+        "valid_sentence": "TRUE",
         "counter (698)\r": "\r"
     },
     {
@@ -5243,10 +5243,10 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound_cantonese": "fong1",
-        "compound": "请走这个方向。",
-        "compound_pinyin": "Qǐng zǒu zhège fāngxiàng.",
-        "compound_definition": "Please go in this direction.",
-        "valid_sentence": "FALSE",
+        "compound": "在药店买药很方便",
+        "compound_pinyin": "Zài yàodiàn mǎi yào hěn fāngbiàn",
+        "compound_definition": "Buying medicine at the pharmacy is very convenient.",
+        "valid_sentence": "TRUE",
         "counter (698)\r": "\r"
     },
     {
@@ -5621,10 +5621,10 @@ var data = [
         "hsk_level": 2,
         "part_of_speech": "adjective",
         "compound_cantonese": "cing4",
-        "compound": "晴",
-        "compound_pinyin": "qíng",
-        "compound_definition": "clear; fine (weather)",
-        "valid_sentence": "FALSE",
+        "compound": "今天天气很晴",
+        "compound_pinyin": "Jīntiān tiānqì hěn qíng",
+        "compound_definition": "The weather is very clear today.",
+        "valid_sentence": "TRUE",
         "counter (698)\r": "\r"
     },
     {
@@ -5915,10 +5915,10 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound_cantonese": "tiu4",
-        "compound": "这是一条漂亮的围巾。",
-        "compound_pinyin": "Zhè shì yī tiáo piàoliang de wéijīn.",
-        "compound_definition": "This is a beautiful scarf.",
-        "valid_sentence": "FALSE",
+        "compound": "这是一条长路",
+        "compound_pinyin": "Zhè shì yī tiáo cháng lù",
+        "compound_definition": "This is a long road.",
+        "valid_sentence": "TRUE",
         "counter (698)\r": "\r"
     },
     {
@@ -5999,10 +5999,10 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound_cantonese": "syu6",
-        "compound": "公园里有很多高大的树。",
-        "compound_pinyin": "Gōngyuán lǐ yǒu hěnduō gāodà de shù.",
-        "compound_definition": "There are many tall trees in the park.",
-        "valid_sentence": "FALSE",
+        "compound": "我家没有树",
+        "compound_pinyin": "Wǒ jiā méiyǒu shù. ",
+        "compound_definition": "My house does not have a tree.",
+        "valid_sentence": "TRUE",
         "counter (698)\r": "\r"
     },
     {
@@ -6195,10 +6195,10 @@ var data = [
         "hsk_level": 2,
         "part_of_speech": "noun",
         "compound_cantonese": "bou6",
-        "compound": "步",
-        "compound_pinyin": "bù",
-        "compound_definition": "a step; a pace; walk; march; stages in a process; situation; (Chinese surname)",
-        "valid_sentence": "FALSE",
+        "compound": "他走了十步",
+        "compound_pinyin": "Tā zǒu le shí bù. ",
+        "compound_definition": "He took ten steps.",
+        "valid_sentence": "TRUE",
         "counter (698)\r": "\r"
     },
     {
@@ -6223,10 +6223,10 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "verb",
         "compound_cantonese": "bei2",
-        "compound": "这只猫比那只猫大。",
-        "compound_pinyin": "Zhè zhī māo bǐ nà zhī māo dà.",
-        "compound_definition": "This cat is bigger than that cat.",
-        "valid_sentence": "FALSE",
+        "compound": "你的鸡肉比我的好吗？",
+        "compound_pinyin": "Nǐ de jīròu bǐ wǒ de hǎo ma? ",
+        "compound_definition": "Is your chicken meat better than mine?",
+        "valid_sentence": "TRUE",
         "counter (698)\r": "\r"
     },
     {
@@ -6237,10 +6237,10 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound_cantonese": "mou4",
-        "compound": "我看到一根毛在我的衣服上。",
-        "compound_pinyin": "Wǒ kàn dào yī gēn máo zài wǒ de yīfú shàng.",
-        "compound_definition": "I saw a piece of hair on my clothes.",
-        "valid_sentence": "FALSE",
+        "compound": "我的狗有毛",
+        "compound_pinyin": "Wǒ de gǒu yǒu máo",
+        "compound_definition": "My dog has fur.",
+        "valid_sentence": "TRUE",
         "counter (698)\r": "\r"
     },
     {
@@ -6265,10 +6265,10 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound_cantonese": "seoi2",
-        "compound": "水是生命之源。",
-        "compound_pinyin": "Shuǐ shì shēngmìng zhī yuán.",
-        "compound_definition": "Water is the source of life.",
-        "valid_sentence": "FALSE",
+        "compound": "请你给我一杯水好吗？",
+        "compound_pinyin": "Qǐng nǐ gěi wǒ yī bēi shuǐ hǎo ma?",
+        "compound_definition": "Please, can you give me a glass of water?",
+        "valid_sentence": "TRUE",
         "counter (698)\r": "\r"
     },
     {
@@ -6461,10 +6461,10 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "adjective",
         "compound_cantonese": "hot3",
-        "compound": "喝一杯冷水，解渴。",
-        "compound_pinyin": "Hē yī bēi lěngshuǐ; jiěkě.",
-        "compound_definition": "Drink a glass of cold water to quench your thirst.",
-        "valid_sentence": "FALSE",
+        "compound": "我渴了，所以我去饭店买茶。",
+        "compound_pinyin": "Wǒ kě le, suǒyǐ wǒ qù fàndiàn mǎi chá.",
+        "compound_definition": "I'm thirsty; so I went to the restaurant to buy tea.",
+        "valid_sentence": "TRUE",
         "counter (698)\r": "\r"
     },
     {
@@ -6601,10 +6601,10 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound_cantonese": "je4",
-        "compound": "祖父对我非常慈爱。",
-        "compound_pinyin": "Zǔfù duì wǒ fēicháng cí'ài.",
-        "compound_definition": "My grandfather is very fond of me.",
-        "valid_sentence": "FALSE",
+        "compound": "我爷爷非常生气和认真。",
+        "compound_pinyin": "Wǒ yéye fēicháng shēngqì hé rènzhēn.",
+        "compound_definition": "My grandfather is very angry and serious.",
+        "valid_sentence": "TRUE",
         "counter (698)\r": "\r"
     },
     {
@@ -6685,10 +6685,10 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound_cantonese": "gau2",
-        "compound": "狗",
-        "compound_pinyin": "gǒu",
-        "compound_definition": "dog",
-        "valid_sentence": "FALSE",
+        "compound": "我的狗很渴，所以他在喝水。",
+        "compound_pinyin": "Wǒ de gǒu hěn kě, suǒyǐ tā zài hē shuǐ.",
+        "compound_definition": "My dog is thirsty; so he's drinking water.",
+        "valid_sentence": "TRUE",
         "counter (698)\r": "\r"
     },
     {
@@ -6699,10 +6699,10 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound_cantonese": "maau1",
-        "compound": "猫",
-        "compound_pinyin": "māo",
-        "compound_definition": "cat; (dialect) to hide oneself; (coll.) modem",
-        "valid_sentence": "FALSE",
+        "compound": "我家的猫非常可爱，但她的毛不多。",
+        "compound_pinyin": "Wǒ jiā de māo fēicháng kě'ài, dàn tā de máo bù duō.",
+        "compound_definition": "My cat at home is very cute; but she doesn't have much fur.",
+        "valid_sentence": "TRUE",
         "counter (698)\r": "\r"
     },
     {
@@ -7035,10 +7035,10 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound_cantonese": "beng6",
-        "compound": "我生病了，需要去医院看病。",
-        "compound_pinyin": "Wǒ shēngbìng le; xūyào qù yīyuàn kàn bìng.",
-        "compound_definition": "I'm sick and need to go to the hospital for treatment.",
-        "valid_sentence": "FALSE",
+        "compound": "他因为生病去了医院看医生。",
+        "compound_pinyin": "Tā yīnwèi shēngbìng qùle yīyuàn kàn yīshēng.",
+        "compound_definition": "He went to the hospital to see the doctor because he was sick.",
+        "valid_sentence": "TRUE",
         "counter (698)\r": "\r"
     },
     {
@@ -7063,10 +7063,10 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "adjective",
         "compound_cantonese": "baak6",
-        "compound": "雪白的衣服在阳光下闪闪发光。",
-        "compound_pinyin": "Xuě bái de yīfú zài yángguāng xià shǎnshǎn fāguāng.",
-        "compound_definition": "The white clothes glisten in the sunlight.",
-        "valid_sentence": "FALSE",
+        "compound": "杯子是白色的，但茶是黑色的。",
+        "compound_pinyin": "Bēizi shì báisè de, dàn chá shì hēisè de.",
+        "compound_definition": "The cup is white, but the tea is black.",
+        "valid_sentence": "TRUE",
         "counter (698)\r": "\r"
     },
     {
@@ -7091,10 +7091,10 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound_cantonese": "baak3",
-        "compound": "这个书店有成百上千本书。",
-        "compound_pinyin": "Zhège shūdiàn yǒu chéngbǎi shàngqiān běn shū.",
-        "compound_definition": "This bookstore has hundreds and thousands of books.",
-        "valid_sentence": "FALSE",
+        "compound": "书店里有一百多本书。",
+        "compound_pinyin": "Shūdiàn lǐ yǒu yībǎi duō běn shū.",
+        "compound_definition": "There are more than one hundred books in the bookstore.",
+        "valid_sentence": "TRUE",
         "counter (698)\r": "\r"
     },
     {
@@ -7175,10 +7175,10 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "adjective",
         "compound_cantonese": "zan1",
-        "compound": "这个消息太不真实了！",
-        "compound_pinyin": "Zhège xiāoxī tài bù zhēnshí le!",
-        "compound_definition": "This news is too unbelievable!",
-        "valid_sentence": "FALSE",
+        "compound": "我真高兴再次见到你。",
+        "compound_pinyin": "Wǒ zhēn gāoxìng zàicì jiàn dào nǐ.",
+        "compound_definition": "I am truly happy to see you again.",
+        "valid_sentence": "TRUE",
         "counter (698)\r": "\r"
     },
     {
@@ -7301,10 +7301,10 @@ var data = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound_cantonese": "piu3",
-        "compound": "我买了两张电影票。",
-        "compound_pinyin": "Wǒ mǎi le liǎng zhāng diànyǐng piào.",
-        "compound_definition": "I bought two movie tickets.",
-        "valid_sentence": "FALSE",
+        "compound": "你买了电影票吗？",
+        "compound_pinyin": "Nǐ mǎi le diànyǐng piào ma?",
+        "compound_definition": "Did you buy movie tickets?",
+        "valid_sentence": "TRUE",
         "counter (698)\r": "\r"
     },
     {
