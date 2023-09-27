@@ -128,7 +128,8 @@ function initializeData() {
             "?",
             "!",
             "！",
-            "？"
+            "？",
+            " "
         ];
         data.forEach((value, index) => {
             const character = value.character;
