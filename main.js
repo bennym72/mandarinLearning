@@ -44,8 +44,7 @@ const _hskLevelToSingleCharMap = {};
 const _hskLevelToSentencedDataMap = {};
 
 const charMap = {};
-const charsToExclude = {};
-const anyChar = {};
+const charCountInValidSentences = {};
 
 const charsToIgnore = [
     "。",
@@ -105,7 +104,7 @@ function initializeData() {
     data.forEach((value) => {
         for (var j = 0; j < value.character.length; j++) {
             const charAt = value.character[j];
-            anyChar[charAt] = true;
+            charCountInValidSentences[charAt] = 0;
             /**
              * Use the minimum. Suppose char1 shows up at 1 and 2, char2 only shows up at 2. If we want to select only level 1 chars, char1 = 1 would let us know to include char1... but if char1 = 2, we couldn't distinguish char1 & char2
              */
@@ -176,6 +175,10 @@ function initializeData() {
                     };
                     delete charMap[charAt];
                 }
+
+                for (var j = 0; j < value.compound.length; j++) {
+                    charCountInValidSentences[value.compound[j]] = charCountInValidSentences[value.compound[j]] + 1;
+                }
             }
         }
     });
@@ -193,14 +196,15 @@ function initializeData() {
                 const charAt = sentenceForCharacter[i];
                 const currentCharHSKLevel = anyCharByHSKLevel[charAt];
                 if (!currentCharHSKLevel || currentCharHSKLevel > hskLevelForValue) {
-                    charsToExclude[charAt] = true;
                     excludedChars = excludedChars + charAt;
                 }
             }
-            const isValid = value.compound.length > value.character.length &&  excludedChars.length == 0;
-            sentenceCheck.push((index + 1) + ";" + character + ";" + isValid + ";" + sentenceForCharacter + ";" + excludedChars);
+            const isValid = value.compound.length > value.character.length && excludedChars.length == 0;
+            const numberOfAppearances = charCountInValidSentences[character] ? charCountInValidSentences[character] : 0;
+            sentenceCheck.push((index + 1) + ";" + character + ";" + isValid + ";" + sentenceForCharacter + ";" + excludedChars + ";" + numberOfAppearances);
         }); 
         console.log(JSON.stringify(sentenceCheck, null, 4));
+        console.log(charCountInValidSentences);
     }
 
     function partOfSpeechString(partOfSpeech, counter) {
