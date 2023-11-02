@@ -188,12 +188,11 @@ function initializeData() {
             const character = value.character;
             const sentenceForCharacter = value.compound;
             var excludedChars = "";
+            const hskLevelForValue = value.hsk_level;
             for (var i = 0; i < sentenceForCharacter.length; i++) {
                 const charAt = sentenceForCharacter[i];
-                if (charsToIgnore.indexOf(charAt) > -1) {
-                    continue;
-                }
-                if (!anyChar[charAt]) {
+                const currentCharHSKLevel = anyCharByHSKLevel[charAt];
+                if (!currentCharHSKLevel || currentCharHSKLevel > hskLevelForValue) {
                     charsToExclude[charAt] = true;
                     excludedChars = excludedChars + charAt;
                 }
@@ -202,8 +201,6 @@ function initializeData() {
             sentenceCheck.push((index + 1) + ";" + character + ";" + isValid + ";" + sentenceForCharacter + ";" + excludedChars);
         }); 
         console.log(JSON.stringify(sentenceCheck, null, 4));
-        window.individualCharsToExclude = charsToExclude;
-        console.log(Object.keys(charsToExclude));
     }
 
     function partOfSpeechString(partOfSpeech, counter) {
