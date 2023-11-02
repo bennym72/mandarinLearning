@@ -33,12 +33,16 @@ const _groupedDataBy10 = {};
  * 
  * When the sentence is displayed, iterate over the chars and the pinyin and delete the keys from _sentencedData. 
  */
-const _sentencedData = {};
+var _sentencedData = {};
 var _initialTableData = [];
 // params
 var _selectionTable;
 
 var langDataToUse = {}; //newLangData;
+
+const _hskLevelToSingleCharMap = {};
+const _hskLevelToSentencedDataMap = {};
+
 const charMap = {};
 const charsToExclude = {};
 const anyChar = {};
@@ -98,7 +102,26 @@ function initializeData() {
         }
 
         if (isSentenceMode) {
+            /**
+             * Idea behind sentence mode is that for every HSK level, we will iterate through every word in that HSK level and map that character to a sentence.
+             * {
+             *      1 : {
+             *              char : {
+             *                          word: sentence,
+             *                          word: sentence
+             *                      }
+             *          }
+             *  }
+             * 
+             */
             if (value.character.length == 1) {
+
+                if (!_hskLevelToSingleCharMap[value.hsk_level] ) {
+                    _hskLevelToSingleCharMap[value.hsk_level] = {};
+                }
+                _hskLevelToSingleCharMap[value.hsk_level][value.character] = value;                
+
+                // only capturing single chars
                 charMap[value.character] = value;
             }
             if (value.character != value.compound && value.valid_sentence == "TRUE") {
@@ -107,6 +130,20 @@ function initializeData() {
                     if (!_sentencedData[charAt]) {
                         _sentencedData[charAt] = {};
                     }
+
+                    if (!_hskLevelToSentencedDataMap[value.hsk_level] ) {
+                        _hskLevelToSentencedDataMap[value.hsk_level] = {};
+                    }
+                    if (!_hskLevelToSentencedDataMap[value.hsk_level][charAt]) {
+                        _hskLevelToSentencedDataMap[value.hsk_level][charAt] = {};
+                    }
+
+                    _hskLevelToSentencedDataMap[value.hsk_level][charAt][value.character] = {
+                        compound : value.compound,
+                        compound_pinyin : value.compound_pinyin,
+                        compound_definition : value.compound_definition
+                    };
+
                     _sentencedData[charAt][value.character] = {
                         compound : value.compound,
                         compound_pinyin : value.compound_pinyin,
@@ -206,6 +243,32 @@ function initializeData() {
     if (showPinyin) {
         document.getElementById("_currentEng").classList.add("inProgressShow1");
     }
+}
+
+const mergeSentenceData = function (values) {
+    const hskLevelsToUse = values.split(",");
+    if (hskLevelsToUse.length < 1) {
+        window.alert("Input a valid selection of HSK levels!");
+        return;
+    }
+    _sentencedData = _hskLevelToSentencedDataMap[hskLevelsToUse[0]];
+    for (var i = 1; i < hskLevelsToUse.length; i++) {
+        const sentencesToMerge = _hskLevelToSentencedDataMap[hskLevelsToUse[i]];
+        mergeTwoSentenceData(_sentencedData, sentencesToMerge);
+    }
+    console.log(Object.keys(_sentencedData).length);
+}
+
+const mergeTwoSentenceData = function (data1, data2) {
+    Object.keys(data2).forEach((key) => {
+        if (data1[key]) {
+            Object.keys(data2[key]).forEach((word) => {
+                data1[key][word] = data2[key][word];
+            })
+        } else {
+            data1[key] = data2[key];
+        }
+    });
 }
 
 const convertMandarinToKanji = function(mandarin, map) {
@@ -809,15 +872,18 @@ class BaseBoard {
     }
 
     onHSKInput(value) {
-        value.split(",").map((numAsString) => {
-            return hskLevelString + numAsString;
-        }).forEach((hskLevelSelector) => {
-            htmlToArray(document.querySelectorAll("." + hskLevelSelector + " input")).forEach((checkbox) => {
-                checkbox.checked = true;
-                checkbox.setAttribute("checked", "true");
+        if (isSentenceMode) {
+            mergeSentenceData(value);
+        } else {
+            value.split(",").map((numAsString) => {
+                return hskLevelString + numAsString;
+            }).forEach((hskLevelSelector) => {
+                htmlToArray(document.querySelectorAll("." + hskLevelSelector + " input")).forEach((checkbox) => {
+                    checkbox.checked = true;
+                    checkbox.setAttribute("checked", "true");
+                });
             });
-        });
-
+        }
     }
 }
 
