@@ -47,6 +47,20 @@ const charMap = {};
 const charsToExclude = {};
 const anyChar = {};
 
+const charsToIgnore = [
+    "。",
+    "，",
+    "?",
+    "!",
+    "！",
+    "？",
+    " "
+];
+const anyCharByHSKLevel = {};
+charsToIgnore.forEach((value) => {
+    anyCharByHSKLevel[value] = 1;
+});
+
 const hskLevelString = "hsk_level_";
 
 // pragma mark - setup
@@ -87,6 +101,22 @@ function setupSelectionTable() {
 // pragma mark - init functions
 
 function initializeData() {
+
+    data.forEach((value) => {
+        for (var j = 0; j < value.character.length; j++) {
+            const charAt = value.character[j];
+            anyChar[charAt] = true;
+            /**
+             * Use the minimum. Suppose char1 shows up at 1 and 2, char2 only shows up at 2. If we want to select only level 1 chars, char1 = 1 would let us know to include char1... but if char1 = 2, we couldn't distinguish char1 & char2
+             */
+            if (anyCharByHSKLevel[charAt]) {
+                anyCharByHSKLevel[charAt] = Math.min(anyCharByHSKLevel[charAt], value.hsk_level);
+            } else {
+                anyCharByHSKLevel[charAt] = value.hsk_level;
+            }
+        }
+    });
+
     data.forEach((value) => {
         if (!_groupedData[value.hsk_level]) {
             _groupedData[value.hsk_level] = {};
@@ -95,11 +125,6 @@ function initializeData() {
             _groupedData[value.hsk_level][value.part_of_speech] = [];
         }
         _groupedData[value.hsk_level][value.part_of_speech].push(value);
-
-        for (var j = 0; j < value.character.length; j++) {
-            const charAt = value.character[j];
-            anyChar[charAt] = true;
-        }
 
         if (isSentenceMode) {
             /**
@@ -124,7 +149,7 @@ function initializeData() {
                 // only capturing single chars
                 charMap[value.character] = value;
             }
-            if (value.character != value.compound && value.valid_sentence == "TRUE") {
+            if (value.character != value.compound && isValidSentence(value.hsk_level, value.compound)) {
                 for (var i = 0; i < value.character.length; i++) {
                     const charAt = value.character[i];
                     if (!_sentencedData[charAt]) {
@@ -159,15 +184,6 @@ function initializeData() {
     if (isSentenceMode) {
         // code for checking excluded characters
         const sentenceCheck = [];
-        const charsToIgnore = [
-            "。",
-            "，",
-            "?",
-            "!",
-            "！",
-            "？",
-            " "
-        ];
         data.forEach((value, index) => {
             const character = value.character;
             const sentenceForCharacter = value.compound;
@@ -243,6 +259,18 @@ function initializeData() {
     if (showPinyin) {
         document.getElementById("_currentEng").classList.add("inProgressShow1");
     }
+}
+
+const isValidSentence = function(hskLevel, sentence) {
+    for (var i = 0; i < sentence.length; i++) {
+        const currentChar = sentence[i];
+        // a sentence is invalid if it doesn't appear at all or its minimum appearance is greater than the current hsk level
+        const currentCharHSKLevel = anyCharByHSKLevel[currentChar];
+        if (!currentCharHSKLevel || currentCharHSKLevel > hskLevel) {
+            return false;
+        }
+    }
+    return true;
 }
 
 const mergeSentenceData = function (values) {
