@@ -199,11 +199,23 @@ function initializeData() {
                     excludedChars = excludedChars + charAt;
                 }
             }
+            const compoundCount = value.character.length;
             const isValid = value.compound.length > value.character.length && excludedChars.length == 0;
             const numberOfAppearances = charCountInValidSentences[character] ? charCountInValidSentences[character] : 0;
-            sentenceCheck.push((index + 1) + ";" + character + ";" + isValid + ";" + sentenceForCharacter + ";" + excludedChars + ";" + numberOfAppearances);
+            const separator = "%";
+            sentenceCheck.push((index + 1) + 
+            separator + character + 
+            separator + hskLevelForValue + 
+            separator + isValid + 
+            separator + sentenceForCharacter + 
+            separator + value.compound_pinyin + 
+            separator + value.compound_definition + 
+            separator + (excludedChars.length? excludedChars : ".") + 
+            separator + compoundCount + 
+            separator + numberOfAppearances);
         }); 
-        console.log(JSON.stringify(sentenceCheck, null, 4));
+        const sentenceCheckAsString = sentenceCheck.join("\n");
+        console.log(sentenceCheckAsString);
         console.log(charCountInValidSentences);
     }
 
@@ -633,7 +645,7 @@ class BaseBoard {
                 newLangData.push(value);
             });
             window.individualCharMap = charMap;
-            console.log(Object.keys(charMap));
+            console.log(Object.keys(charMap).join("%"));
 
             document.querySelector("#_sentenceToChar").innerText = "# sentences: " + index + "; # characters: " + Object.keys(charMap).length;
         }
