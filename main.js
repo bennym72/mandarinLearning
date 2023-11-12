@@ -62,6 +62,8 @@ charsToIgnore.forEach((value) => {
 
 const hskLevelString = "hsk_level_";
 
+var data = hskLevel1.concat(hskLevel2);
+
 // pragma mark - setup
 
 function setupSelectionTable() {
@@ -348,11 +350,12 @@ const phases = [
 ];
 
 const params = new URLSearchParams(window.location.search);
-const isSequential = params.get("mode") !== "random";
 const currentSessionId = params.get("sessionId");
 const showPinyin = params.get("showPinyin") == "true";
 const numRows = Number.parseInt(params.get("numRows")) || 0;
 const isJukugoTime = params.get("jukugo") === "true";
+
+const isSequential = params.get("mode") !== "random";
 const isSentenceMode = params.get("mode") == "sentence";
 
 class KanjiState {
