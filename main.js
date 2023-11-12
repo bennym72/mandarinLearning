@@ -122,6 +122,23 @@ function shouldIncludeCharacter(value) {
     return true;
 }
 
+const tones = [
+    '$',
+    '\u0304', // tone 1
+    '\u0301', // tone 2
+    '\u030c', // tone 3
+    '\u0300', // tone 4
+];
+// Returns the tone, and the index of the letter with the tone
+function findTone(w) {
+  const n = w.normalize('NFD');
+  for (let i = 0; i < n.length; i++) {
+    if (tones.includes(n[i])){
+      return tones.indexOf(n[i]); // /*[*/n[i]/*, i - 1]*/;
+    }
+  }
+}
+
 function initializeData() {
 
     data.forEach((value) => {
@@ -149,6 +166,10 @@ function initializeData() {
         
         if (shouldIncludeCharacter(value)) {
             _groupedData[value.hsk_level][value.part_of_speech].push(value);
+        }
+
+        if (isSingleCharMode) {
+            value.tone = findTone(value.character_pinyin);
         }
 
         if (isSentenceMode) {
