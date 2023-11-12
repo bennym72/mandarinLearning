@@ -1,3 +1,17 @@
+/**
+ * Site params
+ */
+
+const params = new URLSearchParams(window.location.search);
+const currentSessionId = params.get("sessionId");
+const numRows = Number.parseInt(params.get("numRows")) || 0;
+const isJukugoTime = params.get("jukugo") === "true";
+
+const isSequential = params.get("mode") !== "random";
+const isSentenceMode = params.get("mode") == "sentence";
+const showPinyin = params.get("showPinyin") == "true";
+const isSingleCharMode = params.get("showSingle") == "true";
+
 /*
 {
     hsk_level : {
@@ -101,6 +115,13 @@ function setupSelectionTable() {
 
 // pragma mark - init functions
 
+function shouldIncludeCharacter(value) {
+    if (isSingleCharMode) {
+        return value.character.length == 1;
+    }
+    return true;
+}
+
 function initializeData() {
 
     data.forEach((value) => {
@@ -125,7 +146,10 @@ function initializeData() {
         if (!_groupedData[value.hsk_level][value.part_of_speech]) {
             _groupedData[value.hsk_level][value.part_of_speech] = [];
         }
-        _groupedData[value.hsk_level][value.part_of_speech].push(value);
+        
+        if (shouldIncludeCharacter(value)) {
+            _groupedData[value.hsk_level][value.part_of_speech].push(value);
+        }
 
         if (isSentenceMode) {
             /**
@@ -348,15 +372,6 @@ const phases = [
     "inProgressDialog2",
     "inProgressEnd"
 ];
-
-const params = new URLSearchParams(window.location.search);
-const currentSessionId = params.get("sessionId");
-const showPinyin = params.get("showPinyin") == "true";
-const numRows = Number.parseInt(params.get("numRows")) || 0;
-const isJukugoTime = params.get("jukugo") === "true";
-
-const isSequential = params.get("mode") !== "random";
-const isSentenceMode = params.get("mode") == "sentence";
 
 class KanjiState {
     constructor () {
