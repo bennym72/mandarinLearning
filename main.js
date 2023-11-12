@@ -360,7 +360,6 @@ const mergeTwoSentenceData = function (data1, data2) {
 }
 
 const convertMandarinToKanji = function(mandarin, map) {
-    const titleValue = isSentenceMode ? mandarin.hsk_level : "HSK.v3=" + mandarin.hsk_level;
     const kanji = {
         index : mandarin.id,
         stars : mandarin.hsk_level,
@@ -375,7 +374,8 @@ const convertMandarinToKanji = function(mandarin, map) {
                 stars : mandarin.character,
             }
         ],
-        eng : mandarin.character_pinyin
+        eng : mandarin.character_pinyin,
+        tone : mandarin.tone
         
     };
     map[kanji.index] = kanji;
@@ -861,6 +861,26 @@ class BaseBoard {
             window.shuffle(this.siteState.toView);
         }
     }
+
+    updateKanjiColor() {
+
+        const kanji = document.getElementById("_currentKanji");
+
+        const toneColorString = "toneColor";
+        const toneColorClasses = [
+            toneColorString + 0,
+            toneColorString + 1,
+            toneColorString + 2,
+            toneColorString + 3,
+            toneColorString + 4
+        ];
+
+        toneColorClasses.forEach((value) => {
+            kanji.classList.remove(value);
+        });
+        const toneColorClass = isSingleCharMode ? toneColorClasses[this.siteState.currentKanji.tone] : toneColorClasses[0];
+        kanji.classList.add(toneColorClass);
+    }
     
     displayKanji() {
         this.siteState.currentKanji = langDataToUse[this.siteState.toView.shift()];
@@ -879,6 +899,8 @@ class BaseBoard {
         document.querySelector("#_currentHir").innerText = topKunyomi.hiragana;
         document.querySelector("#_currentCompoundPinyin").innerText = topKunyomi.compound_sound;
         document.querySelector("#_currentOnyomi").innerText = this.siteState.currentKanji.onyomi;
+
+        this.updateKanjiColor();
     }
 
     getTopKunyomiFromKanji(kanji) {

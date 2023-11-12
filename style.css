@@ -154,6 +154,26 @@ button {
   text-align: center;
 }
 
+.toneColor0 {
+  color: #ffffff;
+}
+
+.toneColor1 {
+  color: #A64D79;
+}
+
+.toneColor2 {
+  color: #F1C232;
+}
+
+.toneColor3 {
+  color: #6AA84F;
+}
+
+.toneColor4 {
+  color: #3C78D8;
+}
+
 .kanjiSentence {
   top: 20vh;
   width:96vw;
