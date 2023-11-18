@@ -8682,20 +8682,6 @@ var hskLevel2 = [
     {
         "id": 1204,
         "character": "碗",
-        "character_pinyin": "quèshí",
-        "eng": "indeed",
-        "hsk_level": 2,
-        "part_of_speech": "adjective",
-        "compound_cantonese": "Kok3 sat6",
-        "compound": "这确实是一个好主意",
-        "compound_pinyin": "Zhè quèshí shì yī gè hǎo zhǔyì",
-        "compound_definition": "This is indeed a good idea.",
-        "valid_sentence": "",
-        "counter (873)\r": "\r"
-    },
-    {
-        "id": 1205,
-        "character": "碰",
         "character_pinyin": "wǎn",
         "eng": "bowl",
         "hsk_level": 2,
@@ -8708,8 +8694,8 @@ var hskLevel2 = [
         "counter (873)\r": "\r"
     },
     {
-        "id": 1206,
-        "character": "碰到",
+        "id": 1205,
+        "character": "碰",
         "character_pinyin": "pèng",
         "eng": "to touch",
         "hsk_level": 2,
@@ -8722,16 +8708,30 @@ var hskLevel2 = [
         "counter (873)\r": "\r"
     },
     {
+        "id": 1206,
+        "character": "碰到",
+        "character_pinyin": "pèngdào",
+        "eng": "to run into",
+        "hsk_level": 2,
+        "part_of_speech": "verb",
+        "compound_cantonese": "Peng3 dou3.",
+        "compound": "我昨天碰到了我的老师",
+        "compound_pinyin": "Wǒ zuótiān pèngdào le wǒ de lǎoshī",
+        "compound_definition": "I ran into my teacher yesterday.",
+        "valid_sentence": "",
+        "counter (873)\r": "\r"
+    },
+    {
         "id": 1207,
         "character": "碰见",
-        "character_pinyin": "pèngdào",
+        "character_pinyin": "pèngjiàn",
         "eng": "to meet",
         "hsk_level": 2,
         "part_of_speech": "verb",
-        "compound_cantonese": "Pung3 dou3",
-        "compound": "我昨天碰到了一个老朋友",
-        "compound_pinyin": "Wǒ zuótiān pèngdào le yī gè lǎo péngyǒu",
-        "compound_definition": "I met an old friend yesterday.",
+        "compound_cantonese": "Peng3 gin3.",
+        "compound": "我很高兴碰见你",
+        "compound_pinyin": "Wǒ hěn gāoxìng pèngjiàn nǐ",
+        "compound_definition": "I am glad to meet you.",
         "valid_sentence": "",
         "counter (873)\r": "\r"
     },

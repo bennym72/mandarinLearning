@@ -11,6 +11,7 @@ const isSequential = params.get("mode") !== "random";
 const isSentenceMode = params.get("mode") == "sentence";
 const showPinyin = params.get("showPinyin") == "true";
 const isSingleCharMode = params.get("showSingle") == "true";
+const isCompoundWordMode = params.get("showCompound") == "true";
 
 /*
 {
@@ -118,6 +119,8 @@ function setupSelectionTable() {
 function shouldIncludeCharacter(value) {
     if (isSingleCharMode) {
         return value.character.length == 1;
+    } else if (isCompoundWordMode) {
+        return value.character.length > 1;
     }
     return true;
 }
