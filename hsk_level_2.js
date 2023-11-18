@@ -11,7 +11,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen yīgòng yǒu wǔ gè rén",
         "compound_definition": "There are five of us altogether.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 585,
@@ -25,7 +25,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ yīdìng huì qù cānjiā jùhuì",
         "compound_definition": "I will definitely attend the party.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 586,
@@ -39,7 +39,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ zhǐ chī le yīdiǎndiǎn wǔfàn",
         "compound_definition": "I only ate a little bit of lunch.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 587,
@@ -53,7 +53,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ yuànyì yǔ nǐ dùguò yīshēng",
         "compound_definition": "I am willing to spend a lifetime with you.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 588,
@@ -67,7 +67,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tāmen yīzhí zài tánlùn zhège wèntí",
         "compound_definition": "They have been discussing this issue continuously.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 589,
@@ -81,7 +81,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè shì yībān de guīdìng",
         "compound_definition": "This is a general rule.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 590,
@@ -95,7 +95,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tāmen tà shàng le yīlù píng'ān de lǚchéng",
         "compound_definition": "They embarked on a journey, wishing them a safe journey.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 591,
@@ -109,7 +109,7 @@ var hskLevel2 = [
         "compound_pinyin": "Chūfā qián, zhù nǐ yīlù shùnfēng",
         "compound_definition": "Before you depart, wish you a pleasant journey.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 592,
@@ -123,7 +123,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè zhǐ shì wèntí de yībùfèn",
         "compound_definition": "This is just a part of the problem.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 593,
@@ -137,7 +137,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā zhuàn le yī wàn kuài qián",
         "compound_definition": "He earned ten thousand yuan.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 594,
@@ -151,7 +151,7 @@ var hskLevel2 = [
         "compound_pinyin": "Shàng zhōu wǒmen qù le Běijīng",
         "compound_definition": "We went to Beijing last week.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 595,
@@ -165,7 +165,7 @@ var hskLevel2 = [
         "compound_pinyin": "Xià zhōu yǒu gè zhòngyào de huìyì",
         "compound_definition": "There is an important meeting next week.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 596,
@@ -179,7 +179,7 @@ var hskLevel2 = [
         "compound_pinyin": "Jīntiān zǎoshang xià xuě le",
         "compound_definition": "It snowed this morning.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 597,
@@ -193,7 +193,7 @@ var hskLevel2 = [
         "compound_pinyin": "Qǐng shāo děng, tā mǎshàng jiù lái, bù yīhuì'er",
         "compound_definition": "Please wait; he'll be here in a moment.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 598,
@@ -207,7 +207,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tiānqì biànhuà hěn kuài, míngtiān bù yīdìng huì xiàyǔ",
         "compound_definition": "The weather changes quickly; it may not rain tomorrow.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 599,
@@ -221,7 +221,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen bùjiǔ jiù huì jiànmiàn",
         "compound_definition": "We will meet not long from now.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 600,
@@ -235,7 +235,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā bùdàn cōngmíng, érqiě hěn nǔlì",
         "compound_definition": "He is not only intelligent but also hardworking.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 601,
@@ -249,7 +249,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tāmen yǒu bùtóng de yìjiàn",
         "compound_definition": "They have different opinions.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 602,
@@ -263,7 +263,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège xiāngzi bùgòu dà, zhuāng bù xià zhèxiē dōngxi",
         "compound_definition": "This box is not big enough; it can't fit these things.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 603,
@@ -277,7 +277,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège wèntí wǒ bù tài míngbái",
         "compound_definition": "I don't quite understand this question.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 604,
@@ -291,7 +291,7 @@ var hskLevel2 = [
         "compound_pinyin": "Bù hǎo yìsi, wǒ chídào le",
         "compound_definition": "Sorry, I'm late.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 605,
@@ -305,7 +305,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ juédé zhège fāng'àn bùrú nàge hǎo",
         "compound_definition": "I think this plan is not as good as that one.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 606,
@@ -319,7 +319,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā yǒu bù shǎo péngyǒu",
         "compound_definition": "He has quite a few friends.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 607,
@@ -333,7 +333,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā duì zhège juédìng gǎndào bùmǎn",
         "compound_definition": "He is dissatisfied with this decision.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 608,
@@ -347,7 +347,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhèyàng zuò shì bùxíng de",
         "compound_definition": "This is not allowed.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 609,
@@ -361,7 +361,7 @@ var hskLevel2 = [
         "compound_pinyin": "Bùyào wàngjì dài hùzhào",
         "compound_definition": "Don't forget to bring your passport.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 610,
@@ -375,7 +375,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ hěn máng, bùguò wǒ huì jǐnkuài wánchéng gōngzuò",
         "compound_definition": "I'm very busy, however, I will finish the work as soon as possible.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 611,
@@ -389,7 +389,7 @@ var hskLevel2 = [
         "compound_pinyin": "Nǐ de jiànyì zhēn bùcuò",
         "compound_definition": "Your suggestion is really good.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 612,
@@ -403,7 +403,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā xǐhuān chànggē, qiě tiàowǔ",
         "compound_definition": "He likes singing and dancing.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 613,
@@ -417,7 +417,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā zài IT yè gōngzuò",
         "compound_definition": "He works in the IT industry.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 614,
@@ -431,7 +431,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ de jiāxiāng zài dōngběi",
         "compound_definition": "My hometown is in the northeast.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 615,
@@ -445,7 +445,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège chéngshì wèiyú dōngnán bù",
         "compound_definition": "This city is located in the southeast.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 616,
@@ -459,7 +459,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tàiyáng cóng dōngfāng shēngqǐ",
         "compound_definition": "The sun rises in the east.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 617,
@@ -473,7 +473,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā de gèzi hěn gāo",
         "compound_definition": "He is very tall.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 618,
@@ -487,7 +487,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhōngyī zhùzhòng shēntǐ de zhěngtǐ pínghéng",
         "compound_definition": "Traditional Chinese medicine focuses on the overall balance of the body.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 619,
@@ -501,7 +501,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ zài yī suǒ zhōngxiǎoxué jiāoshū",
         "compound_definition": "I teach at a primary and secondary school.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 620,
@@ -515,7 +515,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhōngnián rén xūyào guānzhù jiànkāng",
         "compound_definition": "Middle-aged people need to pay attention to their health.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 621,
@@ -529,7 +529,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè zuò chéngshì de zhōngxīn yǒu yī zuò dà guǎngchǎng",
         "compound_definition": "There is a large square in the center of this city.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 622,
@@ -543,7 +543,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè shì yī mén zhōngjí kèchéng",
         "compound_definition": "This is an intermediate-level course.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 623,
@@ -557,7 +557,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ xǐhuān chī zhōngcān",
         "compound_definition": "I like to eat Chinese food.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 624,
@@ -571,7 +571,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā wèi xuéyè nǔlì fèndòu",
         "compound_definition": "He strives for academic success.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 625,
@@ -585,7 +585,7 @@ var hskLevel2 = [
         "compound_pinyin": "Nǐ wèishénme bù lái cānjiā jùhuì?",
         "compound_definition": "Why aren't you coming to the party?",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 626,
@@ -599,7 +599,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè shì wǒmen zhǔyào de rènwu",
         "compound_definition": "This is our main task.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 627,
@@ -613,7 +613,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā shì wǎnyàn de zhǔrén",
         "compound_definition": "He is the host of the dinner.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 628,
@@ -627,7 +627,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège xiàngmù de zhǔyào mùbiāo shì tígāo xiàolǜ",
         "compound_definition": "The main goal of this project is to improve efficiency.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 629,
@@ -641,7 +641,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā jǔ qǐ le yī bǎ dàyǔsǎn",
         "compound_definition": "He lifted a big umbrella.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 630,
@@ -655,7 +655,7 @@ var hskLevel2 = [
         "compound_pinyin": "Xuéshēngmen tīngdào wèntí hòu fēnfēn jǔshǒu",
         "compound_definition": "Students raised their hands after hearing the question.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 631,
@@ -669,7 +669,7 @@ var hskLevel2 = [
         "compound_pinyin": "Míngtiān jiāng jǔxíng bìyè diǎnlǐ",
         "compound_definition": "The graduation ceremony will be held tomorrow.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 632,
@@ -683,7 +683,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen yǐjīng hǎojiǔ méi jiànmiàn le",
         "compound_definition": "We haven't seen each other for a long time.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 633,
@@ -697,7 +697,7 @@ var hskLevel2 = [
         "compound_pinyin": "Kàn dào nǐmen wǒ gǎndào hěn lè",
         "compound_definition": "I feel very happy to see you.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 634,
@@ -711,7 +711,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā yěxǔ huì lái cānjiā pàiduì",
         "compound_definition": "Perhaps he will come to the party.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 635,
@@ -725,7 +725,7 @@ var hskLevel2 = [
         "compound_pinyin": "Yǎngchéng liánghǎo de xuéxí xíguàn hěn zhòngyào",
         "compound_definition": "Developing good study habits is important.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 636,
@@ -739,7 +739,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zuìjìn fāshēng le yīxiē zhòngyào de shìqíng",
         "compound_definition": "Some important things have happened recently.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 637,
@@ -753,7 +753,7 @@ var hskLevel2 = [
         "compound_pinyin": "Huìyì jiāng yú xià zhōu zhàokāi",
         "compound_definition": "The meeting will be held next week.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 638,
@@ -767,7 +767,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tiānkōng zhōng piāo zhe bái yún",
         "compound_definition": "White clouds are drifting in the sky.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 639,
@@ -781,7 +781,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā yào jiāo yī fèn bàogào gěi lǎobǎn",
         "compound_definition": "He has to hand over a report to the boss.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 640,
@@ -795,7 +795,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zài xīn chéngshì jiāo péngyǒu yǒushíhòu xūyào yīxiē yǒngqì",
         "compound_definition": "Making friends in a new city sometimes requires courage.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 641,
@@ -809,7 +809,7 @@ var hskLevel2 = [
         "compound_pinyin": "Qǐng bǎ zhè fēng xìn jiāogěi tā",
         "compound_definition": "Please hand this letter over to him.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 642,
@@ -823,7 +823,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège chéngshì de jiāotōng hěn biànlì",
         "compound_definition": "The transportation in this city is very convenient.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 643,
@@ -837,7 +837,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège dēng hěn liàng",
         "compound_definition": "This light is very bright.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 644,
@@ -851,7 +851,7 @@ var hskLevel2 = [
         "compound_pinyin": "Rénmen dōu xǐhuān xiàtiān",
         "compound_definition": "People all like summer.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 645,
@@ -865,7 +865,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège chéngshì de rénkǒu hěn duō",
         "compound_definition": "This city has a large population.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 646,
@@ -879,7 +879,7 @@ var hskLevel2 = [
         "compound_pinyin": "Huódòng de rénshù yǐjīng chāoguò yùqī",
         "compound_definition": "The number of participants has exceeded expectations.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 647,
@@ -893,7 +893,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhōngguó yǒu shí jǐ ge chéngshì rénkǒu chāoguò yī yì",
         "compound_definition": "China has more than a dozen cities with a population exceeding one hundred million.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 648,
@@ -907,7 +907,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā xiǎng zhīdào zhège rén shì shénme yàng de",
         "compound_definition": "He wants to know what kind of person this is.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 649,
@@ -921,7 +921,7 @@ var hskLevel2 = [
         "compound_pinyin": "Jīnhòu wǒmen yào gèngjiā nǔlì gōngzuò",
         "compound_definition": "From now on, we need to work harder.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 650,
@@ -935,7 +935,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā cóngxiǎo jiù xǐhuān yìshù",
         "compound_definition": "He has liked art since childhood.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 651,
@@ -949,7 +949,7 @@ var hskLevel2 = [
         "compound_pinyin": "Yǐ wǒ de jīngyàn lái kàn, zhè shì kěxíng de",
         "compound_definition": "With my experience, this is feasible.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 652,
@@ -963,7 +963,7 @@ var hskLevel2 = [
         "compound_pinyin": "Qǐng zài yǐshàng kònggé tiánxiě nǐ de xìngmíng",
         "compound_definition": "Please fill in your name in the above spaces.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 653,
@@ -977,7 +977,7 @@ var hskLevel2 = [
         "compound_pinyin": "Qǐng zài yǐxià biǎogé zhōng tiánxiě nǐ de liánxì fāngshì",
         "compound_definition": "Please fill in your contact information in the below form.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 654,
@@ -991,7 +991,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ yīzhí yǐwéi jīntiān shì xīngqī wǔ",
         "compound_definition": "I've always thought today is Friday.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 655,
@@ -1005,7 +1005,7 @@ var hskLevel2 = [
         "compound_pinyin": "Yǐqián wǒ zhù zài Běijīng",
         "compound_definition": "I used to live in Beijing.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 656,
@@ -1019,7 +1019,7 @@ var hskLevel2 = [
         "compound_pinyin": "Yǐhòu wǒmen huì yǒu gèng duō de jīhuì",
         "compound_definition": "We will have more opportunities in the future.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 657,
@@ -1033,7 +1033,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā de biǎoxiàn chūhū wǒ de yìliào zhī wài",
         "compound_definition": "His performance is beyond my expectations.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 658,
@@ -1047,7 +1047,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ mǎi le yī jiàn xīn yīfú",
         "compound_definition": "I bought a new piece of clothing.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 659,
@@ -1061,7 +1061,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ yào yī fèn niúròu miàn",
         "compound_definition": "I want a portion of beef noodles.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 660,
@@ -1075,7 +1075,7 @@ var hskLevel2 = [
         "compound_pinyin": "Xià gè yuè wǒ yào xiūjià qù lǚxíng",
         "compound_definition": "I will take a vacation to travel next month.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 661,
@@ -1089,7 +1089,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ xǐhuān xuéxí, dàn wǒ gèng xǐhuān yùndòng",
         "compound_definition": "I like studying, but I prefer sports even more.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 662,
@@ -1103,7 +1103,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ xiǎng qù cānjiā jùhuì, dànshì wǒ yǒu qítā jìhuà",
         "compound_definition": "I want to attend the party, but I have other plans.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 663,
@@ -1117,7 +1117,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā zài gōngsī dānrèn gāojí jīnglǐ de wèizi",
         "compound_definition": "He holds the position of senior manager in the company.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 664,
@@ -1131,7 +1131,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège wēndù tài dī le",
         "compound_definition": "The temperature is too low.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 665,
@@ -1145,7 +1145,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège chéngshì de zhùfáng jiàgé hěn gāo",
         "compound_definition": "The housing prices in this city are very high.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 666,
@@ -1159,7 +1159,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā yīnwèi shēngbìng ér zhùyuàn",
         "compound_definition": "He is hospitalized because of illness.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 667,
@@ -1173,7 +1173,7 @@ var hskLevel2 = [
         "compound_pinyin": "Háizimen měi zhōu dōu yào shàng yī jié tǐyù kè",
         "compound_definition": "The children have a physical education class every week.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 668,
@@ -1187,7 +1187,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen zài tǐyù chǎng jìnxíng zúqiú bǐsài",
         "compound_definition": "We are having a soccer match on the sports field.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 669,
@@ -1201,7 +1201,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège chéngshì yǒu yī zuò dàxíng de tǐyù guǎn",
         "compound_definition": "This city has a large sports gymnasium.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 670,
@@ -1215,7 +1215,7 @@ var hskLevel2 = [
         "compound_pinyin": "Háizimen měi tiān dōu yǒu hěnduō zuòyè yào zuò",
         "compound_definition": "The children have a lot of homework to do every day.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 671,
@@ -1229,7 +1229,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè wèi zuòjiā yǐjīng chūbǎn le shí běn xiǎoshuō",
         "compound_definition": "This writer has published ten novels.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 672,
@@ -1243,7 +1243,7 @@ var hskLevel2 = [
         "compound_pinyin": "Xuéshēngmen xūyào měi zhōu xiě yī piān zuòwén",
         "compound_definition": "Students need to write a composition every week.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 673,
@@ -1257,7 +1257,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wéishēngsù zài shēntǐ zhōng yǒu zhòngyào de zuòyòng",
         "compound_definition": "Vitamins play an important role in the body.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 674,
@@ -1271,7 +1271,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège fāxiàn shǐ kēxuéjiāmen gǎibiàn le tāmen de lǐlùn",
         "compound_definition": "This discovery made scientists change their theories.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 675,
@@ -1285,7 +1285,7 @@ var hskLevel2 = [
         "compound_pinyin": "Qǐng zhèngquè shǐyòng zhège shèbèi",
         "compound_definition": "Please use this equipment correctly.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 676,
@@ -1299,7 +1299,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè zhǐshì yīgè lìzi, bùshì zhēnshí de qíngkuàng",
         "compound_definition": "This is just an example, not a real situation.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 677,
@@ -1313,7 +1313,7 @@ var hskLevel2 = [
         "compound_pinyin": "Yǒu hěnduō shuǐguǒ, lìrú píngguǒ, xiāngjiāo hé chéngzi",
         "compound_definition": "There are many fruits, such as apples, bananas, and oranges.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 678,
@@ -1327,7 +1327,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā gěi le wǒ hěnduō xuéxí de lìzi",
         "compound_definition": "He gave me many examples for study.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 679,
@@ -1341,7 +1341,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège shāngdiàn de wèizhi hěn biàn",
         "compound_definition": "The location of this store is very convenient.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 680,
@@ -1355,7 +1355,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè jiā diàn de dōngxi hěn piányí",
         "compound_definition": "The things in this store are very cheap.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 681,
@@ -1369,7 +1369,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ zuótiān jì le yī fēng xìn gěi nǐ",
         "compound_definition": "I sent you a letter yesterday.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 682,
@@ -1383,7 +1383,7 @@ var hskLevel2 = [
         "compound_pinyin": "Shǒujī shīqù le xìnhào",
         "compound_definition": "The mobile phone lost its signal.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 683,
@@ -1397,7 +1397,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā duì zìjǐ de chénggōng chōngmǎn xìnxīn",
         "compound_definition": "He is full of confidence in his success.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 684,
@@ -1411,7 +1411,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè fèn bàogào bāohán le zhòngyào de xìnxī",
         "compound_definition": "This report contains important information.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 685,
@@ -1425,7 +1425,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ wàngjì dài xiànjīn, dàn wǒ yǒu xìnyòngkǎ",
         "compound_definition": "I forgot to bring cash, but I have a credit card.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 686,
@@ -1439,7 +1439,7 @@ var hskLevel2 = [
         "compound_pinyin": "Dàozhe zǒu jìn fángjiān",
         "compound_definition": "Walk into the room backward.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 687,
@@ -1453,7 +1453,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ kěyǐ jiè yīxià nǐ de bǐ ma?",
         "compound_definition": "Can I borrow your pen for a moment?",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 688,
@@ -1467,7 +1467,7 @@ var hskLevel2 = [
         "compound_pinyin": "Fàngjià qījiān, wǒ jìhuà qù lǚxíng",
         "compound_definition": "During the vacation, I plan to travel.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 689,
@@ -1481,7 +1481,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā nǔlì gōngzuò, zuìzhōng zuòdào le tā de mùbiāo",
         "compound_definition": "He worked hard and finally achieved his goal.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 690,
@@ -1495,7 +1495,7 @@ var hskLevel2 = [
         "compound_pinyin": "Xuéhuì zuòfàn de jīběn zuòfǎ hěn zhòngyào",
         "compound_definition": "It's important to learn the basic methods of cooking.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 691,
@@ -1509,7 +1509,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ xǐhuān zuòfàn, yóuqí shì pēngrèn zhōngcān",
         "compound_definition": "I like cooking, especially Chinese dishes.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 692,
@@ -1523,7 +1523,7 @@ var hskLevel2 = [
         "compound_pinyin": "Dāng jiāotōngdēng biàn hóng shí, qǐng tíngxià chē",
         "compound_definition": "Please stop the car when the traffic light turns red.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 693,
@@ -1537,7 +1537,7 @@ var hskLevel2 = [
         "compound_pinyin": "Qǐng zài tíngchēchǎng tíng hǎo chēliàng",
         "compound_definition": "Please park the vehicle in the parking lot.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 694,
@@ -1551,7 +1551,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège gòuwù zhōngxīn yǒu yī gè dàxíng tíngchēchǎng",
         "compound_definition": "This shopping center has a large parking lot.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 695,
@@ -1565,7 +1565,7 @@ var hskLevel2 = [
         "compound_pinyin": "Jiànkāng yǐnshí duì shēntǐ yǒu hěnduō hǎochù",
         "compound_definition": "A healthy diet has many benefits for the body.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 696,
@@ -1579,7 +1579,7 @@ var hskLevel2 = [
         "compound_pinyin": "Měitiān duànliàn yǒuzhù yú bǎochí shēntǐ jiànkāng",
         "compound_definition": "Exercising every day helps maintain good health.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 697,
@@ -1593,7 +1593,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā xiàng tā de māmā yīyàng měilì",
         "compound_definition": "She is as beautiful as her mother.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 698,
@@ -1607,7 +1607,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā nǔlì kèfú le shēnghuó zhōng de kùnnán",
         "compound_definition": "He worked hard to overcome the difficulties in life.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 699,
@@ -1621,7 +1621,7 @@ var hskLevel2 = [
         "compound_pinyin": "Qǐng zài rùkǒu chù dēngjì nǐ de xìnxī",
         "compound_definition": "Please register your information at the entrance.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 700,
@@ -1635,7 +1635,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè shì yīgè shāngchǎng de rùkǒu",
         "compound_definition": "This is the entrance to a shopping mall.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 701,
@@ -1649,7 +1649,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen xūyào quántǐ hézuò cáinéng wánchéng rènwù",
         "compound_definition": "We need the whole team to cooperate to complete the task.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 702,
@@ -1663,7 +1663,7 @@ var hskLevel2 = [
         "compound_pinyin": "Quántǐ jīròu xūyào duànliàn",
         "compound_definition": "The whole body muscles need exercise.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 703,
@@ -1677,7 +1677,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège zhèngcè zài quánguó fānwéi nèi shíshī",
         "compound_definition": "This policy is implemented nationwide.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 704,
@@ -1691,7 +1691,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen quánjiā jìhuà qù lǚxíng",
         "compound_definition": "Our whole family plans to go on a trip.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 705,
@@ -1705,7 +1705,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège xiàngmù quánnián dōu zài jìnxíng",
         "compound_definition": "This project is ongoing throughout the whole year.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 706,
@@ -1719,7 +1719,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè zhǒng yùndòng kěyǐ duànliàn quánshēn jīròu",
         "compound_definition": "This exercise can work out the muscles of the whole body.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 707,
@@ -1733,7 +1733,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ yǐjīng kàn wán le zhè bù diànyǐng de quánbù nèiróng",
         "compound_definition": "I have already watched the entire content of this movie.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 708,
@@ -1747,7 +1747,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè shì yīgè gōnggòng chǎngsuǒ, qǐng bǎochí ānjìng",
         "compound_definition": "This is a public place, please keep quiet.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 709,
@@ -1761,7 +1761,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ měitiān dōu chéngzuò gōngjiāochē shàngbān",
         "compound_definition": "I take the bus to work every day.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 710,
@@ -1775,7 +1775,7 @@ var hskLevel2 = [
         "compound_pinyin": "Gōnggòngqìchē shì chéngshì zhōng chángjiàn de jiāotōng gōngjù zhī yī",
         "compound_definition": "Public buses are one of the common means of transportation in the city.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 711,
@@ -1789,7 +1789,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ zài yī jiā dà gōngsī gōngzuò",
         "compound_definition": "I work for a large company.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 712,
@@ -1803,7 +1803,7 @@ var hskLevel2 = [
         "compound_pinyin": "Chūntiān shì qù gōngyuán sànbù de hǎo shíguāng",
         "compound_definition": "Spring is a good time to take a walk in the park.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 713,
@@ -1817,7 +1817,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zài bǐsài zhōng yào bǎochí gōngpíng jìngzhēng",
         "compound_definition": "Fair competition should be maintained in the game.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 714,
@@ -1831,7 +1831,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège xiāngzi yǒu shí gōngjīn zhòng",
         "compound_definition": "This suitcase weighs ten kilograms.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 715,
@@ -1845,7 +1845,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè tiáo gōnglù tōngwǎng chéngshì de zhōngxīn",
         "compound_definition": "This highway leads to the center of the city.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 716,
@@ -1859,7 +1859,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen lí mùdì de hái yǒu wǔshí gōnglǐ",
         "compound_definition": "We are still fifty kilometers away from the destination.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 717,
@@ -1873,7 +1873,7 @@ var hskLevel2 = [
         "compound_pinyin": "Dàjiā gòngtóng nǔlì kěyǐ qǔdé gèng hǎo de chéngjī",
         "compound_definition": "Working together, we can achieve better results.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 718,
@@ -1887,7 +1887,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā zǒngshì guānxīn biérén de gǎnshòu",
         "compound_definition": "He always cares about other people's feelings.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 719,
@@ -1901,7 +1901,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǎnshàng shuìjiào qián zuìhǎo guānjī",
         "compound_definition": "It's best to turn off your phone before going to bed at night.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 720,
@@ -1915,7 +1915,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège xiàngmù qǔdé le hěn dà de chénggōng, duìyú gōngsī lái shuō shì qítā xiàngmù zhōng zuì zhòngyào de yīgè",
         "compound_definition": "This project has achieved great success and is the most important one among its other projects for the company.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 721,
@@ -1929,7 +1929,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège lánzi lǐ yǒu hěnduō shuǐguǒ, qízhōng bāokuò píngguǒ, chéngzi hé xiāngjiāo",
         "compound_definition": "There are many fruits in this basket, including apples, oranges, and bananas among them.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 722,
@@ -1943,7 +1943,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen yǐjīng jiějué le zhège wèntí, xiànzài zhǐ xūyào jiějué qítā yīxiē xiǎo wèntí",
         "compound_definition": "We have already solved this problem, now we just need to address some other minor issues.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 723,
@@ -1957,7 +1957,7 @@ var hskLevel2 = [
         "compound_pinyin": "Xuéxí yī mén xīn yǔyán shí, diǎn shì yīgè zhòngyào de gōngjù",
         "compound_definition": "A dictionary is an important tool when learning a new language.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 724,
@@ -1971,7 +1971,7 @@ var hskLevel2 = [
         "compound_pinyin": "Yǎng chǒngwù xūyào nàixīn hé zérènxīn",
         "compound_definition": "Raising pets requires patience and a sense of responsibility.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 725,
@@ -1985,7 +1985,7 @@ var hskLevel2 = [
         "compound_pinyin": "Dōngtiān shì jiébīng hé jiàngxuě de jìjié",
         "compound_definition": "Winter is the season of freezing and snowfall.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 726,
@@ -1999,7 +1999,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zài dōngtiān, wǒ xǐhuān hē rè qiǎokèlì",
         "compound_definition": "In winter, I like to drink hot chocolate.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 727,
@@ -2013,7 +2013,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zài kēxué shíyàn zhōng, zhǔnquè de cèliáng shì zhìguān zhòngyào de",
         "compound_definition": "In scientific experiments, accurate measurements are crucial.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 728,
@@ -2027,7 +2027,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tiānqì liángshuǎng, shìhé hùwài huódòng",
         "compound_definition": "The weather is cool and suitable for outdoor activities.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 729,
@@ -2041,7 +2041,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wàimiàn de fēng shǐde tiānqì géwài liángkuai",
         "compound_definition": "The wind outside makes the weather exceptionally cool.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 730,
@@ -2055,7 +2055,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen míngtiān yī zǎo jiù yào chūfā qù lǚxíng",
         "compound_definition": "We will set out for the trip early tomorrow morning.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 731,
@@ -2069,7 +2069,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zài jǐnjí qíngkuàng xià, qǐng xùnsù zhǎodào chūkǒu",
         "compound_definition": "In case of an emergency, please quickly find the exit.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 732,
@@ -2083,7 +2083,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā jìhuà míngnián chūguó liúxué",
         "compound_definition": "She plans to go abroad for further studies next year.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 733,
@@ -2097,7 +2097,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zài bǐsài zhōng, tā tūrán chūxiàn zài qiúchǎng shàng",
         "compound_definition": "In the game, he suddenly appeared on the field.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 734,
@@ -2111,7 +2111,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ zài Shànghǎi chūshēng, ránhòu bān dàole Běijīng",
         "compound_definition": "I was born in Shanghai and later moved to Beijing.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 735,
@@ -2125,7 +2125,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen kěyǐ chūzū zhè jiān fángzi gěi xuéshēng",
         "compound_definition": "We can rent out this house to students.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 736,
@@ -2139,7 +2139,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zài shìqū, nǐ kěyǐ suíshí jiào yī liàng chūzūchē",
         "compound_definition": "In the city, you can hail a taxi at any time.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 737,
@@ -2153,7 +2153,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen míngtiān yī zǎo jiù yào chūmén cānjiā huódòng",
         "compound_definition": "We will go out early tomorrow morning to participate in the event.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 738,
@@ -2167,7 +2167,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā jīntiān xiàwǔ chūyuàn, yǐjīng kāngfù le",
         "compound_definition": "She will be discharged from the hospital this afternoon; she has recovered.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 739,
@@ -2181,7 +2181,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tāmen jīngguò yī duàn shíjiān fēnkāi hòu, chóngxīn kāishǐ le yǒuyì",
         "compound_definition": "After being separated for some time, they rekindled their friendship.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 740,
@@ -2195,7 +2195,7 @@ var hskLevel2 = [
         "compound_pinyin": "Kǎoshì jiéshù hòu, wǒ kàn dàole wǒ de fēnshù",
         "compound_definition": "After the exam, I saw my score.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 741,
@@ -2209,7 +2209,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège cài zhǐ xūyào zhǔ wǔ fēnzhōng jiù kěyǐ le",
         "compound_definition": "This dish only needs to be cooked for five minutes.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 742,
@@ -2223,7 +2223,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ xǐhuān zài hú shàng huá chuán",
         "compound_definition": "I like to row a boat on the lake.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 743,
@@ -2237,7 +2237,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā gāng zǒu chū fángjiān jiù pèngdàole tā",
         "compound_definition": "He just walked out of the room and bumped into her.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 744,
@@ -2251,7 +2251,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā gānggāng líkāi, nǐ jiù lái le",
         "compound_definition": "He just left, and you arrived.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 745,
@@ -2265,7 +2265,7 @@ var hskLevel2 = [
         "compound_pinyin": "Gāngcái wǒ kàndào tā zài chāoshì",
         "compound_definition": "I saw him at the supermarket just now.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 746,
@@ -2279,7 +2279,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège jìhuà duì wǒmen yǒu hěnduō lìchù",
         "compound_definition": "This plan has many advantages for us.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 747,
@@ -2293,7 +2293,7 @@ var hskLevel2 = [
         "compound_pinyin": "Chūntiān dàochù dōu shì shèngkāi de huāduǒ",
         "compound_definition": "In spring, flowers are blooming everywhere.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 748,
@@ -2307,7 +2307,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā xǐhuān zài mùtou shàng kè huà gèzhǒng tú'àn",
         "compound_definition": "He likes to carve various patterns on wood.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 749,
@@ -2321,7 +2321,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen qiánnián yīqǐ dùguò le yīgè nánwàng de jiàqī",
         "compound_definition": "We spent an unforgettable holiday together the year before last.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 750,
@@ -2335,7 +2335,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè xiàng gōngchéng xūyào dàliàng de rénlì hé wùlì",
         "compound_definition": "This project requires a lot of manpower and material resources.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 751,
@@ -2349,7 +2349,7 @@ var hskLevel2 = [
         "compound_pinyin": "Qǐng nǐ bāng wǒ bàn yīxià zhè jiàn shì",
         "compound_definition": "Please help me handle this matter.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 752,
@@ -2363,7 +2363,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ de bàngōngshì zài shì zhōngxīn de yī zuò gāolóu lǐ",
         "compound_definition": "My office is in a tall building in the city center.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 753,
@@ -2377,7 +2377,7 @@ var hskLevel2 = [
         "compound_pinyin": "Yùdào wèntí shí, wǒmen yào xiǎng bànfǎ jiějué",
         "compound_definition": "When faced with a problem, we need to figure out a solution.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 754,
@@ -2391,7 +2391,7 @@ var hskLevel2 = [
         "compound_pinyin": "Cài lǐ jiā yīdiǎn yán huì gèng hào chī",
         "compound_definition": "Adding a little salt to the dish will make it tastier.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 755,
@@ -2405,7 +2405,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zài kùnnan shí, péngyǒumen zǒngshì gǔlì bǐcǐ jiāyóu",
         "compound_definition": "In difficult times, friends always encourage each other to keep going.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 756,
@@ -2419,7 +2419,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège rènwu xūyào zhuānzhù hé nàixīn",
         "compound_definition": "This task requires focus and patience.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 757,
@@ -2433,7 +2433,7 @@ var hskLevel2 = [
         "compound_pinyin": "Dòngwùyuán shì háizi men xǐhuān de dìfāng zhī yī",
         "compound_definition": "The zoo is one of the favorite places for children.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 758,
@@ -2447,7 +2447,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen jìhuà xià zhōu qù dòngwùyuán yóuwàn",
         "compound_definition": "We plan to visit the zoo next week for fun.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 759,
@@ -2461,7 +2461,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zài kùnnan shí, hùxiāng zhù yī bì zhī lì hěn zhòngyào",
         "compound_definition": "In difficult times, it's important to help each other out.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 760,
@@ -2475,7 +2475,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wèile shíxiàn mèngxiǎng, tā yīzhí zài nǔlì gōngzuò",
         "compound_definition": "In order to achieve his dreams, he has been working hard all the time.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 761,
@@ -2489,7 +2489,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tōngguò nǔlì, tā chénggōng de shíxiàn le zìjǐ de mùbiāo",
         "compound_definition": "Through hard work, he successfully achieved his goals.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 762,
@@ -2503,7 +2503,7 @@ var hskLevel2 = [
         "compound_pinyin": "Běifāng de dōngtiān tōngcháng bǐ Nánfāng gèng hánlěng",
         "compound_definition": "Winters in the north are usually colder than in the south.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 763,
@@ -2517,7 +2517,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège xiāoxī ràng wǒ gǎndào shífēn jīngyà",
         "compound_definition": "This news surprised me very much.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 764,
@@ -2531,7 +2531,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā pǎobù shí měi tiān dōu yào pǎo shàng qiān mǐ",
         "compound_definition": "He runs over a thousand meters every day when jogging.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 765,
@@ -2545,7 +2545,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège xiāngzi zhòng le shí qiānkè",
         "compound_definition": "This box weighs ten kilograms.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 766,
@@ -2559,7 +2559,7 @@ var hskLevel2 = [
         "compound_pinyin": "Xiàwǔ gōngzuò qián, wǒ xǐhuān wǔshuì yīhuìr",
         "compound_definition": "Before work in the afternoon, I like to take a nap.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 767,
@@ -2573,7 +2573,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen yīqǐ qù fùjìn de cānguǎn chī wǔcān",
         "compound_definition": "Let's go to a nearby restaurant for lunch together.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 768,
@@ -2587,7 +2587,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā bànyè xǐng lái, fāxiàn wū wài xiàzhe yǔ",
         "compound_definition": "He woke up in the middle of the night and found it was raining outside.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 769,
@@ -2601,7 +2601,7 @@ var hskLevel2 = [
         "compound_pinyin": "Qǐng bǎ zhàngdān gěi wǒ, wǒ lái fùqián",
         "compound_definition": "Please give me the bill; I'll pay.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 770,
@@ -2615,7 +2615,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ de gōngzuò dānwèi zài shì zhōngxīn",
         "compound_definition": "My workplace is in the city center.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 771,
@@ -2629,7 +2629,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā zài jiē shàng tān wèi shàng mài shuǐguǒ",
         "compound_definition": "He sells fruits at a stall on the street.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 772,
@@ -2643,7 +2643,7 @@ var hskLevel2 = [
         "compound_pinyin": "Nánfāng de qìhòu bǐ běifāng wēnnuǎn",
         "compound_definition": "The climate in the south is warmer than in the north.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 773,
@@ -2657,7 +2657,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège chéngshì de miànjī zhàndì hěn dà",
         "compound_definition": "This city occupies a large area.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 774,
@@ -2671,7 +2671,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ wàngjì dài wǒ de kǎ le, bùnéng qǔqián le",
         "compound_definition": "I forgot to bring my card; I can't withdraw money now.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 775,
@@ -2685,7 +2685,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè jiā gōngsī yìnzhì le yī pī xīn de xuānchuán cè",
         "compound_definition": "The company printed a batch of new promotional brochures.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 776,
@@ -2699,7 +2699,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè shì yī fú yuánbǎn yóuhuà",
         "compound_definition": "This is an original oil painting.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 777,
@@ -2713,7 +2713,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā chídào de yuányīn shì jiāotōng dǔsè",
         "compound_definition": "The reason for his lateness is traffic congestion.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 778,
@@ -2727,7 +2727,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā de yuánlái jìhuà shì qù běijīng",
         "compound_definition": "His original plan was to go to Beijing.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 779,
@@ -2741,7 +2741,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ juédìng cānjiā zhège bǐsài",
         "compound_definition": "I've decided to participate in this competition.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 780,
@@ -2755,7 +2755,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā měi nián dōu huì cānjiā zhège huódòng",
         "compound_definition": "She participates in this event every year.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 781,
@@ -2769,7 +2769,7 @@ var hskLevel2 = [
         "compound_pinyin": "Míngtiān wǒmen jìhuà qù cānguān bówùguǎn",
         "compound_definition": "Tomorrow, we plan to visit the museum.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 782,
@@ -2783,7 +2783,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zuótiān xiàyǔ le, jīntiān yòu xiàyǔ",
         "compound_definition": "It rained yesterday, and it's raining again today.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 783,
@@ -2797,7 +2797,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège chéngshì de rénmen zǒng shì hěn yǒuhǎo",
         "compound_definition": "The people in this city are always very friendly.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 784,
@@ -2811,7 +2811,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ huì fā yī fēng gǎnxiè xìn gěi nǐ",
         "compound_definition": "I will send you a thank-you letter.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 785,
@@ -2825,7 +2825,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ zài túshū guǎn fāxiàn le yī běn yǒuqù de shū",
         "compound_definition": "I discovered an interesting book at the library.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 786,
@@ -2839,7 +2839,7 @@ var hskLevel2 = [
         "compound_pinyin": "Qǐng dào guìtái qǔ nǐ de xínglǐ",
         "compound_definition": "Please go to the counter to take your luggage.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 787,
@@ -2853,7 +2853,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā nǔlì gōngzuò, zhōngyú qǔdé le chénggōng",
         "compound_definition": "He worked hard and finally obtained success.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 788,
@@ -2867,7 +2867,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen yīnggāi zūnzhòng bìng shòu rén zūnjìng",
         "compound_definition": "We should respect and be respected by others.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 789,
@@ -2881,7 +2881,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā shòudào le xǔduō rén de guānzhù hé zànyáng",
         "compound_definition": "He received a lot of attention and praise from many people.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 790,
@@ -2895,7 +2895,7 @@ var hskLevel2 = [
         "compound_pinyin": "Shēnghuó zhōng jīngcháng huì yǒu biànhuà",
         "compound_definition": "There are often changes in life.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 791,
@@ -2909,7 +2909,7 @@ var hskLevel2 = [
         "compound_pinyin": "Shíjiān guò dé hěn kuài, háizi men yǐjīng biànchéng le chéngniánrén",
         "compound_definition": "Time flies, and the children have become adults.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 792,
@@ -2923,7 +2923,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè shì yī jù hěn yǒu shēnyì de huà",
         "compound_definition": "This is a very meaningful sentence.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 793,
@@ -2937,7 +2937,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè piān wénzhāng yǒu hěnduō cháng jùzi",
         "compound_definition": "This article has many long sentences.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 794,
@@ -2951,7 +2951,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ zhī chī le yī kuài dàngāo",
         "compound_definition": "I only ate one piece of cake.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 795,
@@ -2965,7 +2965,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zài zhè zhǒng qíngkuàng xià, wǒmen zhǐnéng děngdài",
         "compound_definition": "In this situation, we can only wait.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 796,
@@ -2979,7 +2979,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhǐyào nǐ nǔlì, jiù yīdìng huì chénggōng",
         "compound_definition": "As long as you work hard, you will definitely succeed.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 797,
@@ -2993,7 +2993,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège zhíwù jiàozuò tiěshù",
         "compound_definition": "This plant is called the iron tree.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 798,
@@ -3007,7 +3007,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè jiàn shì kě shì gè dà wèntí",
         "compound_definition": "This is a big problem.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 799,
@@ -3021,7 +3021,7 @@ var hskLevel2 = [
         "compound_pinyin": "Nǐ kěyǐ suíshí gěi wǒ dǎ diànhuà",
         "compound_definition": "You can call me anytime.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 800,
@@ -3035,7 +3035,7 @@ var hskLevel2 = [
         "compound_pinyin": "Nà chǎng shìgù zhēn de hěn kěpà",
         "compound_definition": "That accident was really awful.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 801,
@@ -3049,7 +3049,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ xiǎng qù, kěshì wǒ yǒu qítā ānpái",
         "compound_definition": "I want to go, but I have other plans.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 802,
@@ -3063,7 +3063,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè zhī xiǎo māo zhēn de hěn kě'ài",
         "compound_definition": "This little cat is really cute.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 803,
@@ -3077,7 +3077,7 @@ var hskLevel2 = [
         "compound_pinyin": "Míngtiān kěnéng huì xiàyǔ",
         "compound_definition": "It might rain tomorrow.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 804,
@@ -3091,7 +3091,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè jiā gōngsī de zǒng sījī hěn yǒu jīngyàn",
         "compound_definition": "The chief driver of this company is very experienced.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 805,
@@ -3105,7 +3105,7 @@ var hskLevel2 = [
         "compound_pinyin": "Qǐng bǎ dìzhǐ gàosù sījī",
         "compound_definition": "Please tell the driver the address.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 806,
@@ -3119,7 +3119,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè shuāng xié hé bù héshì?",
         "compound_definition": "Do these shoes fit?",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 807,
@@ -3133,7 +3133,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège chǐcùn de yīfú hěn héshì",
         "compound_definition": "This size of clothing is very suitable.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 808,
@@ -3147,7 +3147,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ de tóngshì dōu hěn yǒuhǎo",
         "compound_definition": "My colleagues are all very friendly.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 809,
@@ -3161,7 +3161,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen kěyǐ tóngshí zuò liǎng jiàn shì",
         "compound_definition": "We can do two things at the same time.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 810,
@@ -3175,7 +3175,7 @@ var hskLevel2 = [
         "compound_pinyin": "Jǐnguǎn wǒmen hěn bùtóng, dàn wǒmen duì xuéxí de rèqíng shì tóngyàng de",
         "compound_definition": "Although we are very different, our enthusiasm for learning is the same.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 811,
@@ -3189,7 +3189,7 @@ var hskLevel2 = [
         "compound_pinyin": "Qǐng zài míngdān shàng qiānzì",
         "compound_definition": "Please sign on the list.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 812,
@@ -3203,7 +3203,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège chǎnpǐn de zhèngshì míngchēng shì shénme?",
         "compound_definition": "What is the official name of this product?",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 813,
@@ -3217,7 +3217,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ xiān líkāi, nǐmen hòulái gēn shàng",
         "compound_definition": "I'll leave first, and you catch up later.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 814,
@@ -3231,7 +3231,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā cháozhe shān de fāngxiàng zǒuqù",
         "compound_definition": "He walked towards the direction of the mountain.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 815,
@@ -3245,7 +3245,7 @@ var hskLevel2 = [
         "compound_pinyin": "Měi gè xuéshēng dōu yīnggāi rènzhēn tīngjiǎng",
         "compound_definition": "Every student should listen attentively to the lecture.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 816,
@@ -3259,7 +3259,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ tīngshuō nǐ yào bān dào xīn jiā le",
         "compound_definition": "I heard you're moving to a new house.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 817,
@@ -3273,7 +3273,7 @@ var hskLevel2 = [
         "compound_pinyin": "Fēng chuī de hěn dà, jìde chuān hòu yī diǎn",
         "compound_definition": "The wind is blowing hard, remember to wear something thick.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 818,
@@ -3287,7 +3287,7 @@ var hskLevel2 = [
         "compound_pinyin": "Yī zhōu yǒu qī tiān",
         "compound_definition": "There are seven days in a week.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 819,
@@ -3301,7 +3301,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen gōngsī míngtiān yào qìngzhù chénglì shí zhōunián",
         "compound_definition": "Our company will celebrate its tenth anniversary tomorrow.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 820,
@@ -3315,7 +3315,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhōumò nǐ yǒu shénme jìhuà?",
         "compound_definition": "What are your plans for the weekend?",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 821,
@@ -3329,7 +3329,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè dào cài yǒu yī zhǒng tèbié de wèidào",
         "compound_definition": "This dish has a special taste.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 822,
@@ -3343,7 +3343,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège miànbāo de wèidào hěn hǎowén",
         "compound_definition": "The bread has a good smell.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 823,
@@ -3357,7 +3357,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zánmen míngtiān yīqǐ qù ba",
         "compound_definition": "Let's go together tomorrow.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 824,
@@ -3371,7 +3371,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zánmen yīnggāi yīqǐ qìngzhù",
         "compound_definition": "We should celebrate together.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 825,
@@ -3385,7 +3385,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège yīnxiǎng xiàoguǒ hěn hǎo",
         "compound_definition": "The sound system has a good effect.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 826,
@@ -3399,7 +3399,7 @@ var hskLevel2 = [
         "compound_pinyin": "Bùyào kū, yīqiè dōu huì hǎo de",
         "compound_definition": "Don't cry, everything will be okay.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 827,
@@ -3413,7 +3413,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè jiā diàn de lǎobǎn shì yī wèi chénggōng de shāngrén",
         "compound_definition": "The owner of this shop is a successful merchant.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 828,
@@ -3427,7 +3427,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen xūyào shāngliang yīxià xià yī bù de jìhuà",
         "compound_definition": "We need to discuss the next steps of the plan.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 829,
@@ -3441,7 +3441,7 @@ var hskLevel2 = [
         "compound_pinyin": "Ā, wǒ míngbái le",
         "compound_definition": "Ah, I understand now.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 830,
@@ -3455,7 +3455,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wèi, qǐngwèn nǐ shì shéi?",
         "compound_definition": "Hello, may I ask who you are?",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 831,
@@ -3469,7 +3469,7 @@ var hskLevel2 = [
         "compound_pinyin": "Bié hǎn le, wǒ tīng de jiàn nǐ",
         "compound_definition": "Stop shouting, I can hear you.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 832,
@@ -3483,7 +3483,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā yǒu yī gè tián tián de zuǐ",
         "compound_definition": "He has a sweet mouth.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 833,
@@ -3497,7 +3497,7 @@ var hskLevel2 = [
         "compound_pinyin": "Míngnián wǒ jìhuà huíguó",
         "compound_definition": "I plan to return to my home country next year.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 834,
@@ -3511,7 +3511,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen de huìyì qǔxiāole, yīnwèi tiānqì yuányīn",
         "compound_definition": "Our meeting was canceled due to the weather.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 835,
@@ -3525,7 +3525,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā méi lái, yīnwèi tā shēngbìng le",
         "compound_definition": "She didn't come because she's sick.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 836,
@@ -3539,7 +3539,7 @@ var hskLevel2 = [
         "compound_pinyin": "Nà gè gōngyuán yǒu hěnduō piàoliang de huā",
         "compound_definition": "That park has many beautiful flowers.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 837,
@@ -3553,7 +3553,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè shì yī jiā guójì gōngsī",
         "compound_definition": "This is an international company.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 838,
@@ -3567,7 +3567,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ zài shǒujī lǐ bǎocúnle hěnduō měilì de túpiàn",
         "compound_definition": "I have saved many beautiful pictures in my phone.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 839,
@@ -3581,7 +3581,7 @@ var hskLevel2 = [
         "compound_pinyin": "Dìqiú shì wǒmen jūzhù de xīngqiú",
         "compound_definition": "Earth is the planet we live on.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 840,
@@ -3595,7 +3595,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ měitiān dōu chéngzuò dìtiě shàngbān",
         "compound_definition": "I take the subway to work every day.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 841,
@@ -3609,7 +3609,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zuìjìn xīn kāile yī zuò dìtiězhàn",
         "compound_definition": "A new subway station opened recently.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 842,
@@ -3623,7 +3623,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen yīnggāi yǔ huàirén bǎochí jùlí",
         "compound_definition": "We should keep a distance from bad people.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 843,
@@ -3637,7 +3637,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè zhǒng xíngwéi kěnéng dài lái yīxiē huàichù",
         "compound_definition": "This behavior may bring some disadvantages.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 844,
@@ -3651,7 +3651,7 @@ var hskLevel2 = [
         "compound_pinyin": "Jiàotáng lǐ de yīnyuè zhēn měi",
         "compound_definition": "The music in the hall is beautiful.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 845,
@@ -3665,7 +3665,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen gěi fángzi chóngxīn shuāle yīxià qiáng",
         "compound_definition": "We repainted the walls of the house.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 846,
@@ -3679,7 +3679,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège dìfāng chōngmǎnle huānkuài de shēngyīn",
         "compound_definition": "This place is filled with cheerful sounds.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 847,
@@ -3693,7 +3693,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā yǒu yī zhǒng dútè ér yuè'ěr de shēngyīn",
         "compound_definition": "She has a unique and pleasant voice.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 848,
@@ -3707,7 +3707,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè shì yīgè ānjìng de chùsuǒ",
         "compound_definition": "This is a quiet place.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 849,
@@ -3721,7 +3721,7 @@ var hskLevel2 = [
         "compound_pinyin": "Qǐng nǐ zài fùshù yībiàn",
         "compound_definition": "Please repeat it again.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 850,
@@ -3735,7 +3735,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ xūyào huā yīxiē shíjiān fùxí zhège zhīshìdiǎn",
         "compound_definition": "I need to spend some time reviewing this concept.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 851,
@@ -3749,7 +3749,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ xǐhuān xiàtiān de yángguāng hé hǎitān",
         "compound_definition": "I like the sunshine and beaches in the summer.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 852,
@@ -3763,7 +3763,7 @@ var hskLevel2 = [
         "compound_pinyin": "Xiàtiān shì yīgè chūyóu de hǎo jìjié",
         "compound_definition": "Summer is a good season for traveling.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 853,
@@ -3777,7 +3777,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ jīngcháng diǎn wàimài, yīnwèi tài máng le",
         "compound_definition": "I often order takeout because I'm too busy.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 854,
@@ -3791,7 +3791,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā láizì wàidì, duì zhèlǐ de huánjìng bù tài shúxī",
         "compound_definition": "He comes from another place and is not very familiar with the environment here.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 855,
@@ -3805,7 +3805,7 @@ var hskLevel2 = [
         "compound_pinyin": "Nǐ yǐjīng děng le wǒ duōjiǔ le?",
         "compound_definition": "How long have you been waiting for me?",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 856,
@@ -3819,7 +3819,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā de biǎoyǎn zhēnshi tài jīngcǎi le, jiǎnzhí bù zhīdào zěnme xíngróng le, duōme bàng!",
         "compound_definition": "His performance was so wonderful that I don't know how to describe it. It's just fantastic!",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 857,
@@ -3833,7 +3833,7 @@ var hskLevel2 = [
         "compound_pinyin": "Jīntiān tiānqì duōyún, kěnéng huì xiàyǔ",
         "compound_definition": "The weather is cloudy today, and it may rain.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 858,
@@ -3847,7 +3847,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zài zhège tuánduì lǐ, duōshù chéngyuán dōu shì xīnrén",
         "compound_definition": "In this team, the majority of the members are newcomers.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 859,
@@ -3861,7 +3861,7 @@ var hskLevel2 = [
         "compound_pinyin": "Yèwǎn de xīngkōng hěn měilì",
         "compound_definition": "The night sky is beautiful.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 860,
@@ -3875,7 +3875,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ xǐhuān zài yèlǐ kàn xīngxīng",
         "compound_definition": "I like to watch the stars at night.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 861,
@@ -3889,7 +3889,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè yī wǎn fàn duì wǒ lái shuō gòu le",
         "compound_definition": "This bowl of rice is enough for me.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 862,
@@ -3903,7 +3903,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège yóulèyuán fēnwéi értóng qū hé dàrén qū",
         "compound_definition": "This amusement park is divided into a children's area and an adult area.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 863,
@@ -3917,7 +3917,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā dàshēng hǎn chūle zìjǐ de xīnlǐhuà",
         "compound_definition": "He shouted out his feelings loudly.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 864,
@@ -3931,7 +3931,7 @@ var hskLevel2 = [
         "compound_pinyin": "Dàduōshù rén dōu tóngyì zhège juédìng",
         "compound_definition": "The majority of people agree with this decision.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 865,
@@ -3945,7 +3945,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè cì hézuò wèi wǒmen de xiàngmù zuòchūle dàdà de gòngxiàn",
         "compound_definition": "This collaboration made a significant contribution to our project.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 866,
@@ -3959,7 +3959,7 @@ var hskLevel2 = [
         "compound_pinyin": "Gǎnxiè dàjiā de zhīchí hé nǔlì",
         "compound_definition": "Thank you, everyone, for your support and efforts.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 867,
@@ -3973,7 +3973,7 @@ var hskLevel2 = [
         "compound_pinyin": "Qǐngwèn nǐ xiǎng yào duō dà hào de yīfú?",
         "compound_definition": "May I ask what size of clothes you would like?",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 868,
@@ -3987,7 +3987,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ xǐhuān zhàn zài dàhǎi biān, gǎnshòu hǎifēng",
         "compound_definition": "I like standing by the sea and feeling the sea breeze.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 869,
@@ -4001,7 +4001,7 @@ var hskLevel2 = [
         "compound_pinyin": "Dàzìrán de měilì ràng rén jīngtàn bù yǐ",
         "compound_definition": "The beauty of nature is breathtaking.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 870,
@@ -4015,7 +4015,7 @@ var hskLevel2 = [
         "compound_pinyin": "Dōngtiān wǒ jīngcháng chuān yī jiàn hòu hòu de dàyī",
         "compound_definition": "In winter, I often wear a thick overcoat.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 871,
@@ -4029,7 +4029,7 @@ var hskLevel2 = [
         "compound_pinyin": "Dàbùfèn tóngxué dōu duì zhège wèntí gǎndào kùnhuò",
         "compound_definition": "The majority of students are confused about this issue.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 872,
@@ -4043,7 +4043,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège gōngchǎng shēngchǎnle dàliàng de chǎnpǐn",
         "compound_definition": "This factory produces a large quantity of products.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 873,
@@ -4057,7 +4057,7 @@ var hskLevel2 = [
         "compound_pinyin": "Nà zuò zhuāngyuán yǒu yī shàn gǔlǎo de dàmén",
         "compound_definition": "The estate has an old entrance gate.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 874,
@@ -4071,7 +4071,7 @@ var hskLevel2 = [
         "compound_pinyin": "Yèwǎn, xīngxīng diǎndiǎn guà zài tiānshàng",
         "compound_definition": "In the evening, stars twinkle in the sky.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 875,
@@ -4085,7 +4085,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ de tàitai shì yī wèi chūsè de chúshī",
         "compound_definition": "My wife is an excellent cook.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 876,
@@ -4099,7 +4099,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tàiyáng shēngqǐ de shíhòu, xīn de yītiān kāishǐle",
         "compound_definition": "When the sun rises, a new day begins.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 877,
@@ -4113,7 +4113,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ mōle yīxià wǒ de tóu, fāxiàn yǒudiǎn rè",
         "compound_definition": "I touched my head and found it a bit hot.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 878,
@@ -4127,7 +4127,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā de tóufǎ yòu zhǎng yòu hēi",
         "compound_definition": "Her hair is long and black.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 879,
@@ -4141,7 +4141,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ mǎile yī tào xīn de jiājù",
         "compound_definition": "I bought a new set of furniture.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 880,
@@ -4155,7 +4155,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen hǎojiǔ méi jiànmiàn le, zuìjìn máng ma?",
         "compound_definition": "It's been a long time since we last met. Have you been busy lately?",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 881,
@@ -4169,7 +4169,7 @@ var hskLevel2 = [
         "compound_pinyin": "Yùdào hǎoshì yào jíshí fēnxiǎng gěi dàjiā",
         "compound_definition": "When you encounter good things, share them with everyone in a timely manner.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 882,
@@ -4183,7 +4183,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā shì yīgè xīndì shànliáng de hǎorén",
         "compound_definition": "She is a kind-hearted and good person.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 883,
@@ -4197,7 +4197,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tiānkōng zhōng de yún hǎoxiàng yī fú huà",
         "compound_definition": "The clouds in the sky seem like a painting.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 884,
@@ -4211,7 +4211,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège jìhuà duì wǒmen yǒu hěnduō hǎochù",
         "compound_definition": "This plan has many benefits for us.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 885,
@@ -4225,7 +4225,7 @@ var hskLevel2 = [
         "compound_pinyin": "Jīntiān yǒu hǎoduō shìqing yào zuò",
         "compound_definition": "There are many things to do today.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 886,
@@ -4239,7 +4239,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā de xiàoróng rú yángguāng bān wēnnuǎn",
         "compound_definition": "His smile is warm like sunshine.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 887,
@@ -4253,7 +4253,7 @@ var hskLevel2 = [
         "compound_pinyin": "Rúguǒ xiàyǔ, wǒmen jiù bù qù jiāoyóule",
         "compound_definition": "If it rains, we won't go on an outing.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 888,
@@ -4267,7 +4267,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ de xìng shì wáng, nǐ ne?",
         "compound_definition": "My surname is Wang, what about yours?",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 889,
@@ -4281,7 +4281,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zài zhè zhāng biǎogé shàng tiánxiě nǐ de xìngmíng",
         "compound_definition": "Fill in your full name on this form.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 890,
@@ -4295,7 +4295,7 @@ var hskLevel2 = [
         "compound_pinyin": "Xuéxí zhōng chángcháng yòngdào zìdiǎn cházhǎo xīncí",
         "compound_definition": "In studying, dictionaries are often used to look up new words.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 891,
@@ -4309,7 +4309,7 @@ var hskLevel2 = [
         "compound_pinyin": "Yī xuéqī tōngcháng bāohán liǎng gè xuéqī",
         "compound_definition": "One academic year usually includes two semesters.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 892,
@@ -4323,7 +4323,7 @@ var hskLevel2 = [
         "compound_pinyin": "Kàn dào yī zhī xiǎo māo, tā zhèng mángzhe wánshuǎ",
         "compound_definition": "Seeing a kitten, it's busy playing.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 893,
@@ -4337,7 +4337,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhèxiē xiǎoniǎo tāmen dōu zài chànggē",
         "compound_definition": "These birds are all singing.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 894,
@@ -4351,7 +4351,7 @@ var hskLevel2 = [
         "compound_pinyin": "Ānquán dì yī, dàjiā zhùyì bǎohù hǎo zìjǐ",
         "compound_definition": "Safety first, everyone, take care of yourselves.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 895,
@@ -4365,7 +4365,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zūnshǒu jiāotōng guīzé shì bǎozhàng xíngchē ānquán de zhòngyào cuòshī",
         "compound_definition": "Following traffic rules is an important measure to ensure road safety.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 896,
@@ -4379,7 +4379,7 @@ var hskLevel2 = [
         "compound_pinyin": "Túshūguǎn lǐ yào bǎochí ānjìng, bùyào dàshēng shuōhuà",
         "compound_definition": "Keep quiet in the library, don't speak loudly.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 897,
@@ -4393,7 +4393,7 @@ var hskLevel2 = [
         "compound_pinyin": "Rènwù yǐjīng wánchéng, dàjiā xīnkǔle",
         "compound_definition": "The task has been completed, everyone worked hard.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 898,
@@ -4407,7 +4407,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā de jiěshì shǐ wǒ wánquán míngbáile zhège wèntí",
         "compound_definition": "His explanation made me fully understand this issue.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 899,
@@ -4421,7 +4421,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen yīqǐ nǔlì, yīdìng néng wánchéng zhège rènwu",
         "compound_definition": "If we work together, we can definitely accomplish this task.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 900,
@@ -4435,7 +4435,7 @@ var hskLevel2 = [
         "compound_pinyin": "Shíjiān yǐjīng dìnghǎole, wǒmen zhǔnshí chūfā",
         "compound_definition": "The time has been fixed; we will depart on time.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 901,
@@ -4449,7 +4449,7 @@ var hskLevel2 = [
         "compound_pinyin": "Nuǎnhuo de tiānqì duì hùwài huódòng shì zuì yí de",
         "compound_definition": "Warm weather is most suitable for outdoor activities.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 902,
@@ -4463,7 +4463,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège gùshì fāshēng zài yīgè shíjì de xiǎozhèn shàng",
         "compound_definition": "This story happened in a real small town.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 903,
@@ -4477,7 +4477,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zài dàxué qījiān, wǒ zuòle yī cì shíxí",
         "compound_definition": "During my college years, I did an internship.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 904,
@@ -4491,7 +4491,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè dào tí tài nánle, wǒ shízài zuò bù chūlái",
         "compound_definition": "This question is too difficult; I really can't figure it out.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 905,
@@ -4505,7 +4505,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tōngguò nǔlì, wǒmen zhōngyú shíxiànle zìjǐ de mèngxiǎng",
         "compound_definition": "Through hard work, we finally realized our dreams.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 906,
@@ -4519,7 +4519,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhīshì yào yǔ shíjì yìngyòng xiāng jiéhé",
         "compound_definition": "Knowledge should be combined with practical application.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 907,
@@ -4533,7 +4533,7 @@ var hskLevel2 = [
         "compound_pinyin": "Kèrén láile, qǐng dàjiā rèqíng jiēdài",
         "compound_definition": "The guests have arrived, let's warmly welcome them.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 908,
@@ -4547,7 +4547,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ de fángjiān shì yīgè kuānchǎng míngliàng de shìnèi kōngjiān",
         "compound_definition": "My room is a spacious and bright indoor space.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 909,
@@ -4561,7 +4561,7 @@ var hskLevel2 = [
         "compound_pinyin": "Jiātíng shì wǒmen shēnghuó de wēnnuǎn gǎngwān",
         "compound_definition": "Family is the warm harbor of our life.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 910,
@@ -4575,7 +4575,7 @@ var hskLevel2 = [
         "compound_pinyin": "Xuéxiào yāoqǐng jiāzhǎng cānjiā jiāzhǎng huì",
         "compound_definition": "The school invites parents to attend the parents' meeting.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 911,
@@ -4589,7 +4589,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zài xuéxí zhōng, duìhuà shì xuéxí de yī zhǒng zhòngyào fāngshì",
         "compound_definition": "In learning, dialogue is an important way of learning.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 912,
@@ -4603,7 +4603,7 @@ var hskLevel2 = [
         "compound_pinyin": "Shāngdiàn de duìmiàn shì yī jiā kāfēi diàn",
         "compound_definition": "There is a coffee shop opposite the store.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 913,
@@ -4617,7 +4617,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ bǎ xìn zhuāng jìn xìnfēng lǐ",
         "compound_definition": "I put the letter into the envelope.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 914,
@@ -4631,7 +4631,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zài túshūguǎn yào bǎochí xiǎoshēng",
         "compound_definition": "Keep quiet in the library.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 915,
@@ -4645,7 +4645,7 @@ var hskLevel2 = [
         "compound_pinyin": "Xiàyǔ tiān lù huá, dàjiā yào xiǎoxīn",
         "compound_definition": "It's slippery on rainy days, so everyone should be careful.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 916,
@@ -4659,7 +4659,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ xiǎoshíhòu xǐhuān wán wánjù",
         "compound_definition": "I liked to play with toys when I was a child.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 917,
@@ -4673,7 +4673,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen shì tóng yī gè xiǎozǔ de chéngyuán",
         "compound_definition": "We are members of the same group.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 918,
@@ -4687,7 +4687,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè běn xiǎoshuō hěn yǒuqù",
         "compound_definition": "This novel is very interesting.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 919,
@@ -4701,7 +4701,7 @@ var hskLevel2 = [
         "compound_pinyin": "Nà shì yīgè chōngmǎn mèngxiǎng de shàonián",
         "compound_definition": "That is a youth full of dreams.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 920,
@@ -4715,7 +4715,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zài zhège dìqū, shǎoshù mínzú zhànjù duōshù",
         "compound_definition": "In this region, the minority ethnic groups make up the majority.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 921,
@@ -4729,7 +4729,7 @@ var hskLevel2 = [
         "compound_pinyin": "Fàngjiàle, wǒmen jiù yào qù lǚxíngle",
         "compound_definition": "The vacation is here, we are about to go on a trip.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 922,
@@ -4743,7 +4743,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen gōngsī zài zhè dòng lóu de dì wǔ céng",
         "compound_definition": "Our company is on the fifth floor of this building.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 923,
@@ -4757,7 +4757,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè liǎng gè fāng'àn chàbuduō, nǐ kěyǐ xuǎn yīgè",
         "compound_definition": "These two plans are almost the same; you can choose either one.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 924,
@@ -4771,7 +4771,7 @@ var hskLevel2 = [
         "compound_pinyin": "Xuéhuì guān'ài tārén, bù zhǐ gùjí jǐ",
         "compound_definition": "Learn to care for others, not just for oneself.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 925,
@@ -4785,7 +4785,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège wèntí wǒ yǐjīng jiějuéle",
         "compound_definition": "I have already solved this problem.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 926,
@@ -4799,7 +4799,7 @@ var hskLevel2 = [
         "compound_pinyin": "Qǐchuángle, nǐmen yǐjīng chídàole",
         "compound_definition": "Get up, you are already late.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 927,
@@ -4813,7 +4813,7 @@ var hskLevel2 = [
         "compound_pinyin": "Shànghǎi shì zhōngguó de yī zuò dà shì",
         "compound_definition": "Shanghai is a big city in China.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 928,
@@ -4827,7 +4827,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen de shìzhǎng fēicháng yǒu nénglì",
         "compound_definition": "Our mayor is very capable.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 929,
@@ -4841,7 +4841,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen yào dài shàng yǔsǎn",
         "compound_definition": "We should bring an umbrella.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 930,
@@ -4855,7 +4855,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè cì huódòng dàiláile hěnduō lèqù",
         "compound_definition": "This event brought a lot of fun.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 931,
@@ -4869,7 +4869,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā gěile wǒ hěnduō bāngzhù",
         "compound_definition": "He gave me a lot of help.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 932,
@@ -4883,7 +4883,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè shì yī zhǒng chángyòng de gōngjù",
         "compound_definition": "This is a commonly used tool.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 933,
@@ -4897,7 +4897,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè zhǒng wèntí zài wǒmen rìcháng shēnghuó zhōng hěn chángjiàn",
         "compound_definition": "This kind of problem is very common in our daily lives.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 934,
@@ -4911,7 +4911,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zài qìngzhù shí, dàjiā dōu jǔ qǐ jiǔ bēi shuō gānbēi",
         "compound_definition": "During the celebration, everyone raised their glasses and said cheers.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 935,
@@ -4925,7 +4925,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā měitiān dōu hěn nǔlì de gànhuór",
         "compound_definition": "He works hard every day.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 936,
@@ -4939,7 +4939,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè kuài dìfang hěn píng, shìhé jiàn fángzi",
         "compound_definition": "This piece of land is very flat, suitable for building houses.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 937,
@@ -4953,7 +4953,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tāmen yīlù píng'ān de huídào jiā",
         "compound_definition": "They returned home safely.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 938,
@@ -4967,7 +4967,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè zhǐshì píngcháng de yītiān, méiyǒu shénme tèbié de",
         "compound_definition": "It's just an ordinary day, nothing special.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 939,
@@ -4981,7 +4981,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen píngshí zài zhèlǐ shàngbān",
         "compound_definition": "We usually work here.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 940,
@@ -4995,7 +4995,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zài zhèlǐ, měi gèrén dōu yīnggāi shòudào píngděng duìdài",
         "compound_definition": "Here, everyone should be treated equally.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 941,
@@ -5009,7 +5009,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen shì tóng yī niánjí de xuéshēng",
         "compound_definition": "We are students of the same grade.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 942,
@@ -5023,7 +5023,7 @@ var hskLevel2 = [
         "compound_pinyin": "Niánqīng rén tōngcháng gèng yǒu huólì",
         "compound_definition": "Young people usually have more energy.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 943,
@@ -5037,7 +5037,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè shì yī piàn guǎngkuò de cǎoyuán",
         "compound_definition": "This is a vast grassland.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 944,
@@ -5051,7 +5051,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen jīngcháng zài diànshì shàng kàn dào gèzhǒng guǎnggào",
         "compound_definition": "We often see various advertisements on TV.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 945,
@@ -5065,7 +5065,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège chéngshì de zhōngxīn yǒu yī gè dà guǎngchǎng",
         "compound_definition": "The center of this city has a large square.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 946,
@@ -5079,7 +5079,7 @@ var hskLevel2 = [
         "compound_pinyin": "Nǐ yīnggāi duì zìjǐ yǒu xìnxīn",
         "compound_definition": "You should have confidence in yourself.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 947,
@@ -5093,7 +5093,7 @@ var hskLevel2 = [
         "compound_pinyin": "Nǐ yīnggāi hǎohǎo xiūxí",
         "compound_definition": "You should take a good rest.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 948,
@@ -5107,7 +5107,7 @@ var hskLevel2 = [
         "compound_pinyin": "Xiàtiān de wēndù chángcháng chāoguò sānshí dù",
         "compound_definition": "The temperature in summer often exceeds thirty degrees.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 949,
@@ -5121,7 +5121,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen zài diànyǐngyuàn dìngle liǎng gè zuòwèi",
         "compound_definition": "We booked two seats at the cinema.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 950,
@@ -5135,7 +5135,7 @@ var hskLevel2 = [
         "compound_pinyin": "Qǐng nín zài zuòwèi shàng zuò hǎo",
         "compound_definition": "Please sit properly in your seat.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 951,
@@ -5149,7 +5149,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège yuànzi yǒu yīgè měilì de tíngyuàn",
         "compound_definition": "This yard has a beautiful courtyard.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 952,
@@ -5163,7 +5163,7 @@ var hskLevel2 = [
         "compound_pinyin": "Xīwàng nǐ yīshēng dōu jiànkāng kuàilè",
         "compound_definition": "Wishing you a healthy and happy life.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 953,
@@ -5177,7 +5177,7 @@ var hskLevel2 = [
         "compound_pinyin": "Kāixué de dì yī tiān, xuéshēngmen dōu hěn xīngfèn",
         "compound_definition": "On the first day of school, students are all excited.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 954,
@@ -5191,7 +5191,7 @@ var hskLevel2 = [
         "compound_pinyin": "Kàndào nǐmen kāixīn jiùshì wǒ zuìdà de xìngfú",
         "compound_definition": "Seeing you happy is my greatest happiness.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 955,
@@ -5205,7 +5205,7 @@ var hskLevel2 = [
         "compound_pinyin": "Qǐng àn xià diànshì yáokòngqì shàng de kāijī ànniǔ",
         "compound_definition": "Please press the power button on the TV remote control.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 956,
@@ -5219,7 +5219,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā huì nòng hěnduō hào chī de dōngxi",
         "compound_definition": "He can make a lot of delicious food.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 957,
@@ -5233,7 +5233,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ dāng lǎoshī yǐjīng yǒu shí niánle",
         "compound_definition": "I have been a teacher for ten years.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 958,
@@ -5247,7 +5247,7 @@ var hskLevel2 = [
         "compound_pinyin": "Dāngshí de qíngkuàng fēicháng jǐnjí",
         "compound_definition": "The situation at that time was very urgent.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 959,
@@ -5261,7 +5261,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā de juédìng duì zhěnggè tuánduì chǎnshēngle hěn dà de yǐngxiǎng",
         "compound_definition": "His decision had a significant impact on the whole team.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 960,
@@ -5275,7 +5275,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè shì yī bù hěn yǒu shēndù de yǐngpiàn",
         "compound_definition": "This is a film with great depth.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 961,
@@ -5289,7 +5289,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tāmen wǎng chéngshì de fāngxiàng zǒuqù",
         "compound_definition": "They walked towards the direction of the city.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 962,
@@ -5303,7 +5303,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tōngguò fēnxī shùjù, wǒmen déchūle jiélùn",
         "compound_definition": "By analyzing the data, we reached a conclusion.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 963,
@@ -5317,7 +5317,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā de xīn lǐ chōngmǎnle xǐyuè",
         "compound_definition": "His heart is filled with joy.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 964,
@@ -5331,7 +5331,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège mèngxiǎng yīzhí cúnzàiyú wǒ de xīnzhōng",
         "compound_definition": "This dream has always existed in my heart.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 965,
@@ -5345,7 +5345,7 @@ var hskLevel2 = [
         "compound_pinyin": "Jīntiān de tiānqì ràng wǒ xīnqíng hěn hǎo",
         "compound_definition": "Today's weather has put me in a good mood.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 966,
@@ -5359,7 +5359,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ xīnlǐ hěn gǎnjī nǐ de bāngzhù",
         "compound_definition": "I am very grateful for your help in my heart.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 967,
@@ -5373,7 +5373,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zài zhège rènwù zhōng, wǒmen bìxū jǐnmì hézuò",
         "compound_definition": "In this task, we must cooperate closely.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 968,
@@ -5387,7 +5387,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zài zhèlǐ, nǐ bìxū zūnshǒu guīdìng",
         "compound_definition": "Here, you must follow the rules.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 969,
@@ -5401,7 +5401,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zài zhège tuánduì gōngzuò ràng wǒ gǎndào hěn kuàilè",
         "compound_definition": "Working in this team makes me very happy.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 970,
@@ -5415,7 +5415,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen yào kuàidiǎn'er wánchéng zhège rènwù",
         "compound_definition": "We need to finish this task faster.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 971,
@@ -5429,7 +5429,7 @@ var hskLevel2 = [
         "compound_pinyin": "Fàngxuéle, wǒmen kuàiyào huí jiāle",
         "compound_definition": "School is over, we are almost home.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 972,
@@ -5443,7 +5443,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen jīntiān wǎnshàng chī kuàicān ba",
         "compound_definition": "Let's have fast food for dinner tonight.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 973,
@@ -5457,7 +5457,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā hū dì zhànle qǐlái",
         "compound_definition": "He suddenly stood up.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 974,
@@ -5471,7 +5471,7 @@ var hskLevel2 = [
         "compound_pinyin": "Hūrán jiān, yī zhèn fēng chuīguò",
         "compound_definition": "Suddenly, a gust of wind blew by.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 975,
@@ -5485,7 +5485,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège jīqì de gōngzuò tài hěn wěndìng",
         "compound_definition": "The working state of this machine is very stable.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 976,
@@ -5499,7 +5499,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zài miàn duì wèntí shí, bǎochí jījí de tàidu hěn zhòngyào",
         "compound_definition": "Maintaining a positive attitude is important when facing problems.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 977,
@@ -5513,7 +5513,7 @@ var hskLevel2 = [
         "compound_pinyin": "Yù dào kùnnán shí, wèn yī wèn zìjǐ zěnme bàn shì hěn yǒu bāngzhù de",
         "compound_definition": "When facing difficulties, asking yourself what to do is very helpful.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 978,
@@ -5527,7 +5527,7 @@ var hskLevel2 = [
         "compound_pinyin": "Nǐ juéde zhège tíyì zěnme yàng?",
         "compound_definition": "What do you think of this proposal?",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 979,
@@ -5541,7 +5541,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā zěnyàng jiějuéle zhège wèntí?",
         "compound_definition": "How did he solve this problem?",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 980,
@@ -5555,7 +5555,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā pà hēi",
         "compound_definition": "He is afraid of the dark.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 981,
@@ -5569,7 +5569,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zài ānjìng de yèwǎn, tā xǐhuān dúzì sīkǎo",
         "compound_definition": "On quiet nights, he likes to contemplate alone.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 982,
@@ -5583,7 +5583,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè shì yīgè jíxū jiějué de wèntí",
         "compound_definition": "This is an urgent problem that needs to be solved.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 983,
@@ -5597,7 +5597,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen zhī jiān yǒu yī zhǒng tèshū de qínggǎn",
         "compound_definition": "There is a special feeling between us.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 984,
@@ -5611,7 +5611,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā yǐjīng xíguànle zhè zhǒng shēnghuó fāngshì",
         "compound_definition": "He has already become accustomed to this way of life.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 985,
@@ -5625,7 +5625,7 @@ var hskLevel2 = [
         "compound_pinyin": "Yī tídào jiāxiāng, tā jiù xiǎngdàole tóngnián de huānlè shíguāng",
         "compound_definition": "Mentioning his hometown, he thinks of the joyful time of childhood.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 986,
@@ -5639,7 +5639,7 @@ var hskLevel2 = [
         "compound_pinyin": "Dàjiā duì zhège wèntí yǒu bùtóng de xiǎngfǎ",
         "compound_definition": "Everyone has different ideas about this issue.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 987,
@@ -5653,7 +5653,7 @@ var hskLevel2 = [
         "compound_pinyin": "Kàn dào zhè zhāng zhàopiàn, wǒ xiǎngqǐle nàge měihǎo de xiàtiān",
         "compound_definition": "Looking at this photo, I recalled that beautiful summer.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 988,
@@ -5667,7 +5667,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège cí yǒu duō chóng yìsi?",
         "compound_definition": "How many meanings does this word have?",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 989,
@@ -5681,7 +5681,7 @@ var hskLevel2 = [
         "compound_pinyin": "Qǐng nǐ jiěshì yīxià zhè jù huà de yìsi",
         "compound_definition": "Can you explain the meaning of this sentence?",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 990,
@@ -5695,7 +5695,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen xūyào tīngqǔ dàjiā de yìjiàn",
         "compound_definition": "We need to hear everyone's opinions.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 991,
@@ -5709,7 +5709,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè shǒu gē ràng wǒ chǎnshēng hěn duō gǎnjué",
         "compound_definition": "This song evokes many feelings in me.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 992,
@@ -5723,7 +5723,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ gǎndào hěn gāoxìng jiàndào nǐ",
         "compound_definition": "I feel very happy to see you.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 993,
@@ -5737,7 +5737,7 @@ var hskLevel2 = [
         "compound_pinyin": "Kàn dào nàge gǎnrén de gùshì, wǒ gǎndòng de liú xiàle yǎnlèi",
         "compound_definition": "Seeing that touching story, I was moved to tears.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 994,
@@ -5751,7 +5751,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā duì zhège chéngshì de gǎnjué rúhé?",
         "compound_definition": "How does he feel about this city?",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 995,
@@ -5765,7 +5765,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ xiǎng duì nǐ de bāngzhù biǎoshì zhōngxīn de gǎnxiè",
         "compound_definition": "I want to express my heartfelt thanks for your help.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 996,
@@ -5779,7 +5779,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ yuàn nǐmen xìngfú kuàilè",
         "compound_definition": "I wish you happiness and joy.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 997,
@@ -5793,7 +5793,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā yuànyì bāngzhù biérén",
         "compound_definition": "He is willing to help others.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 998,
@@ -5807,7 +5807,7 @@ var hskLevel2 = [
         "compound_pinyin": "Nǐ dǒng wǒ de xīnyì",
         "compound_definition": "You understand my intentions.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 999,
@@ -5821,7 +5821,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā dǒngdé rúhé chǔlǐ zhè lèi wèntí",
         "compound_definition": "She knows how to deal with this kind of problem.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1000,
@@ -5835,7 +5835,7 @@ var hskLevel2 = [
         "compound_pinyin": "Nǔlì gōngzuò kěyǐ bāngzhù nǐ chéngwéi gèng hǎo de rén",
         "compound_definition": "Hard work can help you become a better person.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1001,
@@ -5849,7 +5849,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā nǔlì gōngzuò, zhōngyú chéngwéile gōngsī de jīnglǐ",
         "compound_definition": "She worked hard and finally became the manager of the company.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1002,
@@ -5863,7 +5863,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā zài xuéyè shàng qǔdéle hěn hǎo de chéngjì",
         "compound_definition": "She has achieved excellent academic results.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1003,
@@ -5877,7 +5877,7 @@ var hskLevel2 = [
         "compound_pinyin": "Nǐ kěyǐ xuǎnzé hē chá huò kāfēi",
         "compound_definition": "You can choose to drink tea or coffee.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1004,
@@ -5891,7 +5891,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā kěyǐ qù túshū guǎn huòzhě qù gōngyuán",
         "compound_definition": "He can go to the library or the park.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1005,
@@ -5905,7 +5905,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè shì wǒ dúshū de suǒzàidì",
         "compound_definition": "This is the place where I study.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1006,
@@ -5919,7 +5919,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tiānqì hěn rè, suǒyǐ wǒ bùxiǎng chūqù",
         "compound_definition": "The weather is hot, so I don't want to go out.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1007,
@@ -5933,7 +5933,7 @@ var hskLevel2 = [
         "compound_pinyin": "Suǒyǒu rén dōu cānjiāle jùhuì",
         "compound_definition": "Everyone attended the party.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1008,
@@ -5947,7 +5947,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ de shǒubiǎo huài le, bù zǒule",
         "compound_definition": "My watch is broken and won't run.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1009,
@@ -5961,7 +5961,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā cái dào Běijīng yīgè xīngqī",
         "compound_definition": "He arrived in Beijing just one week ago.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1010,
@@ -5975,7 +5975,7 @@ var hskLevel2 = [
         "compound_pinyin": "Qǐng bǎ zhè fèn wénjiàn dǎyìn chūlái",
         "compound_definition": "Please print out this document.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1011,
@@ -5989,7 +5989,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ měi gè zhōumò dōu qù cāntīng dǎgōng",
         "compound_definition": "I work part-time at a restaurant every weekend.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1012,
@@ -6003,7 +6003,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ dǎsuàn míngtiān qù gòuwù",
         "compound_definition": "I plan to go shopping tomorrow.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1013,
@@ -6017,7 +6017,7 @@ var hskLevel2 = [
         "compound_pinyin": "Qǐng bāng wǒ zhǎochū zhège wèntí de dá'àn",
         "compound_definition": "Please help me find out the answer to this question.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1014,
@@ -6031,7 +6031,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen yīnggāi hùzhe huánjìng",
         "compound_definition": "We should protect the environment.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1015,
@@ -6045,7 +6045,7 @@ var hskLevel2 = [
         "compound_pinyin": "Chūguó lǚxíng qián yào jìde dài shàng hùzhào",
         "compound_definition": "Remember to bring your passport before traveling abroad.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1016,
@@ -6059,7 +6059,7 @@ var hskLevel2 = [
         "compound_pinyin": "Qǐng nǐ bǎ zhège wèntí bàogào gěi lǎobǎn",
         "compound_definition": "Please report this issue to the boss.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1017,
@@ -6073,7 +6073,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ yǐjīng bàomíng cānjiā míngtiān de bǐsài",
         "compound_definition": "I have already signed up for tomorrow's competition.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1018,
@@ -6087,7 +6087,7 @@ var hskLevel2 = [
         "compound_pinyin": "Měitiān zǎoshang wǒ dōu dú yī fèn bàozhǐ",
         "compound_definition": "I read a newspaper every morning.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1019,
@@ -6101,7 +6101,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā yònglì lāzhe shéngzi",
         "compound_definition": "He pulled the rope with force.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1020,
@@ -6115,7 +6115,7 @@ var hskLevel2 = [
         "compound_pinyin": "Qǐng nǐ cóng bāo lǐ ná chū yīxiē zhǐjīn",
         "compound_definition": "Please take out some tissues from your bag.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1021,
@@ -6129,7 +6129,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ zhōngyú nádào le jiàshǐ zhízhào",
         "compound_definition": "I finally got my driver's license.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1022,
@@ -6143,7 +6143,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège wèntí tǐng nán de",
         "compound_definition": "This question is quite difficult.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1023,
@@ -6157,7 +6157,7 @@ var hskLevel2 = [
         "compound_pinyin": "Nǐ de jiànyì tǐng hǎo de, wǒ huì kǎolǜ de",
         "compound_definition": "Your suggestion is quite good; I will consider it.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1024,
@@ -6171,7 +6171,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ xiǎng huàn yī zhǒng kǒuwèi de bīngqílín",
         "compound_definition": "I want to change to a different flavor of ice cream.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1025,
@@ -6185,7 +6185,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā shǒulǐ de dōngxi diàole",
         "compound_definition": "The things in his hands dropped.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1026,
@@ -6199,7 +6199,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè shì wǒmen xuéxiào túshū guǎn de dì sān pái shū",
         "compound_definition": "This is the third row of books in our school library.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1027,
@@ -6213,7 +6213,7 @@ var hskLevel2 = [
         "compound_pinyin": "Míngtiān wǒmen yào dǎ yī chǎng páiqiú bǐsài",
         "compound_definition": "We're going to have a volleyball match tomorrow.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1028,
@@ -6227,7 +6227,7 @@ var hskLevel2 = [
         "compound_pinyin": "Dàjiā qǐng páiduì děnghòu",
         "compound_definition": "Everyone, please line up and wait.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1029,
@@ -6241,7 +6241,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā jīntiān jiēdàole yīgè gōngzuò miànshì de tōngzhī",
         "compound_definition": "He received a job interview notice today.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1030,
@@ -6255,7 +6255,7 @@ var hskLevel2 = [
         "compound_pinyin": "Qǐng tīng wǒ jiēxiàlái de fāyán",
         "compound_definition": "Please listen to my next statement.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1031,
@@ -6269,7 +6269,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā jiēdàole lǎobǎn de diànhuà",
         "compound_definition": "He received a call from the boss.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1032,
@@ -6283,7 +6283,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen yīnggāi jiēshòu bùtóng wénhuà de guānniàn",
         "compound_definition": "We should accept different cultural perspectives.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1033,
@@ -6297,7 +6297,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen wánchéng zhè xiàng gōngzuò hòu, jiēzhe kāishǐ xià yī gè xiàngmù",
         "compound_definition": "After completing this task, we will then start the next project.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1034,
@@ -6311,7 +6311,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā qīngqīng de tuīkāile mén",
         "compound_definition": "He gently pushed the door open.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1035,
@@ -6325,7 +6325,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā tíqǐle zhòng zhòng de xínglǐ",
         "compound_definition": "She lifted the heavy luggage.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1036,
@@ -6339,7 +6339,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen xūyào tíchū yīxiē jiànyì lái gǎijìn zhège jìhuà",
         "compound_definition": "We need to propose some suggestions to improve this plan.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1037,
@@ -6353,7 +6353,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zài huìyì shàng, tā tídàole yīgè xīn de xiàngmù",
         "compound_definition": "In the meeting, he mentioned a new project.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1038,
@@ -6367,7 +6367,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā nǔlì xuéxí, tígāole zìjǐ de jìnéng",
         "compound_definition": "He studied hard and improved his skills.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1039,
@@ -6381,7 +6381,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ zuótiān shōudàole nǐ de yóujiàn",
         "compound_definition": "I received your email yesterday.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1040,
@@ -6395,7 +6395,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā de shōurù zhǔyào láizì gōngzī hé jiǎngjīn",
         "compound_definition": "His income mainly comes from salary and bonuses.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1041,
@@ -6409,7 +6409,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ gānggāng shōudàole nǐ de duǎnxìn",
         "compound_definition": "I just received your text message.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1042,
@@ -6423,7 +6423,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā juédìng gǎibiàn zìjǐ de shēnghuó fāngshì",
         "compound_definition": "He decided to change his lifestyle.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1043,
@@ -6437,7 +6437,7 @@ var hskLevel2 = [
         "compound_pinyin": "Shíjiān de liúshì bùkě gǎibiàn, dàn wǒmen kěyǐ gǎibiàn duìdài shēnghuó de fāngshì",
         "compound_definition": "The passage of time cannot be changed, but we can change the way we approach life.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1044,
@@ -6451,7 +6451,7 @@ var hskLevel2 = [
         "compound_pinyin": "Yǒushíhòu, wǒmen xūyào xuéhuì fàngxià yīxiē shìqíng",
         "compound_definition": "Sometimes, we need to learn to let go of some things.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1045,
@@ -6465,7 +6465,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen huì hǎohāo zhàogù nǐ de, nǐ fàngxīn ba",
         "compound_definition": "We will take good care of you, don't worry.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1046,
@@ -6479,7 +6479,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen yīnggāi liǎojiě shìqíng fāshēng de gù hé yuányīn",
         "compound_definition": "We should understand the cause and reason behind things happening.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1047,
@@ -6493,7 +6493,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zǔfù jīngcháng gěi wǒmen jiǎng yīxiē yǒuqù de gùshì",
         "compound_definition": "Grandfather often tells us interesting stories.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1048,
@@ -6507,7 +6507,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā gùyì tōutōu liūzǒule",
         "compound_definition": "He intentionally sneaked away.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1049,
@@ -6521,7 +6521,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè suǒ xuéxiào yǐ qí gāo shuǐpíng de jiàoxué ér zhùchēng",
         "compound_definition": "This school is renowned for its high-quality teaching.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1050,
@@ -6535,7 +6535,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā zài jiàoshì lǐ rènzhēn tīngjiǎng",
         "compound_definition": "He listens attentively in the classroom.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1051,
@@ -6549,7 +6549,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè wèi lǎoshī zài jiàoshī jié shōudàole xuéshēngmen de zhùfú",
         "compound_definition": "This teacher received blessings from students on Teacher's Day.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1052,
@@ -6563,7 +6563,7 @@ var hskLevel2 = [
         "compound_pinyin": "Jiàoyù shì gǎibiàn shìjiè de yī zhǒng lìliàng",
         "compound_definition": "Education is a force for changing the world.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1053,
@@ -6577,7 +6577,7 @@ var hskLevel2 = [
         "compound_pinyin": "Shùxué shì yīmén yánjiū shùliàng, jiégòu, biànhuà yǐjí kōngjiān děng gàiniàn de xuékē",
         "compound_definition": "Mathematics is a discipline that studies concepts such as quantity, structure, change, and space.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1054,
@@ -6591,7 +6591,7 @@ var hskLevel2 = [
         "compound_pinyin": "Háizimen xuéxí rènshi jīchǔ de shùzì",
         "compound_definition": "Children learn to recognize basic numerals.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1055,
@@ -6605,7 +6605,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè kuài ròu yǒu yī jīn zhòng",
         "compound_definition": "This piece of meat weighs one pound.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1056,
@@ -6619,7 +6619,7 @@ var hskLevel2 = [
         "compound_pinyin": "Xīnwén bàodào tōngcháng yóu jìzhě zhuànxiě",
         "compound_definition": "News reports are usually written by journalists.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1057,
@@ -6633,7 +6633,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè jiā jiǔdiàn de wèizhi fēicháng fāngbiàn",
         "compound_definition": "The location of this hotel is very convenient.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1058,
@@ -6647,7 +6647,7 @@ var hskLevel2 = [
         "compound_pinyin": "Fāngbiàn miàn shì yī zhǒng fāngbiàn kuàijié de shípǐn",
         "compound_definition": "Instant noodles are a convenient and quick food.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1059,
@@ -6661,7 +6661,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zài chéngshì lǐ mílùle, wǒ wènle yīgè fāngxiàng",
         "compound_definition": "I got lost in the city, so I asked for directions.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1060,
@@ -6675,7 +6675,7 @@ var hskLevel2 = [
         "compound_pinyin": "Xuéxí yǔyán de fāngfǎ yīn rén ér yì",
         "compound_definition": "Methods for learning languages vary from person to person.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1061,
@@ -6689,7 +6689,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège wèntí yǒu hěnduō fāngmiàn xūyào kǎolǜ",
         "compound_definition": "There are many aspects to consider in this issue.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1062,
@@ -6703,7 +6703,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ xǐhuān lǚxíng, qù bùtóng de dìfāng kànkan",
         "compound_definition": "I like to travel and see different places.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1063,
@@ -6717,7 +6717,7 @@ var hskLevel2 = [
         "compound_pinyin": "Jīchǎng lǐ yǒu hěnduō lǚkè zài děnghòu",
         "compound_definition": "There are many travelers waiting at the airport.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1064,
@@ -6731,7 +6731,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège chéngshì yǒu hěnduō yǒuqù de lǚyóu jǐngdiǎn",
         "compound_definition": "This city has many interesting tourist attractions.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1065,
@@ -6745,7 +6745,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ jìhuà míngnián qù lǚxíng",
         "compound_definition": "I plan to travel next year.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1066,
@@ -6759,7 +6759,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen yīqǐ dùguòle měihǎo de rìzi",
         "compound_definition": "We spent wonderful days together.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1067,
@@ -6773,7 +6773,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ měitiān zǎoshang dūhuì dú yī fèn rìbào",
         "compound_definition": "I read a daily newspaper every morning.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1068,
@@ -6787,7 +6787,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā zǎo jiù zhīdào zhège xiāoxīle",
         "compound_definition": "He knew this news long ago.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1069,
@@ -6801,7 +6801,7 @@ var hskLevel2 = [
         "compound_pinyin": "Měitiān zǎochén dūhuì qù chén pǎo",
         "compound_definition": "I go jogging every morning.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1070,
@@ -6815,7 +6815,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zǎocān shì yītiān zhōng zuì zhòngyào de yī cān",
         "compound_definition": "Breakfast is the most important meal of the day.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1071,
@@ -6829,7 +6829,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè wèi míngxīng yīn qí chūsè de biǎoyǎn ér bèishòu zànyáng",
         "compound_definition": "This celebrity is highly praised for his outstanding performance.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1072,
@@ -6843,7 +6843,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǎnshàng de xīngxīng tèbié měilì",
         "compound_definition": "The stars at night are especially beautiful.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1073,
@@ -6857,7 +6857,7 @@ var hskLevel2 = [
         "compound_pinyin": "Chūntiān shì wànwù fùsù de jìjié",
         "compound_definition": "Spring is the season of rejuvenation for all things.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1074,
@@ -6871,7 +6871,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zài chūntiān, xiānhuā shèngkāi, yīqiè dōu chōngmǎn shēngjī",
         "compound_definition": "In spring, flowers bloom, and everything is full of vitality.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1075,
@@ -6885,7 +6885,7 @@ var hskLevel2 = [
         "compound_pinyin": "Chūnjié shì zhōngguó zuì zhòngyào de chuántǒng jiérì zhī yī",
         "compound_definition": "The Spring Festival is one of the most important traditional festivals in China.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1076,
@@ -6899,7 +6899,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen jǔxíngle yī chǎng shèngdà de wǎnhuì lái qìngzhù",
         "compound_definition": "We held a grand evening party to celebrate.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1077,
@@ -6913,7 +6913,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhù nǐ wǎn'ān, hǎo mèng",
         "compound_definition": "Good night, sweet dreams to you.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1078,
@@ -6927,7 +6927,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ měitiān wǎnshàng dūhuì kàn wǎnbào",
         "compound_definition": "I read the evening newspaper every night.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1079,
@@ -6941,7 +6941,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǎncān hòu wǒmen yījiā rén yīqǐ liáotiān",
         "compound_definition": "After dinner, our family chats together.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1080,
@@ -6955,7 +6955,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zǎochén de xīnxiān kōngqì shǐ rén gǎndào níngjìng hé yúyuè",
         "compound_definition": "The fresh morning air brings a sense of tranquility and joy.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1081,
@@ -6969,7 +6969,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè shì yī zhǒng pǔtōng de jiāyòng diànqì",
         "compound_definition": "This is a common household appliance.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1082,
@@ -6983,7 +6983,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè shì yī běn pǔtōng de xuékē shū",
         "compound_definition": "This is a common textbook for the subject.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1083,
@@ -6997,7 +6997,7 @@ var hskLevel2 = [
         "compound_pinyin": "Pǔtōnghuà shì zhōngguó de guānfāng yǔyán zhī yī",
         "compound_definition": "Mandarin Chinese is one of the official languages of China.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1084,
@@ -7011,7 +7011,7 @@ var hskLevel2 = [
         "compound_pinyin": "Jīntiān tiānqì hěn qíng, yángguāng míngmèi",
         "compound_definition": "The weather is clear today, with bright sunshine.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1085,
@@ -7025,7 +7025,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhōumò wǒmen jìhuà qù jiāoqū xiǎngshòu qíngtiān",
         "compound_definition": "We plan to go to the suburbs to enjoy the sunny weekend.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1086,
@@ -7039,7 +7039,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ xūyào gèng duō de shíjiān lái wánchéng zhège xiàngmù",
         "compound_definition": "I need more time to complete this project.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1087,
@@ -7053,7 +7053,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zuìjìn de tiānqì biàn dé yuè lái yuè rè",
         "compound_definition": "The weather has been getting hotter recently.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1088,
@@ -7067,7 +7067,7 @@ var hskLevel2 = [
         "compound_pinyin": "Jīnwǎn de yuèliàng tèbié míngliàng",
         "compound_definition": "The moon tonight is exceptionally bright.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1089,
@@ -7081,7 +7081,7 @@ var hskLevel2 = [
         "compound_pinyin": "Yī nián yǒu shí'èr gè yuèfèn",
         "compound_definition": "There are twelve months in a year.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1090,
@@ -7095,7 +7095,7 @@ var hskLevel2 = [
         "compound_pinyin": "Yǒurén zài ménkǒu děng nǐ",
         "compound_definition": "Someone is waiting for you at the door.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1091,
@@ -7109,7 +7109,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège gùshì zhēn de hěn yǒu yìsi",
         "compound_definition": "This story is really interesting.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1092,
@@ -7123,7 +7123,7 @@ var hskLevel2 = [
         "compound_pinyin": "Míngtiān xiàwǔ wǒ yǒu kòng ér, wǒmen yīqǐ qù chīfàn ba",
         "compound_definition": "I have free time tomorrow afternoon, let's have dinner together.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1093,
@@ -7137,7 +7137,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè jiā cāntīng de fúwù hěn hǎo",
         "compound_definition": "The service at this restaurant is very good.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1094,
@@ -7151,7 +7151,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège yuè mò shì wǒmen gōngsī de cáinián jiéshù",
         "compound_definition": "The end of this month marks the end of our company's fiscal year.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1095,
@@ -7165,7 +7165,7 @@ var hskLevel2 = [
         "compound_pinyin": "Cuòguòle zhè cì jīhuì, kěnéng zài yě méiyǒule",
         "compound_definition": "Missing this opportunity may mean there won't be another one.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1096,
@@ -7179,7 +7179,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège gōngzuò xūyào jùbèi yīdìng de tiáojiàn",
         "compound_definition": "This job requires certain conditions to be met.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1097,
@@ -7193,7 +7193,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè fēng xìn láizì wǒ de péngyǒu",
         "compound_definition": "This letter comes from my friend.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1098,
@@ -7207,7 +7207,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā zài hēibǎn shàng xiěxiàle zhòngyào de xìnxī",
         "compound_definition": "He wrote important information on the blackboard.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1099,
@@ -7221,7 +7221,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen xūyào chá yīxià zhège wèntí de dá'àn",
         "compound_definition": "We need to check the answer to this question.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1100,
@@ -7235,7 +7235,7 @@ var hskLevel2 = [
         "compound_pinyin": "Xiàoyuán lǐ yǒu hěnduō měilì de huā",
         "compound_definition": "There are many beautiful flowers on the campus.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1101,
@@ -7249,7 +7249,7 @@ var hskLevel2 = [
         "compound_pinyin": "Xiàozhǎng shì zhè suǒ xuéxiào de lǐngdǎo",
         "compound_definition": "The principal is the leader of this school.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1102,
@@ -7263,7 +7263,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā jīntiān chuānle yīshēn hěn piàoliang de yīfú, kàn qǐlái fēicháng yǒu qìzhì",
         "compound_definition": "She wore a beautiful outfit today and looked very elegant.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1103,
@@ -7277,7 +7277,7 @@ var hskLevel2 = [
         "compound_pinyin": "Gōngchéngshī zhèngzài jiǎnchá shèbèi",
         "compound_definition": "The engineer is inspecting the equipment.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1104,
@@ -7291,7 +7291,7 @@ var hskLevel2 = [
         "compound_pinyin": "Yīshēng jiànyì dìngqī jiǎnchá shēntǐ jiànkāng",
         "compound_definition": "The doctor recommends regular health checkups.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1105,
@@ -7305,7 +7305,7 @@ var hskLevel2 = [
         "compound_pinyin": "Bàngōngshì lǐ yǒu hěnduō yǐzi",
         "compound_definition": "There are many chairs in the office.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1106,
@@ -7319,7 +7319,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè bǎ yǐzi hěn shūfú",
         "compound_definition": "This chair is very comfortable.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1107,
@@ -7333,7 +7333,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā dehuà ràng wǒ hěn chǔ",
         "compound_definition": "Her words make it clear to me.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1108,
@@ -7347,7 +7347,7 @@ var hskLevel2 = [
         "compound_pinyin": "Huānyíng lái dào wǒmen de jiā",
         "compound_definition": "Welcome to our home.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1109,
@@ -7361,7 +7361,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen zhènghǎo yǒu yī zhāng duōyú de piào",
         "compound_definition": "We happen to have an extra ticket.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1110,
@@ -7375,7 +7375,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā de xīntiào hé hūxī dōu shì zhèngcháng de",
         "compound_definition": "His heartbeat and breathing are normal.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1111,
@@ -7389,7 +7389,7 @@ var hskLevel2 = [
         "compound_pinyin": "Nǐ de jiěshì zhèngshì wǒ xiǎng yào de dá'àn",
         "compound_definition": "Your explanation is exactly the answer I wanted.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1112,
@@ -7403,7 +7403,7 @@ var hskLevel2 = [
         "compound_pinyin": "Qǐng quèbǎo nǐ de dá'àn shì zhèngquè de",
         "compound_definition": "Please make sure your answer is correct.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1113,
@@ -7417,7 +7417,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège shìpín yǒu sān duàn",
         "compound_definition": "This video has three segments.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1114,
@@ -7431,7 +7431,7 @@ var hskLevel2 = [
         "compound_pinyin": "Nǐ kěyǐ xué yīxiē shíyòng de jìnéng, bǐrú shuō biānchéng",
         "compound_definition": "You can learn some practical skills, such as programming.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1115,
@@ -7445,7 +7445,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā xǐhuān gèzhǒng gèyàng de yùndòng, bǐrú shuō yóuyǒng, pǎobù děng",
         "compound_definition": "She likes various sports, such as swimming, running, etc.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1116,
@@ -7459,7 +7459,7 @@ var hskLevel2 = [
         "compound_pinyin": "Jīntiān de qìwēn hěn gāo",
         "compound_definition": "Today's temperature is very high.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1117,
@@ -7473,7 +7473,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā de yīngyǔ shuǐpíng hěn gāo",
         "compound_definition": "His English level is very high.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1118,
@@ -7487,7 +7487,7 @@ var hskLevel2 = [
         "compound_pinyin": "Àiqíng yǒngyuǎn shì rénmen zhuīqiú de mùbiāo",
         "compound_definition": "Love is forever the goal that people pursue.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1119,
@@ -7501,7 +7501,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen de yǒuyì jiāng yǒngyuǎn chíxù xiàqù",
         "compound_definition": "Our friendship will last forever.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1120,
@@ -7515,7 +7515,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā yīzhí zài qiúzhī",
         "compound_definition": "He has been seeking knowledge all along.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1121,
@@ -7529,7 +7529,7 @@ var hskLevel2 = [
         "compound_pinyin": "Nà tiáo hé hěn kuān",
         "compound_definition": "That river is wide.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1122,
@@ -7543,7 +7543,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen yòng gǎnlǎnyóu zuò shālā jiàng",
         "compound_definition": "We use olive oil to make salad dressing.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1123,
@@ -7557,7 +7557,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zūnshǒu fǎlǜ shì měi gè gōngmín de zérèn",
         "compound_definition": "Observing the law is the responsibility of every citizen.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1124,
@@ -7571,7 +7571,7 @@ var hskLevel2 = [
         "compound_pinyin": "Měitiān wǎnshàng dōu yào xǐzǎo",
         "compound_definition": "You should take a bath every night.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1125,
@@ -7585,7 +7585,7 @@ var hskLevel2 = [
         "compound_pinyin": "Xǐyījī huài le, wǒmen xūyào xiūlǐ tā",
         "compound_definition": "The washing machine is broken, we need to repair it.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1126,
@@ -7599,7 +7599,7 @@ var hskLevel2 = [
         "compound_pinyin": "Shēnghuó chōngmǎn le gèzhǒng gèyàng de huódòng",
         "compound_definition": "Life is full of various activities.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1127,
@@ -7613,7 +7613,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen zǔzhī le yīcì hùwài huódòng",
         "compound_definition": "We organized an outdoor activity.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1128,
@@ -7627,7 +7627,7 @@ var hskLevel2 = [
         "compound_pinyin": "Héshuǐ zài liúdòng",
         "compound_definition": "The river water is flowing.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1129,
@@ -7641,7 +7641,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā de yīngyǔ fēicháng liúlì",
         "compound_definition": "Her English is very fluent.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1130,
@@ -7655,7 +7655,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè shǒu gēqǔ zài niánqīng rén zhōng hěn liúxíng",
         "compound_definition": "This song is very popular among young people.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1131,
@@ -7669,7 +7669,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen qù hǎibiān dùjià",
         "compound_definition": "We go on vacation by the sea.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1132,
@@ -7683,7 +7683,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen jīngcháng qù hǎibiān sànbù",
         "compound_definition": "We often take a walk by the seaside.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1133,
@@ -7697,7 +7697,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tiānqì hěn qīnglǎng",
         "compound_definition": "The weather is very clear.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1134,
@@ -7711,7 +7711,7 @@ var hskLevel2 = [
         "compound_pinyin": "Qǐng bǎ qíngkuàng gàosu wǒ, ràng wǒ qīngchǔ yīdiǎn",
         "compound_definition": "Please tell me the situation so that I can be clear about it.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1135,
@@ -7725,7 +7725,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wūzi lǐ hěn wēnnuǎn",
         "compound_definition": "It's warm inside the room.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1136,
@@ -7739,7 +7739,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wàimiàn de wēndù hěn gāo",
         "compound_definition": "The outside temperature is very high.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1137,
@@ -7753,7 +7753,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ xǐhuān zài hǎi lǐ yóuyǒng",
         "compound_definition": "I like to swim in the sea.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1138,
@@ -7767,7 +7767,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège chéngshì měinián dōu xīyǐn dàliàng de yóukè",
         "compound_definition": "This city attracts a large number of tourists every year.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1139,
@@ -7781,7 +7781,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège hú de shuǐ hěn qīngchè",
         "compound_definition": "The water in this lake is very clear.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1140,
@@ -7795,7 +7795,7 @@ var hskLevel2 = [
         "compound_pinyin": "Fángjiān lǐ jǐ mǎn le rén",
         "compound_definition": "The room is packed with people.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1141,
@@ -7809,7 +7809,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ duì zhè cì de chéngjī hěn mǎnyì",
         "compound_definition": "I am very satisfied with the results of this test.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1142,
@@ -7823,7 +7823,7 @@ var hskLevel2 = [
         "compound_pinyin": "Mù kuài piāo zài shuǐ miàn shàng",
         "compound_definition": "The wooden block is floating on the water.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1143,
@@ -7837,7 +7837,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā chuānzhuó yīshēn piàoliang de lǐfú",
         "compound_definition": "She is wearing a beautiful dress.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1144,
@@ -7851,7 +7851,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ xǐhuān wǎnshàng xǐ rèshuǐzǎo",
         "compound_definition": "I like to take a hot bath in the evening.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1145,
@@ -7865,7 +7865,7 @@ var hskLevel2 = [
         "compound_pinyin": "Fángjiān lǐ yǒu yī zhǎn míngliàng de dēng",
         "compound_definition": "There is a bright lamp in the room.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1146,
@@ -7879,7 +7879,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā diǎntóu biǎoshì tóngyì",
         "compound_definition": "He nodded in agreement.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1147,
@@ -7893,7 +7893,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā duì kèrén zǒngshì chōngmǎn rèqíng",
         "compound_definition": "She is always enthusiastic towards guests.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1148,
@@ -7907,7 +7907,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā shuō wán le ránhòu líkāi le",
         "compound_definition": "He finished speaking and then left.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1149,
@@ -7921,7 +7921,7 @@ var hskLevel2 = [
         "compound_pinyin": "Xiān wánchéng zuòyè, ránhòu qù wán",
         "compound_definition": "Finish your homework first, and then go play.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1150,
@@ -7935,7 +7935,7 @@ var hskLevel2 = [
         "compound_pinyin": "Qǐng zhào yī zhāng zhàopiàn",
         "compound_definition": "Please take a photo.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1151,
@@ -7949,7 +7949,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè shì wǒ jiā de quánjiāfú zhàopiàn",
         "compound_definition": "This is a family photo of my family.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1152,
@@ -7963,7 +7963,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ xǐhuān zài fēngjǐng hǎo de dìfāng zhàoxiàng",
         "compound_definition": "I like to take photos in scenic places.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1153,
@@ -7977,7 +7977,7 @@ var hskLevel2 = [
         "compound_pinyin": "Qǐng zhàogù hǎo zìjǐ",
         "compound_definition": "Please take care of yourself.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1154,
@@ -7991,7 +7991,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège dìfāng wǒ hěn shúxī",
         "compound_definition": "I am very familiar with this place.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1155,
@@ -8005,7 +8005,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen juédìng páshān",
         "compound_definition": "We decided to climb the mountain.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1156,
@@ -8019,7 +8019,7 @@ var hskLevel2 = [
         "compound_pinyin": "Páshān shì yī zhǒng hěn hǎo de duànliàn",
         "compound_definition": "Mountain climbing is a good form of exercise.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1157,
@@ -8033,7 +8033,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā hé tā de àirén yīqǐ dùguò le měihǎo de shíguāng",
         "compound_definition": "He and his spouse spent a wonderful time together.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1158,
@@ -8047,7 +8047,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhēn àiqíng shì wúsī de",
         "compound_definition": "True love is selfless.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1159,
@@ -8061,7 +8061,7 @@ var hskLevel2 = [
         "compound_pinyin": "Yī piàn yún",
         "compound_definition": "A cloud.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1160,
@@ -8075,7 +8075,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhèlǐ yǒu hěnduō yǒuqù de wùpǐn",
         "compound_definition": "There are many interesting things here.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1161,
@@ -8089,7 +8089,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè shì yī jiā tèsè cāntīng",
         "compound_definition": "This is a special restaurant.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1162,
@@ -8103,7 +8103,7 @@ var hskLevel2 = [
         "compound_pinyin": "Jīntiān shì gè tèbié de rìzi",
         "compound_definition": "Today is a special day.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1163,
@@ -8117,7 +8117,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège dìfāng yǒu hěnduō dútè de tèdiǎn",
         "compound_definition": "This place has many unique characteristics.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1164,
@@ -8131,7 +8131,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ jiā yǎng le yī zhī kě'ài de gǒu",
         "compound_definition": "We have an adorable dog at home.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1165,
@@ -8145,7 +8145,7 @@ var hskLevel2 = [
         "compound_pinyin": "Māo xǐhuān zài yángguāng xià shài tàiyáng",
         "compound_definition": "Cats like to sunbathe in the sun.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1166,
@@ -8159,7 +8159,7 @@ var hskLevel2 = [
         "compound_pinyin": "Lìshǐ shàng yǒu hěnduō wěidà de guówáng",
         "compound_definition": "There were many great kings in history.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1167,
@@ -8173,7 +8173,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā shì wǒmen bān de bānzhǎng",
         "compound_definition": "She is the class monitor in our class.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1168,
@@ -8187,7 +8187,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège xuéxiào yǒu yī gè dàxíng de zúqiúchǎng",
         "compound_definition": "This school has a large football field.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1169,
@@ -8201,7 +8201,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ xǐhuān zhīchí běndì de lánqiúduì",
         "compound_definition": "I like to support the local basketball team.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1170,
@@ -8215,7 +8215,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā mǎi le yī shuāng xīn de lánqiúxié",
         "compound_definition": "He bought a new pair of basketball shoes.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1171,
@@ -8229,7 +8229,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège juédìng yǒu hěnduō hélǐ de lǐyóu",
         "compound_definition": "There are many reasonable reasons for this decision.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1172,
@@ -8243,7 +8243,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ de lǐxiǎng shì chéngwéi yī míng kēxuéjiā",
         "compound_definition": "My ideal is to become a scientist.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1173,
@@ -8257,7 +8257,7 @@ var hskLevel2 = [
         "compound_pinyin": "Yī píng shuǐ",
         "compound_definition": "A bottle of water.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1174,
@@ -8271,7 +8271,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā bǎ kōng píngzi fàng jìn huíshōu xiāng",
         "compound_definition": "He puts empty bottles into the recycling bin.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1175,
@@ -8285,7 +8285,7 @@ var hskLevel2 = [
         "compound_pinyin": "Jiǎndān de shēnghuó cái shì zuì xìngfú de",
         "compound_definition": "Simple life is the happiest.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1176,
@@ -8299,7 +8299,7 @@ var hskLevel2 = [
         "compound_pinyin": "Xuéxí xīn yǔyán zǒng shì yǒu hěnduō shēngcí",
         "compound_definition": "Learning a new language always involves many new words.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1177,
@@ -8313,7 +8313,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè fēng xìn shì yóu tā xiě de",
         "compound_definition": "This letter was written by him.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1178,
@@ -8327,7 +8327,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ xǐhuān huà huà",
         "compound_definition": "I like to draw.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1179,
@@ -8341,7 +8341,7 @@ var hskLevel2 = [
         "compound_pinyin": "Háizi zhèngzài huà yī fú huàr",
         "compound_definition": "The child is drawing a picture.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1180,
@@ -8355,7 +8355,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè wèi huàjiā de zuòpǐn hěn yǒumíng",
         "compound_definition": "This painter's works are very famous.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1181,
@@ -8369,7 +8369,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā yào liú zài zhège chéngshì gōngzuò",
         "compound_definition": "He wants to stay in this city for work.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1182,
@@ -8383,7 +8383,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā liúxià le yī fēng xìn",
         "compound_definition": "He left behind a letter.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1183,
@@ -8397,7 +8397,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè suǒ dàxué yǒu hěnduō liúxuéshēng",
         "compound_definition": "This university has many international students.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1184,
@@ -8411,7 +8411,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ de tóu téng de lìhài",
         "compound_definition": "My head hurts badly.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1185,
@@ -8425,7 +8425,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ xǐhuān báisè de yīfú",
         "compound_definition": "I like white clothes.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1186,
@@ -8439,7 +8439,7 @@ var hskLevel2 = [
         "compound_pinyin": "Rúguǒ nǐ lèi dehuà, jiù xiūxí yīxià",
         "compound_definition": "If you're tired, take a break.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1187,
@@ -8453,7 +8453,7 @@ var hskLevel2 = [
         "compound_pinyin": "Yǎnjīng shì kàn shìjiè de chuānghù",
         "compound_definition": "Eyes are the windows to see the world.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1188,
@@ -8467,7 +8467,7 @@ var hskLevel2 = [
         "compound_pinyin": "Xuéxí de mùdì shì wèile jiānglái de gōngzuò",
         "compound_definition": "The purpose of studying is for future work.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1189,
@@ -8481,7 +8481,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhí lù zuì duǎn",
         "compound_definition": "The straight path is the shortest.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1190,
@@ -8495,7 +8495,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā zhíjiē gēn lǎobǎn huìbào gōngzuò",
         "compound_definition": "He reports directly to the boss about the work.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1191,
@@ -8509,7 +8509,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen yīnggāi xiānghù bāngzhù",
         "compound_definition": "We should help each other.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1192,
@@ -8523,7 +8523,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ xiāngxìn nǐ huì chénggōng de",
         "compound_definition": "I believe you will succeed.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1193,
@@ -8537,7 +8537,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen yǒu xiāngtóng de xìngqù",
         "compound_definition": "We have the same interests.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1194,
@@ -8551,7 +8551,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ de xiàngjī huài le",
         "compound_definition": "My camera is broken.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1195,
@@ -8565,7 +8565,7 @@ var hskLevel2 = [
         "compound_pinyin": "Jiéyuē yòngshuǐ shì yī zhǒng hǎo xíguàn",
         "compound_definition": "Saving water is a good habit.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1196,
@@ -8579,7 +8579,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen dōu yǒu bùtóng de kànfǎ",
         "compound_definition": "We all have different opinions.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1197,
@@ -8593,7 +8593,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhēnzhèng de péngyǒu huì zài nǐ kùnnàn shí bāngzhù nǐ",
         "compound_definition": "A true friend will help you in difficult times.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1198,
@@ -8607,7 +8607,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā de yǎnjīng hěn dà",
         "compound_definition": "His eyes are big.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1199,
@@ -8621,7 +8621,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā yǒu yī shuāng dà yǎnjīng",
         "compound_definition": "She has a pair of big eyes.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1200,
@@ -8635,7 +8635,7 @@ var hskLevel2 = [
         "compound_pinyin": "Xīngxīng zài yèwǎn de tiānkōng zhōng shǎnshuò zhe",
         "compound_definition": "Stars twinkle in the night sky.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1201,
@@ -8649,7 +8649,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè tiáo qúnzi tài duǎn le",
         "compound_definition": "This skirt is too short.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1202,
@@ -8663,7 +8663,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ shōudào nǐ de duǎnxìn le",
         "compound_definition": "I received your text message.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1203,
@@ -8677,7 +8677,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ quèxìn tā huì lái de",
         "compound_definition": "I am certain that he will come.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1204,
@@ -8691,7 +8691,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ chī le yī wǎn miàntiáo",
         "compound_definition": "I ate a bowl of noodles.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1205,
@@ -8705,7 +8705,7 @@ var hskLevel2 = [
         "compound_pinyin": "Bùyào pèng zhège tàng de dōngxi",
         "compound_definition": "Don't touch this hot thing.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1206,
@@ -8719,7 +8719,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ zuótiān pèngdào le wǒ de lǎoshī",
         "compound_definition": "I ran into my teacher yesterday.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1207,
@@ -8733,7 +8733,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ hěn gāoxìng pèngjiàn nǐ",
         "compound_definition": "I am glad to meet you.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1208,
@@ -8747,7 +8747,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā shìyì wǒ gēn tā zǒu",
         "compound_definition": "He signaled for me to follow him.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1209,
@@ -8761,7 +8761,7 @@ var hskLevel2 = [
         "compound_pinyin": "Lǐmào hěn zhòngyào",
         "compound_definition": "Courtesy is important.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1210,
@@ -8775,7 +8775,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ xǐhuān shōu lǐwù",
         "compound_definition": "I like receiving gifts.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1211,
@@ -8789,7 +8789,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ yào líkāi le",
         "compound_definition": "I have to leave now.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1212,
@@ -8803,7 +8803,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā yǐjīng líkāi gōngsī le",
         "compound_definition": "He has already left the company.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1213,
@@ -8817,7 +8817,7 @@ var hskLevel2 = [
         "compound_pinyin": "Qiūtiān de tiānqì hěn liángshuǎng",
         "compound_definition": "The weather in autumn is cool.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1214,
@@ -8831,7 +8831,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zài qiūtiān, shùyè biànchéngle hóngsè",
         "compound_definition": "In autumn, the leaves turn red.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1215,
@@ -8845,7 +8845,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ zuì xǐhuān de kēmù shì shùxué",
         "compound_definition": "My favorite subject is mathematics.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1216,
@@ -8859,7 +8859,7 @@ var hskLevel2 = [
         "compound_pinyin": "Kēxué shì yī mén hěn yǒuqù de xuékē",
         "compound_definition": "Science is a very interesting subject.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1217,
@@ -8873,7 +8873,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen zū le yī jiān gōngyù",
         "compound_definition": "We rented an apartment.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1218,
@@ -8887,21 +8887,7 @@ var hskLevel2 = [
         "compound_pinyin": "Nǐ kěyǐ chēng wǒ wèi xiǎo míng",
         "compound_definition": "You can call me Xiaoming.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
-    },
-    {
-        "id": 1219,
-        "character": "称¹",
-        "character_pinyin": "chèn",
-        "eng": "scale",
-        "hsk_level": 2,
-        "part_of_speech": "noun",
-        "compound_cantonese": "Cing1",
-        "compound": "我用称称量了一下体重",
-        "compound_pinyin": "Wǒ yòng chèn chēngliàng le yīxià tǐzhòng",
-        "compound_definition": "I used a scale to weigh myself.",
-        "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1220,
@@ -8915,7 +8901,7 @@ var hskLevel2 = [
         "compound_pinyin": "Fángjiān lǐ hěn kōng",
         "compound_definition": "The room is very empty.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1221,
@@ -8929,7 +8915,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhèlǐ de kōngqì hěn xīnxiān",
         "compound_definition": "The air here is very fresh.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1222,
@@ -8943,7 +8929,7 @@ var hskLevel2 = [
         "compound_pinyin": "Jǐngchá hǎn dào: \"Zhàn zhù!\"",
         "compound_definition": "The police shouted, \"Stop!\"",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1223,
@@ -8957,7 +8943,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā zǒng shì jiǎng yīxiē yǒuqù de xiàohuà",
         "compound_definition": "He always tells interesting jokes.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1224,
@@ -8971,7 +8957,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā jiǎng de nàge xiàohuà zhēn dòu",
         "compound_definition": "The joke he told was really funny.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1225,
@@ -8985,7 +8971,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ de bǐ diū le",
         "compound_definition": "I lost my pen.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1226,
@@ -8999,7 +8985,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā zài kètáng shàng zuò le hěnduō bǐjì",
         "compound_definition": "He took a lot of notes in class.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1227,
@@ -9013,7 +8999,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ de bǐjìběn huài le, xūyào xiūlǐ",
         "compound_definition": "My notebook is broken and needs repair.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1228,
@@ -9027,7 +9013,7 @@ var hskLevel2 = [
         "compound_pinyin": "Liǎng jiā sān děngyú wǔ",
         "compound_definition": "Two plus three equals five.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1229,
@@ -9041,7 +9027,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā děngdào hěn wǎn cái huí jiā",
         "compound_definition": "He waited until very late before going home.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1230,
@@ -9055,7 +9041,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā dāying bāng wǒ zuò zuòyè",
         "compound_definition": "He promised to help me with my homework.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1231,
@@ -9069,7 +9055,7 @@ var hskLevel2 = [
         "compound_pinyin": "Yòng kuàizi chīfàn shì yī zhǒng chuántǒng de fāngshì",
         "compound_definition": "Eating with chopsticks is a traditional way.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1232,
@@ -9083,7 +9069,7 @@ var hskLevel2 = [
         "compound_pinyin": "Qǐng gěi wǒ liǎng shuāng kuàizi",
         "compound_definition": "Please give me two pairs of chopsticks.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1233,
@@ -9097,7 +9083,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen xūyào suàn yīxià yùsuàn",
         "compound_definition": "We need to calculate the budget.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1234,
@@ -9111,7 +9097,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ xiě le yī piān wénzhāng",
         "compound_definition": "I wrote an article.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1235,
@@ -9125,7 +9111,7 @@ var hskLevel2 = [
         "compound_pinyin": "Lánzi lǐ zhuāng mǎn le shuǐguǒ",
         "compound_definition": "The basket is full of fruits.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1236,
@@ -9139,7 +9125,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā xǐhuān dǎ lánqiú",
         "compound_definition": "He likes playing basketball.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1237,
@@ -9153,7 +9139,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège píngguǒ hěn hóng",
         "compound_definition": "This apple is very red.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1238,
@@ -9167,7 +9153,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège qízi shì hóngsè de",
         "compound_definition": "This flag is red.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1239,
@@ -9181,7 +9167,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā dú sān nián jí",
         "compound_definition": "He is in the third grade.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1240,
@@ -9195,7 +9181,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ xūyào yī zhāng zhǐ",
         "compound_definition": "I need a piece of paper.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1241,
@@ -9209,7 +9195,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā měitiān dōu liànxí tán gāngqín",
         "compound_definition": "He practices playing the piano every day.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1242,
@@ -9223,7 +9209,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen měitiān dōu zuò yǔfǎ liànxí",
         "compound_definition": "We do grammar exercises every day.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1243,
@@ -9237,7 +9223,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen shì yīgè yánjiū zǔ",
         "compound_definition": "We are a research group.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1244,
@@ -9251,7 +9237,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège tuánduì yóu zhuānyè rénshì zǔchéng",
         "compound_definition": "This team is composed of professionals.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1245,
@@ -9265,7 +9251,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā shì wǒmen xiǎozǔ de zǔzhǎng",
         "compound_definition": "He is the leader of our group.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1246,
@@ -9279,7 +9265,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè tiáo hé jīngguò zhěnggè chéngshì",
         "compound_definition": "This river passes through the entire city.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1247,
@@ -9293,7 +9279,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ jīngcháng zài zhèlǐ jiàndào tā",
         "compound_definition": "I often see him here.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1248,
@@ -9307,7 +9293,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā shì zhè jiā gōngsī de jīnglǐ",
         "compound_definition": "She is the manager of this company.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1249,
@@ -9321,7 +9307,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen jīngguò le yīgè měilì de huāyuán",
         "compound_definition": "We passed by a beautiful garden.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1250,
@@ -9335,7 +9321,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā yòng yī gēn shéngzi bǎ xiāngzi jié láo",
         "compound_definition": "He tied the box securely with a rope.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1251,
@@ -9349,7 +9335,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā de nǔlì zhōngyú qǔdé le hǎo de jiéguǒ",
         "compound_definition": "His efforts finally paid off with good results.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1252,
@@ -9363,7 +9349,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā zài xuéxiào qǔdé le hěn hǎo de jìxiào",
         "compound_definition": "She achieved excellent results at school.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1253,
@@ -9377,7 +9363,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège píngguǒ shì lǜsè de",
         "compound_definition": "This apple is green.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1254,
@@ -9391,7 +9377,7 @@ var hskLevel2 = [
         "compound_pinyin": "Chūntiān de cǎodì shì lǜsè de",
         "compound_definition": "The grass in spring is green.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1255,
@@ -9405,7 +9391,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ xǐhuān dǎ wǎngqiú",
         "compound_definition": "I like playing tennis.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1256,
@@ -9419,7 +9405,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen kěyǐ zài zhège wǎngzhàn shàng zhǎodào hěnduō xìnxī",
         "compound_definition": "We can find a lot of information on this website.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1257,
@@ -9433,7 +9419,7 @@ var hskLevel2 = [
         "compound_pinyin": "Lǎonián rén yīnggāi bǎochí huóyuè",
         "compound_definition": "Elderly people should stay active.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1258,
@@ -9447,7 +9433,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā lǎoshì chídào",
         "compound_definition": "He is always late.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1259,
@@ -9461,7 +9447,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ hé tā shì lǎo péngyǒu",
         "compound_definition": "He and I are old friends.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1260,
@@ -9475,7 +9461,7 @@ var hskLevel2 = [
         "compound_pinyin": "Kǎoshēngmen zhèngzài bèizhàn gāokǎo",
         "compound_definition": "The examinees are preparing for the college entrance examination.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1261,
@@ -9489,7 +9475,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā shì yī wèi zuòjiā",
         "compound_definition": "He is a writer.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1262,
@@ -9503,7 +9489,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā xǐhuān yīnyuè érqiě xǐhuān huàhuà",
         "compound_definition": "He likes music and also likes painting.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1263,
@@ -9517,7 +9503,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ xǐhuān lǚxíng, érqiě wǒ xǐhuān chángshì xīn de shíwù",
         "compound_definition": "I like traveling, moreover, I like trying new foods.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1264,
@@ -9531,7 +9517,7 @@ var hskLevel2 = [
         "compound_pinyin": "Fùmǔ yù'ér bù yì",
         "compound_definition": "Parenting is not easy.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1265,
@@ -9545,7 +9531,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā bèi zhe shūbāo zǒu jìn le jiàoshì",
         "compound_definition": "He walked into the classroom with a backpack on his back.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1266,
@@ -9559,7 +9545,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tōngguò nǔlì, nǐ nénggòu qǔdé chénggōng",
         "compound_definition": "Through hard work, you can achieve success.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1267,
@@ -9573,7 +9559,7 @@ var hskLevel2 = [
         "compound_pinyin": "Yīfu hěn zāng, xūyào xǐ yī xǐ",
         "compound_definition": "The clothes are very dirty and need to be washed.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1268,
@@ -9587,7 +9573,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ de jiǎo hěn lèi",
         "compound_definition": "My feet are tired.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1269,
@@ -9601,7 +9587,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā de liǎn hěn piàoliang",
         "compound_definition": "Her face is very beautiful.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1270,
@@ -9615,7 +9601,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ de tuǐ suān tòng",
         "compound_definition": "My legs are sore.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1271,
@@ -9629,7 +9615,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā zìjǐ zuò de fàn hěn hào chī",
         "compound_definition": "The food he cooked himself is delicious.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1272,
@@ -9643,7 +9629,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ zìjǐ zuò de dàngāo",
         "compound_definition": "The cake I made myself.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1273,
@@ -9657,7 +9643,7 @@ var hskLevel2 = [
         "compound_pinyin": "Rénmen zhuīqiú zìyóu",
         "compound_definition": "People pursue freedom.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1274,
@@ -9671,7 +9657,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ měitiān qí zìxíngchē shàngbān",
         "compound_definition": "I ride a bike to work every day.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1275,
@@ -9685,7 +9671,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè zhāng chuáng hěn shūfu",
         "compound_definition": "This bed is very comfortable.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1276,
@@ -9699,7 +9685,7 @@ var hskLevel2 = [
         "compound_pinyin": "Chuān zhè shuāng xié hěn shūfu",
         "compound_definition": "Wearing these shoes is very comfortable.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1277,
@@ -9713,7 +9699,7 @@ var hskLevel2 = [
         "compound_pinyin": "Gè zhǒng gè yàng de chuán",
         "compound_definition": "All kinds of boats.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1278,
@@ -9727,7 +9713,7 @@ var hskLevel2 = [
         "compound_pinyin": "Yúmín jiàshǐ xiǎo chuán",
         "compound_definition": "Fishermen drive small boats.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1279,
@@ -9741,7 +9727,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège yánsè hěn hǎokàn",
         "compound_definition": "This color looks good.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1280,
@@ -9755,7 +9741,7 @@ var hskLevel2 = [
         "compound_pinyin": "Chūnjié shì Zhōngguó chuántǒng de jiérì",
         "compound_definition": "The Spring Festival is a traditional Chinese festival.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1281,
@@ -9769,7 +9755,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen zài jiérì lǐ jù zài yīqǐ",
         "compound_definition": "We gather together during the festival.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1282,
@@ -9783,7 +9769,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège diànshì jiémù hěn yǒuqù",
         "compound_definition": "This TV program is very interesting.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1283,
@@ -9797,7 +9783,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen zài huāyuán lǐ wánshuǎ",
         "compound_definition": "We play in the garden.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1284,
@@ -9811,7 +9797,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā shì yīgè yīngyǒng de zhànshì",
         "compound_definition": "He is a brave soldier.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1285,
@@ -9825,7 +9811,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ zhèngzài xuéxí yīngwén",
         "compound_definition": "I am learning English.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1286,
@@ -9839,7 +9825,7 @@ var hskLevel2 = [
         "compound_pinyin": "Yīngyǔ shì guójì tōngyòng yǔyán zhī yī",
         "compound_definition": "English is one of the internationally common languages.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1287,
@@ -9853,7 +9839,7 @@ var hskLevel2 = [
         "compound_pinyin": "Cǎodì shàng yǒu xǔduō xiǎo huā",
         "compound_definition": "There are many small flowers on the grass.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1288,
@@ -9867,7 +9853,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zài cǎodì shàng yěcān hěn yúkuài",
         "compound_definition": "Having a picnic on the lawn is very enjoyable.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1289,
@@ -9881,7 +9867,7 @@ var hskLevel2 = [
         "compound_pinyin": "Shēngbìng shí yào chī yào",
         "compound_definition": "Take medicine when you are sick.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1290,
@@ -9895,7 +9881,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ qù yàodiàn mǎi yào",
         "compound_definition": "I go to the pharmacy to buy medicine.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1291,
@@ -9909,7 +9895,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè shì yī píng yàoshuǐ",
         "compound_definition": "This is a bottle of liquid medicine.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1292,
@@ -9923,7 +9909,7 @@ var hskLevel2 = [
         "compound_pinyin": "Měitiān chī liǎng piàn yào",
         "compound_definition": "Take two pills every day.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1293,
@@ -9937,7 +9923,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen kànle càidān diǎnle yīxiē cài",
         "compound_definition": "We looked at the menu and ordered some dishes.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1294,
@@ -9951,7 +9937,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tiānkōng shì lán sè de",
         "compound_definition": "The sky is blue.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1295,
@@ -9965,7 +9951,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè jiàn yīfu shì lán sè de",
         "compound_definition": "This piece of clothing is blue.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1296,
@@ -9979,7 +9965,7 @@ var hskLevel2 = [
         "compound_pinyin": "Suīrán tiānqì lěng, dàn wǒ hěn xǐhuān",
         "compound_definition": "Although the weather is cold, I like it very much.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1297,
@@ -9993,7 +9979,7 @@ var hskLevel2 = [
         "compound_pinyin": "Suīrán wǒ bù dǒng, dàn wǒ yuànyì xuéxí",
         "compound_definition": "Although I don't understand, I am willing to learn.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1298,
@@ -10007,7 +9993,7 @@ var hskLevel2 = [
         "compound_pinyin": "Hǎo de xíngwéi huì shòu dào zànyáng",
         "compound_definition": "Good behavior is praised.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1299,
@@ -10021,7 +10007,7 @@ var hskLevel2 = [
         "compound_pinyin": "Xíngrén yào zhùyì guò mǎlù de ānquán",
         "compound_definition": "Pedestrians should pay attention to crossing the road safely.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1300,
@@ -10035,7 +10021,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen xūyào xùnsù xíngdòng",
         "compound_definition": "We need to take swift action.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1301,
@@ -10049,7 +10035,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè tiáo jiē hěn rènào",
         "compound_definition": "This street is very lively.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1302,
@@ -10063,7 +10049,7 @@ var hskLevel2 = [
         "compound_pinyin": "Qǐng zài biǎogé zhōng tiánxiě nǐ de xìnxī",
         "compound_definition": "Please fill in your information on the table.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1303,
@@ -10077,7 +10063,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā tōngguò wēixiào biǎoshì tóngyì",
         "compound_definition": "He expressed agreement with a smile.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1304,
@@ -10091,7 +10077,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen xūyào zhuāng xīn de diànshì",
         "compound_definition": "We need to install a new TV.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1305,
@@ -10105,7 +10091,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ de jiāxiāng zài Zhōngguó de xīběi bù",
         "compound_definition": "My hometown is in the northwest part of China.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1306,
@@ -10119,7 +10105,7 @@ var hskLevel2 = [
         "compound_pinyin": "Yǒu shíhòu wǒ huì qù kàn xīyī",
         "compound_definition": "Sometimes I go to see a Western doctor.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1307,
@@ -10133,7 +10119,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ xǐhuān qù Zhōngguó de xīnán lǚxíng",
         "compound_definition": "I like to travel to the southwest of China.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1308,
@@ -10147,7 +10133,7 @@ var hskLevel2 = [
         "compound_pinyin": "Xīfāng wénhuà yǒu hěnduō jīngcǎi zhī chù",
         "compound_definition": "Western culture has many wonderful aspects.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1309,
@@ -10161,7 +10147,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ jīntiān xiǎng chī xīcān",
         "compound_definition": "Today, I want to eat Western-style food.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1310,
@@ -10175,7 +10161,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè xiàng gōngzuò yǒu hěn gāo de yāoqiú",
         "compound_definition": "This job has high requirements.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1311,
@@ -10189,7 +10175,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ hěn gāoxìng jiàndào nǐ",
         "compound_definition": "I am happy to see you.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1312,
@@ -10203,7 +10189,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ qùguò hěnduō guójiā, jiànguò hěnduō fēngjǐng",
         "compound_definition": "I have been to many countries and seen many landscapes.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1313,
@@ -10217,7 +10203,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen yīqǐ qù guānkàn diànyǐng ba",
         "compound_definition": "Let's go watch a movie together.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1314,
@@ -10231,7 +10217,7 @@ var hskLevel2 = [
         "compound_pinyin": "Bùtóng de rén yǒu bùtóng de guāndiǎn",
         "compound_definition": "Different people have different viewpoints.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1315,
@@ -10245,7 +10231,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège fángjiān de jiǎo hěn jiān",
         "compound_definition": "The angles of this room are very sharp.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1316,
@@ -10259,7 +10245,7 @@ var hskLevel2 = [
         "compound_pinyin": "Gǎibiàn nǐ de guāndiǎn kěnéng xūyào bùtóng de jiǎodù",
         "compound_definition": "Changing your viewpoint may require a different angle.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1317,
@@ -10273,7 +10259,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā de yáncí hěn dòngrén",
         "compound_definition": "His speech is very moving.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1318,
@@ -10287,7 +10273,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen xūyào jìhuà hǎo wèilái de fāzhǎn",
         "compound_definition": "We need to plan for the future development.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1319,
@@ -10301,7 +10287,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen zhìdìngle yīgè xiángxì de jìhuà",
         "compound_definition": "We have formulated a detailed plan.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1320,
@@ -10315,7 +10301,7 @@ var hskLevel2 = [
         "compound_pinyin": "Jìsuànjī jìshù zhèngzài xùnsù fāzhǎn",
         "compound_definition": "Computer technology is developing rapidly.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1321,
@@ -10329,7 +10315,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ rènwéi xuéxí hěn zhòngyào",
         "compound_definition": "I think studying is very important.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1322,
@@ -10343,7 +10329,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen xūyào tǎolùn zhège wèntí",
         "compound_definition": "We need to discuss this issue.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1323,
@@ -10357,7 +10343,7 @@ var hskLevel2 = [
         "compound_pinyin": "Huìyì shàng jìnxíngle yī chǎng rèliè de tǎolùn",
         "compound_definition": "A lively discussion took place at the meeting.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1324,
@@ -10371,7 +10357,7 @@ var hskLevel2 = [
         "compound_pinyin": "Qǐng ràng wǒ jiěshì yīxià",
         "compound_definition": "Please let me explain.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1325,
@@ -10385,7 +10371,7 @@ var hskLevel2 = [
         "compound_pinyin": "Lǎoshī zhèngzài jiǎngkè",
         "compound_definition": "The teacher is giving a lecture.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1326,
@@ -10399,7 +10385,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā de jiǎnghuà hěn yǒu shēndù",
         "compound_definition": "His speech is very profound.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1327,
@@ -10413,7 +10399,7 @@ var hskLevel2 = [
         "compound_pinyin": "Fùmǔ xǔkě wǒ cānjiā zhège huódòng",
         "compound_definition": "My parents allowed me to participate in this activity.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1328,
@@ -10427,7 +10413,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège chéngshì yǒu xǔduō měilì de jǐngdiǎn",
         "compound_definition": "This city has many beautiful attractions.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1329,
@@ -10441,7 +10427,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège wèntí xūyào shēnrù lùnzhèng",
         "compound_definition": "This issue needs thorough discussion.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1330,
@@ -10455,7 +10441,7 @@ var hskLevel2 = [
         "compound_pinyin": "Qǐng nǐ xuǎnzé yīgè cí lái jiěshì",
         "compound_definition": "Please choose a word to explain.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1331,
@@ -10469,7 +10455,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ chángcháng shǐyòng diànzǐ cídiǎn xuéxí xīn dāncí",
         "compound_definition": "I often use an electronic dictionary to learn new words.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1332,
@@ -10483,7 +10469,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhōngwén zhōng yǒu hěnduō yǒuqù de cíyǔ",
         "compound_definition": "Chinese has many interesting phrases.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1333,
@@ -10497,7 +10483,7 @@ var hskLevel2 = [
         "compound_pinyin": "Gāi zuò de shìqíng wǒmen bùnéng tuōyán",
         "compound_definition": "We should not procrastinate the things that need to be done.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1334,
@@ -10511,7 +10497,7 @@ var hskLevel2 = [
         "compound_pinyin": "Xuéxí yī mén xīn de yǔyán xūyào nàixīn",
         "compound_definition": "Learning a new language requires patience.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1335,
@@ -10525,7 +10511,7 @@ var hskLevel2 = [
         "compound_pinyin": "Qǐng gěi wǒ yīgè jiǎndān de shuōmíng",
         "compound_definition": "Please give me a brief explanation.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1336,
@@ -10539,7 +10525,7 @@ var hskLevel2 = [
         "compound_pinyin": "Guò shēngrì de shíhòu, wǒ huì qǐngkè",
         "compound_definition": "On my birthday, I will treat friends to dinner.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1337,
@@ -10553,7 +10539,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ qǐngqiú nǐ bāngzhù wǒmen wánchéng zhège xiàngmù",
         "compound_definition": "I request your assistance in completing this project.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1338,
@@ -10567,7 +10553,7 @@ var hskLevel2 = [
         "compound_pinyin": "Xuéxí hànzì de shíhòu yě yào zhùyì dúyīn",
         "compound_definition": "When learning Chinese characters, pay attention to pronunciation as well.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1339,
@@ -10581,7 +10567,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen zài kètáng shàng xué dàole hěnduō zhīshì",
         "compound_definition": "We learned a lot of knowledge in the classroom.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1340,
@@ -10595,7 +10581,7 @@ var hskLevel2 = [
         "compound_pinyin": "Qǐng zǒukāi, wǒ yǒudiǎn shìqíng yào chǔlǐ",
         "compound_definition": "Please leave, I have something to deal with.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1341,
@@ -10609,7 +10595,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen zǒuguò nàge měilì de huāyuán",
         "compound_definition": "We walked past that beautiful garden.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1342,
@@ -10623,7 +10609,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tāmen zǒujìnle dà jiàotáng",
         "compound_definition": "They walked into the cathedral.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1343,
@@ -10637,7 +10623,7 @@ var hskLevel2 = [
         "compound_pinyin": "Fēijī jiāng zài xiàwǔ 3 diǎn qǐfēi",
         "compound_definition": "The plane will take off at 3 p.m.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1344,
@@ -10651,7 +10637,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā de chéngjī chāoguòle wǒmen de yùqī",
         "compound_definition": "His performance exceeded our expectations.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1345,
@@ -10665,7 +10651,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen qù chāoshì mǎi xiē shíwù",
         "compound_definition": "Let's go to the supermarket to buy some food.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1346,
@@ -10679,7 +10665,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā de shēngāo chāoguòle wǒ de",
         "compound_definition": "His height exceeds mine.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1347,
@@ -10693,7 +10679,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā de Zhōngwén shuǐpíng yuè lái yuè hǎo",
         "compound_definition": "His Chinese proficiency is getting better and better.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1348,
@@ -10707,7 +10693,7 @@ var hskLevel2 = [
         "compound_pinyin": "Suízhe shíjiān de tuīyí, tā de huà jì yuè lái yuè jīngzhàn",
         "compound_definition": "As time goes by, his painting skills are becoming more and more refined.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1349,
@@ -10721,7 +10707,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè shì yī jiā lùbiān xiǎochī tān",
         "compound_definition": "This is a roadside snack stall.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1350,
@@ -10735,7 +10721,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zài kùnnán shí, péngyǒu zǒng shì zài nǐ shēnbiān",
         "compound_definition": "In difficult times, friends are always by your side.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1351,
@@ -10749,7 +10735,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè tiáo lù shàng yǒu hěnduō chēliàng",
         "compound_definition": "There are many vehicles on this road.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1352,
@@ -10763,7 +10749,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège bāo hěn qīng, hěn shìhé lǚxíng",
         "compound_definition": "This bag is very light, perfect for traveling.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1353,
@@ -10777,7 +10763,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè liàng zìxíngchē shì wǒ de",
         "compound_definition": "This bicycle is mine.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1354,
@@ -10791,7 +10777,7 @@ var hskLevel2 = [
         "compound_pinyin": "Lìshǐ shì guòqù de jìngzi",
         "compound_definition": "History is the mirror of the past.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1355,
@@ -10805,7 +10791,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen yī jiā rén guònián shí huì jù zài yīqǐ",
         "compound_definition": "Our family gathers together for the Chinese New Year.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1356,
@@ -10819,7 +10805,7 @@ var hskLevel2 = [
         "compound_pinyin": "Qǐng guòlái yīxià, wǒ yǒu jiàn shì yào gàosu nǐ",
         "compound_definition": "Please come over, I have something to tell you.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1357,
@@ -10833,7 +10819,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tāmen yíngjiē xīnshēng de dàolái",
         "compound_definition": "They welcome the arrival of new students.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1358,
@@ -10847,7 +10833,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè jiā gōngsī fùzé yùnshū huòwù",
         "compound_definition": "This company is responsible for transporting goods.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1359,
@@ -10861,7 +10847,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ xǐhuān cānjiā gè zhǒng yùndòng",
         "compound_definition": "I like to participate in various sports.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1360,
@@ -10875,7 +10861,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ jiā lí xuéxiào hěn jìn",
         "compound_definition": "My home is very close to the school.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1361,
@@ -10889,7 +10875,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā zhème xiǎo, zěnme néng dúzì chūqù wán ne?",
         "compound_definition": "He's so young, how can he go out to play alone?",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1362,
@@ -10903,7 +10889,7 @@ var hskLevel2 = [
         "compound_pinyin": "Qǐng děng yīxià, zhè shíhòu wǒ qù zhǎo tā",
         "compound_definition": "Please wait a moment, I'll go find him at this moment.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1363,
@@ -10917,7 +10903,7 @@ var hskLevel2 = [
         "compound_pinyin": "Nǐ kěyǐ bǎ tā fàng zài zhèyàng",
         "compound_definition": "You can put it like this.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1364,
@@ -10931,7 +10917,7 @@ var hskLevel2 = [
         "compound_pinyin": "Qǐng bùyào suíbiàn jìnrù sīrén lǐngdì",
         "compound_definition": "Please do not enter private property casually.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1365,
@@ -10945,7 +10931,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen jiāng zài xià gè yuè jìnxíng gǎigé",
         "compound_definition": "We will carry out reforms next month.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1366,
@@ -10959,7 +10945,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ huì qīnzì bǎ wénjiàn sòng dào nǐ de bàngōngshì",
         "compound_definition": "I will personally deliver the documents to your office.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1367,
@@ -10973,7 +10959,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ juédìng bǎ zhè běn shū sòng gěi nǐ",
         "compound_definition": "I've decided to give you this book as a gift.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1368,
@@ -10987,7 +10973,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè shì yīgè shìhé suǒyǒu niánlíng duàn rén de huódòng",
         "compound_definition": "This is an activity suitable for people of all ages.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1369,
@@ -11001,7 +10987,7 @@ var hskLevel2 = [
         "compound_pinyin": "Nǐ yào xuǎn nǎge yánsè de yīfú?",
         "compound_definition": "Which color clothes do you want to choose?",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1370,
@@ -11015,7 +11001,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā tōngguòle suǒyǒu kǎoshì",
         "compound_definition": "He passed all the exams.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1371,
@@ -11029,7 +11015,7 @@ var hskLevel2 = [
         "compound_pinyin": "Xuéxiào huì tíqián tōngzhī wǒmen kāixué de rìqī",
         "compound_definition": "The school will notify us in advance of the start date.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1372,
@@ -11043,7 +11029,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen zhōngyú tōngguòle zhè zuò shānmài",
         "compound_definition": "We finally passed through this mountain range.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1373,
@@ -11057,7 +11043,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tāmen zǒu biànle zhěnggè chéngshì",
         "compound_definition": "They walked everywhere in the city.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1374,
@@ -11071,7 +11057,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā jiǎng de dàolǐ zǒng shì hěn yǒu dàolǐ",
         "compound_definition": "What she says always makes sense.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1375,
@@ -11085,7 +11071,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zài chéngshì zhōng xiūjiànle hěnduō xīn de dàolù",
         "compound_definition": "Many new roads have been built in the city.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1376,
@@ -11099,7 +11085,7 @@ var hskLevel2 = [
         "compound_pinyin": "Rúguǒ nǐ bù xǐhuān zhège, nàme wǒ kěyǐ gěi nǐ huàn yīgè",
         "compound_definition": "If you don't like this one, I can give you another one.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1377,
@@ -11113,7 +11099,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tāmen nà huìr zhèngzài chī wǔfàn",
         "compound_definition": "They were having lunch then.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1378,
@@ -11127,7 +11113,7 @@ var hskLevel2 = [
         "compound_pinyin": "Nà shíhòu wǒmen háishì xuéshēng",
         "compound_definition": "We were students at that time.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1379,
@@ -11141,7 +11127,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā nà yàng zuò shì zhèngquè de ma?",
         "compound_definition": "Is what he did correct like that?",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1380,
@@ -11155,7 +11141,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè bù diànyǐng shì guānyú àiqíng de",
         "compound_definition": "This movie is about love.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1381,
@@ -11169,7 +11155,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen zhǐ zhīdào gùshì de yī bùfen",
         "compound_definition": "We only know part of the story.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1382,
@@ -11183,7 +11169,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ bù hē jiǔ, wǒ shì gè huábǎn yùndòngyuán",
         "compound_definition": "I don't drink alcohol; I'm a skateboarder.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1383,
@@ -11197,7 +11183,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen zài zhè jiā jiǔdiàn zhùle yīgè xīngqī",
         "compound_definition": "We stayed in this hotel for a week.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1384,
@@ -11211,7 +11197,7 @@ var hskLevel2 = [
         "compound_pinyin": "Qǐng bǎ xiāngzi lǐtou de dōngxi ná chūlai",
         "compound_definition": "Please take out the things inside the box.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1385,
@@ -11225,7 +11211,7 @@ var hskLevel2 = [
         "compound_pinyin": "Qǐng nǐ bùyào chóngfù tóngyàng de cuòwù",
         "compound_definition": "Please don't repeat the same mistake.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1386,
@@ -11239,7 +11225,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen xūyào chóngxīn kāishǐ",
         "compound_definition": "We need to start again.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1387,
@@ -11253,7 +11239,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zài zhège jiǎngzuò zhōng, wǒmen jiāng guānzhù sān gè zhòngdiǎn",
         "compound_definition": "In this lecture, we will focus on three key points.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1388,
@@ -11267,7 +11253,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhèngfǔ yīnggāi zhòngshì jiàoyù de fāzhǎn",
         "compound_definition": "The government should attach importance to the development of education.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1389,
@@ -11281,7 +11267,7 @@ var hskLevel2 = [
         "compound_pinyin": "Qǐng nǐ liàng yīxià zhège xiāngzi de zhòngliàng",
         "compound_definition": "Please measure the weight of this box.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1390,
@@ -11295,7 +11281,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen kěyǐ kàn dào gōngyuán lǐ yǒu yī zuò dà zhōng",
         "compound_definition": "We can see a big clock in the park.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1391,
@@ -11309,7 +11295,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè zuò qiáo shì yòng tiě jiànzào de",
         "compound_definition": "This bridge is built with iron.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1392,
@@ -11323,7 +11309,7 @@ var hskLevel2 = [
         "compound_pinyin": "Yín shì yī zhǒng guìzhòng de jīnshǔ",
         "compound_definition": "Silver is a precious metal.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1393,
@@ -11337,7 +11323,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ xūyào qù yínháng qǔ yīxiē qián",
         "compound_definition": "I need to go to the bank to get some money.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1394,
@@ -11351,7 +11337,7 @@ var hskLevel2 = [
         "compound_pinyin": "Qǐng quèbǎo nǐ de yínhángkǎ ānquán",
         "compound_definition": "Please make sure your bank card is secure.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1395,
@@ -11365,7 +11351,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè tiáo hé fēicháng cháng",
         "compound_definition": "This river is very long.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1396,
@@ -11379,7 +11365,7 @@ var hskLevel2 = [
         "compound_pinyin": "Dāng wǒ zhǎngdà de shíhòu, wǒ xiǎng chéngwéi yīmíng yīshēng",
         "compound_definition": "When I grow up, I want to become a doctor.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1397,
@@ -11393,7 +11379,7 @@ var hskLevel2 = [
         "compound_pinyin": "Rúguǒ nǐ mílùle, jiù qù wèn lù ba",
         "compound_definition": "If you get lost, go ask for directions.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1398,
@@ -11407,7 +11393,7 @@ var hskLevel2 = [
         "compound_pinyin": "Rúguǒ nǐ yǒu rènhé wèntí, qǐng suíshí wèn wǒ",
         "compound_definition": "If you have any questions, please feel free to ask me.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1399,
@@ -11421,7 +11407,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ wén dàole xīnxiān de miànbāo wèidao",
         "compound_definition": "I smell the fresh smell of bread.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1400,
@@ -11435,7 +11421,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen shì tóng yīgè tuánduì de yīyuán",
         "compound_definition": "We are members of the same team.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1401,
@@ -11449,7 +11435,7 @@ var hskLevel2 = [
         "compound_pinyin": "Duìzhǎng shì zhěng gè tuánduì de lǐngdǎo",
         "compound_definition": "The team leader is the leader of the entire team.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1402,
@@ -11463,7 +11449,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zài yángguāng xià, huār kāi dé gèng měilì",
         "compound_definition": "Under the sunshine, the flowers bloom more beautifully.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1403,
@@ -11477,7 +11463,7 @@ var hskLevel2 = [
         "compound_pinyin": "Jīntiān shì yīntiān, kěnéng huì xiàyǔ",
         "compound_definition": "Today is overcast, it might rain.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1404,
@@ -11491,7 +11477,7 @@ var hskLevel2 = [
         "compound_pinyin": "Míngtiān kěnéng shì yīntiān, jìdé dài sǎn",
         "compound_definition": "Tomorrow might be a cloudy day, remember to bring an umbrella.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1405,
@@ -11505,7 +11491,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen dàodále liǎng gè guójiā de jiāojiè jì",
         "compound_definition": "We reached the boundary between two countries.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1406,
@@ -11519,7 +11505,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen jiā yǒu yīgè piàoliang de yuànzi",
         "compound_definition": "Our house has a beautiful courtyard.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1407,
@@ -11533,7 +11519,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā shì zhè suǒ xuéyuàn de yuànzhǎng",
         "compound_definition": "He is the dean of this college.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1408,
@@ -11547,7 +11533,7 @@ var hskLevel2 = [
         "compound_pinyin": "Qǐng nǐ suízhe wǒ zǒu",
         "compound_definition": "Please follow me.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1409,
@@ -11561,7 +11547,7 @@ var hskLevel2 = [
         "compound_pinyin": "Qǐng suíbiàn zuò, zhèlǐ dōu shì kòng de",
         "compound_definition": "Please sit wherever you like; there are plenty of empty seats here.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1410,
@@ -11575,7 +11561,7 @@ var hskLevel2 = [
         "compound_pinyin": "Rúguǒ nǐ yǒu wèntí, qǐng suíshí gàosù wǒ",
         "compound_definition": "If you have any questions, please tell me at any time.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1411,
@@ -11589,7 +11575,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tiānqì tài rèle, gǎnjué hěn nánshòu",
         "compound_definition": "The weather is too hot, and it feels very uncomfortable.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1412,
@@ -11603,7 +11589,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè shǒu gē tài nántīngle, wǒ bù xǐhuān",
         "compound_definition": "This song is too unpleasant to hear; I don't like it.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1413,
@@ -11617,7 +11603,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè jiàn yīfú zhēn de hěn nánkàn, wǒ bù xǐhuān",
         "compound_definition": "This piece of clothing is really ugly; I don't like it.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1414,
@@ -11631,7 +11617,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tīng dào zhège xiāoxī, wǒ gǎndào hěn nánguò",
         "compound_definition": "I feel very sad to hear this news.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1415,
@@ -11645,7 +11631,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè shì yīgè hěn nán de shùxué nántí",
         "compound_definition": "This is a very difficult math problem.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1416,
@@ -11659,7 +11645,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen qùnián kàn dàole dì yī chǎng xuě",
         "compound_definition": "We saw the first snowfall last year.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1417,
@@ -11673,7 +11659,7 @@ var hskLevel2 = [
         "compound_pinyin": "Jīntiān qìwēn língxià shí dù",
         "compound_definition": "Today's temperature is ten degrees below zero.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1418,
@@ -11687,7 +11673,7 @@ var hskLevel2 = [
         "compound_pinyin": "Qīng cǎo zài yángguāng xià géwài měilì",
         "compound_definition": "The green grass looks exceptionally beautiful in the sunlight.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1419,
@@ -11701,7 +11687,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège shèqū yǒu hěnduō qīngshàonián huódòng",
         "compound_definition": "There are many activities for teenagers in this community.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1420,
@@ -11715,7 +11701,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè shì yī jiā zhuānmén zhāopìn qīngnián rén de gōngsī",
         "compound_definition": "This is a company specifically recruiting young people.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1421,
@@ -11729,7 +11715,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège dìfāng fēicháng jìng, jīhū tīng bù dào shēngyīn",
         "compound_definition": "This place is very quiet; you can hardly hear any sound.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1422,
@@ -11743,7 +11729,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zài kùnnán shí, wǒmen xūyào xiānghù kàojìn",
         "compound_definition": "In difficult times, we need to rely on each other.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1423,
@@ -11757,7 +11743,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā yǒu yī zhāng piàoliang de liǎn hé tiánměi de xiàoróng",
         "compound_definition": "She has a beautiful face and a sweet smile.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1424,
@@ -11771,7 +11757,7 @@ var hskLevel2 = [
         "compound_pinyin": "Jīn wǎn wǒ xiǎng chī yī wǎn miàn",
         "compound_definition": "Tonight I want to eat a bowl of noodles.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1425,
@@ -11785,7 +11771,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen zhàn zài dàhǎi miànqián, gǎndào wúbǐ hóngwěi",
         "compound_definition": "We stand in front of the ocean, feeling immensely magnificent.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1426,
@@ -11799,7 +11785,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ de xiézi tài jiùle, wǒ xūyào yī shuāng xīn de",
         "compound_definition": "My shoes are too old; I need a new pair.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1427,
@@ -11813,7 +11799,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège chéngshì de yīn hěn rènào",
         "compound_definition": "The sound in this city is lively.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1428,
@@ -11827,7 +11813,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ xǐhuān tīng gè zhǒng lèixíng de yīnyuè",
         "compound_definition": "I like listening to various types of music.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1429,
@@ -11841,7 +11827,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zuówǎn wǒ qùle yī chǎng yīnyuèhuì",
         "compound_definition": "I went to a concert last night.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1430,
@@ -11855,7 +11841,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhōngwén de yīnjié jiégòu yǒuxiē fùzá",
         "compound_definition": "The syllable structure of Chinese is somewhat complex.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1431,
@@ -11869,7 +11855,7 @@ var hskLevel2 = [
         "compound_pinyin": "Jiāotōngdēng dōu shùnle, wǒmen kěyǐ zǒule",
         "compound_definition": "The traffic lights are all green; we can go now.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1432,
@@ -11883,7 +11869,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā de gōngzuò jìnzhǎn dé fēicháng shùnlì",
         "compound_definition": "His work is progressing very smoothly.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1433,
@@ -11897,7 +11883,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wèile ānquán, nǐ xūyào xì hǎo ānquán dài",
         "compound_definition": "For safety, you must fasten your seatbelt.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1434,
@@ -11911,7 +11897,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā gùzhe jiātíng, hěn shǎo chūmén",
         "compound_definition": "He looks after the family and rarely goes out.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1435,
@@ -11925,7 +11911,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè jiā shāngdiàn tígōng yōuzhì fúwù, xīyǐnle hěnduō gùkè",
         "compound_definition": "This store provides excellent service and attracts many customers.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1436,
@@ -11939,7 +11925,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen xūyào xuǎnzé yīgè shìhé de tí",
         "compound_definition": "We need to choose a suitable topic.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1437,
@@ -11953,7 +11939,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè fú huà de yánsè hěn fēngfù",
         "compound_definition": "The colors in this painting are very rich.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1438,
@@ -11967,7 +11953,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ zuì xǐhuān de yánsè shì lán sè",
         "compound_definition": "My favorite color is blue.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1439,
@@ -11981,7 +11967,7 @@ var hskLevel2 = [
         "compound_pinyin": "Nǐ yīnggāi dìngshí shí cān",
         "compound_definition": "You should eat your meals regularly.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1440,
@@ -11995,7 +11981,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhège cāntīng de shíwù fēicháng měiwèi",
         "compound_definition": "The food in this restaurant is very delicious.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1441,
@@ -12009,7 +11995,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen yīqǐ chī gè wǎncān ba",
         "compound_definition": "Let's have dinner together.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1442,
@@ -12023,7 +12009,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè jiā fànguǎn de cài hěn dìdào",
         "compound_definition": "The dishes in this restaurant are very authentic.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1443,
@@ -12037,7 +12023,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā chī de hěn bǎo, bùxiǎng zài chīle",
         "compound_definition": "He ate a lot and doesn't want to eat anymore.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1444,
@@ -12051,7 +12037,7 @@ var hskLevel2 = [
         "compound_pinyin": "Bāo jiǎozi shì yī xiàng xūyào jìqiǎo de shǒuyì",
         "compound_definition": "Making dumplings is a skillful craft.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1445,
@@ -12065,7 +12051,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zài zhōngguó, chī jiǎozi shì guònián de chuántǒng xísú",
         "compound_definition": "Eating dumplings is a traditional custom for the Chinese New Year in China.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1446,
@@ -12079,7 +12065,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā xǐhuān zài gōngyuán lǐ qí zìxíngchē",
         "compound_definition": "He likes to ride a bicycle in the park.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1447,
@@ -12093,7 +12079,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒ jīngcháng qíchē shàngbān",
         "compound_definition": "I often ride a bike to work.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1448,
@@ -12107,7 +12093,7 @@ var hskLevel2 = [
         "compound_pinyin": "Gāozhōng shí, tā chéngjī fēicháng yōuxiù",
         "compound_definition": "In high school, she had excellent grades.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1449,
@@ -12121,7 +12107,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè shì yī mén gāojí kèchéng, xūyào yīxiē jīchǔ zhīshì",
         "compound_definition": "This is an advanced course that requires some basic knowledge.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1450,
@@ -12135,7 +12121,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zhè jiā fànguǎn de tángcù yú fēicháng hào chī",
         "compound_definition": "The sweet and sour fish in this restaurant is very delicious.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1451,
@@ -12149,7 +12135,7 @@ var hskLevel2 = [
         "compound_pinyin": "Wǒmen zài shù shàng kàn dàole yī zhī piàoliang de niǎo",
         "compound_definition": "We saw a beautiful bird in the tree.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1452,
@@ -12163,7 +12149,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā chuānzhe yī jiàn huángsè de qúnzi",
         "compound_definition": "She is wearing a yellow dress.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1453,
@@ -12177,7 +12163,7 @@ var hskLevel2 = [
         "compound_pinyin": "Zài zhè fú huà zhōng, huángsè dàibiǎole wēnnuǎn hé huólì",
         "compound_definition": "In this painting, yellow represents warmth and vitality.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1454,
@@ -12191,7 +12177,7 @@ var hskLevel2 = [
         "compound_pinyin": "Tā xǐhuān chuān hēisè de yīfu",
         "compound_definition": "She likes to wear black clothes.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1455,
@@ -12205,7 +12191,7 @@ var hskLevel2 = [
         "compound_pinyin": "Lǎoshī zài hēibǎn shàng xiěxiàle jīntiān de zuòyè",
         "compound_definition": "The teacher wrote today's homework on the blackboard.",
         "valid_sentence": "",
-        "counter (873)\r": "\r"
+        "counter (872)\r": "\r"
     },
     {
         "id": 1456,
@@ -12219,6 +12205,6 @@ var hskLevel2 = [
         "compound_pinyin": "Duìyú yīxiē zhèngshì chǎng hé, hēisè shì bǐjiào héshì de yánsè",
         "compound_definition": "For some formal occasions, black is a more appropriate color.",
         "valid_sentence": ",",
-        "counter (873)\r": ""
+        "counter (872)\r": ""
     }
 ];

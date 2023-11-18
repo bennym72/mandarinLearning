@@ -54,6 +54,7 @@ var _initialTableData = [];
 var _selectionTable;
 
 var langDataToUse = {}; //newLangData;
+var _highestChosenHSKLevel = 0;
 
 const _hskLevelToSingleCharMap = {};
 const _hskLevelToSentencedDataMap = {};
@@ -682,14 +683,18 @@ class BaseBoard {
                 console.log(sentenceToUse + " Start amount: " + startAmount + "; End amount: " + endAmount);
                 index++;
             }
+            var charsWithoutSentenceCount = 0;
             Object.keys(charMap).forEach((charMapKey) => {
                 const value = charMap[charMapKey];
-                newLangData.push(value);
+                if (_highestChosenHSKLevel > 0 && value.hsk_level <= _highestChosenHSKLevel) {
+                    charsWithoutSentenceCount++;
+                    newLangData.push(value);
+                }
             });
             window.individualCharMap = charMap;
             console.log(Object.keys(charMap).join("%"));
 
-            document.querySelector("#_sentenceToChar").innerText = "# sentences: " + index + "; # characters: " + Object.keys(charMap).length;
+            document.querySelector("#_sentenceToChar").innerText = "# sentences: " + index + "; # characters: " + charsWithoutSentenceCount;
         }
         langDataToUse = {};
         newLangData.forEach((mandarinChar) => {
@@ -977,6 +982,14 @@ class BaseBoard {
     }
 
     onHSKInput(value) {
+        const selectedLevels = value.split(",").map((value) => { return Number.parseInt(value) });
+        var highestLevel = 0;
+        selectedLevels.forEach((level) => {
+            if (level > highestLevel) {
+                highestLevel = level;
+            }
+        });
+        _highestChosenHSKLevel = highestLevel;
         if (isSentenceMode) {
             mergeSentenceData(value);
         } else {
