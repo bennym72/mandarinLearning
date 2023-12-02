@@ -69,7 +69,8 @@ const charsToIgnore = [
     "!",
     "！",
     "？",
-    " "
+    " ",
+    "、"
 ];
 const anyCharByHSKLevel = {};
 charsToIgnore.forEach((value) => {
@@ -243,12 +244,14 @@ function initializeData() {
             const sentenceForCharacter = value.compound;
             var excludedChars = "";
             const hskLevelForValue = value.hsk_level;
+            var hasCharacter = false;
             for (var i = 0; i < sentenceForCharacter.length; i++) {
                 const charAt = sentenceForCharacter[i];
                 const currentCharHSKLevel = anyCharByHSKLevel[charAt];
                 if (!currentCharHSKLevel || currentCharHSKLevel > hskLevelForValue) {
                     excludedChars = excludedChars + charAt;
                 }
+                hasCharacter = hasCharacter || character == charAt;
             }
             const compoundCount = value.character.length;
             const isValid = value.compound.length > value.character.length && excludedChars.length == 0;
@@ -263,7 +266,8 @@ function initializeData() {
             separator + value.compound_definition + 
             separator + (excludedChars.length? excludedChars : ".") + 
             separator + compoundCount + 
-            separator + numberOfAppearances);
+            separator + numberOfAppearances +
+            separator + hasCharacter);
         }); 
         const sentenceCheckAsString = sentenceCheck.join("\n");
         console.log(sentenceCheckAsString);
