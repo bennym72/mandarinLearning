@@ -54,7 +54,9 @@ var _initialTableData = [];
 var _selectionTable;
 
 var langDataToUse = {}; //newLangData;
-var _highestChosenHSKLevel = 0;
+var _highestChosenHSKLevel = 0; // defaults to 0
+var _highestAvailableHSKLevel = 0;
+var _sentenceDataInput = "1,2,3,4,5,6,7";
 
 const _hskLevelToSingleCharMap = {};
 const _hskLevelToSentencedDataMap = {};
@@ -158,6 +160,7 @@ function initializeData() {
             } else {
                 anyCharByHSKLevel[charAt] = value.hsk_level;
             }
+            _highestAvailableHSKLevel = Math.max(_highestAvailableHSKLevel, value.hsk_level);
         }
     });
 
@@ -176,103 +179,7 @@ function initializeData() {
         if (isSingleCharMode) {
             value.tone = findTone(value.character_pinyin);
         }
-
-        if (isSentenceMode) {
-            /**
-             * Idea behind sentence mode is that for every HSK level, we will iterate through every word in that HSK level and map that character to a sentence.
-             * {
-             *      1 : {
-             *              char : {
-             *                          word: sentence,
-             *                          word: sentence
-             *                      }
-             *          }
-             *  }
-             * 
-             */
-            if (value.character.length == 1) {
-
-                if (!_hskLevelToSingleCharMap[value.hsk_level] ) {
-                    _hskLevelToSingleCharMap[value.hsk_level] = {};
-                }
-                _hskLevelToSingleCharMap[value.hsk_level][value.character] = value;                
-
-                // only capturing single chars
-                charMap[value.character] = value;
-            }
-            if (value.character != value.compound && isValidSentence(value.hsk_level, value.compound)) {
-                for (var i = 0; i < value.character.length; i++) {
-                    const charAt = value.character[i];
-                    if (!_sentencedData[charAt]) {
-                        _sentencedData[charAt] = {};
-                    }
-
-                    if (!_hskLevelToSentencedDataMap[value.hsk_level] ) {
-                        _hskLevelToSentencedDataMap[value.hsk_level] = {};
-                    }
-                    if (!_hskLevelToSentencedDataMap[value.hsk_level][charAt]) {
-                        _hskLevelToSentencedDataMap[value.hsk_level][charAt] = {};
-                    }
-
-                    _hskLevelToSentencedDataMap[value.hsk_level][charAt][value.character] = {
-                        compound : value.compound,
-                        compound_pinyin : value.compound_pinyin,
-                        compound_definition : value.compound_definition
-                    };
-
-                    _sentencedData[charAt][value.character] = {
-                        compound : value.compound,
-                        compound_pinyin : value.compound_pinyin,
-                        compound_definition : value.compound_definition
-                    };
-                    delete charMap[charAt];
-                }
-
-                for (var j = 0; j < value.compound.length; j++) {
-                    charCountInValidSentences[value.compound[j]] = charCountInValidSentences[value.compound[j]] + 1;
-                }
-            }
-        }
     });
-    console.log("Num chars excluded: " + Object.keys(charMap).length);
-
-    if (isSentenceMode) {
-        // code for checking excluded characters
-        const sentenceCheck = [];
-        data.forEach((value, index) => {
-            const character = value.character;
-            const sentenceForCharacter = value.compound;
-            var excludedChars = "";
-            const hskLevelForValue = value.hsk_level;
-            var hasCharacter = false;
-            for (var i = 0; i < sentenceForCharacter.length; i++) {
-                const charAt = sentenceForCharacter[i];
-                const currentCharHSKLevel = anyCharByHSKLevel[charAt];
-                if (!currentCharHSKLevel || currentCharHSKLevel > hskLevelForValue) {
-                    excludedChars = excludedChars + charAt;
-                }
-                hasCharacter = hasCharacter || character == charAt;
-            }
-            const compoundCount = value.character.length;
-            const isValid = value.compound.length > value.character.length && excludedChars.length == 0;
-            const numberOfAppearances = charCountInValidSentences[character] ? charCountInValidSentences[character] : 0;
-            const separator = "%";
-            sentenceCheck.push((index + 1) + 
-            separator + character + 
-            separator + hskLevelForValue + 
-            separator + isValid + 
-            separator + sentenceForCharacter + 
-            separator + value.compound_pinyin + 
-            separator + value.compound_definition + 
-            separator + (excludedChars.length? excludedChars : ".") + 
-            separator + compoundCount + 
-            separator + numberOfAppearances +
-            separator + hasCharacter);
-        }); 
-        const sentenceCheckAsString = sentenceCheck.join("\n");
-        console.log(sentenceCheckAsString);
-        console.log(charCountInValidSentences);
-    }
 
     function partOfSpeechString(partOfSpeech, counter) {
         if (counter < 10) {
@@ -350,7 +257,9 @@ const mergeSentenceData = function (values) {
     _sentencedData = _hskLevelToSentencedDataMap[hskLevelsToUse[0]];
     for (var i = 1; i < hskLevelsToUse.length; i++) {
         const sentencesToMerge = _hskLevelToSentencedDataMap[hskLevelsToUse[i]];
-        mergeTwoSentenceData(_sentencedData, sentencesToMerge);
+        if (sentencesToMerge) {
+            mergeTwoSentenceData(_sentencedData, sentencesToMerge);
+        }
     }
     console.log(Object.keys(_sentencedData).length);
 }
@@ -648,14 +557,114 @@ class BaseBoard {
     
     onStart(){
         var newLangData = [];
-        if (!isSentenceMode) {
-            const checkedBoxes = Array.prototype.slice.call(document.querySelectorAll('input[type=checkbox]:checked'));
-            checkedBoxes.forEach(checkedBox => {
-                const selectedHskLevel = checkedBox.parentElement.parentElement.querySelector(".hsk").innerText;
-                const selectedPartOfSpeech = checkedBox.parentElement.parentElement.querySelector(".part_of_speech").innerText;
-                newLangData = newLangData.concat(_groupedDataBy10[selectedHskLevel][selectedPartOfSpeech]);
-            })
-        } else {
+
+        if (isSentenceMode) {
+        
+            data.forEach((value) => {
+                
+                /**
+                 * Idea behind sentence mode is that for every HSK level, we will iterate through every word in that HSK level and map that character to a sentence.
+                 * {
+                 *      1 : {
+                 *              char : {
+                 *                          word: sentence,
+                 *                          word: sentence
+                 *                      }
+                 *          }
+                 *  }
+                 */
+                if (value.character.length == 1) {
+
+                    if (!_hskLevelToSingleCharMap[value.hsk_level] ) {
+                        _hskLevelToSingleCharMap[value.hsk_level] = {};
+                    }
+                    _hskLevelToSingleCharMap[value.hsk_level][value.character] = value;                
+
+                    // only capturing single chars
+                    charMap[value.character] = value;
+                }
+                /**
+                 * For the purposes of generating the "valid sentence" console output to figure out which sentences are valid at HSK 1 (for example), we need to input 1 into the input box.
+                 * Without the input box, the "isValidSentence" will check a word's sentence for if it's valid compared to the highest available HSK level... ie. if an HSK level 1 word includes an HSK level 3 in its sentence
+                 * and this site supports up to HSK 3, then that would be considered valid.
+                 * 
+                 * This is done so that if there are some HSK 1 sentences which aren't valid at HSK 1, we can include them if we're testing HSK 3.
+                 */
+                const hskLevelToCheck = _highestChosenHSKLevel > 0 ? _highestAvailableHSKLevel : _highestAvailableHSKLevel;
+                if (value.character != value.compound && isValidSentence(hskLevelToCheck, value.compound)) {
+                    for (var i = 0; i < value.character.length; i++) {
+                        const charAt = value.character[i];
+                        if (!_sentencedData[charAt]) {
+                            _sentencedData[charAt] = {};
+                        }
+
+                        if (!_hskLevelToSentencedDataMap[value.hsk_level] ) {
+                            _hskLevelToSentencedDataMap[value.hsk_level] = {};
+                        }
+                        if (!_hskLevelToSentencedDataMap[value.hsk_level][charAt]) {
+                            _hskLevelToSentencedDataMap[value.hsk_level][charAt] = {};
+                        }
+
+                        _hskLevelToSentencedDataMap[value.hsk_level][charAt][value.character] = {
+                            compound : value.compound,
+                            compound_pinyin : value.compound_pinyin,
+                            compound_definition : value.compound_definition
+                        };
+
+                        _sentencedData[charAt][value.character] = {
+                            compound : value.compound,
+                            compound_pinyin : value.compound_pinyin,
+                            compound_definition : value.compound_definition
+                        };
+                        delete charMap[charAt];
+                    }
+
+                    for (var j = 0; j < value.compound.length; j++) {
+                        charCountInValidSentences[value.compound[j]] = charCountInValidSentences[value.compound[j]] + 1;
+                    }
+                }
+            
+            });
+            console.log("Num chars excluded: " + Object.keys(charMap).length);
+
+            // code for checking excluded characters
+            const sentenceCheck = [];
+            data.forEach((value, index) => {
+                const character = value.character;
+                const sentenceForCharacter = value.compound;
+                var excludedChars = "";
+                const hskLevelForValue = value.hsk_level;
+                var hasCharacter = false;
+                for (var i = 0; i < sentenceForCharacter.length; i++) {
+                    const charAt = sentenceForCharacter[i];
+                    const currentCharHSKLevel = anyCharByHSKLevel[charAt];
+                    if (!currentCharHSKLevel || currentCharHSKLevel > hskLevelForValue) {
+                        excludedChars = excludedChars + charAt;
+                    }
+                    hasCharacter = hasCharacter || character == charAt;
+                }
+                const compoundCount = value.character.length;
+                const isValid = value.compound.length > value.character.length && excludedChars.length == 0;
+                const numberOfAppearances = charCountInValidSentences[character] ? charCountInValidSentences[character] : 0;
+                const separator = "%";
+                sentenceCheck.push((index + 1) + 
+                separator + character + 
+                separator + hskLevelForValue + 
+                separator + isValid + 
+                separator + sentenceForCharacter + 
+                separator + value.compound_pinyin + 
+                separator + value.compound_definition + 
+                separator + (excludedChars.length? excludedChars : ".") + 
+                separator + compoundCount + 
+                separator + numberOfAppearances +
+                separator + hasCharacter);
+            }); 
+            const sentenceCheckAsString = sentenceCheck.join("\n");
+            console.log(sentenceCheckAsString);
+            console.log(charCountInValidSentences);
+
+            mergeSentenceData(_sentenceDataInput);
+
             var index = 0;
             while (Object.keys(_sentencedData).length > 0) {
                 const startAmount = Object.keys(_sentencedData).length;
@@ -690,7 +699,7 @@ class BaseBoard {
             var charsWithoutSentenceCount = 0;
             Object.keys(charMap).forEach((charMapKey) => {
                 const value = charMap[charMapKey];
-                if (_highestChosenHSKLevel > 0 && value.hsk_level <= _highestChosenHSKLevel) {
+                if (_highestChosenHSKLevel == 0 || value.hsk_level <= _highestChosenHSKLevel) {
                     charsWithoutSentenceCount++;
                     newLangData.push(value);
                 }
@@ -699,6 +708,13 @@ class BaseBoard {
             console.log(Object.keys(charMap).join("%"));
 
             document.querySelector("#_sentenceToChar").innerText = "# sentences: " + index + "; # characters: " + charsWithoutSentenceCount;
+        } else {
+            const checkedBoxes = Array.prototype.slice.call(document.querySelectorAll('input[type=checkbox]:checked'));
+            checkedBoxes.forEach(checkedBox => {
+                const selectedHskLevel = checkedBox.parentElement.parentElement.querySelector(".hsk").innerText;
+                const selectedPartOfSpeech = checkedBox.parentElement.parentElement.querySelector(".part_of_speech").innerText;
+                newLangData = newLangData.concat(_groupedDataBy10[selectedHskLevel][selectedPartOfSpeech]);
+            });
         }
         langDataToUse = {};
         newLangData.forEach((mandarinChar) => {
@@ -986,6 +1002,7 @@ class BaseBoard {
     }
 
     onHSKInput(value) {
+        _sentenceDataInput = value;
         const selectedLevels = value.split(",").map((value) => { return Number.parseInt(value) });
         var highestLevel = 0;
         selectedLevels.forEach((level) => {
@@ -994,18 +1011,14 @@ class BaseBoard {
             }
         });
         _highestChosenHSKLevel = highestLevel;
-        if (isSentenceMode) {
-            mergeSentenceData(value);
-        } else {
-            value.split(",").map((numAsString) => {
-                return hskLevelString + numAsString;
-            }).forEach((hskLevelSelector) => {
-                htmlToArray(document.querySelectorAll("." + hskLevelSelector + " input")).forEach((checkbox) => {
-                    checkbox.checked = true;
-                    checkbox.setAttribute("checked", "true");
-                });
+        value.split(",").map((numAsString) => {
+            return hskLevelString + numAsString;
+        }).forEach((hskLevelSelector) => {
+            htmlToArray(document.querySelectorAll("." + hskLevelSelector + " input")).forEach((checkbox) => {
+                checkbox.checked = true;
+                checkbox.setAttribute("checked", "true");
             });
-        }
+        });
     }
 }
 
