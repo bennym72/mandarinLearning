@@ -133,9 +133,9 @@ var hskLevel2 = [
         "hsk_level": 2,
         "part_of_speech": "noun",
         "compound_cantonese": "Maan6",
-        "compound": "他赚了一万块钱",
-        "compound_pinyin": "Tā zhuàn le yī wàn kuài qián",
-        "compound_definition": "He earned ten thousand yuan.",
+        "compound": "家里的主要工人花了一万元去爬山。",
+        "compound_pinyin": "Jiālǐ de zhǔyào gōngrén huāle yī wàn yuán qù páshān.",
+        "compound_definition": "The main worker in the family spent 10000 yuan to go hiking.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
@@ -595,9 +595,9 @@ var hskLevel2 = [
         "hsk_level": 2,
         "part_of_speech": "adjective",
         "compound_cantonese": "Zyu2",
-        "compound": "这是我们主要的任务",
-        "compound_pinyin": "Zhè shì wǒmen zhǔyào de rènwu",
-        "compound_definition": "This is our main task.",
+        "compound": "她在电影的主要部分哭了。",
+        "compound_pinyin": "Tā zài diànyǐng de zhǔyào bùfèn kūle.",
+        "compound_definition": "She cried during a major part of the movie.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
@@ -637,9 +637,9 @@ var hskLevel2 = [
         "hsk_level": 2,
         "part_of_speech": "verb",
         "compound_cantonese": "Geoi2",
-        "compound": "他举起了一把大雨伞",
-        "compound_pinyin": "Tā jǔ qǐ le yī bǎ dàyǔsǎn",
-        "compound_definition": "He lifted a big umbrella.",
+        "compound": "他举起了一千个太阳。",
+        "compound_pinyin": "Tā jǔ qǐle yīqiān gè tàiyáng.",
+        "compound_definition": "He lifted up a thousand suns.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
@@ -889,9 +889,9 @@ var hskLevel2 = [
         "hsk_level": 2,
         "part_of_speech": "noun",
         "compound_cantonese": "Jat6",
-        "compound": "中国有十几个城市人口超过一亿",
-        "compound_pinyin": "Zhōngguó yǒu shí jǐ ge chéngshì rénkǒu chāoguò yī yì",
-        "compound_definition": "China has more than a dozen cities with a population exceeding one hundred million.",
+        "compound": "中国有十几个市人口超过一亿",
+        "compound_pinyin": "Zhōngguó yǒu shí jǐ ge shì rénkǒu chāoguò yī yì",
+        "compound_definition": "There are more than a dozen cities in China with populations exceeding 100 million.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
@@ -1561,9 +1561,9 @@ var hskLevel2 = [
         "hsk_level": 2,
         "part_of_speech": "adjective",
         "compound_cantonese": "Gin6",
-        "compound": "健康饮食对身体有很多好处",
-        "compound_pinyin": "Jiànkāng yǐnshí duì shēntǐ yǒu hěnduō hǎochù",
-        "compound_definition": "A healthy diet has many benefits for the body.",
+        "compound": "健康的早餐对身体有很多好处。",
+        "compound_pinyin": "Jiànkāng de zǎocān duì shēntǐ yǒu hěnduō hǎochù.",
+        "compound_definition": "A healthy breakfast has many benefits for the body.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
@@ -1589,9 +1589,9 @@ var hskLevel2 = [
         "hsk_level": 2,
         "part_of_speech": "verb",
         "compound_cantonese": "Zoeng6",
-        "compound": "她像她的妈妈一样美丽",
-        "compound_pinyin": "Tā xiàng tā de māmā yīyàng měilì",
-        "compound_definition": "She is as beautiful as her mother.",
+        "compound": "她很漂亮，就像她妈妈一样。",
+        "compound_pinyin": "Tā hěn piàoliang; jiù xiàng tā māmā yīyàng.",
+        "compound_definition": "She is pretty just like her mom.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
@@ -1603,9 +1603,9 @@ var hskLevel2 = [
         "hsk_level": 2,
         "part_of_speech": "verb",
         "compound_cantonese": "Hak1",
-        "compound": "他努力克服了生活中的困难",
-        "compound_pinyin": "Tā nǔlì kèfú le shēnghuó zhōng de kùnnán",
-        "compound_definition": "He worked hard to overcome the difficulties in life.",
+        "compound": "她可以克服冬天的低温，因为她的衣服是干的。",
+        "compound_pinyin": "Tā kěyǐ kèfú dōngtiān de dīwēn; yīnwèi tā de yīfú shì gàn de.",
+        "compound_definition": "She can overcome the low temperatures of winter because her clothes are dry.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
@@ -1981,9 +1981,9 @@ var hskLevel2 = [
         "hsk_level": 2,
         "part_of_speech": "noun",
         "compound_cantonese": "Dong1",
-        "compound": "冬天是结冰和降雪的季节",
-        "compound_pinyin": "Dōngtiān shì jiébīng hé jiàngxuě de jìjié",
-        "compound_definition": "Winter is the season of freezing and snowfall.",
+        "compound": "我喜欢冬天，因为雪是明亮的。",
+        "compound_pinyin": "Wǒ xǐhuān dōngtiān; yīnwèi xuě shì míngliàng de.",
+        "compound_definition": "I like winter because the snow is bright.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
@@ -2023,9 +2023,9 @@ var hskLevel2 = [
         "hsk_level": 2,
         "part_of_speech": "adjective",
         "compound_cantonese": "Leung4",
-        "compound": "天气凉爽，适合户外活动",
-        "compound_pinyin": "Tiānqì liángshuǎng, shìhé hùwài huódòng",
-        "compound_definition": "The weather is cool and suitable for outdoor activities.",
+        "compound": "虽然秋天和春天都很凉快，但我更喜欢夏天。",
+        "compound_pinyin": "Suīrán qiūtiān hé chūntiān dū hěn liángkuai; dàn wǒ gèng xǐhuān xiàtiān.",
+        "compound_definition": "Although autumn and spring are both cool; I prefer summer.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
@@ -2303,9 +2303,9 @@ var hskLevel2 = [
         "hsk_level": 2,
         "part_of_speech": "verb",
         "compound_cantonese": "Hak1",
-        "compound": "他喜欢在木头上刻画各种图案",
-        "compound_pinyin": "Tā xǐhuān zài mùtou shàng kè huà gèzhǒng tú'àn",
-        "compound_definition": "He likes to carve various patterns on wood.",
+        "compound": "你必须慢慢地安全地刻肉。",
+        "compound_pinyin": "Nǐ bìxū màn man de ānquán de kè ròu.",
+        "compound_definition": "You have to carve the meat slowly and safely.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
@@ -2415,9 +2415,9 @@ var hskLevel2 = [
         "hsk_level": 2,
         "part_of_speech": "noun",
         "compound_cantonese": "Mou6",
-        "compound": "这个任务需要专注和耐心",
-        "compound_pinyin": "Zhège rènwu xūyào zhuānzhù hé nàixīn",
-        "compound_definition": "This task requires focus and patience.",
+        "compound": "你的第二个务是快刻肉来喂狗。",
+        "compound_pinyin": "Your second job is to quickly carve meat to feed the dog.",
+        "compound_definition": "Your second job is to quickly carve meat to feed the dog.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
@@ -2527,9 +2527,9 @@ var hskLevel2 = [
         "hsk_level": 2,
         "part_of_speech": "noun",
         "compound_cantonese": "Cin1",
-        "compound": "他跑步时每天都要跑上千米",
-        "compound_pinyin": "Tā pǎobù shí měi tiān dōu yào pǎo shàng qiān mǐ",
-        "compound_definition": "He runs over a thousand meters every day when jogging.",
+        "compound": "到医院医生给我量了体温，说还不到一千度。",
+        "compound_pinyin": "Dào yīyuàn yīshēng gěi wǒ liàngle tǐwēn; shuō hái bù dào yīqiān dù.",
+        "compound_definition": "When I arrived at the hospital; the doctor took my temperature and said it was still less than 1;000 degrees Celsius.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
@@ -2653,9 +2653,9 @@ var hskLevel2 = [
         "hsk_level": 2,
         "part_of_speech": "verb",
         "compound_cantonese": "Zim6",
-        "compound": "这个城市的面积占地很大",
-        "compound_pinyin": "Zhège chéngshì de miànjī zhàndì hěn dà",
-        "compound_definition": "This city occupies a large area.",
+        "compound": "很多人早上都占火车站，因为他们必须去上班。",
+        "compound_pinyin": "Hěnduō rén zǎoshang dōu zhàn huǒchē zhàn; yīnwèi tāmen bìxū qù shàngbān.",
+        "compound_definition": "Many people occupy the train station in the morning because they have to go to work.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
@@ -2681,9 +2681,9 @@ var hskLevel2 = [
         "hsk_level": 2,
         "part_of_speech": "verb",
         "compound_cantonese": "Jan3",
-        "compound": "这家公司印制了一批新的宣传册",
-        "compound_pinyin": "Zhè jiā gōngsī yìnzhì le yī pī xīn de xuānchuán cè",
-        "compound_definition": "The company printed a batch of new promotional brochures.",
+        "compound": "请帮我打印这份报告交给我的老板。",
+        "compound_pinyin": "Qǐng bāng wǒ dǎyìn zhè fèn bàogào jiāo gěi wǒ de lǎobǎn.",
+        "compound_definition": "Please help me print this report and give it to my boss.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
@@ -2919,9 +2919,9 @@ var hskLevel2 = [
         "hsk_level": 2,
         "part_of_speech": "noun",
         "compound_cantonese": "Geoi3",
-        "compound": "这是一句很有深意的话",
-        "compound_pinyin": "Zhè shì yī jù hěn yǒu shēnyì de huà",
-        "compound_definition": "This is a very meaningful sentence.",
+        "compound": "报告中的句子不够，请重新打印。",
+        "compound_pinyin": "Bàogào zhōng de jùzi bùgòu; qǐng chóngxīn dǎyìn.",
+        "compound_definition": "There are not enough sentences in the report; please print it again.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
@@ -3227,9 +3227,9 @@ var hskLevel2 = [
         "hsk_level": 2,
         "part_of_speech": "preposition",
         "compound_cantonese": "Heung3",
-        "compound": "他朝着山的方向走去",
-        "compound_pinyin": "Tā cháozhe shān de fāngxiàng zǒuqù",
-        "compound_definition": "He walked towards the direction of the mountain.",
+        "compound": "他向她爬去，因为他想要她的脏脚。",
+        "compound_pinyin": "Tā xiàng tā pá qù; yīnwèi tā xiǎng yào tā de zàng jiǎo.",
+        "compound_definition": "He crawled towards her because he wanted her dirty feet.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
@@ -3269,9 +3269,9 @@ var hskLevel2 = [
         "hsk_level": 2,
         "part_of_speech": "verb",
         "compound_cantonese": "Ceoi1",
-        "compound": "风吹得很大，记得穿厚一点",
-        "compound_pinyin": "Fēng chuī de hěn dà, jìde chuān hòu yī diǎn",
-        "compound_definition": "The wind is blowing hard, remember to wear something thick.",
+        "compound": "秋风吹走了地上的页。",
+        "compound_pinyin": "Qiūfēng chuī zǒule dìshàng de yè.",
+        "compound_definition": "The autumn wind blew away the pages on the ground.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
@@ -3381,9 +3381,9 @@ var hskLevel2 = [
         "hsk_level": 2,
         "part_of_speech": "noun/verb",
         "compound_cantonese": "Heung2",
-        "compound": "这个音响效果很好",
-        "compound_pinyin": "Zhège yīnxiǎng xiàoguǒ hěn hǎo",
-        "compound_definition": "The sound system has a good effect.",
+        "compound": "如果音响机打开了，我们就可以玩得很开心了",
+        "compound_pinyin": "Rúguǒ yīnxiǎng jī dǎkāile; wǒmen jiù kěyǐ wán dé hěn kāixīnle",
+        "compound_definition": "If the sound machine was on; we could have a lot of fun",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
@@ -3395,9 +3395,9 @@ var hskLevel2 = [
         "hsk_level": 2,
         "part_of_speech": "verb",
         "compound_cantonese": "Fau1",
-        "compound": "不要哭，一切都会好的",
-        "compound_pinyin": "Bùyào kū, yīqiè dōu huì hǎo de",
-        "compound_definition": "Don't cry, everything will be okay.",
+        "compound": "你不能哭，因为那个漂亮女孩会认为她不能靠你。",
+        "compound_pinyin": "Nǐ bùnéng kū; yīnwèi nàgè piàoliang nǚhái huì rènwéi tā bùnéng kào nǐ.",
+        "compound_definition": "You can't cry because that pretty girl will think she can't rely on you.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
@@ -3479,9 +3479,9 @@ var hskLevel2 = [
         "hsk_level": 2,
         "part_of_speech": "noun",
         "compound_cantonese": "Zeoi2",
-        "compound": "他有一个甜甜的嘴",
-        "compound_pinyin": "Tā yǒu yī gè tián tián de zuǐ",
-        "compound_definition": "He has a sweet mouth.",
+        "compound": "看着她用她的嘴让你感觉好。",
+        "compound_pinyin": "Kànzhe tā yòng tā de zuǐ ràng nǐ gǎnjué hǎo.",
+        "compound_definition": "Watch her use her mouth to make you feel good.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
@@ -3661,9 +3661,9 @@ var hskLevel2 = [
         "hsk_level": 2,
         "part_of_speech": "noun",
         "compound_cantonese": "Coeng4",
-        "compound": "我们给房子重新刷了一下墙",
-        "compound_pinyin": "Wǒmen gěi fángzi chóngxīn shuāle yīxià qiáng",
-        "compound_definition": "We repainted the walls of the house.",
+        "compound": "墙上的画是一个心情很好的女孩画的。",
+        "compound_pinyin": "Qiáng shàng de huà shì yī ge xīnqíng hěn hǎo de nǚhái huà de.",
+        "compound_definition": "The drawing on the wall was drawn by a girl in a good state of mind.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
@@ -4137,9 +4137,9 @@ var hskLevel2 = [
         "hsk_level": 2,
         "part_of_speech": "noun",
         "compound_cantonese": "Tou3",
-        "compound": "我买了一套新的家具",
-        "compound_pinyin": "Wǒ mǎile yī tào xīn de jiājù",
-        "compound_definition": "I bought a new set of furniture.",
+        "compound": "我通过报纸卖了一套衣服。",
+        "compound_pinyin": "Wǒ tōngguò bàozhǐ màile yī tào yīfú.",
+        "compound_definition": "I sold an outfit through the newspaper.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
@@ -4319,9 +4319,9 @@ var hskLevel2 = [
         "hsk_level": 2,
         "part_of_speech": "pronoun",
         "compound_cantonese": "Ta1",
-        "compound": "看到一只小猫，它正忙着玩耍",
-        "compound_pinyin": "Kàn dào yī zhī xiǎo māo, tā zhèng mángzhe wánshuǎ",
-        "compound_definition": "Seeing a kitten, it's busy playing.",
+        "compound": "马和它的家是分开的吗？",
+        "compound_pinyin": "Mǎ hé tā de jiā shì fēnkāi de ma?",
+        "compound_definition": "Is the horse separate from its home?",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
@@ -4739,9 +4739,9 @@ var hskLevel2 = [
         "hsk_level": 2,
         "part_of_speech": "noun",
         "compound_cantonese": "Cang4",
-        "compound": "我们公司在这栋楼的第五层",
-        "compound_pinyin": "Wǒmen gōngsī zài zhè dòng lóu de dì wǔ céng",
-        "compound_definition": "Our company is on the fifth floor of this building.",
+        "compound": "你能爬多少层楼？",
+        "compound_pinyin": "Nǐ néng pá duōshǎo céng lóu?",
+        "compound_definition": "How many floors are you able to climb?",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
@@ -5033,9 +5033,9 @@ var hskLevel2 = [
         "hsk_level": 2,
         "part_of_speech": "adjective",
         "compound_cantonese": "Gwong2",
-        "compound": "这是一片广阔的草原",
-        "compound_pinyin": "Zhè shì yī piàn guǎngkuò de cǎoyuán",
-        "compound_definition": "This is a vast grassland.",
+        "compound": "墙又高又广，因为我们不想让别人看到我们。",
+        "compound_pinyin": "Qiáng yòu gāo yòu guǎng; yīnwèi wǒmen bùxiǎng ràng biérén kàn dào wǒmen.",
+        "compound_definition": "The walls are high and wide because we don’t want others to see us.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
@@ -5145,9 +5145,9 @@ var hskLevel2 = [
         "hsk_level": 2,
         "part_of_speech": "noun",
         "compound_cantonese": "Ting4",
-        "compound": "这个院子有一个美丽的庭院",
-        "compound_pinyin": "Zhège yuànzi yǒu yīgè měilì de tíngyuàn",
-        "compound_definition": "This yard has a beautiful courtyard.",
+        "compound": "这个庭院有很多漂亮的花草，我们一定要护它",
+        "compound_pinyin": "Zhège tíngyuàn yǒu hěnduō piàoliang de huācǎo; wǒmen yīdìng yào hù tā",
+        "compound_definition": "There are many beautiful flowers and plants in this courtyard; we must protect it",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
@@ -5369,9 +5369,9 @@ var hskLevel2 = [
         "hsk_level": 2,
         "part_of_speech": "adverb",
         "compound_cantonese": "Bit1",
-        "compound": "在这个任务中，我们必须紧密合作",
-        "compound_pinyin": "Zài zhège rènwù zhōng, wǒmen bìxū jǐnmì hézuò",
-        "compound_definition": "In this task, we must cooperate closely.",
+        "compound": "你必须洗澡而不哭，能因为脏了。",
+        "compound_pinyin": "Nǐ bìxū xǐzǎo ér bù kū; néng yīnwèi zàngle.",
+        "compound_definition": "You have to take a shower without crying because you're dirty.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
@@ -5481,9 +5481,9 @@ var hskLevel2 = [
         "hsk_level": 2,
         "part_of_speech": "noun",
         "compound_cantonese": "Taai3",
-        "compound": "这个机器的工作态很稳定",
-        "compound_pinyin": "Zhège jīqì de gōngzuò tài hěn wěndìng",
-        "compound_definition": "The working state of this machine is very stable.",
+        "compound": "手表的态很差，所以我必须定它。",
+        "compound_pinyin": "Shǒubiǎo de tài hěn chà; suǒyǐ wǒ bìxū dìng tā.",
+        "compound_definition": "The watch was in poor condition so I had to fix it.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
@@ -5607,9 +5607,9 @@ var hskLevel2 = [
         "hsk_level": 2,
         "part_of_speech": "verb",
         "compound_cantonese": "Gun3",
-        "compound": "他已经习惯了这种生活方式",
-        "compound_pinyin": "Tā yǐjīng xíguànle zhè zhǒng shēnghuó fāngshì",
-        "compound_definition": "He has already become accustomed to this way of life.",
+        "compound": "我已经习惯了这个房间的角度。",
+        "compound_pinyin": "Wǒ yǐjīng xíguànle zhège fángjiān de jiǎodù.",
+        "compound_definition": "I am already used to the angles of this room.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
@@ -6097,9 +6097,9 @@ var hskLevel2 = [
         "hsk_level": 2,
         "part_of_speech": "verb",
         "compound_cantonese": "Laai1",
-        "compound": "他用力拉着绳子",
-        "compound_pinyin": "Tā yònglì lāzhe shéngzi",
-        "compound_definition": "He pulled the rope with force.",
+        "compound": "她拉车从公园开到家，因为车没油了。",
+        "compound_pinyin": "Tā lā chē cóng gōngyuán kāi dàojiā; yīnwèi chē méi yóule",
+        "compound_definition": "She pulled the car from the park to her home because it ran out of gas.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
@@ -7007,9 +7007,9 @@ var hskLevel2 = [
         "hsk_level": 2,
         "part_of_speech": "adjective",
         "compound_cantonese": "Ceng4",
-        "compound": "今天天气很晴，阳光明媚",
-        "compound_pinyin": "Jīntiān tiānqì hěn qíng, yángguāng míngmèi",
-        "compound_definition": "The weather is clear today, with bright sunshine.",
+        "compound": "夏天的时候公园很漂亮，因为天气晴。",
+        "compound_pinyin": "Xiàtiān de shíhòu gōngyuán hěn piàoliang; yīn wéi tiānqì qíng.",
+        "compound_definition": "The park is beautiful in the summer because the weather is sunny.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
@@ -7273,9 +7273,9 @@ var hskLevel2 = [
         "hsk_level": 2,
         "part_of_speech": "verb",
         "compound_cantonese": "Gim2",
-        "compound": "工程师正在检查设备",
-        "compound_pinyin": "Gōngchéngshī zhèngzài jiǎnchá shèbèi",
-        "compound_definition": "The engineer is inspecting the equipment.",
+        "compound": "为了安全起见，她用眼睛检查手表，因为它非常贵。",
+        "compound_pinyin": "Wèile ānquán qǐjiàn; tā yòng yǎnjīng jiǎnchá shǒubiǎo; yīnwèi tā fēicháng guì.",
+        "compound_definition": "She checked the watch with her eyes just to be safe because it was very expensive.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
@@ -7413,9 +7413,9 @@ var hskLevel2 = [
         "hsk_level": 2,
         "part_of_speech": "noun",
         "compound_cantonese": "Dyun6",
-        "compound": "这个视频有三段",
-        "compound_pinyin": "Zhège shìpín yǒu sān duàn",
-        "compound_definition": "This video has three segments.",
+        "compound": "为什么电影只有三段？ 我租了这部电影是因为我想要五个片段。",
+        "compound_pinyin": "Wèishéme diànyǐng zhī yǒu sān duàn? Wǒ zūle zhè bù diànyǐng shì yīnwèi wǒ xiǎng yào wǔ gè piànduàn.",
+        "compound_definition": "Why are there only three segments of the movie? I rented the movie because I wanted five segments.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
@@ -7483,9 +7483,9 @@ var hskLevel2 = [
         "hsk_level": 2,
         "part_of_speech": "adjective",
         "compound_cantonese": "Wing5",
-        "compound": "爱情永远是人们追求的目标",
-        "compound_pinyin": "Àiqíng yǒngyuǎn shì rénmen zhuīqiú de mùbiāo",
-        "compound_definition": "Love is forever the goal that people pursue.",
+        "compound": "我已经想永远卖掉我的国王画了。",
+        "compound_pinyin": "Wǒ yǐjīng xiǎng yǒngyuǎn mài diào wǒ de guówáng huàle.",
+        "compound_definition": "I have already wanted to sell my drawing of the king forever.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
@@ -7539,9 +7539,9 @@ var hskLevel2 = [
         "hsk_level": 2,
         "part_of_speech": "noun",
         "compound_cantonese": "Jau4",
-        "compound": "我们用橄榄油做沙拉酱",
-        "compound_pinyin": "Wǒmen yòng gǎnlǎnyóu zuò shālā jiàng",
-        "compound_definition": "We use olive oil to make salad dressing.",
+        "compound": "街上有油，所以去节日时要意安全。",
+        "compound_pinyin": "Jiē shàng yǒu yóu; suǒyǐ qù jiérì shí yào yì ānquán.",
+        "compound_definition": "There is oil on the streets; so be safe when going to the festival.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
@@ -7693,9 +7693,9 @@ var hskLevel2 = [
         "hsk_level": 2,
         "part_of_speech": "adjective",
         "compound_cantonese": "Ching1",
-        "compound": "天气很清朗",
-        "compound_pinyin": "Tiānqì hěn qīnglǎng",
-        "compound_definition": "The weather is very clear.",
+        "compound": "洗澡水很清，可以看到她的腿。",
+        "compound_pinyin": "Xǐzǎo shuǐ hěn qīng; kěyǐ kàn dào tā de tuǐ.",
+        "compound_definition": "The bath water was so clear that you could see her legs.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
@@ -7987,9 +7987,9 @@ var hskLevel2 = [
         "hsk_level": 2,
         "part_of_speech": "adjective",
         "compound_cantonese": "Suk6",
-        "compound": "这个地方我很熟悉",
-        "compound_pinyin": "Zhège dìfāng wǒ hěn shúxī",
-        "compound_definition": "I am very familiar with this place.",
+        "compound": "红、蓝、绿、黄、黑、白这些颜色我都很熟。",
+        "compound_pinyin": "Hóng; lán; lǜ; huáng; hēi; bái zhèxiē yánsè wǒ dū hěn shú.",
+        "compound_definition": "I am familiar with the colors red; blue; green; yellow; black and white.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
@@ -8001,9 +8001,9 @@ var hskLevel2 = [
         "hsk_level": 2,
         "part_of_speech": "verb",
         "compound_cantonese": "Pa4",
-        "compound": "我们决定爬山",
-        "compound_pinyin": "Wǒmen juédìng páshān",
-        "compound_definition": "We decided to climb the mountain.",
+        "compound": "爬你的妈妈很难，因为她又广又重。",
+        "compound_pinyin": "Pá nǐ de māmā hěn nán; yīnwèi tā yòu guǎng yòu zhòng.",
+        "compound_definition": "Climbing your mother is difficult because she is so wide and heavy.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
@@ -8407,9 +8407,9 @@ var hskLevel2 = [
         "hsk_level": 2,
         "part_of_speech": "adjective",
         "compound_cantonese": "Tang4",
-        "compound": "我的头疼得厉害",
-        "compound_pinyin": "Wǒ de tóu téng de lìhài",
-        "compound_definition": "My head hurts badly.",
+        "compound": "我头疼，所以我必须离开节日。",
+        "compound_pinyin": "Wǒ tóuténg; suǒyǐ wǒ bìxū líkāi jiérì.",
+        "compound_definition": "I have a headache; so I must leave the festival.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
@@ -8561,9 +8561,9 @@ var hskLevel2 = [
         "hsk_level": 2,
         "part_of_speech": "verb",
         "compound_cantonese": "Saang2",
-        "compound": "节约用水是一种好习惯",
-        "compound_pinyin": "Jiéyuē yòngshuǐ shì yī zhǒng hǎo xíguàn",
-        "compound_definition": "Saving water is a good habit.",
+        "compound": "我省了很长时间的钱就是为了听这位老师的讲课。",
+        "compound_pinyin": "Wǒ shěngle hěn cháng shíjiān de qián jiùshì wèile tīng zhè wèi lǎoshī de jiǎngkè.",
+        "compound_definition": "I have saved money for a long time just to listen to this teacher's lectures.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
@@ -8813,9 +8813,9 @@ var hskLevel2 = [
         "hsk_level": 2,
         "part_of_speech": "noun",
         "compound_cantonese": "Cau1",
-        "compound": "秋天的天气很凉爽",
-        "compound_pinyin": "Qiūtiān de tiānqì hěn liángshuǎng",
-        "compound_definition": "The weather in autumn is cool.",
+        "compound": "秋天的天空是黑色的，但你不必怕，因为你有一只狗。",
+        "compound_pinyin": "Qiūtiān de tiānkōng shì hēisè de; dàn nǐ bùbì pà; yīnwèi nǐ yǒuyī zhǐ gǒu.",
+        "compound_definition": "The autumn sky is black; but you don't have to be afraid because you have a dog.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
@@ -8890,7 +8890,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1220,
+        "id": 1219,
         "character": "空",
         "character_pinyin": "kōng",
         "eng": "empty",
@@ -8904,7 +8904,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1221,
+        "id": 1220,
         "character": "空气",
         "character_pinyin": "kōngqì",
         "eng": "air",
@@ -8918,7 +8918,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1222,
+        "id": 1221,
         "character": "站住",
         "character_pinyin": "zhànzhù",
         "eng": "to stop",
@@ -8932,7 +8932,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1223,
+        "id": 1222,
         "character": "笑话",
         "character_pinyin": "xiàohuà",
         "eng": "joke",
@@ -8946,7 +8946,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1224,
+        "id": 1223,
         "character": "笑话儿",
         "character_pinyin": "xiàohuàr",
         "eng": "joke",
@@ -8960,7 +8960,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1225,
+        "id": 1224,
         "character": "笔",
         "character_pinyin": "bǐ",
         "eng": "pen",
@@ -8974,7 +8974,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1226,
+        "id": 1225,
         "character": "笔记",
         "character_pinyin": "bǐjì",
         "eng": "notes",
@@ -8988,7 +8988,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1227,
+        "id": 1226,
         "character": "笔记本",
         "character_pinyin": "bǐjìběn",
         "eng": "notebook",
@@ -9002,7 +9002,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1228,
+        "id": 1227,
         "character": "等于",
         "character_pinyin": "děngyú",
         "eng": "to be equal to",
@@ -9016,7 +9016,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1229,
+        "id": 1228,
         "character": "等到",
         "character_pinyin": "děngdào",
         "eng": "to wait until",
@@ -9030,7 +9030,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1230,
+        "id": 1229,
         "character": "答应",
         "character_pinyin": "dāying",
         "eng": "to promise",
@@ -9044,21 +9044,21 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1231,
+        "id": 1230,
         "character": "筷",
         "character_pinyin": "kuài",
         "eng": "chopsticks",
         "hsk_level": 2,
         "part_of_speech": "noun",
         "compound_cantonese": "Faa1",
-        "compound": "用筷子吃饭是一种传统的方式",
-        "compound_pinyin": "Yòng kuàizi chīfàn shì yī zhǒng chuántǒng de fāngshì",
-        "compound_definition": "Eating with chopsticks is a traditional way.",
+        "compound": "我的筷子永远在海里了。",
+        "compound_pinyin": "Wǒ de kuàizi yǒngyuǎn zài hǎilǐle.",
+        "compound_definition": "My chopsticks are forever in the sea.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
     {
-        "id": 1232,
+        "id": 1231,
         "character": "筷子",
         "character_pinyin": "kuàizi",
         "eng": "chopsticks",
@@ -9072,35 +9072,35 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1233,
+        "id": 1232,
         "character": "算",
         "character_pinyin": "suàn",
         "eng": "to calculate",
         "hsk_level": 2,
         "part_of_speech": "verb",
         "compound_cantonese": "Syun3",
-        "compound": "我们需要算一下预算",
-        "compound_pinyin": "Wǒmen xūyào suàn yīxià yùsuàn",
-        "compound_definition": "We need to calculate the budget.",
+        "compound": "我的公司计算最后一份报告的时间量。",
+        "compound_pinyin": "Wǒ de gōngsī jìsuàn zuìhòu yī fèn bàogào de shíjiān liang.",
+        "compound_definition": "My company calculates the amount of time since the last report.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
     {
-        "id": 1234,
+        "id": 1233,
         "character": "篇",
         "character_pinyin": "piān",
         "eng": "measure word for articles or essays",
         "hsk_level": 2,
         "part_of_speech": "noun",
         "compound_cantonese": "Pin1",
-        "compound": "我写了一篇文章",
-        "compound_pinyin": "Wǒ xiě le yī piān wénzhāng",
-        "compound_definition": "I wrote an article.",
+        "compound": "今天的报纸必须检查十五篇报纸。",
+        "compound_pinyin": "Jīntiān de bàozhǐ bìxū jiǎnchá shíwǔ piān bàozhǐ.",
+        "compound_definition": "Fifteen newspapers must be checked for today's newspapers.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
     {
-        "id": 1235,
+        "id": 1234,
         "character": "篮",
         "character_pinyin": "lán",
         "eng": "basket",
@@ -9114,7 +9114,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1236,
+        "id": 1235,
         "character": "篮球",
         "character_pinyin": "lánqiú",
         "eng": "basketball",
@@ -9128,7 +9128,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1237,
+        "id": 1236,
         "character": "红",
         "character_pinyin": "hóng",
         "eng": "red",
@@ -9142,7 +9142,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1238,
+        "id": 1237,
         "character": "红色",
         "character_pinyin": "hóngsè",
         "eng": "red color",
@@ -9156,7 +9156,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1239,
+        "id": 1238,
         "character": "级",
         "character_pinyin": "jí",
         "eng": "level",
@@ -9170,21 +9170,21 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1240,
+        "id": 1239,
         "character": "纸",
         "character_pinyin": "zhǐ",
         "eng": "paper",
         "hsk_level": 2,
         "part_of_speech": "noun",
         "compound_cantonese": "Zi2",
-        "compound": "我需要一张纸",
-        "compound_pinyin": "Wǒ xūyào yī zhāng zhǐ",
-        "compound_definition": "I need a piece of paper.",
+        "compound": "对于您的信件，您可以选红色或黄色信封以黑色或白色纸。",
+        "compound_pinyin": "Duìyú nín de xìnjiàn; nín kěyǐ xuǎn hóngsè huò huángsè xìnfēng yǐ hēisè huò báisè zhǐ.",
+        "compound_definition": "For your letters; you can choose red or yellow envelopes with black or white paper.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
     {
-        "id": 1241,
+        "id": 1240,
         "character": "练",
         "character_pinyin": "liàn",
         "eng": "to practice",
@@ -9198,7 +9198,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1242,
+        "id": 1241,
         "character": "练习",
         "character_pinyin": "liànxí",
         "eng": "practice",
@@ -9212,7 +9212,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1243,
+        "id": 1242,
         "character": "组",
         "character_pinyin": "zǔ",
         "eng": "group",
@@ -9226,7 +9226,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1244,
+        "id": 1243,
         "character": "组成",
         "character_pinyin": "zǔchéng",
         "eng": "to form",
@@ -9240,7 +9240,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1245,
+        "id": 1244,
         "character": "组长",
         "character_pinyin": "zǔzhǎng",
         "eng": "team leader",
@@ -9254,7 +9254,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1246,
+        "id": 1245,
         "character": "经",
         "character_pinyin": "jīng",
         "eng": "to pass through",
@@ -9268,7 +9268,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1247,
+        "id": 1246,
         "character": "经常",
         "character_pinyin": "jīngcháng",
         "eng": "often",
@@ -9282,7 +9282,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1248,
+        "id": 1247,
         "character": "经理",
         "character_pinyin": "jīnglǐ",
         "eng": "manager",
@@ -9296,7 +9296,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1249,
+        "id": 1248,
         "character": "经过",
         "character_pinyin": "jīngguò",
         "eng": "to pass by",
@@ -9310,21 +9310,21 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1250,
+        "id": 1249,
         "character": "结",
         "character_pinyin": "jié",
         "eng": "to tie",
         "hsk_level": 2,
         "part_of_speech": "verb",
         "compound_cantonese": "Git3",
-        "compound": "他用一根绳子把箱子结牢",
-        "compound_pinyin": "Tā yòng yī gēn shéngzi bǎ xiāngzi jié láo",
-        "compound_definition": "He tied the box securely with a rope.",
+        "compound": "狗结在墙上，所以它跑不了。",
+        "compound_pinyin": "Gǒu jié zài qiáng shàng; suǒyǐ tā pǎo bùliǎo.",
+        "compound_definition": "The dog is tied to the wall so it can't run away.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
     {
-        "id": 1251,
+        "id": 1250,
         "character": "结果",
         "character_pinyin": "jiéguǒ",
         "eng": "result",
@@ -9338,7 +9338,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1252,
+        "id": 1251,
         "character": "绩",
         "character_pinyin": "jì",
         "eng": "achievement",
@@ -9352,7 +9352,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1253,
+        "id": 1252,
         "character": "绿",
         "character_pinyin": "lǜ",
         "eng": "green",
@@ -9366,7 +9366,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1254,
+        "id": 1253,
         "character": "绿色",
         "character_pinyin": "lǜsè",
         "eng": "green color",
@@ -9380,7 +9380,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1255,
+        "id": 1254,
         "character": "网球",
         "character_pinyin": "wǎngqiú",
         "eng": "tennis",
@@ -9394,7 +9394,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1256,
+        "id": 1255,
         "character": "网站",
         "character_pinyin": "wǎngzhàn",
         "eng": "website",
@@ -9408,7 +9408,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1257,
+        "id": 1256,
         "character": "老年",
         "character_pinyin": "lǎonián",
         "eng": "old age",
@@ -9422,7 +9422,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1258,
+        "id": 1257,
         "character": "老是",
         "character_pinyin": "lǎoshì",
         "eng": "always",
@@ -9436,7 +9436,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1259,
+        "id": 1258,
         "character": "老朋友",
         "character_pinyin": "lǎo péngyǒu",
         "eng": "old friend",
@@ -9450,7 +9450,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1260,
+        "id": 1259,
         "character": "考生",
         "character_pinyin": "kǎoshēng",
         "eng": "examinee",
@@ -9464,7 +9464,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1261,
+        "id": 1260,
         "character": "者",
         "character_pinyin": "zhě",
         "eng": "person",
@@ -9478,7 +9478,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1262,
+        "id": 1261,
         "character": "而",
         "character_pinyin": "ér",
         "eng": "and",
@@ -9492,7 +9492,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1263,
+        "id": 1262,
         "character": "而且",
         "character_pinyin": "érqiě",
         "eng": "moreover",
@@ -9506,21 +9506,21 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1264,
+        "id": 1263,
         "character": "育",
         "character_pinyin": "yù",
         "eng": "to nurture",
         "hsk_level": 2,
         "part_of_speech": "verb",
         "compound_cantonese": "Juk6",
-        "compound": "父母育儿不易",
-        "compound_pinyin": "Fùmǔ yù'ér bù yì",
-        "compound_definition": "Parenting is not easy.",
+        "compound": "人出生后，就必须得到养育，才能健康。",
+        "compound_pinyin": "Rén chūshēng hòu; jiù bìxū dédào yǎngyù; cáinéng jiànkāng.",
+        "compound_definition": "After a person is born; he must be nurtured in order to be healthy.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
     {
-        "id": 1265,
+        "id": 1264,
         "character": "背",
         "character_pinyin": "bèi",
         "eng": "to carry on one's back",
@@ -9534,7 +9534,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1266,
+        "id": 1265,
         "character": "能够",
         "character_pinyin": "nénggòu",
         "eng": "to be able to",
@@ -9548,21 +9548,21 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1267,
+        "id": 1266,
         "character": "脏",
         "character_pinyin": "zāng",
         "eng": "dirty",
         "hsk_level": 2,
         "part_of_speech": "adjective",
         "compound_cantonese": "Jong1",
-        "compound": "衣服很脏，需要洗一洗",
-        "compound_pinyin": "Yīfu hěn zāng, xūyào xǐ yī xǐ",
-        "compound_definition": "The clothes are very dirty and need to be washed.",
+        "compound": "酒店房间很脏，所以回家后必须洗澡。",
+        "compound_pinyin": "Jiǔdiàn fángjiān hěn zàng; suǒyǐ huí jiā hòu bìxū xǐzǎo.",
+        "compound_definition": "The hotel room was dirty so you must take a bath when you get home.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
     {
-        "id": 1268,
+        "id": 1267,
         "character": "脚",
         "character_pinyin": "jiǎo",
         "eng": "foot",
@@ -9576,7 +9576,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1269,
+        "id": 1268,
         "character": "脸",
         "character_pinyin": "liǎn",
         "eng": "face",
@@ -9590,21 +9590,21 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1270,
+        "id": 1269,
         "character": "腿",
         "character_pinyin": "tuǐ",
         "eng": "leg",
         "hsk_level": 2,
         "part_of_speech": "noun",
         "compound_cantonese": "Teoi2",
-        "compound": "我的腿酸痛",
-        "compound_pinyin": "Wǒ de tuǐ suān tòng",
-        "compound_definition": "My legs are sore.",
+        "compound": "鸡腿很脏，但是半夜感觉很好。",
+        "compound_pinyin": "Jītuǐ hěn zàng; dànshì bànyè gǎnjué hěn hǎo.",
+        "compound_definition": "The chicken's legs were very dirty but I felt good at midnight.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
     {
-        "id": 1271,
+        "id": 1270,
         "character": "自",
         "character_pinyin": "zì",
         "eng": "self",
@@ -9618,7 +9618,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1272,
+        "id": 1271,
         "character": "自己",
         "character_pinyin": "zìjǐ",
         "eng": "oneself",
@@ -9632,7 +9632,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1273,
+        "id": 1272,
         "character": "自由",
         "character_pinyin": "zìyóu",
         "eng": "freedom",
@@ -9646,7 +9646,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1274,
+        "id": 1273,
         "character": "自行车",
         "character_pinyin": "zìxíngchē",
         "eng": "bicycle",
@@ -9660,7 +9660,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1275,
+        "id": 1274,
         "character": "舒",
         "character_pinyin": "shū",
         "eng": "comfortable",
@@ -9674,7 +9674,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1276,
+        "id": 1275,
         "character": "舒服",
         "character_pinyin": "shūfu",
         "eng": "comfortable",
@@ -9688,35 +9688,35 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1277,
+        "id": 1276,
         "character": "般",
         "character_pinyin": "bān",
         "eng": "sort, kind",
         "hsk_level": 2,
         "part_of_speech": "noun",
         "compound_cantonese": "Baan1",
-        "compound": "各种各样的船",
-        "compound_pinyin": "Gè zhǒng gè yàng de chuán",
-        "compound_definition": "All kinds of boats.",
+        "compound": "今天河里有般的船，所以我们看不到多少鱼。",
+        "compound_pinyin": "Jīntiān hé li yǒu bān de chuán, suǒyǐ wǒmen kàn bù dào duōshǎo yú.",
+        "compound_definition": "There were a lot of boats in the river today, so we didn't see many fish.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
     {
-        "id": 1278,
+        "id": 1277,
         "character": "船",
         "character_pinyin": "chuán",
         "eng": "boat, ship",
         "hsk_level": 2,
         "part_of_speech": "noun",
         "compound_cantonese": "Syun4",
-        "compound": "渔民驾驶小船",
-        "compound_pinyin": "Yúmín jiàshǐ xiǎo chuán",
-        "compound_definition": "Fishermen drive small boats.",
+        "compound": "阴多云的天空下，我在湖里划着小船。",
+        "compound_pinyin": "Yīn duōyún de tiānkōng xià; wǒ zài hú lǐ huàzhe xiǎochuán.",
+        "compound_definition": "Under the cloudy sky; I rowed a boat in the lake.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
     {
-        "id": 1279,
+        "id": 1278,
         "character": "色",
         "character_pinyin": "sè",
         "eng": "color",
@@ -9730,7 +9730,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1280,
+        "id": 1279,
         "character": "节",
         "character_pinyin": "jié",
         "eng": "festival",
@@ -9744,7 +9744,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1281,
+        "id": 1280,
         "character": "节日",
         "character_pinyin": "jiérì",
         "eng": "festival",
@@ -9758,7 +9758,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1282,
+        "id": 1281,
         "character": "节目",
         "character_pinyin": "jiémù",
         "eng": "program",
@@ -9772,7 +9772,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1283,
+        "id": 1282,
         "character": "花园",
         "character_pinyin": "huāyuán",
         "eng": "garden",
@@ -9786,7 +9786,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1284,
+        "id": 1283,
         "character": "英",
         "character_pinyin": "yīng",
         "eng": "brave",
@@ -9800,7 +9800,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1285,
+        "id": 1284,
         "character": "英文",
         "character_pinyin": "yīngwén",
         "eng": "English language",
@@ -9814,7 +9814,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1286,
+        "id": 1285,
         "character": "英语",
         "character_pinyin": "yīngyǔ",
         "eng": "English language",
@@ -9828,7 +9828,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1287,
+        "id": 1286,
         "character": "草",
         "character_pinyin": "cǎo",
         "eng": "grass",
@@ -9842,7 +9842,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1288,
+        "id": 1287,
         "character": "草地",
         "character_pinyin": "cǎodì",
         "eng": "lawn",
@@ -9856,7 +9856,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1289,
+        "id": 1288,
         "character": "药",
         "character_pinyin": "yào",
         "eng": "medicine",
@@ -9870,7 +9870,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1290,
+        "id": 1289,
         "character": "药店",
         "character_pinyin": "yàodiàn",
         "eng": "pharmacy",
@@ -9884,7 +9884,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1291,
+        "id": 1290,
         "character": "药水",
         "character_pinyin": "yàoshuǐ",
         "eng": "liquid medicine",
@@ -9898,7 +9898,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1292,
+        "id": 1291,
         "character": "药片",
         "character_pinyin": "yàopiàn",
         "eng": "pill",
@@ -9912,7 +9912,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1293,
+        "id": 1292,
         "character": "菜单",
         "character_pinyin": "càidān",
         "eng": "menu",
@@ -9926,7 +9926,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1294,
+        "id": 1293,
         "character": "蓝",
         "character_pinyin": "lán",
         "eng": "blue",
@@ -9940,7 +9940,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1295,
+        "id": 1294,
         "character": "蓝色",
         "character_pinyin": "lán sè",
         "eng": "blue color",
@@ -9954,7 +9954,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1296,
+        "id": 1295,
         "character": "虽",
         "character_pinyin": "suī",
         "eng": "although",
@@ -9968,7 +9968,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1297,
+        "id": 1296,
         "character": "虽然",
         "character_pinyin": "suīrán",
         "eng": "although",
@@ -9982,7 +9982,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1298,
+        "id": 1297,
         "character": "行为",
         "character_pinyin": "xíngwéi",
         "eng": "behavior",
@@ -9996,7 +9996,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1299,
+        "id": 1298,
         "character": "行人",
         "character_pinyin": "xíngrén",
         "eng": "pedestrian",
@@ -10010,7 +10010,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1300,
+        "id": 1299,
         "character": "行动",
         "character_pinyin": "xíngdòng",
         "eng": "action",
@@ -10024,21 +10024,21 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1301,
+        "id": 1300,
         "character": "街",
         "character_pinyin": "jiē",
         "eng": "street",
         "hsk_level": 2,
         "part_of_speech": "noun",
         "compound_cantonese": "Gaai1",
-        "compound": "这条街很热闹",
-        "compound_pinyin": "Zhè tiáo jiē hěn rènào",
-        "compound_definition": "This street is very lively.",
+        "compound": "街上有很多卖鞋子和套衣服的商店。",
+        "compound_pinyin": "Jiē shàng yǒu hěnduō mài xiézi hé tào yīfú de shāngdiàn.",
+        "compound_definition": "There are many shops selling shoes and clothes on the street.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
     {
-        "id": 1302,
+        "id": 1301,
         "character": "表",
         "character_pinyin": "biǎo",
         "eng": "table",
@@ -10052,7 +10052,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1303,
+        "id": 1302,
         "character": "表示",
         "character_pinyin": "biǎoshì",
         "eng": "to express",
@@ -10066,7 +10066,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1304,
+        "id": 1303,
         "character": "装",
         "character_pinyin": "zhuāng",
         "eng": "to install",
@@ -10080,7 +10080,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1305,
+        "id": 1304,
         "character": "西北",
         "character_pinyin": "xīběi",
         "eng": "northwest",
@@ -10094,7 +10094,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1306,
+        "id": 1305,
         "character": "西医",
         "character_pinyin": "xīyī",
         "eng": "Western medicine",
@@ -10108,7 +10108,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1307,
+        "id": 1306,
         "character": "西南",
         "character_pinyin": "xīnán",
         "eng": "southwest",
@@ -10122,7 +10122,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1308,
+        "id": 1307,
         "character": "西方",
         "character_pinyin": "xīfāng",
         "eng": "the West",
@@ -10136,7 +10136,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1309,
+        "id": 1308,
         "character": "西餐",
         "character_pinyin": "xīcān",
         "eng": "Western-style food",
@@ -10150,7 +10150,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1310,
+        "id": 1309,
         "character": "要求",
         "character_pinyin": "yāoqiú",
         "eng": "to request",
@@ -10164,7 +10164,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1311,
+        "id": 1310,
         "character": "见到",
         "character_pinyin": "jiàndào",
         "eng": "to see",
@@ -10178,7 +10178,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1312,
+        "id": 1311,
         "character": "见过",
         "character_pinyin": "jiànguò",
         "eng": "to have seen",
@@ -10192,7 +10192,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1313,
+        "id": 1312,
         "character": "观",
         "character_pinyin": "guān",
         "eng": "to watch",
@@ -10206,7 +10206,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1314,
+        "id": 1313,
         "character": "观点",
         "character_pinyin": "guāndiǎn",
         "eng": "viewpoint",
@@ -10220,21 +10220,21 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1315,
+        "id": 1314,
         "character": "角",
         "character_pinyin": "jiǎo",
         "eng": "angle",
         "hsk_level": 2,
         "part_of_speech": "noun",
         "compound_cantonese": "Gok3",
-        "compound": "这个房间的角很尖",
-        "compound_pinyin": "Zhège fángjiān de jiǎo hěn jiān",
-        "compound_definition": "The angles of this room are very sharp.",
+        "compound": "从图中房间的个角度就可以看出他的学识。",
+        "compound_pinyin": "Cóng tú zhōng fángjiān de gè jiǎodù jiù kěyǐ kàn chū tā de xuéshì.",
+        "compound_definition": "His knowledge can be seen from the angle of the room in the picture.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
     {
-        "id": 1316,
+        "id": 1315,
         "character": "角度",
         "character_pinyin": "jiǎodù",
         "eng": "degree (angle)",
@@ -10248,7 +10248,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1317,
+        "id": 1316,
         "character": "言",
         "character_pinyin": "yán",
         "eng": "speech",
@@ -10262,7 +10262,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1318,
+        "id": 1317,
         "character": "计",
         "character_pinyin": "jì",
         "eng": "to plan",
@@ -10276,7 +10276,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1319,
+        "id": 1318,
         "character": "计划",
         "character_pinyin": "jìhuà",
         "eng": "plan",
@@ -10290,7 +10290,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1320,
+        "id": 1319,
         "character": "计算机",
         "character_pinyin": "jìsuànjī",
         "eng": "computer",
@@ -10304,7 +10304,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1321,
+        "id": 1320,
         "character": "认为",
         "character_pinyin": "rènwéi",
         "eng": "to think",
@@ -10318,21 +10318,21 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1322,
+        "id": 1321,
         "character": "讨",
         "character_pinyin": "tǎo",
         "eng": "to discuss",
         "hsk_level": 2,
         "part_of_speech": "verb",
         "compound_cantonese": "To2",
-        "compound": "我们需要讨论这个问题",
-        "compound_pinyin": "Wǒmen xūyào tǎolùn zhège wèntí",
-        "compound_definition": "We need to discuss this issue.",
+        "compound": "为什么我们必须讨论这个问题？",
+        "compound_pinyin": "Wèishéme wǒmen bìxū tǎolùn zhège wèntí?",
+        "compound_definition": "Why must we discuss the issue?",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
     {
-        "id": 1323,
+        "id": 1322,
         "character": "讨论",
         "character_pinyin": "tǎolùn",
         "eng": "discussion",
@@ -10346,7 +10346,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1324,
+        "id": 1323,
         "character": "让",
         "character_pinyin": "ràng",
         "eng": "to let",
@@ -10360,7 +10360,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1325,
+        "id": 1324,
         "character": "讲",
         "character_pinyin": "jiǎng",
         "eng": "to speak",
@@ -10374,7 +10374,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1326,
+        "id": 1325,
         "character": "讲话",
         "character_pinyin": "jiǎnghuà",
         "eng": "speech",
@@ -10388,7 +10388,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1327,
+        "id": 1326,
         "character": "许",
         "character_pinyin": "xǔ",
         "eng": "to allow",
@@ -10402,7 +10402,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1328,
+        "id": 1327,
         "character": "许多",
         "character_pinyin": "xǔduō",
         "eng": "many",
@@ -10416,7 +10416,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1329,
+        "id": 1328,
         "character": "论",
         "character_pinyin": "lùn",
         "eng": "to discuss",
@@ -10430,7 +10430,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1330,
+        "id": 1329,
         "character": "词",
         "character_pinyin": "cí",
         "eng": "word",
@@ -10444,7 +10444,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1331,
+        "id": 1330,
         "character": "词典",
         "character_pinyin": "cídiǎn",
         "eng": "dictionary",
@@ -10458,7 +10458,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1332,
+        "id": 1331,
         "character": "词语",
         "character_pinyin": "cíyǔ",
         "eng": "phrase",
@@ -10472,7 +10472,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1333,
+        "id": 1332,
         "character": "该",
         "character_pinyin": "gāi",
         "eng": "should",
@@ -10486,7 +10486,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1334,
+        "id": 1333,
         "character": "语言",
         "character_pinyin": "yǔyán",
         "eng": "language",
@@ -10500,7 +10500,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1335,
+        "id": 1334,
         "character": "说明",
         "character_pinyin": "shuōmíng",
         "eng": "explanation",
@@ -10514,7 +10514,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1336,
+        "id": 1335,
         "character": "请客",
         "character_pinyin": "qǐngkè",
         "eng": "to treat (invite someone to dinner, etc.)",
@@ -10528,7 +10528,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1337,
+        "id": 1336,
         "character": "请求",
         "character_pinyin": "qǐngqiú",
         "eng": "to request",
@@ -10542,7 +10542,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1338,
+        "id": 1337,
         "character": "读音",
         "character_pinyin": "dúyīn",
         "eng": "pronunciation",
@@ -10556,7 +10556,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1339,
+        "id": 1338,
         "character": "课堂",
         "character_pinyin": "kètáng",
         "eng": "classroom",
@@ -10570,7 +10570,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1340,
+        "id": 1339,
         "character": "走开",
         "character_pinyin": "zǒukāi",
         "eng": "to leave",
@@ -10584,7 +10584,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1341,
+        "id": 1340,
         "character": "走过",
         "character_pinyin": "zǒuguò",
         "eng": "to walk past",
@@ -10598,7 +10598,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1342,
+        "id": 1341,
         "character": "走进",
         "character_pinyin": "zǒujìn",
         "eng": "to walk into",
@@ -10612,7 +10612,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1343,
+        "id": 1342,
         "character": "起飞",
         "character_pinyin": "qǐfēi",
         "eng": "to take off (plane)",
@@ -10626,7 +10626,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1344,
+        "id": 1343,
         "character": "超",
         "character_pinyin": "chāo",
         "eng": "to exceed",
@@ -10640,7 +10640,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1345,
+        "id": 1344,
         "character": "超市",
         "character_pinyin": "chāoshì",
         "eng": "supermarket",
@@ -10654,7 +10654,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1346,
+        "id": 1345,
         "character": "超过",
         "character_pinyin": "chāoguò",
         "eng": "to exceed",
@@ -10668,7 +10668,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1347,
+        "id": 1346,
         "character": "越",
         "character_pinyin": "yuè",
         "eng": "more and more",
@@ -10682,7 +10682,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1348,
+        "id": 1347,
         "character": "越来越",
         "character_pinyin": "yuè lái yuè",
         "eng": "more and more",
@@ -10696,7 +10696,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1349,
+        "id": 1348,
         "character": "路边",
         "character_pinyin": "lùbiān",
         "eng": "roadside",
@@ -10710,7 +10710,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1350,
+        "id": 1349,
         "character": "身边",
         "character_pinyin": "shēnbiān",
         "eng": "at one's side",
@@ -10724,7 +10724,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1351,
+        "id": 1350,
         "character": "车辆",
         "character_pinyin": "chēliàng",
         "eng": "vehicle",
@@ -10738,7 +10738,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1352,
+        "id": 1351,
         "character": "轻",
         "character_pinyin": "qīng",
         "eng": "light",
@@ -10752,7 +10752,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1353,
+        "id": 1352,
         "character": "辆",
         "character_pinyin": "liàng",
         "eng": "measure word for vehicles",
@@ -10766,7 +10766,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1354,
+        "id": 1353,
         "character": "过去",
         "character_pinyin": "guòqù",
         "eng": "past",
@@ -10780,7 +10780,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1355,
+        "id": 1354,
         "character": "过年",
         "character_pinyin": "guònián",
         "eng": "to celebrate the Chinese New Year",
@@ -10794,7 +10794,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1356,
+        "id": 1355,
         "character": "过来",
         "character_pinyin": "guòlái",
         "eng": "to come over",
@@ -10808,7 +10808,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1357,
+        "id": 1356,
         "character": "迎",
         "character_pinyin": "yíng",
         "eng": "to welcome",
@@ -10822,7 +10822,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1358,
+        "id": 1357,
         "character": "运",
         "character_pinyin": "yùn",
         "eng": "to transport",
@@ -10836,7 +10836,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1359,
+        "id": 1358,
         "character": "运动",
         "character_pinyin": "yùndòng",
         "eng": "sports",
@@ -10850,7 +10850,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1360,
+        "id": 1359,
         "character": "近",
         "character_pinyin": "jìn",
         "eng": "near",
@@ -10864,7 +10864,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1361,
+        "id": 1360,
         "character": "这么",
         "character_pinyin": "zhème",
         "eng": "so",
@@ -10878,7 +10878,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1362,
+        "id": 1361,
         "character": "这时候",
         "character_pinyin": "zhè shíhòu",
         "eng": "at this moment",
@@ -10892,7 +10892,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1363,
+        "id": 1362,
         "character": "这样",
         "character_pinyin": "zhèyàng",
         "eng": "like this",
@@ -10906,7 +10906,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1364,
+        "id": 1363,
         "character": "进入",
         "character_pinyin": "jìnrù",
         "eng": "to enter",
@@ -10920,7 +10920,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1365,
+        "id": 1364,
         "character": "进行",
         "character_pinyin": "jìnxíng",
         "eng": "to carry out",
@@ -10934,7 +10934,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1366,
+        "id": 1365,
         "character": "送到",
         "character_pinyin": "sòng dào",
         "eng": "to deliver to",
@@ -10948,7 +10948,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1367,
+        "id": 1366,
         "character": "送给",
         "character_pinyin": "sòng gěi",
         "eng": "to give as a gift",
@@ -10962,7 +10962,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1368,
+        "id": 1367,
         "character": "适",
         "character_pinyin": "shì",
         "eng": "suitable",
@@ -10976,7 +10976,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1369,
+        "id": 1368,
         "character": "选",
         "character_pinyin": "xuǎn",
         "eng": "to choose",
@@ -10990,7 +10990,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1370,
+        "id": 1369,
         "character": "通",
         "character_pinyin": "tōng",
         "eng": "through",
@@ -11004,7 +11004,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1371,
+        "id": 1370,
         "character": "通知",
         "character_pinyin": "tōngzhī",
         "eng": "to notify",
@@ -11018,7 +11018,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1372,
+        "id": 1371,
         "character": "通过",
         "character_pinyin": "tōngguò",
         "eng": "to pass through",
@@ -11032,21 +11032,21 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1373,
+        "id": 1372,
         "character": "遍",
         "character_pinyin": "biàn",
         "eng": "everywhere",
         "hsk_level": 2,
         "part_of_speech": "adverb",
         "compound_cantonese": "Bin3",
-        "compound": "他们走遍了整个城市",
-        "compound_pinyin": "Tāmen zǒu biànle zhěnggè chéngshì",
-        "compound_definition": "They walked everywhere in the city.",
+        "compound": "他们走遍，找合适的地方来讨论这个问题。",
+        "compound_pinyin": "Tāmen zǒu biàn; zhǎo héshì dì dìfāng lái tǎolùn zhège wèntí.",
+        "compound_definition": "They went around looking for a suitable place to discuss the issue.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
     {
-        "id": 1374,
+        "id": 1373,
         "character": "道理",
         "character_pinyin": "dàolǐ",
         "eng": "reason",
@@ -11060,7 +11060,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1375,
+        "id": 1374,
         "character": "道路",
         "character_pinyin": "dàolù",
         "eng": "road",
@@ -11074,7 +11074,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1376,
+        "id": 1375,
         "character": "那么",
         "character_pinyin": "nàme",
         "eng": "so",
@@ -11088,7 +11088,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1377,
+        "id": 1376,
         "character": "那会儿",
         "character_pinyin": "nà huìr",
         "eng": "then",
@@ -11102,7 +11102,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1378,
+        "id": 1377,
         "character": "那时候",
         "character_pinyin": "nà shíhòu",
         "eng": "at that time",
@@ -11116,7 +11116,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1379,
+        "id": 1378,
         "character": "那样",
         "character_pinyin": "nà yàng",
         "eng": "like that",
@@ -11130,7 +11130,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1380,
+        "id": 1379,
         "character": "部",
         "character_pinyin": "bù",
         "eng": "part",
@@ -11144,7 +11144,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1381,
+        "id": 1380,
         "character": "部分",
         "character_pinyin": "bùfen",
         "eng": "part",
@@ -11158,7 +11158,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1382,
+        "id": 1381,
         "character": "酒",
         "character_pinyin": "jiǔ",
         "eng": "alcohol",
@@ -11172,7 +11172,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1383,
+        "id": 1382,
         "character": "酒店",
         "character_pinyin": "jiǔdiàn",
         "eng": "hotel",
@@ -11186,7 +11186,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1384,
+        "id": 1383,
         "character": "里头",
         "character_pinyin": "lǐtou",
         "eng": "inside",
@@ -11200,7 +11200,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1385,
+        "id": 1384,
         "character": "重复",
         "character_pinyin": "chóngfù",
         "eng": "to repeat",
@@ -11214,7 +11214,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1386,
+        "id": 1385,
         "character": "重新",
         "character_pinyin": "chóngxīn",
         "eng": "again",
@@ -11228,7 +11228,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1387,
+        "id": 1386,
         "character": "重点",
         "character_pinyin": "zhòngdiǎn",
         "eng": "key point",
@@ -11242,7 +11242,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1388,
+        "id": 1387,
         "character": "重视",
         "character_pinyin": "zhòngshì",
         "eng": "to attach importance to",
@@ -11256,21 +11256,21 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1389,
+        "id": 1388,
         "character": "量",
         "character_pinyin": "liàng",
         "eng": "amount",
         "hsk_level": 2,
         "part_of_speech": "noun",
         "compound_cantonese": "Loeng6",
-        "compound": "请你量一下这个箱子的重量",
-        "compound_pinyin": "Qǐng nǐ liàng yīxià zhège xiāngzi de zhòngliàng",
-        "compound_definition": "Please measure the weight of this box.",
+        "compound": "我们走遍找可以帮助量我的鞋子的人。",
+        "compound_pinyin": "Wǒmen zǒu biàn zhǎo kěyǐ bāngzhù liàng wǒ de xiézi de rén.",
+        "compound_definition": "We walked around looking for someone who could help measure my shoes.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
     {
-        "id": 1390,
+        "id": 1389,
         "character": "钟",
         "character_pinyin": "zhōng",
         "eng": "clock",
@@ -11284,7 +11284,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1391,
+        "id": 1390,
         "character": "铁",
         "character_pinyin": "tiě",
         "eng": "iron",
@@ -11298,21 +11298,21 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1392,
+        "id": 1391,
         "character": "银",
         "character_pinyin": "yín",
         "eng": "silver",
         "hsk_level": 2,
         "part_of_speech": "noun",
         "compound_cantonese": "Ngan4",
-        "compound": "银是一种贵重的金属",
-        "compound_pinyin": "Yín shì yī zhǒng guìzhòng de jīnshǔ",
-        "compound_definition": "Silver is a precious metal.",
+        "compound": "我的筷子是银的，花了一万多块钱买的。",
+        "compound_pinyin": "Wǒ de kuàizi shì yín de; huāle yī wàn duō kuài qián mǎi de.",
+        "compound_definition": "My chopsticks are made of silver and cost more than 10000 yuan to buy.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
     {
-        "id": 1393,
+        "id": 1392,
         "character": "银行",
         "character_pinyin": "yínháng",
         "eng": "bank",
@@ -11326,7 +11326,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1394,
+        "id": 1393,
         "character": "银行卡",
         "character_pinyin": "yínhángkǎ",
         "eng": "bank card",
@@ -11340,7 +11340,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1395,
+        "id": 1394,
         "character": "长",
         "character_pinyin": "cháng",
         "eng": "long",
@@ -11354,7 +11354,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1396,
+        "id": 1395,
         "character": "长大",
         "character_pinyin": "zhǎngdà",
         "eng": "to grow up",
@@ -11368,7 +11368,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1397,
+        "id": 1396,
         "character": "问路",
         "character_pinyin": "wèn lù",
         "eng": "to ask for directions",
@@ -11382,7 +11382,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1398,
+        "id": 1397,
         "character": "问题",
         "character_pinyin": "wèntí",
         "eng": "question",
@@ -11396,7 +11396,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1399,
+        "id": 1398,
         "character": "闻",
         "character_pinyin": "wén",
         "eng": "to smell",
@@ -11410,7 +11410,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1400,
+        "id": 1399,
         "character": "队",
         "character_pinyin": "duì",
         "eng": "team",
@@ -11424,7 +11424,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1401,
+        "id": 1400,
         "character": "队长",
         "character_pinyin": "duìzhǎng",
         "eng": "team leader",
@@ -11438,21 +11438,21 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1402,
+        "id": 1401,
         "character": "阳",
         "character_pinyin": "yáng",
         "eng": "sun",
         "hsk_level": 2,
         "part_of_speech": "noun",
         "compound_cantonese": "Joeng4",
-        "compound": "在阳光下，花儿开得更美丽",
-        "compound_pinyin": "Zài yángguāng xià, huār kāi dé gèng měilì",
-        "compound_definition": "Under the sunshine, the flowers bloom more beautifully.",
+        "compound": "在这个多雨的春日，太阳在云层后面。",
+        "compound_pinyin": "Zài zhège duōyǔ de chūnrì; tàiyáng zài yúncéng hòumiàn.",
+        "compound_definition": "The sun is behind the clouds on this rainy spring day.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
     {
-        "id": 1403,
+        "id": 1402,
         "character": "阴",
         "character_pinyin": "yīn",
         "eng": "overcast",
@@ -11466,7 +11466,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1404,
+        "id": 1403,
         "character": "阴天",
         "character_pinyin": "yīntiān",
         "eng": "cloudy day",
@@ -11480,7 +11480,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1405,
+        "id": 1404,
         "character": "际",
         "character_pinyin": "jì",
         "eng": "boundary",
@@ -11494,7 +11494,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1406,
+        "id": 1405,
         "character": "院子",
         "character_pinyin": "yuànzi",
         "eng": "courtyard",
@@ -11508,7 +11508,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1407,
+        "id": 1406,
         "character": "院长",
         "character_pinyin": "yuànzhǎng",
         "eng": "dean",
@@ -11522,7 +11522,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1408,
+        "id": 1407,
         "character": "随",
         "character_pinyin": "suí",
         "eng": "to follow",
@@ -11536,7 +11536,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1409,
+        "id": 1408,
         "character": "随便",
         "character_pinyin": "suíbiàn",
         "eng": "casual",
@@ -11550,7 +11550,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1410,
+        "id": 1409,
         "character": "随时",
         "character_pinyin": "suíshí",
         "eng": "at any time",
@@ -11564,7 +11564,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1411,
+        "id": 1410,
         "character": "难受",
         "character_pinyin": "nánshòu",
         "eng": "uncomfortable",
@@ -11578,7 +11578,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1412,
+        "id": 1411,
         "character": "难听",
         "character_pinyin": "nántīng",
         "eng": "unpleasant to hear",
@@ -11592,7 +11592,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1413,
+        "id": 1412,
         "character": "难看",
         "character_pinyin": "nánkàn",
         "eng": "ugly",
@@ -11606,7 +11606,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1414,
+        "id": 1413,
         "character": "难过",
         "character_pinyin": "nánguò",
         "eng": "sad",
@@ -11620,7 +11620,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1415,
+        "id": 1414,
         "character": "难题",
         "character_pinyin": "nántí",
         "eng": "difficult problem",
@@ -11634,7 +11634,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1416,
+        "id": 1415,
         "character": "雪",
         "character_pinyin": "xuě",
         "eng": "snow",
@@ -11648,7 +11648,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1417,
+        "id": 1416,
         "character": "零下",
         "character_pinyin": "língxià",
         "eng": "below zero",
@@ -11662,21 +11662,21 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1418,
+        "id": 1417,
         "character": "青",
         "character_pinyin": "qīng",
         "eng": "green",
         "hsk_level": 2,
         "part_of_speech": "adjective",
         "compound_cantonese": "Ceng1",
-        "compound": "青草在阳光下格外美丽",
-        "compound_pinyin": "Qīng cǎo zài yángguāng xià géwài měilì",
-        "compound_definition": "The green grass looks exceptionally beautiful in the sunlight.",
+        "compound": "如果他想让她喜欢他，他就必须背上一包青草带到她家。",
+        "compound_pinyin": "Rúguǒ tā xiǎng ràng tā xǐhuān tā, tā jiù bìxū bèi shàng yī bāo qīngcǎo dài dào tā jiā.",
+        "compound_definition": "If he wants her to like him; he has to carry a bag of green grass on his back and take it to her house.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
     {
-        "id": 1419,
+        "id": 1418,
         "character": "青少年",
         "character_pinyin": "qīngshàonián",
         "eng": "teenager",
@@ -11690,7 +11690,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1420,
+        "id": 1419,
         "character": "青年",
         "character_pinyin": "qīngnián",
         "eng": "youth",
@@ -11704,7 +11704,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1421,
+        "id": 1420,
         "character": "静",
         "character_pinyin": "jìng",
         "eng": "quiet",
@@ -11718,21 +11718,21 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1422,
+        "id": 1421,
         "character": "靠",
         "character_pinyin": "kào",
         "eng": "to rely on",
         "hsk_level": 2,
         "part_of_speech": "verb",
         "compound_cantonese": "Haau3",
-        "compound": "在困难时，我们需要相互靠近",
-        "compound_pinyin": "Zài kùnnán shí, wǒmen xūyào xiānghù kàojìn",
-        "compound_definition": "In difficult times, we need to rely on each other.",
+        "compound": "如果你想在这家公司有发言，你必须靠你的老板。",
+        "compound_pinyin": "Rúguǒ nǐ xiǎng zài zhè jiā gōngsī yǒu fāyán; nǐ bìxū kào nǐ de lǎobǎn.",
+        "compound_definition": "If you want to have a say in this company; you have to rely on your boss.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
     {
-        "id": 1423,
+        "id": 1422,
         "character": "面¹",
         "character_pinyin": "miàn",
         "eng": "face",
@@ -11746,7 +11746,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1424,
+        "id": 1423,
         "character": "面²",
         "character_pinyin": "miàn",
         "eng": "noodles",
@@ -11760,7 +11760,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1425,
+        "id": 1424,
         "character": "面前",
         "character_pinyin": "miànqián",
         "eng": "in front of",
@@ -11774,21 +11774,21 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1426,
+        "id": 1425,
         "character": "鞋",
         "character_pinyin": "xié",
         "eng": "shoes",
         "hsk_level": 2,
         "part_of_speech": "noun",
         "compound_cantonese": "Haai4",
-        "compound": "我的鞋子太旧了，我需要一双新的",
-        "compound_pinyin": "Wǒ de xiézi tài jiùle, wǒ xūyào yī shuāng xīn de",
-        "compound_definition": "My shoes are too old; I need a new pair.",
+        "compound": "我们穿着相的鞋子，但他的比我的贵。",
+        "compound_pinyin": "Wǒmen chuānzhuó xiàng de xiézi; dàn tā de bǐ wǒ de guì.",
+        "compound_definition": "We wore each other's shoes; but his were more expensive than mine.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
     {
-        "id": 1427,
+        "id": 1426,
         "character": "音",
         "character_pinyin": "yīn",
         "eng": "sound",
@@ -11802,7 +11802,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1428,
+        "id": 1427,
         "character": "音乐",
         "character_pinyin": "yīnyuè",
         "eng": "music",
@@ -11816,7 +11816,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1429,
+        "id": 1428,
         "character": "音乐会",
         "character_pinyin": "yīnyuèhuì",
         "eng": "concert",
@@ -11830,7 +11830,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1430,
+        "id": 1429,
         "character": "音节",
         "character_pinyin": "yīnjié",
         "eng": "syllable",
@@ -11844,7 +11844,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1431,
+        "id": 1430,
         "character": "顺",
         "character_pinyin": "shùn",
         "eng": "smooth",
@@ -11858,7 +11858,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1432,
+        "id": 1431,
         "character": "顺利",
         "character_pinyin": "shùnlì",
         "eng": "smooth",
@@ -11872,7 +11872,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1433,
+        "id": 1432,
         "character": "须",
         "character_pinyin": "xū",
         "eng": "must",
@@ -11886,21 +11886,21 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1434,
+        "id": 1433,
         "character": "顾",
         "character_pinyin": "gù",
         "eng": "to look after",
         "hsk_level": 2,
         "part_of_speech": "verb",
         "compound_cantonese": "Gu3",
-        "compound": "他顾着家庭，很少出门",
-        "compound_pinyin": "Tā gùzhe jiātíng, hěn shǎo chūmén",
-        "compound_definition": "He looks after the family and rarely goes out.",
+        "compound": "早餐我做了鱼饺，味道非常好。",
+        "compound_pinyin": "Zǎocān wǒ zuòle yú jiǎo; wèidào fēicháng hǎo.",
+        "compound_definition": "I made fish dumplings for breakfast and their taste was very good.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
     {
-        "id": 1435,
+        "id": 1434,
         "character": "顾客",
         "character_pinyin": "gùkè",
         "eng": "customer",
@@ -11914,7 +11914,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1436,
+        "id": 1435,
         "character": "题",
         "character_pinyin": "tí",
         "eng": "topic",
@@ -11928,7 +11928,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1437,
+        "id": 1436,
         "character": "颜",
         "character_pinyin": "yán",
         "eng": "color",
@@ -11942,7 +11942,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1438,
+        "id": 1437,
         "character": "颜色",
         "character_pinyin": "yánsè",
         "eng": "color",
@@ -11956,7 +11956,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1439,
+        "id": 1438,
         "character": "食",
         "character_pinyin": "shí",
         "eng": "eat",
@@ -11970,7 +11970,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1440,
+        "id": 1439,
         "character": "食物",
         "character_pinyin": "shíwù",
         "eng": "food",
@@ -11984,7 +11984,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1441,
+        "id": 1440,
         "character": "餐",
         "character_pinyin": "cān",
         "eng": "meal",
@@ -11998,7 +11998,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1442,
+        "id": 1441,
         "character": "饭馆",
         "character_pinyin": "fànguǎn",
         "eng": "restaurant",
@@ -12012,7 +12012,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1443,
+        "id": 1442,
         "character": "饱",
         "character_pinyin": "bǎo",
         "eng": "full",
@@ -12026,7 +12026,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1444,
+        "id": 1443,
         "character": "饺",
         "character_pinyin": "jiǎo",
         "eng": "dumpling",
@@ -12040,7 +12040,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1445,
+        "id": 1444,
         "character": "饺子",
         "character_pinyin": "jiǎozi",
         "eng": "dumpling",
@@ -12054,7 +12054,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1446,
+        "id": 1445,
         "character": "骑",
         "character_pinyin": "qí",
         "eng": "ride",
@@ -12068,7 +12068,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1447,
+        "id": 1446,
         "character": "骑车",
         "character_pinyin": "qíchē",
         "eng": "ride a bike",
@@ -12082,7 +12082,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1448,
+        "id": 1447,
         "character": "高中",
         "character_pinyin": "gāozhōng",
         "eng": "high school",
@@ -12096,7 +12096,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1449,
+        "id": 1448,
         "character": "高级",
         "character_pinyin": "gāojí",
         "eng": "high-level",
@@ -12110,21 +12110,21 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1450,
+        "id": 1449,
         "character": "鱼",
         "character_pinyin": "yú",
         "eng": "fish",
         "hsk_level": 2,
         "part_of_speech": "noun",
         "compound_cantonese": "Jyu4",
-        "compound": "这家饭馆的糖醋鱼非常好吃",
-        "compound_pinyin": "Zhè jiā fànguǎn de tángcù yú fēicháng hào chī",
-        "compound_definition": "The sweet and sour fish in this restaurant is very delicious.",
+        "compound": "带上相机，因为我在船上到了一条很大的鱼。",
+        "compound_pinyin": "Dài shàng xiàngjī; yīnwèi wǒ zài chuánshàng dàole yītiáo hěn dà de yú.",
+        "compound_definition": "Bring your camera because I caught a really big fish on the boat.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
     {
-        "id": 1451,
+        "id": 1450,
         "character": "鸟",
         "character_pinyin": "niǎo",
         "eng": "bird",
@@ -12138,21 +12138,21 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1452,
+        "id": 1451,
         "character": "黄",
         "character_pinyin": "huáng",
         "eng": "yellow",
         "hsk_level": 2,
         "part_of_speech": "adjective",
         "compound_cantonese": "Wong4",
-        "compound": "她穿着一件黄色的裙子",
-        "compound_pinyin": "Tā chuānzhe yī jiàn huángsè de qúnzi",
-        "compound_definition": "She is wearing a yellow dress.",
+        "compound": "红色和黄色是秋天的颜色。",
+        "compound_pinyin": "Hóngsè hé huángsè shì qiūtiān de yánsè.",
+        "compound_definition": "Red and yellow are the colors of autumn.",
         "valid_sentence": "",
         "counter (872)\r": "\r"
     },
     {
-        "id": 1453,
+        "id": 1452,
         "character": "黄色",
         "character_pinyin": "huángsè",
         "eng": "yellow",
@@ -12166,7 +12166,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1454,
+        "id": 1453,
         "character": "黑",
         "character_pinyin": "hēi",
         "eng": "black",
@@ -12180,7 +12180,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1455,
+        "id": 1454,
         "character": "黑板",
         "character_pinyin": "hēibǎn",
         "eng": "blackboard",
@@ -12194,7 +12194,7 @@ var hskLevel2 = [
         "counter (872)\r": "\r"
     },
     {
-        "id": 1456,
+        "id": 1455,
         "character": "黑色",
         "character_pinyin": "hēisè",
         "eng": "black",
