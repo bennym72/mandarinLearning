@@ -7595,7 +7595,7 @@ var hskLevel2 = [
         "hsk_level": 2,
         "part_of_speech": "verb/noun",
         "compound_cantonese": "Wut6",
-        "compound": "啊, 当我感到舒适时，我的生活就是最好的。",
+        "compound": "啊，当我感到舒适时，我的生活就是最好的。",
         "compound_pinyin": "A, dāng wǒ gǎndào shūshì shí, wǒ de shēnghuó jiùshì zuì hǎo de.",
         "compound_definition": "Ah, my life is best when I'm comfortable.",
         "valid_sentence": "",
