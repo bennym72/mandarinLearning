@@ -547,6 +547,7 @@ function copyToClipboard(text) {
 class BaseBoard {
     constructor() {
         this.siteState = new KanjiState();
+        this.sentenceIndexCounter = 0;
     }
 
     onInputStartChange(value) {
@@ -665,37 +666,13 @@ class BaseBoard {
 
             mergeSentenceData(_sentenceDataInput);
 
-            var index = 0;
-            while (Object.keys(_sentencedData).length > 0) {
-                const startAmount = Object.keys(_sentencedData).length;
-                const keys = Object.keys(_sentencedData);
-                const randomKey = keys[Math.floor(Math.random() * keys.length)];
-                const charToUseMap = _sentencedData[randomKey];
-                const charToUseKeys = Object.keys(charToUseMap);
-                const randomChar = charToUseKeys[Math.floor(Math.random() * charToUseKeys.length)];
-                const sentenceToUse = charToUseMap[randomChar];
-                delete _sentencedData[randomKey];
-                for (let i = 0; i < sentenceToUse.compound.length; i++) {
-                    const charThatWillShow = sentenceToUse.compound[i];
-                    delete charMap[charThatWillShow];
-                    delete _sentencedData[charThatWillShow];
-                }
-                newLangData.push({
-                    character: sentenceToUse.compound,
-                    character_pinyin: sentenceToUse.compound_pinyin,
-                    eng: "",
-                    compound : sentenceToUse.compound_definition,
-                    compound_cantonese : "",
-                    compound_definition: "",
-                    compound_pinyin: "",
-                    hsk_level: "(" + randomChar + ")",
-                    id: index,
-                    part_of_speech: "sentence"
-                });
-                const endAmount = Object.keys(_sentencedData).length;
-                console.log(sentenceToUse + " Start amount: " + startAmount + "; End amount: " + endAmount);
-                index++;
-            }
+            const hsk1SentencesKeys = Object.keys(_hskLevelToSingleCharMap[1]);
+            const hsk1Sentences = this._sentencesForKeys(_sentencedData, hsk1SentencesKeys);
+            const hsk2SentencesKeys = Object.keys(_hskLevelToSingleCharMap[2]);
+            const hsk2Sentences = this._sentencesForKeys(_sentencedData, hsk2SentencesKeys);
+            this._convertSentencedDataToNewLangData(newLangData, hsk2Sentences, [hsk1Sentences]);
+            this._convertSentencedDataToNewLangData(newLangData, hsk1Sentences, []);
+
             var charsWithoutSentenceCount = 0;
             Object.keys(charMap).forEach((charMapKey) => {
                 const value = charMap[charMapKey];
@@ -707,7 +684,7 @@ class BaseBoard {
             window.individualCharMap = charMap;
             console.log(Object.keys(charMap).join("%"));
 
-            document.querySelector("#_sentenceToChar").innerText = "# sentences: " + index + "; # characters: " + charsWithoutSentenceCount;
+            document.querySelector("#_sentenceToChar").innerText = "# sentences: " + this.sentenceIndexCounter + "; # characters: " + charsWithoutSentenceCount;
         } else {
             const checkedBoxes = Array.prototype.slice.call(document.querySelectorAll('input[type=checkbox]:checked'));
             checkedBoxes.forEach(checkedBox => {
@@ -722,6 +699,53 @@ class BaseBoard {
         });
 
         this.enablePhase1(true);
+    }
+
+    _sentencesForKeys(sentencedData, keys) {
+        const result = {};
+        keys.forEach(key => {
+            if (sentencedData[key]) {
+                result[key] = sentencedData[key];
+                delete sentencedData[key];
+            }
+        });
+        return result;
+    }
+
+    _convertSentencedDataToNewLangData(newLangData, sentencedData, lowerLevelsToDelete) {
+        while (Object.keys(sentencedData).length > 0) {
+            const startAmount = Object.keys(sentencedData).length;
+            const keys = Object.keys(sentencedData);
+            const randomKey = keys[Math.floor(Math.random() * keys.length)];
+            const charToUseMap = sentencedData[randomKey];
+            const charToUseKeys = Object.keys(charToUseMap);
+            const randomChar = charToUseKeys[Math.floor(Math.random() * charToUseKeys.length)];
+            const sentenceToUse = charToUseMap[randomChar];
+            delete sentencedData[randomKey];
+            for (let i = 0; i < sentenceToUse.compound.length; i++) {
+                const charThatWillShow = sentenceToUse.compound[i];
+                delete charMap[charThatWillShow];
+                delete sentencedData[charThatWillShow];
+                lowerLevelsToDelete.forEach(lowerLevelSentences => {
+                    delete lowerLevelSentences[charThatWillShow];
+                });
+            }
+            newLangData.push({
+                character: sentenceToUse.compound,
+                character_pinyin: sentenceToUse.compound_pinyin,
+                eng: "",
+                compound : sentenceToUse.compound_definition,
+                compound_cantonese : "",
+                compound_definition: "",
+                compound_pinyin: "",
+                hsk_level: "(" + randomChar + ")",
+                id: this.sentenceIndexCounter,
+                part_of_speech: "sentence"
+            });
+            const endAmount = Object.keys(sentencedData).length;
+            console.log(sentenceToUse + " Start amount: " + startAmount + "; End amount: " + endAmount);
+            this.sentenceIndexCounter++;
+        }
     }
     
     onResume() {
