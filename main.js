@@ -636,6 +636,7 @@ class BaseBoard {
                 var excludedChars = "";
                 const hskLevelForValue = value.hsk_level;
                 var hasCharacter = false;
+                var numCharsOnSameLevel = 0;
                 for (var i = 0; i < sentenceForCharacter.length; i++) {
                     const charAt = sentenceForCharacter[i];
                     const currentCharHSKLevel = anyCharByHSKLevel[charAt];
@@ -643,6 +644,9 @@ class BaseBoard {
                         excludedChars = excludedChars + charAt;
                     }
                     hasCharacter = hasCharacter || character == charAt;
+                    if (hskLevelForValue === currentCharHSKLevel) {
+                        numCharsOnSameLevel++;
+                    }
                 }
                 const compoundCount = value.character.length;
                 const isValid = value.compound.length > value.character.length && excludedChars.length == 0;
@@ -658,6 +662,7 @@ class BaseBoard {
                 separator + (excludedChars.length? excludedChars : ".") + 
                 separator + compoundCount + 
                 separator + numberOfAppearances +
+                separator + numCharsOnSameLevel +
                 separator + hasCharacter);
             }); 
             const sentenceCheckAsString = sentenceCheck.join("\n");
@@ -722,9 +727,13 @@ class BaseBoard {
             const randomChar = charToUseKeys[Math.floor(Math.random() * charToUseKeys.length)];
             const sentenceToUse = charToUseMap[randomChar];
             delete sentencedData[randomKey];
+            const deletedChars = [];
             for (let i = 0; i < sentenceToUse.compound.length; i++) {
                 const charThatWillShow = sentenceToUse.compound[i];
                 delete charMap[charThatWillShow];
+                if (sentencedData[charThatWillShow]) {
+                    deletedChars.push(charThatWillShow);
+                }
                 delete sentencedData[charThatWillShow];
                 lowerLevelsToDelete.forEach(lowerLevelSentences => {
                     delete lowerLevelSentences[charThatWillShow];
@@ -743,7 +752,7 @@ class BaseBoard {
                 part_of_speech: "sentence"
             });
             const endAmount = Object.keys(sentencedData).length;
-            console.log(sentenceToUse + " Start amount: " + startAmount + "; End amount: " + endAmount);
+            console.log(randomChar + "; " + deletedChars.join("") + " ;" + " Start amount: " + startAmount + "; End amount: " + endAmount);
             this.sentenceIndexCounter++;
         }
     }
