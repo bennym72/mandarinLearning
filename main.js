@@ -292,8 +292,8 @@ const convertMandarinToKanji = function(mandarin, map) {
             }
         ],
         eng : mandarin.character_pinyin,
-        tone : mandarin.tone
-        
+        tone : mandarin.tone,
+        eng_def_for_sentence : mandarin.eng_def_for_sentence,
     };
     map[kanji.index] = kanji;
 };
@@ -609,13 +609,15 @@ class BaseBoard {
                         _hskLevelToSentencedDataMap[value.hsk_level][charAt][value.character] = {
                             compound : value.compound,
                             compound_pinyin : value.compound_pinyin,
-                            compound_definition : value.compound_definition
+                            compound_definition : value.compound_definition,
+                            eng : value.eng
                         };
 
                         _sentencedData[charAt][value.character] = {
                             compound : value.compound,
                             compound_pinyin : value.compound_pinyin,
-                            compound_definition : value.compound_definition
+                            compound_definition : value.compound_definition,
+                            eng : value.eng
                         };
                         delete charMap[charAt];
                     }
@@ -750,7 +752,8 @@ class BaseBoard {
                 compound_pinyin: "",
                 hsk_level: "(" + randomChar + ")",
                 id: this.sentenceIndexCounter,
-                part_of_speech: "sentence"
+                part_of_speech: "sentence",
+                eng_def_for_sentence : sentenceToUse.eng
             });
             const endAmount = Object.keys(sentencedData).length;
             console.log(randomChar + "; " + deletedChars.join("") + " ;" + " Start amount: " + startAmount + "; End amount: " + endAmount);
@@ -983,6 +986,9 @@ class BaseBoard {
     
     enablePhase2() {
         this.hideAllExcept("inProgressShow2");
+        if (isSentenceMode) {
+            document.getElementById("_currentStar").innerHTML = this.siteState.currentKanji.stars.slice(0,-1) + " - " + this.siteState.currentKanji.eng_def_for_sentence + ")";
+        }
     }
     
     enableEndPhase() {
