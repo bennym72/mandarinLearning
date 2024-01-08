@@ -654,6 +654,7 @@ class BaseBoard {
                 const separator = "%";
                 sentenceCheck.push((index + 1) + 
                 separator + character + 
+                separator + value.eng + 
                 separator + hskLevelForValue + 
                 separator + isValid + 
                 separator + sentenceForCharacter + 
