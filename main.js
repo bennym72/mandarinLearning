@@ -81,7 +81,10 @@ charsToIgnore.forEach((value) => {
 
 const hskLevelString = "hsk_level_";
 
-var data = hskLevel1.concat(hskLevel2).concat(hskLevel3);
+var data = hskLevel1.concat(hskLevel2);
+if (!isSentenceMode) {
+    data = data.concat(hskLevel3);
+}
 
 // pragma mark - setup
 
