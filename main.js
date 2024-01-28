@@ -56,7 +56,7 @@ var _selectionTable;
 var langDataToUse = {}; //newLangData;
 var _highestChosenHSKLevel = 0; // defaults to 0
 var _highestAvailableHSKLevel = 0;
-var _sentenceDataInput = "1,2,3,4,5,6,7";
+var _sentenceDataInput = "1,2,3";
 
 const _hskLevelToSingleCharMap = {};
 const _hskLevelToSentencedDataMap = {};
@@ -297,6 +297,7 @@ const convertMandarinToKanji = function(mandarin, map) {
         eng : mandarin.character_pinyin,
         tone : mandarin.tone,
         eng_def_for_sentence : mandarin.eng_def_for_sentence,
+        numFirstTimeShownChars : (Number.isInteger(mandarin.numFirstTimeShownChars) ? mandarin.numFirstTimeShownChars : 1)
     };
     map[kanji.index] = kanji;
 };
@@ -326,6 +327,8 @@ class KanjiState {
         this.currentKanji = null;
         this.currentCorrect = 0;
         this.currentCounter = 0;
+        this.sentenceCounter = 0;
+        this.sentenceTotal = 0;
         this.dialogCurrentType = "";
         this.dialogCurrentIndex = 0;
         this.currentWrong = [];
@@ -680,6 +683,9 @@ class BaseBoard {
             console.log(charCountInValidSentences);
 
             mergeSentenceData(_sentenceDataInput);
+            _sentenceDataInput.split(",").forEach((level) => {
+                this.siteState.sentenceTotal += Object.keys(_hskLevelToSingleCharMap[level]).length;
+            });
 
             const hsk1SentencesKeys = Object.keys(_hskLevelToSingleCharMap[1]);
             const hsk1Sentences = this._sentencesForKeys(_sentencedData, hsk1SentencesKeys);
@@ -697,6 +703,8 @@ class BaseBoard {
             });
             newLangData = newLangData.filter(value => value);
             const numSentences = newLangData.length;
+
+            this._applyFirstSeenChar(charMapForReverseCheck, newLangData);
 
             var charsWithoutSentenceCount = 0;
             Object.keys(charMap).forEach((charMapKey) => {
@@ -772,7 +780,7 @@ class BaseBoard {
                 eng: "",
                 compound : sentenceToUse.compound_definition,
                 compound_cantonese : "",
-                compound_definition: firstTimeShownChars.join(","),
+                compound_definition: "",
                 compound_pinyin: "",
                 hsk_level: "(" + randomChar + ")",
                 id: this.sentenceIndexCounter,
@@ -803,6 +811,22 @@ class BaseBoard {
         }
         return sentencesToDelete;
     }
+
+    _applyFirstSeenChar(charMapForReverseCheck, newLangData) {
+        const charMapDeepCopy = JSON.parse(JSON.stringify(charMapForReverseCheck));
+        newLangData.forEach((sentence) => {
+            const firstTimeShownChars = [];
+            const currentSentence = sentence.character;
+            currentSentence.split("").forEach((charAt) => {
+                if (charMapDeepCopy[charAt]) {
+                    firstTimeShownChars.push(charAt)
+                    delete charMapDeepCopy[charAt];
+                }
+            });
+            sentence.compound_definition = firstTimeShownChars.join(",");
+            sentence.numFirstTimeShownChars = firstTimeShownChars.length;
+        });
+    }
     
     onResume() {
         this.siteState.getValuesFromWindowName();
@@ -820,6 +844,7 @@ class BaseBoard {
         if (this.siteState.wasViewed.length) {
             this.siteState.currentCounter--;
             this.siteState.currentCorrect--;
+            this.siteState.sentenceCounter -= langDataToUse[this.siteState.wasViewed[this.siteState.wasViewed.length - 1]].numFirstTimeShownChars;
             this.siteState.toView.unshift(this.siteState.currentKanji.index);
             this.siteState.toView.unshift(this.siteState.wasViewed.pop());
             this.enablePhase1();
@@ -831,6 +856,7 @@ class BaseBoard {
     correct() {
         this.siteState.currentCounter++;
         this.siteState.currentCorrect++;
+        this.siteState.sentenceCounter += this.siteState.currentKanji.numFirstTimeShownChars;
         this.siteState.wasViewed.push(this.siteState.currentKanji.index);
         if (this.siteState.toView.length) {
             this.enablePhase1();
@@ -1002,6 +1028,7 @@ class BaseBoard {
         const counter = this.siteState.allCurrentKanji.length - this.siteState.toView.length;
         document.querySelector("#_overallCounter").innerHTML = counter + "/" + this.siteState.allCurrentKanji.length;
         document.querySelector("#_scoreCounter").innerHTML = this.siteState.currentCorrect + "/" + this.siteState.currentCounter;
+        document.querySelector("#_sentenceCounter").innerHTML = this.siteState.sentenceCounter + "/" + this.siteState.sentenceTotal;
 
         const topKunyomi = this.getTopKunyomiFromKanji(this.siteState.currentKanji);
         document.querySelector("#_currentHir").innerText = topKunyomi.hiragana;
