@@ -563,6 +563,7 @@ class BaseBoard {
     
     onStart(){
         var newLangData = [];
+        const charMapForReverseCheck = {};
 
         if (isSentenceMode) {
         
@@ -588,6 +589,7 @@ class BaseBoard {
 
                     // only capturing single chars
                     charMap[value.character] = value;
+                    charMapForReverseCheck[value.character] = true;
                 }
                 /**
                  * For the purposes of generating the "valid sentence" console output to figure out which sentences are valid at HSK 1 (for example), we need to input 1 into the input box.
@@ -689,6 +691,13 @@ class BaseBoard {
             this._convertSentencedDataToNewLangData(newLangData, hsk2Sentences, [hsk1Sentences]);
             this._convertSentencedDataToNewLangData(newLangData, hsk1Sentences, []);
 
+            const sentencesToDelete = this._reverseCheckSentences(charMapForReverseCheck, newLangData);
+            sentencesToDelete.forEach((index) => {
+                newLangData[index] = null;
+            });
+            newLangData = newLangData.filter(value => value);
+            const numSentences = newLangData.length;
+
             var charsWithoutSentenceCount = 0;
             Object.keys(charMap).forEach((charMapKey) => {
                 const value = charMap[charMapKey];
@@ -700,7 +709,7 @@ class BaseBoard {
             window.individualCharMap = charMap;
             console.log(Object.keys(charMap).join("%"));
 
-            document.querySelector("#_sentenceToChar").innerText = "# sentences: " + this.sentenceIndexCounter + "; # characters: " + charsWithoutSentenceCount;
+            document.querySelector("#_sentenceToChar").innerText = "# sentences: " + numSentences + "; # characters: " + charsWithoutSentenceCount + "; # deleted: " + sentencesToDelete.length;
         } else {
             const checkedBoxes = Array.prototype.slice.call(document.querySelectorAll('input[type=checkbox]:checked'));
             checkedBoxes.forEach(checkedBox => {
@@ -774,6 +783,25 @@ class BaseBoard {
             console.log(randomChar + "; " + deletedChars.join("") + " ;" + " Start amount: " + startAmount + "; End amount: " + endAmount);
             this.sentenceIndexCounter++;
         }
+    }
+
+    _reverseCheckSentences(charMapForReverseCheck, newLangData) {
+        const charMapDeepCopy = JSON.parse(JSON.stringify(charMapForReverseCheck));
+        const sentencesToDelete = [];
+        for (var i = newLangData.length - 1; i >= 0; i--) {
+            const currentSentence = newLangData[i].character;
+            var hasNewChar = false;
+            currentSentence.split("").forEach((value) => {
+                if (charMapDeepCopy[value]) {
+                    hasNewChar = true;
+                    delete charMapDeepCopy[value];
+                }
+            });
+            if (!hasNewChar) {
+                sentencesToDelete.push(i);
+            }
+        }
+        return sentencesToDelete;
     }
     
     onResume() {
