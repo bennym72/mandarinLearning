@@ -82,9 +82,9 @@ charsToIgnore.forEach((value) => {
 const hskLevelString = "hsk_level_";
 
 var data = hskLevel1.concat(hskLevel2);
-if (!isSentenceMode) {
-    data = data.concat(hskLevel3);
-}
+// if (!isSentenceMode) {
+data = data.concat(hskLevel3);
+// }
 
 // pragma mark - setup
 
@@ -681,6 +681,9 @@ class BaseBoard {
             const hsk1Sentences = this._sentencesForKeys(_sentencedData, hsk1SentencesKeys);
             const hsk2SentencesKeys = Object.keys(_hskLevelToSingleCharMap[2]);
             const hsk2Sentences = this._sentencesForKeys(_sentencedData, hsk2SentencesKeys);
+            const hsk3SentencesKeys = Object.keys(_hskLevelToSingleCharMap[3]);
+            const hsk3Sentences = this._sentencesForKeys(_sentencedData, hsk3SentencesKeys);
+            this._convertSentencedDataToNewLangData(newLangData, hsk3Sentences, [hsk2Sentences, hsk1Sentences]);
             this._convertSentencedDataToNewLangData(newLangData, hsk2Sentences, [hsk1Sentences]);
             this._convertSentencedDataToNewLangData(newLangData, hsk1Sentences, []);
 
