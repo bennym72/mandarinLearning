@@ -507,6 +507,8 @@ function init() {
         document.querySelector("#_currentCompound").classList.add("currentSentenceDefinition");
         document.querySelector("#_currentEng").classList.remove("pinyin");
         document.querySelector("#_currentEng").classList.add("pinyinSentence");
+    } else if (isSingleCharMode) {
+        document.querySelector("#_currentCompound").classList.add("inProgressShow1");
     }
     
     initializeData();
