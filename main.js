@@ -739,14 +739,21 @@ class BaseBoard {
             const sentenceToUse = charToUseMap[randomChar];
             delete sentencedData[randomKey];
             const deletedChars = [];
+            const firstTimeShownChars = [];
             for (let i = 0; i < sentenceToUse.compound.length; i++) {
                 const charThatWillShow = sentenceToUse.compound[i];
                 delete charMap[charThatWillShow];
                 if (sentencedData[charThatWillShow]) {
+                    firstTimeShownChars.push(charThatWillShow);
                     deletedChars.push(charThatWillShow);
+                } else if (charThatWillShow == randomKey && firstTimeShownChars.indexOf(charThatWillShow) < 0) {
+                    firstTimeShownChars.push(charThatWillShow);
                 }
                 delete sentencedData[charThatWillShow];
                 lowerLevelsToDelete.forEach(lowerLevelSentences => {
+                    if (lowerLevelSentences[charThatWillShow]) {
+                        firstTimeShownChars.push(charThatWillShow);
+                    }
                     delete lowerLevelSentences[charThatWillShow];
                 });
             }
@@ -756,7 +763,7 @@ class BaseBoard {
                 eng: "",
                 compound : sentenceToUse.compound_definition,
                 compound_cantonese : "",
-                compound_definition: "",
+                compound_definition: firstTimeShownChars.join(","),
                 compound_pinyin: "",
                 hsk_level: "(" + randomChar + ")",
                 id: this.sentenceIndexCounter,
