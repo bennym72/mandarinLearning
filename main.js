@@ -592,7 +592,7 @@ class BaseBoard {
 
                     // only capturing single chars
                     charMap[value.character] = value;
-                    charMapForReverseCheck[value.character] = true;
+                    charMapForReverseCheck[value.character] = value.hsk_level;
                 }
                 /**
                  * For the purposes of generating the "valid sentence" console output to figure out which sentences are valid at HSK 1 (for example), we need to input 1 into the input box.
@@ -693,9 +693,9 @@ class BaseBoard {
             const hsk2Sentences = this._sentencesForKeys(_sentencedData, hsk2SentencesKeys);
             const hsk3SentencesKeys = Object.keys(_hskLevelToSingleCharMap[3]);
             const hsk3Sentences = this._sentencesForKeys(_sentencedData, hsk3SentencesKeys);
-            this._convertSentencedDataToNewLangData(newLangData, hsk3Sentences, [hsk2Sentences, hsk1Sentences]);
-            this._convertSentencedDataToNewLangData(newLangData, hsk2Sentences, [hsk1Sentences]);
-            this._convertSentencedDataToNewLangData(newLangData, hsk1Sentences, []);
+            this._convertSentencedDataToNewLangData(newLangData, charMapForReverseCheck, hsk3Sentences, [hsk2Sentences, hsk1Sentences]);
+            this._convertSentencedDataToNewLangData(newLangData, charMapForReverseCheck,hsk2Sentences, [hsk1Sentences]);
+            this._convertSentencedDataToNewLangData(newLangData, charMapForReverseCheck,hsk1Sentences, []);
 
             const sentencesToDelete = this._reverseCheckSentences(charMapForReverseCheck, newLangData);
             sentencesToDelete.forEach((index) => {
@@ -706,6 +706,22 @@ class BaseBoard {
 
             this._applyFirstSeenChar(charMapForReverseCheck, newLangData);
 
+            newLangData.sort((sentence1, sentence2) => {
+                if (sentence1.underlyingHSKLevel == sentence2.underlyingHSKLevel) {
+                    if (sentence1.numFirstTimeShownChars > sentence2.numFirstTimeShownChars) {
+                        return -1;
+                    } else if (sentence1.numFirstTimeShownChars < sentence2.numFirstTimeShownChars) {
+                        return 1;
+                    } else {
+                        return 0;
+                    }
+                } else if (sentence1.underlyingHSKLevel > sentence2.underlyingHSKLevel) {
+                    return -1;
+                } else {
+                    return 1;
+                }
+            });
+
             var charsWithoutSentenceCount = 0;
             Object.keys(charMap).forEach((charMapKey) => {
                 const value = charMap[charMapKey];
@@ -714,6 +730,13 @@ class BaseBoard {
                     newLangData.push(value);
                 }
             });
+
+            var idCounter = 1;
+            newLangData.forEach((value) => {
+                value.id = idCounter;
+                idCounter++;
+            });
+
             window.individualCharMap = charMap;
             console.log(Object.keys(charMap).join("%"));
 
@@ -745,7 +768,7 @@ class BaseBoard {
         return result;
     }
 
-    _convertSentencedDataToNewLangData(newLangData, sentencedData, lowerLevelsToDelete) {
+    _convertSentencedDataToNewLangData(newLangData, charMapForReverseCheck, sentencedData, lowerLevelsToDelete) {
         while (Object.keys(sentencedData).length > 0) {
             const startAmount = Object.keys(sentencedData).length;
             const keys = Object.keys(sentencedData);
@@ -785,7 +808,9 @@ class BaseBoard {
                 hsk_level: "(" + randomChar + ")",
                 id: this.sentenceIndexCounter,
                 part_of_speech: "sentence",
-                eng_def_for_sentence : sentenceToUse.eng
+                eng_def_for_sentence : sentenceToUse.eng,
+                underlyingChar : randomKey,
+                underlyingHSKLevel : charMapForReverseCheck[randomKey]
             });
             const endAmount = Object.keys(sentencedData).length;
             console.log(randomChar + "; " + deletedChars.join("") + " ;" + " Start amount: " + startAmount + "; End amount: " + endAmount);
