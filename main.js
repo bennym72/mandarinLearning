@@ -740,7 +740,7 @@ class BaseBoard {
             window.individualCharMap = charMap;
             console.log(Object.keys(charMap).join("%"));
 
-            document.querySelector("#_sentenceToChar").innerText = "# sentences: " + numSentences + "; # characters: " + charsWithoutSentenceCount + "; # deleted: " + sentencesToDelete.length;
+            document.querySelector("#_sentenceToChar").innerText = "# sen: " + numSentences + "; # chr: " + charsWithoutSentenceCount + "; # del: " + sentencesToDelete.length;
         } else {
             const checkedBoxes = Array.prototype.slice.call(document.querySelectorAll('input[type=checkbox]:checked'));
             checkedBoxes.forEach(checkedBox => {
