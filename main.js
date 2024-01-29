@@ -709,7 +709,9 @@ class BaseBoard {
             this._applyFirstSeenChar(charMapForReverseCheck, newLangData);
 
             var charsWithoutSentenceCount = 0;
-            Object.keys(charMap).forEach((charMapKey) => {
+            const charMapKeys = Object.keys(charMap);
+            window.shuffle(charMapKeys);
+            charMapKeys.forEach((charMapKey) => {
                 const value = charMap[charMapKey];
                 value.underlyingChar = value.character;
                 value.underlyingHSKLevel = value.hsk_level;
