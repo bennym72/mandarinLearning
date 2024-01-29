@@ -706,6 +706,18 @@ class BaseBoard {
 
             this._applyFirstSeenChar(charMapForReverseCheck, newLangData);
 
+            var charsWithoutSentenceCount = 0;
+            Object.keys(charMap).forEach((charMapKey) => {
+                const value = charMap[charMapKey];
+                value.underlyingChar = value.character;
+                value.underlyingHSKLevel = value.hsk_level;
+                value.numFirstTimeShownChars = 1;
+                if (_highestChosenHSKLevel == 0 || value.hsk_level <= _highestChosenHSKLevel) {
+                    charsWithoutSentenceCount++;
+                    newLangData.push(value);
+                }
+            });
+
             newLangData.sort((sentence1, sentence2) => {
                 if (sentence1.underlyingHSKLevel == sentence2.underlyingHSKLevel) {
                     if (sentence1.numFirstTimeShownChars > sentence2.numFirstTimeShownChars) {
@@ -719,15 +731,6 @@ class BaseBoard {
                     return -1;
                 } else {
                     return 1;
-                }
-            });
-
-            var charsWithoutSentenceCount = 0;
-            Object.keys(charMap).forEach((charMapKey) => {
-                const value = charMap[charMapKey];
-                if (_highestChosenHSKLevel == 0 || value.hsk_level <= _highestChosenHSKLevel) {
-                    charsWithoutSentenceCount++;
-                    newLangData.push(value);
                 }
             });
 
