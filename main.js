@@ -510,6 +510,8 @@ function init() {
         document.querySelector("#_currentCompound").classList.add("currentSentenceDefinition");
         document.querySelector("#_currentEng").classList.remove("pinyin");
         document.querySelector("#_currentEng").classList.add("pinyinSentence");
+        document.querySelector("#_currentHir").classList.remove("cantonese");
+        document.querySelector("#_currentHir").classList.add("cantoneseSentence");
     } else if (isSingleCharMode) {
         document.querySelector("#_currentCompound").classList.add("inProgressShow1");
     }
@@ -694,8 +696,8 @@ class BaseBoard {
             const hsk3SentencesKeys = Object.keys(_hskLevelToSingleCharMap[3]);
             const hsk3Sentences = this._sentencesForKeys(_sentencedData, hsk3SentencesKeys);
             this._convertSentencedDataToNewLangData(newLangData, charMapForReverseCheck, hsk3Sentences, [hsk2Sentences, hsk1Sentences]);
-            this._convertSentencedDataToNewLangData(newLangData, charMapForReverseCheck,hsk2Sentences, [hsk1Sentences]);
-            this._convertSentencedDataToNewLangData(newLangData, charMapForReverseCheck,hsk1Sentences, []);
+            this._convertSentencedDataToNewLangData(newLangData, charMapForReverseCheck, hsk2Sentences, [hsk1Sentences]);
+            this._convertSentencedDataToNewLangData(newLangData, charMapForReverseCheck, hsk1Sentences, []);
 
             const sentencesToDelete = this._reverseCheckSentences(charMapForReverseCheck, newLangData);
             sentencesToDelete.forEach((index) => {

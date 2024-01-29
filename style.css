@@ -195,15 +195,7 @@ button {
   top: 38.5vh;
   position:absolute;
   font-size:3.5vh;
-    color: #6d83fa;
-
-}
-
-.phonetic {
-  top: 22vh;
-  font-size:3vh;
-  position:absolute;
-    color: #ffffff;
+  color: #6d83fa;
 }
 
 .pinyin {
@@ -214,6 +206,15 @@ button {
   text-align: center;
 }
 
+.cantoneseSentence {
+  top: 45vh;
+  width:96vw;
+  font-size:3vh;
+  position:absolute;
+  color: #6d83fa;
+  text-align: center;
+}
+
 .pinyinSentence {
   top: 41vh;
   width:96vw;
@@ -221,6 +222,13 @@ button {
   position:absolute;
   color: #d66b6b;
   text-align: center;
+}
+
+.phonetic {
+  top: 22vh;
+  font-size:3vh;
+  position:absolute;
+    color: #ffffff;
 }
 
 .currentCompound {
@@ -234,7 +242,7 @@ button {
 }
 
 .currentSentenceDefinition {
-  top: 53vh;
+  top: 52vh;
   width:96vw;
   position:absolute;
   font-size:3vh;
