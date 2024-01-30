@@ -37,6 +37,36 @@
             <button onclick="window.gameboard.back()" class="inProgressShow1 inProgressShow1-table back">Back</button>
             <button onclick="window.gameboard.review()" class="inProgressEnd review">Review</button>
             <button onclick="window.gameboard.end()" class="inProgressEnd endButton">End</button>
+
+            <input type="text" id="_charSearchInput" class="inProgressShow1 inProgressShow2 searchInput">
+            <button onclick="window.gameboard.searchChar()" class="inProgressShow1 inProgressShow2 searchChar">Search</button>
+            <div id="_popupWindow" class="hidden popupWindow">
+                <button onclick="window.gameboard.closeSearchChar()" class="popupWindowButton">X</button>
+                <br>
+                <table class="popupText popupTable">
+                    <tr>
+                        <td class="popupCategory" >Level</td>
+                        <td class="popupAnswer" id="_popupWindowCharHSKLevel">?</td>
+                    </tr>
+                    <tr>
+                        <td class="popupCategory">Speech</td>
+                        <td class="popupAnswer"id="_popupWindowCharPartOfSpeech">?</td>
+                    </tr>
+                    <tr>
+                        <td class="popupCategory">Character</td>
+                        <td class="popupAnswer"id="_popupWindowCharCharacter">?</td>
+                    </tr>
+                    <tr>
+                        <td class="popupCategory">Pinyin</td>
+                        <td class="popupAnswer"id="_popupWindowCharPinyin">?</td>
+                    </tr>
+                    <tr>
+                        <td class="popupCategory">English</td>
+                        <td class="popupAnswer"id="_popupWindowCharEnglish">?</td>
+                    </tr>
+                </table>
+            </div>
+
         </div>
         <script>init()</script>
     </body>

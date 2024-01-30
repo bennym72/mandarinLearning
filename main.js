@@ -61,6 +61,8 @@ var _sentenceDataInput = "1,2,3";
 const _hskLevelToSingleCharMap = {};
 const _hskLevelToSentencedDataMap = {};
 
+const singleCharMapToDefinition = {};
+
 const charMap = {};
 const charCountInValidSentences = {};
 
@@ -164,6 +166,9 @@ function initializeData() {
                 anyCharByHSKLevel[charAt] = value.hsk_level;
             }
             _highestAvailableHSKLevel = Math.max(_highestAvailableHSKLevel, value.hsk_level);
+        }
+        if (value.character.length == 1) {
+            singleCharMapToDefinition[value.character] = value;
         }
     });
 
@@ -906,7 +911,30 @@ class BaseBoard {
         }
         this.enablePhase1();
     }
-    
+
+    searchChar() {
+        const popupWindow = document.querySelector("#_popupWindow");
+        popupWindow.classList.remove("hidden");
+        const charToSearch = document.querySelector("#_charSearchInput").value;
+        const charValue = singleCharMapToDefinition[charToSearch];
+        document.querySelector("#_popupWindowCharHSKLevel").innerText = charValue.hsk_level;
+        document.querySelector("#_popupWindowCharPartOfSpeech").innerText = charValue.part_of_speech;
+        document.querySelector("#_popupWindowCharCharacter").innerText = charValue.character;
+        document.querySelector("#_popupWindowCharPinyin").innerText = charValue.character_pinyin;
+        document.querySelector("#_popupWindowCharEnglish").innerText = charValue.eng;
+
+    }
+
+    closeSearchChar() {
+        const popupWindow = document.querySelector("#_popupWindow");
+        popupWindow.classList.add("hidden");
+        document.querySelector("#_popupWindowCharHSKLevel").innerText = "?";
+        document.querySelector("#_popupWindowCharPartOfSpeech").innerText = "?";
+        document.querySelector("#_popupWindowCharCharacter").innerText = "?";
+        document.querySelector("#_popupWindowCharPinyin").innerText = "?";
+        document.querySelector("#_popupWindowCharEnglish").innerText = "?";
+    }
+
     dialogShow() {
         this.hideAllExcept("inProgressDialog2");
     }
