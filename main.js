@@ -13,6 +13,8 @@ const showPinyin = params.get("showPinyin") == "true";
 const isSingleCharMode = params.get("showSingle") == "true";
 const isCompoundWordMode = params.get("showCompound") == "true";
 
+const isGenerateMode = params.get("generate") == "true";
+
 /*
 {
     hsk_level : {
@@ -52,6 +54,7 @@ var _sentencedData = {};
 var _initialTableData = [];
 // params
 var _selectionTable;
+var _inputTable;
 
 var langDataToUse = {}; //newLangData;
 var _highestChosenHSKLevel = 0; // defaults to 0
@@ -89,6 +92,59 @@ data = data.concat(hskLevel3);
 // }
 
 // pragma mark - setup
+
+function setupHeaders(nodeId, headers) {
+    const table = document.querySelector(nodeId);
+    const headerRow = table.insertRow();
+    headers.forEach((value, index) => {
+        const headerCell = headerRow.insertCell();
+        const sortButton = document.createElement("button");
+        headerCell.appendChild(sortButton);
+        const buttonId = nodeId + "_" + index;
+        sortButton.setAttribute("id", buttonId);
+        sortButton.innerText = value;
+    });
+}
+
+/*
+                separator + character + 
+                separator + value.eng + 
+                separator + hskLevelForValue + 
+                separator + isValid + 
+                separator + sentenceForCharacter + 
+                separator + value.compound_pinyin + 
+                separator + value.compound_definition + 
+                separator + (excludedChars.length? excludedChars : ".") + 
+                separator + compoundCount + 
+                separator + numberOfAppearances +
+                separator + numCharsOnSameLevel +
+                separator + hasCharacter);
+*/
+
+function addInfoRowToTable(info) {
+    const inputTable = document.querySelector("#_inputTable");
+    
+    const inputRow = inputTable.insertRow();
+    const idCell = inputRow.insertCell();
+    idCell.classList.add("shortColumn");
+    idCell.innerText = info.identifier;
+    const charCell = inputRow.insertCell();
+    charCell.classList.add("shortColumn");
+    charCell.innerText = info.character;
+    const engCell = inputRow.insertCell();
+    engCell.classList.add("shortColumn");
+    engCell.innerText = info.english;
+    const hskCell = inputRow.insertCell();
+    hskCell.classList.add("shortColumn");
+    hskCell.innerText = info.hskLevel;
+    const isValidCell = inputRow.insertCell();
+    isValidCell.classList.add("shortColumn");
+    isValidCell.innerText = info.isValid;
+    
+    const infoTable = document.querySelector("#_currentInfoTable")
+    
+    
+}
 
 function setupSelectionTable() {
     _selectionTable = document.querySelector("#_selectionTable");
@@ -508,7 +564,9 @@ function shuffle(array) {
 function init() {
     console.log("it's starting!");
 
-    if (isSentenceMode) {
+    if (isGenerateMode) { 
+
+    } else if (isSentenceMode) {
         document.querySelector("#_currentKanji").classList.remove("kanji");
         document.querySelector("#_currentKanji").classList.add("kanjiSentence");
         document.querySelector("#_currentCompound").classList.remove("currentCompound");
@@ -522,27 +580,59 @@ function init() {
     }
     
     initializeData();
-    setupSelectionTable();
 
-    if (numRows > 0) {
-        const table = document.querySelector("#_kanjiTable");
-        for (var i = 0; i < numRows; i++) {
-            const currentRow = document.createElement("tr");
-            const tdKanji = document.createElement("td");
-            tdKanji.classList.add("tdKanji");
-            const tdHiragana = document.createElement("td");
-            tdHiragana.classList.add("tdHiragana");
-            const tdEnglish = document.createElement("td");
-            tdEnglish.classList.add("inProgressShow2-table");
-            tdEnglish.classList.add("tableDefinition");
-            currentRow.appendChild(tdKanji);
-            currentRow.appendChild(tdHiragana);
-            currentRow.appendChild(tdEnglish);
-            table.appendChild(currentRow);
+    if (isGenerateMode) {
+        setupHeaders("#_inputTable", [
+            "id",
+            "char",
+            "eng",
+            "hsk",
+            "isValid",
+            "sentence",
+            "s_pinyin",
+            "s_eng",
+        ]);
+        setupHeaders("#_currentInfoTable", [
+            "id",
+            "char",
+            "eng",
+            "hsk",
+            "numberOfAppearances",
+            "numCharsOnSameLevel",
+            "hasCharacter",
+        ]);
+    } else {
+        setupSelectionTable();
+        if (numRows > 0) {
+            const table = document.querySelector("#_kanjiTable");
+            for (var i = 0; i < numRows; i++) {
+                const currentRow = document.createElement("tr");
+                const tdKanji = document.createElement("td");
+                tdKanji.classList.add("tdKanji");
+                const tdHiragana = document.createElement("td");
+                tdHiragana.classList.add("tdHiragana");
+                const tdEnglish = document.createElement("td");
+                tdEnglish.classList.add("inProgressShow2-table");
+                tdEnglish.classList.add("tableDefinition");
+                currentRow.appendChild(tdKanji);
+                currentRow.appendChild(tdHiragana);
+                currentRow.appendChild(tdEnglish);
+                table.appendChild(currentRow);
+            }
         }
     }
     window.gameboard = numRows === 0 ? new BaseBoard() : new TableBoard();
     gameboard.enableStartPhase();
+    if (isGenerateMode) {
+        document.querySelector("#_selectionTable").classList.add("hidden");
+        document.querySelector("#_hskLevelInput").classList.add("hidden");
+        document.querySelector("#_sentenceToChar").classList.add("hidden");
+        document.querySelector(".start").classList.add("hidden");
+        Array.prototype.slice.call(document.querySelectorAll(".accumulationCounter")).forEach((node) => {
+            node.classList.add("hidden");
+        });
+        window.gameboard.onStart();
+    }
 }
 
 function onKanjiPressed() {
@@ -684,6 +774,14 @@ class BaseBoard {
                 separator + numberOfAppearances +
                 separator + numCharsOnSameLevel +
                 separator + hasCharacter);
+
+                addInfoRowToTable({
+                    identifier : (index + 1),
+                    character : character,
+                    english : value.eng,
+                    hskLevel : hskLevelForValue,
+                    isValid : isValid,
+                });
             }); 
             const sentenceCheckAsString = sentenceCheck.join("\n");
             console.log(sentenceCheckAsString);
@@ -766,7 +864,9 @@ class BaseBoard {
             convertMandarinToKanji(mandarinChar, langDataToUse);
         });
 
-        this.enablePhase1(true);
+        if (!isGenerateMode) {
+            this.enablePhase1(true);
+        }
     }
 
     _sentencesForKeys(sentencedData, keys) {

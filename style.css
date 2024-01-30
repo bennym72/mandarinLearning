@@ -506,3 +506,37 @@ tr a {
   top:4vh;
 }
 
+.inputTable {
+  position:absolute;
+  top: 4vh;
+  left: 2vw;
+  width: 47vw;
+  height : 90vh;
+  overflow-y:scroll;
+  display:block;
+}
+
+.inputTable button {
+  width:2vw;
+  height:2vh;
+}
+
+.inputTable td {
+  color: #ffffff;
+}
+
+.inputTable .shortColumn {
+  width : 2vw;
+}
+
+.currentInfoTable {
+  position:absolute;
+  top: 4vh;
+  left: 51vw;
+  width: 47vw;
+}
+
+.currentInfoTable button {
+  width:3vw;
+  height:2vh;
+}
