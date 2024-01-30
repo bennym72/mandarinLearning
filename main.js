@@ -927,6 +927,7 @@ class BaseBoard {
 
     closeSearchChar() {
         const popupWindow = document.querySelector("#_popupWindow");
+        document.querySelector("#_charSearchInput").value = "";
         popupWindow.classList.add("hidden");
         document.querySelector("#_popupWindowCharHSKLevel").innerText = "?";
         document.querySelector("#_popupWindowCharPartOfSpeech").innerText = "?";
