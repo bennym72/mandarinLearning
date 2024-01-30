@@ -122,30 +122,35 @@ function documentSafeApplyText(selector, text) {
     }
 }
 
+function shouldContinueRegenerationWork(value) {
+    return true
+    && value.character.length == 1;
+}
+
 function regenerateData() {
     Object.keys(charCountInValidSentences).forEach((value) => {
         charCountInValidSentences[value] = 0;
     });
     countAppearances();
     data.forEach((value, index) => {
-        const infoRowValue = generateSentenceInfo(value, index);
-        documentSafeApplyText(tableCellRequiringUpdateIds[0] + infoRowValue.identifier, infoRowValue.isValid);
-        documentSafeApplyText(tableCellRequiringUpdateIds[1] + infoRowValue.identifier, infoRowValue.hasCharacter);
-        documentSafeApplyText(tableCellRequiringUpdateIds[2] + infoRowValue.identifier, infoRowValue.numCharsOnSameLevel);
-        documentSafeApplyText(tableCellRequiringUpdateIds[3] + infoRowValue.identifier, infoRowValue.invalidChars);
-        documentSafeApplyText(tableCellRequiringUpdateIds[4] + infoRowValue.identifier, infoRowValue.numberOfAppearances);
-        console.log(value.identifier);
+        if (shouldContinueRegenerationWork(value)) {
+            const infoRowValue = generateSentenceInfo(value, index);
+            documentSafeApplyText(tableCellRequiringUpdateIds[0] + infoRowValue.character, infoRowValue.isValid);
+            documentSafeApplyText(tableCellRequiringUpdateIds[1] + infoRowValue.character, infoRowValue.hasCharacter);
+            documentSafeApplyText(tableCellRequiringUpdateIds[2] + infoRowValue.character, infoRowValue.numCharsOnSameLevel);
+            documentSafeApplyText(tableCellRequiringUpdateIds[3] + infoRowValue.character, infoRowValue.invalidChars);
+            documentSafeApplyText(tableCellRequiringUpdateIds[4] + infoRowValue.character, infoRowValue.numberOfAppearances);
+            console.log(value.identifier);
+        }
     });
 }
 
 function addInfoRowToTable(info) {
     const inputTable = document.querySelector("#_inputTable");
 
-    const shouldAddInputRow = true
-    && info.character.length == 1;
+    const shouldAddInputRow = shouldContinueRegenerationWork(info);
 
-    const shouldAddCharInfoRow = true
-    && info.character.length == 1;
+    const shouldAddCharInfoRow = shouldContinueRegenerationWork(info);
     
     if (shouldAddInputRow) {
         const inputRow = inputTable.insertRow();
@@ -163,19 +168,19 @@ function addInfoRowToTable(info) {
         hskCell.innerText = info.hskLevel;
 
         const isValidCell = inputRow.insertCell();
-        isValidCell.setAttribute("id", tableCellRequiringUpdateIds[0] + info.identifier);
+        isValidCell.setAttribute("id", tableCellRequiringUpdateIds[0] + info.character);
         isValidCell.classList.add("shortColumn");
         isValidCell.innerText = info.isValid;
 
         const hasCharacterCell = inputRow.insertCell();
-        hasCharacterCell.setAttribute("id", tableCellRequiringUpdateIds[1] + info.identifier);
+        hasCharacterCell.setAttribute("id", tableCellRequiringUpdateIds[1] + info.character);
         hasCharacterCell.classList.add("shortColumn");
         hasCharacterCell.innerText = info.hasCharacter;
 
         const sentenceCell = inputRow.insertCell();
         sentenceCell.classList.add("longColumn");
         const textInput = document.createElement("input");
-        textInput.setAttribute("id", tableCellRequiringUpdateIds[5] + info.identifier);
+        textInput.setAttribute("id", tableCellRequiringUpdateIds[5] + info.character);
         textInput.setAttribute("type", "text");
         textInput.classList.add("longColumn");
         sentenceCell.appendChild(textInput);
@@ -183,11 +188,11 @@ function addInfoRowToTable(info) {
 
         const numCharsOnSameLevelCell = inputRow.insertCell();
         numCharsOnSameLevelCell.classList.add("shortColumn");
-        numCharsOnSameLevelCell.setAttribute("id", tableCellRequiringUpdateIds[2] + info.identifier);
+        numCharsOnSameLevelCell.setAttribute("id", tableCellRequiringUpdateIds[2] + info.character);
         numCharsOnSameLevelCell.innerText = info.numCharsOnSameLevel;
         
         const invalidCharCell = inputRow.insertCell();
-        invalidCharCell.setAttribute("id", tableCellRequiringUpdateIds[3] + info.identifier);
+        invalidCharCell.setAttribute("id", tableCellRequiringUpdateIds[3] + info.character);
         invalidCharCell.classList.add("shortColumn");
         invalidCharCell.innerText = info.invalidChars;
     }
@@ -209,7 +214,7 @@ function addInfoRowToTable(info) {
 
         const numAppearanceCell = inputRow2.insertCell();
         numAppearanceCell.classList.add("shortColumn");
-        numAppearanceCell.setAttribute("id", tableCellRequiringUpdateIds[4] + info.identifier);
+        numAppearanceCell.setAttribute("id", tableCellRequiringUpdateIds[4] + info.character);
         numAppearanceCell.innerText = info.numberOfAppearances;
     }
     
@@ -750,7 +755,7 @@ function countAppearances() {
          * 
          * This is done so that if there are some HSK 1 sentences which aren't valid at HSK 1, we can include them if we're testing HSK 3.
          */
-        const targetNode = document.querySelector("#" + tableCellRequiringUpdateIds[5] + value.id);
+        const targetNode = document.querySelector("#" + tableCellRequiringUpdateIds[5] + value.character);
         const sentenceForCharacter = isGenerateMode && targetNode
         ? targetNode.value
         : value.compound;
@@ -796,7 +801,7 @@ function countAppearances() {
 function generateSentenceInfo(value, index, sentenceCheck) {
     const identifier = index + 1;
     const character = value.character;
-    const targetNode = document.querySelector("#" + tableCellRequiringUpdateIds[5] + (identifier));
+    const targetNode = document.querySelector("#" + tableCellRequiringUpdateIds[5] + character);
     const sentenceForCharacter = isGenerateMode && targetNode
     ? targetNode.value
     : value.compound;
