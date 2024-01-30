@@ -98,51 +98,120 @@ function setupHeaders(nodeId, headers) {
     const headerRow = table.insertRow();
     headers.forEach((value, index) => {
         const headerCell = headerRow.insertCell();
-        const sortButton = document.createElement("button");
-        headerCell.appendChild(sortButton);
-        const buttonId = nodeId + "_" + index;
-        sortButton.setAttribute("id", buttonId);
-        sortButton.innerText = value;
+        // const sortButton = document.createElement("button");
+        // headerCell.appendChild(sortButton);
+        // const buttonId = nodeId + "_" + index;
+        // sortButton.setAttribute("id", buttonId);
+        headerCell.innerText = value;
     });
 }
 
-/*
-                separator + character + 
-                separator + value.eng + 
-                separator + hskLevelForValue + 
-                separator + isValid + 
-                separator + sentenceForCharacter + 
-                separator + value.compound_pinyin + 
-                separator + value.compound_definition + 
-                separator + (excludedChars.length? excludedChars : ".") + 
-                separator + compoundCount + 
-                separator + numberOfAppearances +
-                separator + numCharsOnSameLevel +
-                separator + hasCharacter);
-*/
+const tableCellRequiringUpdateIds = [
+    "_inputTable_isValid_",
+    "_inputTable_hasCharacter_",
+    "_inputTable_numCharsOnSameLevel_",
+    "_inputTable_invalidCharCell_",
+    "_infoTable_numberOfAppearances_",
+    "_inputTable_textInput_"
+];
+
+function documentSafeApplyText(selector, text) {
+    const node = document.querySelector("#" + selector);
+    if (node) {
+        node.innerText = text;
+    }
+}
+
+function regenerateData() {
+    Object.keys(charCountInValidSentences).forEach((value) => {
+        charCountInValidSentences[value] = 0;
+    });
+    countAppearances();
+    data.forEach((value, index) => {
+        const infoRowValue = generateSentenceInfo(value, index);
+        documentSafeApplyText(tableCellRequiringUpdateIds[0] + infoRowValue.identifier, infoRowValue.isValid);
+        documentSafeApplyText(tableCellRequiringUpdateIds[1] + infoRowValue.identifier, infoRowValue.hasCharacter);
+        documentSafeApplyText(tableCellRequiringUpdateIds[2] + infoRowValue.identifier, infoRowValue.numCharsOnSameLevel);
+        documentSafeApplyText(tableCellRequiringUpdateIds[3] + infoRowValue.identifier, infoRowValue.invalidChars);
+        documentSafeApplyText(tableCellRequiringUpdateIds[4] + infoRowValue.identifier, infoRowValue.numberOfAppearances);
+        console.log(value.identifier);
+    });
+}
 
 function addInfoRowToTable(info) {
     const inputTable = document.querySelector("#_inputTable");
+
+    const shouldAddInputRow = true
+    && info.character.length == 1;
+
+    const shouldAddCharInfoRow = true
+    && info.character.length == 1;
     
-    const inputRow = inputTable.insertRow();
-    const idCell = inputRow.insertCell();
-    idCell.classList.add("shortColumn");
-    idCell.innerText = info.identifier;
-    const charCell = inputRow.insertCell();
-    charCell.classList.add("shortColumn");
-    charCell.innerText = info.character;
-    const engCell = inputRow.insertCell();
-    engCell.classList.add("shortColumn");
-    engCell.innerText = info.english;
-    const hskCell = inputRow.insertCell();
-    hskCell.classList.add("shortColumn");
-    hskCell.innerText = info.hskLevel;
-    const isValidCell = inputRow.insertCell();
-    isValidCell.classList.add("shortColumn");
-    isValidCell.innerText = info.isValid;
-    
-    const infoTable = document.querySelector("#_currentInfoTable")
-    
+    if (shouldAddInputRow) {
+        const inputRow = inputTable.insertRow();
+        const idCell = inputRow.insertCell();
+        idCell.classList.add("shortColumn");
+        idCell.innerText = info.identifier;
+        const charCell = inputRow.insertCell();
+        charCell.classList.add("shortColumn");
+        charCell.innerText = info.character;
+        const engCell = inputRow.insertCell();
+        engCell.classList.add("shortColumn");
+        engCell.innerText = info.english;
+        const hskCell = inputRow.insertCell();
+        hskCell.classList.add("shortColumn");
+        hskCell.innerText = info.hskLevel;
+
+        const isValidCell = inputRow.insertCell();
+        isValidCell.setAttribute("id", tableCellRequiringUpdateIds[0] + info.identifier);
+        isValidCell.classList.add("shortColumn");
+        isValidCell.innerText = info.isValid;
+
+        const hasCharacterCell = inputRow.insertCell();
+        hasCharacterCell.setAttribute("id", tableCellRequiringUpdateIds[1] + info.identifier);
+        hasCharacterCell.classList.add("shortColumn");
+        hasCharacterCell.innerText = info.hasCharacter;
+
+        const sentenceCell = inputRow.insertCell();
+        sentenceCell.classList.add("longColumn");
+        const textInput = document.createElement("input");
+        textInput.setAttribute("id", tableCellRequiringUpdateIds[5] + info.identifier);
+        textInput.setAttribute("type", "text");
+        textInput.classList.add("longColumn");
+        sentenceCell.appendChild(textInput);
+        textInput.value = info.sentence;
+
+        const numCharsOnSameLevelCell = inputRow.insertCell();
+        numCharsOnSameLevelCell.classList.add("shortColumn");
+        numCharsOnSameLevelCell.setAttribute("id", tableCellRequiringUpdateIds[2] + info.identifier);
+        numCharsOnSameLevelCell.innerText = info.numCharsOnSameLevel;
+        
+        const invalidCharCell = inputRow.insertCell();
+        invalidCharCell.setAttribute("id", tableCellRequiringUpdateIds[3] + info.identifier);
+        invalidCharCell.classList.add("shortColumn");
+        invalidCharCell.innerText = info.invalidChars;
+    }
+    if (shouldAddCharInfoRow) {
+        const infoTable = document.querySelector("#_currentInfoTable")
+        const inputRow2 = infoTable.insertRow();
+        const idCell2 = inputRow2.insertCell();
+        idCell2.classList.add("shortColumn");
+        idCell2.innerText = info.identifier;
+        const charCell2 = inputRow2.insertCell();
+        charCell2.classList.add("shortColumn");
+        charCell2.innerText = info.character;
+        const engCell2 = inputRow2.insertCell();
+        engCell2.classList.add("shortColumn");
+        engCell2.innerText = info.english;
+        const hskCell2 = inputRow2.insertCell();
+        hskCell2.classList.add("shortColumn");
+        hskCell2.innerText = info.hskLevel;
+
+        const numAppearanceCell = inputRow2.insertCell();
+        numAppearanceCell.classList.add("shortColumn");
+        numAppearanceCell.setAttribute("id", tableCellRequiringUpdateIds[4] + info.identifier);
+        numAppearanceCell.innerText = info.numberOfAppearances;
+    }
     
 }
 
@@ -564,8 +633,10 @@ function shuffle(array) {
 function init() {
     console.log("it's starting!");
 
-    if (isGenerateMode) { 
-
+    if (isGenerateMode) {
+        document.querySelector("#_generateButton").classList.remove("hidden");
+        document.querySelector("#_inputTable").classList.remove("hidden");
+        document.querySelector("#_currentInfoTable").classList.remove("hidden");
     } else if (isSentenceMode) {
         document.querySelector("#_currentKanji").classList.remove("kanji");
         document.querySelector("#_currentKanji").classList.add("kanjiSentence");
@@ -588,9 +659,10 @@ function init() {
             "eng",
             "hsk",
             "isValid",
+            "hasCharacter",
             "sentence",
-            "s_pinyin",
-            "s_eng",
+            "same",
+            "exc"
         ]);
         setupHeaders("#_currentInfoTable", [
             "id",
@@ -598,8 +670,6 @@ function init() {
             "eng",
             "hsk",
             "numberOfAppearances",
-            "numCharsOnSameLevel",
-            "hasCharacter",
         ]);
     } else {
         setupSelectionTable();
@@ -649,6 +719,137 @@ function copyToClipboard(text) {
     // document.body.removeChild(elem);
  }
 
+function countAppearances() {
+    data.forEach((value) => {
+                
+        /**
+         * Idea behind sentence mode is that for every HSK level, we will iterate through every word in that HSK level and map that character to a sentence.
+         * {
+         *      1 : {
+         *              char : {
+         *                          word: sentence,
+         *                          word: sentence
+         *                      }
+         *          }
+         *  }
+         */
+        if (value.character.length == 1) {
+
+            if (!_hskLevelToSingleCharMap[value.hsk_level] ) {
+                _hskLevelToSingleCharMap[value.hsk_level] = {};
+            }
+            _hskLevelToSingleCharMap[value.hsk_level][value.character] = value;                
+
+            // only capturing single chars
+            charMap[value.character] = value;
+        }
+        /**
+         * For the purposes of generating the "valid sentence" console output to figure out which sentences are valid at HSK 1 (for example), we need to input 1 into the input box.
+         * Without the input box, the "isValidSentence" will check a word's sentence for if it's valid compared to the highest available HSK level... ie. if an HSK level 1 word includes an HSK level 3 in its sentence
+         * and this site supports up to HSK 3, then that would be considered valid.
+         * 
+         * This is done so that if there are some HSK 1 sentences which aren't valid at HSK 1, we can include them if we're testing HSK 3.
+         */
+        const targetNode = document.querySelector("#" + tableCellRequiringUpdateIds[5] + value.id);
+        const sentenceForCharacter = isGenerateMode && targetNode
+        ? targetNode.value
+        : value.compound;
+        const hskLevelToCheck = _highestChosenHSKLevel > 0 ? _highestAvailableHSKLevel : _highestAvailableHSKLevel;
+        if (value.character != sentenceForCharacter && isValidSentence(hskLevelToCheck, sentenceForCharacter)) {
+            for (var i = 0; i < value.character.length; i++) {
+                const charAt = value.character[i];
+                if (!_sentencedData[charAt]) {
+                    _sentencedData[charAt] = {};
+                }
+
+                if (!_hskLevelToSentencedDataMap[value.hsk_level] ) {
+                    _hskLevelToSentencedDataMap[value.hsk_level] = {};
+                }
+                if (!_hskLevelToSentencedDataMap[value.hsk_level][charAt]) {
+                    _hskLevelToSentencedDataMap[value.hsk_level][charAt] = {};
+                }
+
+                _hskLevelToSentencedDataMap[value.hsk_level][charAt][value.character] = {
+                    compound : sentenceForCharacter,
+                    compound_pinyin : value.compound_pinyin,
+                    compound_definition : value.compound_definition,
+                    eng : value.eng
+                };
+
+                _sentencedData[charAt][value.character] = {
+                    compound : sentenceForCharacter,
+                    compound_pinyin : value.compound_pinyin,
+                    compound_definition : value.compound_definition,
+                    eng : value.eng
+                };
+                delete charMap[charAt];
+            }
+
+            for (var j = 0; j < sentenceForCharacter.length; j++) {
+                charCountInValidSentences[sentenceForCharacter[j]] = charCountInValidSentences[sentenceForCharacter[j]] + 1;
+            }
+        }
+    
+    });
+}
+
+function generateSentenceInfo(value, index, sentenceCheck) {
+    const identifier = index + 1;
+    const character = value.character;
+    const targetNode = document.querySelector("#" + tableCellRequiringUpdateIds[5] + (identifier));
+    const sentenceForCharacter = isGenerateMode && targetNode
+    ? targetNode.value
+    : value.compound;
+    var excludedChars = "";
+    const hskLevelForValue = value.hsk_level;
+    var hasCharacter = false;
+    var numCharsOnSameLevel = 0;
+    for (var i = 0; i < sentenceForCharacter.length; i++) {
+        const charAt = sentenceForCharacter[i];
+        const currentCharHSKLevel = anyCharByHSKLevel[charAt];
+        if (!currentCharHSKLevel || currentCharHSKLevel > hskLevelForValue) {
+            excludedChars = excludedChars + charAt;
+        }
+        hasCharacter = hasCharacter || character == charAt;
+        if (hskLevelForValue === currentCharHSKLevel && charsToIgnore.indexOf(charAt) < 0) {
+            numCharsOnSameLevel++;
+        }
+    }
+    const compoundCount = value.character.length;
+    const isValid = value.compound.length > value.character.length && excludedChars.length == 0;
+    const numberOfAppearances = charCountInValidSentences[character] ? charCountInValidSentences[character] : 0;
+    if (sentenceCheck) {
+    const separator = "%";
+    sentenceCheck.push(identifier + 
+        separator + character + 
+        separator + value.eng + 
+        separator + hskLevelForValue + 
+        separator + isValid + 
+        separator + sentenceForCharacter + 
+        separator + value.compound_pinyin + 
+        separator + value.compound_definition + 
+        separator + (excludedChars.length? excludedChars : ".") + 
+        separator + compoundCount + 
+        separator + numberOfAppearances +
+        separator + numCharsOnSameLevel +
+        separator + hasCharacter);
+    }
+
+    const infoRowValue = {
+        identifier : identifier,
+        character : character,
+        english : value.eng,
+        hskLevel : hskLevelForValue,
+        isValid : isValid,
+        sentence : sentenceForCharacter,
+        invalidChars : (excludedChars.length? excludedChars : ""),
+        hasCharacter : hasCharacter,
+        numberOfAppearances : numberOfAppearances,
+        numCharsOnSameLevel : numCharsOnSameLevel,
+    };
+    return infoRowValue;
+}
+
 class BaseBoard {
     constructor() {
         this.siteState = new KanjiState();
@@ -666,122 +867,22 @@ class BaseBoard {
         const charMapForReverseCheck = {};
 
         if (isSentenceMode) {
-        
+
             data.forEach((value) => {
-                
-                /**
-                 * Idea behind sentence mode is that for every HSK level, we will iterate through every word in that HSK level and map that character to a sentence.
-                 * {
-                 *      1 : {
-                 *              char : {
-                 *                          word: sentence,
-                 *                          word: sentence
-                 *                      }
-                 *          }
-                 *  }
-                 */
                 if (value.character.length == 1) {
-
-                    if (!_hskLevelToSingleCharMap[value.hsk_level] ) {
-                        _hskLevelToSingleCharMap[value.hsk_level] = {};
-                    }
-                    _hskLevelToSingleCharMap[value.hsk_level][value.character] = value;                
-
-                    // only capturing single chars
-                    charMap[value.character] = value;
                     charMapForReverseCheck[value.character] = value.hsk_level;
                 }
-                /**
-                 * For the purposes of generating the "valid sentence" console output to figure out which sentences are valid at HSK 1 (for example), we need to input 1 into the input box.
-                 * Without the input box, the "isValidSentence" will check a word's sentence for if it's valid compared to the highest available HSK level... ie. if an HSK level 1 word includes an HSK level 3 in its sentence
-                 * and this site supports up to HSK 3, then that would be considered valid.
-                 * 
-                 * This is done so that if there are some HSK 1 sentences which aren't valid at HSK 1, we can include them if we're testing HSK 3.
-                 */
-                const hskLevelToCheck = _highestChosenHSKLevel > 0 ? _highestAvailableHSKLevel : _highestAvailableHSKLevel;
-                if (value.character != value.compound && isValidSentence(hskLevelToCheck, value.compound)) {
-                    for (var i = 0; i < value.character.length; i++) {
-                        const charAt = value.character[i];
-                        if (!_sentencedData[charAt]) {
-                            _sentencedData[charAt] = {};
-                        }
-
-                        if (!_hskLevelToSentencedDataMap[value.hsk_level] ) {
-                            _hskLevelToSentencedDataMap[value.hsk_level] = {};
-                        }
-                        if (!_hskLevelToSentencedDataMap[value.hsk_level][charAt]) {
-                            _hskLevelToSentencedDataMap[value.hsk_level][charAt] = {};
-                        }
-
-                        _hskLevelToSentencedDataMap[value.hsk_level][charAt][value.character] = {
-                            compound : value.compound,
-                            compound_pinyin : value.compound_pinyin,
-                            compound_definition : value.compound_definition,
-                            eng : value.eng
-                        };
-
-                        _sentencedData[charAt][value.character] = {
-                            compound : value.compound,
-                            compound_pinyin : value.compound_pinyin,
-                            compound_definition : value.compound_definition,
-                            eng : value.eng
-                        };
-                        delete charMap[charAt];
-                    }
-
-                    for (var j = 0; j < value.compound.length; j++) {
-                        charCountInValidSentences[value.compound[j]] = charCountInValidSentences[value.compound[j]] + 1;
-                    }
-                }
-            
             });
+        
+            countAppearances();
+
             console.log("Num chars excluded: " + Object.keys(charMap).length);
 
             // code for checking excluded characters
             const sentenceCheck = [];
             data.forEach((value, index) => {
-                const character = value.character;
-                const sentenceForCharacter = value.compound;
-                var excludedChars = "";
-                const hskLevelForValue = value.hsk_level;
-                var hasCharacter = false;
-                var numCharsOnSameLevel = 0;
-                for (var i = 0; i < sentenceForCharacter.length; i++) {
-                    const charAt = sentenceForCharacter[i];
-                    const currentCharHSKLevel = anyCharByHSKLevel[charAt];
-                    if (!currentCharHSKLevel || currentCharHSKLevel > hskLevelForValue) {
-                        excludedChars = excludedChars + charAt;
-                    }
-                    hasCharacter = hasCharacter || character == charAt;
-                    if (hskLevelForValue === currentCharHSKLevel) {
-                        numCharsOnSameLevel++;
-                    }
-                }
-                const compoundCount = value.character.length;
-                const isValid = value.compound.length > value.character.length && excludedChars.length == 0;
-                const numberOfAppearances = charCountInValidSentences[character] ? charCountInValidSentences[character] : 0;
-                const separator = "%";
-                sentenceCheck.push((index + 1) + 
-                separator + character + 
-                separator + value.eng + 
-                separator + hskLevelForValue + 
-                separator + isValid + 
-                separator + sentenceForCharacter + 
-                separator + value.compound_pinyin + 
-                separator + value.compound_definition + 
-                separator + (excludedChars.length? excludedChars : ".") + 
-                separator + compoundCount + 
-                separator + numberOfAppearances +
-                separator + numCharsOnSameLevel +
-                separator + hasCharacter);
-
-                addInfoRowToTable({
-                    identifier : (index + 1),
-                    character : character,
-                    english : value.eng,
-                    hskLevel : hskLevelForValue,
-                    isValid : isValid,
-                });
+                const infoRowValue = generateSentenceInfo(value, index, sentenceCheck);
+                addInfoRowToTable(infoRowValue);
             }); 
             const sentenceCheckAsString = sentenceCheck.join("\n");
             console.log(sentenceCheckAsString);

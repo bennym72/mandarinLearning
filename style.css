@@ -510,33 +510,42 @@ tr a {
   position:absolute;
   top: 4vh;
   left: 2vw;
-  width: 47vw;
+  width: 51vw;
   height : 90vh;
   overflow-y:scroll;
   display:block;
 }
 
-.inputTable button {
+.tableFormatting button {
   width:2vw;
   height:2vh;
 }
 
-.inputTable td {
+.tableFormatting td {
   color: #ffffff;
 }
 
-.inputTable .shortColumn {
+.tableFormatting .shortColumn {
   width : 2vw;
+}
+
+.tableFormatting .longColumn {
+  width : 28vw;
 }
 
 .currentInfoTable {
   position:absolute;
   top: 4vh;
-  left: 51vw;
-  width: 47vw;
+  left: 56vw;
+  width: 37vw;
+  height : 90vh;
+  overflow-y:scroll;
+  display:block;
 }
 
-.currentInfoTable button {
-  width:3vw;
-  height:2vh;
+.regenerateButton {
+  position:absolute;
+  top:95vh;
+  height : 3vh;
+  width : 8vw;
 }

@@ -12,6 +12,7 @@
         <script src="hsk_level_3.js"></script>
         <script src="input.js"></script>
         <script src="main.js"></script>
+        <script src="https://www.kryogenix.org/code/browser/sorttable/sorttable.js"></script>
     </head>
     <body>
         <div id="_container">
@@ -37,6 +38,7 @@
             <button onclick="window.gameboard.back()" class="inProgressShow1 inProgressShow1-table back">Back</button>
             <button onclick="window.gameboard.review()" class="inProgressEnd review">Review</button>
             <button onclick="window.gameboard.end()" class="inProgressEnd endButton">End</button>
+            <button id="_generateButton" onclick="window.regenerateData()" class="regenerateButton hidden">Regenerate</button>
 
             <input type="text" id="_charSearchInput" class="inProgressShow1 inProgressShow2 searchInput">
             <button onclick="window.gameboard.searchChar()" class="inProgressShow1 inProgressShow2 searchChar">Search</button>
@@ -68,8 +70,8 @@
             </div>
 
 
-            <table id="_inputTable" class="inputTable"></table>
-            <table id="_currentInfoTable" class="currentInfoTable"></table>
+            <table id="_inputTable" class="inputTable tableFormatting hidden sortable"></table>
+            <table id="_currentInfoTable" class="currentInfoTable tableFormatting hidden sortable"></table>
 
         </div>
         <script>init()</script>
