@@ -123,14 +123,14 @@ button {
 
 .scoreCounter {
     position: absolute;
-    top: 4vh;
+    top: 4.5vh;
     right: 2.5vh;
     color: #ffffff;
 }
 
 .sentenceCounter {
     position: absolute;
-    top: 6vh;
+    top: 7vh;
     right: 2.5vh;
     color: #ffffff;
 }
@@ -461,25 +461,25 @@ tr a {
 
 .searchInput {
   position:absolute;
-  top:8vh;
-  width:8vw;
-  right:11vw;
+  top:9.5vh;
+  width:14vw;
+  right:20vw;
 }
 
 .searchChar {
   position:absolute;
-  top:8vh;
-  width:8vw;
-  right:2.5vw;
+  top:9.5vh;
+  width:14vw;
+  right:5vw;
   height: 2.2vh; 
 }
 
 .popupWindow {
   position:absolute;
-  top:11vh;
-  right:2.5vw;
-  width: 50vw;
-  height: 33vh;
+  top:12.5vh;
+  right:5vw;
+  width: 60vw;
+  height: 30vh;
   background-color: #303030;
   border:2px solid white;
   border-radius: 0%;
@@ -489,8 +489,8 @@ tr a {
   position:absolute;
   top:0vh;
   right:0vw;
-  width:4vw;
-  height:4vw;
+  width:8vw;
+  height:8vw;
   border-radius: 0%;
 }
 
