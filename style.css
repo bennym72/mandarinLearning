@@ -537,7 +537,17 @@ tr a {
   position:absolute;
   top: 4vh;
   left: 56vw;
-  width: 37vw;
+  width: 15vw;
+  height : 90vh;
+  overflow-y:scroll;
+  display:block;
+}
+
+.loserTable {
+  position:absolute;
+  top: 4vh;
+  left: 75vw;
+  width: 15vw;
   height : 90vh;
   overflow-y:scroll;
   display:block;

@@ -145,12 +145,19 @@ function regenerateData() {
     });
 }
 
-function addInfoRowToTable(info) {
+const GenerateTableTypes = {
+    InputTable : "inputTable",
+    LoserTable : "loserTable",
+}
+
+function addInfoRowToTable(info, tableType) {
     const inputTable = document.querySelector("#_inputTable");
 
-    const shouldAddInputRow = shouldContinueRegenerationWork(info);
+    const shouldAddInputRow = shouldContinueRegenerationWork(info) && tableType == GenerateTableTypes.InputTable;
 
-    const shouldAddCharInfoRow = shouldContinueRegenerationWork(info);
+    const shouldAddCharInfoRow = shouldContinueRegenerationWork(info) && tableType == GenerateTableTypes.InputTable;
+
+    const shouldAddLoserInfoRow = shouldContinueRegenerationWork(info) && tableType == GenerateTableTypes.LoserTable;
     
     if (shouldAddInputRow) {
         const inputRow = inputTable.insertRow();
@@ -216,6 +223,27 @@ function addInfoRowToTable(info) {
         numAppearanceCell.classList.add("shortColumn");
         numAppearanceCell.setAttribute("id", tableCellRequiringUpdateIds[4] + info.character);
         numAppearanceCell.innerText = info.numberOfAppearances;
+    }
+
+    if (shouldAddLoserInfoRow) {
+        const loserTable = document.querySelector("#_loserTable")
+        const inputRow3 = loserTable.insertRow();
+        const idCell3 = inputRow3.insertCell();
+        idCell3.classList.add("shortColumn");
+        idCell3.innerText = info.identifier;
+        const charCell3 = inputRow3.insertCell();
+        charCell3.classList.add("shortColumn");
+        charCell3.innerText = info.character;
+        const engCell3 = inputRow3.insertCell();
+        engCell3.classList.add("shortColumn");
+        engCell3.innerText = info.english;
+        const hskCell3 = inputRow3.insertCell();
+        hskCell3.classList.add("shortColumn");
+        hskCell3.innerText = info.hskLevel;
+
+        const positionCell = inputRow3.insertCell();
+        positionCell.classList.add("shortColumn");
+        positionCell.innerText = info.position;
     }
     
 }
@@ -642,6 +670,7 @@ function init() {
         document.querySelector("#_generateButton").classList.remove("hidden");
         document.querySelector("#_inputTable").classList.remove("hidden");
         document.querySelector("#_currentInfoTable").classList.remove("hidden");
+        document.querySelector("#_loserTable").classList.remove("hidden");
     } else if (isSentenceMode) {
         document.querySelector("#_currentKanji").classList.remove("kanji");
         document.querySelector("#_currentKanji").classList.add("kanjiSentence");
@@ -674,7 +703,7 @@ function init() {
             "char",
             "eng",
             "hsk",
-            "numberOfAppearances",
+            "numA",
         ]);
     } else {
         setupSelectionTable();
@@ -887,7 +916,7 @@ class BaseBoard {
             const sentenceCheck = [];
             data.forEach((value, index) => {
                 const infoRowValue = generateSentenceInfo(value, index, sentenceCheck);
-                addInfoRowToTable(infoRowValue);
+                addInfoRowToTable(infoRowValue, GenerateTableTypes.InputTable);
             }); 
             const sentenceCheckAsString = sentenceCheck.join("\n");
             console.log(sentenceCheckAsString);
@@ -966,11 +995,41 @@ class BaseBoard {
             });
         }
         langDataToUse = {};
+        const loserChars = [];
+        var position = 0;
         newLangData.forEach((mandarinChar) => {
             convertMandarinToKanji(mandarinChar, langDataToUse);
+            if (mandarinChar.numFirstTimeShownChars < 3) {
+                loserChars.push({
+                    identifier : mandarinChar.id,
+                    character : mandarinChar.underlyingChar.length > 0 ? mandarinChar.underlyingChar : mandarinChar.character,
+                    english : mandarinChar.eng_def_for_sentence ? mandarinChar.eng_def_for_sentence : mandarinChar.eng,
+                    hskLevel : mandarinChar.underlyingHSKLevel,
+                    isValid : true,
+                    sentence : mandarinChar.compound,
+                    invalidChars : "",
+                    hasCharacter : true,
+                    numberOfAppearances : 0,
+                    numCharsOnSameLevel : 0,
+                    position : position
+                });
+                position++;
+            }
         });
 
-        if (!isGenerateMode) {
+        if (isGenerateMode) {
+            setupHeaders("#_loserTable", [
+                "id",
+                "char",
+                "eng",
+                "hsk",
+                "position"
+            ]);
+            const revLoserChars = loserChars.reverse();
+            revLoserChars.forEach((value) => {
+                addInfoRowToTable(value, GenerateTableTypes.LoserTable);
+            });
+        } else {
             this.enablePhase1(true);
         }
     }
