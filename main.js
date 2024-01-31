@@ -680,6 +680,8 @@ function init() {
         document.querySelector("#_currentEng").classList.add("pinyinSentence");
         document.querySelector("#_currentHir").classList.remove("cantonese");
         document.querySelector("#_currentHir").classList.add("cantoneseSentence");
+        document.querySelector("#_currentCompoundDefinition").classList.remove("compoundDefinition");
+        document.querySelector("#_currentCompoundDefinition").classList.add("compoundDefinitionSentence");
     } else if (isSingleCharMode) {
         document.querySelector("#_currentCompound").classList.add("inProgressShow1");
     }

@@ -182,7 +182,7 @@ button {
 }
 
 .kanjiSentence {
-  top: 18vh;
+  top: 16.5vh;
   width:96vw;
   position:absolute;
   font-size:3.5vh;
@@ -216,9 +216,9 @@ button {
 }
 
 .pinyinSentence {
-  top: 41vh;
+  top: 40.5vh;
   width:96vw;
-  font-size:3vh;
+  font-size:2.5vh;
   position:absolute;
   color: #d66b6b;
   text-align: center;
@@ -245,7 +245,7 @@ button {
   top: 52vh;
   width:96vw;
   position:absolute;
-  font-size:3vh;
+  font-size:2.5vh;
   color: #ffffff;
   align-content: center;
   text-align: center;
@@ -267,6 +267,14 @@ button {
   text-align: center;
 }
 
+.compoundDefinitionSentence {
+  top: 64vh;
+  font-size:2vh;
+  position:absolute;
+  color: #8b8b8b;
+  text-align: center;
+}
+
 .dialogDefinition {
   top: 37vh;
   font-size:2vh;
@@ -277,7 +285,7 @@ button {
 }
 
 .starRating {
-  top: 13vh;
+  top: 12vh;
   font-size:2.5vh;
   position:absolute;
     color: #ffffff;
