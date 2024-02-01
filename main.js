@@ -718,6 +718,7 @@ function init() {
         document.querySelector("#_currentHir").classList.add("cantoneseSentence");
         document.querySelector("#_currentCompoundDefinition").classList.remove("compoundDefinition");
         document.querySelector("#_currentCompoundDefinition").classList.add("compoundDefinitionSentence");
+        document.querySelector("#_sentenceCounter").classList.remove("hidden");
     } else if (isSingleCharMode) {
         document.querySelector("#_currentCompound").classList.add("inProgressShow1");
     }
