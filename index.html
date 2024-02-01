@@ -31,7 +31,8 @@
             <text id="_currentStar" class="inProgressShow1 inProgressShow2 starRating">Stars</text>
             <text id="_currentHir" class="inProgressShow2 inProgressShow2 cantonese">Hiragana</text>
             <input type="text" id="_hskLevelInput" class="inProgressStart hskInput" onchange="window.gameboard.onHSKInput(this.value)">
-            <button onclick="window.gameboard.onStart()" class="inProgressStart start">Start</button>
+            <button id="_startButton" onclick="window.gameboard.onStart()" class="inProgressStart start">Start</button>
+            <button id="_resumeButton" onclick="window.gameboard.onResume()" class="inProgressStart resumeButton">Resume</button>
             <button onclick="window.gameboard.onShow()" class="inProgressShow1 inProgressShow1-table show">Show</button>
             <button onclick="window.gameboard.correct()" class="inProgressShow2 inProgressShow2-table correct">Correct</button>
             <button onclick="window.gameboard.incorrect()" class="inProgressShow2 inProgressShow2-table incorrect">Incorrect</button>

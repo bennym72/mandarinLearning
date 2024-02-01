@@ -496,14 +496,27 @@ class KanjiState {
         this.dialogCurrentIndex = 0;
         this.currentWrong = [];
         this.currentKanjis = [];
+        this.sentences = {}
+        this.overview = "";
     }
 
     clear() {
         this._setInitialValues()
         this.storeValues();
+        
     }
 
     getValuesFromWindowName() {
+        if (!localStorage) {
+            localStorage = {};
+        }
+        if (!localStorage.persistedValue) {
+            localStorage.persistedValue = "";
+        }
+        if (!localStorage.persistedSentences) {
+            localStorage.persistedSentences = "";
+        }
+
         if (this.getPersistedValues().length) {
             const state = JSON.parse(this.getPersistedValues());
             this.allCurrentKanji = state.allCurrentKanji;
@@ -512,10 +525,13 @@ class KanjiState {
             this.currentKanji = state.currentKanji;
             this.currentCorrect = state.currentCorrect;
             this.currentCounter = state.currentCounter;
+            this.sentenceCounter = state.sentenceCounter;
+            this.sentenceTotal = state.sentenceTotal;
             this.dialogCurrentType = state.dialogCurrentType;
             this.dialogCurrentIndex = state.currentIndex;
             this.currentWrong = state.currentWrong;
             this.currentKanjis = state.currentKanjis;
+            this.overview = state.overview;
             if (this.currentKanji) {
                 this.toView.unshift(Number.parseInt(this.currentKanji.index));
                 this.currentKanji = null;
@@ -527,6 +543,11 @@ class KanjiState {
         } else {
             this._setInitialValues();
         }
+
+        if (localStorage.persistedSentences.length) {
+            const sentences = JSON.parse(localStorage.persistedSentences);
+            this.sentences = sentences;
+        }
     }
 
     getPersistedValues() {
@@ -535,6 +556,15 @@ class KanjiState {
         } else {
             return localStorage.persistedValue;
         }
+    }
+
+    storeSentences(sentences) {
+        // we don't want to store sentences every time we press next because it's a big object so we don't want to parse it so often
+        localStorage.persistedSentences = JSON.stringify(sentences);
+    }
+    
+    clearSentences() {
+        delete localStorage.persistedSentences;
     }
 
     storeValues() {
@@ -547,10 +577,13 @@ class KanjiState {
                     currentKanji : this.currentKanji,
                     currentCorrect : this.currentCorrect,
                     currentCounter: this.currentCounter,
+                    sentenceCounter : this.sentenceCounter,
+                    sentenceTotal : this.sentenceTotal,
                     dialogCurrentType: this.dialogCurrentType,
                     dialogCurrentIndex: this.dialogCurrentIndex,
                     currentWrong: this.currentWrong,
                     currentKanjis : this.currentKanjis,
+                    overview : this.overview,
                 }
             );
         } else {
@@ -562,10 +595,13 @@ class KanjiState {
                     currentKanji : this.currentKanji,
                     currentCorrect : this.currentCorrect,
                     currentCounter: this.currentCounter,
+                    sentenceCounter : this.sentenceCounter,
+                    sentenceTotal : this.sentenceTotal,
                     dialogCurrentType: this.dialogCurrentType,
                     dialogCurrentIndex: this.dialogCurrentIndex,
                     currentWrong: this.currentWrong,
                     currentKanjis : this.currentKanjis,
+                    overview : this.overview,
                 }
             )
         }
@@ -987,7 +1023,8 @@ class BaseBoard {
             window.individualCharMap = charMap;
             console.log(Object.keys(charMap).join("%"));
 
-            document.querySelector("#_sentenceToChar").innerText = "# sen: " + numSentences + "; # chr: " + charsWithoutSentenceCount + "; # del: " + sentencesToDelete.length;
+            const sentenceToChar = "# sen: " + numSentences + "; # chr: " + charsWithoutSentenceCount + "; # del: " + sentencesToDelete.length;
+            this.siteState.overview = sentenceToChar;
         } else {
             const checkedBoxes = Array.prototype.slice.call(document.querySelectorAll('input[type=checkbox]:checked'));
             checkedBoxes.forEach(checkedBox => {
@@ -996,7 +1033,6 @@ class BaseBoard {
                 newLangData = newLangData.concat(_groupedDataBy10[selectedHskLevel][selectedPartOfSpeech]);
             });
         }
-        langDataToUse = {};
         const loserChars = [];
         var position = 0;
         newLangData.forEach((mandarinChar) => {
@@ -1032,6 +1068,8 @@ class BaseBoard {
                 addInfoRowToTable(value, GenerateTableTypes.LoserTable);
             });
         } else {
+
+            this.siteState.storeSentences(langDataToUse);
             this.enablePhase1(true);
         }
     }
@@ -1137,7 +1175,12 @@ class BaseBoard {
         if (!this.siteState.toView.length) {
             return;
         }
+        langDataToUse = this.siteState.sentences;
         this.enablePhase1(false);
+    }
+
+    onClear() {
+
     }
     
     onShow() {
@@ -1362,6 +1405,8 @@ class BaseBoard {
         document.querySelector("#_currentHir").innerText = topKunyomi.hiragana;
         document.querySelector("#_currentCompoundPinyin").innerText = topKunyomi.compound_sound;
         document.querySelector("#_currentOnyomi").innerText = this.siteState.currentKanji.onyomi;
+        
+        document.querySelector("#_sentenceToChar").innerText = this.siteState.overview;
 
         this.updateKanjiColor();
     }

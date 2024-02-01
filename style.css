@@ -61,7 +61,15 @@ body {
 .start{
   position:absolute;
   top:79.5vh;
-  left:36vw;
+  left:20vw;
+  width:28vw;
+}
+
+.resumeButton {
+  position:absolute;
+  top:79.5vh;
+  left:52vw;
+  width: 28vw;
 }
 
 .hskInput {
