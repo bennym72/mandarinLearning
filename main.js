@@ -1018,6 +1018,14 @@ class BaseBoard {
 
             if (isSkipLoserMode) {
                 newLangData = this._mergeGoodSentencesWithGroupedChars(newLangData);
+                
+                // code for checking that all chars are actually shown
+                // const charMapDeepCopy = JSON.parse(JSON.stringify(charMapForReverseCheck));
+                // newLangData.forEach((sentence) => {
+                //     sentence.character.split("").forEach((char) => {
+                //         delete charMapDeepCopy[char];
+                //     })
+                // });
             }
 
             var idCounter = 1;
@@ -1027,7 +1035,7 @@ class BaseBoard {
             });
 
             window.individualCharMap = charMap;
-            console.log(Object.keys(charMap).join("%"));
+            // console.log(Object.keys(charMap).join("%"));
 
             const sentenceToChar = "# sen: " + numSentences + "; # chr: " + charsWithoutSentenceCount + "; # del: " + sentencesToDelete.length;
             this.siteState.overview = sentenceToChar;
@@ -1116,17 +1124,18 @@ class BaseBoard {
         }
         console.log(arrayOfArrays);
         const result = arrayOfArrays.map((array) => {
-            const sentenceToUse = {};
             let accumulatedChars = "";
             let accumulatedPinyin = "";
             let accumulatedCompound = "";
             let hskLevel = 0;
+            let numCharsShown = 0;
             array.forEach((value) => {
                 const baseChar = singleCharMapToDefinition[value];
                 accumulatedChars = accumulatedChars + (accumulatedChars.length > 0 ? "，" : "") + baseChar.character;
                 accumulatedPinyin = accumulatedPinyin + (accumulatedPinyin.length > 0 ? "，" : "") + baseChar.character_pinyin;
                 accumulatedCompound = accumulatedCompound + (accumulatedCompound.length > 0 ? "，" : "") + baseChar.eng;
                 hskLevel = baseChar.hsk_level;
+                numCharsShown++;
             });
             return {
                 character: accumulatedChars,
@@ -1134,14 +1143,15 @@ class BaseBoard {
                 eng: "",
                 compound: accumulatedCompound,
                 compound_cantonese : "",
-                compound_definition: "",
+                compound_definition: accumulatedChars,
                 compound_pinyin: "",
                 hsk_level: hskLevel,
                 id : 0,
                 part_of_speech : "groupedChars",
                 eng_def_for_sentence : accumulatedCompound,
                 underlyingChar : "",
-                underlyingHSKLevel : hskLevel
+                underlyingHSKLevel : hskLevel,
+                numFirstTimeShownChars : numCharsShown,
             };
         });
         return result;
