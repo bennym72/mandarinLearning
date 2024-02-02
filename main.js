@@ -9,6 +9,7 @@ const isJukugoTime = params.get("jukugo") === "true";
 
 const isSequential = params.get("mode") !== "random";
 const isSentenceMode = params.get("mode") == "sentence";
+const isSkipLoserMode = params.get("skip") == "true";
 const showPinyin = params.get("showPinyin") == "true";
 const isSingleCharMode = params.get("showSingle") == "true";
 const isCompoundWordMode = params.get("showCompound") == "true";
@@ -1015,6 +1016,10 @@ class BaseBoard {
                 }
             });
 
+            if (isSkipLoserMode) {
+                newLangData = this._mergeGoodSentencesWithGroupedChars(newLangData);
+            }
+
             var idCounter = 1;
             newLangData.forEach((value) => {
                 value.id = idCounter;
@@ -1073,6 +1078,73 @@ class BaseBoard {
             this.siteState.storeSentences(langDataToUse);
             this.enablePhase1(true);
         }
+    }
+
+    _mergeGoodSentencesWithGroupedChars(newLangData) {
+        const groupedSetsByLevel = {};
+        const hskLevelsForSkipping = {};
+        _sentenceDataInput.split(",").forEach((hskLevelInput) => {
+            groupedSetsByLevel[hskLevelInput] = [[]];
+            hskLevelsForSkipping[hskLevelInput] = [];
+        });
+        newLangData.forEach((sentence) => {
+            const currentHSKLevel = sentence.underlyingHSKLevel;
+            if (sentence.numFirstTimeShownChars > 1) {
+                groupedSetsByLevel[currentHSKLevel][0].push(sentence);
+            } else {
+                hskLevelsForSkipping[sentence.underlyingHSKLevel].push(sentence.underlyingChar);
+            }
+        });
+        Object.keys(hskLevelsForSkipping).forEach((hskLevel) => {
+            const groupedChars = this._collapseIntoBucketsOf10(hskLevelsForSkipping[hskLevel]);
+            groupedSetsByLevel[hskLevel].push(groupedChars);
+        });
+        var output = [];
+        (Object.keys(groupedSetsByLevel).reverse()).forEach((key) => {
+            groupedSetsByLevel[key].forEach((contents) => {
+                output = output.concat(contents);
+            });
+        });
+        return output;
+    }
+
+    _collapseIntoBucketsOf10(singleChars) {
+        var size = 10; 
+        var arrayOfArrays = [];
+        for (var i=0; i<singleChars.length; i+=size) {
+             arrayOfArrays.push(singleChars.slice(i,i+size));
+        }
+        console.log(arrayOfArrays);
+        const result = arrayOfArrays.map((array) => {
+            const sentenceToUse = {};
+            let accumulatedChars = "";
+            let accumulatedPinyin = "";
+            let accumulatedCompound = "";
+            let hskLevel = 0;
+            array.forEach((value) => {
+                const baseChar = singleCharMapToDefinition[value];
+                accumulatedChars = accumulatedChars + (accumulatedChars.length > 0 ? "，" : "") + baseChar.character;
+                accumulatedPinyin = accumulatedPinyin + (accumulatedPinyin.length > 0 ? "，" : "") + baseChar.character_pinyin;
+                accumulatedCompound = accumulatedCompound + (accumulatedCompound.length > 0 ? "，" : "") + baseChar.eng;
+                hskLevel = baseChar.hsk_level;
+            });
+            return {
+                character: accumulatedChars,
+                character_pinyin: accumulatedPinyin,
+                eng: "",
+                compound: accumulatedCompound,
+                compound_cantonese : "",
+                compound_definition: "",
+                compound_pinyin: "",
+                hsk_level: hskLevel,
+                id : 0,
+                part_of_speech : "groupedChars",
+                eng_def_for_sentence : accumulatedCompound,
+                underlyingChar : "",
+                underlyingHSKLevel : hskLevel
+            };
+        });
+        return result;
     }
 
     _sentencesForKeys(sentencedData, keys) {
