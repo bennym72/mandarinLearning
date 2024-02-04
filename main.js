@@ -708,6 +708,8 @@ function init() {
         document.querySelector("#_inputTable").classList.remove("hidden");
         document.querySelector("#_currentInfoTable").classList.remove("hidden");
         document.querySelector("#_loserTable").classList.remove("hidden");
+        document.querySelector("#_resumeButton").classList.add("hidden");
+        document.querySelector("#_resumeButton").classList.remove("inProgressStart");
     } else if (isSentenceMode) {
         document.querySelector("#_currentKanji").classList.remove("kanji");
         document.querySelector("#_currentKanji").classList.add("kanjiSentence");
@@ -1070,7 +1072,7 @@ class BaseBoard {
                 loserChars.push({
                     identifier : mandarinChar.id,
                     character : mandarinChar.underlyingChar.length > 0 ? mandarinChar.underlyingChar : mandarinChar.character,
-                    english : mandarinChar.eng_def_for_sentence ? mandarinChar.eng_def_for_sentence : mandarinChar.eng,
+                    english : mandarinChar.underlyingChar.length > 0 ? singleCharMapToDefinition[mandarinChar.underlyingChar].eng : mandarinChar.eng,
                     hskLevel : mandarinChar.underlyingHSKLevel,
                     isValid : true,
                     sentence : mandarinChar.compound,
