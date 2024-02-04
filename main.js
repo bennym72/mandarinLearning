@@ -935,6 +935,22 @@ class BaseBoard {
         const end = document.getElementById("_inputEnd");
         end.value = start + 2999;
     }
+
+    validateCurrentData(newLangData, charMapForReverseCheck) {
+                        // code for checking that all chars are actually shown
+        const charMapDeepCopy = JSON.parse(JSON.stringify(charMapForReverseCheck));
+        newLangData.forEach((sentence) => {
+            sentence.character.split("").forEach((char) => {
+                delete charMapDeepCopy[char];
+            })
+        });
+        const arr1 = Object.keys(charMapDeepCopy);
+        const arr2 = Object.keys(charMap);
+        let symDifference = arr1.filter(x => !arr2.includes(x))
+                        .concat(arr2.filter(x => !arr1.includes(x)));
+        debugger;
+        return symDifference;
+    }
     
     onStart(){
         var newLangData = [];
@@ -977,12 +993,16 @@ class BaseBoard {
             this._convertSentencedDataToNewLangData(newLangData, charMapForReverseCheck, hsk2Sentences, [hsk1Sentences]);
             this._convertSentencedDataToNewLangData(newLangData, charMapForReverseCheck, hsk1Sentences, []);
 
+            // this.validateCurrentData(newLangData, charMapForReverseCheck);
+
             const sentencesToDelete = this._reverseCheckSentences(charMapForReverseCheck, newLangData);
             sentencesToDelete.forEach((index) => {
                 newLangData[index] = null;
             });
             newLangData = newLangData.filter(value => value);
             const numSentences = newLangData.length;
+    
+            // this.validateCurrentData(newLangData, charMapForReverseCheck);
 
             this._applyFirstSeenChar(charMapForReverseCheck, newLangData);
 
@@ -999,6 +1019,8 @@ class BaseBoard {
                     newLangData.push(value);
                 }
             });
+
+            // this.validateCurrentData(newLangData, charMapForReverseCheck);
 
             newLangData.sort((sentence1, sentence2) => {
                 if (sentence1.underlyingHSKLevel == sentence2.underlyingHSKLevel) {
@@ -1018,14 +1040,7 @@ class BaseBoard {
 
             if (isSkipLoserMode) {
                 newLangData = this._mergeGoodSentencesWithGroupedChars(newLangData);
-                
-                // code for checking that all chars are actually shown
-                // const charMapDeepCopy = JSON.parse(JSON.stringify(charMapForReverseCheck));
-                // newLangData.forEach((sentence) => {
-                //     sentence.character.split("").forEach((char) => {
-                //         delete charMapDeepCopy[char];
-                //     })
-                // });
+                // this.validateCurrentData(newLangData, charMapForReverseCheck);
             }
 
             var idCounter = 1;
@@ -1242,12 +1257,20 @@ class BaseBoard {
         newLangData.forEach((sentence) => {
             const firstTimeShownChars = [];
             const currentSentence = sentence.character;
+            let highestFirstSeenHSKChar = sentence.underlyingHSKLevel;
             currentSentence.split("").forEach((charAt) => {
                 if (charMapDeepCopy[charAt]) {
-                    firstTimeShownChars.push(charAt)
+                    firstTimeShownChars.push(charAt);
+                    if (charMapDeepCopy[charAt] > highestFirstSeenHSKChar) {
+                        highestFirstSeenHSKChar = charMapDeepCopy[charAt];
+                    }
                     delete charMapDeepCopy[charAt];
                 }
             });
+            if (highestFirstSeenHSKChar > sentence.underlyingHSKLevel) {
+                console.log(sentence);
+            }
+            sentence.underlyingHSKLevel = highestFirstSeenHSKChar;
             sentence.compound_definition = firstTimeShownChars.join(",");
             sentence.numFirstTimeShownChars = firstTimeShownChars.length;
         });
