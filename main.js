@@ -85,6 +85,14 @@ charsToIgnore.forEach((value) => {
     anyCharByHSKLevel[value] = 1;
 });
 
+var loserCounter;
+if (isGenerateMode) {
+    if (!localStorage.loserCounterCache) {
+        localStorage.loserCounterCache = "{}";
+    }
+    loserCounter = JSON.parse(localStorage.loserCounterCache);
+}
+
 const hskLevelString = "hsk_level_";
 
 var data = hskLevel1.concat(hskLevel2);
@@ -245,6 +253,10 @@ function addInfoRowToTable(info, tableType) {
         const positionCell = inputRow3.insertCell();
         positionCell.classList.add("shortColumn");
         positionCell.innerText = info.position;
+
+        const countCell = inputRow3.insertCell();
+        countCell.classList.add("shortColumn");
+        countCell.innerText = info.loserCount;
     }
     
 }
@@ -1065,11 +1077,19 @@ class BaseBoard {
             });
         }
         const loserChars = [];
+        const loserCharsInTable = {};
         var position = 0;
         newLangData.forEach((mandarinChar) => {
             convertMandarinToKanji(mandarinChar, langDataToUse);
-            if (mandarinChar.numFirstTimeShownChars < 3) {
-                loserChars.push({
+            if (isGenerateMode && mandarinChar.numFirstTimeShownChars < 2) {
+                var loserCount = 1;
+                if (loserCounter[mandarinChar.underlyingChar]) {
+                    loserCounter[mandarinChar.underlyingChar] += 1;
+                    loserCount = loserCounter[mandarinChar.underlyingChar];
+                } else {
+                    loserCounter[mandarinChar.underlyingChar] = 1;
+                };
+                const loserData = {
                     identifier : mandarinChar.id,
                     character : mandarinChar.underlyingChar.length > 0 ? mandarinChar.underlyingChar : mandarinChar.character,
                     english : mandarinChar.underlyingChar.length > 0 ? singleCharMapToDefinition[mandarinChar.underlyingChar].eng : mandarinChar.eng,
@@ -1080,21 +1100,55 @@ class BaseBoard {
                     hasCharacter : true,
                     numberOfAppearances : 0,
                     numCharsOnSameLevel : 0,
-                    position : position
-                });
+                    position : position,
+                    loserCount : loserCount,
+                };
+                loserChars.push(loserData);
+                loserCharsInTable[mandarinChar.underlyingChar] = true;
                 position++;
             }
         });
 
         if (isGenerateMode) {
+            if (!localStorage.loserCounterCacheCount) {
+                localStorage.loserCounterCacheCount = 1;
+            } else {
+                localStorage.loserCounterCacheCount = Number.parseInt(localStorage.loserCounterCacheCount) + 1;
+            }
+            localStorage.loserCounterCache = JSON.stringify(loserCounter);
             setupHeaders("#_loserTable", [
                 "id",
                 "char",
                 "eng",
                 "hsk",
-                "position"
+                "position",
+                "count (" + localStorage.loserCounterCacheCount + ")"
             ]);
             const revLoserChars = loserChars.reverse();
+            let positionCounter = 1000;
+            Object.keys(loserCounter).forEach((loser) => {
+                if (!loserCharsInTable[loser]) {
+                    const loserCount = loserCounter[loser];
+                    const singleDefinition = singleCharMapToDefinition[loser];
+                    const loserFromCache = {
+                        identifier : positionCounter,
+                        character : loser,
+                        english : singleDefinition.eng,
+                        hskLevel : singleDefinition.hsk_level,
+                        isValid : true,
+                        sentence : "",
+                        invalidChars : "",
+                        hasCharacter : true,
+                        numberOfAppearances : 0,
+                        numCharsOnSameLevel : 0,
+                        position : positionCounter,
+                        loserCount : loserCount,
+                    };
+                    loserChars.push(loserFromCache);
+                    positionCounter++;
+                }
+            })
+
             revLoserChars.forEach((value) => {
                 addInfoRowToTable(value, GenerateTableTypes.LoserTable);
             });
