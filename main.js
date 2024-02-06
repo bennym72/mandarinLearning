@@ -121,7 +121,8 @@ const tableCellRequiringUpdateIds = [
     "_inputTable_numCharsOnSameLevel_",
     "_inputTable_invalidCharCell_",
     "_infoTable_numberOfAppearances_",
-    "_inputTable_textInput_"
+    "_inputTable_textInput_",
+    "_inputTable_numberOfAppearances_",
 ];
 
 function documentSafeApplyText(selector, text) {
@@ -149,6 +150,7 @@ function regenerateData() {
             documentSafeApplyText(tableCellRequiringUpdateIds[2] + infoRowValue.character, infoRowValue.numCharsOnSameLevel);
             documentSafeApplyText(tableCellRequiringUpdateIds[3] + infoRowValue.character, infoRowValue.invalidChars);
             documentSafeApplyText(tableCellRequiringUpdateIds[4] + infoRowValue.character, infoRowValue.numberOfAppearances);
+            documentSafeApplyText(tableCellRequiringUpdateIds[6] + infoRowValue.character, infoRowValue.numberOfAppearances);
             console.log(value.identifier);
         }
     });
@@ -206,6 +208,11 @@ function addInfoRowToTable(info, tableType) {
         numCharsOnSameLevelCell.classList.add("shortColumn");
         numCharsOnSameLevelCell.setAttribute("id", tableCellRequiringUpdateIds[2] + info.character);
         numCharsOnSameLevelCell.innerText = info.numCharsOnSameLevel;
+        
+        const numAppearanceCell = inputRow.insertCell();
+        numAppearanceCell.classList.add("shortColumn");
+        numAppearanceCell.setAttribute("id", tableCellRequiringUpdateIds[6] + info.character);
+        numAppearanceCell.innerText = info.numberOfAppearances;
         
         const invalidCharCell = inputRow.insertCell();
         invalidCharCell.setAttribute("id", tableCellRequiringUpdateIds[3] + info.character);
@@ -750,6 +757,7 @@ function init() {
             "hasCharacter",
             "sentence",
             "same",
+            "appear",
             "exc"
         ]);
         setupHeaders("#_currentInfoTable", [
