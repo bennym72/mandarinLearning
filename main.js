@@ -1174,16 +1174,20 @@ class BaseBoard {
             groupedSetsByLevel[hskLevelInput] = [[]];
             hskLevelsForSkipping[hskLevelInput] = [];
         });
+        const allCharsThatShowUpInSentences = {};
         newLangData.forEach((sentence) => {
             const currentHSKLevel = sentence.underlyingHSKLevel;
             if (sentence.numFirstTimeShownChars > 1) {
                 groupedSetsByLevel[currentHSKLevel][0].push(sentence);
+                sentence.character.split("").forEach((charInSentence) => {
+                    allCharsThatShowUpInSentences[charInSentence] = true;
+                });
             } else {
                 hskLevelsForSkipping[sentence.underlyingHSKLevel].push(sentence.underlyingChar);
             }
         });
         Object.keys(hskLevelsForSkipping).forEach((hskLevel) => {
-            const groupedChars = this._collapseIntoBucketsOf10(hskLevelsForSkipping[hskLevel]);
+            const groupedChars = this._collapseIntoBucketsOf10(hskLevelsForSkipping[hskLevel], allCharsThatShowUpInSentences);
             groupedSetsByLevel[hskLevel].push(groupedChars);
         });
         var output = [];
@@ -1195,11 +1199,14 @@ class BaseBoard {
         return output;
     }
 
-    _collapseIntoBucketsOf10(singleChars) {
+    _collapseIntoBucketsOf10(singleChars, allCharsThatShowUpInSentences) {
         var size = 10; 
         var arrayOfArrays = [];
-        for (var i=0; i<singleChars.length; i+=size) {
-             arrayOfArrays.push(singleChars.slice(i,i+size));
+        const singleCharsToUse = singleChars.filter((value) => {
+            return !allCharsThatShowUpInSentences[value];
+        });
+        for (var i=0; i<singleCharsToUse.length; i+=size) {
+             arrayOfArrays.push(singleCharsToUse.slice(i,i+size));
         }
         console.log(arrayOfArrays);
         const result = arrayOfArrays.map((array) => {
