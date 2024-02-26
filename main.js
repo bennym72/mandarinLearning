@@ -13,6 +13,7 @@ const isSkipLoserMode = params.get("skip") == "true";
 const showPinyin = params.get("showPinyin") == "true";
 const isSingleCharMode = params.get("showSingle") == "true";
 const isCompoundWordMode = params.get("showCompound") == "true";
+const isShowLevelByLevel = params.get("showLevelByLevel") == "true";
 
 const isGenerateMode = params.get("generate") == "true";
 
@@ -1190,13 +1191,31 @@ class BaseBoard {
             const groupedChars = this._collapseIntoBucketsOf10(hskLevelsForSkipping[hskLevel], allCharsThatShowUpInSentences);
             groupedSetsByLevel[hskLevel].push(groupedChars);
         });
-        var output = [];
-        (Object.keys(groupedSetsByLevel).reverse()).forEach((key) => {
-            groupedSetsByLevel[key].forEach((contents) => {
-                output = output.concat(contents);
+        if (isShowLevelByLevel) {
+            var output = [];
+            (Object.keys(groupedSetsByLevel).reverse()).forEach((key) => {
+                groupedSetsByLevel[key].forEach((contents) => {
+                    output = output.concat(contents);
+                });
             });
-        });
-        return output;
+            
+            return output;
+        } else {
+            var groupedSentences = [];
+            var groupedChars = [];
+            (Object.keys(groupedSetsByLevel).reverse()).forEach((key) => {
+            
+                const sentences = groupedSetsByLevel[key][0];
+                if (sentences) {
+                    groupedSentences = groupedSentences.concat(sentences);
+                }
+                const characters = groupedSetsByLevel[key][1];
+                if (characters) {
+                    groupedChars = groupedChars.concat(characters);
+                }
+            });
+            return groupedChars.concat(groupedSentences);
+        }
     }
 
     _collapseIntoBucketsOf10(singleChars, allCharsThatShowUpInSentences) {
