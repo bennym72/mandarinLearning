@@ -99,6 +99,7 @@ const hskLevelString = "hsk_level_";
 var data = hskLevel1.concat(hskLevel2);
 // if (!isSentenceMode) {
 data = data.concat(hskLevel3);
+data = data.concat(hskLevel4);
 // }
 
 // pragma mark - setup
