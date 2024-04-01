@@ -16,6 +16,11 @@ const isCompoundWordMode = params.get("showCompound") == "true";
 const isShowLevelByLevel = params.get("showLevelByLevel") == "true";
 
 const isGenerateMode = params.get("generate") == "true";
+const isClearCacheMode = params.get("isClearCache") == "true";
+
+if (isClearCacheMode) {
+    localStorage = {};
+}
 
 /*
 {
