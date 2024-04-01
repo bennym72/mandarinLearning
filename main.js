@@ -1185,12 +1185,16 @@ class BaseBoard {
         newLangData.forEach((sentence) => {
             const currentHSKLevel = sentence.underlyingHSKLevel;
             if (sentence.numFirstTimeShownChars > 1) {
-                groupedSetsByLevel[currentHSKLevel][0].push(sentence);
-                sentence.character.split("").forEach((charInSentence) => {
-                    allCharsThatShowUpInSentences[charInSentence] = true;
-                });
+                if (groupedSetsByLevel[currentHSKLevel]) {
+                    groupedSetsByLevel[currentHSKLevel][0].push(sentence);
+                    sentence.character.split("").forEach((charInSentence) => {
+                        allCharsThatShowUpInSentences[charInSentence] = true;
+                    });
+                }
             } else {
-                hskLevelsForSkipping[sentence.underlyingHSKLevel].push(sentence.underlyingChar);
+                if (hskLevelsForSkipping[sentence.underlyingHSKLevel]) {
+                    hskLevelsForSkipping[sentence.underlyingHSKLevel].push(sentence.underlyingChar);
+                }
             }
         });
         Object.keys(hskLevelsForSkipping).forEach((hskLevel) => {
