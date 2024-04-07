@@ -1071,6 +1071,23 @@ class BaseBoard {
             if (isSkipLoserMode) {
                 newLangData = this._mergeGoodSentencesWithGroupedChars(newLangData);
                 // this.validateCurrentData(newLangData, charMapForReverseCheck);
+
+                const lowerUnusedKeys = {};
+                if (_sentenceDataInput.length == 1) {
+                    const selectedLevel = Number.parseInt(_sentenceDataInput);
+                    for (var i = 1; i < selectedLevel; i++) {
+                        Object.keys(_hskLevelToSingleCharMap[i]).forEach((lowerLevelKey) => {
+                            lowerUnusedKeys[lowerLevelKey] = true;
+                        })
+                    }
+                }
+                newLangData.forEach((finalizedSentence) => {
+                    finalizedSentence.character.split("").forEach((finalizedChar) => {
+                        delete lowerUnusedKeys[finalizedChar];
+                    });
+                });
+                const additionalSentences = this._collapseIntoBucketsOf10(Object.keys(lowerUnusedKeys), []);
+                newLangData.push(...additionalSentences);
             }
 
             var idCounter = 1;
