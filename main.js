@@ -14,6 +14,7 @@ const showPinyin = params.get("showPinyin") == "true";
 const isSingleCharMode = params.get("showSingle") == "true";
 const isCompoundWordMode = params.get("showCompound") == "true";
 const isShowLevelByLevel = params.get("showLevelByLevel") == "true";
+const isPrioCompoundSentence = params.get("prioCompoundSentence") == "true";
 
 const isGenerateMode = params.get("generate") == "true";
 const isClearCacheMode = params.get("isClearCache") == "true";
@@ -1289,7 +1290,10 @@ class BaseBoard {
             const keys = Object.keys(sentencedData);
             const randomKey = keys[Math.floor(Math.random() * keys.length)];
             const charToUseMap = sentencedData[randomKey];
-            const charToUseKeys = Object.keys(charToUseMap);
+            let charToUseKeys = Object.keys(charToUseMap).filter((value) => { 
+                return value.length > 1;
+            });
+            charToUseKeys = isPrioCompoundSentence && charToUseKeys.length > 0 ? charToUseKeys : Object.keys(charToUseMap);
             const randomChar = charToUseKeys[Math.floor(Math.random() * charToUseKeys.length)];
             const sentenceToUse = charToUseMap[randomChar];
             delete sentencedData[randomKey];
