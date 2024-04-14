@@ -810,7 +810,7 @@ function init() {
     if (isGenerateMode) {
         setupHeaders("#_inputTable", [
             "id",
-            "char",
+            "character",
             "eng",
             "hsk",
             "isValid",
