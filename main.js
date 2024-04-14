@@ -16,7 +16,8 @@ const isCompoundWordMode = params.get("showCompound") == "true";
 const isShowLevelByLevel = params.get("showLevelByLevel") == "true";
 const isPrioCompoundSentence = params.get("prioCompoundSentence") == "true";
 
-const isGenerateMode = params.get("generate") == "true";
+const isGenerateModeForCompound = params.get("compoundGeneration") == "true";
+const isGenerateMode = params.get("generate") == "true" || isGenerateModeForCompound;
 const isClearCacheMode = params.get("isClearCache") == "true";
 
 if (isClearCacheMode) {
@@ -110,6 +111,21 @@ data = data.concat(hskLevel4);
 
 // pragma mark - setup
 
+const charToCompoundMap = {};
+const charWithCompoundCandidatesMap = {};
+
+const isValidSentence = function(hskLevel, sentence) {
+    for (var i = 0; i < sentence.length; i++) {
+        const currentChar = sentence[i];
+        // a sentence is invalid if it doesn't appear at all or its minimum appearance is greater than the current hsk level
+        const currentCharHSKLevel = anyCharByHSKLevel[currentChar];
+        if (!currentCharHSKLevel || currentCharHSKLevel > hskLevel) {
+            return false;
+        }
+    }
+    return true;
+}
+
 function setupHeaders(nodeId, headers) {
     const table = document.querySelector(nodeId);
     const headerRow = table.insertRow();
@@ -141,6 +157,9 @@ function documentSafeApplyText(selector, text) {
 }
 
 function shouldContinueRegenerationWork(value) {
+    if (isGenerateModeForCompound) {
+        return compoundWordsForGeneration[value.character];
+    }
     return true
     && value.character.length == 1;
 }
@@ -428,18 +447,51 @@ function initializeData() {
     if (showPinyin) {
         document.getElementById("_currentEng").classList.add("inProgressShow1");
     }
-}
 
-const isValidSentence = function(hskLevel, sentence) {
-    for (var i = 0; i < sentence.length; i++) {
-        const currentChar = sentence[i];
-        // a sentence is invalid if it doesn't appear at all or its minimum appearance is greater than the current hsk level
-        const currentCharHSKLevel = anyCharByHSKLevel[currentChar];
-        if (!currentCharHSKLevel || currentCharHSKLevel > hskLevel) {
-            return false;
+    // set up the char to compound map
+    data.forEach((value) => {
+        const character = value.character;
+        const hskLevel = value.hsk_level;
+        if (hskLevel == 3) { // temp condition for hsk 3 sentence generation
+            if (character.length == 1) {
+                if (!charToCompoundMap[character]) {
+                    charToCompoundMap[character] = {}
+                }
+            } else {
+                character.split("").forEach((component) => {
+
+                    if (!charToCompoundMap[component]) {
+                        charToCompoundMap[component] = {}
+                    }
+
+                    if (!charToCompoundMap[component][hskLevel]) {
+                        charToCompoundMap[component][hskLevel] = {}
+                    }
+                    charToCompoundMap[component][hskLevel][character] = isValidSentence(3, value.compound);
+                });
+            }
         }
-    }
-    return true;
+    });
+
+    var candidates = {};
+    Object.keys(charToCompoundMap).forEach((singleChar) => {
+        Object.keys(charToCompoundMap[singleChar]).forEach((hskLevel) => {
+            var hasValidCompound = false;
+            const currentCandidates = [];
+            Object.keys(charToCompoundMap[singleChar][hskLevel]).forEach((compound) => {
+                if (!candidates[compound]) {
+                    currentCandidates.push(compound);
+                }
+                hasValidCompound = hasValidCompound || charToCompoundMap[singleChar][hskLevel][compound];
+            });
+            if (!hasValidCompound) {
+                charWithCompoundCandidatesMap[singleChar] = charToCompoundMap[singleChar];
+                if (currentCandidates.length) {
+                    candidates[currentCandidates[Math.floor(Math.random() * currentCandidates.length)]] = true;
+                }
+            }
+        });
+    });
 }
 
 const mergeSentenceData = function (values) {
