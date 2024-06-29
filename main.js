@@ -68,7 +68,7 @@ var _inputTable;
 var langDataToUse = {}; //newLangData;
 var _highestChosenHSKLevel = 0; // defaults to 0
 var _highestAvailableHSKLevel = 0;
-var _sentenceDataInput = "1,2,3";
+var _sentenceDataInput = "1,2,3,4";
 
 const _hskLevelToSingleCharMap = {};
 const _hskLevelToSentencedDataMap = {};
@@ -104,10 +104,8 @@ if (isGenerateMode) {
 const hskLevelString = "hsk_level_";
 
 var data = hskLevel1.concat(hskLevel2);
-// if (!isSentenceMode) {
 data = data.concat(hskLevel3);
 data = data.concat(hskLevel4);
-// }
 
 // pragma mark - setup
 
@@ -1071,6 +1069,9 @@ class BaseBoard {
             const hsk2Sentences = this._sentencesForKeys(_sentencedData, hsk2SentencesKeys);
             const hsk3SentencesKeys = Object.keys(_hskLevelToSingleCharMap[3]);
             const hsk3Sentences = this._sentencesForKeys(_sentencedData, hsk3SentencesKeys);
+            const hsk4SentencesKeys = Object.keys(_hskLevelToSingleCharMap[4]);
+            const hsk4Sentences = this._sentencesForKeys(_sentencedData, hsk4SentencesKeys);
+            this._convertSentencedDataToNewLangData(newLangData, charMapForReverseCheck, hsk4Sentences, [hsk3Sentences, hsk2Sentences, hsk1Sentences]);
             this._convertSentencedDataToNewLangData(newLangData, charMapForReverseCheck, hsk3Sentences, [hsk2Sentences, hsk1Sentences]);
             this._convertSentencedDataToNewLangData(newLangData, charMapForReverseCheck, hsk2Sentences, [hsk1Sentences]);
             this._convertSentencedDataToNewLangData(newLangData, charMapForReverseCheck, hsk1Sentences, []);
@@ -1393,7 +1394,7 @@ class BaseBoard {
                 compound_cantonese : "",
                 compound_definition: "",
                 compound_pinyin: "",
-                hsk_level: "(" + randomChar + ")",
+                hsk_level: "(" + (lowerLevelsToDelete.length + 1) + " - " + randomChar + ")",
                 id: this.sentenceIndexCounter,
                 part_of_speech: "sentence",
                 eng_def_for_sentence : sentenceToUse.eng,
