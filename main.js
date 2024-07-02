@@ -221,11 +221,11 @@ function addInfoRowToTable(info, tableType) {
         hasCharacterCell.innerText = info.hasCharacter;
 
         const sentenceCell = inputRow.insertCell();
-        sentenceCell.classList.add("longColumn");
+        sentenceCell.classList.add("shortColumn");
         const textInput = document.createElement("input");
         textInput.setAttribute("id", tableCellRequiringUpdateIds[5] + info.character);
         textInput.setAttribute("type", "text");
-        textInput.classList.add("longColumn");
+        textInput.classList.add("shortColumn");
         sentenceCell.appendChild(textInput);
         textInput.value = info.sentence;
 
