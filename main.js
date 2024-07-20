@@ -148,6 +148,9 @@ const tableCellRequiringUpdateIds = [
     "_infoTable_numberOfAppearances_",
     "_inputTable_textInput_",
     "_inputTable_numberOfAppearances_",
+    "_inputTable_sentenceValue_",
+    "_inputTable_probabilityPicked_",
+    "_inputTable_updatePriority_",
 ];
 
 function documentSafeApplyText(selector, text) {
@@ -179,6 +182,8 @@ function regenerateData() {
             documentSafeApplyText(tableCellRequiringUpdateIds[3] + infoRowValue.character, infoRowValue.invalidChars);
             documentSafeApplyText(tableCellRequiringUpdateIds[4] + infoRowValue.character, infoRowValue.numberOfAppearances);
             documentSafeApplyText(tableCellRequiringUpdateIds[6] + infoRowValue.character, infoRowValue.numberOfAppearances);
+            documentSafeApplyText(tableCellRequiringUpdateIds[7] + infoRowValue.character, infoRowValue.sentenceValue);
+            documentSafeApplyText(tableCellRequiringUpdateIds[9] + infoRowValue.character, infoRowValue.updatePriority);
             console.log(value.identifier);
         }
     });
@@ -246,6 +251,21 @@ function addInfoRowToTable(info, tableType) {
         invalidCharCell.setAttribute("id", tableCellRequiringUpdateIds[3] + info.character);
         invalidCharCell.classList.add("shortColumn");
         invalidCharCell.innerText = info.invalidChars;
+
+        const sentenceValueCell = inputRow.insertCell();
+        sentenceValueCell.setAttribute("id", tableCellRequiringUpdateIds[7] + info.character);
+        sentenceValueCell.classList.add("shortColumn");
+        sentenceValueCell.innerText = info.sentenceValue;
+
+        const pPickedCell = inputRow.insertCell();
+        pPickedCell.setAttribute("id", tableCellRequiringUpdateIds[8] + info.character);
+        pPickedCell.classList.add("shortColumn");
+        pPickedCell.innerText = info.pPicked;
+
+        const updatePriority = inputRow.insertCell();
+        updatePriority.setAttribute("id", tableCellRequiringUpdateIds[9] + info.character);
+        updatePriority.classList.add("shortColumn");
+        updatePriority.innerText = info.updatePriority;
     }
     if (shouldAddCharInfoRow) {
         const infoTable = document.querySelector("#_currentInfoTable")
@@ -377,6 +397,10 @@ function initializeData() {
             singleCharMapToDefinition[value.character] = value;
         }
     });
+
+    if (isGenerateMode || isGenerateModeForCompound) {
+        generateSentenceValues();
+    }
 
     data.forEach((value) => {
         if (!_groupedData[value.hsk_level]) {
@@ -819,7 +843,10 @@ function init() {
             "sentence",
             "same",
             "appear",
-            "exc"
+            "exc",
+            "SV",
+            "pPicked",
+            "upd_prio",
         ]);
         setupHeaders("#_currentInfoTable", [
             "id",
@@ -875,6 +902,69 @@ function copyToClipboard(text) {
     // document.execCommand('copy');
     // document.body.removeChild(elem);
  }
+
+/*
+    Currently, we randomly select sentences with an even distribution. We take a random character from our pool of candidates, pick a valid sentence, and remove all other characters in that sentence from the pool of characters.
+    We want this because we prefer random so that we don't end up memorizing sentences.
+
+    A character X's likelihood to be picked at the time of selection is 1/# of chars.
+    A character X's likelihood of being eliminated as a result of another character Y being selected is # of appearances in sentences / # of chars.
+    
+    ^^^ this means characters like "我","是"，“不”, etc. are unlikely to ever be picked because they're likely to be eliminated. That means there's no point in generating valuable sentences for these characters.
+
+    Each character should have a probabilityPicked score. Probability picked... imagine a character shows up in 4 total sentences (including its own appearance). That means in a single run, we expect it to get picked
+    1/4 times.
+
+    For characters with a high likelihood of being picked, we want to generate valuable sentences.
+
+    How do we value a sentence in a measurable way?
+
+    1. has to be valid (ie. carries only same HSK level + below)
+    2. sum of probability to be picked / # of chars
+    3. We also want to factor in the HSK level (maybe just a multiplier)... ie. a char in HSK 1 can show up in 2/3/4 but a char in HSK 4 can't show up in 1, so we really want to think of an HSK 4 char in a valid sentence as 4x more valuable than an HSK 1.
+
+    So what we want to do is find all of the "low value" sentences for high probabilityPicked scores and convert them to higher valued sentences.
+*/
+var numTotalValidSentences = 0;
+const chineseWordToSentenceValue = {};
+function generateSentenceValues() {
+    const validValuesOnly = data.reduce((accumulator, value) => {
+        if (isValidSentence(value.hsk_level, value.compound, value.character)) {
+            accumulator.push(value);
+        }
+        return accumulator;
+    }, []);
+    
+    validValuesOnly.forEach((chineseWordFromJson) => {
+        numTotalValidSentences++;
+        chineseWordFromJson.compound.split("").forEach((chineseChar) => {
+            if (singleCharMapToDefinition[chineseChar]) {
+                if (!singleCharMapToDefinition[chineseChar].characterAppearancesInValidSentences) {
+                    singleCharMapToDefinition[chineseChar].characterAppearancesInValidSentences = 1;
+                } else {
+                    singleCharMapToDefinition[chineseChar].characterAppearancesInValidSentences += 1;
+                }
+            }
+        });
+    });
+
+    Object.keys(singleCharMapToDefinition).forEach((chineseChar) => {
+        const chineseWordFromJson = singleCharMapToDefinition[chineseChar];
+        chineseWordFromJson.characterValueInSentences = (1 - (chineseWordFromJson.characterAppearancesInValidSentences / numTotalValidSentences)) * chineseWordFromJson.hsk_level;
+    });
+
+    validValuesOnly.forEach((chineseWordFromJson) => {
+        var sentenceValue = 0;
+        chineseWordFromJson.compound.split("").forEach((chineseChar) => {
+            const singleCharFromJson = singleCharMapToDefinition[chineseChar];
+            if (singleCharFromJson) {
+                sentenceValue += singleCharFromJson.characterValueInSentences;
+            }
+        });
+        const value = sentenceValue / chineseWordFromJson.compound.length; 
+        chineseWordToSentenceValue[chineseWordFromJson.character] = Math.round((value + Number.EPSILON) * 1000) / 1000;
+    });
+}
 
 function countAppearances() {
     data.forEach((value) => {
@@ -974,7 +1064,7 @@ function generateSentenceInfo(value, index, sentenceCheck) {
     }
     const compoundCount = value.character.length;
     const isValid = value.compound.length > value.character.length && excludedChars.length == 0;
-    const numberOfAppearances = charCountInValidSentences[character] ? charCountInValidSentences[character] : 0;
+    const numberOfAppearances = singleCharMapToDefinition[character] ? singleCharMapToDefinition[character].characterAppearancesInValidSentences : 0;
     if (sentenceCheck) {
     const separator = "%";
     sentenceCheck.push(identifier + 
@@ -992,6 +1082,25 @@ function generateSentenceInfo(value, index, sentenceCheck) {
         separator + hasCharacter);
     }
 
+    var accumulatedValue = 0;
+    sentenceForCharacter.split("").forEach((chineseChar) => {
+        const singleCharFromJson = singleCharMapToDefinition[chineseChar];
+        if (singleCharFromJson) {
+            accumulatedValue += singleCharFromJson.characterValueInSentences;
+        }
+    });
+    const sentenceValue = Math.round((accumulatedValue /*/ sentenceForCharacter.length*/ + Number.EPSILON) * 1000) / 1000; 
+
+    var appearancePercentage = 1;
+    character.split("").forEach((chineseChar) => {
+        if (singleCharMapToDefinition[chineseChar]) {
+            appearancePercentage *= 1 / singleCharMapToDefinition[chineseChar].characterAppearancesInValidSentences;
+        }
+    }); 
+    const pPicked = Math.round((appearancePercentage  + Number.EPSILON) * 1000) / 1000; 
+
+    const updatePriority = Math.round(((pPicked * 100 / sentenceValue) + Number.EPSILON) * 1000) / 1000; 
+
     const infoRowValue = {
         identifier : identifier,
         character : character,
@@ -1003,6 +1112,9 @@ function generateSentenceInfo(value, index, sentenceCheck) {
         hasCharacter : hasCharacter,
         numberOfAppearances : numberOfAppearances,
         numCharsOnSameLevel : numCharsOnSameLevel,
+        sentenceValue : sentenceValue,
+        pPicked : pPicked,
+        updatePriority : updatePriority
     };
     return infoRowValue;
 }
@@ -1136,7 +1248,7 @@ class BaseBoard {
                     }
                 });
 
-                // this.validateCurrentData(newLangData, charMapForReverseCheck);
+                this.validateCurrentData(newLangData, charMapForReverseCheck);
 
                 const lowerUnusedKeys = {};
                 if (_sentenceDataInput.length == 1) {
