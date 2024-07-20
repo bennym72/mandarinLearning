@@ -1098,7 +1098,7 @@ class BaseBoard {
                 value.underlyingHSKLevel = value.hsk_level;
                 value.numFirstTimeShownChars = 1;
                 if (_highestChosenHSKLevel == 0 || value.hsk_level <= _highestChosenHSKLevel) {
-                    charsWithoutSentenceCount++;
+                    charsWithoutSentenceCount += 1;
                     newLangData.push(value);
                 }
             });
@@ -1131,7 +1131,7 @@ class BaseBoard {
                     for (var i = 1; i < selectedLevel; i++) {
                         Object.keys(_hskLevelToSingleCharMap[i]).forEach((lowerLevelKey) => {
                             lowerUnusedKeys[lowerLevelKey] = true;
-                        })
+                        });                    
                     }
                 }
                 newLangData.forEach((finalizedSentence) => {
@@ -1141,6 +1141,13 @@ class BaseBoard {
                 });
                 const additionalSentences = this._collapseIntoBucketsOf10(Object.keys(lowerUnusedKeys), []);
                 newLangData.push(...additionalSentences);
+                for (var i = 0; i < newLangData.length; i++) {
+                    const finalizedSentence = newLangData[i];
+                    if (!finalizedSentence.isGroupedCollection) {
+                        break;
+                    }
+                    charsWithoutSentenceCount += finalizedSentence.numFirstTimeShownChars;
+                }
             }
 
             var idCounter = 1;
@@ -1318,8 +1325,8 @@ class BaseBoard {
             array.forEach((value) => {
                 const baseChar = singleCharMapToDefinition[value];
                 accumulatedChars = accumulatedChars + (accumulatedChars.length > 0 ? "，" : "") + baseChar.character;
-                accumulatedPinyin = accumulatedPinyin + (accumulatedPinyin.length > 0 ? "，" : "") + baseChar.character_pinyin;
-                accumulatedCompound = accumulatedCompound + (accumulatedCompound.length > 0 ? "，" : "") + baseChar.eng;
+                accumulatedPinyin = accumulatedPinyin + (accumulatedPinyin.length > 0 ? "，" : "") +  baseChar.character + " " + baseChar.character_pinyin;
+                accumulatedCompound = accumulatedCompound + (accumulatedCompound.length > 0 ? "，" : "") +  baseChar.character + " " + baseChar.eng;
                 hskLevel = baseChar.hsk_level;
                 numCharsShown++;
             });
@@ -1338,6 +1345,7 @@ class BaseBoard {
                 underlyingChar : "",
                 underlyingHSKLevel : hskLevel,
                 numFirstTimeShownChars : numCharsShown,
+                isGroupedCollection: true,
             };
         });
         return result;
@@ -1399,7 +1407,8 @@ class BaseBoard {
                 part_of_speech: "sentence",
                 eng_def_for_sentence : sentenceToUse.eng,
                 underlyingChar : randomKey,
-                underlyingHSKLevel : charMapForReverseCheck[randomKey]
+                underlyingHSKLevel : charMapForReverseCheck[randomKey],
+                isGroupedCollection: false,
             });
             const endAmount = Object.keys(sentencedData).length;
             console.log(randomChar + "; " + deletedChars.join("") + " ;" + " Start amount: " + startAmount + "; End amount: " + endAmount);

@@ -226,7 +226,7 @@ button {
 .pinyinSentence {
   top: 40.5vh;
   width:96vw;
-  font-size:2.5vh;
+  font-size:2vh;
   position:absolute;
   color: #d66b6b;
   text-align: center;
@@ -253,7 +253,7 @@ button {
   top: 52vh;
   width:96vw;
   position:absolute;
-  font-size:2.5vh;
+  font-size:2vh;
   color: #ffffff;
   align-content: center;
   text-align: center;
