@@ -1108,16 +1108,7 @@ class BaseBoard {
 
             // this.validateCurrentData(newLangData, charMapForReverseCheck);
             if (isSkipLoserMode) {
-                newLangData.sort((sentence1, sentence2) => {
-                    if (sentence1.numFirstTimeShownChars > sentence2.numFirstTimeShownChars) {
-                        return -1;
-                    } else if (sentence1.numFirstTimeShownChars < sentence2.numFirstTimeShownChars) {
-                        return 1;
-                    } else {
-                        return 0;
-                    }
-                });
-                
+
                 newLangData = this._mergeGoodSentencesWithGroupedChars(newLangData);
 
                 newLangData.sort((sentence1, sentence2) => {
@@ -1304,7 +1295,8 @@ class BaseBoard {
             hskLevelsForSkipping[hskLevelInput] = [];
         });
         const allCharsThatShowUpInSentences = {};
-        newLangData.forEach((sentence) => {
+        for (var i = 0; i < newLangData.length; i++) {
+            const sentence = newLangData[i];
             const currentHSKLevel = sentence.underlyingHSKLevel;
             if (sentence.numFirstTimeShownChars > 1) {
                 if (groupedSetsByLevel[currentHSKLevel]) {
@@ -1314,11 +1306,25 @@ class BaseBoard {
                     });
                 }
             } else {
-                if (hskLevelsForSkipping[sentence.underlyingHSKLevel]) {
-                    hskLevelsForSkipping[sentence.underlyingHSKLevel].push(sentence.underlyingChar);
+                // when we have a sentence that only has 1 newly seen char, this newly seen char might end up being shown in a future sentence
+                // so we don't want to group this as an unseen character later.
+                var willEncounterCharacterLater = false;
+                for (var j = i + 1; j < newLangData.length; j++) {
+                    var innerSentence = newLangData[j];
+                    if (innerSentence.character.indexOf(sentence.underlyingChar) > -1) {
+                        willEncounterCharacterLater = true;
+                        innerSentence.compound_definition += "," + sentence.underlyingChar;
+                        innerSentence.numFirstTimeShownChars += 1;
+                        break;
+                    }
+                }
+                if (!willEncounterCharacterLater) {
+                    if (hskLevelsForSkipping[sentence.underlyingHSKLevel]) {
+                        hskLevelsForSkipping[sentence.underlyingHSKLevel].push(sentence.underlyingChar);
+                    }
                 }
             }
-        });
+        };
         Object.keys(hskLevelsForSkipping).forEach((hskLevel) => {
             const groupedChars = this._collapseIntoBucketsOf10(hskLevelsForSkipping[hskLevel], allCharsThatShowUpInSentences);
             groupedSetsByLevel[hskLevel].push(groupedChars);
