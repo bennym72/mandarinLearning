@@ -112,12 +112,15 @@ data = data.concat(hskLevel4);
 const charToCompoundMap = {};
 const charWithCompoundCandidatesMap = {};
 
-const isValidSentence = function(hskLevel, sentence) {
+const isValidSentence = function(hskLevel, sentence, character) {
     for (var i = 0; i < sentence.length; i++) {
         const currentChar = sentence[i];
         // a sentence is invalid if it doesn't appear at all or its minimum appearance is greater than the current hsk level
         const currentCharHSKLevel = anyCharByHSKLevel[currentChar];
         if (!currentCharHSKLevel || currentCharHSKLevel > hskLevel) {
+            return false;
+        }
+        if (sentence.indexOf(character) < 0) {
             return false;
         }
     }
@@ -465,7 +468,7 @@ function initializeData() {
                     if (!charToCompoundMap[component][hskLevel]) {
                         charToCompoundMap[component][hskLevel] = {}
                     }
-                    charToCompoundMap[component][hskLevel][character] = isValidSentence(3, value.compound);
+                    charToCompoundMap[component][hskLevel][character] = isValidSentence(3, value.compound, character);
                 });
             }
         }
@@ -909,7 +912,7 @@ function countAppearances() {
         ? targetNode.value
         : value.compound;
         const hskLevelToCheck = _highestChosenHSKLevel > 0 ? _highestAvailableHSKLevel : _highestAvailableHSKLevel;
-        if (value.character != sentenceForCharacter && isValidSentence(hskLevelToCheck, sentenceForCharacter)) {
+        if (value.character != sentenceForCharacter && isValidSentence(hskLevelToCheck, sentenceForCharacter, value.character)) {
             for (var i = 0; i < value.character.length; i++) {
                 const charAt = value.character[i];
                 if (!_sentencedData[charAt]) {
@@ -1104,9 +1107,8 @@ class BaseBoard {
             });
 
             // this.validateCurrentData(newLangData, charMapForReverseCheck);
-
-            newLangData.sort((sentence1, sentence2) => {
-                if (sentence1.underlyingHSKLevel == sentence2.underlyingHSKLevel) {
+            if (isSkipLoserMode) {
+                newLangData.sort((sentence1, sentence2) => {
                     if (sentence1.numFirstTimeShownChars > sentence2.numFirstTimeShownChars) {
                         return -1;
                     } else if (sentence1.numFirstTimeShownChars < sentence2.numFirstTimeShownChars) {
@@ -1114,15 +1116,35 @@ class BaseBoard {
                     } else {
                         return 0;
                     }
-                } else if (sentence1.underlyingHSKLevel > sentence2.underlyingHSKLevel) {
-                    return -1;
-                } else {
-                    return 1;
-                }
-            });
-
-            if (isSkipLoserMode) {
+                });
+                
                 newLangData = this._mergeGoodSentencesWithGroupedChars(newLangData);
+
+                newLangData.sort((sentence1, sentence2) => {
+                    // prioritize grouped collections
+                    if (sentence1.isGroupedCollection && !sentence2.isGroupedCollection) {
+                        return -1;
+                    } else if (!sentence1.isGroupedCollection && sentence2.isGroupedCollection) {
+                        return 1;
+                    } else {
+                        // prioritize HSK levels
+                        if (sentence1.underlyingHSKLevel > sentence2.underlyingHSKLevel) {
+                            return -1;
+                        } else if (sentence1.underlyingHSKLevel < sentence2.underlyingHSKLevel) {
+                            return 1;
+                        } else {
+                            // prioritize num first time shown chars
+                            if (sentence1.numFirstTimeShownChars > sentence2.numFirstTimeShownChars) {
+                                return -1;
+                            } else if (sentence1.numFirstTimeShownChars < sentence2.numFirstTimeShownChars) {
+                                return 1;
+                            } else {
+                                return 0;
+                            }
+                        }
+                    }
+                });
+
                 // this.validateCurrentData(newLangData, charMapForReverseCheck);
 
                 const lowerUnusedKeys = {};
@@ -1148,6 +1170,22 @@ class BaseBoard {
                     }
                     charsWithoutSentenceCount += finalizedSentence.numFirstTimeShownChars;
                 }
+            } else {
+                newLangData.sort((sentence1, sentence2) => {
+                    if (sentence1.underlyingHSKLevel == sentence2.underlyingHSKLevel) {
+                        if (sentence1.numFirstTimeShownChars > sentence2.numFirstTimeShownChars) {
+                            return -1;
+                        } else if (sentence1.numFirstTimeShownChars < sentence2.numFirstTimeShownChars) {
+                            return 1;
+                        } else {
+                            return 0;
+                        }
+                    } else if (sentence1.underlyingHSKLevel > sentence2.underlyingHSKLevel) {
+                        return -1;
+                    } else {
+                        return 1;
+                    }
+                });
             }
 
             var idCounter = 1;
@@ -1252,6 +1290,12 @@ class BaseBoard {
         }
     }
 
+    /**
+     * This function looks through each sentence to determine if it's a good one or if the new unseen chars of this sentence should be removed and collapsed into
+     * buckets of 10. Currently, the criteria is that a good sentence shows at least 2 new chars.
+     * @param {reference pointer to new lang data} newLangData 
+     * @returns 
+     */
     _mergeGoodSentencesWithGroupedChars(newLangData) {
         const groupedSetsByLevel = {};
         const hskLevelsForSkipping = {};
@@ -1416,6 +1460,14 @@ class BaseBoard {
         }
     }
 
+    /**
+     * Sentences are generated from a random order. A sentence at the Nth position may show x new characters going from 0->END. However, sentences at >Nth position
+     * may end up showing those x characters as well. When a sentence at the Nth position ends up showing 0 new characters by factoring the new characters shown in the >Nth positions,
+     * we can just remove that sentence at the Nth position as it does not show any characters that wouldn't be seen later.
+     * @param {map of every char used to generate the sentences} charMapForReverseCheck 
+     * @param {reference pointer to new lang data} newLangData 
+     * @returns array of sentences to delete by iD
+     */
     _reverseCheckSentences(charMapForReverseCheck, newLangData) {
         const charMapDeepCopy = JSON.parse(JSON.stringify(charMapForReverseCheck));
         const sentencesToDelete = [];
