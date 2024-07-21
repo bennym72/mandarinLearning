@@ -287,6 +287,10 @@ function addInfoRowToTable(info, tableType) {
         numAppearanceCell.classList.add("shortColumn");
         numAppearanceCell.setAttribute("id", tableCellRequiringUpdateIds[4] + info.character);
         numAppearanceCell.innerText = info.numberOfAppearances;
+        
+        const charValueCell = inputRow2.insertCell();
+        charValueCell.classList.add("shortColumn");
+        charValueCell.innerText = info.charValueInSentences;
     }
 
     if (shouldAddLoserInfoRow) {
@@ -854,6 +858,7 @@ function init() {
             "eng",
             "hsk",
             "numA",
+            "CV",
         ]);
     } else {
         setupSelectionTable();
@@ -937,20 +942,23 @@ function generateSentenceValues() {
     
     validValuesOnly.forEach((chineseWordFromJson) => {
         numTotalValidSentences++;
+        const alreadySeen = {};
         chineseWordFromJson.compound.split("").forEach((chineseChar) => {
-            if (singleCharMapToDefinition[chineseChar]) {
+            if (singleCharMapToDefinition[chineseChar] && !alreadySeen[chineseChar]) {
                 if (!singleCharMapToDefinition[chineseChar].characterAppearancesInValidSentences) {
                     singleCharMapToDefinition[chineseChar].characterAppearancesInValidSentences = 1;
                 } else {
                     singleCharMapToDefinition[chineseChar].characterAppearancesInValidSentences += 1;
                 }
+                alreadySeen[chineseChar] = true;
             }
         });
     });
 
     Object.keys(singleCharMapToDefinition).forEach((chineseChar) => {
         const chineseWordFromJson = singleCharMapToDefinition[chineseChar];
-        chineseWordFromJson.characterValueInSentences = (1 - (chineseWordFromJson.characterAppearancesInValidSentences / numTotalValidSentences)) * chineseWordFromJson.hsk_level;
+        chineseWordFromJson.characterValueInSentences = 1 / chineseWordFromJson.characterAppearancesInValidSentences * chineseWordFromJson.hsk_level;
+        //(1 - (chineseWordFromJson.characterAppearancesInValidSentences / numTotalValidSentences)) * chineseWordFromJson.hsk_level;
     });
 
     validValuesOnly.forEach((chineseWordFromJson) => {
@@ -1082,13 +1090,24 @@ function generateSentenceInfo(value, index, sentenceCheck) {
         separator + hasCharacter);
     }
 
+    /*
+    We don't actually want to include the value of the included word itself because that inflates its score artificially.
+
+    We also don't want to count duplicates because a sentence of "hahahahaha" only teaches me "ha" once.
+    */
     var accumulatedValue = 0;
+    const alreadySeen = {};
     sentenceForCharacter.split("").forEach((chineseChar) => {
         const singleCharFromJson = singleCharMapToDefinition[chineseChar];
-        if (singleCharFromJson) {
-            accumulatedValue += singleCharFromJson.characterValueInSentences;
+        if (singleCharFromJson && singleCharFromJson.character) {
+
+            if (singleCharFromJson && !alreadySeen[singleCharFromJson.character] && character != singleCharFromJson.character) {
+                accumulatedValue += singleCharFromJson.characterValueInSentences;
+            }
+            alreadySeen[singleCharFromJson.character] = true;
         }
     });
+    
     const sentenceValue = Math.round((accumulatedValue /*/ sentenceForCharacter.length*/ + Number.EPSILON) * 1000) / 1000; 
 
     var appearancePercentage = 1;
@@ -1099,7 +1118,9 @@ function generateSentenceInfo(value, index, sentenceCheck) {
     }); 
     const pPicked = Math.round((appearancePercentage  + Number.EPSILON) * 1000) / 1000; 
 
-    const updatePriority = Math.round(((pPicked * 100 / sentenceValue) + Number.EPSILON) * 1000) / 1000; 
+    const updatePriority = Math.round(((pPicked/sentenceValue) + Number.EPSILON) * 1000) / 1000; 
+
+    const charValueInSentences = singleCharMapToDefinition[character] ? Math.round((singleCharMapToDefinition[character].characterValueInSentences+ Number.EPSILON) * 1000) / 1000 : 0;
 
     const infoRowValue = {
         identifier : identifier,
@@ -1114,7 +1135,8 @@ function generateSentenceInfo(value, index, sentenceCheck) {
         numCharsOnSameLevel : numCharsOnSameLevel,
         sentenceValue : sentenceValue,
         pPicked : pPicked,
-        updatePriority : updatePriority
+        updatePriority : updatePriority,
+        charValueInSentences : charValueInSentences,
     };
     return infoRowValue;
 }

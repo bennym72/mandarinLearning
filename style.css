@@ -526,7 +526,7 @@ tr a {
   position:absolute;
   top: 4vh;
   left: 2vw;
-  width: 51vw;
+  width: 47vw;
   height : 90vh;
   overflow-y:scroll;
   display:block;
@@ -552,8 +552,8 @@ tr a {
 .currentInfoTable {
   position:absolute;
   top: 4vh;
-  left: 56vw;
-  width: 15vw;
+  left: 52vw;
+  width: 19vw;
   height : 90vh;
   overflow-y:scroll;
   display:block;
