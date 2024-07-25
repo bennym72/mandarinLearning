@@ -2681,9 +2681,9 @@ var hskLevel1 = [
         "hsk_level": 1,
         "part_of_speech": "verb",
         "compound_cantonese": "co5",
-        "compound": "请坐在这里。",
-        "compound_pinyin": "Qǐng zuò zài zhèlǐ.",
-        "compound_definition": "Please sit here.",
+        "compound": "请不要坐在桌子上。",
+        "compound_pinyin": "Qǐng bùyào zuò zài zhuōzi shàng.",
+        "compound_definition": "Please don't sit on the table.",
         "valid_sentence": "TRUE",
         "counter (583)\r": "\r"
     },
