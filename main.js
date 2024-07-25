@@ -162,7 +162,8 @@ function documentSafeApplyText(selector, text) {
 
 function shouldContinueRegenerationWork(value) {
     if (isGenerateModeForCompound) {
-        return compoundWordsForGeneration[value.character];
+        return value.character.length != 1;
+        // return compoundWordsForGeneration[value.character];
     }
     return true
     && value.character.length == 1;
@@ -1097,6 +1098,9 @@ function generateSentenceInfo(value, index, sentenceCheck) {
     */
     var accumulatedValue = 0;
     const alreadySeen = {};
+    character.split("").forEach((currentChar) => {
+        alreadySeen[currentChar] = true;
+    });
     sentenceForCharacter.split("").forEach((chineseChar) => {
         const singleCharFromJson = singleCharMapToDefinition[chineseChar];
         if (singleCharFromJson && singleCharFromJson.character) {
@@ -1110,10 +1114,11 @@ function generateSentenceInfo(value, index, sentenceCheck) {
     
     const sentenceValue = Math.round((accumulatedValue /*/ sentenceForCharacter.length*/ + Number.EPSILON) * 1000) / 1000; 
 
-    var appearancePercentage = 1;
+    var appearancePercentage = 0;
     character.split("").forEach((chineseChar) => {
         if (singleCharMapToDefinition[chineseChar]) {
-            appearancePercentage *= 1 / singleCharMapToDefinition[chineseChar].characterAppearancesInValidSentences;
+            const newAppearancePercentage = 1 / singleCharMapToDefinition[chineseChar].characterAppearancesInValidSentences;
+            appearancePercentage = Math.max(appearancePercentage, newAppearancePercentage);
         }
     }); 
     const pPicked = Math.round((appearancePercentage  + Number.EPSILON) * 1000) / 1000; 
