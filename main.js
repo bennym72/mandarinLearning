@@ -403,9 +403,9 @@ function initializeData() {
         }
     });
 
-    if (isGenerateMode || isGenerateModeForCompound) {
-        generateSentenceValues();
-    }
+    // if (isGenerateMode || isGenerateModeForCompound) {
+    generateSentenceValues();
+    // }
 
     data.forEach((value) => {
         if (!_groupedData[value.hsk_level]) {
@@ -1264,9 +1264,9 @@ class BaseBoard {
                             return 1;
                         } else {
                             // prioritize num first time shown chars
-                            if (sentence1.numFirstTimeShownChars > sentence2.numFirstTimeShownChars) {
+                            if (sentence1.numFirstTimeShownValue > sentence2.numFirstTimeShownValue) {
                                 return -1;
-                            } else if (sentence1.numFirstTimeShownChars < sentence2.numFirstTimeShownChars) {
+                            } else if (sentence1.numFirstTimeShownValue < sentence2.numFirstTimeShownValue) {
                                 return 1;
                             } else {
                                 return 0;
@@ -1300,6 +1300,15 @@ class BaseBoard {
                     }
                     charsWithoutSentenceCount += finalizedSentence.numFirstTimeShownChars;
                 }
+                newLangData.forEach((finalizedSentence) => {
+                    const bracketCloser = (finalizedSentence.hsk_level + "").indexOf("(") < 0 ? "" : ")";
+                    if (bracketCloser.length > 0) {
+                        const splits = finalizedSentence.hsk_level.split(" - ");
+                        finalizedSentence.hsk_level = splits[0] + " - " + finalizedSentence.numFirstTimeShownValue + " - " + splits[1] + bracketCloser;
+                    } else {
+                        finalizedSentence.hsk_level = finalizedSentence.hsk_level + " - " + finalizedSentence.numFirstTimeShownValue;
+                    }
+                })
             } else {
                 newLangData.sort((sentence1, sentence2) => {
                     if (sentence1.underlyingHSKLevel == sentence2.underlyingHSKLevel) {
@@ -1519,6 +1528,10 @@ class BaseBoard {
                 hskLevel = baseChar.hsk_level;
                 numCharsShown++;
             });
+            var numFirstTimeShownValue = accumulatedChars.split("，").reduce((accumulator, chineseChar) => {
+                const chineseCharFromJson = singleCharMapToDefinition[chineseChar];
+                return accumulator + ( chineseCharFromJson ? (1 / chineseCharFromJson.characterAppearancesInValidSentences * chineseCharFromJson.hsk_level) : 0); 
+            }, 0);
             return {
                 character: accumulatedChars,
                 character_pinyin: accumulatedPinyin,
@@ -1535,6 +1548,7 @@ class BaseBoard {
                 underlyingHSKLevel : hskLevel,
                 numFirstTimeShownChars : numCharsShown,
                 isGroupedCollection: true,
+                numFirstTimeShownValue : Math.round((numFirstTimeShownValue + Number.EPSILON) * 1000) / 1000,
             };
         });
         return result;
@@ -1591,7 +1605,7 @@ class BaseBoard {
                 compound_cantonese : "",
                 compound_definition: "",
                 compound_pinyin: "",
-                hsk_level: "(" + (lowerLevelsToDelete.length + 1) + " - " + randomChar + ")",
+                hsk_level: "(" + (lowerLevelsToDelete.length + 1) + " - " + randomChar,
                 id: this.sentenceIndexCounter,
                 part_of_speech: "sentence",
                 eng_def_for_sentence : sentenceToUse.eng,
@@ -1653,6 +1667,11 @@ class BaseBoard {
             sentence.underlyingHSKLevel = highestFirstSeenHSKChar;
             sentence.compound_definition = firstTimeShownChars.join(",");
             sentence.numFirstTimeShownChars = firstTimeShownChars.length;
+            var numFirstTimeShownValue = firstTimeShownChars.reduce((accumulator, chineseChar) => {
+                const chineseCharFromJson = singleCharMapToDefinition[chineseChar];
+                return accumulator + ( chineseCharFromJson ? (1 / chineseCharFromJson.characterAppearancesInValidSentences * chineseCharFromJson.hsk_level) : 0); 
+            }, 0);
+            sentence.numFirstTimeShownValue = Math.round((numFirstTimeShownValue + Number.EPSILON) * 1000) / 1000;
         });
     }
     
@@ -1916,7 +1935,11 @@ class BaseBoard {
     enablePhase2() {
         this.hideAllExcept("inProgressShow2");
         if (isSentenceMode) {
-            document.getElementById("_currentStar").innerHTML = this.siteState.currentKanji.stars.slice(0,-1) + " - " + this.siteState.currentKanji.eng_def_for_sentence + ")";
+            const currentKanji = this.siteState.currentKanji;
+            if (currentKanji.stars.indexOf("(") > -1) {
+                debugger;
+                document.getElementById("_currentStar").innerHTML = currentKanji.stars.slice(0,-1) + " - " + currentKanji.eng_def_for_sentence + ")";
+            }
         }
     }
     
