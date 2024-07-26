@@ -160,9 +160,9 @@ function documentSafeApplyText(selector, text) {
     }
 }
 
-function shouldContinueRegenerationWork(value) {
-    if (isGenerateModeForCompound) {
-        return value.character.length != 1;
+function shouldContinueRegenerationWork(value, isMainTable) {
+    if (isGenerateModeForCompound && isMainTable) {
+        return value.character.length != 1 && (value.hskLevel > 2 || value.hsk_level > 2);
         // return compoundWordsForGeneration[value.character];
     }
     return true
@@ -175,7 +175,7 @@ function regenerateData() {
     });
     countAppearances();
     data.forEach((value, index) => {
-        if (shouldContinueRegenerationWork(value)) {
+        if (shouldContinueRegenerationWork(value, true)) {
             const infoRowValue = generateSentenceInfo(value, index);
             documentSafeApplyText(tableCellRequiringUpdateIds[0] + infoRowValue.character, infoRowValue.isValid);
             documentSafeApplyText(tableCellRequiringUpdateIds[1] + infoRowValue.character, infoRowValue.hasCharacter);
@@ -198,11 +198,11 @@ const GenerateTableTypes = {
 function addInfoRowToTable(info, tableType) {
     const inputTable = document.querySelector("#_inputTable");
 
-    const shouldAddInputRow = shouldContinueRegenerationWork(info) && tableType == GenerateTableTypes.InputTable;
+    const shouldAddInputRow = shouldContinueRegenerationWork(info, true) && tableType == GenerateTableTypes.InputTable;
 
-    const shouldAddCharInfoRow = shouldContinueRegenerationWork(info) && tableType == GenerateTableTypes.InputTable;
+    const shouldAddCharInfoRow = shouldContinueRegenerationWork(info, false) && tableType == GenerateTableTypes.InputTable;
 
-    const shouldAddLoserInfoRow = shouldContinueRegenerationWork(info) && tableType == GenerateTableTypes.LoserTable;
+    const shouldAddLoserInfoRow = shouldContinueRegenerationWork(info, false) && tableType == GenerateTableTypes.LoserTable;
     
     if (shouldAddInputRow) {
         const inputRow = inputTable.insertRow();
@@ -1937,7 +1937,6 @@ class BaseBoard {
         if (isSentenceMode) {
             const currentKanji = this.siteState.currentKanji;
             if (currentKanji.stars.indexOf("(") > -1) {
-                debugger;
                 document.getElementById("_currentStar").innerHTML = currentKanji.stars.slice(0,-1) + " - " + currentKanji.eng_def_for_sentence + ")";
             }
         }
