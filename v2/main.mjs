@@ -15,8 +15,8 @@ import { hskLevel2 } from "../modules/hsk2.mjs";
                 id: this.sentenceIndexCounter,
                 part_of_speech: "sentence",
                 eng_def_for_sentence : sentenceToUse.eng,
-                underlyingChar : randomKey,
-                underlyingHSKLevel : charMapForReverseCheck[randomKey],
+                underlyingChar : randomhskLevel,
+                underlyingHSKLevel : charMapForReverseCheck[randomhskLevel],
                 isGroupedCollection: false,
             });
  */
@@ -42,30 +42,96 @@ class ChineseWordModel {
         this.compound_pinyin = json.compound_pinyin;
     }
 
+    isCharacter() {
+        return this.character.length == 1;
+    }
+
 }
 
 class CharacterMetadata {
-    constructor(chineseWordModelsByHskLevelMap) {
-        const hskLevelToValidMap = {};
+    constructor(chineseWordModelsByHskLevelMap, targetLevel) {
+        this.chineseWordModelsByHskLevelMap = chineseWordModelsByHskLevelMap;
+        this.charsToIgnore = [
+            "²",
+            "。",
+            "，",
+            "?",
+            "!",
+            "！",
+            "？",
+            " ",
+            "、"
+        ];
+        this.targetLevel = targetLevel;
+        const hskLevelToCharacterMap = {};
         const hskCharacterToLevelMap = {};
-        Object.keys(chineseWordModelsByHskLevelMap).forEach((key) => {
-            Object.keys(chineseWordModelsByHskLevelMap[key]).forEach((character) => {
-                if (!hskLevelToValidMap[key]) {
-                    hskLevelToValidMap[key] = {};
+        const hskToUnseenMap = {};
+        Object.keys(chineseWordModelsByHskLevelMap).forEach((hskLevel) => {
+            Object.keys(chineseWordModelsByHskLevelMap[hskLevel]).forEach((chineseWord) => {
+                const chineseWordModel = chineseWordModelsByHskLevelMap[hskLevel][chineseWord];
+                if (chineseWordModel.isCharacter()) {
+                    if (!hskLevelToCharacterMap[hskLevel]) {
+                        hskLevelToCharacterMap[hskLevel] = {};
+                    }
+                    hskLevelToCharacterMap[hskLevel][chineseWord] = true;
+                    hskCharacterToLevelMap[chineseWord] = hskLevel;
+                    hskToUnseenMap[chineseWord] = true;
                 }
-                hskLevelToValidMap[key][character] = true;
-                hskCharacterToLevelMap[character] = key;
             });
         });
-        this.hskLevelToValidMap = hskLevelToValidMap;
+        /**
+         * {
+         *      1:  {
+         *          "一" : true,
+         *      }
+         * }
+         */
+        this.hskLevelToCharacterMap = hskLevelToCharacterMap;
+        /**
+         *  {
+         *      "一" : 1,
+         *  }
+         */
         this.hskCharacterToLevelMap = hskCharacterToLevelMap;
+        /**
+         *  {
+         *      "一" : true,
+         *  }
+         */
+        this.hskToUnseenMap = hskToUnseenMap;
+
+        this.generateValidSentences();
     }
 
-    isValidSentence(sentence, targetLevel) {
+    generateValidSentences() {
+        const characterToValidSentenceMap = {};
+        Object.keys(this.chineseWordModelsByHskLevelMap).forEach((hskLevel) => {
+            Object.keys(this.chineseWordModelsByHskLevelMap[hskLevel]).forEach((chineseWord) => {
+                const chineseWordModel = this.chineseWordModelsByHskLevelMap[hskLevel][chineseWord];
+                if (this.isValidSentence(chineseWordModel.compound)) {
+                    const characters = chineseWordModel.character.split("");
+                    characters.forEach((character) => {
+                        if (this.charsToIgnore.indexOf(character) < 0) {
+                            if (!characterToValidSentenceMap[character]) {
+                                characterToValidSentenceMap[character] = {};
+                            }
+                            characterToValidSentenceMap[character][chineseWord] = chineseWordModel;
+                        }
+                    });
+                }
+            });
+        });
+        this.characterToValidSentenceMap = characterToValidSentenceMap;
+    }
+
+    isValidSentence(sentence) {
         return sentence.split("").every((character) => {
             const characterLevel = this.hskCharacterToLevelMap[character];
+            if (this.charsToIgnore.indexOf(character) > -1) {
+                return true;
+            }
             if (characterLevel != null) {
-                return characterLevel <= targetLevel;
+                return characterLevel <= this.targetLevel;
             }
             return false;
         });
@@ -75,8 +141,16 @@ class CharacterMetadata {
 
 class SentenceGenerator {
 
-    constructor(chineseWordModelsByHskLevelMap) {
-        this.characterMetadata = new CharacterMetadata(chineseWordModelsByHskLevelMap);
+    constructor(chineseWordModelsByHskLevelMap, targetLevel) {
+        this.characterMetadata = new CharacterMetadata(chineseWordModelsByHskLevelMap, targetLevel);
+    }
+
+    generateSentences() {
+
+    }
+
+    _setupValidSentenceMap() {
+
     }
 
 }
@@ -97,8 +171,8 @@ function main() {
         2 : mapJsonToChineseWordModel(hskLevel2)
     };
 
-    const sentenceGenerator = new SentenceGenerator(chineseWordModelsByHskLevelMap);
-    console.log(Object.keys(sentenceGenerator.characterMetadata.hskCharacterToLevelMap).length);
+    const sentenceGenerator = new SentenceGenerator(chineseWordModelsByHskLevelMap, 4);
+    console.log(Object.keys(sentenceGenerator.characterMetadata.characterToValidSentenceMap).length);
 }
 
 main();
