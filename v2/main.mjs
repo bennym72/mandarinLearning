@@ -67,6 +67,7 @@ class CharacterMetadata {
         const hskCharacterToLevelMap = {};
         const hskToUnseenMap = {};
         const singleCharMapToDefinition = {};
+        const hskLevelToSingleCharsAsArray = {};
         Object.keys(chineseWordModelsByHskLevelMap).forEach((hskLevel) => {
             Object.keys(chineseWordModelsByHskLevelMap[hskLevel]).forEach((chineseWord) => {
                 const chineseWordModel = chineseWordModelsByHskLevelMap[hskLevel][chineseWord];
@@ -75,6 +76,10 @@ class CharacterMetadata {
                         hskLevelToCharacterMap[hskLevel] = {};
                     }
                     hskLevelToCharacterMap[hskLevel][chineseWord] = true;
+                    if (!hskLevelToSingleCharsAsArray[hskLevel]) {
+                        hskLevelToSingleCharsAsArray[hskLevel] = [];
+                    }
+                    hskLevelToSingleCharsAsArray[hskLevel].push(chineseWord);
                     hskCharacterToLevelMap[chineseWord] = hskLevel;
                     hskToUnseenMap[chineseWord] = true;
                     singleCharMapToDefinition[chineseWord] = chineseWordModel;
@@ -259,6 +264,10 @@ class SentenceGenerator {
 
     }
 
+    _randomEntryFromValues(values) {
+        return values[Math.floor(Math.random() * values.length)];
+    }
+
 }
 
 function mapJsonToChineseWordModel (jsonModels) {
@@ -324,7 +333,15 @@ main();
  *         } but compound 1 & compound 2 , etc. must be a valid sentence
  * 
  *      getNextSentence() {
- *          pick a random
+ *          given 
+ *          { hskN : [char, char, char, ...] }
+ * 
+ *          As I pull random chars, I want to keep track of 2 things:
+ *              chars seen so far
+ *              chars that won't be added -> add this to a separate map
+ *              A sentence is only added if it has 2 or more unseen chars... a char is unseen if it's not in the unseen so far or is in the separate map
+ *                  do we want to loop through all compounds until we've exhausted? maybe
+ *              
  *      }
  * }
  */
