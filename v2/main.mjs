@@ -66,6 +66,7 @@ class CharacterMetadata {
         const hskLevelToCharacterMap = {};
         const hskCharacterToLevelMap = {};
         const hskToUnseenMap = {};
+        const singleCharMapToDefinition = {};
         Object.keys(chineseWordModelsByHskLevelMap).forEach((hskLevel) => {
             Object.keys(chineseWordModelsByHskLevelMap[hskLevel]).forEach((chineseWord) => {
                 const chineseWordModel = chineseWordModelsByHskLevelMap[hskLevel][chineseWord];
@@ -76,6 +77,7 @@ class CharacterMetadata {
                     hskLevelToCharacterMap[hskLevel][chineseWord] = true;
                     hskCharacterToLevelMap[chineseWord] = hskLevel;
                     hskToUnseenMap[chineseWord] = true;
+                    singleCharMapToDefinition[chineseWord] = chineseWordModel;
                 }
             });
         });
@@ -99,32 +101,72 @@ class CharacterMetadata {
          *  }
          */
         this.hskToUnseenMap = hskToUnseenMap;
+        /**
+         *  {
+         *      "一" : chineseWordModel,
+         *  }
+         */
+        this.singleCharMapToDefinition = singleCharMapToDefinition;
 
         this.generateValidSentences();
+        this.generateSentenceValues();
     }
 
+    // valid sentence generation
     generateValidSentences() {
+        // valid sentence maps
         const characterToValidSentenceMap = {};
+        // sentence value generation
+        const charCountInValidSentences = {};
+        this.numTotalValidSentences = 0;
         Object.keys(this.chineseWordModelsByHskLevelMap).forEach((hskLevel) => {
             Object.keys(this.chineseWordModelsByHskLevelMap[hskLevel]).forEach((chineseWord) => {
                 const chineseWordModel = this.chineseWordModelsByHskLevelMap[hskLevel][chineseWord];
-                if (this.isValidSentence(chineseWordModel.compound)) {
+                if (this.isValidSentence(chineseWordModel.compound, chineseWordModel.character)) {
+                    // sentence value generation
+                    this.numTotalValidSentences++;
+                    const alreadySeen = {};
                     const characters = chineseWordModel.character.split("");
                     characters.forEach((character) => {
-                        if (this.charsToIgnore.indexOf(character) < 0) {
+                        if (this.charsToIgnore.indexOf(character) < 0 && !alreadySeen[character]) {
+                            // valid sentence maps
                             if (!characterToValidSentenceMap[character]) {
                                 characterToValidSentenceMap[character] = {};
                             }
                             characterToValidSentenceMap[character][chineseWord] = chineseWordModel;
+                            // sentence value generation
+                            if (charCountInValidSentences[character]) {
+                                charCountInValidSentences[character]++;
+                            } else {
+                                charCountInValidSentences[character] = 1;
+                            }
+                            alreadySeen[character] = true;
                         }
                     });
                 }
             });
         });
+        /**
+         * {
+         *      "一" : {
+         *          "一" : chineseWordModel,
+         *          "一些" : chineseWordModel,
+         *      }
+         * }
+         */
         this.characterToValidSentenceMap = characterToValidSentenceMap;
+        /**
+         *  {
+         *      "一" : 20,
+         *  }
+         */
+        this.charCountInValidSentences = charCountInValidSentences;
     }
 
-    isValidSentence(sentence) {
+    isValidSentence(sentence, chineseWord) {
+        if (sentence.indexOf(chineseWord) < 0) {
+            return false;
+        }
         return sentence.split("").every((character) => {
             const characterLevel = this.hskCharacterToLevelMap[character];
             if (this.charsToIgnore.indexOf(character) > -1) {
@@ -135,6 +177,70 @@ class CharacterMetadata {
             }
             return false;
         });
+    }
+
+    // sentence value generation
+    generateSentenceValues() {
+        /**
+         *  Currently, we randomly select sentences with an even distribution. We take a random character from our pool of candidates, pick a valid sentence, and remove all other characters in that sentence from the pool of characters.
+         *  We want this because we prefer random so that we don't end up memorizing sentences.
+         *
+         *  A character X's likelihood to be picked at the time of selection is 1/# of chars.
+         *  A character X's likelihood of being eliminated as a result of another character Y being selected is # of appearances in sentences / # of chars.
+         *  
+         *  ^^^ this means characters like "我","是"，“不”, etc. are unlikely to ever be picked because they're likely to be eliminated. That means there's no point in generating valuable sentences for these characters.
+         *
+         *  Each character should have a probabilityPicked score. Probability picked... imagine a character shows up in 4 total sentences (including its own appearance). That means in a single run, we expect it to get picked
+         *  1/4 times.
+         *
+         *  For characters with a high likelihood of being picked, we want to generate valuable sentences.
+         *
+         *  How do we value a sentence in a measurable way?
+         *
+         *  1. has to be valid (ie. carries only same HSK level + below)
+         *  2. sum of probability to be picked / # of chars
+         *  3. We also want to factor in the HSK level (maybe just a multiplier)... ie. a char in HSK 1 can show up in 2/3/4 but a char in HSK 4 can't show up in 1, so we really want to think of an HSK 4 char in a valid sentence as 4x more valuable than an HSK 1.
+         *
+         *  So what we want to do is find all of the "low value" sentences for high probabilityPicked scores and convert them to higher valued sentences.
+        */
+        const characterValueInSentences = {};
+        Object.keys(this.charCountInValidSentences).forEach((character) => {
+            characterValueInSentences[character] = this.roundValue(this.hskCharacterToLevelMap[character] / this.charCountInValidSentences[character]);
+        });
+        /**
+         *  {
+         *      "一" : 1.33,
+         *  }
+         */
+        this.characterValueInSentences = characterValueInSentences;
+        const chineseWordToSentenceValue = {};
+        Object.keys(this.characterToValidSentenceMap).forEach((character) => {
+            Object.keys(this.characterToValidSentenceMap[character]).forEach((chineseWord) => {
+                const chineseWordModel = this.characterToValidSentenceMap[character][chineseWord];
+                let sentenceValue = 0;
+                const alreadySeen = {};
+                chineseWordModel.compound.split("").forEach((character) => {
+                    if (!alreadySeen[character] && this.charsToIgnore.indexOf(character) < 0) {
+                        const charValue = characterValueInSentences[character];
+                        if (charValue != null) {
+                            sentenceValue += charValue;
+                        }
+                        alreadySeen[character] = true;
+                    }
+                });
+                chineseWordToSentenceValue[chineseWord] = this.roundValue(sentenceValue / Object.keys(alreadySeen).length);
+            });
+        });
+        /**
+         *  {
+         *      "一些" : 1.33,
+         *  }
+         */
+        this.chineseWordToSentenceValue = chineseWordToSentenceValue;
+    }
+
+    roundValue(value) {
+        return Math.round((value + Number.EPSILON) * 1000) / 1000;
     }
 }
 
