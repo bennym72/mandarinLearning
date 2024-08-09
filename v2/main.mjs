@@ -48,6 +48,35 @@ class ChineseWordModel {
 
 }
 
+class ChineseSentenceModel {
+
+    constructor(chineseWordModel,
+        newIdentifier,
+        levelForCharacter,
+        chineseWord, // this is the chinese word associated to the sentence
+        chineseCharacter, // this was the randomly selected character
+        underlyingHSKLevel,
+        isGroupedCollection
+    ) {
+        this.character = chineseWordModel.compound;
+        this.character_pinyin = chineseWordModel.compound_pinyin;
+        this.eng = "";
+        this.compound = chineseWordModel.compound_definition;
+        this.compound_cantonese = "";
+        this.compound_definition = "";
+        this.compound_pinyin = "";
+        this.hsk_level = "(" + levelForCharacter + " - " + chineseWord,
+        this.id = newIdentifier;
+        this.part_of_speech = "sentence";
+        this.eng_def_for_sentence = chineseWordModel.eng,
+        this.underlyingChar = chineseCharacter;
+        this.underlyingHSKLevel = underlyingHSKLevel;
+        this.isGroupedCollection = isGroupedCollection;
+    }
+
+}
+
+
 class CharacterMetadata {
     constructor(chineseWordModelsByHskLevelMap, targetLevel) {
         this.chineseWordModelsByHskLevelMap = chineseWordModelsByHskLevelMap;
@@ -133,7 +162,7 @@ class CharacterMetadata {
                     const alreadySeen = {};
                     const characters = chineseWordModel.character.split("");
                     characters.forEach((character) => {
-                        if (this.charsToIgnore.indexOf(character) < 0 && !alreadySeen[character]) {
+                        if (this.isValidCharacter(character) && !alreadySeen[character]) {
                             // valid sentence maps
                             if (!characterToValidSentenceMap[character]) {
                                 characterToValidSentenceMap[character] = {};
@@ -174,7 +203,7 @@ class CharacterMetadata {
         }
         return sentence.split("").every((character) => {
             const characterLevel = this.hskCharacterToLevelMap[character];
-            if (this.charsToIgnore.indexOf(character) > -1) {
+            if (!this.isValidCharacter(character)) {
                 return true;
             }
             if (characterLevel != null) {
@@ -225,7 +254,7 @@ class CharacterMetadata {
                 let sentenceValue = 0;
                 const alreadySeen = {};
                 chineseWordModel.compound.split("").forEach((character) => {
-                    if (!alreadySeen[character] && this.charsToIgnore.indexOf(character) < 0) {
+                    if (!alreadySeen[character] && this.isValidCharacter(character)) {
                         const charValue = characterValueInSentences[character];
                         if (charValue != null) {
                             sentenceValue += charValue;
@@ -247,25 +276,124 @@ class CharacterMetadata {
     roundValue(value) {
         return Math.round((value + Number.EPSILON) * 1000) / 1000;
     }
+
+    isValidCharacter(character) {
+        return this.charsToIgnore.indexOf(character) < 0;
+    }
 }
 
 
 class SentenceGenerator {
 
-    constructor(chineseWordModelsByHskLevelMap, targetLevel) {
-        this.characterMetadata = new CharacterMetadata(chineseWordModelsByHskLevelMap, targetLevel);
+    constructor(chineseWordModelsByHskLevelMap, targetLevel, seenCountThreshold) {
+        
+        const chineseWordModelsByHSKLevelMapToUse = {};
+        Object.keys(chineseWordModelsByHskLevelMap).forEach((hskLevel) => {
+            if (hskLevel <= targetLevel) {
+                chineseWordModelsByHSKLevelMapToUse[hskLevel] = chineseWordModelsByHskLevelMap[hskLevel];
+            };
+        });
+        this.seenCountThreshold = seenCountThreshold;
+        this.characterMetadata = new CharacterMetadata(chineseWordModelsByHSKLevelMapToUse, targetLevel);
+
+        const levelsToInclude = Object.keys(chineseWordModelsByHSKLevelMapToUse).map((value) => { return Number.parseInt(value); });
+        levelsToInclude.sort().reverse();
+        this.levelsToInclude = levelsToInclude;
+
+        this.chineseCharacterCandidates = {};
+        this.chineseCharacterSeenCount = {};
+        this.levelsToInclude.forEach((level) => {
+            const candidates = Object.keys(this.characterMetadata.hskLevelToCharacterMap[level]);
+            candidates.forEach((chineseCharacter) => {
+                this.chineseCharacterSeenCount[chineseCharacter] = 0;
+            });
+            this.chineseCharacterCandidates[level] = JSON.parse(JSON.stringify(this.characterMetadata.hskLevelToCharacterMap[level]));
+        });
+
+        this.unqualifiedCharacters = {};
+
+        this.generateSentences();
     }
 
     generateSentences() {
-
+        this._generateRandomizedSentences();
     }
 
-    _setupValidSentenceMap() {
-
+    // sentence manipulators - all outputs are [ChineseSentenceModel]
+    _generateRandomizedSentences() {
+        const sentences = {};
+        this.levelsToInclude.forEach((hskLevel) => {
+            const generatedSentencesForLevel = [];
+            while (Object.keys(this.chineseCharacterCandidates[hskLevel]).length > 0) {
+                const currentCandidates = Object.keys(this.chineseCharacterCandidates[hskLevel]);
+                const randomCandidateIndex = this._randomIndex(currentCandidates);
+                const currentCandidate = currentCandidates[randomCandidateIndex];
+                const validChineseWordModels = this.characterMetadata.characterToValidSentenceMap[currentCandidate];
+                const validChineseWordModelsKeys = Object.keys(validChineseWordModels);
+                let addedValidCandidate = false;
+                while (validChineseWordModelsKeys.length > 0) {
+                    const randomValidChineseWordModelIndex = this._randomIndex(validChineseWordModelsKeys);
+                    const randomValidChineseWordModel = validChineseWordModels[validChineseWordModelsKeys[randomValidChineseWordModelIndex]];
+                    if (this._isQualifiedSentence(randomValidChineseWordModel)) {
+                        this._updateSeenCountAndRemoveCharsFromCandidatePool(randomValidChineseWordModel);
+                        generatedSentencesForLevel.push(randomValidChineseWordModel);
+                        addedValidCandidate = true;
+                        break;
+                    } else {
+                        validChineseWordModelsKeys.splice(randomValidChineseWordModelIndex, 1);
+                    }
+                }
+                if (!addedValidCandidate) {
+                    this.unqualifiedCharacters[currentCandidate] = 0;
+                }
+                delete this.chineseCharacterCandidates[hskLevel][currentCandidate];
+            }
+            sentences[hskLevel] = generatedSentencesForLevel;
+        });
+        debugger;
     }
 
-    _randomEntryFromValues(values) {
-        return values[Math.floor(Math.random() * values.length)];
+    _isQualifiedSentence(chineseWordModel) {
+        let hasAnUnseenChar = false;
+        const chineseCharactersInSentence = chineseWordModel.compound.split("");
+        for (let i = 0; i < chineseCharactersInSentence.length; i++) {
+            const chineseCharacter = chineseCharactersInSentence[i];
+            if (this.chineseCharacterSeenCount[chineseCharacter] == this.seenCountThreshold
+                || this.unqualifiedCharacters[chineseCharacter] == this.seenCountThreshold) {
+                if (hasAnUnseenChar) {
+                    return true; // has at least two chars that match the seen count threshold
+                } else {
+                    hasAnUnseenChar = true;
+                }
+            }
+        }
+        return false; // has only one unseen char
+    }
+
+    _updateSeenCountAndRemoveCharsFromCandidatePool(chineseWordModel) {
+        const alreadySeen = {};
+        chineseWordModel.compound.split("").forEach((chineseCharacter) => {
+            if (!alreadySeen[chineseCharacter] && this.characterMetadata.isValidCharacter(chineseCharacter)) {
+                alreadySeen[chineseCharacter] = true;
+                this.chineseCharacterSeenCount[chineseCharacter]++;
+
+                const hskLevelForCharacter = this.characterMetadata.hskCharacterToLevelMap[chineseCharacter];
+                if (this.chineseCharacterCandidates[hskLevelForCharacter]) {
+                    delete this.chineseCharacterCandidates[hskLevelForCharacter][chineseCharacter];
+                }
+                if (this.unqualifiedCharacters[chineseCharacter] != null) {
+                    this.unqualifiedCharacters[chineseCharacter]++;
+                    if (this.unqualifiedCharacters[chineseCharacter] > this.seenCountThreshold) {
+                        delete this.unqualifiedCharacters[chineseCharacter];
+                    }
+                }
+            }
+        });
+    }
+
+    // helpers
+    _randomIndex(values) {
+        return Math.floor(Math.random() * values.length);
     }
 
 }
@@ -280,13 +408,13 @@ function mapJsonToChineseWordModel (jsonModels) {
 };
 
 function main() {
-    
+    const targetLevel = 2;
     const chineseWordModelsByHskLevelMap = {
         1 : mapJsonToChineseWordModel(hskLevel1),
         2 : mapJsonToChineseWordModel(hskLevel2)
     };
 
-    const sentenceGenerator = new SentenceGenerator(chineseWordModelsByHskLevelMap, 4);
+    const sentenceGenerator = new SentenceGenerator(chineseWordModelsByHskLevelMap, targetLevel, 0);
     console.log(Object.keys(sentenceGenerator.characterMetadata.characterToValidSentenceMap).length);
 }
 
@@ -341,7 +469,42 @@ main();
  *              chars that won't be added -> add this to a separate map
  *              A sentence is only added if it has 2 or more unseen chars... a char is unseen if it's not in the unseen so far or is in the separate map
  *                  do we want to loop through all compounds until we've exhausted? maybe
+ *          
+ *              After I pull a random character, I check its (randomly & removing) compounds and itself
+ *              until I find a compound whose sentence has at least 2 unseen chars. These can be from the original pool or the unqualified chars.
+ * 
+ *              When I find a matching sentence, I iterate it and remove these chars as candidates; also compute the sentence value of this sentence.
+ * 
+ *              At some point, I will have no more sentences in this level.
+ * 
+ *          At the end, I have all of my sentences with at least 2 unseen chars and all of the chars that weren't a part of any sentences.
+ *              Why do I know the unqualified chars aren't a part of any sentences?
+ *                  1. every sentence that was ever a candidate would have tried to use them if it was possible
  *              
+ *          Here's the problem...
+ * 
+ *          Sentence A: charA, charB are unseen
+ *          Sentence B: charC, charD are unseen
+ *          Sentence C: contains charA, charB, charC and charD
+ * 
+ *              as I add a sentence with 2 unseen chars, I keep track of another thing:
+ *                  countOfCharInSentences: 
+ * 
+ *          After I've generated all of my sentences, I go through the sentences (from start -> end)
+ *              For each sentence
+ *                  For each character, if there are at least two chars where countOfCharInSentences[char] == 1, we can keep this sentence
+ *                  If this sentence only has one of those, remove it and decrement countOfCharsInSentences for each char
+ *          
+ *          Look through countofCharInSentences for keys where the count is now 0 and add these back to the unqualified chars
+ * 
+ *          For all remaining unqualified chars, we can group by 10
+ * 
+ *          Sort by:
+ *              unqualified char grouping
+ *                  hsk level
+ *                    sentence value
+ *          
+ *          Now we apply the 1st time seen chars again
  *      }
  * }
  */
