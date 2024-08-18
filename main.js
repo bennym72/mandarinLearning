@@ -2637,7 +2637,7 @@ class SentenceGenerator {
                 unqualifiedAddedChineseCharsByHskLevel));
         const allSentenceModels = this._joinSentencesByHSKLevel(randomizedChineseSentencesByHSKLevel, unqualifiedCharacterGroupsAsChineseSentenceModels);
         const finalOutputSentenceModels = this._sortByFirstTimeSeenSentenceValues(allSentenceModels);
-        let sentenceIdentifier = 0;
+        let sentenceIdentifier = 1;
         finalOutputSentenceModels.forEach((sentenceModel) => {
             sentenceModel.id = sentenceIdentifier;
             sentenceIdentifier++;
