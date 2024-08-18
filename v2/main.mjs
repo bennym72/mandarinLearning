@@ -49,6 +49,10 @@ class ChineseWordModel {
         return this.character.length == 1;
     }
 
+    setUnderlyingChar(char) {
+        this.underlyingChar = char;
+    }
+
 }
 
 class ChineseSentenceModel {
@@ -392,18 +396,32 @@ class SentenceGenerator {
     }
 
     generateSentences() {
-        const randomizedSentencesByHSKLevel = this._generateRandomizedSentences();
-        this._logAtStep("_generateRandomizedSentences", this.characterMetadata.hskCharacterToLevelMap, randomizedSentencesByHSKLevel);
-        const filteredRandomizedSentencesByHskLevel = this._filterSentences(randomizedSentencesByHSKLevel);
-        this._logAtStep("_filterSentences", this.characterMetadata.hskCharacterToLevelMap, filteredRandomizedSentencesByHskLevel);
-        const unqualifiedAddedSentencesByHskLevel = this._generateSentencesFromUnqualifiedChars(filteredRandomizedSentencesByHskLevel);
+        const randomizedChineseCharsByHSKLevel = this._generateRandomizedSentences();
+        this._logAtStep("_generateRandomizedSentences", this.characterMetadata.hskCharacterToLevelMap, randomizedChineseCharsByHSKLevel);
+        const filteredRandomizedChineseCharsByHskLevel = this._filterSentences(randomizedChineseCharsByHSKLevel);
+        this._logAtStep("_filterSentences", this.characterMetadata.hskCharacterToLevelMap, filteredRandomizedChineseCharsByHskLevel);
+        const unqualifiedAddedChineseCharsByHskLevel = this._generateSentencesFromUnqualifiedChars(filteredRandomizedChineseCharsByHskLevel);
         // next step : convert all chinese words into sentences returned as array
+        const randomizedChineseSentencesByHSKLevel = this._convertChineseCharsToChineseSentenceModels(unqualifiedAddedChineseCharsByHskLevel);
         const unqualifiedCharacterGroupsAsChineseSentenceModels = this._groupUnqualifiedCharacters();
         // join the two arrays
         // generate sentence values
         // sort
         const logs = this.logger.loggingData;
         console.log(JSON.stringify(logs, null, 4));
+    }
+
+    _convertChineseCharsToChineseSentenceModels(chineseCharsForSentencesByHSKLevel) {
+        const sentenceModelsByHSKLevel = {};
+        Object.keys(chineseCharsForSentencesByHSKLevel).forEach((hskLevel) => {
+            const chineseChars = chineseCharsForSentencesByHSKLevel[hskLevel];
+            const chineseSentences = [];
+            chineseChars.forEach((chineseCharacter) => {
+                chineseSentences.push(new ChineseSentenceModel(chineseCharacter, this.sentenceIdentifier, hskLevel, chineseCharacter.character, chineseCharacter.underlyingChar, chineseCharacter.hsk_level, false));
+            });
+            sentenceModelsByHSKLevel[hskLevel] = chineseSentences;
+        })
+        return sentenceModelsByHSKLevel;
     }
 
     _groupUnqualifiedCharacters() {
@@ -569,6 +587,7 @@ class SentenceGenerator {
                     const randomValidChineseWordModelIndex = this._randomIndex(validChineseWordModelsKeys);
                     const randomValidChineseWordModel = validChineseWordModels[validChineseWordModelsKeys[randomValidChineseWordModelIndex]];
                     if (this._isQualifiedSentence(randomValidChineseWordModel)) {
+                        randomValidChineseWordModel.setUnderlyingChar(currentCandidate);
                         this._updateSeenCountAndRemoveCharsFromCandidatePool(randomValidChineseWordModel);
                         generatedSentencesForLevel.push(randomValidChineseWordModel);
                         addedValidCandidate = true;
