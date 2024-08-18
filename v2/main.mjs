@@ -40,6 +40,7 @@ class ChineseWordModel {
         this.hsk_level = json.hsk_level;
         this.part_of_speech = json.part_of_speech;
         this.compound_cantonese = json.compound_cantonese;
+        this.compound_definition = json.compound_definition;
         this.compound = json.compound;
         this.compound_pinyin = json.compound_pinyin;
     }
@@ -91,7 +92,8 @@ class CharacterMetadata {
             "！",
             "？",
             " ",
-            "、"
+            "、",
+            ",",
         ];
         this.targetLevel = targetLevel;
         const hskLevelToCharacterMap = {};
@@ -386,6 +388,7 @@ class SentenceGenerator {
         this.unqualifiedCharacters = {};
 
         this.generateSentences();
+        this.sentenceIdentifier = 0;
     }
 
     generateSentences() {
@@ -395,9 +398,95 @@ class SentenceGenerator {
         this._logAtStep("_filterSentences", this.characterMetadata.hskCharacterToLevelMap, filteredRandomizedSentencesByHskLevel);
         const unqualifiedAddedSentencesByHskLevel = this._generateSentencesFromUnqualifiedChars(filteredRandomizedSentencesByHskLevel);
 
+        const unqualifiedCharacterGroupsByHskLevel = this._groupUnqualifiedCharactersByHSKLevel();
+
         const logs = this.logger.loggingData;
         console.log(JSON.stringify(logs, null, 4));
     }
+
+    _groupUnqualifiedCharactersByHSKLevel() {
+        const unqualifiedCharactersByHskLevel = {};
+        Object.keys(this.unqualifiedCharacters).forEach((chineseCharacter) => {
+            const hskLevel = this.characterMetadata.hskCharacterToLevelMap[chineseCharacter];
+            if (!unqualifiedCharactersByHskLevel[hskLevel]) {
+                unqualifiedCharactersByHskLevel[hskLevel] = [];
+            }
+            unqualifiedCharactersByHskLevel[hskLevel].push(chineseCharacter);
+        })
+        const size = 10;
+        const groupedUnqualifiedCharactersByHskLevel = {};
+        Object.keys(unqualifiedCharactersByHskLevel).forEach((hskLevel) => {
+            const arrayOfArrays = [];
+            const currentUnqualifiedChars = unqualifiedCharactersByHskLevel[hskLevel];
+            for (var i = 0; i < currentUnqualifiedChars.length; i+= size) {
+                arrayOfArrays.push(currentUnqualifiedChars.slice(i, i + size));
+            }
+            arrayOfArrays.forEach((groupedChars) => {
+                const groupedCharsAsChineseSentence = this._convertGroupedCharsToSentence(groupedChars, hskLevel);
+                if (!groupedUnqualifiedCharactersByHskLevel[hskLevel]) {
+                    groupedUnqualifiedCharactersByHskLevel[hskLevel] = [];
+                }
+                groupedUnqualifiedCharactersByHskLevel[hskLevel].push(groupedCharsAsChineseSentence);
+            });
+        });
+        return groupedUnqualifiedCharactersByHskLevel;
+    }
+
+    _convertGroupedCharsToSentence(groupedChars, hskLevel) {
+        let accumulatedChars = "";
+        let accumulatedPinyin = "";
+        let accumulatedCompound = "";
+        let numCharsShown = 0;
+        groupedChars.forEach((value) => {
+            const baseChar = this.characterMetadata.singleCharMapToDefinition[value];
+            accumulatedChars = accumulatedChars + (accumulatedChars.length > 0 ? "，" : "") + baseChar.character;
+            accumulatedPinyin = accumulatedPinyin + (accumulatedPinyin.length > 0 ? "，" : "") +  baseChar.character + " " + baseChar.character_pinyin;
+            accumulatedCompound = accumulatedCompound + (accumulatedCompound.length > 0 ? "，" : "") +  baseChar.character + " " + baseChar.eng;
+            numCharsShown++;
+        });
+        // var numFirstTimeShownValue = accumulatedChars.split("，").reduce((accumulator, chineseChar) => {
+        //     const chineseCharFromJson = singleCharMapToDefinition[chineseChar];
+        //     return accumulator + ( chineseCharFromJson ? (1 / chineseCharFromJson.characterAppearancesInValidSentences * chineseCharFromJson.hsk_level) : 0); 
+        // }, 0);
+        this.sentenceIdentifier++;
+        const chineseWordModel = new ChineseWordModel({
+            id: this.sentenceIdentifier,
+            character: accumulatedChars,
+            character_pinyin: accumulatedPinyin,
+            eng: "",
+            hsk_level: hskLevel,
+            part_of_speech : "groupedChars",
+            compound: accumulatedCompound,
+            compound_cantonese: "",
+            compound_pinyin: ""
+        });
+        const chineseSentenceModel = new ChineseSentenceModel(
+            chineseWordModel,
+            this.sentenceIdentifier,
+            hskLevel,
+            "",
+            "",
+            hskLevel,
+            true
+        );
+        chineseSentenceModel.character= accumulatedChars;
+        chineseSentenceModel.character_pinyin= accumulatedPinyin;
+        chineseSentenceModel.eng= "";
+        chineseSentenceModel.compound= accumulatedCompound;
+        chineseSentenceModel.compound_cantonese = "";
+        chineseSentenceModel.compound_definition= accumulatedChars;
+        chineseSentenceModel.compound_pinyin= "";
+        chineseSentenceModel.hsk_level= hskLevel;
+        chineseSentenceModel.id = 0;
+        chineseSentenceModel.part_of_speech = "groupedChars";
+        chineseSentenceModel.eng_def_for_sentence = accumulatedCompound;
+        chineseSentenceModel.underlyingChar = "";
+        chineseSentenceModel.underlyingHSKLevel = hskLevel;
+        chineseSentenceModel.numFirstTimeShownChars = numCharsShown;
+        chineseSentenceModel.isGroupedCollection= true;
+        return chineseSentenceModel;
+    }
+
 
     // Generate another set after the filtering with the unqualified chars to see if there are any sentences we could've generated
     // No need to filter again since we already know this is a set of filtered sentences
@@ -552,6 +641,19 @@ class SentenceGenerator {
 
     _randomIndex(values) {
         return Math.floor(Math.random() * values.length);
+    }
+
+    _shuffle(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+          let j = Math.floor(Math.random() * (i + 1)); // random index from 0 to i
+      
+          // swap elements array[i] and array[j]
+          // we use "destructuring assignment" syntax to achieve that
+          // you'll find more details about that syntax in later chapters
+          // same can be written as:
+          // let t = array[i]; array[i] = array[j]; array[j] = t
+          [array[i], array[j]] = [array[j], array[i]];
+        }
     }
 
 }
