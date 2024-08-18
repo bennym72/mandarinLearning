@@ -1184,7 +1184,7 @@ class BaseBoard {
             const sentenceGenerator = window.sentenceGenerator;
             const finalValidation = sentenceGenerator.finalValidation;
             this.siteState.sentenceTotal = Object.keys(sentenceGenerator.characterMetadata.hskCharacterToLevelMap).length;
-            const sentenceToChar = "# sen: " + finalValidation.finalSentenceCount + "; # chr: " + finalValidation.finalizedUnqualifiedChars.total + "; # del: " + (finalValidation.initialSentenceCount - finalValidation.finalSentenceCount);
+            const sentenceToChar = "# sen: " + finalValidation.initialSentenceCount + "; # chr: " + finalValidation.finalizedUnqualifiedChars.total + "; # del: " + (finalValidation.initialSentenceCount - finalValidation.finalSentenceCount);
             this.siteState.overview = sentenceToChar;
         } else if (isSentenceMode) {
 
