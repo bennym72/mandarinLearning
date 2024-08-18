@@ -397,14 +397,16 @@ class SentenceGenerator {
         const filteredRandomizedSentencesByHskLevel = this._filterSentences(randomizedSentencesByHSKLevel);
         this._logAtStep("_filterSentences", this.characterMetadata.hskCharacterToLevelMap, filteredRandomizedSentencesByHskLevel);
         const unqualifiedAddedSentencesByHskLevel = this._generateSentencesFromUnqualifiedChars(filteredRandomizedSentencesByHskLevel);
-
-        const unqualifiedCharacterGroupsByHskLevel = this._groupUnqualifiedCharactersByHSKLevel();
-
+        // next step : convert all chinese words into sentences returned as array
+        const unqualifiedCharacterGroupsAsChineseSentenceModels = this._groupUnqualifiedCharacters();
+        // join the two arrays
+        // generate sentence values
+        // sort
         const logs = this.logger.loggingData;
         console.log(JSON.stringify(logs, null, 4));
     }
 
-    _groupUnqualifiedCharactersByHSKLevel() {
+    _groupUnqualifiedCharacters() {
         const unqualifiedCharactersByHskLevel = {};
         Object.keys(this.unqualifiedCharacters).forEach((chineseCharacter) => {
             const hskLevel = this.characterMetadata.hskCharacterToLevelMap[chineseCharacter];
@@ -414,7 +416,7 @@ class SentenceGenerator {
             unqualifiedCharactersByHskLevel[hskLevel].push(chineseCharacter);
         })
         const size = 10;
-        const groupedUnqualifiedCharactersByHskLevel = {};
+        const groupedUnqualifiedCharacters = [];
         Object.keys(unqualifiedCharactersByHskLevel).forEach((hskLevel) => {
             const arrayOfArrays = [];
             const currentUnqualifiedChars = unqualifiedCharactersByHskLevel[hskLevel];
@@ -423,13 +425,10 @@ class SentenceGenerator {
             }
             arrayOfArrays.forEach((groupedChars) => {
                 const groupedCharsAsChineseSentence = this._convertGroupedCharsToSentence(groupedChars, hskLevel);
-                if (!groupedUnqualifiedCharactersByHskLevel[hskLevel]) {
-                    groupedUnqualifiedCharactersByHskLevel[hskLevel] = [];
-                }
-                groupedUnqualifiedCharactersByHskLevel[hskLevel].push(groupedCharsAsChineseSentence);
+                groupedUnqualifiedCharacters.push(groupedCharsAsChineseSentence);
             });
         });
-        return groupedUnqualifiedCharactersByHskLevel;
+        return groupedUnqualifiedCharacters;
     }
 
     _convertGroupedCharsToSentence(groupedChars, hskLevel) {
