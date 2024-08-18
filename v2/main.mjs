@@ -287,12 +287,21 @@ class CharacterMetadata {
 class SentenceGeneratorLogger {
     constructor() {
         this.loggingData = [];
+        this.allUnqualifiedChars = {};
     }
     
     // Sentence validation
 
-    logAtStep(stepName, characterMetadata, sentencesByHSKLevel, unqualifiedCharacters, chineseCharacterSeenCount, seenCountThreshold) {
-        const allChineseCharacters = JSON.parse(JSON.stringify(characterMetadata.hskCharacterToLevelMap));
+    logAtStep(characterMetadata, stepName, candidatesAtStep, sentencesByHSKLevel, unqualifiedCharacters, chineseCharacterSeenCount, seenCountThreshold) {
+        const currentUnqualifiedChars = [];
+        Object.keys(unqualifiedCharacters).forEach((unqualifiedCharacter) => {
+            if (!this.allUnqualifiedChars[unqualifiedCharacter]) {
+                this.allUnqualifiedChars[unqualifiedCharacter] = true;
+                currentUnqualifiedChars.push(unqualifiedCharacter);
+            }
+        })
+        
+        const allChineseCharacters = JSON.parse(JSON.stringify(candidatesAtStep));
 
         var charsAtOrBelowSeenCountThreshold = [];
         Object.keys(allChineseCharacters).forEach((character) => {
@@ -320,19 +329,29 @@ class SentenceGeneratorLogger {
             });
         }
         Object.keys(unqualifiedCharacters).forEach((unqualifiedCharacter) => {
-            delete allChineseCharacters[unqualifiedCharacter];
+            const hskLevel = characterMetadata.hskCharacterToLevelMap[unqualifiedCharacter];
+            if (allChineseCharacters[hskLevel]) {
+                delete allChineseCharacters[hskLevel][unqualifiedCharacter];
+            }
         });
+        let numUnaccountedForChars = 0;
+        Object.keys(allChineseCharacters).forEach((hskLevel) => {
+            numUnaccountedForChars += allChineseCharacters[hskLevel].length;
+        })
         const stats = {
             step : stepName,
             numSentences : numSentences,
             numSentencesPerHskLevel: numSentencesPerHskLevel,
             numUnqualifiedChars : Object.keys(unqualifiedCharacters).length,
             numCharsBelowSeenCountThreshold : charsAtOrBelowSeenCountThreshold.length,
-            numUnaccountedForChars : Object.keys(allChineseCharacters).length
+            numUnaccountedForChars : numUnaccountedForChars,
+            // unaccountedForChars : allChineseCharacters
+            // unqualifiedCharactersAtStep : currentUnqualifiedChars
         }
         this.loggingData.push(stats);
     }
 }
+
 class SentenceGenerator {
 
     constructor(config) {
@@ -371,9 +390,33 @@ class SentenceGenerator {
 
     generateSentences() {
         const randomizedSentencesByHSKLevel = this._generateRandomizedSentences();
+        this._logAtStep("_generateRandomizedSentences", this.characterMetadata.hskCharacterToLevelMap, randomizedSentencesByHSKLevel);
         const filteredRandomizedSentencesByHskLevel = this._filterSentences(randomizedSentencesByHSKLevel);
+        this._logAtStep("_filterSentences", this.characterMetadata.hskCharacterToLevelMap, filteredRandomizedSentencesByHskLevel);
+        const unqualifiedAddedSentencesByHskLevel = this._generateSentencesFromUnqualifiedChars(filteredRandomizedSentencesByHskLevel);
+
         const logs = this.logger.loggingData;
         console.log(JSON.stringify(logs, null, 4));
+    }
+
+    // Generate another set after the filtering with the unqualified chars to see if there are any sentences we could've generated
+    // No need to filter again since we already know this is a set of filtered sentences
+    _generateSentencesFromUnqualifiedChars(sentencesByHSKLevel) {
+        const combinedSentencesByHskLevel = {};
+        Object.keys(this.unqualifiedCharacters).forEach((unqualifiedCharacter) => {
+            const hskLevel = this.characterMetadata.hskCharacterToLevelMap[unqualifiedCharacter];
+            this.chineseCharacterCandidates[hskLevel][unqualifiedCharacter] = true;
+        });
+
+        const candidatesAtStep = JSON.parse(JSON.stringify(this.chineseCharacterCandidates));
+
+        const anotherRandomizedSet = this._generateRandomizedSentences();
+        const anotherFilteredSet = this._filterSentencesByUnseenCharCount(anotherRandomizedSet);
+        this.levelsToInclude.forEach((level) => {
+            combinedSentencesByHskLevel[level] = sentencesByHSKLevel[level].concat(anotherFilteredSet[level]);
+        });
+        this._logAtStep("_generateSentencesFromUnqualifiedChars", candidatesAtStep, combinedSentencesByHskLevel);
+        return combinedSentencesByHskLevel;
     }
 
     // Filter out sentences
@@ -400,20 +443,25 @@ class SentenceGenerator {
                 }
                 const willKeepSentence = charsOneAboveThreshold.length >= this.numUnseenToKeep;
                 if (!willKeepSentence) {
-                    charactersInSentence.forEach((character) => {
+                    const alreadySeen = {};
+                    for (var j = 0; j < charactersInSentence.length; j++) {
+                        const character = charactersInSentence[j];
+                        if (alreadySeen[character]) {
+                            continue;
+                        }
                         if (this.chineseCharacterSeenCount[character] != null) {
                             this.chineseCharacterSeenCount[character]--;
                             if (this.chineseCharacterSeenCount[character] == 0) {
                                 this.unqualifiedCharacters[character] = 0;
                             }
                         }
-                    })
+                        alreadySeen[character] = true;
+                    }
                 }
                 return willKeepSentence;
             });
             filteredSentencesByHskLevel[hskLevel] = filteredSentencesForCurrentLevel;
         }
-        this._logAtStep("_filterSentencesByUnseenCharCount", filteredSentencesByHskLevel);
         return filteredSentencesByHskLevel;
     }
 
@@ -448,8 +496,7 @@ class SentenceGenerator {
             }
             randomizedSentencesByHSKLevel[hskLevel] = generatedSentencesForLevel;
         });
-        
-        this._logAtStep("_generateRandomizedSentences", randomizedSentencesByHSKLevel);
+
         return randomizedSentencesByHSKLevel;
     }
 
@@ -492,9 +539,11 @@ class SentenceGenerator {
     }
 
     // helpers
-    _logAtStep(stepName, sentencesByHSKLevel) {
-        this.logger.logAtStep(stepName, 
-            this.characterMetadata, 
+    _logAtStep(stepName, candidatesAtStep, sentencesByHSKLevel) {
+        this.logger.logAtStep(
+            this.characterMetadata,
+            stepName, 
+            candidatesAtStep, 
             sentencesByHSKLevel, 
             this.unqualifiedCharacters,
             this.chineseCharacterSeenCount,
@@ -532,7 +581,6 @@ class SentenceGeneratorConfig {
 
 
 function main() {
-    const targetLevel = 4;
     const chineseWordModelsByHskLevelMap = {
         1 : mapJsonToChineseWordModel(hskLevel1),
         2 : mapJsonToChineseWordModel(hskLevel2),
@@ -545,7 +593,7 @@ function main() {
             chineseWordModelsByHskLevelMap,
             4, // targetLevel,
             0, // seenCountThreshold,
-            2 // numUnseenToKeep
+            2, // numUnseenToKeep
         )
     );
     console.log(Object.keys(sentenceGenerator.characterMetadata.characterToValidSentenceMap).length);
