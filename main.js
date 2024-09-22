@@ -235,7 +235,7 @@ function addInfoRowToTable(info, tableType) {
         const textInput = document.createElement("input");
         textInput.setAttribute("id", tableCellRequiringUpdateIds[5] + info.character);
         textInput.setAttribute("type", "text");
-        textInput.classList.add("shortColumn");
+        textInput.classList.add("longColumn");
         sentenceCell.appendChild(textInput);
         textInput.value = info.sentence;
 

@@ -526,7 +526,7 @@ tr a {
   position:absolute;
   top: 4vh;
   left: 2vw;
-  width: 47vw;
+  width: 60vw;
   height : 90vh;
   overflow-y:scroll;
   display:block;
@@ -546,13 +546,13 @@ tr a {
 }
 
 .tableFormatting .longColumn {
-  width : 25vw;
+  width : 15vw;
 }
 
 .currentInfoTable {
   position:absolute;
   top: 4vh;
-  left: 52vw;
+  left: 63vw;
   width: 19vw;
   height : 90vh;
   overflow-y:scroll;
@@ -562,7 +562,7 @@ tr a {
 .loserTable {
   position:absolute;
   top: 4vh;
-  left: 75vw;
+  left: 83vw;
   width: 15vw;
   height : 90vh;
   overflow-y:scroll;
