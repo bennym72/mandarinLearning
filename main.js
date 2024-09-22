@@ -1124,7 +1124,7 @@ function generateSentenceInfo(value, index, sentenceCheck) {
     }); 
     const pPicked = Math.round((appearancePercentage  + Number.EPSILON) * 1000) / 1000; 
 
-    const updatePriority = Math.round(((pPicked/sentenceValue) + Number.EPSILON) * 1000) / 1000; 
+    const updatePriority = Math.round(((pPicked/sentenceValue) + Number.EPSILON) * 1000) / 1000 + (excludedChars.length > 0 ? 100 : 0); 
 
     const charValueInSentences = singleCharMapToDefinition[character] ? Math.round((singleCharMapToDefinition[character].characterValueInSentences+ Number.EPSILON) * 1000) / 1000 : 0;
 
