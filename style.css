@@ -111,8 +111,9 @@ button {
   position: absolute;
   top: 2vh;
   width: 80vw;
+  left: 5vw;
   color: #ffffff;
-  text-align: center;
+  text-align: left;
 }
 
 .overallCounter {
