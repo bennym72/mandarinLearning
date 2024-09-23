@@ -464,10 +464,27 @@ class SentenceGenerator {
                 this.generatedMoreThanOneSetFromUnqualifiedChars += nextCount - prevCount;
             }
         } while (prevCount != nextCount);
-        
         const unqualifiedAddedChineseCharsByHskLevel = next;
 
         const randomizedChineseSentencesByHSKLevel = this._convertChineseCharsToChineseSentenceModels(unqualifiedAddedChineseCharsByHskLevel);
+        
+        /** - code to confirm actual unqualified characters vs. expected ones before grouped char generation
+        const actualUnqualifiedCharacters = JSON.parse(JSON.stringify(this.characterMetadata.hskCharacterToLevelMap));
+        Object.keys(randomizedChineseSentencesByHSKLevel).forEach((hskLevel) => {
+            const sentenceModels = randomizedChineseSentencesByHSKLevel[hskLevel];
+            sentenceModels.forEach((sentenceModel) => {
+                sentenceModel.character.split("").forEach((chineseCharacter) => {
+                    delete actualUnqualifiedCharacters[chineseCharacter];
+                });
+            });
+        });
+        if (Object.keys(actualUnqualifiedCharacters).length == Object.keys(this.unqualifiedCharacters).length) {
+            Object.keys(this.unqualifiedCharacters).forEach((chineseCharacter) => {
+                delete actualUnqualifiedCharacters[chineseCharacter];
+            })
+        }
+        */
+        
         const finalizedUnqualifiedChars = JSON.parse(JSON.stringify(this.unqualifiedCharacters));
         const unqualifiedCharacterGroupsAsChineseSentenceModels = this._groupUnqualifiedCharacters();
         this._logAtStep("_groupUnqualifiedCharacters", 
@@ -778,6 +795,8 @@ class SentenceGenerator {
     }
 
     // Randomized Sentence Generation
+
+    // Randomized Sentence Generation
     _generateRandomizedSentences() {
         const randomizedSentencesByHSKLevel = {};
         this.levelsToInclude.forEach((hskLevel) => {
@@ -787,23 +806,25 @@ class SentenceGenerator {
                 const randomCandidateIndex = this._randomIndex(currentCandidates);
                 const currentCandidate = currentCandidates[randomCandidateIndex];
                 const validChineseWordModels = this.characterMetadata.characterToValidSentenceMap[currentCandidate];
-                const validChineseWordModelsKeys = Object.keys(validChineseWordModels);
-                let addedValidCandidate = false;
-                while (validChineseWordModelsKeys.length > 0) {
-                    const randomValidChineseWordModelIndex = this._randomIndex(validChineseWordModelsKeys);
-                    const randomValidChineseWordModel = validChineseWordModels[validChineseWordModelsKeys[randomValidChineseWordModelIndex]];
-                    if (this._isQualifiedSentence(randomValidChineseWordModel)) {
-                        randomValidChineseWordModel.setUnderlyingChar(randomValidChineseWordModel.character);
-                        this._updateSeenCountAndRemoveCharsFromCandidatePool(randomValidChineseWordModel);
-                        generatedSentencesForLevel.push(randomValidChineseWordModel);
-                        addedValidCandidate = true;
-                        break;
-                    } else {
-                        validChineseWordModelsKeys.splice(randomValidChineseWordModelIndex, 1);
+                if (validChineseWordModels) {
+                    const validChineseWordModelsKeys = Object.keys(validChineseWordModels);
+                    let addedValidCandidate = false;
+                    while (validChineseWordModelsKeys.length > 0) {
+                        const randomValidChineseWordModelIndex = this._randomIndex(validChineseWordModelsKeys);
+                        const randomValidChineseWordModel = validChineseWordModels[validChineseWordModelsKeys[randomValidChineseWordModelIndex]];
+                        if (this._isQualifiedSentence(randomValidChineseWordModel)) {
+                            randomValidChineseWordModel.setUnderlyingChar(randomValidChineseWordModel.character);
+                            this._updateSeenCountAndRemoveCharsFromCandidatePool(randomValidChineseWordModel);
+                            generatedSentencesForLevel.push(randomValidChineseWordModel);
+                            addedValidCandidate = true;
+                            break;
+                        } else {
+                            validChineseWordModelsKeys.splice(randomValidChineseWordModelIndex, 1);
+                        }
                     }
-                }
-                if (!addedValidCandidate) {
-                    this.unqualifiedCharacters[currentCandidate] = 0;
+                    if (!addedValidCandidate) {
+                        this.unqualifiedCharacters[currentCandidate] = 0;
+                    }
                 }
                 delete this.chineseCharacterCandidates[hskLevel][currentCandidate];
             }

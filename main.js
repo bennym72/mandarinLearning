@@ -69,7 +69,7 @@ var _inputTable;
 var langDataToUse = {}; //newLangData;
 var _highestChosenHSKLevel = 0; // defaults to 0
 var _highestAvailableHSKLevel = 0;
-var _sentenceDataInput = "1,2,3,4";
+var _sentenceDataInput = "1,2,3,4,5";
 
 const _hskLevelToSingleCharMap = {};
 const _hskLevelToSentencedDataMap = {};
@@ -107,6 +107,7 @@ const hskLevelString = "hsk_level_";
 var data = hskLevel1.concat(hskLevel2);
 data = data.concat(hskLevel3);
 data = data.concat(hskLevel4);
+data = data.concat(hskLevel5);
 
 // pragma mark - setup
 
@@ -461,7 +462,7 @@ function initializeData() {
     
     _initialTableData = _initialTableData.sort((a, b) => {
         if (a.hsk_level - b.hsk_level != 0) {
-            return a.hsk_level - b.hsk_level;
+            return b.hsk_level - a.hsk_level;
         }
         if (a.part_of_speech < b.part_of_speech) {
             return - 1;
@@ -2948,23 +2949,25 @@ class SentenceGenerator {
                 const randomCandidateIndex = this._randomIndex(currentCandidates);
                 const currentCandidate = currentCandidates[randomCandidateIndex];
                 const validChineseWordModels = this.characterMetadata.characterToValidSentenceMap[currentCandidate];
-                const validChineseWordModelsKeys = Object.keys(validChineseWordModels);
-                let addedValidCandidate = false;
-                while (validChineseWordModelsKeys.length > 0) {
-                    const randomValidChineseWordModelIndex = this._randomIndex(validChineseWordModelsKeys);
-                    const randomValidChineseWordModel = validChineseWordModels[validChineseWordModelsKeys[randomValidChineseWordModelIndex]];
-                    if (this._isQualifiedSentence(randomValidChineseWordModel)) {
-                        randomValidChineseWordModel.setUnderlyingChar(randomValidChineseWordModel.character);
-                        this._updateSeenCountAndRemoveCharsFromCandidatePool(randomValidChineseWordModel);
-                        generatedSentencesForLevel.push(randomValidChineseWordModel);
-                        addedValidCandidate = true;
-                        break;
-                    } else {
-                        validChineseWordModelsKeys.splice(randomValidChineseWordModelIndex, 1);
+                if (validChineseWordModels) {
+                    const validChineseWordModelsKeys = Object.keys(validChineseWordModels);
+                    let addedValidCandidate = false;
+                    while (validChineseWordModelsKeys.length > 0) {
+                        const randomValidChineseWordModelIndex = this._randomIndex(validChineseWordModelsKeys);
+                        const randomValidChineseWordModel = validChineseWordModels[validChineseWordModelsKeys[randomValidChineseWordModelIndex]];
+                        if (this._isQualifiedSentence(randomValidChineseWordModel)) {
+                            randomValidChineseWordModel.setUnderlyingChar(randomValidChineseWordModel.character);
+                            this._updateSeenCountAndRemoveCharsFromCandidatePool(randomValidChineseWordModel);
+                            generatedSentencesForLevel.push(randomValidChineseWordModel);
+                            addedValidCandidate = true;
+                            break;
+                        } else {
+                            validChineseWordModelsKeys.splice(randomValidChineseWordModelIndex, 1);
+                        }
                     }
-                }
-                if (!addedValidCandidate) {
-                    this.unqualifiedCharacters[currentCandidate] = 0;
+                    if (!addedValidCandidate) {
+                        this.unqualifiedCharacters[currentCandidate] = 0;
+                    }
                 }
                 delete this.chineseCharacterCandidates[hskLevel][currentCandidate];
             }
@@ -3073,7 +3076,8 @@ function generateSentencesForV2(setUpWindow) {
         1 : mapJsonToChineseWordModel(hskLevel1),
         2 : mapJsonToChineseWordModel(hskLevel2),
         3 : mapJsonToChineseWordModel(hskLevel3),
-        4 : mapJsonToChineseWordModel(hskLevel4)
+        4 : mapJsonToChineseWordModel(hskLevel4),
+        5 : mapJsonToChineseWordModel(hskLevel5),
     };
     const sentenceGenerator = new SentenceGenerator(
         new SentenceGeneratorConfig(
