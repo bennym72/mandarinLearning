@@ -1185,10 +1185,21 @@ class BaseBoard {
             const sentenceGenerator = window.sentenceGenerator;
             const finalValidation = sentenceGenerator.finalValidation;
             this.siteState.sentenceTotal = Object.keys(sentenceGenerator.characterMetadata.hskCharacterToLevelMap).length;
+            
+            const charMetadata = sentenceGenerator.characterMetadata;
+            var charCounter = 0;
+            sentenceGenerator.generatedSentences.forEach((chineseSentenceModel) => {
+                const charsFromSentence = chineseSentenceModel.character.split("").filter((character) => {
+                    return charMetadata.isValidCharacter(character);
+                });
+                charCounter += charsFromSentence.length;
+            });
+            
             const sentenceToChar = "# sen: " + finalValidation.initialSentenceCount 
             + "; # chr: " + finalValidation.finalizedUnqualifiedChars.total 
             + "; # del: " + (finalValidation.initialSentenceCount - finalValidation.finalSentenceCount)
-            + "; # xg: " + sentenceGenerator.generatedMoreThanOneSetFromUnqualifiedChars;
+            + "; # xg: " + sentenceGenerator.generatedMoreThanOneSetFromUnqualifiedChars
+            + "; # sum " + charCounter;
             this.siteState.overview = sentenceToChar;
         } else if (isSentenceMode) {
 
