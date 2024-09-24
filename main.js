@@ -104,10 +104,12 @@ if (isGenerateMode) {
 
 const hskLevelString = "hsk_level_";
 
+var hskLevel5ToUse = isSentenceMode || isSentenceModeV2 ? hskLevel5Sentences : hskLevel5;
+
 var data = hskLevel1.concat(hskLevel2);
 data = data.concat(hskLevel3);
 data = data.concat(hskLevel4);
-data = data.concat(hskLevel5);
+data = data.concat(hskLevel5ToUse);
 
 // pragma mark - setup
 
@@ -3088,12 +3090,12 @@ function generateSentencesForV2(setUpWindow) {
         2 : mapJsonToChineseWordModel(hskLevel2),
         3 : mapJsonToChineseWordModel(hskLevel3),
         4 : mapJsonToChineseWordModel(hskLevel4),
-        5 : mapJsonToChineseWordModel(hskLevel5),
+        5 : mapJsonToChineseWordModel(hskLevel5ToUse),
     };
     const sentenceGenerator = new SentenceGenerator(
         new SentenceGeneratorConfig(
             chineseWordModelsByHskLevelMap,
-            4, // targetLevel,
+            5, // targetLevel,
             0, // seenCountThreshold,
             2, // numUnseenToKeep
         )
