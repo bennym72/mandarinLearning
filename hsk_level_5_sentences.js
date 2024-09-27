@@ -217,7 +217,7 @@ var hskLevel5Sentences = [
         "hsk_level": 5,
         "part_of_speech": "adjective",
         "compound_cantonese": "",
-        "compound": "虽然地面是平的，但是桌子却稍微斜了。",
+        "compound": "虽然地面是平坦，但是桌子却稍微斜了。",
         "compound_pinyin": "Suīrán dìmiàn píngtǎn, dànshì zhuōzi què shāowéi xiéle.",
         "compound_definition": "Although the ground was flat, the table was slightly tilted.",
         "valid_sentence": "",

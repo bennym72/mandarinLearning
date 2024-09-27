@@ -11,7 +11,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ yǒu yī běn shū.",
         "compound_definition": "I have one book.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 2,
@@ -25,7 +25,7 @@ var hskLevel1 = [
         "compound_pinyin": "Qǐng děng yīxiàr.",
         "compound_definition": "Please wait for a moment.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 3
     },
     {
         "id": 3,
@@ -39,7 +39,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhè shì yīxiē shuǐguǒ.",
         "compound_definition": "These are some fruits.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 4,
@@ -53,7 +53,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā yīhuìr jiù huílái.",
         "compound_definition": "He will be back in a moment.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 3
     },
     {
         "id": 5,
@@ -67,7 +67,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā chīle yībàn miànbāo.",
         "compound_definition": "He ate half of the bread.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 6,
@@ -81,7 +81,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒmen yīkuàir qù kàn diànyǐng ba.",
         "compound_definition": "Let's go watch a movie together.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 3
     },
     {
         "id": 7,
@@ -95,7 +95,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhè liǎng gè shǒujī yīyàng hǎo.",
         "compound_definition": "These two phones are equally good.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 8,
@@ -109,7 +109,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ yào yīdiǎnr shuǐ.",
         "compound_definition": "I want a bit of water.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 3
     },
     {
         "id": 9,
@@ -123,7 +123,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒmen yīqǐ chī wǎnfàn ba.",
         "compound_definition": "Let's have dinner together.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 10,
@@ -137,7 +137,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā yībiān chī fàn; yībiān kàn diànshì.",
         "compound_definition": "He's eating and watching TV at the same time.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 11,
@@ -151,7 +151,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā yǒu qī běn shū.",
         "compound_definition": "He has seven books.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 12,
@@ -165,7 +165,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā yǒu sān gè péngyǒu.",
         "compound_definition": "He has three friends.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 13,
@@ -179,7 +179,7 @@ var hskLevel1 = [
         "compound_pinyin": "Xuéxiào zài shān shàng.",
         "compound_definition": "The school is on the hill.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 14,
@@ -193,7 +193,7 @@ var hskLevel1 = [
         "compound_pinyin": "Jīntiān shàngwǔ tiānqì hěn hǎo.",
         "compound_definition": "The weather is very good this morning.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 15,
@@ -207,7 +207,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zǎoshang qī diǎn wǒ shàngxué.",
         "compound_definition": "I go to school at 7 o'clock in the morning.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 16,
@@ -221,7 +221,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒmen shàngcì jiànmiàn shì zài yīgè yuè qián.",
         "compound_definition": "The last time we met was a month ago.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 17,
@@ -235,7 +235,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā měitiān zǎoshang qī diǎn shàngbān.",
         "compound_definition": "He goes to work at seven o'clock every morning.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 18,
@@ -249,7 +249,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ xǐhuān zài wǎnshàng shàngwǎng.",
         "compound_definition": "I like to go online in the evening.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 19,
@@ -263,7 +263,7 @@ var hskLevel1 = [
         "compound_pinyin": "Míngtiān wǒmen shàngkè yǒu xīn lǎoshī.",
         "compound_definition": "We will have a new teacher in class tomorrow.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 20,
@@ -277,7 +277,7 @@ var hskLevel1 = [
         "compound_pinyin": "Qǐng kuàidiǎn shàngchē; chē yào kāi le.",
         "compound_definition": "Please get on the car quickly; the car is about to leave.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 21,
@@ -291,7 +291,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ jiā zài shān xià.",
         "compound_definition": "My house is downhill.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 22,
@@ -305,7 +305,7 @@ var hskLevel1 = [
         "compound_pinyin": "Èr hào xì xiàmiàn hěn gānjìng.",
         "compound_definition": "Èr hào xì xiàmiàn hěn gānjìng.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 23,
@@ -319,7 +319,7 @@ var hskLevel1 = [
         "compound_pinyin": "Míngtiān xiàwǔ wǒmen yào chūqù wán.",
         "compound_definition": "We are going out to play tomorrow afternoon.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 24,
@@ -333,7 +333,7 @@ var hskLevel1 = [
         "compound_pinyin": "Xiàcì wǒmen yīqǐ chī wǔfàn ba.",
         "compound_definition": "Let's have lunch together next time.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 25,
@@ -347,7 +347,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǎnshàng liù diǎn wǒ xiàbān.",
         "compound_definition": "I finish work at 6 o'clock in the evening.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 26,
@@ -361,7 +361,7 @@ var hskLevel1 = [
         "compound_pinyin": "Xiàwǔ sān diǎn wǒmen xiàkè.",
         "compound_definition": "We finish class at 3 o'clock in the afternoon.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 27,
@@ -375,7 +375,7 @@ var hskLevel1 = [
         "compound_pinyin": "Qǐng zài zhèlǐ xiàchē.",
         "compound_definition": "Please get off the car here.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 28,
@@ -389,7 +389,7 @@ var hskLevel1 = [
         "compound_pinyin": "Shū zài zhuōzi xiàbiān.",
         "compound_definition": "The book is under the table.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 29,
@@ -403,7 +403,7 @@ var hskLevel1 = [
         "compound_pinyin": "Jīntiān xiàyǔ le.",
         "compound_definition": "It's raining today.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 30,
@@ -417,7 +417,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhè bù shì wǒ de shū",
         "compound_definition": "This is not my book.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 31,
@@ -431,7 +431,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhège fángjiān bù dà.",
         "compound_definition": "This room is not big.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 32,
@@ -445,7 +445,7 @@ var hskLevel1 = [
         "compound_pinyin": "Duìbùqǐ, wǒ cuò le.",
         "compound_definition": "I'm sorry, I was wrong.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 3
     },
     {
         "id": 33,
@@ -459,7 +459,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǐ bùyòng děng wǒ, wǒ zhīdào lù.",
         "compound_definition": "You don't need to wait for me; I know the way.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 34,
@@ -473,7 +473,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ bù yòng zhège",
         "compound_definition": "I don't need this.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 35,
@@ -487,7 +487,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ de jiā zài dōngbiān",
         "compound_definition": "My home is in the east.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 36,
@@ -501,7 +501,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ mǎile yīxiē dōngxi.",
         "compound_definition": "I bought some things.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 37,
@@ -515,7 +515,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ de xuéxiào zài dōngbiān",
         "compound_definition": "My school is in the east.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 38,
@@ -529,7 +529,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ yǒu liǎng běn shū.",
         "compound_definition": "I have two books.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 39,
@@ -543,7 +543,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nàgè shuǐguǒ hěn hào chī, nǐ shì zài nǎ jiā diàn mǎi de?",
         "compound_definition": "That fruit is very tasty, which store did you buy it from?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 40,
@@ -557,7 +557,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhōngguó shì yīgè dàguó.",
         "compound_definition": "China is a big country.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 41,
@@ -571,7 +571,7 @@ var hskLevel1 = [
         "compound_pinyin": "Xiànzài shì zhōngwǔ, wǒmen yīqǐ chī wǔfàn ba.",
         "compound_definition": "It's noon now, let's have lunch together.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 42,
@@ -585,7 +585,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhōngguó yǒu hěnduō rénkǒu",
         "compound_definition": "China has a large population.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 43,
@@ -599,7 +599,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ dìdì xiànzài zài zhōngxué shàng xué",
         "compound_definition": "My younger brother is now studying in middle school.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 44,
@@ -613,7 +613,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ de mèimei shì yī míng zhōngxuéshēng.",
         "compound_definition": "My younger sister is a middle school student.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 3
     },
     {
         "id": 45,
@@ -627,7 +627,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ zhèngzài xuéxí zhōngwén.",
         "compound_definition": "I am learning Chinese.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 46,
@@ -641,7 +641,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ zuò zài zhuōzi de zhōngjiān",
         "compound_definition": "I am sitting in the middle of the table.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 47,
@@ -655,7 +655,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǐ xiǎng yào shénme?",
         "compound_definition": "What do you want?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 48,
@@ -669,7 +669,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ yǒu jiǔ gè shuǐguǒ.",
         "compound_definition": "I have nine fruits.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 49,
@@ -683,7 +683,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā yě xǐhuān kàn diànyǐng.",
         "compound_definition": "He also likes to watch movies.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 50,
@@ -697,7 +697,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā zài xuéxiào lǐ xí xuéle hěnduō zhīshì.",
         "compound_definition": "He acquired a lot of knowledge in school.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 51,
@@ -711,7 +711,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhè shì yī běn hǎo shū.",
         "compound_definition": "This is a good book.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 52,
@@ -725,7 +725,7 @@ var hskLevel1 = [
         "compound_pinyin": "Qǐngwèn nǐ de shūbāo zài nǎlǐ?",
         "compound_definition": "Where is your school bag, may I ask?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 53,
@@ -739,7 +739,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ xǐhuān zài shūdiàn lǐ kànshū.",
         "compound_definition": "I like to read books in the bookstore.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 54,
@@ -753,7 +753,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ yào mǎi yī běn xīnshū.",
         "compound_definition": "I want to buy a new book.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 55,
@@ -767,7 +767,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zuótiān wǒ hé mèimei yīqǐ chīle wǎnfàn.",
         "compound_definition": "Yesterday I ate dinner with my younger sister.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 56,
@@ -781,7 +781,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ yǒu hěnduō shì yào zuò.",
         "compound_definition": "I have a lot of things to do.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 57,
@@ -795,7 +795,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā shì wǒ de èrgē.",
         "compound_definition": "He is my second older brother.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 58,
@@ -809,7 +809,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ jiā yǒu wǔ kǒu rén.",
         "compound_definition": "There are five people in my family.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 59,
@@ -823,7 +823,7 @@ var hskLevel1 = [
         "compound_pinyin": "Qǐng gěi wǒ yīxiē shuǐ.",
         "compound_definition": "Please give me some water.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 60,
@@ -837,7 +837,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ jiā zài Nánjīng.",
         "compound_definition": "My house is in Nanjing.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 61,
@@ -851,7 +851,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhège fángjiān yǒu hěnduō rén.",
         "compound_definition": "This room has many people.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 62,
@@ -865,7 +865,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ hěn máng, nǐ xiǎng zuò shénme?",
         "compound_definition": "I'm very busy; what do you want to do?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 63,
@@ -879,7 +879,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǐ zhīdào shénme?",
         "compound_definition": "What do you know?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 64,
@@ -893,7 +893,7 @@ var hskLevel1 = [
         "compound_pinyin": "Jīntiān tiānqì hěn hǎo.",
         "compound_definition": "The weather is very nice today.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 65,
@@ -907,7 +907,7 @@ var hskLevel1 = [
         "compound_pinyin": "Jīntiān shì xīngqī sān.",
         "compound_definition": "Today is Wednesday.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 66,
@@ -921,7 +921,7 @@ var hskLevel1 = [
         "compound_pinyin": "Jīnnián shì wǒ de shēngrì.",
         "compound_definition": "This year is my birthday.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 67,
@@ -935,7 +935,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhè shì wǒ de gèrén jièshào.",
         "compound_definition": "This is my personal introduction.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 68,
@@ -949,7 +949,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ míngtiān yào jièshào wǒ de péngyǒu gěi nǐ rènshi.",
         "compound_definition": "I will introduce my friend to you tomorrow.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 69,
@@ -963,7 +963,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ cóng xuéxiào huí jiā.",
         "compound_definition": "I'm going home from school.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 70,
@@ -977,7 +977,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā shì wǒ de péngyǒu.",
         "compound_definition": "He is my friend.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 71,
@@ -991,7 +991,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tāmen shì wǒ de péngyǒu.",
         "compound_definition": "They are my friends.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 72,
@@ -1005,7 +1005,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒmen de jiārén dōu hěn yǒuhǎo.",
         "compound_definition": "Our family members are all very friendly.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 73,
@@ -1019,7 +1019,7 @@ var hskLevel1 = [
         "compound_pinyin": "Míngtiān shì xīngqī liù; wǒ yào xiūxí.",
         "compound_definition": "Tomorrow is Saturday; and I'm going to rest.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 74,
@@ -1033,7 +1033,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǎnshàng huí jiā hòu; wǒ xǐhuān xiūxí.",
         "compound_definition": "I like to relax when I get home in the evening.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 75,
@@ -1047,7 +1047,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ huì hé tāmen yīqǐ qù chī wǎnfàn.",
         "compound_definition": "I will go to dinner with them.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 76,
@@ -1061,7 +1061,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā zhù zài yīgè dà fángzi lǐ",
         "compound_definition": "He lives in a big house.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 77,
@@ -1075,7 +1075,7 @@ var hskLevel1 = [
         "compound_pinyin": "Kàn dào nǐ de shēntǐ wǒ jiù míngbáile.",
         "compound_definition": "I understand seeing your body.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 78,
@@ -1089,7 +1089,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā zhèngzài shū de yī yè shàng xiězuò hànzì.",
         "compound_definition": "He is writing Chinese characters on a page of a book.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 79,
@@ -1103,7 +1103,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǐ nále lěng nǎo ma?",
         "compound_definition": "Did you take the cold brain?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 80,
@@ -1117,7 +1117,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǐmen dōu zhǔnbèi hǎo le ma?",
         "compound_definition": "Are you all ready?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 81,
@@ -1131,7 +1131,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒmen zài jīchǎng hòu jī",
         "compound_definition": "We are waiting at the airport.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 82,
@@ -1145,7 +1145,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ de jiějiě hé mèimèi zài fàngjià. ",
         "compound_definition": "My older sister and younger sister are on vacation.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 83,
@@ -1159,7 +1159,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā xǐhuān zuò miànbāo.",
         "compound_definition": "He likes to make bread.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 84,
@@ -1173,7 +1173,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā de érzi zài dúshū.",
         "compound_definition": "His son is studying.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 85,
@@ -1187,7 +1187,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā de érzi měitiān zài xuéxiào de jiàoshì lǐ xuéxí. ",
         "compound_definition": "His son studies every day in the classroom at school.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 86,
@@ -1201,7 +1201,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā mǎi le yī bēi rèchá, huā le wǔ yuán. ",
         "compound_definition": "He bought a cup of hot tea and spent five yuan.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 87,
@@ -1215,7 +1215,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǐ xiān chī; wǒ děng yīxià.",
         "compound_definition": "You go ahead and eat; I'll wait for a moment.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 88,
@@ -1229,7 +1229,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nàge xiānsheng shì wǒ de lǎoshī. ",
         "compound_definition": "That gentleman is my teacher.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 89,
@@ -1243,7 +1243,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ de shēngrì shì shíyī yuè bā hào. ",
         "compound_definition": "My birthday is on November eighth.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 90,
@@ -1257,7 +1257,7 @@ var hskLevel1 = [
         "compound_pinyin": "Xīngqī liù shì wǒ zuì xǐhuān de yītiān.",
         "compound_definition": "Saturday is my favorite day.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 91,
@@ -1271,7 +1271,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nín bié wàngjìle guānmén.",
         "compound_definition": "Don't forget to close the door.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 92,
@@ -1285,7 +1285,7 @@ var hskLevel1 = [
         "compound_pinyin": "Qǐng guānshàng mén.",
         "compound_definition": "Please close the door.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 93,
@@ -1299,7 +1299,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tāmen zài shēngrì fàndiàn shàng wán dé fēicháng gāoxìng",
         "compound_definition": "They had a very joyful time at the birthday restaurant.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 94,
@@ -1313,7 +1313,7 @@ var hskLevel1 = [
         "compound_pinyin": "Xièxiè nǐ, wǒ huì zàilái de.",
         "compound_definition": "Thank you; I will come again.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 95,
@@ -1327,7 +1327,7 @@ var hskLevel1 = [
         "compound_pinyin": "Xiàcì zàijiàn!",
         "compound_definition": "See you next time!",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 96,
@@ -1341,7 +1341,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ xiǎng màn man de xiězuò hànzì.",
         "compound_definition": "I want to write Chinese characters slowly.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 97,
@@ -1355,7 +1355,7 @@ var hskLevel1 = [
         "compound_pinyin": "Shéi xǐhuān zài lěng zhōng wàichū?",
         "compound_definition": "Who likes to go out in the cold?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 98,
@@ -1369,7 +1369,7 @@ var hskLevel1 = [
         "compound_pinyin": "Fángjiān pángbiān de zhuōzi hěn gānjìng.",
         "compound_definition": "The table beside the room is very clean.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 99,
@@ -1383,7 +1383,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ de péngyǒu zhǔnbèi hǎo le.",
         "compound_definition": "My friend is ready.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 100,
@@ -1397,7 +1397,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ yào zhǔnbèi wǎnfàn.",
         "compound_definition": "I'm going to prepare dinner.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 101,
@@ -1411,7 +1411,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǐ yǒu jǐ běn shū?",
         "compound_definition": "How many books do you have?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 102,
@@ -1425,7 +1425,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā cóng fángjiān chūlái le.",
         "compound_definition": "He came out of the room.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 103,
@@ -1439,7 +1439,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ yào chūqù yīxià; mǎshàng huílái.",
         "compound_definition": "I need to go out for a moment; I'll be right back.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 104,
@@ -1453,7 +1453,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǐ jǐ diǎn chūlái chī wǔfàn?",
         "compound_definition": "What time are you coming out for lunch?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 105,
@@ -1467,7 +1467,7 @@ var hskLevel1 = [
         "compound_pinyin": "Qǐng mǎshàng fēnkāi.",
         "compound_definition": "Please immediately separate.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 106,
@@ -1481,7 +1481,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǐ bié zài qùle. Xièxiè nǐ.",
         "compound_definition": "Don't go any further. Thank you.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 107,
@@ -1495,7 +1495,7 @@ var hskLevel1 = [
         "compound_pinyin": "Biérén de wèntí bù guān nǐ de shì.",
         "compound_definition": "Other people's problems are not your business.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 108,
@@ -1509,7 +1509,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ xiǎng yào bié de qiánbāo",
         "compound_definition": "I want a different wallet.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 109,
@@ -1523,7 +1523,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā jīntiān xiàwǔ dào Běijīng.",
         "compound_definition": "He's going to Beijing this afternoon.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 110,
@@ -1537,7 +1537,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǐ xǐhuān qiánmén háishì hòumén?",
         "compound_definition": "Do you like the front door or the back door?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 111,
@@ -1551,7 +1551,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǐ qiántiān qùle nǎlǐ?",
         "compound_definition": "Where did you go the day before yesterday?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 112,
@@ -1565,7 +1565,7 @@ var hskLevel1 = [
         "compound_pinyin": "Qǐng wǎng qiánbiān zǒu",
         "compound_definition": "Please walk forward.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 113,
@@ -1579,7 +1579,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhè běn shū yǒu wǔ gè dòngzuò.",
         "compound_definition": "The book has five actions.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 114,
@@ -1593,7 +1593,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā de wǔdǎo dòngzuò hěn yōuměi.",
         "compound_definition": "His dance movements are very graceful.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 115,
@@ -1607,7 +1607,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ de shūbāo hěn zhòng.",
         "compound_definition": "My school bag is very heavy.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 116,
@@ -1621,7 +1621,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zǎofàn wǒ chī le liǎng gè bāozi.",
         "compound_definition": "I had two steamed buns for breakfast.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 117,
@@ -1635,7 +1635,7 @@ var hskLevel1 = [
         "compound_pinyin": "Shù zài lěng de běi fēng zhōng gēchàng.",
         "compound_definition": "The trees sing in the cold north wind.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 118,
@@ -1649,7 +1649,7 @@ var hskLevel1 = [
         "compound_pinyin": "Běijīng shì Zhōngguó de shǒudū.",
         "compound_definition": "Beijing is the capital of China.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 119,
@@ -1663,7 +1663,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nà ge shān zài chéngshì de běibiān.",
         "compound_definition": "That mountain is to the north of the city.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 120,
@@ -1677,7 +1677,7 @@ var hskLevel1 = [
         "compound_pinyin": "Yīshēng zài yīyuàn gōngzuò.",
         "compound_definition": "Doctors work at the hospital.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 121,
@@ -1691,7 +1691,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ de māma shì yī míng yīshēng.",
         "compound_definition": "My mom is a doctor.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 122,
@@ -1705,7 +1705,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā qù yīyuàn kànbìngle.",
         "compound_definition": "He went to the hospital for a medical checkup.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 123,
@@ -1719,7 +1719,7 @@ var hskLevel1 = [
         "compound_pinyin": "Shí tiān qián, wǒ de mǎ zǒu zài lùshàng.",
         "compound_definition": "Ten days ago; my horse walked on the road.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 124,
@@ -1733,7 +1733,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhōngwǔ wǒmen chī wǔfàn.",
         "compound_definition": "We have lunch at noon.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 125,
@@ -1747,7 +1747,7 @@ var hskLevel1 = [
         "compound_pinyin": "Jīntiān de wǔfàn hěn hàochī.",
         "compound_definition": "Today's lunch is very delicious.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 126,
@@ -1761,7 +1761,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǎnshàng liù diǎn bàn shì wǒjiā de wǎnfàn shíjiān.",
         "compound_definition": "Half past six in the evening is dinner time at my home.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 127,
@@ -1775,7 +1775,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ děngle bàntiān; tā hái méi lái.",
         "compound_definition": "I waited for half a day; but he hasn't arrived yet.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 128,
@@ -1789,7 +1789,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒmen měi bànnián qù dùjià.",
         "compound_definition": "We go on vacation every six months.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 129,
@@ -1803,7 +1803,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ de fángjiān zài nánbiān",
         "compound_definition": "My room is on the south side.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 130,
@@ -1817,7 +1817,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ zhù zài chéngshì de nánbiān.",
         "compound_definition": "I live on the south side of the city.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 131,
@@ -1831,7 +1831,7 @@ var hskLevel1 = [
         "compound_pinyin": "Míngtiān wǒ qù nǐ fángjiān wán.",
         "compound_definition": "I will go to your room tomorrow to play.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 132,
@@ -1845,7 +1845,7 @@ var hskLevel1 = [
         "compound_pinyin": "Qùnián wǒmen qùle Bālí.",
         "compound_definition": "We went to Paris last year.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 133,
@@ -1859,7 +1859,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā shì wǒ de hǎo péngyǒu.",
         "compound_definition": "He is my good friend.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 134,
@@ -1873,7 +1873,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhège bēizi yǒu yī gè kǒu.",
         "compound_definition": "This cup has one opening/mouth.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 135,
@@ -1887,7 +1887,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǐ jiào shénme míngzì?",
         "compound_definition": "What is the name you are called?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 136,
@@ -1901,7 +1901,7 @@ var hskLevel1 = [
         "compound_pinyin": "Qǐng zǒu zài lù de yòu biān",
         "compound_definition": "Please walk on the right side of the road.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 137,
@@ -1915,7 +1915,7 @@ var hskLevel1 = [
         "compound_pinyin": "Shāngdiàn zài dào de yòubiān.",
         "compound_definition": "The store is on the right side of the street.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 138,
@@ -1929,7 +1929,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǐ nǎ jǐ hào dédào xīn dànǎo?",
         "compound_definition": "When did you get your new brain?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 139,
@@ -1943,7 +1943,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zuótiān wǎnshàng tā chīle tài duōdà niúròu miàn.",
         "compound_definition": "He ate too much big beef noodles yesterday evening.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 140,
@@ -1957,7 +1957,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒmen yīqǐ chīfàn ba!",
         "compound_definition": "Let's have a meal together!",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 141,
@@ -1971,7 +1971,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒmen shì tóngxué.",
         "compound_definition": "We are classmates.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 142,
@@ -1985,7 +1985,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ de tóngxué dōu hěn yǒuhǎo.",
         "compound_definition": "My classmates are all very friendly.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 143,
@@ -1999,7 +1999,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhè shì wǒ de míngzì.",
         "compound_definition": "This is my name.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 144,
@@ -2013,7 +2013,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǐ de míngzi hěn dútè.",
         "compound_definition": "Your name is unique.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 145,
@@ -2027,7 +2027,7 @@ var hskLevel1 = [
         "compound_pinyin": "Hòutiān shì wǒ de shēngrì.",
         "compound_definition": "The day after tomorrow is my birthday.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 146,
@@ -2041,7 +2041,7 @@ var hskLevel1 = [
         "compound_pinyin": "Hòutiān shì wǒ de shēngrì.",
         "compound_definition": "The day after tomorrow is my birthday.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 147,
@@ -2055,7 +2055,7 @@ var hskLevel1 = [
         "compound_pinyin": "Xuéxiào hòubiān yǒu yīgè túshūguǎn.",
         "compound_definition": "There is a library behind the school.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 148,
@@ -2069,7 +2069,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zuó wǎn nǐ kàn diànshìle ma?",
         "compound_definition": "Did you watch the television last night?",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 149,
@@ -2083,7 +2083,7 @@ var hskLevel1 = [
         "compound_pinyin": "Jīntiān tiānqì zhēn hǎo, wǒmen chūqù ba.",
         "compound_definition": "The weather is nice today; let's go out.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 150,
@@ -2097,7 +2097,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǐ tīng dào le shénme?",
         "compound_definition": "What did you hear?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 151,
@@ -2111,7 +2111,7 @@ var hskLevel1 = [
         "compound_pinyin": "Míngtiān wǒmen yào zuò tīngxiě liànxí.",
         "compound_definition": "We have a dictation exercise tomorrow.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 152,
@@ -2125,7 +2125,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ tīngdào le nǐ de shēngyīn.",
         "compound_definition": "I heard your voice.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 153,
@@ -2139,7 +2139,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ tīngjiàn le nǐ de diànhuà língshēng.",
         "compound_definition": "I heard your phone ringtone.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 154,
@@ -2153,7 +2153,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā gàosu wǒ míngtiān huì xiàyǔ.",
         "compound_definition": "He told me it will rain tomorrow.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 155,
@@ -2167,7 +2167,7 @@ var hskLevel1 = [
         "compound_pinyin": "Qǐng gàosù wǒ nǐ de dìzhǐ.",
         "compound_definition": "Please tell me your address.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 156,
@@ -2181,7 +2181,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǐ xǐhuān chī shénme ne?",
         "compound_definition": "What do you like to eat?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 157,
@@ -2195,7 +2195,7 @@ var hskLevel1 = [
         "compound_pinyin": "Māmā hé bàba zhèngzài zuò wǎnfàn.",
         "compound_definition": "Mom and Dad are cooking dinner.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 158,
@@ -2209,7 +2209,7 @@ var hskLevel1 = [
         "compound_pinyin": "Xièxiè gēgē jièshào wǒ rènshí yīgè nǚhái.",
         "compound_definition": "Thank you brother for introducing me to a girl.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 159,
@@ -2223,7 +2223,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nín xiǎng yào nǎge xì piào?",
         "compound_definition": "Which ticket system do you want?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 160,
@@ -2237,7 +2237,7 @@ var hskLevel1 = [
         "compound_pinyin": "Qǐng gàosù wǒ nǎxiē shū nǐ xǐhuān.",
         "compound_definition": "Please tell me which books you like.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 161,
@@ -2251,7 +2251,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǐ zhù zài nǎr?",
         "compound_definition": "Where do you live?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 162,
@@ -2265,7 +2265,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǐ shuō dé hěn hǎo; nǎlǐ nǎlǐ.",
         "compound_definition": "You speak very well; not at all.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 163,
@@ -2279,7 +2279,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā xǐhuān chàng gē.",
         "compound_definition": "She likes to sing.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 164,
@@ -2293,7 +2293,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒmen yīqǐ chànggē ba!",
         "compound_definition": "Let's sing together!",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 165,
@@ -2307,7 +2307,7 @@ var hskLevel1 = [
         "compound_pinyin": "Shāngchǎng lǐ yǒu hěnduō shāngdiàn.",
         "compound_definition": "There are many shops in the mall.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 166,
@@ -2321,7 +2321,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒmen qù shāngchǎng mǎi yīfú.",
         "compound_definition": "Let's go to the mall to buy clothes.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 167,
@@ -2335,7 +2335,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhè jiā shāngdiàn mài shū.",
         "compound_definition": "This store sells books.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 168,
@@ -2349,7 +2349,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ bù xǐhuān wán huǒ.",
         "compound_definition": "I don't like to play with fire.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 169,
@@ -2363,7 +2363,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǐ xǐhuān shénme yánsè?",
         "compound_definition": "What color do you like?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 170,
@@ -2377,7 +2377,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ xiǎng hē yī bēi chá.",
         "compound_definition": "I'd like to have a cup of tea.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 171,
@@ -2391,7 +2391,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ nǚ'ér shēngrì shí jiù yào sì suìle.",
         "compound_definition": "My daughter will be four years old on her birthday.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 172,
@@ -2405,7 +2405,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ xīngqí yī qùle běijīng; xīngqíwǔ huílái.",
         "compound_definition": "I went to Beijing on Monday and will return on Friday.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 173,
@@ -2419,7 +2419,7 @@ var hskLevel1 = [
         "compound_pinyin": "Míngtiān wǒmen huì huídào jiā.",
         "compound_definition": "We will return to our home tomorrow.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 174,
@@ -2433,7 +2433,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā jīntiān wǎnshàng yào huíqù gōngzuò.",
         "compound_definition": "He has to go back to work tonight.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 175,
@@ -2447,7 +2447,7 @@ var hskLevel1 = [
         "compound_pinyin": "Xiàbān hòu; wǒ zǒngshì jízhe huíjiā.",
         "compound_definition": "After work; I always rush back home.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 176,
@@ -2461,7 +2461,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā jīntiān wǎnshàng huì huílái ma?",
         "compound_definition": "Will he come back tonight?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 177,
@@ -2475,7 +2475,7 @@ var hskLevel1 = [
         "compound_pinyin": "Qǐng huídá zhège wèntí.",
         "compound_definition": "Please answer this question.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 178,
@@ -2489,7 +2489,7 @@ var hskLevel1 = [
         "compound_pinyin": "Xiànzài zài zhège guójiā méiyǒu xiūxí de shíjiān.",
         "compound_definition": "Now there is no rest from work in this country.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 179,
@@ -2503,7 +2503,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ de péngyǒu zài guówài gōngzuò.",
         "compound_definition": "My friend works abroad.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 180,
@@ -2517,7 +2517,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ rè'ài wǒ de guójiā.",
         "compound_definition": "I love my country.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 181,
@@ -2531,7 +2531,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ mǎi dì dìtú bǐ nǐ dì dìtú hǎo.",
         "compound_definition": "The map I bought is better than your map.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 182,
@@ -2545,7 +2545,7 @@ var hskLevel1 = [
         "compound_pinyin": "Túshūguǎn lǐ yǒu hěnduō shū.",
         "compound_definition": "There are many books in the library.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 3
     },
     {
         "id": 183,
@@ -2559,7 +2559,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā zài xuéxiào lǐ.",
         "compound_definition": "He is at school.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 184,
@@ -2573,7 +2573,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhōumò wǒ xǐhuān zàijiā xiūxí.",
         "compound_definition": "I like to relax at home on weekends.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 185,
@@ -2587,7 +2587,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhèlǐ de dì hěn gānjìng.",
         "compound_definition": "The ground here is very clean.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 186,
@@ -2601,7 +2601,7 @@ var hskLevel1 = [
         "compound_pinyin": "Qǐng bǎ shū fàng zài zhuōzi dìshàng.",
         "compound_definition": "Please put the book on the table.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 187,
@@ -2615,7 +2615,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ chá le dìtú zhǎo dào le lùxiàn.",
         "compound_definition": "I looked at the map and found the route.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 188,
@@ -2629,7 +2629,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhège dìfāng hěn měilì.",
         "compound_definition": "This place is very beautiful.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 189,
@@ -2643,7 +2643,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒmen yuēdìng zài túshūguǎn zuòwéi jiànmiàn de dìdiǎn.",
         "compound_definition": "We agreed to meet at the library as the meeting point.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 190,
@@ -2657,7 +2657,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒmen zài shāngchǎng mǎi dōngxī, chī dōngxī.",
         "compound_definition": "We buy things and eat food at the mall.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 191,
@@ -2671,7 +2671,7 @@ var hskLevel1 = [
         "compound_pinyin": "Shuǐguǒ huàile; nǐ bùnéng chī.",
         "compound_definition": "The fruit went bad; you can't eat it.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 192,
@@ -2685,7 +2685,7 @@ var hskLevel1 = [
         "compound_pinyin": "Qǐng bùyào zuò zài zhuōzi shàng.",
         "compound_definition": "Please don't sit on the table.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 193,
@@ -2699,7 +2699,7 @@ var hskLevel1 = [
         "compound_pinyin": "Dàjiā qǐng zuòxià.",
         "compound_definition": "Everyone; please take a seat.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 194,
@@ -2713,7 +2713,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhuōzi yòubiān yǒu bā kuài shuǐguǒ.",
         "compound_definition": "There are eight pieces of fruit on the right side of the table.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 195,
@@ -2727,7 +2727,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā zhèngzài zhǔnbèi míngtiān de kǎoshì.",
         "compound_definition": "He is preparing for a test tomorrow.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 196,
@@ -2741,7 +2741,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā hé tā de nán péngyǒu zài wàimiàn wán shǒujī.",
         "compound_definition": "She and her boyfriend are outside playing with their cellphones.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 197,
@@ -2755,7 +2755,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ xiǎng qù wàiguó lǚxíng.",
         "compound_definition": "I want to travel to a foreign country.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 198,
@@ -2769,7 +2769,7 @@ var hskLevel1 = [
         "compound_pinyin": "Xuéxí wàiyǔ yǒu zhù yú gōutōng.",
         "compound_definition": "Learning a foreign language helps with communication.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 199,
@@ -2783,7 +2783,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wàibiān xiàyǔ le; jìdé dài sǎn.",
         "compound_definition": "It's raining outside; remember to bring an umbrella.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 200,
@@ -2797,7 +2797,7 @@ var hskLevel1 = [
         "compound_pinyin": "Lǎoshī jiàole duōshǎo kè?",
         "compound_definition": "How many lessons does the teacher teach?",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 201,
@@ -2811,7 +2811,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǐ yǒu duōshǎo xiōngdì jiěmèi?",
         "compound_definition": "How many siblings do you have?",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 202,
@@ -2825,7 +2825,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wàimiàn shānshàng zhèng xiàzhe dàyǔ.",
         "compound_definition": "It is raining heavily outside in the mountains.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 203,
@@ -2839,7 +2839,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ zài yī suǒ dàxué xuéxí.",
         "compound_definition": "I study at a university.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 204,
@@ -2853,7 +2853,7 @@ var hskLevel1 = [
         "compound_pinyin": "Dàxuéshēngmen zài túshūguǎn xuéxí.",
         "compound_definition": "College students are studying in the library.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 3
     },
     {
         "id": 205,
@@ -2867,7 +2867,7 @@ var hskLevel1 = [
         "compound_pinyin": "Jīntiān de tiānqì hěn hǎo.",
         "compound_definition": "The weather today is very nice.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 206,
@@ -2881,7 +2881,7 @@ var hskLevel1 = [
         "compound_pinyin": "Míngtiān de tiānqì yùbào shuō huì xiàyǔ.",
         "compound_definition": "The weather forecast for tomorrow says it will rain.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 207,
@@ -2895,7 +2895,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhège jīdàn tài hào chīle!",
         "compound_definition": "This egg is so delicious!",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 208,
@@ -2909,7 +2909,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhè shì nǚhái de shūbāo.",
         "compound_definition": "This is a girl's school bag.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 209,
@@ -2923,7 +2923,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā shì yī wèi zhíyè nǚrén.",
         "compound_definition": "She is a professional woman.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 210,
@@ -2937,7 +2937,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ yǒu yī gè kě'ài de nǚ'ér.",
         "compound_definition": "I have a lovely daughter.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 211,
@@ -2951,7 +2951,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhè shì yī qún kāixīn de nǚháiér.",
         "compound_definition": "These are a group of happy girls.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 3
     },
     {
         "id": 212,
@@ -2965,7 +2965,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ de nǚ péngyǒu hěn shànliáng.",
         "compound_definition": "My girlfriend is very kind.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 3
     },
     {
         "id": 213,
@@ -2979,7 +2979,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhège xuéxiào yǒu hěnduō nǚshēng.",
         "compound_definition": "This school has many female students.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 214,
@@ -2993,7 +2993,7 @@ var hskLevel1 = [
         "compound_pinyin": "Háizi men xǐhuān hē niúnǎi.",
         "compound_definition": "Children like to drink milk.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 215,
@@ -3007,7 +3007,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ de nǎinai hěn cíxiáng.",
         "compound_definition": "My grandmother is very kind.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 216,
@@ -3021,7 +3021,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā shì wǒ de péngyǒu.",
         "compound_definition": "She is my friend.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 217,
@@ -3035,7 +3035,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tāmen dōu zài xuéxí zhōngwén.",
         "compound_definition": "They are all learning Chinese.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 218,
@@ -3049,7 +3049,7 @@ var hskLevel1 = [
         "compound_pinyin": "Jīntiān de tiānqì zhēn hǎo!",
         "compound_definition": "The weather is really nice today!",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 219,
@@ -3063,7 +3063,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhège dàngāo hěn hǎochī.",
         "compound_definition": "This cake is delicious.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 220,
@@ -3077,7 +3077,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhège gē hěn hǎotīng.",
         "compound_definition": "This song sounds good.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 221,
@@ -3091,7 +3091,7 @@ var hskLevel1 = [
         "compound_pinyin": "Yóulèyuán lǐ yǒu hěnduō hǎowánr de yóuxì.",
         "compound_definition": "There are many fun games in the amusement park.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 3
     },
     {
         "id": 222,
@@ -3105,7 +3105,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhè běn shū hěn hǎokàn.",
         "compound_definition": "This book is very interesting.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 223,
@@ -3119,7 +3119,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ māmā juédé wǒmen chūqù tài duōle.",
         "compound_definition": "My mother feels that we go out too much.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 224,
@@ -3133,7 +3133,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā hé tā de mèimei hái yǒu hěnduō gōngzuò yào zuò.",
         "compound_definition": "He and his sister also have a lot of work to do.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 225,
@@ -3147,7 +3147,7 @@ var hskLevel1 = [
         "compound_pinyin": "Jiějiě, nǐ èle kěle méi ne? Hē diǎn niúnǎi ba.",
         "compound_definition": "Sister, are you hungry or thirsty? Drink some milk.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 226,
@@ -3161,7 +3161,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhè shì wǒ de érzi.",
         "compound_definition": "This is my son.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 227,
@@ -3175,7 +3175,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒmen zài yǔwén kè shàng xiě hànzì.",
         "compound_definition": "We write Chinese characters in Chinese class.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 228,
@@ -3189,7 +3189,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ cóng lǎoshī nàlǐ xué dàole hěnduō dōngxī.",
         "compound_definition": "I learned a lot of things from my teacher.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 229,
@@ -3203,7 +3203,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ měitiān wǎnshàng dōu huì xuéxí.",
         "compound_definition": "I study every evening.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 230,
@@ -3217,7 +3217,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ de xuéxiào lí jiā hěn jìn.",
         "compound_definition": "My school is very close to home.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 231,
@@ -3231,7 +3231,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhège xuéxiào yǒu hěnduō xuéshēng.",
         "compound_definition": "This school has many students.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 232,
@@ -3245,7 +3245,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ zài yī suǒ yìshù xuéyuàn xuéxí.",
         "compound_definition": "I study at an art college.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 233,
@@ -3259,7 +3259,7 @@ var hskLevel1 = [
         "compound_pinyin": "Háizimen xǐhuān hē māmā de niúnǎi.",
         "compound_definition": "The children love to drink their mama's milk.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 234,
@@ -3273,7 +3273,7 @@ var hskLevel1 = [
         "compound_pinyin": "Xuéxiào lǐ yǒu hěnduō háizi.",
         "compound_definition": "There are many children in the school.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 235,
@@ -3287,7 +3287,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǐ de yīfu diàn yǒu duōshǎo kèrén?",
         "compound_definition": "How many guests are in your clothing store?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 236,
@@ -3301,7 +3301,7 @@ var hskLevel1 = [
         "compound_pinyin": "Xiǎo nǚrén xiàbān hòu jiù huí jiāle.",
         "compound_definition": "The small woman went home after work.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 237,
@@ -3315,7 +3315,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ de jiārén dōu hěn qīnqiè.",
         "compound_definition": "My family members are all very kind.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 238,
@@ -3329,7 +3329,7 @@ var hskLevel1 = [
         "compound_pinyin": "Qǐng jìnlái; wǒ jiālǐ yǒu chá.",
         "compound_definition": "Please come in; there is tea in my home.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 239,
@@ -3343,7 +3343,7 @@ var hskLevel1 = [
         "compound_pinyin": "Duì，wǒ yǒu liǎng gè jiěmèi",
         "compound_definition": "Correct, I have two sisters.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 240,
@@ -3357,7 +3357,7 @@ var hskLevel1 = [
         "compound_pinyin": "Duìbuqǐ; wǒ nòng pò le nǐ de bēizi.",
         "compound_definition": "I'm sorry; I broke your cup.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 3
     },
     {
         "id": 241,
@@ -3371,7 +3371,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ gēgē mǎi de yīfú duì tā lái shuō tài xiǎole.",
         "compound_definition": "The clothes my brother bought were too small for him.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 242,
@@ -3385,7 +3385,7 @@ var hskLevel1 = [
         "compound_pinyin": "Fúwùyuán; qǐngwèn yīxià.",
         "compound_definition": "Waitress; may I ask a question?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 243,
@@ -3399,7 +3399,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒmen de érzi zhèngzài shàng xiǎoxué.",
         "compound_definition": "Our son is attending primary school.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 244,
@@ -3413,7 +3413,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhège xiǎoxuéshēng fēicháng cōngmíng.",
         "compound_definition": "This primary school student is very smart.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 3
     },
     {
         "id": 245,
@@ -3427,7 +3427,7 @@ var hskLevel1 = [
         "compound_pinyin": "Gōngyuán lǐ yǒu hěnduō xiǎoháir zài wánshuǎ.",
         "compound_definition": "There are many children playing in the park.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 3
     },
     {
         "id": 246,
@@ -3441,7 +3441,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhège rènwu xūyào jǐ gè xiǎoshí lái wánchéng.",
         "compound_definition": "This task will take several hours to complete.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 247,
@@ -3455,7 +3455,7 @@ var hskLevel1 = [
         "compound_pinyin": "Gōngyuán lǐ yǒu hěnduō xiǎopéngyǒu zài wán.",
         "compound_definition": "There are many kids playing in the park.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 3
     },
     {
         "id": 248,
@@ -3469,7 +3469,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ juédé gōngzuò shǎole",
         "compound_definition": "I feel there is less work",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 249,
@@ -3483,7 +3483,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ míngtiān jiù lái.",
         "compound_definition": "I'll come tomorrow right away.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 250,
@@ -3497,7 +3497,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ zài shān shàng gōngzuò.",
         "compound_definition": "I work on the mountain.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 251,
@@ -3511,7 +3511,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā jīnnián èrshíwǔ suì.",
         "compound_definition": "He is 25 years old this year.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 252,
@@ -3525,7 +3525,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā cóng zǎoshang liù diǎn gōngzuò dào wǎnshàng jiǔ diǎn.",
         "compound_definition": "She works from six AM to nine PM.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 253,
@@ -3539,7 +3539,7 @@ var hskLevel1 = [
         "compound_pinyin": "Gōngrén men zhèngzài jiànzào fángzi.",
         "compound_definition": "Workers are building the house.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 254,
@@ -3553,7 +3553,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ měitiān dōu yào gōngzuò bā xiǎoshí.",
         "compound_definition": "I have to work eight hours every day.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 255,
@@ -3567,7 +3567,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zuǒbiān hào háishì yòubiān hǎo?",
         "compound_definition": "Is the left side or the right side better?",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 256,
@@ -3581,7 +3581,7 @@ var hskLevel1 = [
         "compound_pinyin": "Shū zài zhuōzi de zuǒbiān.",
         "compound_definition": "The book is on the left side of the table.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 257,
@@ -3591,11 +3591,11 @@ var hskLevel1 = [
         "hsk_level": 1,
         "part_of_speech": "noun",
         "compound_cantonese": "caa1",
-        "compound": "这边和那边没有差别。",
-        "compound_pinyin": "Zhè biān hé nà biān méiyǒu chābié.",
-        "compound_definition": "There is no difference between this side and that side.",
+        "compound": "九和零的差别很大",
+        "compound_pinyin": "Jiǔ hé líng de chābié hěn dà",
+        "compound_definition": "There is a big difference between nine and zero",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 258,
@@ -3609,7 +3609,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ de lǎoshī jiào de hěn hǎo.",
         "compound_definition": "My teacher teaches very well.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 259,
@@ -3623,7 +3623,7 @@ var hskLevel1 = [
         "compound_pinyin": "Qǐng bāng wǒ ná yīxià zhège bāo.",
         "compound_definition": "Please help me hold this bag.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 260,
@@ -3637,7 +3637,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā jīngcháng bāngmáng biérén.",
         "compound_definition": "He often helps others.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 261,
@@ -3651,7 +3651,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ chángcháng qù túshūguǎn xuéxí.",
         "compound_definition": "I often go to the library to study.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 262,
@@ -3665,7 +3665,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā chángcháng qù pǎobù duànliàn shēntǐ.",
         "compound_definition": "She often goes for a run to exercise.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 263,
@@ -3679,7 +3679,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zuótiān xǐ de yīfú hái méi gàn.",
         "compound_definition": "The clothes that I washed yesterday are still not dry.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 264,
@@ -3693,7 +3693,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǐ jīntiān wǎnshàng yào gàn shénme?",
         "compound_definition": "What are you going to do tonight?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 3
     },
     {
         "id": 265,
@@ -3707,7 +3707,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhège fángjiān fēicháng gānjìng.",
         "compound_definition": "This room is very clean.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 266,
@@ -3721,7 +3721,7 @@ var hskLevel1 = [
         "compound_pinyin": "Míngnián shì xīnnián.",
         "compound_definition": "Next year is New Year's.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 267,
@@ -3735,7 +3735,7 @@ var hskLevel1 = [
         "compound_pinyin": "Fángjiān lǐmiàn shì chuáng.",
         "compound_definition": "Inside of the room is the bed.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 268,
@@ -3749,7 +3749,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā zài yī jiā xiǎo diàn gōngzuò.",
         "compound_definition": "He works at a small shop.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 269,
@@ -3763,7 +3763,7 @@ var hskLevel1 = [
         "compound_pinyin": "Qǐng kāi mén; wǒ yào chūqù.",
         "compound_definition": "Please open the door; I want to go out.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 270,
@@ -3777,7 +3777,7 @@ var hskLevel1 = [
         "compound_pinyin": "Míngtiān wǒmen yào kāihuì tǎolùn xiàngmù.",
         "compound_definition": "Tomorrow; we are going to have a meeting to discuss the project.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 271,
@@ -3791,7 +3791,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ zhǐshì kāi wánxiào de; bùyào shēngqì.",
         "compound_definition": "I was just kidding; don't be angry.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 3
     },
     {
         "id": 272,
@@ -3805,7 +3805,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā měitiān kāichē shàngbān.",
         "compound_definition": "He drives to work every day.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 273,
@@ -3819,7 +3819,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā shì wǒ dì de hǎo péngyǒu.",
         "compound_definition": "He is a good friend of my younger brother.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 274,
@@ -3833,7 +3833,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zuótiān xiàbān hòu dàjiā dōu qù kàn diànyǐngle.",
         "compound_definition": "Everybody went to watch a movie yesterday after work.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 275,
@@ -3847,7 +3847,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā chàng de gē hěn hǎotīng.",
         "compound_definition": "The song she sings is very good sounding.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 276,
@@ -3861,7 +3861,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ bù jìdé tā de shēngrì.",
         "compound_definition": "I do not remember her birthday.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 277,
@@ -3875,7 +3875,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tōngguò nǔlì; nǐ néng dédào chénggōng.",
         "compound_definition": "Through hard work; you can achieve success.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 278,
@@ -3889,7 +3889,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǐ wàngle nǎge péngyǒu zuì hǎo wán ma?",
         "compound_definition": "Did you forget which friend is the most fun?",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 279,
@@ -3903,7 +3903,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ zěnme néng wàngjì nǐ de shēngrì ne?",
         "compound_definition": "How could I forget your birthday?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 280,
@@ -3917,7 +3917,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhè hěn nán, wǒ jiǔ diǎn jiù hěn máng.",
         "compound_definition": "This is difficult, I am busy at nine.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 281,
@@ -3931,7 +3931,7 @@ var hskLevel1 = [
         "compound_pinyin": "Qǐng kuài diǎn guòlái bāngmáng!",
         "compound_definition": "Please come over and help quickly!",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 282,
@@ -3945,7 +3945,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǐ zhīdào zěnme zuò ma?",
         "compound_definition": "Do you know how to do it?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 283,
@@ -3959,7 +3959,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǐ zěnme le?",
         "compound_definition": "What's wrong with you?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 284,
@@ -3973,7 +3973,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ xiǎng cóng zhòngyào de gōngzuò zhōng xiūxí yīxià.",
         "compound_definition": "I want to take a break from important work.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 285,
@@ -3987,7 +3987,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nín èle háishì kěle?",
         "compound_definition": "Are you hungry or thirsty?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 286,
@@ -4001,7 +4001,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǐ xiǎng chī shénme?",
         "compound_definition": "What would you like to eat?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 287,
@@ -4015,7 +4015,7 @@ var hskLevel1 = [
         "compound_pinyin": "Kāichē yào màn yīdiǎn.",
         "compound_definition": "Drive slower.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 288,
@@ -4029,7 +4029,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ shì yīgè xuéshēng.",
         "compound_definition": "I am a student.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 289,
@@ -4043,7 +4043,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒmen yīqǐ qù kàn diànyǐng ba.",
         "compound_definition": "Let's go watch a movie together.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 290,
@@ -4057,7 +4057,7 @@ var hskLevel1 = [
         "compound_pinyin": "Fángzi nánbian de fángjiān hěn lěng.",
         "compound_definition": "The room on the south side of the house is cold.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 291,
@@ -4071,7 +4071,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tāmen mǎi le xīn fángzi.",
         "compound_definition": "They bought a new house.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 292,
@@ -4085,7 +4085,7 @@ var hskLevel1 = [
         "compound_pinyin": "Qǐng jìn wǒ de fángjiān.",
         "compound_definition": "Please come into my room.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 293,
@@ -4099,7 +4099,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ yòng shǒu xiě zì.",
         "compound_definition": "I write with my hand.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 294,
@@ -4113,7 +4113,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ de shǒujī zài chōngdiàn.",
         "compound_definition": "My phone is charging.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 295,
@@ -4127,7 +4127,7 @@ var hskLevel1 = [
         "compound_pinyin": "Lǎoshī dǎle tā de huài xuéshēng.",
         "compound_definition": "The teacher hits her bad students.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 296,
@@ -4141,7 +4141,7 @@ var hskLevel1 = [
         "compound_pinyin": "Qǐng bāng wǒ dǎkāi chuānghu.",
         "compound_definition": "Please open the window for me.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 297,
@@ -4155,7 +4155,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒmen yīqǐ qù dǎqiú ba.",
         "compound_definition": "Let's go play ball together.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 298,
@@ -4169,7 +4169,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ yào gěi bàba dǎ diànhuà.",
         "compound_definition": "I want to call Dad.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 3
     },
     {
         "id": 299,
@@ -4183,7 +4183,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ yào dǎchē qù jīchǎng.",
         "compound_definition": "I need to take a taxi to the airport.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 300,
@@ -4197,7 +4197,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ zhǎo bù dào wǒ de qiánbāo.",
         "compound_definition": "I can't find my wallet.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 301,
@@ -4211,7 +4211,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhōngyú zhǎodào le shīzōng de māo.",
         "compound_definition": "Finally found the missing cat.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 302,
@@ -4225,7 +4225,7 @@ var hskLevel1 = [
         "compound_pinyin": "Qǐng gàosù nǐ jiějiě qù ná nǐ de shū. Xièxiè nǐ.",
         "compound_definition": "Please tell your sister to get your book. Thank you.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 303,
@@ -4239,7 +4239,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ fàng miànbāo fàng zài zhuōzi shàng.",
         "compound_definition": "I put the bread on the table.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 304,
@@ -4253,7 +4253,7 @@ var hskLevel1 = [
         "compound_pinyin": "Míngtiān fàngjià; wǒmen néng chūqù wán.",
         "compound_definition": "Tomorrow is a holiday; we can go out and play.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 305,
@@ -4267,7 +4267,7 @@ var hskLevel1 = [
         "compound_pinyin": "Fàngxué hòu; wǒ tōngcháng qù túshūguǎn.",
         "compound_definition": "After school; I usually go to the library.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 306,
@@ -4281,7 +4281,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā jiào xuéshēng jièshào xīnshū.",
         "compound_definition": "She teaches her students introductions to new books.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 307,
@@ -4295,7 +4295,7 @@ var hskLevel1 = [
         "compound_pinyin": "Jiàoxué lóu lǐ yǒu hěnduō jiàoshì.",
         "compound_definition": "There are many classrooms in the teaching building.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 3
     },
     {
         "id": 308,
@@ -4309,7 +4309,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhōngwén shì wǒ zuì xǐhuān xué de dōngxī.",
         "compound_definition": "The Chinese language is my favourite thing to learn.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 309,
@@ -4323,7 +4323,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā chuānzhuó tā de xīn yīfú.",
         "compound_definition": "She wore her new clothes.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 310,
@@ -4337,7 +4337,7 @@ var hskLevel1 = [
         "compound_pinyin": "Chūnjié shì zhōngguó de xīnnián.",
         "compound_definition": "Chinese New Year is the New Year in China.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 311,
@@ -4351,7 +4351,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǎge dìfāng méiyǒu qìchē?",
         "compound_definition": "Which place has no cars?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 312,
@@ -4365,7 +4365,7 @@ var hskLevel1 = [
         "compound_pinyin": "Huǒ zài diànnǎo zhuō pángbiān. Huǒ zài zuǒbiān háishì yòubiān?",
         "compound_definition": "The fire is beside the computer table. Is the fire on the left or right side?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 313,
@@ -4379,7 +4379,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā zuò zài wǒ pángbiān de yǐzi shàng.",
         "compound_definition": "He is sitting in the chair next to me.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 314,
@@ -4393,7 +4393,7 @@ var hskLevel1 = [
         "compound_pinyin": "Jīntiān shì xīngqī rì.",
         "compound_definition": "Today is Sunday.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 315,
@@ -4407,7 +4407,7 @@ var hskLevel1 = [
         "compound_pinyin": "Qǐng gàosù wǒ jīntiān de rìqī.",
         "compound_definition": "Please tell me today's date.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 316,
@@ -4421,7 +4421,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ yī dà zǎo èle, xiǎng chī jīdàn.",
         "compound_definition": "I was hungry early in the morning and wanted to eat eggs.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 317,
@@ -4435,7 +4435,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ měitiān zǎoshang dōu qù pǎobù.",
         "compound_definition": "I go jogging every morning.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 318,
@@ -4449,7 +4449,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǐ chī le zǎofàn ma?",
         "compound_definition": "Have you had breakfast?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 319,
@@ -4463,7 +4463,7 @@ var hskLevel1 = [
         "compound_pinyin": "Fēicháng zhòngyào de jièshào shì shénme shíhòu?",
         "compound_definition": "What time is the very important introduction?",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 320,
@@ -4477,7 +4477,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒmen néng zài wǎnfàn shíhou liáotiān.",
         "compound_definition": "We can chat during dinner.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 321,
@@ -4491,7 +4491,7 @@ var hskLevel1 = [
         "compound_pinyin": "Shíjiān guò dé zhēn kuài.",
         "compound_definition": "Time flies.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 322,
@@ -4505,7 +4505,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ bù míngbái nǐ shuō dehuà.",
         "compound_definition": "I don't understand what you said.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 323,
@@ -4519,7 +4519,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒmen míngtiān qù gòuwù.",
         "compound_definition": "We are going shopping tomorrow.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 324,
@@ -4533,7 +4533,7 @@ var hskLevel1 = [
         "compound_pinyin": "Míngnián wǒ jìhuà qù lǚxíng.",
         "compound_definition": "I plan to travel next year.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 325,
@@ -4547,7 +4547,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā jiěshì dé hěn qīngchǔ; wǒ míngbái le.",
         "compound_definition": "He explained it very clearly; and I understand.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 326,
@@ -4561,7 +4561,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ xǐhuān wǎnshàng kàn xīngxīng.",
         "compound_definition": "I like to watch the stars at night.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 327,
@@ -4575,7 +4575,7 @@ var hskLevel1 = [
         "compound_pinyin": "Xīngqī yī shì gōngzuòrì.",
         "compound_definition": "Monday is a workday.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 328,
@@ -4589,7 +4589,7 @@ var hskLevel1 = [
         "compound_pinyin": "Xīngqītiān wǒ tōngcháng xiūxi.",
         "compound_definition": "I usually rest on Sundays.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 3
     },
     {
         "id": 329,
@@ -4603,7 +4603,7 @@ var hskLevel1 = [
         "compound_pinyin": "Xīngqīrì shì zuìhòu yītiān.",
         "compound_definition": "Sunday is the last day.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 3
     },
     {
         "id": 330,
@@ -4617,7 +4617,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zuótiān wǒ qù le diànyǐngyuàn.",
         "compound_definition": "I went to the cinema yesterday.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 331,
@@ -4631,7 +4631,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zuótiān tiānqì hěn hǎo.",
         "compound_definition": "The weather was nice yesterday.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 332,
@@ -4645,7 +4645,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǐ shì wǒ de péngyǒu.",
         "compound_definition": "You are my friend.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 333,
@@ -4659,7 +4659,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǐ shì bù shì míngtiān yào lái?",
         "compound_definition": "Are you coming tomorrow?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 3
     },
     {
         "id": 334,
@@ -4673,7 +4673,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā wǎnshàng gōngzuò hěn wǎn.",
         "compound_definition": "He works late at night.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 335,
@@ -4687,7 +4687,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ wǎnshang chángcháng kàn diànshì.",
         "compound_definition": "I often watch TV in the evening.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 336,
@@ -4701,7 +4701,7 @@ var hskLevel1 = [
         "compound_pinyin": "Jīn wǎn fàncài hěn hàochī.",
         "compound_definition": "Dinner tonight is very delicious.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 337,
@@ -4715,7 +4715,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhè shì wǒ zuì xǐhuān de diànyǐng.",
         "compound_definition": "This is my favorite movie.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 338,
@@ -4729,7 +4729,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zuìhòu yīcì jīhuì.",
         "compound_definition": "The last chance.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 339,
@@ -4743,7 +4743,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǐ zuìhǎo zǎodiǎn xiūxi.",
         "compound_definition": "It's best for you to rest early.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 340,
@@ -4757,7 +4757,7 @@ var hskLevel1 = [
         "compound_pinyin": "Qī yuè shì wǒ de shēngrì.",
         "compound_definition": "July is my birthday month.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 341,
@@ -4771,7 +4771,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ yǒu èrshí běn shū; hěn zhòng.",
         "compound_definition": "I have twenty books that are very heavy.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 342,
@@ -4785,7 +4785,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhège shāngdiàn hěn yǒumíng.",
         "compound_definition": "This store is famous.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 343,
@@ -4799,7 +4799,7 @@ var hskLevel1 = [
         "compound_pinyin": "Yǒushíhou wǒ huì qù sànbù.",
         "compound_definition": "Sometimes I go for a walk.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 3
     },
     {
         "id": 344,
@@ -4813,7 +4813,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhège gōngjù fēicháng yǒuyòng.",
         "compound_definition": "This tool is very useful.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 345,
@@ -4827,7 +4827,7 @@ var hskLevel1 = [
         "compound_pinyin": "Yǒude rén xǐhuān kāfēi; yǒude rén xǐhuān chá.",
         "compound_definition": "Some people like coffee; some people like tea.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 346,
@@ -4841,7 +4841,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā shì wǒ de péngyǒu.",
         "compound_definition": "He is my friend.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 347,
@@ -4855,7 +4855,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ de péngyǒumen yīqǐ qù kàn diànyǐng.",
         "compound_definition": "My friends are going to the movies together.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 348,
@@ -4869,7 +4869,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǐ de yīfú zài nǎlǐ mǎi de?",
         "compound_definition": "Where did you buy your clothes?",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 349,
@@ -4883,7 +4883,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhè shì yīgè xīn de xuéqī.",
         "compound_definition": "This is a new semester.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 350,
@@ -4897,7 +4897,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhè shì yī běn hǎo shū.",
         "compound_definition": "This is a good book.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 351,
@@ -4911,7 +4911,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ zài bǐjì běnzi shàng xiě le yīxiē xiǎngfǎ.",
         "compound_definition": "I wrote down some ideas in my notebook.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 352,
@@ -4925,7 +4925,7 @@ var hskLevel1 = [
         "compound_pinyin": "Fēijī zhōngwǔ fēi.",
         "compound_definition": "The airplane flies at noon.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 353,
@@ -4939,7 +4939,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ yào qù jīchǎng jiē wǒ de péngyǒu.",
         "compound_definition": "I'm going to the airport to pick up my friend.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 354,
@@ -4953,7 +4953,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ yǐjīng dìng hǎo le jīpiào.",
         "compound_definition": "I've already booked my plane ticket.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 355,
@@ -4967,7 +4967,7 @@ var hskLevel1 = [
         "compound_pinyin": "Xiàwǔ wǒ zài wàimiàn chīle miàntiáo.",
         "compound_definition": "I ate noodles outside in the afternoon.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 356,
@@ -4981,7 +4981,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā míngtiān yào lái wǒ jiā.",
         "compound_definition": "He is coming to my house tomorrow.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 357,
@@ -4995,7 +4995,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒmen zhōngyú láidào le mùdì dì.",
         "compound_definition": "We finally arrived at our destination.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 358,
@@ -5009,7 +5009,7 @@ var hskLevel1 = [
         "compound_pinyin": "Qǐng gěi wǒ yī bēi shuǐ.",
         "compound_definition": "Please give me a glass of water.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 359,
@@ -5023,7 +5023,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhège bēizi shì wǒ de zuì'ài.",
         "compound_definition": "This cup is my favorite.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 360,
@@ -5037,7 +5037,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǐ zuì xǐhuān de shuǐguǒ shì shénme?",
         "compound_definition": "What is your favourite fruit?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 361,
@@ -5051,7 +5051,7 @@ var hskLevel1 = [
         "compound_pinyin": "Qǐng cóng wǒ de shù shàng ná zǒu nǐ de dàn.",
         "compound_definition": "Please take your eggs from my tree.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 362,
@@ -5065,7 +5065,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ de xuéxiào hěn dà.",
         "compound_definition": "My school is very big.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 363,
@@ -5079,7 +5079,7 @@ var hskLevel1 = [
         "compound_pinyin": "Jīntiān tiānqì zěnme yàng?",
         "compound_definition": "How's the weather today?",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 364,
@@ -5093,7 +5093,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒmen chīfàn de zhuōzi hěn zhòng.",
         "compound_definition": "The table we eat on is very heavy.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 365,
@@ -5107,7 +5107,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ de diànnǎo fàng zài zhuōzi shàng.",
         "compound_definition": "My computer is on the table.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 366,
@@ -5121,7 +5121,7 @@ var hskLevel1 = [
         "compound_pinyin": "Shéi zhù zài shí lóu?",
         "compound_definition": "Who lives on the tenth floor?",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 367,
@@ -5135,7 +5135,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tāmen zhù zài lóushàng de gōngyù.",
         "compound_definition": "They live in the apartment upstairs.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 368,
@@ -5149,7 +5149,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ yào xiàlóu mǎi xiē dōngxī.",
         "compound_definition": "I need to go downstairs to buy some things.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 369,
@@ -5163,7 +5163,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhè shì wǒ dì èr cì lái zhōngguó.",
         "compound_definition": "This is my second time coming to China.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 370,
@@ -5177,7 +5177,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ xǐhuān hé gāo gè zǐ nǚrén shuōhuà.",
         "compound_definition": "I like speaking to tall women.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 371,
@@ -5191,7 +5191,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā chàng de gē dōu hěn hǎotīng.",
         "compound_definition": "The songs she sang were very nice.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 372,
@@ -5205,7 +5205,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒmen zhèngzài fēicháng rènzhēn dì dǎqiú.",
         "compound_definition": "We are in the middle of playing ball very seriously.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 373,
@@ -5219,7 +5219,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒmen zhèngzài xuéxí zhōngwén.",
         "compound_definition": "We are currently studying Chinese.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 374,
@@ -5233,7 +5233,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǐ de jīròu bǐ wǒ de hǎo ma? ",
         "compound_definition": "Is your chicken meat better than mine?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 375,
@@ -5247,7 +5247,7 @@ var hskLevel1 = [
         "compound_pinyin": "Qǐng zhǔnbèi hǎo cóng chē shàng ná máo.",
         "compound_definition": "Please be prepared to take hair from the car.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 376,
@@ -5261,7 +5261,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā duì wǒ tài shēngqìle.",
         "compound_definition": "She is too angry at me.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 377,
@@ -5275,7 +5275,7 @@ var hskLevel1 = [
         "compound_pinyin": "Qǐng nǐ gěi wǒ yī bēi shuǐ hǎo ma?",
         "compound_definition": "Please, can you give me a glass of water?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 378,
@@ -5289,7 +5289,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ xǐhuān chī gèzhǒng shuǐguǒ.",
         "compound_definition": "I like to eat various fruits.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 379,
@@ -5303,7 +5303,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒmen zài zhōngguó xiě hànzì; shuō zhōngwén.",
         "compound_definition": "We write Chinese characters and speak Chinese in China.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 380,
@@ -5317,7 +5317,7 @@ var hskLevel1 = [
         "compound_pinyin": "Xuéxí hànzì xūyào nàixīn hé liànxí.",
         "compound_definition": "Learning Chinese characters requires patience and practice.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 381,
@@ -5331,7 +5331,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā zhèngzài xuéxí hànyǔ.",
         "compound_definition": "He is learning Chinese.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 382,
@@ -5345,7 +5345,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhè tiáo lùshàng de qìchē dōu zài zuǒbiān.",
         "compound_definition": "Cars on this road are on the left.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 383,
@@ -5359,7 +5359,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒmen jìhuà zū yī liàng qìchē qù lǚxíng.",
         "compound_definition": "We plan to rent a car for our trip.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 384,
@@ -5373,7 +5373,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ zuótiān méi chī zǎofàn.",
         "compound_definition": "I didn't have breakfast yesterday.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 385,
@@ -5387,7 +5387,7 @@ var hskLevel1 = [
         "compound_pinyin": "Bié dānxīn; yīqiè dōu méishìr le.",
         "compound_definition": "Don't worry; everything is fine now.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 3
     },
     {
         "id": 386,
@@ -5401,7 +5401,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nà zhǐshì xiǎo wèntí; méi shénme dà bùliǎo de.",
         "compound_definition": "It's just a small issue; nothing to worry about.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 3
     },
     {
         "id": 387,
@@ -5415,7 +5415,7 @@ var hskLevel1 = [
         "compound_pinyin": "Rúguǒ nǐ chídào le; méiguānxi; wǒmen huì děng nǐ de.",
         "compound_definition": "If you're running late; it's okay; we'll wait for you.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 3
     },
     {
         "id": 388,
@@ -5429,7 +5429,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ méiyǒu shíjiān qù gòuwù.",
         "compound_definition": "I don't have time to go shopping.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 389,
@@ -5443,7 +5443,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ zuótiān wàngjì xǐ huāle.",
         "compound_definition": "I forgot to wash the flowers yesterday.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 390,
@@ -5457,7 +5457,7 @@ var hskLevel1 = [
         "compound_pinyin": "Qǐngwèn; xǐshǒujiān zài nǎlǐ?",
         "compound_definition": "Excuse me; where is the restroom?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 3
     },
     {
         "id": 391,
@@ -5471,7 +5471,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nánhái kǒu kěle, xiǎng hē báichá.",
         "compound_definition": "The boy is thirsty and wants white tea.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 392,
@@ -5485,7 +5485,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zuò zài huǒ biān hěn rè.",
         "compound_definition": "Sitting by the fire is hot.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 393,
@@ -5499,7 +5499,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒmen zuò huǒchē qù lǚxíng.",
         "compound_definition": "We are traveling by train.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 394,
@@ -5513,7 +5513,7 @@ var hskLevel1 = [
         "compound_pinyin": "Qǐngwèn xiànzài jǐ diǎn le?",
         "compound_definition": "Excuse me; what time is it?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 395,
@@ -5527,7 +5527,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nín cuòle; tiānqì tài rèle.",
         "compound_definition": "You are wrong, the weather is too warm.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 396,
@@ -5541,7 +5541,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ ài wǒ rènzhēn de mèimei.",
         "compound_definition": "I love my serious little sister.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 397,
@@ -5555,7 +5555,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ de àihào bāokuò shèyǐng hé túbù lǚxíng.",
         "compound_definition": "My hobbies include photography and hiking.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 398,
@@ -5569,7 +5569,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ yéye fēicháng shēngqì hé rènzhēn.",
         "compound_definition": "My grandfather is very angry and serious.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 399,
@@ -5583,7 +5583,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ de bàba shì yīshēng.",
         "compound_definition": "My dad is a doctor.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 400,
@@ -5597,7 +5597,7 @@ var hskLevel1 = [
         "compound_pinyin": "Míngtiān wǒ huì gěi wǒ de péngyǒu mǎi niúròu hé huā.",
         "compound_definition": "I will buy beef and flowers tomorrow for my friend.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 401,
@@ -5611,7 +5611,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zǎofàn shí; wǒ hē le yī bēi niúnǎi.",
         "compound_definition": "I had a glass of milk for breakfast.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 402,
@@ -5625,7 +5625,7 @@ var hskLevel1 = [
         "compound_pinyin": "Bùyào wán dé tài guòfènle.",
         "compound_definition": "Don't play too far away.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 403,
@@ -5639,7 +5639,7 @@ var hskLevel1 = [
         "compound_pinyin": "Háizimen zài yuànzi lǐ wánr zhuō mí cáng.",
         "compound_definition": "The children are playing hide and seek in the yard.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 404,
@@ -5653,7 +5653,7 @@ var hskLevel1 = [
         "compound_pinyin": "Xiànzài zhèng shì fēnbié de shíhòu.",
         "compound_definition": "Right now is the time to separate.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 405,
@@ -5667,7 +5667,7 @@ var hskLevel1 = [
         "compound_pinyin": "Xiànzài shì chī wǔfàn de shíjiān.",
         "compound_definition": "It's lunchtime now.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 406,
@@ -5681,7 +5681,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zuótiān yǒu èrshíwǔ gè xuéshēng qù shàngbān.",
         "compound_definition": "Twenty five students went to work yesterday.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 407,
@@ -5695,7 +5695,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒmen yīqǐ dǎqiú ba.",
         "compound_definition": "Let's play ball together.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 408,
@@ -5709,7 +5709,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā de shēngrì shì xià gè yuè.",
         "compound_definition": "His birthday is next month.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 409,
@@ -5723,7 +5723,7 @@ var hskLevel1 = [
         "compound_pinyin": "Shēngrì kuàilè!",
         "compound_definition": "Happy birthday!",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 410,
@@ -5737,7 +5737,7 @@ var hskLevel1 = [
         "compound_pinyin": "Bùyào yīnwèi xiǎo shìqíng shēngqì.",
         "compound_definition": "Don't get angry over small things.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 411,
@@ -5751,7 +5751,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ shēngbìng le; xūyào xiūxí.",
         "compound_definition": "I'm sick and need to rest.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 412,
@@ -5765,7 +5765,7 @@ var hskLevel1 = [
         "compound_pinyin": "Qǐng yòng yībǎi yuán zuòshì.",
         "compound_definition": "Please use one hundred yuan to do things.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 413,
@@ -5779,7 +5779,7 @@ var hskLevel1 = [
         "compound_pinyin": "Qǐng hé nǐ mèimei yīqǐ kàn diànshì.",
         "compound_definition": "Please watch the television with your sister.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 414,
@@ -5793,7 +5793,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒmen míngtiān yào qù kàn diànyǐng.",
         "compound_definition": "We're going to watch a movie tomorrow.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 415,
@@ -5807,7 +5807,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tāmen jīngcháng qù diànyǐngyuàn kàn xīn diànyǐng.",
         "compound_definition": "They often go to the cinema to watch new movies.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 3
     },
     {
         "id": 416,
@@ -5821,7 +5821,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ de diànnǎo chū le diǎn wèntí; xūyào xiūlǐ.",
         "compound_definition": "There's a problem with my computer; it needs repair.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 417,
@@ -5835,7 +5835,7 @@ var hskLevel1 = [
         "compound_pinyin": "Jīnwǎn de diànshì jiémù hěn jīngcǎi.",
         "compound_definition": "Tonight's TV program is very exciting.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 418,
@@ -5849,7 +5849,7 @@ var hskLevel1 = [
         "compound_pinyin": "Kètīng lǐ yǒu yī tái dà diànshìjī.",
         "compound_definition": "There's a big TV in the living room.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 3
     },
     {
         "id": 419,
@@ -5863,7 +5863,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ míngtiān huì gěi nǐ dǎ diànhuà.",
         "compound_definition": "I'll call you tomorrow.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 420,
@@ -5877,7 +5877,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nánhái cóng jiā pǎo dào xuéxiào.",
         "compound_definition": "The boy runs from home to school.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 421,
@@ -5891,7 +5891,7 @@ var hskLevel1 = [
         "compound_pinyin": "Yǒuxiē nánrén bù tài shàncháng biǎodá gǎnqíng.",
         "compound_definition": "Some men are not very good at expressing their emotions.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 422,
@@ -5905,7 +5905,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nà ge nánháiér zhèngzài wán zúqiú.",
         "compound_definition": "The boy is playing soccer.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 3
     },
     {
         "id": 423,
@@ -5919,7 +5919,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā de nán péngyǒu hěn shuài.",
         "compound_definition": "Her boyfriend is very handsome.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 3
     },
     {
         "id": 424,
@@ -5933,7 +5933,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zài zhège xuéxiào; nánshēng hé nǚshēng rénshù chà bùduō.",
         "compound_definition": "In this school; there are almost an equal number of male and female students.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 425,
@@ -5947,7 +5947,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā bìngle, qù yīyuàn kàn yīshēng.",
         "compound_definition": "He is sick and went to the hospital to see the doctor.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 426,
@@ -5961,7 +5961,7 @@ var hskLevel1 = [
         "compound_pinyin": "Yīshēng zhèngzài zhìliáo bìngrén.",
         "compound_definition": "The doctor is treating the patient.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 427,
@@ -5975,7 +5975,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ bù míngbái nǐ de huídá.",
         "compound_definition": "I don't understand your answer.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 428,
@@ -5989,7 +5989,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tàiyáng zài báitiān zhàoyào zhe dàdì.",
         "compound_definition": "The sun shines on the earth during the day.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 429,
@@ -6003,7 +6003,7 @@ var hskLevel1 = [
         "compound_pinyin": "Shūdiàn lǐ yǒu yībǎi duō běn shū.",
         "compound_definition": "There are more than one hundred books in the bookstore.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 430,
@@ -6017,7 +6017,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhè shì wǒ de shǒujī.",
         "compound_definition": "This is my phone.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 431,
@@ -6031,7 +6031,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ xǐhuān kàn diànyǐng.",
         "compound_definition": "I like to watch movies.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 432,
@@ -6045,7 +6045,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ zuótiān kàndào yī zhī xiǎo māo zài huāyuán lǐ.",
         "compound_definition": "I saw a little cat in the garden yesterday.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 433,
@@ -6059,7 +6059,7 @@ var hskLevel1 = [
         "compound_pinyin": "Rúguǒ nǐ gǎnjué bù shūfú; yīnggāi qù kànbìng.",
         "compound_definition": "If you don't feel well; you should go see a doctor.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 434,
@@ -6073,7 +6073,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ kànjiàn le yī zhī měilì de cǎihóng.",
         "compound_definition": "I saw a beautiful rainbow.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 435,
@@ -6087,7 +6087,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ zhēn gāoxìng zàicì jiàn dào nǐ.",
         "compound_definition": "I am truly happy to see you again.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 436,
@@ -6101,7 +6101,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā shì zhēn de hěn cōngmíng.",
         "compound_definition": "He is truly very smart.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 437,
@@ -6115,7 +6115,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǐ zài kànzhe wǒ ma?",
         "compound_definition": "Are you watching me?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 438,
@@ -6125,11 +6125,11 @@ var hskLevel1 = [
         "hsk_level": 1,
         "part_of_speech": "verb",
         "compound_cantonese": "seoi6",
-        "compound": "晚上是睡觉的时间。",
-        "compound_pinyin": "Wǎnshàng shì shuìjiào de shíjiān.",
-        "compound_definition": "Nighttime is the time to sleep.",
+        "compound": "我病和我睡不着。我太饿和渴",
+        "compound_pinyin": "Wǒ bìng hé wǒ shuì bùzháo. Wǒ tài è hé kě",
+        "compound_definition": "I'm sick and I can't sleep. I'm too hungry and thirsty",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 439,
@@ -6143,7 +6143,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ wǎnshàng zǒng shì hěn zǎo jiù qù shuìjiào.",
         "compound_definition": "I always go to bed very early at night.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 440,
@@ -6157,7 +6157,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhīdào nǐ míngtiān yào qù nǎ'er ma?",
         "compound_definition": "Do you know where you're going tomorrow?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 441,
@@ -6171,7 +6171,7 @@ var hskLevel1 = [
         "compound_pinyin": "Xuéxí shì huòqǔ zhīshì de zhòngyào tújìng zhī yī.",
         "compound_definition": "Learning is one of the important ways to acquire knowledge.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 442,
@@ -6185,7 +6185,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ zhīdào zhège dá'àn.",
         "compound_definition": "I know the answer.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 443,
@@ -6199,7 +6199,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǐ mǎi le diànyǐng piào ma? Wǒ xiǎng kàn tā chànggē.",
         "compound_definition": "Did you buy movie tickets? I want to see her sing.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 444,
@@ -6213,7 +6213,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǐ jīntiān chuān shénme yīfú?",
         "compound_definition": "What are you wearing today?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 445,
@@ -6227,7 +6227,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā zhàn zài huǒchēzhàn děng huǒchē.",
         "compound_definition": "He is standing at the train station; waiting for the train.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 446,
@@ -6241,7 +6241,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā shuōgle gè xiàohuà, dàjiā dōu xiào le.",
         "compound_definition": "He said a joke; and everyone laughed.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 447,
@@ -6255,7 +6255,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhè shì wǒ dì yī cì lái zhōngguó.",
         "compound_definition": "This is my first time coming to China.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 448,
@@ -6269,7 +6269,7 @@ var hskLevel1 = [
         "compound_pinyin": "Qǐng děng yīxià; wǒ mǎshàng jiù lái.",
         "compound_definition": "Please wait a moment; I'll be right there.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 449,
@@ -6283,7 +6283,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǐ hái méi huídá wǒ.",
         "compound_definition": "You did not answer me.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 450,
@@ -6297,7 +6297,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǐ mǎi le duōshǎo dàmǐ?",
         "compound_definition": "How much rice did you buy?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 451,
@@ -6311,7 +6311,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ è de shíhòu xǐhuān chī mǐfàn.",
         "compound_definition": "I love to eat rice when I am hungry.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 452,
@@ -6325,7 +6325,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhège xì shì xiǎo, nǎozi yě hěn xiǎo.",
         "compound_definition": "This department is small and the brain is small.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 453,
@@ -6339,7 +6339,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǐ jīntiān gōngzuò hěn lèi ma?",
         "compound_definition": "Are you tired from work today?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 454,
@@ -6353,7 +6353,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā de míngzì hěn nán shào xiě.",
         "compound_definition": "His name is difficult to write in full.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 455,
@@ -6367,7 +6367,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ gěi nǐ yī běn hǎo shū.",
         "compound_definition": "I'll give you a good book.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 456,
@@ -6381,7 +6381,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā zhèngzài wǎngshàng kànzhe diànshì.",
         "compound_definition": "He is watching television online.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 457,
@@ -6395,7 +6395,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ jīngcháng zài wǎngshàng gòuwù.",
         "compound_definition": "I often shop online.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 458,
@@ -6409,7 +6409,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ zài shèjiāo méitǐ shàng rènshí le hěnduō wǎngyǒu.",
         "compound_definition": "I've made many online friends on social media.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 459,
@@ -6423,7 +6423,7 @@ var hskLevel1 = [
         "compound_pinyin": "Lǎoshī jiāo wǒmen xuéxí xīn zhīshì.",
         "compound_definition": "The teacher teaches us new knowledge.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 460,
@@ -6437,7 +6437,7 @@ var hskLevel1 = [
         "compound_pinyin": "Gōngyuán lǐ yǒu hěnduō lǎorén zài chénliàn.",
         "compound_definition": "There are many elderly people doing morning exercises in the park.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 461,
@@ -6451,7 +6451,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ de shùxué lǎoshī hěn yǒu nàixīn.",
         "compound_definition": "My math teacher is very patient.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 462,
@@ -6465,7 +6465,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǐ kǎoshì kǎo dé zěnme yàng?",
         "compound_definition": "How did you do on the exam?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 463,
@@ -6479,7 +6479,7 @@ var hskLevel1 = [
         "compound_pinyin": "Míngtiān wǒmen yǒu zhòngyào de kǎoshì; xūyào hǎohǎo zhǔnbè.",
         "compound_definition": "We have an important exam tomorrow; so we need to prepare well.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 464,
@@ -6493,7 +6493,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǐ xǐhuān chī shénme ròu?",
         "compound_definition": "What kind of meat do you like to eat?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 465,
@@ -6507,7 +6507,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǐ néng gàosù wǒ nǐ de míngzì?",
         "compound_definition": "Can you tell me your name?",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 466,
@@ -6521,7 +6521,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ màn man de zài diànnǎo shàng gōngzuò.",
         "compound_definition": "I slowly worked on the computer.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 467,
@@ -6535,7 +6535,7 @@ var hskLevel1 = [
         "compound_pinyin": "Míngtiān tā huì sòng wǒ wǒ zuì xǐhuān de huā.",
         "compound_definition": "She will gift me my favourite flowers tomorrow.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 468,
@@ -6549,7 +6549,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhè chá hěn hào chī. Zhè jiào shénme?",
         "compound_definition": "This tea is delicious. What is it called?",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 469,
@@ -6563,7 +6563,7 @@ var hskLevel1 = [
         "compound_pinyin": "Jīn wǎn wǒmen chī shénme cài?",
         "compound_definition": "What vegetables are we eating tonight?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 470,
@@ -6577,7 +6577,7 @@ var hskLevel1 = [
         "compound_pinyin": "Qǐng gěi wǒ liǎng gè jīdàn hé yīxiē cài.",
         "compound_definition": "Please give me two eggs and some vegetables.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 471,
@@ -6591,7 +6591,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǐ jīntiān yào qù nǎr xíng?",
         "compound_definition": "Where are you going today?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 472,
@@ -6605,7 +6605,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǐ zài shāngchǎng mǎile xīn yīfú ma?",
         "compound_definition": "Did you buy new clothes at the mall?",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 473,
@@ -6619,7 +6619,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ xūyào xǐ yīxià wǒ de yīfú.",
         "compound_definition": "I need to wash my clothes.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 474,
@@ -6633,7 +6633,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǐ qù xībian de fángjiān, huāle èrshí yuán.",
         "compound_definition": "You went to the west room and paid twenty yuan.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 475,
@@ -6647,7 +6647,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒmen de jiā zài chéngshì de xī biān.",
         "compound_definition": "Our home is on the west side of the city.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 476,
@@ -6661,7 +6661,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhè tài huàile; wǒ yào zhǎodào wǒ de qiánbāo",
         "compound_definition": "This is so bad; I need to find my wallet.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 477,
@@ -6675,7 +6675,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ hěn gāoxìng néng jiàn dào nǐ.",
         "compound_definition": "I'm happy to see you.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 478,
@@ -6689,7 +6689,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒmen míngtiān xiàwǔ zài kāfēi diàn jiànmiàn ba.",
         "compound_definition": "Let's meet tomorrow afternoon at the coffee shop.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 479,
@@ -6703,7 +6703,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā zhèngzài kànjiàndiànshì",
         "compound_definition": "She is watching TV.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 480,
@@ -6717,7 +6717,7 @@ var hskLevel1 = [
         "compound_pinyin": "Qǐng nǐ qù shuìjiào ba, wǒ xiǎng xiūxí yīxià.",
         "compound_definition": "Please go to sleep; I want to rest.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 481,
@@ -6731,7 +6731,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ juéde zhè bù diànyǐng fēicháng yǒuqù.",
         "compound_definition": "I think this movie is very interesting.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 482,
@@ -6745,7 +6745,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ xiǎng rènshí nàgè nǚhái; qǐng jièshào yīxià wǒ.",
         "compound_definition": "I want to know that girl; please introduce me.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 483,
@@ -6759,7 +6759,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā shì yīgè rènzhēn fùzé de xuéshēng.",
         "compound_definition": "She is a diligent and responsible student.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 484,
@@ -6773,7 +6773,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒmen zài dàxué shí rènshí de.",
         "compound_definition": "We met in college.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 485,
@@ -6787,7 +6787,7 @@ var hskLevel1 = [
         "compound_pinyin": "Qù xǐshǒujiān hòu qǐng jìdé xǐshǒu.",
         "compound_definition": "Please remember to wash your hands after going to the washroom.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 486,
@@ -6801,7 +6801,7 @@ var hskLevel1 = [
         "compound_pinyin": "Qǐng jìzhù nǐ de mìmǎ bìng bǎomì.",
         "compound_definition": "Please remember your password and keep it confidential.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 487,
@@ -6815,7 +6815,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ yǒngyuǎn dōu huì jìde zhè měihǎo de shíkè.",
         "compound_definition": "I will always remember this beautiful moment.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 488,
@@ -6829,7 +6829,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒmen zài dàxué rènshíle tā.",
         "compound_definition": "We met her in college.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 489,
@@ -6843,7 +6843,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǐ néng gàosu wǒ háishì bùnéng?",
         "compound_definition": "Can you tell me or not?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 490,
@@ -6857,7 +6857,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhè shì yīcì hěn zhòngyào de kǎoshì",
         "compound_definition": "This is a very important test.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 491,
@@ -6871,7 +6871,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā shuōhuà hěn màn; qǐng jiào tā kuài yīdiǎn.",
         "compound_definition": "He is speaking very slowly; please tell him to hurry.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 492,
@@ -6885,7 +6885,7 @@ var hskLevel1 = [
         "compound_pinyin": "Shéi huì shuō wàiyǔ?",
         "compound_definition": "Who can speak a foreign language?",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 493,
@@ -6899,7 +6899,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ dìdì xiàozhe shuō tā zhǔnbèi hǎokàn dào chāi le.",
         "compound_definition": "My brother laughed and said he was ready to see the difference.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 494,
@@ -6913,7 +6913,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā shuōhuà fēicháng yǒu lǐmào hé wényǎ.",
         "compound_definition": "She speaks very politely and eloquently.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 495,
@@ -6927,7 +6927,7 @@ var hskLevel1 = [
         "compound_pinyin": "Qǐng nǐ bāng wǒ ná yīxià nà běn shū hǎo ma?",
         "compound_definition": "Can you please help me get that book?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 496,
@@ -6941,7 +6941,7 @@ var hskLevel1 = [
         "compound_pinyin": "Rúguǒ nǐ shēngbìngle; néng qǐng jià xiūxí.",
         "compound_definition": "If you are sick; you can request leave to rest.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 497,
@@ -6955,7 +6955,7 @@ var hskLevel1 = [
         "compound_pinyin": "Qǐng zuò xià; ràng wǒ gěi nǐ dào bēi chá.",
         "compound_definition": "Please have a seat; and let me pour you a cup of tea.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 498,
@@ -6969,7 +6969,7 @@ var hskLevel1 = [
         "compound_pinyin": "Qǐng jìn; bié zhàn zài ménkǒu.",
         "compound_definition": "Please come in; don't stand at the door.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 499,
@@ -6983,7 +6983,7 @@ var hskLevel1 = [
         "compound_pinyin": "Qǐng wèn yīxià; dìfāng zhàn zài nǎlǐ?",
         "compound_definition": "Excuse me, where is the place to stand?",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 500,
@@ -6997,7 +6997,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ zài fēijī shàng dúle bàn běn shū.",
         "compound_definition": "I read half of a book on the airplane.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 501,
@@ -7011,7 +7011,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā měi wǎn dōu huì huā yīxiē shíjiān dúshū.",
         "compound_definition": "She spends some time reading books every evening.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 502,
@@ -7025,7 +7025,7 @@ var hskLevel1 = [
         "compound_pinyin": "Míngtiān wǒmen yào qù hěn yuǎn dì dìfāng shàngkè.",
         "compound_definition": "Tomorrow we will go to class in a very far place.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 503,
@@ -7039,7 +7039,7 @@ var hskLevel1 = [
         "compound_pinyin": "Jīntiān de kèwén hěn yǒuqù; wǒmen xué dào le xǔduō xīn zhīshì.",
         "compound_definition": "Today's lesson text is very interesting; and we learned a lot of new knowledge.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 504,
@@ -7053,7 +7053,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ de kèběn fàng zài shūbāo lǐ; suíshí néng ná chūlái xuéxí.",
         "compound_definition": "My textbooks are in my schoolbag; ready to be taken out for study anytime.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 505,
@@ -7067,7 +7067,7 @@ var hskLevel1 = [
         "compound_pinyin": "Shéi shì nǐ de hǎo péngyǒu? Tā xǐhuān niúnǎi ma?",
         "compound_definition": "Who is your good friend? Does he like milk?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 506,
@@ -7081,7 +7081,7 @@ var hskLevel1 = [
         "compound_pinyin": "Xièxiè jīdàn fàng zài nǐ de shēntǐ pángbiān.",
         "compound_definition": "Thank you for placing the egg next to your body.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 507,
@@ -7095,7 +7095,7 @@ var hskLevel1 = [
         "compound_pinyin": "Xièxiè nǐ de bāngzhù; wǒ zhēnde hěn gǎnjī.",
         "compound_definition": "Thank you for your help; I really appreciate it.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 508,
@@ -7109,7 +7109,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhème guì de niúròu hào chī ma?",
         "compound_definition": "Was the very expensive beef tasty?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 509,
@@ -7123,7 +7123,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā hěn kuài de zǒule",
         "compound_definition": "He walked away quickly.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 510,
@@ -7137,7 +7137,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ xǐhuān zài gōngyuán lǐ sànbù; tèbié shì zài zǎomàn.",
         "compound_definition": "I enjoy walking in the park; especially in the morning.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 511,
@@ -7151,7 +7151,7 @@ var hskLevel1 = [
         "compound_pinyin": "Kèrén nín hǎo, qǐng qǐchuáng lái chī wǔfàn.",
         "compound_definition": "Hello guests, please get out of bed and come for lunch.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 512,
@@ -7165,7 +7165,7 @@ var hskLevel1 = [
         "compound_pinyin": "Míngtiān wǒ yào zǎodiǎn qǐchuáng; qù chén pǎo.",
         "compound_definition": "Tomorrow; I want to get up early and go for a morning run.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 513,
@@ -7179,7 +7179,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā tīng dào le nào zhōng hòu lìkè qǐlái zhǔnbèi shàngbān.",
         "compound_definition": "He got up immediately to prepare for work when he heard the alarm clock.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 514,
@@ -7193,7 +7193,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǚhái méiyǒu pǎo qù shāngdiàn.",
         "compound_definition": "The girl does not run to the store.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 515,
@@ -7207,7 +7207,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā gēn tā de péngyǒu yīqǐ qù le diànyǐngyuàn.",
         "compound_definition": "He went to the cinema with his friends.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 516,
@@ -7221,7 +7221,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒmen zǒu zài lùshàng mǎi diànyǐng piào.",
         "compound_definition": "We walk on the road to buy movie tickets.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 517,
@@ -7235,7 +7235,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒmen zài lùshàng yùdào le yīchǎng dàyǔ; suǒyǐ shī tòu le.",
         "compound_definition": "We encountered heavy rain on the way; so we got soaked.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 518,
@@ -7249,7 +7249,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zài zhège lùkǒu zuǒ zhuǎn; nǐ jiù huì kàn dào túshūguǎn.",
         "compound_definition": "Turn left at this intersection; and you will see the library.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 519,
@@ -7263,7 +7263,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ de shēntǐ yǒu jiǔ gè dōngxī.",
         "compound_definition": "My body has nine things.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 520,
@@ -7277,7 +7277,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ shēnshang yǒudiǎn lěng; xūyào duō chuān yī jiàn wàitào.",
         "compound_definition": "I feel a bit cold; so I need to wear an extra coat.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 521,
@@ -7291,7 +7291,7 @@ var hskLevel1 = [
         "compound_pinyin": "Yào bǎochí jiànkāng; wǒmen xūyào zhàogù hǎo wǒmen de shēntǐ.",
         "compound_definition": "To stay healthy; we need to take care of our bodies.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 522,
@@ -7305,7 +7305,7 @@ var hskLevel1 = [
         "compound_pinyin": "Qìchē hé huǒchē de shíjiān méiyǒu chābié, wǒmen sì diǎn jiù dàole.",
         "compound_definition": "There is no difference in time between bus and train, we arrived at four o'clock.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 523,
@@ -7319,7 +7319,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zài huǒchē shàng; nǐ néng xīnshǎng měilì de fēngjǐng.",
         "compound_definition": "On the train; you can enjoy beautiful scenery.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 524,
@@ -7333,7 +7333,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒmen bìxū tíqián mǎi chēpiào; yǐ quèbǎo yǒu zuòwèi.",
         "compound_definition": "We need to buy tickets in advance to ensure we have seats.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 525,
@@ -7347,7 +7347,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒmen jiāng zài huǒchēzhàn jiànmiàn; ránhòu yīqǐ chūfā.",
         "compound_definition": "We will meet at the train station and then depart together.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 526,
@@ -7361,7 +7361,7 @@ var hskLevel1 = [
         "compound_pinyin": "Qǐngwèn nǎ yībiān yào líng gè shù?",
         "compound_definition": "Which side should have zero trees?",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 527,
@@ -7375,7 +7375,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā zuótiān guò le shēngrì",
         "compound_definition": "She celebrated her birthday yesterday.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 528,
@@ -7389,7 +7389,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒmen de zhuōzi shàng hái yǒu máo.",
         "compound_definition": "There was still hair on our table.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 529,
@@ -7403,7 +7403,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǐ xǐhuān zhè běn shū háishì nà běn shū?",
         "compound_definition": "Do you like this book or that book?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 530,
@@ -7417,7 +7417,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒmen háiyǒu yīxiē shíjiān; néng qù guàng yī guàng fùjìn de shāngchǎng.",
         "compound_definition": "We have some time left; so we can go shopping at the nearby mall.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 531,
@@ -7431,7 +7431,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhè shì wǒjiā pángbiān de shù.",
         "compound_definition": "This is the tree beside my house.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 532,
@@ -7445,7 +7445,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhèxiē shuǐguǒ kàn qǐlái fēicháng xīnxiān; wǒ yào mǎi yīxiē.",
         "compound_definition": "These fruits look very fresh; I want to buy some.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 533,
@@ -7459,7 +7459,7 @@ var hskLevel1 = [
         "compound_pinyin": "Fànguǎn zài zhèr; wǒmen néng yīqǐ chī wǎnfàn.",
         "compound_definition": "The restaurant is here; we can have dinner together.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 534,
@@ -7473,7 +7473,7 @@ var hskLevel1 = [
         "compound_pinyin": "Lái; zuò zhèbiān; zhèlǐ yǒu gè kōng yǐzi.",
         "compound_definition": "Come; sit over here; there's an empty chair here.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 535,
@@ -7487,7 +7487,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhèlǐ shì wǒmen de xuéxiào túshūguǎn; yǒu hěnduō hǎoshū.",
         "compound_definition": "This is our school library; there are many good books here.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 536,
@@ -7501,7 +7501,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tóngxuémen qǐng xiānjìn lái. Wǒ hěn máng; nǐmen tài mànle",
         "compound_definition": "Classmates please come in first. I'm very busy; you guys are too slow.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 537,
@@ -7515,7 +7515,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā jímáng dǎkāi mén; jìnqù kàn kàn fāshēngle shénme shìqing.",
         "compound_definition": "He quickly opened the door and went inside to see what had happened.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 538,
@@ -7529,7 +7529,7 @@ var hskLevel1 = [
         "compound_pinyin": "Qǐng jìnlái; zuò ba! Wǒ yǐjīng zhǔnbèi hǎo chá le.",
         "compound_definition": "Please come in and have a seat! I've already prepared tea.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 539,
@@ -7543,7 +7543,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǐmen xuéxiào yuǎn ma?",
         "compound_definition": "Is your school far?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 540,
@@ -7557,7 +7557,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ xiǎng sòng yīgè qiánbāo gěi nàgè nánhái.",
         "compound_definition": "I want to give a wallet to the boy.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 541,
@@ -7571,7 +7571,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ zhīdào wǒ de xíngdòng shì huài de.",
         "compound_definition": "I know my actions are bad.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 542,
@@ -7585,7 +7585,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nà shì shénme dōngxī?",
         "compound_definition": "What is that?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 543,
@@ -7599,7 +7599,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nàxiē shū dōu hěn yǒuqù; wǒ dōu xiǎng dú.",
         "compound_definition": "Those books are all interesting; I want to read them all.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 544,
@@ -7613,7 +7613,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǐ yào qù nǎr dùjià?",
         "compound_definition": "Where are you going for vacation?",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 545,
@@ -7627,7 +7627,7 @@ var hskLevel1 = [
         "compound_pinyin": "Kàn; nàbiān yǒu yī jiā xīn de cāntīng; wǒmen qù chángcháng ba!",
         "compound_definition": "Look; there's a new restaurant over there; let's go and try it!",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 546,
@@ -7641,7 +7641,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nàlǐ de fēngjǐng fēicháng měilì; wǒ xīwàng yǒu yītiān néng qù nàlǐ lǚxíng.",
         "compound_definition": "The scenery there is very beautiful; I hope to travel there one day.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 547,
@@ -7655,7 +7655,7 @@ var hskLevel1 = [
         "compound_pinyin": "Shàngxué bā gè xiǎoshí, wǒmen dōu è hé lèi.",
         "compound_definition": "After eight hours of schooling, we were all hungry and tired.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 548,
@@ -7669,7 +7669,7 @@ var hskLevel1 = [
         "compound_pinyin": "Hěn nán zhǎodào yě zài fángjiān lǐ de qiú.",
         "compound_definition": "It's hard to find the ball which is also in the room.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 549,
@@ -7683,7 +7683,7 @@ var hskLevel1 = [
         "compound_pinyin": "Shūbāo lǐbiān yǒu wǒ de yàoshi.",
         "compound_definition": "My keys are inside the backpack.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 550,
@@ -7697,7 +7697,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ duì wǒ gēgē de chuáng lái shuō tài zhòngle.",
         "compound_definition": "I'm too heavy for my brother's bed.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 551,
@@ -7711,7 +7711,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhè shì yīgè fēicháng zhòngyào de jièshào.",
         "compound_definition": "This is a very important introduction.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 552,
@@ -7725,7 +7725,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ gēn wǒ de péngyǒu zài sì lóu zhǎodàole qián.",
         "compound_definition": "My friend and I found the money on the fourth floor.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 553,
@@ -7739,7 +7739,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ de qiánbāo diū le; wǒ bìxū qù bàojǐng.",
         "compound_definition": "I lost my wallet; I need to report it to the police.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 554,
@@ -7753,7 +7753,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǐ cuò le, wǒ méiyǒu chē.",
         "compound_definition": "You are wrong, I do not have a car.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 555,
@@ -7767,7 +7767,7 @@ var hskLevel1 = [
         "compound_pinyin": "Bā diǎn wǒmen jiù guānshàngle cháguǎn de mén.",
         "compound_definition": "At eight o'clock we closed the teahouse door.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 556,
@@ -7781,7 +7781,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā zhàn zài fángzi de ménkǒu děngzhe péngyǒu.",
         "compound_definition": "He's standing at the door of the house; waiting for his friend.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 557,
@@ -7795,7 +7795,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǐ néng zài wǎngshàng yùdìng bówùguǎn de ménpiào.",
         "compound_definition": "You can book museum tickets online.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 558,
@@ -7809,7 +7809,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wèn wèn nǐ yéyé jiào shénme.",
         "compound_definition": "Ask your grandfather what he is called.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 559,
@@ -7823,7 +7823,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǐ de fángjiān bǐ wǒ de fángjiān dà ma?",
         "compound_definition": "Is your room bigger than my room?",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 560,
@@ -7837,7 +7837,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒmen xuéyuàn fàngjià wǔ tiān.",
         "compound_definition": "Our college is on holiday for five days.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 561,
@@ -7851,7 +7851,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ shēngbìng de shíhòu, chuān yīfú hěn nán.",
         "compound_definition": "When I'm sick, it's hard to get dressed.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 562,
@@ -7865,7 +7865,7 @@ var hskLevel1 = [
         "compound_pinyin": "Jīntiān shì wǒ dì yī cì zài yǔzhōng pǎo.",
         "compound_definition": "Today was my first time running in the rain.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 563,
@@ -7879,7 +7879,7 @@ var hskLevel1 = [
         "compound_pinyin": "Jīntiān jiālǐ yǒu líng gè jīdàn",
         "compound_definition": "Today there are zero eggs at home.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 564,
@@ -7893,7 +7893,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ de mǎ yě fēicháng kuài",
         "compound_definition": "My horse is also very fast",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 565,
@@ -7907,7 +7907,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā fēicháng xǐhuān zhè běn shū; měitiān dōu zài dú.",
         "compound_definition": "He really likes this book and reads it every day.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 566,
@@ -7921,7 +7921,7 @@ var hskLevel1 = [
         "compound_pinyin": "Qiánmiàn de fēng bǐ hòumiàn de fēng dà.",
         "compound_definition": "The wind in the front is bigger than the wind in the back.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 567,
@@ -7935,7 +7935,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zǎofàn shí; wǒ tōngcháng chī miànbāo hé guǒjiàng.",
         "compound_definition": "For breakfast; I usually have bread and jam.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 568,
@@ -7949,7 +7949,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhōngwǔ; wǒ xǐhuān chī yī wǎn rètēngtēng de miàntiáor.",
         "compound_definition": "I like to have a steaming bowl of noodles for lunch.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 3
     },
     {
         "id": 569,
@@ -7963,7 +7963,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zuótiān wǒ zài chē shàng dúle wǔbǎi yè de shū. Yǒu hěnduō hànzì.",
         "compound_definition": "I read five hundred pages of my book in the car yesterday. There were many Chinese characters.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 570,
@@ -7977,7 +7977,7 @@ var hskLevel1 = [
         "compound_pinyin": "Jīntiān de fēng hěn dà",
         "compound_definition": "Today; the wind is very strong.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 571,
@@ -7991,7 +7991,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zuótiān fēijī shàng yǒu shéi?",
         "compound_definition": "Who was on the plane yesterday?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 572,
@@ -8005,7 +8005,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒmen de fēijī jiāng zài xiàwǔ sān diǎn qǐfēi.",
         "compound_definition": "Our plane will take off at 3:00 PM.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 573,
@@ -8019,7 +8019,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ māmā sìshí suìle, zuò wǒ zuì xǐhuān chī de fàncài.",
         "compound_definition": "My mother is forty years old and cooks my favourite meals.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 574,
@@ -8033,7 +8033,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒmen zài zhège chéngshì de fàndiàn dìng le yī jiān fángjiān.",
         "compound_definition": "We booked a room at the hotel in this city.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 575,
@@ -8047,7 +8047,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ jiàqī lǐ hěn è. Shéi zài xiào?",
         "compound_definition": "I am hungry on my vacation. Who is laughing?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 576,
@@ -8061,7 +8061,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǎge dìfāng yǒu zuì hǎo de túshū guǎn?",
         "compound_definition": "Which place has the best library?",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 577,
@@ -8075,7 +8075,7 @@ var hskLevel1 = [
         "compound_pinyin": "Nǐ de mǎ jiào shénme míngzì, duōdàle?",
         "compound_definition": "What is your horses name and how old is it?",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 578,
@@ -8089,7 +8089,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒmen bìxū mǎshàng chūfā; fǒu zé huì chídào.",
         "compound_definition": "We need to leave immediately; or we'll be late.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 579,
@@ -8103,7 +8103,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhè tiáo mǎlù shàng de jiāotōng zǒng shì hěn yōngdǔ.",
         "compound_definition": "The traffic on this road is always congested.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 580,
@@ -8117,7 +8117,7 @@ var hskLevel1 = [
         "compound_pinyin": "Tā tài gāole, shuì bùzháo wǒ de chuáng.",
         "compound_definition": "She is too tall to sleep in my bed.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 581,
@@ -8131,7 +8131,7 @@ var hskLevel1 = [
         "compound_pinyin": "Wǒ tīngdào zhège hǎo xiāoxī gǎndào fēicháng gāoxìng.",
         "compound_definition": "I'm very happy to hear this good news.",
         "valid_sentence": "FALSE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 2
     },
     {
         "id": 582,
@@ -8145,7 +8145,7 @@ var hskLevel1 = [
         "compound_pinyin": "Zhōngguó de jī hěn guì.",
         "compound_definition": "The chicken in China is very expensive.",
         "valid_sentence": "TRUE",
-        "counter (583)\r": "\r"
+        "counter (583)\r": 1
     },
     {
         "id": 583,
@@ -8158,6 +8158,7 @@ var hskLevel1 = [
         "compound": "鸡蛋是早饭的主食之一，你想要煮熟的还是荷包蛋？",
         "compound_pinyin": "Jīdàn shì Zǎofàn de zhǔshí zhī yī; nǐ xiǎng yào zhǔ shú de háishì hébāo dàn?",
         "compound_definition": "Eggs are one of the main staples for breakfast; do you want them boiled or sunnyside up?",
-        "valid_sentence": "FALSE,"
+        "valid_sentence": "FALSE",
+        "counter (583)\r": 2
     }
 ];
