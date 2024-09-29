@@ -14917,7 +14917,7 @@ export const hskLevel4 = [
         "hsk_level": 4,
         "part_of_speech": "Verb/Noun",
         "compound_cantonese": "",
-        "compound": "这本关于圆，坚固结构的书值得一​​读阅。",
+        "compound": "这本关于圆，坚固结构的书值得一读阅。",
         "compound_pinyin": "Zhè běn guānyú yuán, jiāngù jiégòu de shū zhídé yī​​dú yuè.",
         "compound_definition": "This book on round, solid structures is worth reading.",
         "valid_sentence": "",
