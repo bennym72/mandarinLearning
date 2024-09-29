@@ -945,9 +945,9 @@ var hskLevel5Sentences = [
         "hsk_level": 5,
         "part_of_speech": "noun",
         "compound_cantonese": "",
-        "compound": "公司的仓库里存放着很多设备和材料。",
-        "compound_pinyin": "Gōngsī de cāngkù lǐ cúnfàngzhe hěn duō shèbèi hé cáiliào.",
-        "compound_definition": "The company's warehouse stores a lot of equipment and materials.",
+        "compound": "这个秘密的军事数据库由四名手持枪支的士兵在黑暗中守卫。",
+        "compound_pinyin": "Zhège mìmì de jūnshì shùjùkù yóu sì míng shǒuchí qiāngzhī dí shìbīng zài hēi'àn zhōng shǒuwèi.",
+        "compound_definition": "This secret military database is guarded in darkness by four soldiers armed with guns.",
         "valid_sentence": "",
         "counter (75)\r": "\r"
     },
