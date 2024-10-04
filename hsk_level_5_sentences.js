@@ -11,7 +11,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Yǐqián, dāng biérén shuō tā chǒu de shíhòu, tā huì hěn mǐngǎn, dànshì jīngguò cháng shíjiān de bēishāng, tā xiànzài yǐjīng biàn dé lěngmòle.",
         "compound_definition": "In the past, she would be very sensitive when others said she was ugly, but after a long period of sadness, she has now become indifferent.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3675,
@@ -25,7 +25,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Wǒ zhè jǐ tiān gōngzuò hěn fá, xiǎng xiūxí yīxià.",
         "compound_definition": "I've been very tired from work these past few days and want to rest a bit.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3685,
@@ -39,7 +39,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Wǒmen bān de tóngxué dōu jù lái cānjiāle zhège huódòng.",
         "compound_definition": "All the students in our class came together to participate in this event.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3691,
@@ -53,7 +53,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Tā zuòle gè shǎ shì, ràng dàjiā dōu xiào le.",
         "compound_definition": "He did something silly that made everyone laugh.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3696,
@@ -67,7 +67,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Wàimiàn de tiānqì tài lěng, shuǐ yǐjīng dòng zhùle.",
         "compound_definition": "The weather outside is too cold; the water has already frozen.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3704,
@@ -81,7 +81,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Tā shì yīgè qínfèn de xuéshēng, měitiān dōu hěn nǔlì xuéxí.",
         "compound_definition": "She is a diligent student and studies hard every day.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3710,
@@ -95,7 +95,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Tā de fùmǔ duì tā de xuéxí yāoqiú hěn lì.",
         "compound_definition": "His parents have very strict expectations for his studies.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3721,
@@ -109,7 +109,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Wéi yǒu nǔlì cáinéng huòdé chénggōng, zhè shì wǒ yīzhí xiāngxìn de.",
         "compound_definition": "Only through hard work can one achieve success; this is what I’ve always believed.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3723,
@@ -123,7 +123,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Zhè tiáo lù hěn tǎn, kāichē de shíhòu hěn shūfú.",
         "compound_definition": "This road is very flat, making it comfortable to drive on.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3739,
@@ -137,7 +137,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Zhège dìfāng de fēngjǐng yóuwéi mírén, xīyǐnle hěn duō yóukè.",
         "compound_definition": "The scenery in this place is particularly charming, attracting many visitors.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3745,
@@ -151,7 +151,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Zhège gōngyuán de jiǎoluò fēicháng yōujìng, shìhé dúshū hé sīkǎo.",
         "compound_definition": "This corner of the park is very quiet, perfect for reading and thinking.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3758,
@@ -165,7 +165,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Jǐnguǎn zhège cōngmíng de nǚhái bèi jìnzhǐ jìnrù fángjiān, dàn tā háishì qiāoqiāo de jiàngle jìnqù.",
         "compound_definition": "Although the clever girl was forbidden to enter the room, she quietly descended inside.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3761,
@@ -179,7 +179,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Tā de gùshì chōngmǎnle bēishāng, ràng rén xīntòng.",
         "compound_definition": "His story is filled with sadness, causing heartache.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3765,
@@ -193,7 +193,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Tā huāngmáng gǎn dào jīchǎng, shēngpà cuòguò hángbān.",
         "compound_definition": "He hurried to the airport, afraid of missing his flight.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3801,
@@ -207,7 +207,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Tā duì biérén de qínggǎn fēicháng mǐngǎn, zǒng shì néng chájúedào biànhuà.",
         "compound_definition": "She is very sensitive to others' emotions and can always sense changes.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3804,
@@ -221,7 +221,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Suīrán dìmiàn píngtǎn, dànshì zhuōzi què shāowéi xiéle.",
         "compound_definition": "Although the ground was flat, the table was slightly tilted.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3806,
@@ -235,7 +235,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Yóuyú tiānqì yuányīn, huódòng zànshí qǔxiāo.",
         "compound_definition": "The event has been temporarily canceled due to weather conditions.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3808,
@@ -249,7 +249,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Tā de shēngyīn lǎnglǎng shàngkǒu, ràng rén yìnxiàng shēnkè.",
         "compound_definition": "His voice is clear and catchy, leaving a deep impression.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3809,
@@ -263,7 +263,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Zhè duǒ ruǎn de huā xiàngzhēngzhe bēishāng. Wǒmen kěyǐ lěngdòng tā lái bǎocún tā.",
         "compound_definition": "This soft flower symbolizes sadness. We can freeze it to preserve it.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3839,
@@ -277,7 +277,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Tā de tàidù mò bù guānxīn, ràng rén gǎndào shīwàng.",
         "compound_definition": "His indifferent attitude disappointed people.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3843,
@@ -291,7 +291,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Zhège píngguǒ yǐjīng lànle, bù néng zài chīle.",
         "compound_definition": "This apple is already rotten and can't be eaten anymore.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3849,
@@ -305,7 +305,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Tā duì lánqiú kuángrè, jīhū měitiān dōu qù dǎqiú.",
         "compound_definition": "He is crazy about basketball and plays almost every day.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3859,
@@ -319,7 +319,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Zhège fēngzi xiàng yījiā jìsuànjī yìngjiàn shāngdiàn tóule yīxiē pánzi.",
         "compound_definition": "This lunatic threw some plates at a computer hardware store.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3860,
@@ -333,7 +333,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Tā zuìjìn shòule hěn duō, péngyǒumen dōu hěn guānxīn tā de jiànkāng.",
         "compound_definition": "She has lost a lot of weight recently, and her friends are concerned about her health.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3867,
@@ -347,7 +347,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Tā zài dàxué lǐ huòdé shuòshì xuéwèi, kāishǐle xīn de rénshēng jiēduàn.",
         "compound_definition": "He earned a master's degree at university and began a new phase of life.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3868,
@@ -361,7 +361,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Zhège mùtou fēicháng yìng, zhìzuò jiājù fēicháng héshì.",
         "compound_definition": "This wood is very hard, making it suitable for furniture.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3871,
@@ -375,7 +375,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Yóuyú zìjǐ de shēntǐ yòu chòu yòu chǒu, tā gèng xǐhuān sīxià tuō yīfú.",
         "compound_definition": "Since her body was smelly and ugly, she preferred to undress in private.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3873,
@@ -389,7 +389,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Tā duì zìjǐ de shòuruò shāowéi mǐngǎn. Tā xiǎng tōngguò duànliàn ràng zìjǐ biàn dé gèng pàng yīdiǎn.",
         "compound_definition": "She is a little sensitive about her thinness. She wants to make herself a little fatter through exercise.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3883,
@@ -403,7 +403,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Tā huāngluàn zhòng xuǎnzé dài de zǐsè màozi, què bèi yī wèi shuàiqì lǜshī de zànshǎng.",
         "compound_definition": "The purple hat she chose to wear in a panic was praised by a handsome lawyer.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3884,
@@ -417,7 +417,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Zhège chéngshì de yèjǐng fánhuá, xīyǐnle hěn duō yóukè.",
         "compound_definition": "The night view of this city is vibrant and attracts many tourists.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3892,
@@ -431,7 +431,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Tā shì yīgè cōngmíng de xuéshēng, zǒng shì néng hěn kuài lǐjiě lǎoshī de jiǎngjiě.",
         "compound_definition": "She is a clever student who always understands the teacher's explanations quickly.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3903,
@@ -445,7 +445,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Yóuyú wǒmen de chúfáng zhànshí wúfǎ shǐyòng, zhìzuò cuì pí jī jiāng huì hěn jiānjù.",
         "compound_definition": "Since our kitchen is temporarily unavailable, making crispy chicken is going to be a daunting task.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3905,
@@ -459,7 +459,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Zhège lājī sànfāzhe chòuwèi, bìxū mǎshàng qīnglǐ.",
         "compound_definition": "This garbage gives off a bad smell and must be cleaned up immediately.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3907,
@@ -473,7 +473,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Zhè duàn lǚchéng fēicháng jiānnán, dàn tā yīrán jiānchí wánchéng.",
         "compound_definition": "This journey was very difficult, but she persevered to complete it.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3908,
@@ -487,7 +487,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Ràng wǒmen lái zànshǎng yīxià zhè zhǐ sècǎi xiānyàn de niǎo.",
         "compound_definition": "Let's admire this colorful bird.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3914,
@@ -501,7 +501,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Tā de huà tīng qǐlái hěn xū, ràng rén nányǐ xiāngxìn.",
         "compound_definition": "His words sound empty and hard to believe.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3921,
@@ -515,7 +515,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Tā duì xiàngmù de jìhuà zuòle xiángjìn de shuōmíng, quèbǎo dàjiā lǐjiě.",
         "compound_definition": "She provided a detailed explanation of the project plan to ensure everyone understood.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3923,
@@ -529,7 +529,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Zhēngfú zhī lù shífēn jiānxīn, suǒyǐ tā zìháo de chōuzhe juǎnyān qìngzhù zìjǐ de shènglì.",
         "compound_definition": "The road to conquest had been difficult, so he proudly celebrated his victory by smoking a cigarette.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3924,
@@ -543,7 +543,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Tāmen zài Yùshěng de lǚxíng zhōng, tǐyànle dútè de dìfāng wénhuà.",
         "compound_definition": "During their trip to Henan province, they experienced the unique local culture.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3932,
@@ -557,7 +557,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Zhè zhāng shāfā fēicháng ruǎn, zuò shàngqù hěn shūfú.",
         "compound_definition": "This sofa is very soft and comfortable to sit on.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3936,
@@ -571,7 +571,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Tā jīnglìle xǔduō xīnkǔ de rìzi, zhōngyú shíxiànle zìjǐ de mùbiāo.",
         "compound_definition": "He went through many tough days and finally achieved his goals.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3953,
@@ -585,7 +585,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Hánshān dǐng suī shì xiūxián de hǎo qùchù, dàn dēng jiàowéi jiānnán. Jǐnguǎn rúcǐ, wǒmen háishì huì pínfán qù fǎng.",
         "compound_definition": "Although Hanshan Peak is a good place for leisure, it is difficult to climb. Despite this, we still visit it frequently.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3955,
@@ -599,7 +599,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Xiāofáng yuán pá shàng tīzi jiùchū háizi, zhè wèi yīngxióng zhídé wǒmen zànyáng.",
         "compound_definition": "The firefighter climbed up the ladder to rescue the child. This hero deserves our praise.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3958,
@@ -613,7 +613,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Tā pínfán de qù jiànshēnfáng duànliàn, bǎochí shēntǐ jiànkāng.",
         "compound_definition": "She frequently goes to the gym to exercise and maintain her health.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3959,
@@ -627,7 +627,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Yīgè qióng ér fēngkuáng de rén bǎ zhè kē zǐsè bǎoshí mài gěile wǒ.",
         "compound_definition": "A poor and crazy man sold me this purple gem.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3680,
@@ -641,7 +641,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Tā yǒu yīgè kě'ài de zǎizǎi, gānggāng xuéhuì zǒulù.",
         "compound_definition": "He has a cute little boy who just learned to walk.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3687,
@@ -655,7 +655,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Wǒ ǒurán yùjiànle yīgè lǎo péngyǒu, zhēn shì jīngxǐ.",
         "compound_definition": "I unexpectedly ran into an old friend, and it was such a surprise.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3690,
@@ -669,7 +669,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Tā de lǎoshī fù jiàole tā hěn duō shíyòng de jìnéng.",
         "compound_definition": "His mentor taught him many practical skills.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3692,
@@ -683,7 +683,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Xiǎo tùzi zài cǎodì shàng tiàolái tiàoqù, zhēn kě'ài.",
         "compound_definition": "The little rabbit is hopping around in the grass; it’s so cute.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3693,
@@ -697,7 +697,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Zhè běn shū yǒu sān cè, měi cè dōu hěn yǒuqù.",
         "compound_definition": "This book has three volumes, and each one is very interesting.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3694,
@@ -711,7 +711,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Tā xiǎng jiārù jūnduì, wèi guójiā fúwù.",
         "compound_definition": "He wants to join the army to serve his country.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3695,
@@ -725,7 +725,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Tā yíngdéle bǐsài, dàishàngle guànjūn de guàn.",
         "compound_definition": "She won the competition and put on the champion's crown.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3705,
@@ -739,7 +739,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Tā mǎile yī pǐ piàoliang de mǎ, zhǔnbèi cānjiā bǐsài.",
         "compound_definition": "He bought a beautiful horse to prepare for the competition.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3709,
@@ -753,7 +753,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Wǒmen zài dàtīng lǐ jǔbànle yīgè shēngrì pàiduì.",
         "compound_definition": "We held a birthday party in the hall.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3712,
@@ -767,7 +767,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Tā zài chúshī xuéxiào xuéxí, xiǎng chéngwéi yī míng zhuānyè chúshī.",
         "compound_definition": "She is studying at a culinary school and wants to become a professional chef.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3713,
@@ -781,7 +781,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Qǐng yòng chāzi lái chī shālā, zhèyàng gèng fāngbiàn.",
         "compound_definition": "Please use a fork to eat the salad; it’s more convenient that way.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3716,
@@ -795,7 +795,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Zhè liàng kǎchē de zàizhòng nénglì shì wǔ dūn, fēicháng qiángdà.",
         "compound_definition": "This truck has a load capacity of five tons, which is very powerful.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3724,
@@ -809,7 +809,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Tā shì yī wèi yōuxiù de chuántǒng shīgē jiàoshòu, zhè shì tā de zhuānyè lǐngyù. Wǒ qǐngqiú tā chéngwéi wǒ de shīfù.",
         "compound_definition": "She was an excellent professor of traditional poetry, her area of ​​expertise, and I asked her to become my mentor.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3726,
@@ -823,7 +823,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Zhè miàn bìhuà hěn piàoliang, xīyǐnle hěn duō yóukè.",
         "compound_definition": "This mural is beautiful and attracts many visitors.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3727,
@@ -837,7 +837,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Zài zhōngyāng gōngyuán, wǒ hé wǒ de pèi'ǒu kànzhe xīyáng shuìzhele.",
         "compound_definition": "My spouse and I fell asleep watching the sunset in Central Park.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3728,
@@ -851,7 +851,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Zhège chéngshì de yāngqū yǒu hěn duō shāngdiàn hé cāntīng.",
         "compound_definition": "The central area of the city has many shops and restaurants.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3732,
@@ -865,7 +865,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Jiǔdiàn de fúwùyuán rèqíng de huānyíng měi yī wèi bīnkè.",
         "compound_definition": "The hotel staff warmly welcomes every guest.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3734,
@@ -879,7 +879,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Tā de shēngrì pàiduì shàng, dàjiā zhù tā chángshòu.",
         "compound_definition": "At her birthday party, everyone wished her longevity.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3741,
@@ -893,7 +893,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Yúnnán hǎibiān yǒu měilì de shuǐ àn, hěn shìhé zhè fú shānshuǐhuà.",
         "compound_definition": "Yunnan has a beautiful seashore, which is very suitable for this landscape painting.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3742,
@@ -907,7 +907,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Tā bǎ chuānglián lā kāi, ràng yángguāng zhào jìn fángjiān.",
         "compound_definition": "She pulled back the curtain, letting sunlight into the room.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3743,
@@ -921,7 +921,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Zhè fú huà de yánsè fēicháng xiānyàn, xīyǐnle hěn duō rén.",
         "compound_definition": "The colors of this painting are very bright and attract many people.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3744,
@@ -935,7 +935,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Zài wǒ ǒurán yùjiàn wǒ de yīngxióng zhīhòu, wǒ ràng tā zài wǒ de bīnguǎn zhùle yī wǎn, cānjiā kāimù shì.",
         "compound_definition": "After I met my hero by chance, I asked her to stay at my guest house for a night for the opening ceremony.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3746,
@@ -949,7 +949,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Zhège mìmì de jūnshì shùjùkù yóu sì míng shǒuchí qiāngzhī dí shìbīng zài hēi'àn zhōng shǒuwèi.",
         "compound_definition": "This secret military database is guarded in darkness by four soldiers armed with guns.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3750,
@@ -963,7 +963,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Zhè kěnéng huì ràng rén gǎndào chījīng, jǐnguǎn qǐyè xuānyáng dàodé hé yīngxióng zhǔyì, dàn zhǔxí hé gāo guǎnmen sīxià lǐ zhǐ guānxīn jīnqián.",
         "compound_definition": "It may come as a surprise that despite corporate rhetoric about morality and heroism, chairmen and executives privately care only about money.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3805,
@@ -977,7 +977,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Qīngchén de dàn shífēn, niǎo er kāishǐ huānkuài de gēchàng.",
         "compound_definition": "At dawn, the birds start singing happily.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3812,
@@ -991,7 +991,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Jūzhù zài yōujìng dì dìfāng kěnéng huì gěi nǐ yī zhǒng xūjiǎ de ānquán gǎn. Jíshǐ cúnzài yīxiē fēngxiǎn, wǒ háishì qiǎngpò nǐ zài jiālǐ fàng yī bǎ qiāng lái bǎohù zìjǐ.",
         "compound_definition": "Living in a secluded area may give you a false sense of security. Even though there are some risks, I urge you to keep a gun in your home for protection.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3814,
@@ -1005,7 +1005,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Chāzi hé pánzi cúnfàng zài chuānglián pángbiān de chú guì lǐ.",
         "compound_definition": "The forks and plates are stored in the kitchen cabinet next to the curtains.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3815,
@@ -1019,7 +1019,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Dōngtiān de shíhòu, tāmen huì zài jiālǐ shāo chái qǔnuǎn.",
         "compound_definition": "In winter, they burn firewood at home for warmth.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3816,
@@ -1033,7 +1033,7 @@ var hskLevel5Sentences = [
         "compound_pinyin": "Qiūtiān shì shìzi chéngshú de jìjié, shìchǎng shàng mǎn shì měiwèi de shìzi.",
         "compound_definition": "Autumn is the season when persimmons ripen, and the market is full of delicious ones.",
         "valid_sentence": "",
-        "counter (75)\r": "\r"
+        "counter (133)\r": "\r"
     },
     {
         "id": 3817,
@@ -1046,7 +1046,819 @@ var hskLevel5Sentences = [
         "compound": "这颗微小的金属球最初附着在原子核上。它在元旦开幕式上掉了下来。",
         "compound_pinyin": "Zhè kē wéixiǎo de jīnshǔ qiú zuìchū fùzhuó zài yuánzǐhé shàng. Tā zài yuándàn kāimù shì shàng diàole xiàlái.",
         "compound_definition": "The tiny metal ball was originally attached to the nucleus of an atom. It fell off during the opening ceremony on New Year's Day.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3818,
+        "character": "桃",
+        "character_pinyin": "táo",
+        "eng": "peach",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "对不起，服务员，我想点一份桃子蛋糕和一些葡萄汁。",
+        "compound_pinyin": "Duìbùqǐ, fúwùyuán, wǒ xiǎng diǎn yī fèn táo zǐ dàngāo hé yīxiē pútáo zhī.",
+        "compound_definition": "Excuse me, waiter, I'd like to order a peach cake and some grape juice.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3819,
+        "character": "梨",
+        "character_pinyin": "lí",
+        "eng": "pear",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "冰糖雪梨是一道常见的火锅配甜品。",
+        "compound_pinyin": "Bīngtáng xuělí shì yīdào chángjiàn de huǒguō pèi tiánpǐn.",
+        "compound_definition": "Rock sugar and snow pear is a common dessert served with hot pot.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3820,
+        "character": "棒",
+        "character_pinyin": "bàng",
+        "eng": "stick; rod",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "这位已婚妇女对丈夫很冷淡。自从丈夫输掉棒球比赛后，他们的生活就变得空虚。",
+        "compound_pinyin": "Zhè wèi yǐ hūn fùnǚ duì zhàngfū hěn lěngdàn. Zìcóng zhàngfū shū diào bàngqiú bǐsài hòu, tāmen de shēnghuó jiù biàn dé kòng xū.",
+        "compound_definition": "The married woman was cold to her husband. Ever since her husband lost the baseball game, their lives felt empty.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3823,
+        "character": "款",
+        "character_pinyin": "kuǎn",
+        "eng": "money; fund",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "我紧张得满头大汗，因为我随身带着很多现金需要存款银行。",
+        "compound_pinyin": "Wǒ jǐnzhāng dé mǎn tóu dà hàn, yīnwèi wǒ suíshēn dàizhe hěnduō xiànjīn xūyào cúnkuǎn yínháng.",
+        "compound_definition": "I was so nervous that I was sweating because I had a lot of cash with me that I needed to deposit in the bank.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3826,
+        "character": "汗",
+        "character_pinyin": "hàn",
+        "eng": "sweat; perspiration",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "他在运动后满身是汗，需要洗个澡。",
+        "compound_pinyin": "Tā zài yùndòng hòu mǎn shēn shì hàn, xūyào xǐ gè zǎo.",
+        "compound_definition": "He was drenched in sweat after exercising and needed to take a shower.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3827,
+        "character": "池",
+        "character_pinyin": "chí",
+        "eng": "pond; pool",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "我们在游泳池举行家庭聚会，庆祝毕业。甚至邻居们也过来了。",
+        "compound_pinyin": "Wǒmen zài yóuyǒngchí jǔ háng jiātíng jùhuì, qìngzhù bìyè. Shènzhì línjūmen yě guòláile.",
+        "compound_definition": "We had a family gathering at the pool to celebrate graduation. Even the neighbors came over.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3829,
+        "character": "沟",
+        "character_pinyin": "gōu",
+        "eng": "ditch; trench",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "她为了避免蛇，就大胆地跳进了沟里。",
+        "compound_pinyin": "Tā wèile bìmiǎn shé, jiù dàdǎn de tiào jìnle gōu lǐ.",
+        "compound_definition": "In order to avoid the snake, she boldly jumped into the ditch.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3833,
+        "character": "洞",
+        "character_pinyin": "dòng",
+        "eng": "hole; cave",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "这名煤矿工人没有注意到洞内有一个浅水池。",
+        "compound_pinyin": "Zhè míng méikuàng gōngrén méiyǒu zhùyì dào dòng nèi yǒu yīgè qiǎn shuǐchí.",
+        "compound_definition": "The coal miner failed to notice that there was a shallow pool of water inside the cave.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3842,
+        "character": "灾",
+        "character_pinyin": "zāi",
+        "eng": "disaster; calamity",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "政府正在采取措施帮助社区避免灾难。他们建议市民用木板封住玻璃窗。",
+        "compound_pinyin": "Zhèngfǔ zhèngzài cǎiqǔ cuòshī bāngzhù shèqū bìmiǎn zāinàn. Tāmen jiànyì shì mínyòng mùbǎn fēng zhù bōlí chuāng.",
+        "compound_definition": "The government is taking steps to help communities avoid disasters. Citizens are being advised to board up their windows.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3845,
+        "character": "煤",
+        "character_pinyin": "méi",
+        "eng": "coal",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "他一手拿着一小块煤，一手拿着一颗明珠，他觉得这个动作很有诗意。",
+        "compound_pinyin": "Tā yīshǒu názhe yī xiǎo kuài méi, yīshǒu názhe yī kē míngzhū, tā juédé zhège dòngzuò hěn yǒu shīyì.",
+        "compound_definition": "He held a small piece of coal in one hand and a pearl in the other, and he thought the action was very poetic.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3846,
+        "character": "熊",
+        "character_pinyin": "xióng",
+        "eng": "bear",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "动物园里有一只可爱的熊，吸引了很多游客。",
+        "compound_pinyin": "Dòngwùyuán lǐ yǒu yī zhī kě'ài de xióng, xīyǐnle hěn duō yóukè.",
+        "compound_definition": "There is a cute bear in the zoo that attracts many visitors.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3847,
+        "character": "版",
+        "character_pinyin": "bǎn",
+        "eng": "edition; version",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "这本书的新版本有很多更新的内容。",
+        "compound_pinyin": "Zhè běn shū de xīn bǎn běn yǒu hěn duō gēngxīn de nèiróng.",
+        "compound_definition": "The new edition of this book has a lot of updated content.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3852,
+        "character": "猴",
+        "character_pinyin": "hóu",
+        "eng": "monkey",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "动物园里有很多种类的猴子，孩子们都很喜欢。",
+        "compound_pinyin": "Dòngwùyuán lǐ yǒu hěn duō zhǒnglèi de hóuzi, háizimen dōu hěn xǐhuān.",
+        "compound_definition": "There are many types of monkeys in the zoo, and the kids really enjoy them.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3853,
+        "character": "玻",
+        "character_pinyin": "bō",
+        "eng": "glass",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "这个窗户是用玻璃做的，非常透明。",
+        "compound_pinyin": "Zhège chuānhù shì yòng bōlí zuò de, fēicháng tòumíng.",
+        "compound_definition": "This window is made of glass and is very transparent.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3855,
+        "character": "珠",
+        "character_pinyin": "zhū",
+        "eng": "pearl; bead",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "丈夫和妻子在河岸边一起看夕阳，丈夫送给妻子一对珠耳环。",
+        "compound_pinyin": "Zhàngfū hé qīzi zài hé'àn biān yīqǐ kàn xīyáng, zhàngfū sòng gěi qīzi yī duì zhū ěrhuán.",
+        "compound_definition": "The husband and wife watched the sunset together on the river bank, and the husband gave his wife a pair of pearl earrings.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3856,
+        "character": "琴",
+        "character_pinyin": "qín",
+        "eng": "piano; stringed instrument",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "唯有隔壁的幼儿园教室有钢琴。",
+        "compound_pinyin": "Wéi yǒu gébì de yòu'éryuán jiàoshì yǒu gāngqín.",
+        "compound_definition": "Only the kindergarten classroom next door has a piano.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3857,
+        "character": "璃",
+        "character_pinyin": "lí",
+        "eng": "glaze; glass (as in porcelain)",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "天呀！我的隔壁邻居用一个钢锅碰了我的窗玻璃。",
+        "compound_pinyin": "Tiān ya! Wǒ de gébì línjū yòng yīgè gāng guō pèngle wǒ de chuāng bōlí.",
+        "compound_definition": "Oh my goodness! My next-door neighbor hit my window with a steel pot.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3858,
+        "character": "甲",
+        "character_pinyin": "jiǎ",
+        "eng": "armor; shell",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "装甲车十分坚硬，却意外沉入水池中。",
+        "compound_pinyin": "Zhuāngjiǎchē shífēn jiānyìng, què yìwài chén rù shuǐchí zhōng.",
+        "compound_definition": "The armored vehicle was very strong, but it unexpectedly sank into the pool.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3861,
+        "character": "盆",
+        "character_pinyin": "pén",
+        "eng": "basin; pot",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "她在盆里种了许多花，家里变得更加美丽。",
+        "compound_pinyin": "Tā zài pén lǐ zhòngle xǔduō huā, jiālǐ biàn dé gèng jiā měilì.",
+        "compound_definition": "She planted many flowers in the pot, making the home more beautiful.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3862,
+        "character": "盒",
+        "character_pinyin": "hé",
+        "eng": "box; case",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "我的午餐盒里有一份特殊的餐食，由咸猪大肠、蔬菜、米饭和葡萄饼做成的甜点。",
+        "compound_pinyin": "Wǒ de wǔcān hé li yǒuyī fèn tèshū de cān shí, yóu xián zhū dàcháng, shūcài, mǐfàn hé pútáo bǐng zuò chéng de tiándiǎn.",
+        "compound_definition": "My lunch box contained a special meal of salted pig intestines, vegetables, rice, and grape cake for dessert.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3863,
+        "character": "盾",
+        "character_pinyin": "dùn",
+        "eng": "shield",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "古代士兵使用长矛和盾牌来组成战斗队形。",
+        "compound_pinyin": "Gǔdài shìbīng shǐyòng cháng máo hé dùnpái lái zǔchéng zhàndòu duì xíng.",
+        "compound_definition": "Ancient soldiers used spears and shields to form battle formations.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3866,
+        "character": "矛",
+        "character_pinyin": "máo",
+        "eng": "spear; lance",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "使用长矛的人和使用枪的人谁会获胜？",
+        "compound_pinyin": "Shǐyòng cháng máo de rén hé shǐyòng qiāng de rén shéi huì huòshèng?",
+        "compound_definition": "Who will win, the one who uses a spear or the one who uses a gun?",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3872,
+        "character": "秒",
+        "character_pinyin": "miǎo",
+        "eng": "second (time)",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "别傻了。如果你遇见了一只北极熊，你的寿命就只有几秒钟了。",
+        "compound_pinyin": "Bié shǎle. Rúguǒ nǐ yùjiànle yī zhǐ běijíxióng, nǐ de shòumìng jiù zhǐyǒu jǐ miǎo zhōngle.",
+        "compound_definition": "Don't be silly. If you encounter a polar bear, you only have a few seconds to live.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3875,
+        "character": "竹",
+        "character_pinyin": "zhú",
+        "eng": "bamboo",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "竹子很有用，因为它们可以燃烧取暖或用作矛。",
+        "compound_pinyin": "Zhúzi hěn yǒuyòng, yīnwèi tāmen kěyǐ ránshāo qǔnuǎn huò yòng zuò máo.",
+        "compound_definition": "Bamboos were useful because they could be burned for warmth or used as spears.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3878,
+        "character": "籍",
+        "character_pinyin": "jí",
+        "eng": "nationality; registered status",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "外籍工人经常将钱存款其本国的银行，如果他们来自敌国，这可能会很危险。",
+        "compound_pinyin": "Wàijí gōngrén jīngcháng jiāng qián cúnkuǎn qí běnguó de yínháng, rúguǒ tāmen láizì díguó, zhè kěnéng huì hěn wéixiǎn.",
+        "compound_definition": "Foreign workers often deposit money in banks in their home countries, which can be dangerous if they are from an enemy country.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3880,
+        "character": "糕",
+        "character_pinyin": "gāo",
+        "eng": "cake; pastry",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "她为生日准备了一个精美的蛋糕，大家都很喜欢。",
+        "compound_pinyin": "Tā wèi shēngrì zhǔnbèile yīgè jīngměi de dàngāo, dàjiā dōu hěn xǐhuān.",
+        "compound_definition": "She prepared a beautiful cake for the birthday, and everyone loved it.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3885,
+        "character": "纲",
+        "character_pinyin": "gāng",
+        "eng": "framework; outline",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "他制定了项目的纲要，以确保每个环节都能顺利进行。",
+        "compound_pinyin": "Tā zhìdìngle xiàngmù de gāngyào, yǐ quèrèn měi gè huánjié dōu néng shùnlì jìnxíng.",
+        "compound_definition": "He developed an outline for the project to ensure each part runs smoothly.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3887,
+        "character": "绒",
+        "character_pinyin": "róng",
+        "eng": "fluff; velvet",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "棒球选手对失败者开了个玩笑，用胶水将绒毛和羽毛贴到失败者的身上。",
+        "compound_pinyin": "Bàngqiú xuǎnshǒu duì shībài zhě kāile gè wánxiào, yòng jiāoshuǐ jiāng róngmáo hé yǔmáo tiē dào shībài zhě de shēnshang.",
+        "compound_definition": "The baseball players played a joke on the losers by gluing fluff and feathers onto their bodies.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3890,
+        "character": "羽",
+        "character_pinyin": "yǔ",
+        "eng": "feather; wing",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "鸟尾上的羽毛颜色鲜艳，是为了吸引配偶。",
+        "compound_pinyin": "Niǎo wěishàng de yǔmáo yánsè xiānyàn, shì wèile xīyǐn pèi'ǒu.",
+        "compound_definition": "The feathers on a bird's tail are brightly colored to attract a mate.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3894,
+        "character": "肌",
+        "character_pinyin": "jī",
+        "eng": "muscle; flesh",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "她每天都去健身房锻炼，肌肉变得更加结实。",
+        "compound_pinyin": "Tā měitiān dōu qù jiànshēnfáng duànliàn, jīròu biàn dé gèng jiā jiēshi.",
+        "compound_definition": "She works out at the gym every day, making her muscles stronger.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3895,
+        "character": "肠",
+        "character_pinyin": "cháng",
+        "eng": "intestine",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "我想在麻辣干锅里加猪大肠和脆鸡皮。",
+        "compound_pinyin": "Wǒ xiǎng zài málà gān guō lǐjiā zhū dàcháng hé cuì jīpí.",
+        "compound_definition": "I would like to add pig intestines and crispy chicken skin to the spicy dry pot.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3896,
+        "character": "肤",
+        "character_pinyin": "fū",
+        "eng": "skin",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "由于不小心在泳池边晒了太长时间的太阳，她的皮肤变得非常敏感，失去了桃色光。",
+        "compound_pinyin": "Yóuyú bù xiǎoxīn zài yǒngchí biān shàile tài cháng shíjiān de tàiyáng, tā de pífū biàn dé fēicháng mǐngǎn, shīqùle táosè guāng.",
+        "compound_definition": "Her skin became extremely sensitive and lost its peachy glow after accidentally spending too much time in the sun by the pool.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3897,
+        "character": "肩",
+        "character_pinyin": "jiān",
+        "eng": "shoulder",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "他肩负着家庭的重担，努力工作养活全家。",
+        "compound_pinyin": "Tā jiānfùzhe jiātíng de zhòngdàn, nǔlì gōngzuò yǎnghuó quánjiā.",
+        "compound_definition": "He shoulders the heavy responsibilities of his family and works hard to support them.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3899,
+        "character": "胃",
+        "character_pinyin": "wèi",
+        "eng": "stomach",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "吃了不卫生的食物后，他的胃感觉很不舒服。",
+        "compound_pinyin": "Chīle bù wéishēng de shíwù hòu, tā de wèi gǎnjué hěn bù shūfú.",
+        "compound_definition": "After eating unsanitary food, his stomach felt very uncomfortable.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3900,
+        "character": "胆",
+        "character_pinyin": "dǎn",
+        "eng": "gallbladder; courage",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "外科医生切除了我的胆后，我被暂时禁止锻炼肌肉。相反，我做了一个键盘。",
+        "compound_pinyin": "Wàikē yīshēng qiēchúle wǒ de dǎn hòu, wǒ bèi zhànshí jìnzhǐ duànliàn jīròu. Xiāngfǎn, wǒ zuòle yīgè jiànpán.",
+        "compound_definition": "After surgeons removed my gallbladder, I was temporarily banned from exercising any muscle. Instead, I built a keyboard.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3901,
+        "character": "胡",
+        "character_pinyin": "hú",
+        "eng": "beard; mustache",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "如果您不能留胡子，只需用胶水将一些绒毛贴到脸上即可。",
+        "compound_pinyin": "Rúguǒ nín bùnéng liú húzi, zhǐ xū yòng jiāoshuǐ jiāng yīxiē róngmáo tiē dào liǎn shàng jí kě.",
+        "compound_definition": "If you can't grow a beard, just glue some fuzz onto your face.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3902,
+        "character": "胶",
+        "character_pinyin": "jiāo",
+        "eng": "glue; adhesive",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "体操运动员在练习期间经常使用胶带以避免受伤。",
+        "compound_pinyin": "Tǐcāo yùndòngyuán zài liànxí qíjiān jīngcháng shǐyòng jiāodài yǐ bìmiǎn shòushāng.",
+        "compound_definition": "Gymnasts often use tape during practice to avoid injuries.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3904,
+        "character": "脾",
+        "character_pinyin": "pí",
+        "eng": "spleen; temperament",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "他的脾气很好，总是乐于助人，大家都喜欢他。",
+        "compound_pinyin": "Tā de píqì hěn hǎo, zǒng shì lèyú zhùrén, dàjiā dōu xǐhuān tā.",
+        "compound_definition": "He has a good temperament and is always willing to help others, which makes everyone like him.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3910,
+        "character": "萄",
+        "character_pinyin": "táo",
+        "eng": "grape",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "这些葡萄成熟了，颜色鲜艳，看起来很好吃。",
+        "compound_pinyin": "Zhèxiē táo chéngshúle, yánsè xiānyàn, kàn qǐlái hěn hǎo chī.",
+        "compound_definition": "These grapes are ripe, with bright colors, and look delicious.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3911,
+        "character": "葡",
+        "character_pinyin": "pú",
+        "eng": "grape",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "当我穷的时候，我唯一能买得起的甜点就是冷冻葡萄。",
+        "compound_pinyin": "Dāng wǒ qióng de shíhòu, wǒ wéiyī néng mǎi dé qǐ de tiándiǎn jiùshì lěngdòng pútáo.",
+        "compound_definition": "When I was poor, the only dessert I could afford was frozen grapes.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3912,
+        "character": "蔬",
+        "character_pinyin": "shū",
+        "eng": "vegetable",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "她每天都会购买新鲜的蔬菜，以保持健康。",
+        "compound_pinyin": "Tā měitiān dūhuì gòumǎi xīnxiān de shūcài, yǐ bǎochí jiànkāng.",
+        "compound_definition": "She buys fresh vegetables every day to maintain her health.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3913,
+        "character": "虎",
+        "character_pinyin": "hǔ",
+        "eng": "tiger",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "老虎去世后，动物园里充满了空虚的感觉。我们是否应该考虑购买更多的猴子？",
+        "compound_pinyin": "Lǎohǔ qùshì hòu, dòngwùyuán lǐ chōngmǎnle kōngxū de gǎnjué. Wǒmen shìfǒu yīnggāi kǎolǜ gòumǎi gèng duō de hóuzi?",
+        "compound_definition": "After the tiger died, there was a sense of emptiness in the zoo. Should we consider buying more monkeys?",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3915,
+        "character": "蛇",
+        "character_pinyin": "shé",
+        "eng": "snake",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "在郊区发现的蛇比危险更有用，因为它们会吃掉所有的老鼠。",
+        "compound_pinyin": "Zài jiāoqū fāxiàn de shé bǐ wéixiǎn gèng yǒuyòng, yīnwèi tāmen huì chī diào suǒyǒu de lǎoshǔ.",
+        "compound_definition": "Snakes found in suburban areas are more useful than dangerous because they will eat all the rats.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3922,
+        "character": "谊",
+        "character_pinyin": "yì",
+        "eng": "friendship; affection",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "他们之间的谊非常深厚，互相支持。",
+        "compound_pinyin": "Tāmen zhī jiān de yì fēicháng shēnhòu, hùxiāng zhīchí.",
+        "compound_definition": "The friendship between them is very deep, and they support each other.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3925,
+        "character": "貌",
+        "character_pinyin": "mào",
+        "eng": "appearance; looks",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "她的外貌非常出众，总是吸引众人的目光。",
+        "compound_pinyin": "Tā de wàimào fēicháng chūzhòng, zǒng shì xīyǐn zhòng rén de mùguāng.",
+        "compound_definition": "Her appearance is outstanding and always attracts people's attention.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3934,
+        "character": "辈",
+        "character_pinyin": "bèi",
+        "eng": "generation; class",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "我们这一辈人都面临着许多挑战。",
+        "compound_pinyin": "Wǒmen zhè yī bèi rén dōu miànlínzhe xǔduō tiǎozhàn.",
+        "compound_definition": "Our generation faces many challenges.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3944,
+        "character": "邻",
+        "character_pinyin": "lín",
+        "eng": "neighbor; nearby",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "我的邻居非常友好，常常帮我照看花园。",
+        "compound_pinyin": "Wǒ de línjū fēicháng yǒuhǎo, chángcháng bāng wǒ zhàokàn huāyuán.",
+        "compound_definition": "My neighbor is very friendly and often helps me take care of the garden.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3945,
+        "character": "郊",
+        "character_pinyin": "jiāo",
+        "eng": "suburb; outskirts",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "尽管我的梦想是在郊区养育一个核心家庭，但我怀疑这是否是我的命运。",
+        "compound_pinyin": "Jǐnguǎn wǒ de mèngxiǎng shì zài jiāoqū yǎngyù yīgè héxīn jiātíng, dàn wǒ huáiyí zhè shìfǒu shì wǒ de mìngyùn.",
+        "compound_definition": "Although my dream was to raise a nuclear family in the suburbs, I questioned whether this was my destiny.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3947,
+        "character": "钢",
+        "character_pinyin": "gāng",
+        "eng": "steel",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "由于将木质结构替换为钢结构，该房屋避免了一场灾难性的火灾。",
+        "compound_pinyin": "Yóuyú jiāng mùzhí jiégòu tìhuàn wèi gāng jiégòu, gāi fángwū bìmiǎnle yī chǎng zāinàn xìng de huǒzāi.",
+        "compound_definition": "The house avoided a catastrophic fire by replacing the wooden structure with a steel one.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3948,
+        "character": "铃",
+        "character_pinyin": "líng",
+        "eng": "bell",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "教室里响起了铃声，学生们纷纷回到座位上。",
+        "compound_pinyin": "Jiàoshì lǐ xiǎngqǐle língshēng, xuéshēngmen fēnfēn huídào zuòwèi shàng.",
+        "compound_definition": "The bell rang in the classroom, and the students quickly returned to their seats.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3950,
+        "character": "锅",
+        "character_pinyin": "guō",
+        "eng": "pot; pan",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "我们的新工业厨房有许多现代化的钢锅，但我们仍然使用煤做饭。",
+        "compound_pinyin": "Wǒmen de xīn gōngyè chúfáng yǒu xǔduō xiàndàihuà de gāng guō, dàn wǒmen réngrán shǐyòng méi zuò fàn.",
+        "compound_definition": "Our new industrial kitchen has lots of modern steel pans, but we still cook over coal.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3951,
+        "character": "键",
+        "character_pinyin": "jiàn",
+        "eng": "key; button",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "键盘硬件技术已经发展到可以对折的程度。",
+        "compound_pinyin": "Jiànpán yìngjiàn jìshù yǐjīng fāzhǎn dào kěyǐ duìzhé de chéngdù.",
+        "compound_definition": "Keyboard hardware technology has advanced to the point where it can be folded in half.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3962,
+        "character": "饼",
+        "character_pinyin": "bǐng",
+        "eng": "cake; pancake",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "他们在节日里吃了各种传统的饼，味道很好。",
+        "compound_pinyin": "Tāmen zài jiérì lǐ chīle gè zhǒng chuántǒng de bǐng, wèidào hěn hǎo.",
+        "compound_definition": "They ate various traditional cakes during the festival, and they tasted great.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3967,
+        "character": "鬼",
+        "character_pinyin": "guǐ",
+        "eng": "ghost; spirit",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "他听说这座老房子里有鬼，晚上不敢独自进去。",
+        "compound_pinyin": "Tā tīngshuō zhè zuò lǎo fángzi lǐ yǒu guǐ, wǎnshàng bù gǎn dúzì jìnqù.",
+        "compound_definition": "He heard that there are ghosts in the old house and is afraid to go in alone at night.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3968,
+        "character": "鸭",
+        "character_pinyin": "yā",
+        "eng": "duck",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "当脆皮鸭的香味进我的鼻时，我的胃口顿时大增。",
+        "compound_pinyin": "Dāng cuì pí yā de xiāngwèi jìn wǒ de bí shí, wǒ de wèikǒu dùnshí dà zēng.",
+        "compound_definition": "When the aroma of the crispy duck entered my nose, my appetite suddenly increased.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3970,
+        "character": "鼠",
+        "character_pinyin": "shǔ",
+        "eng": "mouse; rat",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "我的猫给我留下了一只腐烂的死老鼠，使我的房屋充满了臭味。",
+        "compound_pinyin": "Wǒ de māo gěi wǒ liú xiàle yī zhǐ fǔlàn de sǐ lǎoshǔ, shǐ wǒ de fángwū chōngmǎnle chòu wèi.",
+        "compound_definition": "My cat left me a rotting dead mouse that filled my house with a foul smell.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3971,
+        "character": "鼻",
+        "character_pinyin": "bí",
+        "eng": "nose",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "他感冒了，鼻子堵得厉害，呼吸很困难。",
+        "compound_pinyin": "Tā gǎnmào le, bízi dǔ de lìhài, hūxī hěn kùnán.",
+        "compound_definition": "He caught a cold, and his nose was stuffy, making it hard to breathe.",
+        "valid_sentence": "",
+        "counter (133)\r": "\r"
+    },
+    {
+        "id": 3972,
+        "character": "龄",
+        "character_pinyin": "líng",
+        "eng": "age",
+        "hsk_level": 5,
+        "part_of_speech": "noun",
+        "compound_cantonese": "",
+        "compound": "我希望我们的友谊即使到老龄仍能继续下去。",
+        "compound_pinyin": "Wǒ xīwàng wǒmen de yǒuyì jíshǐ dào lǎolíng réng néng jìxù xiàqù.",
+        "compound_definition": "I hope our friendship will continue even into old age.",
         "valid_sentence": ",",
-        "counter (75)\r": ""
+        "counter (133)\r": ""
     }
 ]
