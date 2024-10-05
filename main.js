@@ -21,8 +21,18 @@ const isGenerateModeForCompound = params.get("compoundGeneration") == "true";
 const isGenerateMode = params.get("generate") == "true" || isGenerateModeForCompound;
 const isClearCacheMode = params.get("isClearCache") == "true";
 
+const isDisableColorMode = params.get("disableColor") == "true";
+
 if (isClearCacheMode) {
     localStorage = {};
+}
+
+
+const toneColors = {
+    1 : "#D5A6BD",
+    2 : "#F9CB9C",
+    3 : "#B6D7A8",
+    4 : "#9FC5E8",
 }
 
 /*
@@ -369,6 +379,8 @@ function shouldIncludeCharacter(value) {
     return true;
 }
 
+const characterToToneMap = {};
+
 const tones = [
     '$',
     '\u0304', // tone 1
@@ -404,6 +416,7 @@ function initializeData() {
         }
         if (value.character.length == 1) {
             singleCharMapToDefinition[value.character] = value;
+            characterToToneMap[value.character] = findTone(value.character_pinyin);
         }
     });
 
@@ -1916,11 +1929,24 @@ class BaseBoard {
         const toneColorClass = isSingleCharMode ? toneColorClasses[this.siteState.currentKanji.tone] : toneColorClasses[0];
         kanji.classList.add(toneColorClass);
     }
+
+    convertChineseCharactersToColor(sentence) {
+        const chineseChars = sentence.split("").map((character) => {
+            const tone = characterToToneMap[character];
+            if (!tone) {
+                return character;
+            }
+            return "<font color=\"" + toneColors[tone] + "\">" + character + "</font>";
+        });
+        return chineseChars.join("");
+    }
     
     displayKanji() {
         this.siteState.currentKanji = langDataToUse[this.siteState.toView.shift()];
         this.siteState.storeValues();
-        document.getElementById("_currentKanji").innerHTML = this.siteState.currentKanji.kanji;
+        
+        const result = isDisableColorMode ? this.siteState.currentKanji.kanji : this.convertChineseCharactersToColor(this.siteState.currentKanji.kanji);
+        document.getElementById("_currentKanji").innerHTML = result;
         document.getElementById("_currentEng").innerHTML = this.siteState.currentKanji.eng;
         document.getElementById("_currentCompound").innerHTML = this.siteState.currentKanji.kunyomiList[0].compound;
         document.getElementById("_currentCompoundDefinition").innerHTML = this.siteState.currentKanji.kunyomiList[0].definition;
