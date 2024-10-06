@@ -1209,12 +1209,28 @@ class BaseBoard {
                 });
                 charCounter += charsFromSentence.length;
             });
+
+            let currentTracker = 0;
+            let stageCounterOutput = [];
+            const stageCounter = sentenceGenerator.characterMetadata.stageCounter;
+            for (var i = 0; i < 2; i++) {
+                for (var j = stageCounter.length - 1; j >= 0; j--) {
+                    const currentCount = stageCounter[j][i];
+                    currentTracker += currentCount;
+                    stageCounterOutput.push(currentTracker);
+                }
+                if (i == 0) {
+                    stageCounterOutput.push("");
+                }}
             
-            const sentenceToChar = "# sen: " + finalValidation.initialSentenceCount 
-            + "; # chr: " + finalValidation.finalizedUnqualifiedChars.total 
-            + "; # del: " + (finalValidation.initialSentenceCount - finalValidation.finalSentenceCount)
-            + "; # xg: " + sentenceGenerator.generatedMoreThanOneSetFromUnqualifiedChars
-            + "; # sum " + charCounter;
+            const sentenceToChar = JSON.stringify(stageCounterOutput)
+            + "\n" 
+            + "#s: " + finalValidation.initialSentenceCount 
+            + "; #c: " + finalValidation.finalizedUnqualifiedChars.total 
+            + "; #d: " + (finalValidation.initialSentenceCount - finalValidation.finalSentenceCount)
+            + "; #x: " + sentenceGenerator.generatedMoreThanOneSetFromUnqualifiedChars
+            + "; #T " + charCounter;
+
             this.siteState.overview = sentenceToChar;
         } else if (isSentenceMode) {
 
@@ -2617,6 +2633,7 @@ class SentenceGenerator {
 
         const chineseWordModelsByHskLevelMap = config.chineseWordModelsByHskLevelMap;
         const targetLevel = config.targetLevel;
+        this.targetLevel = config.targetLevel;
         this.logger = new SentenceGeneratorLogger();
         const chineseWordModelsByHSKLevelMapToUse = {};
         Object.keys(chineseWordModelsByHskLevelMap).forEach((hskLevel) => {
@@ -2671,6 +2688,15 @@ class SentenceGenerator {
         const randomizedChineseSentencesByHSKLevel = this._convertChineseCharsToChineseSentenceModels(unqualifiedAddedChineseCharsByHskLevel);
         const finalizedUnqualifiedChars = JSON.parse(JSON.stringify(this.unqualifiedCharacters));
         const unqualifiedCharacterGroupsAsChineseSentenceModels = this._groupUnqualifiedCharacters();
+
+        const stageCounter = new Array(this.targetLevel);
+        for (var i = 0; i < this.targetLevel; i++) {
+            stageCounter[i] = [];
+            stageCounter[i].push(unqualifiedCharacterGroupsAsChineseSentenceModels[i + 1].length);
+            stageCounter[i].push(randomizedChineseSentencesByHSKLevel[i + 1].length);
+        }
+        this.characterMetadata.stageCounter = stageCounter;
+
         this._logAtStep("_groupUnqualifiedCharacters", 
             this.characterMetadata.hskCharacterToLevelMap, 
             this._joinSentencesByHSKLevelPerHSKLevel(unqualifiedCharacterGroupsAsChineseSentenceModels, 

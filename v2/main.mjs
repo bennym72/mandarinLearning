@@ -416,6 +416,7 @@ class SentenceGenerator {
 
         const chineseWordModelsByHskLevelMap = config.chineseWordModelsByHskLevelMap;
         const targetLevel = config.targetLevel;
+        this.targetLevel = config.targetLevel;
         this.logger = new SentenceGeneratorLogger();
         const chineseWordModelsByHSKLevelMapToUse = {};
         Object.keys(chineseWordModelsByHskLevelMap).forEach((hskLevel) => {
@@ -487,6 +488,15 @@ class SentenceGenerator {
         
         const finalizedUnqualifiedChars = JSON.parse(JSON.stringify(this.unqualifiedCharacters));
         const unqualifiedCharacterGroupsAsChineseSentenceModels = this._groupUnqualifiedCharacters();
+        
+        const stageCounter = new Array(this.targetLevel);
+        for (var i = 0; i < this.targetLevel; i++) {
+            stageCounter[i] = [];
+            stageCounter[i].push(unqualifiedCharacterGroupsAsChineseSentenceModels[i + 1].length);
+            stageCounter[i].push(randomizedChineseSentencesByHSKLevel[i + 1].length);
+        }
+        this.characterMetadata.stageCounter = stageCounter;
+
         this._logAtStep("_groupUnqualifiedCharacters", 
             this.characterMetadata.hskCharacterToLevelMap, 
             this._joinSentencesByHSKLevelPerHSKLevel(unqualifiedCharacterGroupsAsChineseSentenceModels, 
