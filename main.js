@@ -19,6 +19,7 @@ const isPrioCompoundSentence = params.get("prioCompoundSentence") == "true";
 
 const isGenerateModeForCompound = params.get("compoundGeneration") == "true";
 const isGenerateMode = params.get("generate") == "true" || isGenerateModeForCompound;
+const startAnew = params.get("startAnew") == "true";
 const isClearCacheMode = params.get("isClearCache") == "true";
 
 const isDisableColorMode = params.get("disableColor") == "true";
@@ -114,7 +115,7 @@ if (isGenerateMode) {
 
 const hskLevelString = "hsk_level_";
 
-var hskLevel5ToUse = isSentenceMode || isSentenceModeV2 ? hskLevel5Sentences : hskLevel5;
+var hskLevel5ToUse = startAnew ? hskLevel5Sentences : hskLevel5;
 
 var data = hskLevel1.concat(hskLevel2);
 data = data.concat(hskLevel3);
@@ -180,7 +181,8 @@ function shouldContinueRegenerationWork(value, isMainTable) {
         // return compoundWordsForGeneration[value.character];
     }
     return true
-    && value.character.length == 1;
+    && value.character.length == 1
+    && value.hskLevel == 5;
 }
 
 function regenerateData() {
@@ -833,7 +835,7 @@ function init() {
         document.querySelector("#_generateButton").classList.remove("hidden");
         document.querySelector("#_inputTable").classList.remove("hidden");
         document.querySelector("#_currentInfoTable").classList.remove("hidden");
-        document.querySelector("#_loserTable").classList.remove("hidden");
+        // document.querySelector("#_loserTable").classList.remove("hidden");
         document.querySelector("#_resumeButton").classList.add("hidden");
         document.querySelector("#_resumeButton").classList.remove("inProgressStart");
     } else if (isSentenceMode || isSentenceModeV2) {

@@ -2,6 +2,8 @@ import { hskLevel1 } from "../modules/hsk1.mjs";
 import { hskLevel2 } from "../modules/hsk2.mjs";
 import { hskLevel3 } from "../modules/hsk3.mjs";
 import { hskLevel4 } from "../modules/hsk4.mjs";
+import { hskLevel5 } from "../modules/hsk5.mjs";
+import { processSentences } from "../modules/sentences.mjs";
 
 /**
  * Important naming convention
@@ -403,7 +405,7 @@ class SentenceGeneratorLogger {
             initialSentenceCount : this.initialSentenceCount,
             finalSentenceCount : this.finalSentenceCount,
         }
-        console.log(JSON.stringify(result,null,4));
+        // console.log(JSON.stringify(result,null,4));
         return result;
     }
 }
@@ -509,7 +511,7 @@ class SentenceGenerator {
             sentenceIdentifier++;
         });
         const logs = this.logger.loggingData;
-        console.log(JSON.stringify(logs, null, 4));
+        // console.log(JSON.stringify(logs, null, 4));
         this.finalValidation = this.logger.logFinalValidation(this.characterMetadata, finalOutputSentenceModels, finalizedUnqualifiedChars);
         return finalOutputSentenceModels;
     }
@@ -943,12 +945,13 @@ function generateSentencesForV2(setUpWindow) {
         1 : mapJsonToChineseWordModel(hskLevel1),
         2 : mapJsonToChineseWordModel(hskLevel2),
         3 : mapJsonToChineseWordModel(hskLevel3),
-        4 : mapJsonToChineseWordModel(hskLevel4)
+        4 : mapJsonToChineseWordModel(hskLevel4),
+        5 : mapJsonToChineseWordModel(hskLevel5)
     };
     const sentenceGenerator = new SentenceGenerator(
         new SentenceGeneratorConfig(
             chineseWordModelsByHskLevelMap,
-            4, // targetLevel,
+            5, // targetLevel,
             0, // seenCountThreshold,
             2, // numUnseenToKeep
         )
@@ -960,9 +963,74 @@ function generateSentencesForV2(setUpWindow) {
     return sentences;
 }
 
+function findReplacements() {
+    const chineseWordModelsByHskLevelMap = {
+        1 : mapJsonToChineseWordModel(hskLevel1),
+        2 : mapJsonToChineseWordModel(hskLevel2),
+        3 : mapJsonToChineseWordModel(hskLevel3),
+        4 : mapJsonToChineseWordModel(hskLevel4),
+        5 : mapJsonToChineseWordModel(hskLevel5)
+    };
+    const sentenceGenerator = new SentenceGenerator(
+        new SentenceGeneratorConfig(
+            chineseWordModelsByHskLevelMap,
+            5, // targetLevel,
+            0, // seenCountThreshold,
+            2, // numUnseenToKeep
+        )
+    );
+    const results = []
+    processSentences.forEach((value) => {
+        let highestHSKLevel = 1;
+        let isValid = true;
+        var invalidChars = [];
+        value.chinese.split("").forEach((character) => {
+            const sentenceDefinition = sentenceGenerator.characterMetadata.singleCharMapToDefinition[character]
+            if (sentenceDefinition) {
+                const hskLevel = sentenceDefinition["hsk_level"];
+                if (hskLevel > highestHSKLevel) {
+                    highestHSKLevel = sentenceDefinition.hsk_level;
+                }
+            } else {
+                if (sentenceGenerator.characterMetadata.charsToIgnore.indexOf(character) < 0) {
+                    isValid = false;
+                    invalidChars.push(character);
+                }
+            }
+        });
+        var candidates = [];
+        value.chinese.split("").forEach((character) => {
+            const sentenceDefinition = sentenceGenerator.characterMetadata.singleCharMapToDefinition[character]
+            if (sentenceDefinition) {
+                if (sentenceDefinition.hsk_level == highestHSKLevel) {
+                    candidates.push(sentenceDefinition.character);
+                }
+            }
+        });
+        results.push({
+            ...value,
+            isValid: isValid,
+            highestHSKLevel: highestHSKLevel,
+            candidates: candidates,
+            invalidChars: invalidChars
+        });
+    });
+    /**
+     * for each of the highest level candidates, we want to search through all of the compounds and see if there are any that can be replaced
+     * 
+     * 1. set up a character : invalid compound map
+     * 2. for each compound, sentence.indexOf()
+     * 3. get an array of matching compounds
+     * 4. pick the matching compound that has the highest probability to appear
+     * 
+     */
+    console.log(JSON.stringify(results, null, 4))
+}
+
 function main() {
-    const sentences = generateSentencesForV2(false);
-    console.log(sentences.length);
+    // const sentences = generateSentencesForV2(false);
+    // console.log(sentences.length);
+    findReplacements();
 }
 main();
 
