@@ -1253,10 +1253,10 @@ var hskLevel5Sentences = [
     "hsk_level": 5,
     "part_of_speech": "verb",
     "compound_cantonese": "",
-    "compound": "惜",
-    "compound_pinyin": "Wǒmen yīnggāi xī shíjiān， hǎohǎo lìyòng měi yī kè.",
-    "compound_definition": "We should cherish time and make the most of every moment.",
-    "valid_sentence": "",
+    "compound": "我很珍惜和这位外籍工人的友谊，因为他经常请我吃脆鸭肠。惜",
+    "compound_pinyin": "Wǒ hěn zhēnxī hé zhè wèi wàijí gōngrén de yǒuyì, yīnwèi tā jīngcháng qǐng wǒ chī cuì yā cháng. Xī",
+    "compound_definition": "I cherish my friendship with this foreign worker because he often treats me to crispy duck intestines.",
+    "valid_sentence": "TRUE",
     "counter (300)\r": "\r"
   },
   {
@@ -1505,10 +1505,10 @@ var hskLevel5Sentences = [
     "hsk_level": 5,
     "part_of_speech": "verb",
     "compound_cantonese": "",
-    "compound": "拒",
-    "compound_pinyin": "Tā jùjuéle bù hélǐ de yāoqiú， wéihù zìjǐ de quányì.",
-    "compound_definition": "He refused the unreasonable request to protect his rights.",
-    "valid_sentence": "",
+    "compound": "我拒绝与当地英雄合作，并因损害他的荣而被罚款。",
+    "compound_pinyin": "Wǒ jùjué yǔ dāngdì yīngxióng hézuò, bìng yīn sǔnhài tā de róng ér bèi fákuǎn.",
+    "compound_definition": "I refused to work with a local hero and was fined for damaging his reputation.",
+    "valid_sentence": "TRUE",
     "counter (300)\r": "\r"
   },
   {
@@ -1659,10 +1659,10 @@ var hskLevel5Sentences = [
     "hsk_level": 5,
     "part_of_speech": "noun/verb",
     "compound_cantonese": "",
-    "compound": "掌",
-    "compound_pinyin": "Tā zhǎngwòle duō zhǒng jìnéng， zài gōngzuò zhōng biǎoxiàn chūsè.",
-    "compound_definition": "She mastered various skills and performed outstandingly at work.",
-    "valid_sentence": "",
+    "compound": "当我抓住这个针对老辈人的骗时，他们欢呼，鼓掌叫好，并执要求他们罚款一万元。",
+    "compound_pinyin": "Dāng wǒ zhuā zhù zhège zhēnduì lǎobèi rén de piàn shí, tāmen huānhū, gǔzhǎng jiàohǎo, bìng zhí yāoqiú tāmen fákuǎn yī wàn yuán.",
+    "compound_definition": "When I caught this scam targeting the older generation, they cheered, clapped their hands, and demanded a fine of $10,000.",
+    "valid_sentence": "TRUE",
     "counter (300)\r": "\r"
   },
   {
@@ -1883,10 +1883,10 @@ var hskLevel5Sentences = [
     "hsk_level": 5,
     "part_of_speech": "noun/verb",
     "compound_cantonese": "",
-    "compound": "曲",
-    "compound_pinyin": "Zhè shǒu qǔzi xuànlǜ yōuměi， shēn shòu dàjiā xǐ'ài.",
-    "compound_definition": "This song has a beautiful melody and is loved by everyone.",
-    "valid_sentence": "",
+    "compound": "我们将暂时提供这颗珍贵的珍珠作为押金，以便我们可以购买这首戏曲的版权。",
+    "compound_pinyin": "Wǒmen jiāng zhànshí tígōng zhè kē zhēnguì de zhēnzhū zuòwéi yājīn, yǐbiàn wǒmen kěyǐ gòumǎi zhè shǒu xìqǔ de bǎnquán.",
+    "compound_definition": "We will temporarily offer this precious pearl as a deposit so that we can purchase the copyright of this opera.",
+    "valid_sentence": "TRUE",
     "counter (300)\r": "\r"
   },
   {
@@ -2121,10 +2121,10 @@ var hskLevel5Sentences = [
     "hsk_level": 5,
     "part_of_speech": "verb",
     "compound_cantonese": "",
-    "compound": "歇",
-    "compound_pinyin": "Gōngzuòle yī zhěng tiān hòu， tā xūyào xiē yīhuǐ'er.",
-    "compound_definition": "After working all day， he needs to take a break.",
-    "valid_sentence": "",
+    "compound": "您辛苦工作了，现在您可以节日期间歇业。我们饮酒直到元旦吧，让我们欣然地珍惜时间。",
+    "compound_pinyin": "Nín xīnkǔ gōngzuòle, xiànzài nín kěyǐ jiérì qí jiàn xiēyè. Wǒmen yǐnjiǔ zhídào yuándàn ba, ràng wǒmen xīnrán dì zhēnxī shíjiān.",
+    "compound_definition": "You have worked hard, and now you can take a break during the holidays.,Let's drink until New Year's Day, and let's cherish the time happily.",
+    "valid_sentence": "TRUE",
     "counter (300)\r": "\r"
   },
   {
@@ -2177,10 +2177,10 @@ var hskLevel5Sentences = [
     "hsk_level": 5,
     "part_of_speech": "verb/adjective",
     "compound_cantonese": "",
-    "compound": "污",
-    "compound_pinyin": "Gōngchǎng de fèishuǐ páifàng dǎozhìle héliú de wūzhuó.",
-    "compound_definition": "The factory's wastewater discharge caused the river to become polluted.",
-    "valid_sentence": "",
+    "compound": "污染危害猴子是一场灾难，但政府却阻碍我们控制恢复计划。",
+    "compound_pinyin": "Wūrǎn wéihài hóuzǐ shì yī chǎng zāinàn, dàn zhèngfǔ què zǔ'ài wǒmen kòngzhì huīfù jìhuà.",
+    "compound_definition": "The pollution harming the monkeys is a disaster, but the government is standing in our way of controlling the recovery plan.",
+    "valid_sentence": "TRUE",
     "counter (300)\r": "\r"
   },
   {
@@ -2219,10 +2219,10 @@ var hskLevel5Sentences = [
     "hsk_level": 5,
     "part_of_speech": "verb",
     "compound_cantonese": "",
-    "compound": "泼",
-    "compound_pinyin": "Xiǎogǒu zài shuǐ biān wán， chángcháng pō shuǐ nòng dé yī shēn shī.",
-    "compound_definition": "The puppy played by the water， often splashing and getting soaked.",
-    "valid_sentence": "",
+    "compound": "男子将灰兔扔弃在沟里，灰兔在水里泼了一会，很快就变成了鬼。",
+    "compound_pinyin": "Nánzǐ jiāng huī tù rēng qì zài gōu lǐ, huī tù zài shuǐ lǐ pōle yī huǐ, hěn kuài jiù biàn chéngle guǐ.",
+    "compound_definition": "The man threw the gray rabbit into the ditch. After being splashed in the water for a while, the gray rabbit soon turned into a ghost.",
+    "valid_sentence": "TRUE",
     "counter (300)\r": "\r"
   },
   {
@@ -2233,10 +2233,10 @@ var hskLevel5Sentences = [
     "hsk_level": 5,
     "part_of_speech": "verb",
     "compound_cantonese": "",
-    "compound": "洒",
-    "compound_pinyin": "Tā zài huāyuán lǐ sǎ xià zhǒngzi， xīwàng chūntiān néng kāi chū měilì de huā.",
-    "compound_definition": "She sprinkled seeds in the garden， hoping beautiful flowers would bloom in spring.",
-    "valid_sentence": "",
+    "compound": "用海水喷洒鸭子的羽毛，以去除污染的油。",
+    "compound_pinyin": "Yòng hǎishuǐ pēnsǎ yāzǐ de yǔmáo, yǐ qùchú wūrǎn de yóu.",
+    "compound_definition": "The ducks' feathers are sprayed with sea water to remove contaminating oil.",
+    "valid_sentence": "TRUE",
     "counter (300)\r": "\r"
   },
   {
@@ -2275,10 +2275,10 @@ var hskLevel5Sentences = [
     "hsk_level": 5,
     "part_of_speech": "verb",
     "compound_cantonese": "",
-    "compound": "涨",
-    "compound_pinyin": "Hé shuǐ yīnwèi liánxù jiàngyǔ ér zhǎng， yǐngxiǎngle zhōubiān dìqū.",
-    "compound_definition": "The river rose due to continuous rainfall， affecting the surrounding areas.",
-    "valid_sentence": "",
+    "compound": "天空晴朗，万里无云，但潮水正在上涨，所以我们需要把船驾驶返岸边。",
+    "compound_pinyin": "Tiānkōng qínglǎng, wànlǐ wú yún, dàn cháoshuǐ zhèngzài shàngzhǎng, suǒyǐ wǒmen xūyào bǎ chuán jiàshǐ fǎn àn biān.",
+    "compound_definition": "The sky was clear and cloudless, but the tide was rising so we needed to steer the boat back to shore.",
+    "valid_sentence": "TRUE",
     "counter (300)\r": "\r"
   },
   {
@@ -2303,10 +2303,10 @@ var hskLevel5Sentences = [
     "hsk_level": 5,
     "part_of_speech": "verb",
     "compound_cantonese": "",
-    "compound": "滚",
-    "compound_pinyin": "Háizimen zài cǎodì shàng gǔn lái gǔn qù， wán dé hěn kāixīn.",
-    "compound_definition": "The children rolled around on the grass， having a great time.",
-    "valid_sentence": "",
+    "compound": "我滚进煤洞，躲避那些拿着长矛想要刺我肠胃的敌人。",
+    "compound_pinyin": "Wǒ gǔn jìn méi dòng, duǒbì nàxiē názhe cháng máo xiǎng yào cì wǒ chángwèi de dírén.",
+    "compound_definition": "I rolled into the coal hole to avoid enemies with spears trying to stab me in the stomach.",
+    "valid_sentence": "TRUE",
     "counter (300)\r": "\r"
   },
   {
@@ -2317,10 +2317,10 @@ var hskLevel5Sentences = [
     "hsk_level": 5,
     "part_of_speech": "verb",
     "compound_cantonese": "",
-    "compound": "漏",
-    "compound_pinyin": "Shuǐguǎn yǒu gè xiǎo lòu， dǎozhì shuǐ fèi zēngjiā.",
-    "compound_definition": "The water pipe has a small leak， causing the water bill to increase.",
-    "valid_sentence": "",
+    "compound": "地震导致我家的洗衣机漏水。既然你欠我一个人情，那就让我以优惠的价格买下你的风扇吧。",
+    "compound_pinyin": "Dìzhèn dǎozhì wǒjiā de xǐyījī lòushuǐ. Jìrán nǐ qiàn wǒ yīgè rénqíng, nà jiù ràng wǒ yǐ yōuhuì de jiàgé mǎi xià nǐ de fēngshàn ba.",
+    "compound_definition": "The earthquake caused my washing machine to leak.,Since you owe me a favor, let me buy your fan at a discounted price.",
+    "valid_sentence": "TRUE",
     "counter (300)\r": "\r"
   },
   {
@@ -2485,10 +2485,10 @@ var hskLevel5Sentences = [
     "hsk_level": 5,
     "part_of_speech": "verb",
     "compound_cantonese": "",
-    "compound": "猜",
-    "compound_pinyin": "Wǒmen zài wán yóuxì shí， xūyào cāi duōfāng de xīnsī.",
-    "compound_definition": "We need to guess each other's thoughts while playing the game.",
-    "valid_sentence": "",
+    "compound": "猜猜谁陪我去郊区？正是那位扮演蛇女士的女性，我对她所表现出的尊重感到十分荣幸。",
+    "compound_pinyin": "Cāi cāi shéi péi wǒ qù jiāoqū? Zhèng shì nà wèi bànyǎn shé nǚshì dì nǚxìng, wǒ duì tā suǒ biǎoxiàn chū de zūnzhòng gǎndào shífēn róngxìng.",
+    "compound_definition": "Guess who accompanied me to the suburbs?,It was the woman who played the snake lady, and I was honored by the respect she showed me.",
+    "valid_sentence": "TRUE",
     "counter (300)\r": "\r"
   },
   {
@@ -2667,10 +2667,10 @@ var hskLevel5Sentences = [
     "hsk_level": 5,
     "part_of_speech": "noun",
     "compound_cantonese": "",
-    "compound": "盾",
-    "compound_pinyin": "Gǔdài shìbīng shǐyòng cháng máo hé dùnpái lái zǔchéng zhàndòu duì xíng.",
-    "compound_definition": "Ancient soldiers used spears and shields to form battle formations.",
-    "valid_sentence": "",
+    "compound": "当我稍稍敲它的时候盾牌碎了。它并不像我想象的那么坚硬。",
+    "compound_pinyin": "Dāng wǒ shāoshāo qiāo tā de shíhòu dùnpái suìle. Tā bìng bù xiàng wǒ xiǎngxiàng dì nàme jiānyìng.",
+    "compound_definition": "The shield broke when I hit it a little.,It wasn't as strong as I thought it would be.",
+    "valid_sentence": "TRUE",
     "counter (300)\r": "\r"
   },
   {
@@ -2821,10 +2821,10 @@ var hskLevel5Sentences = [
     "hsk_level": 5,
     "part_of_speech": "verb",
     "compound_cantonese": "",
-    "compound": "竞",
-    "compound_pinyin": "Tāmen zài bǐsài zhōng fènlì jìngsài， zhēngduó guànjūn.",
-    "compound_definition": "They compete fiercely in the contest， vying for the championship.",
-    "valid_sentence": "",
+    "compound": "我很后悔偷了奖杯并逃避竞赛。我出了很多汗，地面都变得很润滑。",
+    "compound_pinyin": "Wǒ hěn hòuhuǐ tōule jiǎngbēi bìng táobì jìngsài. Wǒ chūle hěnduō hàn, dìmiàn dōu biàn dé hěn rùnhuá.",
+    "compound_definition": "I regretted stealing the trophy and running away from the competition.,I was sweating so much that the ground became slippery.",
+    "valid_sentence": "TRUE",
     "counter (300)\r": "\r"
   },
   {
@@ -2835,10 +2835,10 @@ var hskLevel5Sentences = [
     "hsk_level": 5,
     "part_of_speech": "noun",
     "compound_cantonese": "",
-    "compound": "竹",
-    "compound_pinyin": "Zhúzi hěn yǒuyòng， yīnwèi tāmen kěyǐ ránshāo qǔnuǎn huò yòng zuò máo.",
-    "compound_definition": "Bamboos were useful because they could be burned for warmth or used as spears.",
-    "valid_sentence": "",
+    "compound": "请在有毒蔬菜数据库中搜索竹子，吃了竹子后，我的皮肤变成了像葡萄一样的紫色。",
+    "compound_pinyin": "Qǐng zài yǒudú shūcài shùjùkù zhōng sōusuǒ zhúzǐ, chīle zhúzǐ hòu, wǒ de pífū biàn chéngle xiàng pútáo yīyàng de zǐsè.",
+    "compound_definition": "Please search bamboo in the poisonous vegetable database. After eating bamboo, my skin turned purple like grapes.",
+    "valid_sentence": "TRUE",
     "counter (300)\r": "\r"
   },
   {
@@ -2863,10 +2863,10 @@ var hskLevel5Sentences = [
     "hsk_level": 5,
     "part_of_speech": "noun/verb",
     "compound_cantonese": "",
-    "compound": "签",
-    "compound_pinyin": "Qǐng zài zhè fèn hétong shàng qiānzì， yǐ quèrèn nǐ de tóngyì.",
-    "compound_definition": "Please sign this contract to confirm your agreement.",
-    "valid_sentence": "",
+    "compound": "请编辑逃兵辞职文件上的签名。",
+    "compound_pinyin": "Qǐng biānjí táobīng cízhí wénjiàn shàng de qiānmíng.",
+    "compound_definition": "Please edit the signature on the deserter's resignation document.",
+    "valid_sentence": "TRUE",
     "counter (300)\r": "\r"
   },
   {
@@ -3017,10 +3017,10 @@ var hskLevel5Sentences = [
     "hsk_level": 5,
     "part_of_speech": "verb",
     "compound_cantonese": "",
-    "compound": "绕",
-    "compound_pinyin": "Tā xǐhuān zài shū zhōng rào yīxiē xiǎo gùshì， zēngjiā qùwèixìng.",
-    "compound_definition": "He enjoys weaving in little stories in his books to add interest.",
-    "valid_sentence": "",
+    "compound": "由于我们对卷绕绒线和编织的共同热爱，我们的友谊更加深厚。",
+    "compound_pinyin": "Yóuyú wǒmen duì juǎn rào róngxiàn hé biānzhī de gòngtóng rè'ài, wǒmen de yǒuyì gèngjiā shēnhòu.",
+    "compound_definition": "Our friendship grew stronger because of our shared love for yarn winding and knitting.",
+    "valid_sentence": "TRUE",
     "counter (300)\r": "\r"
   },
   {
@@ -3045,10 +3045,10 @@ var hskLevel5Sentences = [
     "hsk_level": 5,
     "part_of_speech": "noun",
     "compound_cantonese": "",
-    "compound": "羽",
-    "compound_pinyin": "Niǎo wěishàng de yǔmáo yánsè xiānyàn， shì wèile xīyǐn pèi'ǒu.",
-    "compound_definition": "The feathers on a bird's tail are brightly colored to attract a mate.",
-    "valid_sentence": "",
+    "compound": "我正在拔鸭子的羽毛，这样我就可以用胶水把它们贴到我的扇子上作为装饰。",
+    "compound_pinyin": "Wǒ zhèngzài bá yāzǐ de yǔmáo, zhèyàng wǒ jiù kěyǐ yòng jiāoshuǐ bǎ tāmen tiē dào wǒ de shànzǐ shàng zuòwéi zhuāngshì.",
+    "compound_definition": "I am plucking duck feathers so I can glue them to my fan as decoration.",
+    "valid_sentence": "TRUE",
     "counter (300)\r": "\r"
   },
   {
@@ -3297,10 +3297,10 @@ var hskLevel5Sentences = [
     "hsk_level": 5,
     "part_of_speech": "adjective",
     "compound_cantonese": "",
-    "compound": "艳",
-    "compound_pinyin": "Ràng wǒmen lái zànshǎng yīxià zhè zhǐ sècǎi xiānyàn de niǎo.",
-    "compound_definition": "Let's admire this colorful bird.",
-    "valid_sentence": "",
+    "compound": "请在私人硕士学位数据库中搜索一位聪明而艳丽的女孩。",
+    "compound_pinyin": "Qǐng zài sīrén shuòshì xuéwèi shùjùkù zhōng sōusuǒ yī wèi cōngmíng ér yànlì de nǚhái.",
+    "compound_definition": "Please search for a smart and gorgeous girl in the private masters degree database.",
+    "valid_sentence": "TRUE",
     "counter (300)\r": "\r"
   },
   {
@@ -3409,10 +3409,10 @@ var hskLevel5Sentences = [
     "hsk_level": 5,
     "part_of_speech": "verb",
     "compound_cantonese": "",
-    "compound": "裁",
-    "compound_pinyin": "Tā zìjǐ cáijiǎnle yī jiàn qúnzi， zhǎnshìle tā de shǒuyì.",
-    "compound_definition": "She tailored a dress herself， showcasing her craftsmanship.",
-    "valid_sentence": "",
+    "compound": "尽管他们改革了规则，但棒球裁判仍然拒绝剪掉胡须。",
+    "compound_pinyin": "Jǐnguǎn tāmen gǎigéle guīzé, dàn bàngqiú cáipàn réngrán jùjué jiǎn diào húxū.",
+    "compound_definition": "Even though they reformed the rules, baseball umpires still refuse to cut their beards.",
+    "valid_sentence": "TRUE",
     "counter (300)\r": "\r"
   },
   {
@@ -3535,10 +3535,10 @@ var hskLevel5Sentences = [
     "hsk_level": 5,
     "part_of_speech": "noun",
     "compound_cantonese": "",
-    "compound": "貌",
-    "compound_pinyin": "Tā de wàimào fēicháng chūzhòng， zǒng shì xīyǐn zhòng rén de mùguāng.",
-    "compound_definition": "Her appearance is outstanding and always attracts people's attention.",
-    "valid_sentence": "",
+    "compound": "英雄常常戴豪华的披肩，很有礼貌。他们忍耐许多艰辛以避免扰乱和平。",
+    "compound_pinyin": "Yīngxióng chángcháng dài háohuá de pījiān, hěn yǒu lǐmào. Tāmen rěnnài xǔduō jiānxīn yǐ bìmiǎn rǎoluàn hépíng.",
+    "compound_definition": "Heroes often wear luxurious capes and are very polite.,They endure many hardships to avoid disturbing the peace.",
+    "valid_sentence": "TRUE",
     "counter (300)\r": "\r"
   },
   {
@@ -3563,10 +3563,10 @@ var hskLevel5Sentences = [
     "hsk_level": 5,
     "part_of_speech": "verb",
     "compound_cantonese": "",
-    "compound": "贸",
-    "compound_pinyin": "Tā zài guójì mào fāngmiàn yǒu fēngfù de jīngyàn， néng chǔlǐ fùzá de jiāoyì.",
-    "compound_definition": "He has extensive experience in international trade and can handle complex transactions.",
-    "valid_sentence": "",
+    "compound": "我很后悔进入柴煤贸易。妻子不但没有安慰我，反而责骂我。",
+    "compound_pinyin": "Wǒ hěn hòuhuǐ jìnrù chái méi màoyì. Qīzǐ bùdàn méiyǒu ānwèi wǒ, fǎn'ér zémà wǒ.",
+    "compound_definition": "I regretted entering the coal and firewood trade.,Instead of comforting me, my wife scolded me.",
+    "valid_sentence": "TRUE",
     "counter (300)\r": "\r"
   },
   {
@@ -3759,10 +3759,10 @@ var hskLevel5Sentences = [
     "hsk_level": 5,
     "part_of_speech": "verb",
     "compound_cantonese": "",
-    "compound": "逻",
-    "compound_pinyin": "Zài jiějué wèntí shí， wǒmen xūyào yùnyòng luójí sīwéi.",
-    "compound_definition": "When solving problems， we need to apply logical thinking.",
-    "valid_sentence": "",
+    "compound": "选择醉酒是违背逻辑的，因为它会增加在湿滑的地板上摔倒的风险。",
+    "compound_pinyin": "Xuǎnzé zuìjiǔ shì wéibèi luójí de, yīnwèi tā huì zēngjiā zài shī huá dì dìbǎn shàng shuāi dǎo de fēngxiǎn.",
+    "compound_definition": "Choosing to get drunk defies logic because it increases the risk of falling on a slippery floor.",
+    "valid_sentence": "TRUE",
     "counter (300)\r": "\r"
   },
   {
@@ -3913,10 +3913,10 @@ var hskLevel5Sentences = [
     "hsk_level": 5,
     "part_of_speech": "verb",
     "compound_cantonese": "",
-    "compound": "闯",
-    "compound_pinyin": "Tā chuǎng jìnle bǐsài， zhǎnxiànle jīngrén de cáihuá.",
-    "compound_definition": "He rushed into the competition and showcased amazing talent.",
-    "valid_sentence": "",
+    "compound": "闯因为我的诊断已经迟到了，我慌了，闯了红灯，还撞破了撞到的猴子的脾脏。",
+    "compound_pinyin": "Chuǎng yīnwèi wǒ de zhěnduàn yǐjīng chídàole, wǒ huāngle, chuǎngle hóng dēng, hái zhuàng pòle zhuàng dào de hóuzǐ de pízàng.",
+    "compound_definition": "Because my diagnosis was already late, I panicked, ran a red light, and ruptured the spleen of the monkey I hit.",
+    "valid_sentence": "TRUE",
     "counter (300)\r": "\r"
   },
   {
@@ -4165,10 +4165,10 @@ var hskLevel5Sentences = [
     "hsk_level": 5,
     "part_of_speech": "noun",
     "compound_cantonese": "",
-    "compound": "鼠",
-    "compound_pinyin": "Wǒ de māo gěi wǒ liú xiàle yī zhǐ fǔlàn de sǐ lǎoshǔ， shǐ wǒ de fángwū chōngmǎnle chòu wèi.",
-    "compound_definition": "My cat left me a rotting dead mouse that filled my house with a foul smell.",
-    "valid_sentence": "",
+    "compound": "腐烂的老鼠脾脏变成紫色，请将其锁在厨房的盆里。",
+    "compound_pinyin": "Fǔlàn de lǎoshǔ pízàng biàn chéng zǐsè, qǐng jiāng qí suǒ zài chúfáng de pén lǐ.",
+    "compound_definition": "The rotting mouse spleen turns purple, please lock it in a basin in the kitchen.",
+    "valid_sentence": "TRUE",
     "counter (300)\r": "\r"
   },
   {
