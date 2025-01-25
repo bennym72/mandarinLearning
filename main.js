@@ -2266,7 +2266,14 @@ class SpeechGeneration {
             return this._cache[locale]
         }
 
-        this._cache[locale] = this._voices.filter(voice => voice.lang === locale)
+        this._cache[locale] = this._voices.filter(function(voice) { 
+            const matches = voice.lang === locale;
+            if (matches) {
+                return true;
+            } else {
+                return false;
+            }
+        }.bind(this))
         return this._cache[locale]
     }
 
@@ -2317,7 +2324,10 @@ setupSpeechPlayer();
 function playCurrentSentence() {
     
     setTimeout(function playText() {
-        speechGenerator.playByText("en-US", "Hello, world")
+        const currentSentence = window.gameboard.siteState.currentKanji.kanji;
+        if (currentSentence != null) {
+            speechGenerator.playByText("zh-CN", currentSentence);
+        }
     }, 300)
 }
 
