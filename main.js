@@ -2291,12 +2291,10 @@ class SpeechGeneration {
         // TODO but for now we just use the first occurrence
         const utterance = new window.SpeechSynthesisUtterance()
         utterance.voice = voices[0]
-        utterance.pitch = 1
-        utterance.rate = 1
         utterance.voiceURI = 'native'
         utterance.volume = 1
-        utterance.rate = 1
-        utterance.pitch = 0.8
+        utterance.pitch = 1
+        utterance.rate = 0.75
         utterance.text = text
         utterance.lang = locale
 
