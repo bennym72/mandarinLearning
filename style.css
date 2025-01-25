@@ -331,14 +331,14 @@ button {
     color: #ffffff;
 }
 
-.show {
+.playButton {
     left:20vw;
     width:28vw;
     bottom: 31vh;
     position: absolute;
 }
 
-.playButton {
+.show {
   left:52vw;
   width: 28vw;
   bottom: 31vh;
