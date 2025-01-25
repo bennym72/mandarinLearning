@@ -2300,12 +2300,37 @@ class SpeechGeneration {
         utterance.text = text
         utterance.lang = locale
 
-        if (onEnd) {
-            utterance.onend = onEnd
-        }
+        utterance.onend = function() {
+            this.isPlaying = false;
+            this.updatePlayButtonText(this.isPlaying);
+            if (onEnd) {
+                onEnd();
+            }
+        }.bind(this);
 
         this._speechSynth.cancel() // cancel current speak, if any is running
         this._speechSynth.speak(utterance)
+        this.isPlaying = true;
+        this.updatePlayButtonText(this.isPlaying);
+    }
+
+
+
+    updatePlayButtonText(isPlaying) {
+        const playButton = window.document.querySelector("#_playButton");
+        if (isPlaying) {
+            playButton.innerText = "Stop";
+        } else {
+            playButton.innerText = "Play";
+        }
+    }
+
+    stopCurrentSpeech() {
+        this.isPlaying = false;
+        this.updatePlayButtonText(this.isPlaying);
+        if (this._speechSynth) {
+            this._speechSynth.cancel() // cancel current speak, if any is running
+        }
     }
 
 }
@@ -2324,11 +2349,15 @@ setupSpeechPlayer();
 function playCurrentSentence() {
     
     setTimeout(function playText() {
-        const currentSentence = window.gameboard.siteState.currentKanji.kanji;
-        if (currentSentence != null) {
-            speechGenerator.playByText("zh-CN", currentSentence);
+        if (speechGenerator.isPlaying) {
+            speechGenerator.stopCurrentSpeech();
+        } else {
+            const currentSentence = window.gameboard.siteState.currentKanji.kanji;
+            if (currentSentence != null) {
+                speechGenerator.playByText("zh-CN", currentSentence);
+            }
         }
-    }, 300)
+    }, 100)
 }
 
 

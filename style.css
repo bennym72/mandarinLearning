@@ -332,8 +332,17 @@ button {
 }
 
 .show {
+    left:20vw;
+    width:28vw;
     bottom: 31vh;
     position: absolute;
+}
+
+.playButton {
+  left:52vw;
+  width: 28vw;
+  bottom: 31vh;
+  position: absolute;
 }
 
 .review {
