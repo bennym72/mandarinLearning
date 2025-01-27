@@ -115,7 +115,25 @@ if (isGenerateMode) {
 
 const hskLevelString = "hsk_level_";
 
-var hskLevel5ToUse = startAnew ? hskLevel5Sentences : hskLevel5;
+var hskLevel5ToUse = [];
+
+const hsk5CharToValueMap = {};
+hskLevel5Sentences.forEach((value, index) => {
+    if (value.compound.length > 1) {
+        hsk5CharToValueMap[value.character] = value;
+    }
+});
+
+hskLevel5.forEach((value) => {
+    let valueToUse = value;
+    if (value.character.length == 1) {
+        const hsk5SentenceReplacement = hsk5CharToValueMap[value.character];
+        if (hsk5SentenceReplacement != null) {
+            valueToUse = hsk5CharToValueMap[value.character]
+        }
+    }
+    hskLevel5ToUse.push(valueToUse);
+});
 
 var data = hskLevel1.concat(hskLevel2);
 data = data.concat(hskLevel3);
@@ -1230,7 +1248,7 @@ class BaseBoard {
             + "#s: " + finalValidation.initialSentenceCount 
             + "; #c: " + finalValidation.finalizedUnqualifiedChars.total 
             + "; #d: " + (finalValidation.initialSentenceCount - finalValidation.finalSentenceCount)
-            + "; #x: " + sentenceGenerator.generatedMoreThanOneSetFromUnqualifiedChars
+            + "; #x: " + Object.keys(finalValidation.unaccountedForChars).length
             + "; #T " + charCounter;
 
             this.siteState.overview = sentenceToChar;
@@ -2751,7 +2769,9 @@ class SentenceGeneratorLogger {
                 finalizedUnqualifiedCharsByHSKLevel[hskLevel] = [];
             }
             finalizedUnqualifiedCharsByHSKLevel[hskLevel].push(chineseCharacter);
-            unqualifiedTotal += 1;
+            // if (hskLevel == 5) {
+                unqualifiedTotal += 1;
+            // }
         });
         finalizedUnqualifiedCharsByHSKLevel.total = unqualifiedTotal;
 
@@ -2845,14 +2865,28 @@ class SentenceGenerator {
                 unqualifiedAddedChineseCharsByHskLevel));
         const allSentenceModels = this._joinSentencesByHSKLevel(randomizedChineseSentencesByHSKLevel, unqualifiedCharacterGroupsAsChineseSentenceModels);
         const finalOutputSentenceModels = this._sortByFirstTimeSeenSentenceValues(allSentenceModels);
+        const logs = this.logger.loggingData;
+        console.log(JSON.stringify(logs, null, 4));
+        this.finalValidation = this.logger.logFinalValidation(this.characterMetadata, finalOutputSentenceModels, finalizedUnqualifiedChars);
+
+        if (Object.keys(this.finalValidation.unaccountedForChars).length > 0) {
+            const unaccountedForCharsGroupedByHSKLevel = this._groupUnqualifiedCharactersByPassingIn(this.finalValidation.unaccountedForChars);
+            Object.keys(unaccountedForCharsGroupedByHSKLevel).forEach((hskLevel) => {
+                const unaccountedForCharsGrouped = unaccountedForCharsGroupedByHSKLevel[hskLevel];
+                unaccountedForCharsGrouped.forEach((unaccountedForGroup) => {
+                    finalOutputSentenceModels.unshift(unaccountedForGroup)
+                });
+                stageCounter[hskLevel - 1][0] += 1;
+            });
+        }
+
         let sentenceIdentifier = 1;
         finalOutputSentenceModels.forEach((sentenceModel) => {
             sentenceModel.id = sentenceIdentifier;
             sentenceIdentifier++;
         });
-        const logs = this.logger.loggingData;
-        console.log(JSON.stringify(logs, null, 4));
-        this.finalValidation = this.logger.logFinalValidation(this.characterMetadata, finalOutputSentenceModels, finalizedUnqualifiedChars);
+
+
         return finalOutputSentenceModels;
     }
 
@@ -2992,8 +3026,12 @@ class SentenceGenerator {
     }
 
     _groupUnqualifiedCharacters() {
+        return this._groupUnqualifiedCharactersByPassingIn(this.unqualifiedCharacters);
+    }
+
+    _groupUnqualifiedCharactersByPassingIn(values) {
         const unqualifiedCharactersByHskLevel = {};
-        Object.keys(this.unqualifiedCharacters).forEach((chineseCharacter) => {
+        Object.keys(values).forEach((chineseCharacter) => {
             const hskLevel = this.characterMetadata.hskCharacterToLevelMap[chineseCharacter];
             if (!unqualifiedCharactersByHskLevel[hskLevel]) {
                 unqualifiedCharactersByHskLevel[hskLevel] = [];
@@ -3018,6 +3056,7 @@ class SentenceGenerator {
             
         });
         return groupedUnqualifiedCharactersByHSKLevel;
+
     }
 
     _convertGroupedCharsToSentence(groupedChars, hskLevel) {
