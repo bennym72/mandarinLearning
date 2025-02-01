@@ -9093,8 +9093,8 @@ var hskLevel4 = [
       "hsk_level": 4,
       "part_of_speech": "Adjective",
       "compound_cantonese": "",
-      "compound": "这是一个殊特的情况。",
-      "compound_pinyin": "Zhè shì yīgè shū tè de qíngkuàng.",
+      "compound": "这是一个特殊的情况。",
+      "compound_pinyin": "Zhè shì yīgè tèshū de qíngkuàng.",
       "compound_definition": "This is a special case.",
       "valid_sentence": "",
       "counter (1121)\r": 1

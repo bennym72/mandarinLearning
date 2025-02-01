@@ -791,8 +791,8 @@ var hskLevel5Sentences = [
     "hsk_level": 5,
     "part_of_speech": "verb",
     "compound_cantonese": "",
-    "compound": "夹虽然鼻夹会阻碍你的呼吸，但对于在污染的泳池中游泳来说，它们是必不可少的。",
-    "compound_pinyin": "Jiā suīrán bí jiā huì zǔ'ài nǐ de hūxī, dàn duìyú zài wūrǎn de yǒngchí zhōng yóuyǒng lái shuō, tāmen shì bì bùkě shǎo de.",
+    "compound": "虽然鼻夹会阻碍你的呼吸，但对于在污染的泳池中游泳来说，它们是必不可少的。",
+    "compound_pinyin": "Suīrán bí jiā huì zǔ'ài nǐ de hūxī, dàn duìyú zài wūrǎn de yǒngchí zhōng yóuyǒng lái shuō, tāmen shì bì bùkě shǎo de.",
     "compound_definition": "Although nose clips can hinder your breathing, they are essential for swimming in polluted pools.",
     "valid_sentence": "TRUE",
     "counter (300)\r": "\r"
@@ -3913,8 +3913,8 @@ var hskLevel5Sentences = [
     "hsk_level": 5,
     "part_of_speech": "verb",
     "compound_cantonese": "",
-    "compound": "闯因为我的诊断已经迟到了，我慌了，闯了红灯，还撞破了撞到的猴子的脾脏。",
-    "compound_pinyin": "Chuǎng yīnwèi wǒ de zhěnduàn yǐjīng chídàole, wǒ huāngle, chuǎngle hóng dēng, hái zhuàng pòle zhuàng dào de hóuzǐ de pízàng.",
+    "compound": "因为我的诊断已经迟到了，我慌了，闯了红灯，还撞破了撞到的猴子的脾脏。",
+    "compound_pinyin": "Yīnwèi wǒ de zhěnduàn yǐjīng chídàole, wǒ huāngle, chuǎngle hóng dēng, hái zhuàng pòle zhuàng dào de hóuzǐ de pízàng.",
     "compound_definition": "Because my diagnosis was already late, I panicked, ran a red light, and ruptured the spleen of the monkey I hit.",
     "valid_sentence": "TRUE",
     "counter (300)\r": "\r"
