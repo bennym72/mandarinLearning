@@ -6484,7 +6484,7 @@ var hskLevel4 = [
     {
       "id": 3015,
       "character": "念",
-      "character_pinyin": "xiǎng niàn",
+      "character_pinyin": "niàn",
       "eng": "To miss, to long for",
       "hsk_level": 4,
       "part_of_speech": "Verb",

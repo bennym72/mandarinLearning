@@ -80,7 +80,7 @@ var _inputTable;
 var langDataToUse = {}; //newLangData;
 var _highestChosenHSKLevel = 0; // defaults to 0
 var _highestAvailableHSKLevel = 0;
-var _sentenceDataInput = "1,2,3,4,5";
+var _sentenceDataInput = "1,2,3,4,5,6";
 
 const _hskLevelToSingleCharMap = {};
 const _hskLevelToSentencedDataMap = {};
@@ -98,7 +98,10 @@ const charsToIgnore = [
     "！",
     "？",
     " ",
-    "、"
+    "、",
+    "…",
+    "“",
+    "”"
 ];
 const anyCharByHSKLevel = {};
 charsToIgnore.forEach((value) => {
@@ -139,6 +142,7 @@ var data = hskLevel1.concat(hskLevel2);
 data = data.concat(hskLevel3);
 data = data.concat(hskLevel4);
 data = data.concat(hskLevel5ToUse);
+data = data.concat(hskLevelZ);
 
 // pragma mark - setup
 
@@ -200,7 +204,7 @@ function shouldContinueRegenerationWork(value, isMainTable) {
     }
     return true
     && value.character.length == 1
-    && value.hskLevel == 5;
+    && value.hskLevel == 6;
 }
 
 function regenerateData() {
@@ -2466,6 +2470,9 @@ class CharacterMetadata {
             " ",
             "、",
             ",",
+            "…",
+            "“",
+            "”"
         ];
         this.targetLevel = targetLevel;
         const hskLevelToCharacterMap = {};
@@ -3324,11 +3331,12 @@ function generateSentencesForV2(setUpWindow) {
         3 : mapJsonToChineseWordModel(hskLevel3),
         4 : mapJsonToChineseWordModel(hskLevel4),
         5 : mapJsonToChineseWordModel(hskLevel5ToUse),
+        6 : mapJsonToChineseWordModel(hskLevelZ),
     };
     const sentenceGenerator = new SentenceGenerator(
         new SentenceGeneratorConfig(
             chineseWordModelsByHskLevelMap,
-            5, // targetLevel,
+            6, // targetLevel,
             0, // seenCountThreshold,
             2, // numUnseenToKeep
         )

@@ -7731,7 +7731,7 @@ var hskLevel5 = [
         "id": 4225,
         "character": "拼",
         "character_pinyin": "pīn",
-        "eng": "to拼; to put together",
+        "eng": "to put together",
         "hsk_level": 5,
         "part_of_speech": "verb",
         "compound_cantonese": "",
