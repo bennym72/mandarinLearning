@@ -2861,7 +2861,10 @@ class SentenceGenerator {
         const stageCounter = new Array(this.targetLevel);
         for (var i = 0; i < this.targetLevel; i++) {
             stageCounter[i] = [];
-            stageCounter[i].push(unqualifiedCharacterGroupsAsChineseSentenceModels[i + 1].length);
+            const targetLength = i + 1 < Object.keys(unqualifiedCharacterGroupsAsChineseSentenceModels).length
+                ? unqualifiedCharacterGroupsAsChineseSentenceModels[i + 1].length 
+                : 0;
+            stageCounter[i].push(targetLength);
             stageCounter[i].push(randomizedChineseSentencesByHSKLevel[i + 1].length);
         }
         this.characterMetadata.stageCounter = stageCounter;
@@ -2968,6 +2971,10 @@ class SentenceGenerator {
     _sortByOriginalSentenceValues(sentenceModels) {
         const sentenceModelsToSort = sentenceModels;
         sentenceModelsToSort.forEach((sentenceModel) => {
+            if (!sentenceModel) {
+                const what = sentenceModelsToSort;
+                debugger;
+            }
             const sentenceValue = this.characterMetadata.chineseWordToSentenceValue[sentenceModel.underlyingChar];
             if (sentenceValue) {
                 sentenceModel.setOriginalSentenceValue(sentenceValue);
@@ -3003,8 +3010,8 @@ class SentenceGenerator {
     _joinSentencesByHSKLevel(sentencesByHSKLevel1, sentencesByHSKLevel2) {
         let joinedSentences = [];
         Object.keys(sentencesByHSKLevel1).forEach((hskLevel) => {
-            const sentences1 = sentencesByHSKLevel1[hskLevel];
-            const sentences2 = sentencesByHSKLevel2[hskLevel];
+            const sentences1 = sentencesByHSKLevel1[hskLevel] || [];
+            const sentences2 = sentencesByHSKLevel2[hskLevel] || [];
             joinedSentences = joinedSentences.concat(sentences1);
             joinedSentences = joinedSentences.concat(sentences2);
         });
@@ -3038,6 +3045,11 @@ class SentenceGenerator {
 
     _groupUnqualifiedCharactersByPassingIn(values) {
         const unqualifiedCharactersByHskLevel = {};
+        for (var i = 1; i <= this.targetLevel; i++) {
+            if (!unqualifiedCharactersByHskLevel[i]) {
+                unqualifiedCharactersByHskLevel[i] = [];
+            }
+        }
         Object.keys(values).forEach((chineseCharacter) => {
             const hskLevel = this.characterMetadata.hskCharacterToLevelMap[chineseCharacter];
             if (!unqualifiedCharactersByHskLevel[hskLevel]) {
