@@ -1583,7 +1583,7 @@ class BaseBoard {
     }
 
     _collapseIntoBucketsOf10(singleChars, allCharsThatShowUpInSentences) {
-        var size = 5; 
+        var size = 10; 
         var arrayOfArrays = [];
         const singleCharsToUse = singleChars.filter((value) => {
             return !allCharsThatShowUpInSentences[value];
@@ -3057,7 +3057,7 @@ class SentenceGenerator {
             }
             unqualifiedCharactersByHskLevel[hskLevel].push(chineseCharacter);
         })
-        const size = 10;
+        const size = 5;
         const groupedUnqualifiedCharactersByHSKLevel = {};
         Object.keys(unqualifiedCharactersByHskLevel).forEach((hskLevel) => {
             const arrayOfArrays = [];
