@@ -1583,7 +1583,7 @@ class BaseBoard {
     }
 
     _collapseIntoBucketsOf10(singleChars, allCharsThatShowUpInSentences) {
-        var size = 10; 
+        var size = 5; 
         var arrayOfArrays = [];
         const singleCharsToUse = singleChars.filter((value) => {
             return !allCharsThatShowUpInSentences[value];
