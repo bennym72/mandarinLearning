@@ -204,7 +204,7 @@ function shouldContinueRegenerationWork(value, isMainTable) {
     }
     return true
     && value.character.length == 1
-    && value.hskLevel == 5;
+    && value.hskLevel == 6;
 }
 
 function regenerateData() {
