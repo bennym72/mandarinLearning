@@ -3,7 +3,7 @@ var hskLevelZ = [
         "id": 10000,
         "character": "丝",
         "character_pinyin": "sī",
-        "eng": "silk, thread",
+        "eng": "silk; thread",
         "hsk_level": 6,
         "part_of_speech": "noun",
         "compound_cantonese": "",
@@ -11,7 +11,7 @@ var hskLevelZ = [
         "compound_pinyin": "Wǒ yòng pídài bórán dì chōuda tā lái chéngfá tā, dàn tā de liǎn shàng què méiyǒu sīháo de tòngkǔ.",
         "compound_definition": "I punished her by whipping her violently with the belt, but there was no sign of pain on her face.",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10001,
@@ -25,7 +25,7 @@ var hskLevelZ = [
         "compound_pinyin": "Tā zuòshì fēicháng rènzhēn, cóng bù yǔnxǔ zìjǐ yǒu sīháo de mǎhu.",
         "compound_definition": "He is very serious about his work and never allows himself the slightest bit of carelessness.",
         "valid_sentence": "",
-        "counter (118)\r": 2
+        "counter (117)\r": 2
     },
     {
         "id": 10002,
@@ -39,7 +39,7 @@ var hskLevelZ = [
         "compound_pinyin": "Zhòngsuǒzhōuzhī láizì ōuzhōu de rǔ zhìpǐn hé liáng wù chǎnpǐn de nóngdù bǐ zhōngguó dàlù de gèng gāo.\"",
         "compound_definition": "It is well known that dairy and grain products from Europe have higher concentrations than those from mainland China.",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10003,
@@ -53,7 +53,7 @@ var hskLevelZ = [
         "compound_pinyin": "Tā zài mǔrǔ wèiyǎng shí fāxiàn rǔtóu biànde fēicháng mǐngǎn, suǒyǐ xūyào shǐyòng bǎohù rǔtóu de rǔshuāng.",
         "compound_definition": "She found that her nipples became very sensitive during breastfeeding, so she needed to use a protective nipple cream.",
         "valid_sentence": "",
-        "counter (118)\r": 2
+        "counter (117)\r": 2
     },
     {
         "id": 10004,
@@ -67,7 +67,7 @@ var hskLevelZ = [
         "compound_pinyin": "Yóuyú zhè zhǒng gǎnmào bìngdú chuánbò sùdù hěn kuài, yīshēng jiànyì dàjiā qín xǐshǒu, yǐ jiǎnshǎo chuánrǎn de fēngxiǎn.",
         "compound_definition": "Since this cold virus spreads quickly, doctors recommend frequent handwashing to reduce the risk of infection.",
         "valid_sentence": "",
-        "counter (118)\r": 2
+        "counter (117)\r": 2
     },
     {
         "id": 10005,
@@ -81,7 +81,7 @@ var hskLevelZ = [
         "compound_pinyin": "Zuòwéi jiě kāi zhēncāo dài de jiāohuàn, tā bìxū shìfèng qīzǐ, tiǎn tā āng zāng de júhuā, bìng rěnshòu tā de nüèdài kuáng.",
         "compound_definition": "In exchange for removing the chastity belt, he must serve his wife, lick her dirty asshole, and endure her sadism.",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10006,
@@ -95,7 +95,7 @@ var hskLevelZ = [
         "compound_pinyin": "Duì wǒ lái shuō yào péiqián háishì nǐ lái shìfèng nǎge dōu xíng",
         "compound_definition": "It doesn't matter to me whether you pay me or serve me.",
         "valid_sentence": "",
-        "counter (118)\r": 2
+        "counter (117)\r": 2
     },
     {
         "id": 10007,
@@ -108,8 +108,8 @@ var hskLevelZ = [
         "compound": "她倾听从主人的命令，以避免违下可能被理解为反抗的错误。",
         "compound_pinyin": "Tā qīngtīng cóng zhǔrén de mìnglìng, yǐ bìmiǎn wéi xià kěnéng bèi lǐjiě wèi fǎnkàng de cuòwù.",
         "compound_definition": "She listens to her master's orders to avoid mistakes that could be interpreted as rebellion.",
-        "valid_sentence": "TRUE",
-        "counter (118)\r": 1
+        "valid_sentence": "",
+        "counter (117)\r": 1
     },
     {
         "id": 10008,
@@ -122,8 +122,8 @@ var hskLevelZ = [
         "compound": "尽管所有人都劝他不要再执着于过去，但他偏偏不愿意放手，总觉得那些过去的日子才是他人生中最美好的时光。",
         "compound_pinyin": "Jǐnguǎn suǒyǒu rén dōu quàn tā bùyào zài zhízhuó yú guòqù, dàn tā piānpiān bù yuànyì fàngshǒu, zǒng juédé nàxiē guòqù de rìzǐ cái shì tā rénshēng zhōng zuì měihǎo de shíguāng.",
         "compound_definition": "Although everyone advised him not to cling to the past, he was unwilling to let go and always felt that those past days were the best time in his life.",
-        "valid_sentence": "TRUE",
-        "counter (118)\r": 1
+        "valid_sentence": "",
+        "counter (117)\r": 1
     },
     {
         "id": 10009,
@@ -136,8 +136,8 @@ var hskLevelZ = [
         "compound": "蠢笨，不要勃然开始挑逗我的阴蒂并说我的淫水是酸溜溜的！",
         "compound_pinyin": "Chǔnbèn, bùyào bórán kāishǐ tiǎodòu wǒ de yīndì bìng shuō wǒ de yínshuǐ shì suānliūliū de!",
         "compound_definition": "Don't get so excited and start teasing my clitoris and telling me my juices are sour, idiot!",
-        "valid_sentence": "TRUE",
-        "counter (118)\r": 1
+        "valid_sentence": "",
+        "counter (117)\r": 1
     },
     {
         "id": 10010,
@@ -151,7 +151,7 @@ var hskLevelZ = [
         "compound_pinyin": "Miǎnlì yòu'éryuán xuéshēng shùnyìng bìng zūnjìng lǎoshī, rúguǒ tāmen biǎoxiàn chū làn de tàidù, jiù huì shòudào dǎjí.",
         "compound_definition": "Kindergarten students are encouraged to obey and respect their teachers and will be punished if they display a bad attitude.",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10011,
@@ -165,7 +165,7 @@ var hskLevelZ = [
         "compound_pinyin": "Zhè dùn fàn tā chī de hěn màn, kànqǐlái shì miǎnqiǎng zìjǐ chī xiàqù de, sìhū méiyǒu shénme wèikǒu.",
         "compound_definition": "He ate this meal very slowly, and it seemed like he was forcing himself to eat, as if he had no appetite.",
         "valid_sentence": "",
-        "counter (118)\r": 2
+        "counter (117)\r": 2
     },
     {
         "id": 10012,
@@ -179,7 +179,7 @@ var hskLevelZ = [
         "compound_pinyin": "Cèsuǒ li yǒu yīgè dàng fù zhèngzài lùchū tā de rǔfáng hé rǔtóu.",
         "compound_definition": "There was a slut in the toilet showing her breasts and nipples.",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10013,
@@ -193,7 +193,7 @@ var hskLevelZ = [
         "compound_pinyin": "Miànduì qiángquán yǔ yāpò, tā bù yuànyì dītóu, ér shì xuǎnzé yǒnggǎn de fǎnkàng, bùguǎn qiánfāng de dàolù duōme jiānnán, tā dōu yào jiānchí dàodǐ.",
         "compound_definition": "Faced with tyranny and oppression, he refused to bow down and instead chose to resist bravely, determined to persist no matter how difficult the road ahead might be.",
         "valid_sentence": "",
-        "counter (118)\r": 2
+        "counter (117)\r": 2
     },
     {
         "id": 10014,
@@ -207,7 +207,7 @@ var hskLevelZ = [
         "compound_pinyin": "Tā míng zhīdào duìfāng zǒng shì shānghài zìjǐ, què réngrán wúfǎ gēshě zhè duàn guānxì, zhè zhǒng shòunüè qīngxiàng ràng tā de péngyǒumen gǎndào jì xīnténg yòu wúnài.",
         "compound_definition": "He knew very well that the other person kept hurting him, yet he still couldn’t let go of the relationship. His masochistic tendencies made his friends feel both heartbroken and helpless.",
         "valid_sentence": "",
-        "counter (118)\r": 4
+        "counter (117)\r": 4
     },
     {
         "id": 10015,
@@ -221,7 +221,7 @@ var hskLevelZ = [
         "compound_pinyin": "Dǎrǎo yīxià, jūnzǐ. Qǐngwèn cèsuǒ zài nǎ'er? Wǒ hé wǒ xiōngdì xiǎng zhǎo gè dìfāng liáo liáotiān.",
         "compound_definition": "Excuse me, sir.,Where is the toilet, please?,My brother and I need a place to chat.",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10016,
@@ -235,7 +235,7 @@ var hskLevelZ = [
         "compound_pinyin": "Xiǎo bǎobǎo tǎng zài māmā huái lǐ, ānjìng de shǔnzhe nǎizuǐ.",
         "compound_definition": "The baby lay in his mother's arms, quietly sucking on his pacifier.",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10017,
@@ -249,7 +249,7 @@ var hskLevelZ = [
         "compound_pinyin": "Dāng zhège yíndàng de biǎo zǐ kāishǐ qīnwěn zhège hàixiū ér gūdú de nánhái shí, tā de ròubàng jiù biàn yìngle, bìng zài kùzǐ lǐ shèle jīng.",
         "compound_definition": "When this slutty bitch starts kissing this shy and lonely boy, his cock gets hard and he cums in his pants.",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10018,
@@ -262,8 +262,8 @@ var hskLevelZ = [
         "compound": "在妻子勃然吸吮着肉棒之后，精液射得非常多，精液都从她的嘴里溢出来，她很难全部吞下去。",
         "compound_pinyin": "Zài qīzǐ bórán xīshǔnzhe ròubàng zhīhòu, jīngyè shè dé fēicháng duō, jīngyè dōu cóng tā de zuǐ lǐ yìchū lái, tā hěn nán quánbù tūn xiàqù.",
         "compound_definition": "After my wife sucked the cock vigorously, the cum shot out so much that it overflowed from her mouth and it was difficult for her to swallow it all.",
-        "valid_sentence": "TRUE",
-        "counter (118)\r": 1
+        "valid_sentence": "",
+        "counter (117)\r": 1
     },
     {
         "id": 10019,
@@ -277,7 +277,7 @@ var hskLevelZ = [
         "compound_pinyin": "Āiyā! Wǒ fàng de pì tài chòule, wǒ lǎopó dōu kāishǐ mà wǒle. Wǒ pà děng huì er yào shòufá.",
         "compound_definition": "Ouch! My fart was so smelly that my wife started scolding me. I'm afraid I'll be punished later.",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10020,
@@ -291,7 +291,7 @@ var hskLevelZ = [
         "compound_pinyin": "Āiyā, wǒ de shǒujī diào jìn shuǐ lǐ le, kuài bāng wǒ xiǎngxiǎng bànfǎ!",
         "compound_definition": "Oh no, my phone fell into the water, please help me think of a solution!",
         "valid_sentence": "",
-        "counter (118)\r": 2
+        "counter (117)\r": 2
     },
     {
         "id": 10021,
@@ -305,7 +305,7 @@ var hskLevelZ = [
         "compound_pinyin": "Nǐ bié zhème lěngmò, ānwèi wǒ la.",
         "compound_definition": "Don't be so cold, comfort me.",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10022,
@@ -319,7 +319,7 @@ var hskLevelZ = [
         "compound_pinyin": "Ǹg…qǐng wēnróu yīdiǎn. Ma ma, rúguǒ nǐ yuànyì, nǐ kěyǐ gèng yònglì yīdiǎn, dàn wǒ de pìgu hěn mǐngǎn la.",
         "compound_definition": "Um... please be gentle. Um, you can be harder if you want, but my ass is very sensitive.",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10023,
@@ -333,7 +333,7 @@ var hskLevelZ = [
         "compound_pinyin": "Zāogāo…ma…wǒ méi néng jíshí jiāng wǒ de ròubàng cóng nǐ de xiǎoxué zhōng bá chūlái la.",
         "compound_definition": "Oops…well…I couldn’t pull my cock out of your pussy in time.",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10024,
@@ -346,8 +346,8 @@ var hskLevelZ = [
         "compound": "那些翘楚和壮观男人们围在他的妻子身边，妻子吸吮着他们的龟头。",
         "compound_pinyin": "Nàxiē qiáochǔ hé zhuàngguān nánrénmen wéi zài tā de qīzǐ shēnbiān, qīzǐ xīshǔnzhe tāmen de guītóu.",
         "compound_definition": "Those outstanding and spectacular men gathered around his wife, who sucked their glans.",
-        "valid_sentence": "TRUE",
-        "counter (118)\r": 1
+        "valid_sentence": "",
+        "counter (117)\r": 1
     },
     {
         "id": 10025,
@@ -361,7 +361,7 @@ var hskLevelZ = [
         "compound_pinyin": "Tā hàixiū de chéngrèn zìjǐ háishì chǔnán, yīnwèi cóngwèi tánguò liàn'ài.",
         "compound_definition": "He shyly admitted that he was still a virgin because he had never been in a relationship before.",
         "valid_sentence": "",
-        "counter (118)\r": 2
+        "counter (117)\r": 2
     },
     {
         "id": 10026,
@@ -374,8 +374,8 @@ var hskLevelZ = [
         "compound": "她丝毫羞耻地盯视着丈夫的眼睛，交出了自己的菊穴贞操，以此证明她对新主人的奉献。",
         "compound_pinyin": "Tā sīháo xiūchǐ de dīng shìzhe zhàngfū de yǎnjīng, jiāo chūle zìjǐ de jú xué zhēncāo, yǐ cǐ zhèngmíng tā duì xīn zhǔrén de fèngxiàn.",
         "compound_definition": "She stared into her husband's eyes without any shame and surrendered her anal virginity to prove her devotion to her new master.",
-        "valid_sentence": "TRUE",
-        "counter (118)\r": 1
+        "valid_sentence": "",
+        "counter (117)\r": 1
     },
     {
         "id": 10027,
@@ -389,7 +389,7 @@ var hskLevelZ = [
         "compound_pinyin": "Zhè dàng fù qiǎomiào de yǐnyòu tā de pào yǒu zǔ'ài lǎoshī shōují wénxiàn.",
         "compound_definition": "The slut cleverly seduces her fuck buddy into hindering the teacher's collection of literature.",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10028,
@@ -403,7 +403,7 @@ var hskLevelZ = [
         "compound_pinyin": "Ér wǒ de qīzǐ, yuánběn cōngmíng ér lěngjìng de rén, dànshì zài zhèxiē niánqīng qiángzhuàng de nánxìng miànqián yě zhǐ néng biǎoxiàn chū mǔgǒu de zītài",
         "compound_definition": "My wife, who was originally smart and calm, could only behave like a bitch in front of these young and strong men.",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10029,
@@ -417,7 +417,7 @@ var hskLevelZ = [
         "compound_pinyin": "Zhège niánqīng de biǎo zǐ dàochù chuánrǎn bān shàng nàxiē bùzhī qíng de chǔnǚ, mǎnzú tāmen dì xìngyù.",
         "compound_definition": "This young bitch goes around infecting the unsuspecting virgins in her class and satisfying their sexual desires.",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10030,
@@ -431,7 +431,7 @@ var hskLevelZ = [
         "compound_pinyin": "Tā shuōhuà tài nántīng le, suíbiàn mà rén biǎozi, ràng dàjiā dōu juéde bù shūfú.",
         "compound_definition": "His words were too offensive; calling someone a \"bitch\" so casually made everyone uncomfortable.",
         "valid_sentence": "",
-        "counter (118)\r": 2
+        "counter (117)\r": 2
     },
     {
         "id": 10031,
@@ -445,7 +445,7 @@ var hskLevelZ = [
         "compound_pinyin": "Gūdú de nǚrén bèi pào yǒu shuǎile, dà hǎn “cào, wǒ hǎo jìmò a!”",
         "compound_definition": "Lonely woman gets dumped by her sex partner and screams “Fuck, I'm so lonely!”",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10032,
@@ -459,7 +459,7 @@ var hskLevelZ = [
         "compound_pinyin": "Tā xìnggé nèixiàng, jiàndào mòshēngrén shí zǒng shì dīzhe tóu, xiǎnde fēicháng hàixiū.",
         "compound_definition": "She is introverted and always lowers her head when meeting strangers, looking very shy.",
         "valid_sentence": "",
-        "counter (118)\r": 2
+        "counter (117)\r": 2
     },
     {
         "id": 10033,
@@ -473,7 +473,7 @@ var hskLevelZ = [
         "compound_pinyin": "Zhè wèi sìchuān jūnzǐ suīrán qiǎomiào, dànshì què chángcháng yīnwèi jìmò ér kūqì.",
         "compound_definition": "Although this Sichuan gentleman was clever, he often cried because of loneliness.",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10034,
@@ -487,7 +487,7 @@ var hskLevelZ = [
         "compound_pinyin": "Zìcóng bān dào zhè zuò chéngshì hòu, tā méiyǒu shénme péngyǒu, jīngcháng yīgè rén dāi zài jiālǐ gǎndào hěn jìmò.",
         "compound_definition": "Since moving to this city, he hasn't made many friends and often stays at home alone, feeling very lonely.",
         "valid_sentence": "",
-        "counter (118)\r": 2
+        "counter (117)\r": 2
     },
     {
         "id": 10035,
@@ -501,7 +501,7 @@ var hskLevelZ = [
         "compound_pinyin": "Wǒ xīwàng yǒurén néng zhìyù wǒ zhè zhǒng wúfǎ zài rěnshòu de jìmò.",
         "compound_definition": "I hope someone can heal this unbearable loneliness.",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10036,
@@ -515,7 +515,7 @@ var hskLevelZ = [
         "compound_pinyin": "Āiyā! Wǒ yīnwèi hē zuìle ér cuòguòle shàng cèsuǒ de jīhuì, xiànzài dìbǎn shàng quán shì niào yè. Wǒ yīnggāi xiàng qítā kèrén dàoqiàn.",
         "compound_definition": "Oops!,I missed the bathroom break because I was drunk and now there is urine all over the floor.,I should apologize to the other guests.",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10037,
@@ -529,7 +529,7 @@ var hskLevelZ = [
         "compound_pinyin": "Zhège dīsú de nánrén, juédé qīnwěn nǚyǒu róuruǎn de pìgu shì yī jiàn hěn shuǎng de shìqíng.",
         "compound_definition": "This vulgar man thinks it is a very pleasant thing to kiss his girlfriend's soft butt.",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10038,
@@ -543,7 +543,7 @@ var hskLevelZ = [
         "compound_pinyin": "Tā bù xiǎoxīn shuāidǎo le, yīxiàzi zuò zài dìshàng, pìgu dōu shuāi téng le.",
         "compound_definition": "He accidentally fell and landed on the ground, making his butt hurt.",
         "valid_sentence": "",
-        "counter (118)\r": 2
+        "counter (117)\r": 2
     },
     {
         "id": 10039,
@@ -557,7 +557,7 @@ var hskLevelZ = [
         "compound_pinyin": "Sìchuān yǐ qí jùdà de tiányě, wēnquán hé jīliè de bàngqiú jìngsài ér wénmíng.",
         "compound_definition": "Sichuan is famous for its huge fields, hot springs and fierce baseball competition.",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10042,
@@ -571,7 +571,7 @@ var hskLevelZ = [
         "compound_pinyin": "Chángqí de yālì hé píláo kěnéng huì yǐngxiǎng yīgè rén de xìngyù, dǎozhì duì qīnmì guānxì shīqù xìngqù.",
         "compound_definition": "Long-term stress and fatigue may affect a person's sexual desire, leading to a loss of interest in intimacy.",
         "valid_sentence": "",
-        "counter (118)\r": 2
+        "counter (117)\r": 2
     },
     {
         "id": 10043,
@@ -584,8 +584,8 @@ var hskLevelZ = [
         "compound": "不鼓励父母使用皮带惩罚孩子，因为这会损害他们的姿势。",
         "compound_pinyin": "Bù gǔlì fùmǔ shǐyòng pídài chéngfá háizǐ, yīnwèi zhè huì sǔnhài tāmen de zīshì.",
         "compound_definition": "Parents are discouraged from using belts to punish their children as it can harm their posture.",
-        "valid_sentence": "TRUE",
-        "counter (118)\r": 1
+        "valid_sentence": "",
+        "counter (117)\r": 1
     },
     {
         "id": 10044,
@@ -599,7 +599,7 @@ var hskLevelZ = [
         "compound_pinyin": "Zhè wèi ōuzhōu hùshì jīngcháng yòng tā de shétou lái zhìyù bìngrén dì xìngyù.",
         "compound_definition": "This European nurse often used her tongue to heal her patients' sexual desires.",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10045,
@@ -612,8 +612,8 @@ var hskLevelZ = [
         "compound": "主播利用自己的隐私权来反抗那些试图利用她可羞耻的秘密的粉丝。",
         "compound_pinyin": "Zhǔbō lìyòng zìjǐ de yǐnsī quán lái fǎnkàng nàxiē shìtú lìyòng tā kě xiūchǐ de mìmì de fěnsī.",
         "compound_definition": "The streamer used her right to privacy to fight back against fans who tried to exploit her shameful secrets.",
-        "valid_sentence": "TRUE",
-        "counter (118)\r": 1
+        "valid_sentence": "",
+        "counter (117)\r": 1
     },
     {
         "id": 10046,
@@ -627,7 +627,7 @@ var hskLevelZ = [
         "compound_pinyin": "Nǎinai qīngqīng de fǔzhe wǒ de tóufǎ, wēnróu de jiǎngzhe gùshì.",
         "compound_definition": "Grandma gently stroked my hair and told a story softly.",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10047,
@@ -641,7 +641,7 @@ var hskLevelZ = [
         "compound_pinyin": "Wǒ zuótiān wàng le huífù nǐ de xìnxī, zhēn shì bàoqiàn, xīwàng méiyǒu dānwù nǐ de shìqíng.",
         "compound_definition": "I forgot to reply to your message yesterday, I'm really sorry, and I hope I didn't delay anything for you.",
         "valid_sentence": "",
-        "counter (118)\r": 2
+        "counter (117)\r": 2
     },
     {
         "id": 10048,
@@ -655,7 +655,7 @@ var hskLevelZ = [
         "compound_pinyin": "Tāmen zài diànyǐng de zuìhòu yīmù shēnqíng de jiēwěn, zhǎnxiàn le bǐcǐ de àiyì.",
         "compound_definition": "They kissed passionately in the final scene of the movie, showing their love for each other.",
         "valid_sentence": "",
-        "counter (118)\r": 2
+        "counter (117)\r": 2
     },
     {
         "id": 10049,
@@ -668,8 +668,8 @@ var hskLevelZ = [
         "compound": "她必须忍受撒腿、让主人抚摸阴蒂的羞辱，而她的粉丝们则向她支付金钱奖励。",
         "compound_pinyin": "Tā bìxū rěnshòu sātuǐ, ràng zhǔrén fǔmō yīndì de xiūrù, ér tā de fěnsīmen zé xiàng tā zhīfù jīnqián jiǎnglì.",
         "compound_definition": "She has to endure the humiliation of spreading her legs and letting her master touch her clitoris, while her fans pay her monetary rewards.",
-        "valid_sentence": "TRUE",
-        "counter (118)\r": 1
+        "valid_sentence": "",
+        "counter (117)\r": 1
     },
     {
         "id": 10050,
@@ -683,7 +683,7 @@ var hskLevelZ = [
         "compound_pinyin": "Āiyā! Yàzhōu nǚrén de shétou hǎo róuruǎn, guāng shì qīnwěn jiù gǎnjué yíndàng zhìjí la.",
         "compound_definition": "Oh my!,Asian women's tongues are so soft, just kissing them makes me feel extremely horny.",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10051,
@@ -697,7 +697,7 @@ var hskLevelZ = [
         "compound_pinyin": "Wǒ huáiniàn nà wèi zhuānmén zuò ànmó de ōuzhōu nǚrén, tā de ànmó shǒufǎ fēicháng wēnróu.",
         "compound_definition": "I miss the European woman who specialized in massage and her gentle touch.",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10052,
@@ -711,7 +711,7 @@ var hskLevelZ = [
         "compound_pinyin": "Wǒ duì jú mǐfàn de yùwàng ràng wǒ fāfēng, tèbié shì dāng wǒ wén dào tā de wèidào shí, suǒyǐ qǐng gěi wǒ yīgè bí jiā!",
         "compound_definition": "My craving for baked rice drives me crazy, especially when I smell it, so give me a nose clip please!",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10053,
@@ -724,8 +724,8 @@ var hskLevelZ = [
         "compound": "我的后辈发现我的耻辱后，她无视我的隐私权，对我进行欺压和虐待。",
         "compound_pinyin": "Wǒ de hòubèi fāxiàn wǒ de chǐrǔ hòu, tā wúshì wǒ de yǐnsī quán, duì wǒ jìnxíng qīyā hé nüèdài.",
         "compound_definition": "When my junior discovered my shame, she ignored my right to privacy and bullied and abused me.",
-        "valid_sentence": "TRUE",
-        "counter (118)\r": 1
+        "valid_sentence": "",
+        "counter (117)\r": 1
     },
     {
         "id": 10054,
@@ -739,7 +739,7 @@ var hskLevelZ = [
         "compound_pinyin": "Xiǎoshíhòu, tā yīnwèi xìnggé nèixiàng, zǒng shì bèi yīxiē tóngxué qīfu, dàn hòulái tā xuéhuì le yǒnggǎn miànduì, bù zài xuǎnzé rěnqìtūnshēng, ér shì jiāndìng de bǎohù zìjǐ, bìng bāngzhù qítā bèi qīfu de tóngxué.",
         "compound_definition": "As a child, he was often bullied by some classmates because of his introverted personality, but later he learned to face them bravely, no longer choosing to endure it silently, but instead standing firm to protect himself and help other bullied classmates.",
         "valid_sentence": "",
-        "counter (118)\r": 2
+        "counter (117)\r": 2
     },
     {
         "id": 10055,
@@ -753,7 +753,7 @@ var hskLevelZ = [
         "compound_pinyin": "Wǒ bìxū dàoqiàn. Suīrán wǒ shìtú zài cèsuǒ xiǎobiàn, dàn wǒ de niào yè sǎ zài dìbǎn shàng, xiànzài yīqiè dōu hěn rùnhuá.",
         "compound_definition": "I must apologize.,Although I tried to pee in the toilet, my urine spilled on the floor and now everything is lubricated.",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10056,
@@ -767,7 +767,7 @@ var hskLevelZ = [
         "compound_pinyin": "Wǒ de pào yǒu wēnróu de ànmózhe wǒ de ròubàng, ér tā yīn bèi nányǒu piàn rén ér bèi shuǎile ér hàixiū de kūqì.",
         "compound_definition": "My fuck buddy gently massaged my cock while she cried shyly because she was dumped by her boyfriend who cheated on her.",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10057,
@@ -781,7 +781,7 @@ var hskLevelZ = [
         "compound_pinyin": "Nàgè tíchàng nánrén yīnggāi yòng shétou tiǎn qīzǐ yīndào de yàzhōu nǚrén ràng wǒ gǎndào fēicháng hàixiū.",
         "compound_definition": "I'm really embarrassed by the Asian woman who advocates that men should lick their wives' vaginas with their tongues.",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10058,
@@ -795,7 +795,7 @@ var hskLevelZ = [
         "compound_pinyin": "Zhège shòuxiǎo de dà ōu pài qiǎngpò jūnzǐ bǎ tā xiǎoxué lǐ de niào yè quánbù tiǎn diào.",
         "compound_definition": "This skinny big boobed girl forces a gentleman to lick all the urine out of her pussy.",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10059,
@@ -809,7 +809,7 @@ var hskLevelZ = [
         "compound_pinyin": "Tā shì nà zhǒng rúguǒ húndàn bǎ tā bǎng zài chuángshàng, suǒ zài fángjiān lǐ bìng bǎ tā lùchū wǎngshàng, tā jiù huì lòuchū yínshuǐ de nǚrén.",
         "compound_definition": "She's the kind of woman who would leak juice if some asshole tied her to a bed, locked her in a room and exposed her online.",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10060,
@@ -823,7 +823,7 @@ var hskLevelZ = [
         "compound_pinyin": "Dāng tā wànnòng zìjǐ de gāngmén shí, tā wúfǎ tíngzhǐ liúchū yínshuǐ.",
         "compound_definition": "She couldn't stop leaking juices while she played with her anus.",
         "valid_sentence": "",
-        "counter (118)\r": 2
+        "counter (117)\r": 2
     },
     {
         "id": 10061,
@@ -837,7 +837,7 @@ var hskLevelZ = [
         "compound_pinyin": "Nàgè jūnzǐ shìgè húndàn, jīngcháng yòng jīnqián yòuhuò qióngkùn de nǚrén, qiǎngpò tāmen shùncóng.",
         "compound_definition": "That gentleman is a bastard who often uses money to seduce poor women and force them to obey.",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10062,
@@ -851,7 +851,7 @@ var hskLevelZ = [
         "compound_pinyin": "Zhège bèndàn de húndàn bǎ chē kāi jìnle wǒ de cānguǎn, xiànzài zhèngfǔ yào fákuǎn tā sānbǎi wàn rénmínbì.",
         "compound_definition": "This dumb bastard drove his car into my restaurant and now the government is going to fine him three million RMB.",
         "valid_sentence": "",
-        "counter (118)\r": 2
+        "counter (117)\r": 2
     },
     {
         "id": 10063,
@@ -865,7 +865,7 @@ var hskLevelZ = [
         "compound_pinyin": "Tā de shēngyīn hěn wēnróu, zǒngshì ràng rén gǎndào fàngsōng hé ānxīn.",
         "compound_definition": "Her voice is very gentle, always making people feel relaxed and reassured.",
         "valid_sentence": "",
-        "counter (118)\r": 2
+        "counter (117)\r": 2
     },
     {
         "id": 10064,
@@ -879,7 +879,7 @@ var hskLevelZ = [
         "compound_pinyin": "Wàimiàn gāng xiàguò yǔ, tā de yīfú hé tóufà dōu biàn de shīlùlù de.",
         "compound_definition": "It just rained outside, and his clothes and hair became soaking wet.",
         "valid_sentence": "",
-        "counter (118)\r": 3
+        "counter (117)\r": 3
     },
     {
         "id": 10065,
@@ -893,7 +893,7 @@ var hskLevelZ = [
         "compound_pinyin": "Tā běnlái yīnggāi liú zài bàngōngshì wánchéng bàogào, dàn tā chèn lǐngdǎo bù zhùyì, qiāoqiāo de liū le chūqù, pǎo dào fùjìn de kāfēiguǎn, yībiān hēzhe kāfēi, yībiān shuāzhe shǒujī, wánquán méiyǒu gōngzuò de jǐnpògǎn.",
         "compound_definition": "He was supposed to stay in the office to finish his report, but he sneaked out when his boss wasn’t paying attention, heading to a nearby café where he sipped coffee and scrolled through his phone, feeling no sense of urgency about work.",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10066,
@@ -907,7 +907,7 @@ var hskLevelZ = [
         "compound_pinyin": "Dāng tā tīngdào zìjǐ huòdé le bǐsài de dì yī míng shí, jīdòng de yǎnlèi dōu kuàiyào yì chūlái le, tā jǐnjǐn de bàozhù péngyǒu, zuǐlǐ bùtíng de shuōzhe gǎnxiè de huà.",
         "compound_definition": "When she heard that she had won first place in the competition, she was so excited that her tears almost overflowed. She hugged her friend tightly and kept expressing her gratitude.",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10067,
@@ -921,7 +921,7 @@ var hskLevelZ = [
         "compound_pinyin": "Ǹg, bàoqiàn, nǐ de shǒu tài shīlùlùle, suǒyǐ wǒ bùxiǎng wò zhù tāmen.",
         "compound_definition": "Um, sorry, your hands are wet, so I don't want to hold them.",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10068,
@@ -935,7 +935,7 @@ var hskLevelZ = [
         "compound_pinyin": "Wǒ bǎ wǒ de pào yǒu bǎng qǐlái, diū zài yīpiàn kòngdì tiányě, zhè ràng tā fēngkuáng qǐlái, názhe cháng máo zhuīzhe wǒ, dàn wǒ yòng dùnpái dǎngzhùle tā.",
         "compound_definition": "I tied up my fuck buddy and dumped her in an empty field, which made her go crazy and she chased me with a spear, but I held her off with my shield.",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10069,
@@ -949,7 +949,7 @@ var hskLevelZ = [
         "compound_pinyin": "Xīyáng xià, tā zài zhōngyāng gōngyuán xiàng wǒ huīshǒu. Wǒmen yuē hǎo yīqǐ chī jú fàn.",
         "compound_definition": "She waved to me in Central Park at sunset.,We made an appointment to have baked rice together.",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10070,
@@ -963,7 +963,7 @@ var hskLevelZ = [
         "compound_pinyin": "Chúshī shāndòng rénqún rǎoluàn gāngqín yǎn, xiàng rènhé néng qiǎng zǒu yù shì de rén tígōng jú mǐfàn.",
         "compound_definition": "The chef incites the crowd to disrupt the piano performance, offering baked rice to anyone who can grab the jade ornament.",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10071,
@@ -977,7 +977,7 @@ var hskLevelZ = [
         "compound_pinyin": "Tā zài shèjiāo méitǐ shàng fābù le yīxiē jíduān yánlùn, shìtú shāndòng rénmen de fènnù.",
         "compound_definition": "He posted some extreme comments on social media, trying to incite people's anger.",
         "valid_sentence": "",
-        "counter (118)\r": 2
+        "counter (117)\r": 2
     },
     {
         "id": 10072,
@@ -991,7 +991,7 @@ var hskLevelZ = [
         "compound_pinyin": "Wǒ bù piàn nǐ, tiǎnzhe yīgè yòu ǎi yòu shòu de piàoliang nǚhái xiǎoxué lǐ de niào yè, gǎnjué hěn shuǎng.",
         "compound_definition": "I kid you not, it felt really good licking the piss out of a short, skinny pretty girl's pussy.",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10073,
@@ -1005,7 +1005,7 @@ var hskLevelZ = [
         "compound_pinyin": "Bèi biǎo zǐ shuǎi liǎo zhīhòu, gūdú de nánhái zhǐ néng yībiān zài cèsuǒ lǐ zìwèi, yībiān tīngzhe tā xī lìng yīgè nánrén de ròubàng.",
         "compound_definition": "After being dumped by a bitch, the lonely boy can only masturbate in the bathroom while listening to her sucking another man's cock.",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10074,
@@ -1019,7 +1019,7 @@ var hskLevelZ = [
         "compound_pinyin": "Tā zǎoshang qǐchuáng tài cōngmáng, zhíjiē shuǎi bèi le jiù pǎo qù shàngbān le.",
         "compound_definition": "He got up in a hurry this morning, threw off the blanket, and rushed to work.",
         "valid_sentence": "",
-        "counter (118)\r": 3
+        "counter (117)\r": 3
     },
     {
         "id": 10075,
@@ -1033,7 +1033,7 @@ var hskLevelZ = [
         "compound_pinyin": "Zhè wèi měimiào de nǚhái yāoqǐng wǒ qù sìchuān de yīpiàn kōng tiányě, bìng yuànyì wèi wǒ zhìyù shāng.",
         "compound_definition": "This wonderful girl invited me to an empty field in Sichuan and offered to heal my wounds.",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10076,
@@ -1046,8 +1046,8 @@ var hskLevelZ = [
         "compound": "当这位壮丽的炮友将他的肉棒插入妻子的阴道时，乌龟男人只能盯着他的妻子，并抚摸着自己的肉棒。",
         "compound_pinyin": "Dāng zhè wèi zhuànglì de pào yǒu jiāng tā de ròubàng chārù qīzǐ de yīndào shí, wūguī nánrén zhǐ néng dīngzhe tā de qīzǐ, bìng fǔmōzhe zìjǐ de ròubàng.",
         "compound_definition": "The cuckold man can only stare at his wife and stroke his cock as the magnificent fuck buddy inserts his cock into his wife’s vagina.",
-        "valid_sentence": "TRUE",
-        "counter (118)\r": 1
+        "valid_sentence": "",
+        "counter (117)\r": 1
     },
     {
         "id": 10077,
@@ -1061,7 +1061,7 @@ var hskLevelZ = [
         "compound_pinyin": "Wǒmen zhèng wán de kāixīn, tā tūrán shuō yào zǒu, zhēn shì zhēn sǎoxìng!",
         "compound_definition": "We were having fun, and he suddenly said he had to leave—what a bummer!",
         "valid_sentence": "",
-        "counter (118)\r": 3
+        "counter (117)\r": 3
     },
     {
         "id": 10078,
@@ -1075,7 +1075,7 @@ var hskLevelZ = [
         "compound_pinyin": "Wǒ zuìdà de chǐrǔ shì zài wǒ shíbā suì de shíhòu jiāng wǒ de tóngzhēn gěile xuéxiào de dàng fù.",
         "compound_definition": "My biggest shame was losing my virginity to a school slut when I was eighteen.",
         "valid_sentence": "",
-        "counter (118)\r": 2
+        "counter (117)\r": 2
     },
     {
         "id": 10079,
@@ -1089,7 +1089,7 @@ var hskLevelZ = [
         "compound_pinyin": "Tā de xiǎoxué yǒu měimiào de zhìyù xiàoguǒ, zhè shāndòngle wǒ, ràng wǒ kūqì, gǎnjué tài shuǎngle.",
         "compound_definition": "Her pussy had a wonderful healing quality that turned me on and made me cry and it felt so good.",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10080,
@@ -1103,7 +1103,7 @@ var hskLevelZ = [
         "compound_pinyin": "Tā jīntiān chuānle yí jiàn fěnsè de liányīqún, kàn qǐlái fēicháng wēnróu kě'ài.",
         "compound_definition": "She wore a pink dress today, looking very gentle and cute.",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10081,
@@ -1117,7 +1117,7 @@ var hskLevelZ = [
         "compound_pinyin": "Zhè wèi gēshǒu de fěnsī biànbù shìjiè gèdì, měi cì yǎnchànghuì dōu huì bàomǎn.",
         "compound_definition": "This singer's fans are all over the world, and every concert is packed.",
         "valid_sentence": "",
-        "counter (118)\r": 2
+        "counter (117)\r": 2
     },
     {
         "id": 10082,
@@ -1131,7 +1131,7 @@ var hskLevelZ = [
         "compound_pinyin": "Jīntiān wǒ wàngjì dài yàoshi, jiéguǒ zài jiā ménkǒu děngle liǎng gè xiǎoshí, zuìhòu háishì qǐng kāisuǒ shīfu bāngmáng kāi de, zhēn shì tài zāogāo le!",
         "compound_definition": "I forgot to bring my keys today, and as a result, I waited outside my door for two hours. In the end, I had to ask a locksmith for help to open it. It was really terrible!",
         "valid_sentence": "",
-        "counter (118)\r": 2
+        "counter (117)\r": 2
     },
     {
         "id": 10083,
@@ -1145,7 +1145,7 @@ var hskLevelZ = [
         "compound_pinyin": "Hàixiū de nǚhái zhǐhǎo chuānzhuó nèiyī hé zhǎng wà, wúnài de tǎng zài chuángshàng, bèi bǎng qǐlái bìng jiēshòu pìgu ànmó hòu, shēn shīlùlù.",
         "compound_definition": "The shy girl had no choice but to lie on the bed in her underwear and stockings, and she was wet after being tied up and receiving an ass massage.",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10084,
@@ -1159,7 +1159,7 @@ var hskLevelZ = [
         "compound_pinyin": "Jǐnguǎn tā yòu shòu yòu hàixiū, dàn tīng dào yǒurén shuō “cào nǐ māmā” háishì shāndòngle tā de xīngfèn, tā bǎ dàngāo rēng dàole nàgè húndàn de pìgu shàng.",
         "compound_definition": "Even though she was skinny and shy, hearing someone say “fuck your mom” stirred her up and she threw the cake up the ass of that jerk.",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10085,
@@ -1173,7 +1173,7 @@ var hskLevelZ = [
         "compound_pinyin": "Tā zài zhòngrén miànqián bèi jiēchuān le huǎngyán, shùnjiān gǎndào xiūchǐ wúbǐ, liǎnsè zhǎng de tōnghóng, hèn bùdé lìkè zhǎo gè dìdòng zuān jìnqù.",
         "compound_definition": "When his lie was exposed in front of everyone, he felt an overwhelming sense of shame. His face turned bright red, and he wished he could find a hole in the ground to crawl into.",
         "valid_sentence": "",
-        "counter (118)\r": 2
+        "counter (117)\r": 2
     },
     {
         "id": 10086,
@@ -1186,8 +1186,8 @@ var hskLevelZ = [
         "compound": "翘楚女孩趁机老师的认可，欺负孤立的蠢笨而不受惩罚。",
         "compound_pinyin": "Qiáochǔ nǚhái chènjī lǎoshī de rènkě, qīfù gūlì de chǔnbèn ér bù shòu chéngfá.",
         "compound_definition": "The smart girls take advantage of the teacher's approval to bully the isolated dumb ones with impunity.",
-        "valid_sentence": "TRUE",
-        "counter (118)\r": 1
+        "valid_sentence": "",
+        "counter (117)\r": 1
     },
     {
         "id": 10087,
@@ -1201,7 +1201,7 @@ var hskLevelZ = [
         "compound_pinyin": "Tā rènwéi qīpiàn biérén shì yī zhǒng kěchǐ de xíngwéi, jué bù huì nàme zuò.",
         "compound_definition": "He believes that deceiving others is a shameful act and would never do such a thing.",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10088,
@@ -1215,7 +1215,7 @@ var hskLevelZ = [
         "compound_pinyin": "Shuǎng! Wǒ yào bǎ wǒ de ròubàng chā jìn nǐ de pìgu lǐ, āchuān, nǐ gěi wǒ zhāng kāi pìgu.",
         "compound_definition": "Cool! I want to put my cock in your ass, Achuan, open your ass for me.",
         "valid_sentence": "",
-        "counter (118)\r": 2
+        "counter (117)\r": 2
     },
     {
         "id": 10089,
@@ -1229,7 +1229,7 @@ var hskLevelZ = [
         "compound_pinyin": "Cào! Wǒ gǎndào hěn bàoqiàn, dàn wǒ bìxū suíxīnsuǒyù.",
         "compound_definition": "Fuck!,I'm so sorry, but I have to do what I want.",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10090,
@@ -1243,7 +1243,7 @@ var hskLevelZ = [
         "compound_pinyin": "Zhè jiā chuāncài guǎn de gǔdōngmen zhǎodàole yī wèi chènzhí de yǎnyuán lái xuānyáng tāmen de zhū xiě cài.",
         "compound_definition": "The shareholders of this Sichuan restaurant found a competent actor to promote their pig's blood dish.",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10091,
@@ -1256,8 +1256,8 @@ var hskLevelZ = [
         "compound": "我必须倾心侍奉她，就像一个厕所，即使这意味着我需要吮吸她肮脏的菊花并吞下她的尿液。",
         "compound_pinyin": "Wǒ bìxū qīngxīn shìfèng tā, jiù xiàng yīgè cèsuǒ, jíshǐ zhè yìwèizhe wǒ xūyào shǔnxī tā āng zāng de júhuā bìngtūn xià tā de niào yè.",
         "compound_definition": "I had to serve her wholeheartedly, like a toilet, even if it meant I had to suck her dirty asshole and swallow her piss.",
-        "valid_sentence": "TRUE",
-        "counter (118)\r": 1
+        "valid_sentence": "",
+        "counter (117)\r": 1
     },
     {
         "id": 10092,
@@ -1271,7 +1271,7 @@ var hskLevelZ = [
         "compound_pinyin": "Cào! Chī zhège jú fàn nòng shāngle shétou. Qiú qiú nǐ yòng yīgè wěn zhìyù tā ba.",
         "compound_definition": "Fuck!,I hurt my tongue from eating this risotto.,Please heal it with a kiss.",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10093,
@@ -1285,7 +1285,7 @@ var hskLevelZ = [
         "compound_pinyin": "Yǐ hūn fùnǚ miǎnqiáng de ràng línjū yòng shétou tiǎn tā de rǔtóu, yǐ huànqǔ bù lùchū tā de mìmì.",
         "compound_definition": "A married woman reluctantly lets her neighbor lick her nipples with his tongue in exchange for not revealing her secrets.",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10094,
@@ -1299,7 +1299,7 @@ var hskLevelZ = [
         "compound_pinyin": "",
         "compound_definition": "",
         "valid_sentence": "",
-        "counter (118)\r": 2
+        "counter (117)\r": 2
     },
     {
         "id": 10095,
@@ -1313,7 +1313,7 @@ var hskLevelZ = [
         "compound_pinyin": "Wǒ hěn bù miǎnqiáng de péibàn zhège xuéxiào lǐ de dàng fù qùle yóuyǒngchí, tā xiàng wǒ pōshuǐ, ràng wǒ fēngkuáng.",
         "compound_definition": "I reluctantly accompanied this school slut to the swimming pool where she splashed water on me and drove me wild.",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10096,
@@ -1327,21 +1327,21 @@ var hskLevelZ = [
         "compound_pinyin": "Suīrán āchuān zài xuéxiào shì chūle míng de dàng fù hé gōngjiāo chē nǚláng, dànshì jǐnguǎn tā yǒu nàme duō pào yǒu, wǒ háishì xiǎng hé tā zài yīqǐ.",
         "compound_definition": "Although Achuan is a well-known slut and bus girl in school, I still want to be with her despite having so many sex partners.",
         "valid_sentence": "",
-        "counter (118)\r": 2
+        "counter (117)\r": 2
     },
     {
         "id": 10097,
         "character": "菊",
         "character_pinyin": "Jú",
-        "eng": "Chrysanthemum ",
+        "eng": "Chrysanthemum",
         "hsk_level": 6,
         "part_of_speech": "Noun",
         "compound_cantonese": "",
         "compound": "嗯……打扰了，我想点菊花茶和一些粉桃蛋糕。",
         "compound_pinyin": "Ǹg……dǎrǎole, wǒ xiǎng diǎn júhuā chá hé yīxiē fěn táo dàngāo.",
         "compound_definition": "Um...excuse me, I'd like to order chrysanthemum tea and some pink peach cake.",
-        "valid_sentence": "TRUE",
-        "counter (118)\r": 1
+        "valid_sentence": "",
+        "counter (117)\r": 1
     },
     {
         "id": 10098,
@@ -1355,26 +1355,26 @@ var hskLevelZ = [
         "compound_pinyin": "",
         "compound_definition": "",
         "valid_sentence": "",
-        "counter (118)\r": 2
+        "counter (117)\r": 2
     },
     {
         "id": 10099,
         "character": "虐",
         "character_pinyin": "Nüè",
-        "eng": "Abuse ",
+        "eng": "Abuse",
         "hsk_level": 6,
         "part_of_speech": "adjective",
         "compound_cantonese": "",
         "compound": "这个有偏见的骚货讨厌我，所以当她有机会时，她就趁机虐待我，抚摸我的肉棒，同时盯着我的眼睛，直到我的精液从她的手中溢出。",
         "compound_pinyin": "Zhège yǒu piānjiàn de sāo huò tǎoyàn wǒ, suǒyǐ dāng tā yǒu jīhuì shí, tā jiù chènjī nüèdài wǒ, fǔmō wǒ de ròubàng, tóngshí dīngzhe wǒ de yǎnjīng, zhídào wǒ de jīngyè cóng tā de shǒuzhōng yìchū.",
         "compound_definition": "This prejudiced slut hates me, so when she gets the chance, she takes it to abuse me, stroking my cock while staring into my eyes until my cum leaks out of her hands.",
-        "valid_sentence": "TRUE",
-        "counter (118)\r": 1
+        "valid_sentence": "",
+        "counter (117)\r": 1
     },
     {
         "id": 10100,
         "character": "蠢",
-        "character_pinyin": "Chǔn ",
+        "character_pinyin": "Chǔn",
         "eng": "Stupid",
         "hsk_level": 6,
         "part_of_speech": "adjective",
@@ -1382,8 +1382,8 @@ var hskLevelZ = [
         "compound": "被羞辱之后，这个蠢笨骚被激起了性欲，于是偷偷溜走，勃然抚摸自己的阴蒂，因为她是一个受虐狂。",
         "compound_pinyin": "Bèi xiūrù zhīhòu, zhège chǔnbèn sāo bèi jī qǐle xìngyù, yúshì tōutōu liū zǒu, bórán fǔmō zìjǐ de yīndì, yīnwèi tā shì yīgè shòu nüè kuáng.",
         "compound_definition": "After being humiliated, the dumb slut is so aroused that she sneaks off and fondles her clit with arousal, because she’s a masochist.",
-        "valid_sentence": "TRUE",
-        "counter (118)\r": 1
+        "valid_sentence": "",
+        "counter (117)\r": 1
     },
     {
         "id": 10101,
@@ -1397,7 +1397,7 @@ var hskLevelZ = [
         "compound_pinyin": "Wǒ nǚyǒu de péngyǒu shēngchēng tā shīlùlùle, yǐnyòu wǒ fāshēng xìng guānxì, zhè zhǒng piàn dǎozhìle wǒ bèi zhànshí suǒ zài guìzǐ lǐ de chǔfá.",
         "compound_definition": "My girlfriend's friend lured me into sex by claiming she was wet, a deception that resulted in my punishment of being temporarily locked in a closet.",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10102,
@@ -1411,21 +1411,21 @@ var hskLevelZ = [
         "compound_pinyin": "Zhè jiā tiánpǐn diàn de dàngāo shízài shì tài yòuhuò rén le, wǒ rěnbuzhù yòu mǎile yí kuài.",
         "compound_definition": "The cakes in this dessert shop are so tempting that I couldn't resist buying another one.",
         "valid_sentence": "",
-        "counter (118)\r": 2
+        "counter (117)\r": 2
     },
     {
         "id": 10103,
         "character": "贞",
         "character_pinyin": "zhēn",
-        "eng": "Chastity ",
+        "eng": "Chastity",
         "hsk_level": 6,
         "part_of_speech": "adjective",
         "compound_cantonese": "",
         "compound": "她打开我的贞操锁后，挑逗我的龟头并阻止我达到高潮。",
         "compound_pinyin": "Tā dǎkāi wǒ de zhēncāo suǒ hòu, tiǎodòu wǒ de guītóu bìng zǔzhǐ wǒ dádào gāocháo.",
         "compound_definition": "After she opened my chastity lock, she teased my glans and prevented me from reaching orgasm.",
-        "valid_sentence": "TRUE",
-        "counter (118)\r": 1
+        "valid_sentence": "",
+        "counter (117)\r": 1
     },
     {
         "id": 10104,
@@ -1439,7 +1439,7 @@ var hskLevelZ = [
         "compound_pinyin": "Jìnqù zhīhòu, wǒ bèi dài shàngle zhēncāo suǒ, ránhòu wǒ de qīzǐ bèi tuōguāngle yīfú, zài zhèxiē bǐ wǒ qiángzhuàng de nánrén miànqián qiào qǐle tā de pìgu",
         "compound_definition": "Once inside, I was put in a chastity belt, and then my wife was stripped naked and raised her ass in front of these men who were stronger than me.",
         "valid_sentence": "",
-        "counter (118)\r": 3
+        "counter (117)\r": 3
     },
     {
         "id": 10105,
@@ -1453,7 +1453,7 @@ var hskLevelZ = [
         "compound_pinyin": "Wǒmen chèn tiānqì hái méi biàn lěng, gǎnjǐn qù jiāowài lùyíng ba!",
         "compound_definition": "Let's take advantage of the weather before it gets cold and go camping in the suburbs!",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10106,
@@ -1466,8 +1466,8 @@ var hskLevelZ = [
         "compound": "虽然给家人带来耻辱，但她毫无羞耻地将自己的粉红色菊花发布到网上后，却收获了大批粉丝。",
         "compound_pinyin": "Suīrán gěi jiārén dài lái chǐrǔ, dàn tā háo wú xiūchǐ de jiāng zìjǐ de fěnhóng sè júhuā fābù dào wǎngshàng hòu, què shōuhuòle dàpī fěnsī.",
         "compound_definition": "Although it brought shame to her family, she gained a huge following after shamelessly posting a photo of her pink chrysanthemums online.",
-        "valid_sentence": "TRUE",
-        "counter (118)\r": 1
+        "valid_sentence": "",
+        "counter (117)\r": 1
     },
     {
         "id": 10107,
@@ -1476,12 +1476,12 @@ var hskLevelZ = [
         "eng": "tease",
         "hsk_level": 6,
         "part_of_speech": "verb",
+        "compound_cantonese": "",
         "compound": "她撒腿后，阴蒂不断受到挑逗，在达到高潮后无法维持姿势。",
         "compound_pinyin": "Tā sātuǐ hòu, yīndì bùduàn shòudào tiǎodòu, zài dádào gāocháo hòu wúfǎ wéichí zīshì.",
         "compound_definition": "After she spread her legs, her clitoris was constantly teased and she was unable to maintain the position after reaching orgasm.",
-        "valid_sentence": "TRUE",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10108,
@@ -1495,7 +1495,7 @@ var hskLevelZ = [
         "compound_pinyin": "Tā yìshídào zìjǐ de cuòwù hòu, lìkè xiàng péngyǒu zhēnchéng de dàoqiàn, xīwàng dédào yuánliàng.",
         "compound_definition": "After realizing his mistake, he sincerely apologized to his friend, hoping to be forgiven.",
         "valid_sentence": "",
-        "counter (118)\r": 2
+        "counter (117)\r": 2
     },
     {
         "id": 10109,
@@ -1508,8 +1508,8 @@ var hskLevelZ = [
         "compound": "哎呀！你挡住了我的视野，我看不到闪电。",
         "compound_pinyin": "Āiyā! Nǐ dǎngzhùle wǒ de shìyě, wǒ kàn bù dào shǎndiàn.",
         "compound_definition": "Oops!,You're blocking my view and I can't see the lightning.",
-        "valid_sentence": "TRUE",
-        "counter (118)\r": 1
+        "valid_sentence": "",
+        "counter (117)\r": 1
     },
     {
         "id": 10110,
@@ -1522,8 +1522,8 @@ var hskLevelZ = [
         "compound": "我让那个偏矮壮的骚货倾斜在弄堂里的墙上，撒腿双腿，痛得她隐隐哭泣起来。",
         "compound_pinyin": "Wǒ ràng nàgè piān ǎi zhuàng de sāo huò qīngxié zài lòngtáng lǐ de qiáng shàng, sātuǐ shuāng tuǐ, tòng dé tā yǐnyǐn kūqì qǐlái.",
         "compound_definition": "I let that short and strong bitch lean against the wall in the alley with her legs spread out, and she started crying in pain.",
-        "valid_sentence": "TRUE",
-        "counter (118)\r": 1
+        "valid_sentence": "",
+        "counter (117)\r": 1
     },
     {
         "id": 10111,
@@ -1537,7 +1537,7 @@ var hskLevelZ = [
         "compound_pinyin": "Āchuān xiàng wǒ tòulùle tā wú chù kě guīsù de mìmì, suǒyǐ wǒ jiù zūle yī jiàn qíngqù jiǔdiàn, cāo tā zhídào chéncháo.",
         "compound_definition": "Achuan revealed to me her secret of having nowhere to stay, so I rented a love hotel and fucked her until dawn.",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10112,
@@ -1551,7 +1551,7 @@ var hskLevelZ = [
         "compound_pinyin": "Tā tīngdào zhège hǎo xiāoxi hòu, liǎn shàng lìkè lòuchūle cànlàn de xiàoróng.",
         "compound_definition": "After hearing the good news, she immediately revealed a bright smile on her face.",
         "valid_sentence": "",
-        "counter (118)\r": 2
+        "counter (117)\r": 2
     },
     {
         "id": 10114,
@@ -1565,7 +1565,7 @@ var hskLevelZ = [
         "compound_pinyin": "Wèile xùnliàn tā dì xìngyù, mínzú qíngfù yàome gěi tā de ròubàng mó shàng rùnhuá yóu yǐ huànqǔ tā de shùncóng, yàome xiàng tā fá qián.",
         "compound_definition": "In order to train his sexual desire, the ethnic mistress either rubs his cock with lubrication in exchange for his obedience or fines him.",
         "valid_sentence": "",
-        "counter (118)\r": 2
+        "counter (117)\r": 2
     },
     {
         "id": 10115,
@@ -1579,7 +1579,7 @@ var hskLevelZ = [
         "compound_pinyin": "Nǐ zhè tiáo sāo mǔgǒu zěnme bǎ yínshuǐ liú de dàochù dōu shì?",
         "compound_definition": "Why are you, a slutty bitch, leaking your juices everywhere?",
         "valid_sentence": "",
-        "counter (118)\r": 1
+        "counter (117)\r": 1
     },
     {
         "id": 10116,
@@ -1592,8 +1592,8 @@ var hskLevelZ = [
         "compound": "嘛……龟甲虽然经常很肮脏，但是却是做汤的好材料。",
         "compound_pinyin": "Ma……guījiǎ suīrán jīngcháng hěn āng zāng, dànshì què shì zuò tāng de hǎo cáiliào.",
         "compound_definition": "Well… although tortoise shells are often dirty, they are a great ingredient for making soup.",
-        "valid_sentence": "TRUE",
-        "counter (118)\r": 1
+        "valid_sentence": "",
+        "counter (117)\r": 1
     },
     {
         "id": 10117,
@@ -1607,7 +1607,7 @@ var hskLevelZ = [
         "compound_pinyin": "",
         "compound_definition": "",
         "valid_sentence": "",
-        "counter (118)\r": 2
+        "counter (117)\r": 2
     },
     {
         "id": 10118,
@@ -1621,7 +1621,7 @@ var hskLevelZ = [
         "compound_pinyin": "Wànnòng yīndì…suīrán wǒ tīng dàoguò hěnduō cì yuánlái shì zhèyàng dehuà shuō…yóuxiāng de yīndì yǒu zhème dà ma?",
         "compound_definition": "Play with the clitoris... Although I have heard this many times, it turns out to be something like this... Is Yuka's clitoris this big?",
         "valid_sentence": "",
-        "counter (118)\r": 0
+        "counter (117)\r": 1
     },
     {
         "id": 10119,
@@ -1634,8 +1634,8 @@ var hskLevelZ = [
         "compound": "她将这个乌龟男人锁在贞操带中，并挑逗他说她不会抗拒被另一个男人内射，以此来煽情他的性欲。",
         "compound_pinyin": "Tā jiāng zhège wūguī nánrén suǒ zài zhēncāo dài zhōng, bìng tiǎodòu tā shuō tā bù huì kàngjù bèi lìng yīgè nánrén nèishè, yǐ cǐ lái shānqíng tā dì xìngyù.",
         "compound_definition": "She locks the cuckold man in a chastity belt and arouses his sexual desire by teasing him that she won’t resist being creampied by another man.",
-        "valid_sentence": "TRUE",
-        "counter (118)\r": 0
+        "valid_sentence": "",
+        "counter (117)\r": 1
     },
     {
         "id": "",
@@ -1649,7 +1649,7 @@ var hskLevelZ = [
         "compound_pinyin": "",
         "compound_definition": "",
         "valid_sentence": "",
-        "counter (118)\r": 0
+        "counter (117)\r": 0
     },
     {
         "id": "",
@@ -1663,7 +1663,7 @@ var hskLevelZ = [
         "compound_pinyin": "",
         "compound_definition": "",
         "valid_sentence": "",
-        "counter (118)\r": 0
+        "counter (117)\r": 0
     },
     {
         "id": "",
@@ -1677,7 +1677,7 @@ var hskLevelZ = [
         "compound_pinyin": "",
         "compound_definition": "",
         "valid_sentence": "",
-        "counter (118)\r": 0
+        "counter (117)\r": 0
     },
     {
         "id": "",
@@ -1691,7 +1691,7 @@ var hskLevelZ = [
         "compound_pinyin": "",
         "compound_definition": "",
         "valid_sentence": "",
-        "counter (118)\r": 0
+        "counter (117)\r": 0
     },
     {
         "id": "",
@@ -1705,7 +1705,7 @@ var hskLevelZ = [
         "compound_pinyin": "",
         "compound_definition": "",
         "valid_sentence": "",
-        "counter (118)\r": 0
+        "counter (117)\r": 0
     },
     {
         "id": "",
@@ -1719,7 +1719,7 @@ var hskLevelZ = [
         "compound_pinyin": "",
         "compound_definition": "",
         "valid_sentence": "",
-        "counter (118)\r": 0
+        "counter (117)\r": 0
     },
     {
         "id": "",
@@ -1733,7 +1733,7 @@ var hskLevelZ = [
         "compound_pinyin": "",
         "compound_definition": "",
         "valid_sentence": "",
-        "counter (118)\r": 0
+        "counter (117)\r": 0
     },
     {
         "id": "",
@@ -1747,7 +1747,7 @@ var hskLevelZ = [
         "compound_pinyin": "",
         "compound_definition": "",
         "valid_sentence": "",
-        "counter (118)\r": 0
+        "counter (117)\r": 0
     },
     {
         "id": "",
@@ -1761,7 +1761,7 @@ var hskLevelZ = [
         "compound_pinyin": "",
         "compound_definition": "",
         "valid_sentence": "",
-        "counter (118)\r": 0
+        "counter (117)\r": 0
     },
     {
         "id": "",
@@ -1775,7 +1775,7 @@ var hskLevelZ = [
         "compound_pinyin": "",
         "compound_definition": "",
         "valid_sentence": "",
-        "counter (118)\r": 0
+        "counter (117)\r": 0
     },
     {
         "id": "",
@@ -1789,7 +1789,7 @@ var hskLevelZ = [
         "compound_pinyin": "",
         "compound_definition": "",
         "valid_sentence": "",
-        "counter (118)\r": 0
+        "counter (117)\r": 0
     },
     {
         "id": "",
@@ -1803,7 +1803,7 @@ var hskLevelZ = [
         "compound_pinyin": "",
         "compound_definition": "",
         "valid_sentence": "",
-        "counter (118)\r": 0
+        "counter (117)\r": 0
     },
     {
         "id": "",
@@ -1817,7 +1817,7 @@ var hskLevelZ = [
         "compound_pinyin": "",
         "compound_definition": "",
         "valid_sentence": "",
-        "counter (118)\r": 0
+        "counter (117)\r": 0
     },
     {
         "id": "",
@@ -1831,7 +1831,7 @@ var hskLevelZ = [
         "compound_pinyin": "",
         "compound_definition": "",
         "valid_sentence": "",
-        "counter (118)\r": 0
+        "counter (117)\r": 0
     },
     {
         "id": "",
@@ -1845,7 +1845,7 @@ var hskLevelZ = [
         "compound_pinyin": "",
         "compound_definition": "",
         "valid_sentence": "",
-        "counter (118)\r": 0
+        "counter (117)\r": 0
     },
     {
         "id": "",
@@ -1859,7 +1859,7 @@ var hskLevelZ = [
         "compound_pinyin": "",
         "compound_definition": "",
         "valid_sentence": "",
-        "counter (118)\r": 0
+        "counter (117)\r": 0
     },
     {
         "id": "",
@@ -1873,7 +1873,7 @@ var hskLevelZ = [
         "compound_pinyin": "",
         "compound_definition": "",
         "valid_sentence": "",
-        "counter (118)\r": 0
+        "counter (117)\r": 0
     },
     {
         "id": "",
@@ -1887,7 +1887,7 @@ var hskLevelZ = [
         "compound_pinyin": "",
         "compound_definition": "",
         "valid_sentence": "",
-        "counter (118)\r": 0
+        "counter (117)\r": 0
     },
     {
         "id": "",
@@ -1901,7 +1901,7 @@ var hskLevelZ = [
         "compound_pinyin": "",
         "compound_definition": "",
         "valid_sentence": "",
-        "counter (118)\r": 0
+        "counter (117)\r": 0
     },
     {
         "id": "",
@@ -1915,7 +1915,7 @@ var hskLevelZ = [
         "compound_pinyin": "",
         "compound_definition": "",
         "valid_sentence": "",
-        "counter (118)\r": 0
+        "counter (117)\r": 0
     },
     {
         "id": "",
@@ -1929,7 +1929,7 @@ var hskLevelZ = [
         "compound_pinyin": "",
         "compound_definition": "",
         "valid_sentence": "",
-        "counter (118)\r": 0
+        "counter (117)\r": 0
     },
     {
         "id": "",
@@ -1943,7 +1943,7 @@ var hskLevelZ = [
         "compound_pinyin": "",
         "compound_definition": "",
         "valid_sentence": "",
-        "counter (118)\r": 0
+        "counter (117)\r": 0
     },
     {
         "id": "",
@@ -1957,7 +1957,7 @@ var hskLevelZ = [
         "compound_pinyin": "",
         "compound_definition": "",
         "valid_sentence": "",
-        "counter (118)\r": 0
+        "counter (117)\r": 0
     },
     {
         "id": "",
@@ -1971,7 +1971,7 @@ var hskLevelZ = [
         "compound_pinyin": "",
         "compound_definition": "",
         "valid_sentence": "",
-        "counter (118)\r": 0
+        "counter (117)\r": 0
     },
     {
         "id": "",
@@ -1985,7 +1985,7 @@ var hskLevelZ = [
         "compound_pinyin": "",
         "compound_definition": "",
         "valid_sentence": "",
-        "counter (118)\r": 0
+        "counter (117)\r": 0
     },
     {
         "id": "",
@@ -1999,7 +1999,7 @@ var hskLevelZ = [
         "compound_pinyin": "",
         "compound_definition": "",
         "valid_sentence": "",
-        "counter (118)\r": 0
+        "counter (117)\r": 0
     },
     {
         "id": "",
@@ -2013,7 +2013,7 @@ var hskLevelZ = [
         "compound_pinyin": "",
         "compound_definition": "",
         "valid_sentence": "",
-        "counter (118)\r": 0
+        "counter (117)\r": 0
     },
     {
         "id": "",
@@ -2027,7 +2027,7 @@ var hskLevelZ = [
         "compound_pinyin": "",
         "compound_definition": "",
         "valid_sentence": "",
-        "counter (118)\r": 0
+        "counter (117)\r": 0
     },
     {
         "id": "",
@@ -2041,7 +2041,7 @@ var hskLevelZ = [
         "compound_pinyin": "",
         "compound_definition": "",
         "valid_sentence": "",
-        "counter (118)\r": 0
+        "counter (117)\r": 0
     },
     {
         "id": "",
@@ -2055,7 +2055,7 @@ var hskLevelZ = [
         "compound_pinyin": "",
         "compound_definition": "",
         "valid_sentence": "",
-        "counter (118)\r": 0
+        "counter (117)\r": 0
     },
     {
         "id": "",
@@ -2069,7 +2069,7 @@ var hskLevelZ = [
         "compound_pinyin": "",
         "compound_definition": "",
         "valid_sentence": "",
-        "counter (118)\r": 0
+        "counter (117)\r": 0
     },
     {
         "id": "",
@@ -2083,7 +2083,7 @@ var hskLevelZ = [
         "compound_pinyin": "",
         "compound_definition": "",
         "valid_sentence": "",
-        "counter (118)\r": 0
+        "counter (117)\r": 0
     },
     {
         "id": "",
@@ -2097,7 +2097,7 @@ var hskLevelZ = [
         "compound_pinyin": "",
         "compound_definition": "",
         "valid_sentence": "",
-        "counter (118)\r": 0
+        "counter (117)\r": 0
     },
     {
         "id": "",
@@ -2111,7 +2111,7 @@ var hskLevelZ = [
         "compound_pinyin": "",
         "compound_definition": "",
         "valid_sentence": "",
-        "counter (118)\r": 0
+        "counter (117)\r": 0
     },
     {
         "id": "",
@@ -2125,7 +2125,7 @@ var hskLevelZ = [
         "compound_pinyin": "",
         "compound_definition": "",
         "valid_sentence": "",
-        "counter (118)\r": 0
+        "counter (117)\r": 0
     },
     {
         "id": "",
@@ -2139,7 +2139,7 @@ var hskLevelZ = [
         "compound_pinyin": "",
         "compound_definition": "",
         "valid_sentence": "",
-        "counter (118)\r": 0
+        "counter (117)\r": 0
     },
     {
         "id": "",
@@ -2153,6 +2153,48 @@ var hskLevelZ = [
         "compound_pinyin": "",
         "compound_definition": "",
         "valid_sentence": "",
-        "counter (118)\r": 0
+        "counter (117)\r": 0
+    },
+    {
+        "id": "",
+        "character": "",
+        "character_pinyin": "",
+        "eng": "",
+        "hsk_level": "",
+        "part_of_speech": "",
+        "compound_cantonese": "",
+        "compound": "",
+        "compound_pinyin": "",
+        "compound_definition": "",
+        "valid_sentence": "",
+        "counter (117)\r": 0
+    },
+    {
+        "id": "",
+        "character": "",
+        "character_pinyin": "",
+        "eng": "",
+        "hsk_level": "",
+        "part_of_speech": "",
+        "compound_cantonese": "",
+        "compound": "",
+        "compound_pinyin": "",
+        "compound_definition": "",
+        "valid_sentence": "",
+        "counter (117)\r": 0
+    },
+    {
+        "id": "",
+        "character": "",
+        "character_pinyin": "",
+        "eng": "",
+        "hsk_level": "",
+        "part_of_speech": "",
+        "compound_cantonese": "",
+        "compound": "",
+        "compound_pinyin": "",
+        "compound_definition": "",
+        "valid_sentence": "",
+        "counter (117)\r": 0
     }
 ]
