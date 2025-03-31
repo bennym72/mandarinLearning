@@ -1267,10 +1267,10 @@ var hskLevel5Sentences = [
     "hsk_level": 5,
     "part_of_speech": "verb",
     "compound_cantonese": "",
-    "compound": "惠",
-    "compound_pinyin": "Tā duì pínkùn xuéshēng de huìzèng ràng dàjiā gǎndào wēnnuǎn.",
-    "compound_definition": "His generosity toward impoverished students warms everyone's heart.",
-    "valid_sentence": "",
+    "compound": "虽然她看上去冷漠无情，但我相信她肯定是可怜你，愿意给你优惠价。",
+    "compound_pinyin": "Suīrán tā kàn shàngqù lěngmò wúqíng, dàn wǒ xiāngxìn tā kěndìng shì kělián nǐ, yuànyì gěi nǐ yōuhuì jià.",
+    "compound_definition": "Although she looks cold and heartless, I believe she must pity you and is willing to give you a preferential price.",
+    "valid_sentence": "TRUE",
     "counter (300)\r": "\r"
   },
   {
@@ -1309,10 +1309,10 @@ var hskLevel5Sentences = [
     "hsk_level": 5,
     "part_of_speech": "verb",
     "compound_cantonese": "",
-    "compound": "慰",
-    "compound_pinyin": "Tā yòng wēnnuǎn de huàyǔ lái wèijì shāngxīn de péngyǒu.",
-    "compound_definition": "She used warm words to comfort her sad friend.",
-    "valid_sentence": "",
+    "compound": "不要试图安慰我，我还在生你的气，因为你没有陪我。",
+    "compound_pinyin": "Bùyào shìtú ānwèi wǒ, wǒ hái zài shēng nǐ de qì, yīnwèi nǐ méiyǒu péi wǒ.",
+    "compound_definition": "Don't try to comfort me, I'm still mad at you for not being there for me.",
+    "valid_sentence": "TRUE",
     "counter (300)\r": "\r"
   },
   {
@@ -1351,10 +1351,10 @@ var hskLevel5Sentences = [
     "hsk_level": 5,
     "part_of_speech": "verb",
     "compound_cantonese": "",
-    "compound": "扔",
-    "compound_pinyin": "Tā bǎ lājī rēng jìnle lājītǒng， bǎochí huánjìng zhěngjié.",
-    "compound_definition": "He threw the trash into the bin to keep the environment clean.",
-    "valid_sentence": "",
+    "compound": "请把剩下的蛋糕扔掉，它太糊糊了，不能吃。",
+    "compound_pinyin": "Qǐng bǎ shèng xià de dàngāo rēng diào, tā tài húhúle, bùnéng chī.",
+    "compound_definition": "Please throw away the rest of the cake, it's too mushy to eat.",
+    "valid_sentence": "TRUE",
     "counter (300)\r": "\r"
   },
   {
@@ -1379,10 +1379,10 @@ var hskLevel5Sentences = [
     "hsk_level": 5,
     "part_of_speech": "verb",
     "compound_cantonese": "",
-    "compound": "执",
-    "compound_pinyin": "Tā zhízhuó yú zìjǐ de xìnniàn， bù yuànyì tuǒxié.",
-    "compound_definition": "He is persistent in his beliefs and unwilling to compromise.",
-    "valid_sentence": "",
+    "compound": "严厉的警察会毫不犹豫地执法。",
+    "compound_pinyin": "Yánlì de jǐngchá huì háo bù yóuyù de zhífǎ.",
+    "compound_definition": "Strict police officers will not hesitate to enforce the law.",
+    "valid_sentence": "TRUE",
     "counter (300)\r": "\r"
   },
   {
@@ -1407,10 +1407,10 @@ var hskLevel5Sentences = [
     "hsk_level": 5,
     "part_of_speech": "verb",
     "compound_cantonese": "",
-    "compound": "扰",
-    "compound_pinyin": "Qǐng bùyào rǎoluàn kètáng zhìxù， ràng dàjiā zhuānxīn tīngjiǎng.",
-    "compound_definition": "Please do not disturb the classroom order， allowing everyone to focus on the lesson.",
-    "valid_sentence": "",
+    "compound": "我们有严格的规定，不打扰蛇。",
+    "compound_pinyin": "Wǒmen yǒu yángé de guīdìng, bù dǎrǎo shé.",
+    "compound_definition": "We have a strict rule not to disturb snakes.",
+    "valid_sentence": "TRUE",
     "counter (300)\r": "\r"
   },
   {
@@ -1477,10 +1477,10 @@ var hskLevel5Sentences = [
     "hsk_level": 5,
     "part_of_speech": "verb",
     "compound_cantonese": "",
-    "compound": "押",
-    "compound_pinyin": "Tā bǎ qián yā zài le yīgè tóuzī xiàngmù shàng， xīwàng néng zhuàn dào gèng duō.",
-    "compound_definition": "He put his money on an investment project， hoping to earn more.",
-    "valid_sentence": "",
+    "compound": "如果你在醉酒状态下开枪，你会被关押起来。",
+    "compound_pinyin": "Rúguǒ nǐ zài zuìjiǔ zhuàngtài xià kāi qiāng, nǐ huì bèi guānyā qǐlái.",
+    "compound_definition": "If you shoot a gun while intoxicated, you will be locked up.",
+    "valid_sentence": "TRUE",
     "counter (300)\r": "\r"
   },
   {
@@ -1491,10 +1491,10 @@ var hskLevel5Sentences = [
     "hsk_level": 5,
     "part_of_speech": "verb",
     "compound_cantonese": "",
-    "compound": "拆",
-    "compound_pinyin": "Gōngrénmen zhèngzài chāichú jiù jiànzhú， wèi xīn xiàngmù téng chū kōngjiān.",
-    "compound_definition": "The workers are dismantling the old building to make space for the new project.",
-    "valid_sentence": "",
+    "compound": "他们警戒我们，我们需要拆掉洒水器，因为里面的水已经腐烂了。",
+    "compound_pinyin": "Tāmen jǐngjiè wǒmen, wǒmen xūyào chāi diào sǎshuǐ qì, yīnwèi lǐmiàn de shuǐ yǐjīng fǔlànle.",
+    "compound_definition": "They warned us that we needed to remove the sprinklers because the water in them had rotted.",
+    "valid_sentence": "TRUE",
     "counter (300)\r": "\r"
   },
   {
@@ -1519,10 +1519,10 @@ var hskLevel5Sentences = [
     "hsk_level": 5,
     "part_of_speech": "verb",
     "compound_cantonese": "",
-    "compound": "拔",
-    "compound_pinyin": "Tā xiǎoxīn yìyì de bá chū cǎoméi， shēngpà nòng huài guǒshí.",
-    "compound_definition": "She carefully picked the strawberries， afraid of damaging the fruit.",
-    "valid_sentence": "",
+    "compound": "那些被选拔考试的难度吓呆的学生最终没有通过。",
+    "compound_pinyin": "Nàxiē bèi xuǎnbá kǎoshì de nándù xià dāi de xuéshēng zuìzhōng méiyǒu tōngguò.",
+    "compound_definition": "Those students who were intimidated by the difficulty of the selection test ultimately failed.",
+    "valid_sentence": "TRUE",
     "counter (300)\r": "\r"
   },
   {
@@ -1533,10 +1533,10 @@ var hskLevel5Sentences = [
     "hsk_level": 5,
     "part_of_speech": "verb",
     "compound_cantonese": "",
-    "compound": "拜",
-    "compound_pinyin": "Tā zài miào lǐ bàifó， qíqiú jiātíng píng'ān.",
-    "compound_definition": "He worshipped at the temple， praying for peace for his family.",
-    "valid_sentence": "",
+    "compound": "拜托启动晒黑机，我想要晒得像脆皮鸡一样黑。",
+    "compound_pinyin": "Bàituō qǐdòng shài hēi jī, wǒ xiǎng yào shài dé xiàng cuì pí jī yīyàng hēi.",
+    "compound_definition": "Please start the tanning machine, I want to be as dark as a crispy chicken.",
+    "valid_sentence": "TRUE",
     "counter (300)\r": "\r"
   },
   {
@@ -1575,10 +1575,10 @@ var hskLevel5Sentences = [
     "hsk_level": 5,
     "part_of_speech": "verb",
     "compound_cantonese": "",
-    "compound": "拾",
-    "compound_pinyin": "Tā zài gōngyuán lǐ shí qǐle yīgè diūshī de yàoshīquān.",
-    "compound_definition": "He picked up a lost keychain in the park.",
-    "valid_sentence": "",
+    "compound": "虽然我需要拾零破碎的镜子碎片，但在黑暗中这样做并不安全。",
+    "compound_pinyin": "Suīrán wǒ xūyào shílíng pòsuì de jìngzǐ suìpiàn, dàn zài hēi'àn zhōng zhèyàng zuò bìng bù ānquán.",
+    "compound_definition": "Although I needed to pick up the broken pieces of the mirror, it was not safe to do so in the dark.",
+    "valid_sentence": "TRUE",
     "counter (300)\r": "\r"
   },
   {
@@ -1673,10 +1673,10 @@ var hskLevel5Sentences = [
     "hsk_level": 5,
     "part_of_speech": "verb",
     "compound_cantonese": "",
-    "compound": "控",
-    "compound_pinyin": "Tā nénggòu hěn hǎo de kòng zhù zìjǐ de qíngxù， bù qīngyì fānù.",
-    "compound_definition": "He can manage his emotions well and doesn’t get angry easily.",
-    "valid_sentence": "",
+    "compound": "我想询问有关控制学生的新改革措施。",
+    "compound_pinyin": "Wǒ xiǎng xúnwèn yǒuguān kòngzhì xuéshēng de xīn gǎigé cuòshī.",
+    "compound_definition": "I would like to inquire about the new reform measures to control students.",
+    "valid_sentence": "TRUE",
     "counter (300)\r": "\r"
   },
   {
@@ -1743,10 +1743,10 @@ var hskLevel5Sentences = [
     "hsk_level": 5,
     "part_of_speech": "verb",
     "compound_cantonese": "",
-    "compound": "摔",
-    "compound_pinyin": "Tā zài bǐsài zhōng bù xiǎoxīn shuāi dǎo， shāngle jiǎohuái.",
-    "compound_definition": "He accidentally fell during the competition and injured his ankle.",
-    "valid_sentence": "",
+    "compound": "因为有盆阻碍了楼梯，所以我摔倒了，现在我必须忍耐很大的痛苦。",
+    "compound_pinyin": "Yīnwèi yǒu pén zǔ'àile lóutī, suǒyǐ wǒ shuāi dǎo le, xiànzài wǒ bìxū rěnnài hěn dà de tòngkǔ.",
+    "compound_definition": "Because the basin was blocking the stairs, I fell down and now I have to endure a lot of pain.",
+    "valid_sentence": "TRUE",
     "counter (300)\r": "\r"
   },
   {
@@ -1785,10 +1785,10 @@ var hskLevel5Sentences = [
     "hsk_level": 5,
     "part_of_speech": "verb",
     "compound_cantonese": "",
-    "compound": "撞",
-    "compound_pinyin": "Chēzi zài guǎijiǎo chù zhuàng shàngle shù， zàochéngle yánzhòng de sǔnhuài.",
-    "compound_definition": "The car hit a tree at the corner， causing serious damage.",
-    "valid_sentence": "",
+    "compound": "大规模交通碰撞发生后，抢救人员堆积了数十具遗体，但许多遗体已经被烧成骨灰。",
+    "compound_pinyin": "Dà guīmó jiāotōng pèngzhuàng fāshēng hòu, qiǎngjiù rényuán duījīle shù shí jù yítǐ, dàn xǔduō yítǐ yǐjīng bèi shāo chéng gǔhuī.",
+    "compound_definition": "Rescuers piled up dozens of bodies after a massive traffic collision, but many had already been burned to ashes.",
+    "valid_sentence": "TRUE",
     "counter (300)\r": "\r"
   },
   {
@@ -1925,10 +1925,10 @@ var hskLevel5Sentences = [
     "hsk_level": 5,
     "part_of_speech": "verb",
     "compound_cantonese": "",
-    "compound": "杀",
-    "compound_pinyin": "Diànyǐng zhōng de qíngjié fēicháng jǐnzhāng， yǒu xǔduō jīngxiǎn de chǎngmiàn.",
-    "compound_definition": "The plot of the movie is very intense， with many thrilling scenes.",
-    "valid_sentence": "",
+    "compound": "当学生们听到老师被杀害的严肃消息时，大多数人都表现得冷漠，因为他们怨恨老师。",
+    "compound_pinyin": "Dàng xuéshēngmen tīng dào lǎoshī bèi shāhài de yánsù xiāo xí shí, dà duōshù rén dōu biǎoxiàn dé lěngmò, yīnwèi tāmen yuànhèn lǎoshī.",
+    "compound_definition": "When the students heard the serious news that their teacher was killed, most of them acted indifferent because they hated their teacher.",
+    "valid_sentence": "TRUE",
     "counter (300)\r": "\r"
   },
   {
@@ -2079,10 +2079,10 @@ var hskLevel5Sentences = [
     "hsk_level": 5,
     "part_of_speech": "verb",
     "compound_cantonese": "",
-    "compound": "欠",
-    "compound_pinyin": "Tā qiànle jǐ bǐ zhàng， zhèng nǔlì xiǎng bànfǎ chánghuán.",
-    "compound_definition": "He owes several debts and is trying hard to find a way to repay them.",
-    "valid_sentence": "",
+    "compound": "我讨厌那个欠我钱的女人，因为她喜欢朝我脸上吐口水。",
+    "compound_pinyin": "Wǒ tǎoyàn nàgè qiàn wǒ qián de nǚrén, yīnwèi tā xǐhuān cháo wǒ liǎn shàng tǔkǒu shuǐ.",
+    "compound_definition": "I hate that woman who owes me money because she likes to spit in my face.",
+    "valid_sentence": "TRUE",
     "counter (300)\r": "\r"
   },
   {
@@ -2205,10 +2205,10 @@ var hskLevel5Sentences = [
     "hsk_level": 5,
     "part_of_speech": "verb",
     "compound_cantonese": "",
-    "compound": "泛",
-    "compound_pinyin": "Chuán zài húmiàn shàng fàn qǐ céngcéng liányī， jǐngsè shífēn mírén.",
-    "compound_definition": "The boat created ripples on the lake， making the scenery enchanting.",
-    "valid_sentence": "",
+    "compound": "山洞事故的消息被广泛传播，许多人表示悲痛。",
+    "compound_pinyin": "Shāndòng shìgù de xiāoxī bèi guǎngfàn chuánbò, xǔduō rén biǎoshì bēitòng.",
+    "compound_definition": "News of the cave accident spread widely, with many people expressing grief.",
+    "valid_sentence": "TRUE",
     "counter (300)\r": "\r"
   },
   {
@@ -2359,10 +2359,10 @@ var hskLevel5Sentences = [
     "hsk_level": 5,
     "part_of_speech": "noun/adjective",
     "compound_cantonese": "",
-    "compound": "灰",
-    "compound_pinyin": "Shāo wán de zhǐ liú xiàle xǔduō huī， zhuōzi shàng mǎn shì hénjī.",
-    "compound_definition": "The burned paper left a lot of ash， marking the table.",
-    "valid_sentence": "",
+    "compound": "我已经熟悉灰色的装饰了，请给我看一下更多颜色的装饰。",
+    "compound_pinyin": "Wǒ yǐjīng shúxī huīsè de zhuāngshìle, qǐng gěi wǒ kàn yīxià gèng duō yánsè de zhuāngshì.",
+    "compound_definition": "I'm already familiar with the grey trim, please show me the trim in more colors.",
+    "valid_sentence": "TRUE",
     "counter (300)\r": "\r"
   },
   {
@@ -2457,10 +2457,10 @@ var hskLevel5Sentences = [
     "hsk_level": 5,
     "part_of_speech": "verb/adjective",
     "compound_cantonese": "",
-    "compound": "犹",
-    "compound_pinyin": "Tā yóuyùle hěn jiǔ， zuìzhōng juédìng jiēshòu zhège gōngzuò jīhuì.",
-    "compound_definition": "He hesitated for a long time before finally deciding to accept the job offer.",
-    "valid_sentence": "",
+    "compound": "因为尊敬前辈，所以当前辈辞去博览会弹钢琴表演工作时，她犹豫着要不要安慰他。",
+    "compound_pinyin": "Yīnwèi zūnjìng qiánbèi, suǒyǐ dāng qiánbèi cíqù bólǎnhuì dàn gāngqín biǎoyǎn gōngzuò shí, tā yóuyùzhe yào bùyào ānwèi tā.",
+    "compound_definition": "Because she respected her senior, she hesitated whether to comfort him when he quit his job as a piano performer at the expo.",
+    "valid_sentence": "TRUE",
     "counter (300)\r": "\r"
   },
   {
@@ -2541,10 +2541,10 @@ var hskLevel5Sentences = [
     "hsk_level": 5,
     "part_of_speech": "noun/adjective",
     "compound_cantonese": "",
-    "compound": "珍",
-    "compound_pinyin": "Tā shōucángle xǔduō zhēnguì de yìshùpǐn， jiàzhí liánchéng.",
-    "compound_definition": "She has collected many precious artworks worth a fortune.",
-    "valid_sentence": "",
+    "compound": "她的微笑对我来说比任何东西都珍贵。",
+    "compound_pinyin": "Tā de wéixiào duì wǒ lái shuō bǐ rènhé dōngxī dū zhēnguì.",
+    "compound_definition": "Her smile is more precious to me than anything else.",
+    "valid_sentence": "TRUE",
     "counter (300)\r": "\r"
   },
   {
@@ -2891,10 +2891,10 @@ var hskLevel5Sentences = [
     "hsk_level": 5,
     "part_of_speech": "verb/adjective",
     "compound_cantonese": "",
-    "compound": "糊",
-    "compound_pinyin": "Tā bǎ hú zhuàng wù tú zài miànbāo shàng， zuò chéngle měiwèi de zǎocān.",
-    "compound_definition": "He spread a paste on the bread to make a delicious breakfast.",
-    "valid_sentence": "",
+    "compound": "她不在乎自己是否能够糊口生计，她只对到处乱搞。",
+    "compound_pinyin": "Tā bùzàihū zìjǐ shìfǒu nénggòu húkǒu shēngjì, tā zhǐ duì dàochù luàn gǎo.",
+    "compound_definition": "She doesn't care about making a living, she just wants to mess around.",
+    "valid_sentence": "TRUE",
     "counter (300)\r": "\r"
   },
   {
@@ -3031,10 +3031,10 @@ var hskLevel5Sentences = [
     "hsk_level": 5,
     "part_of_speech": "verb",
     "compound_cantonese": "",
-    "compound": "罚",
-    "compound_pinyin": "Yóuyú chídào， tā bèi fákuǎn， gǎndào fēicháng àohuǐ.",
-    "compound_definition": "He was fined for being late and felt very regretful.",
-    "valid_sentence": "",
+    "compound": "我们的餐馆因为向顾客提供这匹马肉而被罚款，因此出现亏损。",
+    "compound_pinyin": "Wǒmen de cānguǎn yīnwèi xiàng gùkè tígōng zhè pǐ mǎ ròu ér bèi fákuǎn, yīncǐ chūxiàn kuīsǔn.",
+    "compound_definition": "Our restaurant was fined for serving this horse meat to customers and therefore suffered losses.",
+    "valid_sentence": "TRUE",
     "counter (300)\r": "\r"
   },
   {
@@ -3086,11 +3086,10 @@ var hskLevel5Sentences = [
     "eng": "solemn; to respect",
     "hsk_level": 5,
     "part_of_speech": "verb/adjective",
-    "compound_cantonese": "",
-    "compound": "肃",
-    "compound_pinyin": "Huìyì shàng dàjiā dōu biǎoxiàn dé fēicháng sùmù， rènzhēn tīngqǔ fāyán.",
-    "compound_definition": "Everyone was very solemn in the meeting， listening attentively to the speeches.",
-    "valid_sentence": "",
+    "compound": "我们分析了海岸重建计划的纲要后，意识到其中存在一个严肃的错误。",
+    "compound_pinyin": "Wǒmen fēnxīle hǎi'àn chóngjiàn jìhuà de gāngyào hòu, yìshí dào qízhōng cúnzài yīgè yánsù de cuòwù.",
+    "compound_definition": "When we analysed the outlines of the coastal reconstruction plan, we realised there was a serious flaw.",
+    "valid_sentence": "TRUE",
     "counter (300)\r": "\r"
   },
   {
@@ -3423,10 +3422,10 @@ var hskLevel5Sentences = [
     "hsk_level": 5,
     "part_of_speech": "verb",
     "compound_cantonese": "",
-    "compound": "览",
-    "compound_pinyin": "Tāmen zài shāndǐng shàng lǎnshèng， xīnshǎng dào zhuànglì de fēngjǐng.",
-    "compound_definition": "They enjoyed the view from the mountain top and admired the magnificent scenery.",
-    "valid_sentence": "",
+    "compound": "国际博览会上有一个从树上采摘梨的展位。",
+    "compound_pinyin": "Guójì bólǎnhuì shàng yǒu yīgè cóng shù shàng cǎizhāi lí de zhǎnwèi.",
+    "compound_definition": "There was a booth at the International Fair where pears were picked from the tree.",
+    "valid_sentence": "TRUE",
     "counter (300)\r": "\r"
   },
   {
@@ -3773,10 +3772,10 @@ var hskLevel5Sentences = [
     "hsk_level": 5,
     "part_of_speech": "verb",
     "compound_cantonese": "",
-    "compound": "遵",
-    "compound_pinyin": "Wǒmen yīnggāi zūnxún guīzé， wéihù liánghǎo de zhìxù.",
-    "compound_definition": "We should comply with the rules to maintain good orde",
-    "valid_sentence": "",
+    "compound": "如果你不遵守法律，你最好躲起来，否则他们会打击你、把你关押起来。",
+    "compound_pinyin": "Rúguǒ nǐ bù zūnshǒu fǎlǜ, nǐ zuì hǎo duǒ qǐlái, fǒuzé tāmen huì dǎjí nǐ, bǎ nǐ guānyā qǐlái.",
+    "compound_definition": "If you don't obey the law, you better hide, otherwise they will beat you up and lock you up.",
+    "valid_sentence": "TRUE",
     "counter (300)\r": "\r"
   },
   {
@@ -4039,10 +4038,10 @@ var hskLevel5Sentences = [
     "hsk_level": 5,
     "part_of_speech": "verb/noun",
     "compound_cantonese": "",
-    "compound": "饰",
-    "compound_pinyin": "Tā zài jiālǐ shì yǐ xiānhuā， yíngzào chū wēnxīn de fēnwéi.",
-    "compound_definition": "She decorated her home with fresh flowers to create a cozy atmosphere.",
-    "valid_sentence": "",
+    "compound": "我的朋友都退出了，所以现在我只能凭借自己来装饰教室。",
+    "compound_pinyin": "Wǒ de péngyǒu dōu tuìchūle, suǒyǐ xiànzài wǒ zhǐ néng píngjiè zìjǐ lái zhuāngshì jiàoshì.",
+    "compound_definition": "All my friends have quit, so now I am on my own to decorate the classroom.",
+    "valid_sentence": "TRUE",
     "counter (300)\r": "\r"
   },
   {
@@ -4095,10 +4094,10 @@ var hskLevel5Sentences = [
     "hsk_level": 5,
     "part_of_speech": "verb",
     "compound_cantonese": "",
-    "compound": "骂",
-    "compound_pinyin": "Tā yīnwèi chídào ér bèi lǎobǎn màle yī dùn， gǎndào hěn gāngà.",
-    "compound_definition": "He was scolded by his boss for being late and felt very embarrassed.",
-    "valid_sentence": "",
+    "compound": "我因为没有把烂竹子扔掉，被严厉的老婆责骂了。",
+    "compound_pinyin": "Wǒ yīnwèi méiyǒu bǎ làn zhúzǐ rēng diào, bèi yánlì de lǎopó zémàle.",
+    "compound_definition": "I was scolded by my strict wife for not throwing away the rotten bamboo.",
+    "valid_sentence": "TRUE",
     "counter (300)\r": "\r"
   },
   {

@@ -7623,10 +7623,10 @@ var hskLevel5 = [
         "hsk_level": 5,
         "part_of_speech": "verb",
         "compound_cantonese": "",
-        "compound": "她小心翼翼地拔出草莓，生怕弄坏果实。",
-        "compound_pinyin": "Tā xiǎoxīn yìyì de bá chū cǎoméi， shēngpà nòng huài guǒshí.",
-        "compound_definition": "She carefully picked the strawberries， afraid of damaging the fruit.",
-        "valid_sentence": "",
+        "compound": "那些被选拔考试的难度吓呆的学生最终没有通过。",
+        "compound_pinyin": "Nàxiē bèi xuǎnbá kǎoshì de nándù xià dāi de xuéshēng zuìzhōng méiyǒu tōngguò.",
+        "compound_definition": "Those students who were intimidated by the difficulty of the selection test ultimately failed.",
+        "valid_sentence": "TRUE",
         "counter (1189)\r": "\r"
     },
     {
@@ -9079,10 +9079,10 @@ var hskLevel5 = [
         "hsk_level": 5,
         "part_of_speech": "verb",
         "compound_cantonese": "",
-        "compound": "电影中的情节非常紧张，有许多惊险的场面。",
-        "compound_pinyin": "Diànyǐng zhōng de qíngjié fēicháng jǐnzhāng， yǒu xǔduō jīngxiǎn de chǎngmiàn.",
-        "compound_definition": "The plot of the movie is very intense， with many thrilling scenes.",
-        "valid_sentence": "",
+        "compound": "当学生们听到老师被杀害的严肃消息时，大多数人都表现得冷漠，因为他们怨恨老师。",
+        "compound_pinyin": "Dàng xuéshēngmen tīng dào lǎoshī bèi shāhài de yánsù xiāo xí shí, dà duōshù rén dōu biǎoxiàn dé lěngmò, yīnwèi tāmen yuànhèn lǎoshī.",
+        "compound_definition": "When the students heard the serious news that their teacher was killed, most of them acted indifferent because they hated their teacher.",
+        "valid_sentence": "TRUE",
         "counter (1189)\r": "\r"
     },
     {
@@ -10181,7 +10181,7 @@ var hskLevel5 = [
         "id": 4400,
         "character": "润",
         "character_pinyin": "rùn",
-        "eng": "to moisten; to润滑",
+        "eng": "to moisten",
         "hsk_level": 5,
         "part_of_speech": "verb/adjective",
         "compound_cantonese": "",
@@ -11977,10 +11977,10 @@ var hskLevel5 = [
         "hsk_level": 5,
         "part_of_speech": "Verb",
         "compound_cantonese": "",
-        "compound": "他称我为他的好朋友，这让我感到很温暖。",
-        "compound_pinyin": "Tā chēng wǒ wèi tā de hǎo péngyǒu, zhè ràng wǒ gǎndào hěn wēnnuǎn.",
-        "compound_definition": "He calls me his good friend, which makes me feel very warm.",
-        "valid_sentence": "",
+        "compound": "你必须称呼我为前辈以示尊重，否则我会让你后悔的。",
+        "compound_pinyin": "Nǐ bìxū chēnghu wǒ wèi qiánbèi yǐ shì zūnzhòng, fǒuzé wǒ huì ràng nǐ hòuhuǐ de.",
+        "compound_definition": "You must call me senior to show respect, otherwise I will make you regret it.",
+        "valid_sentence": "TRUE",
         "counter (1189)\r": "\r"
     },
     {
